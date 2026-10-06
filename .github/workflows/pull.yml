@@ -1,0 +1,37 @@
+name: retailer-pull
+on:
+  workflow_dispatch:
+    inputs:
+      block:
+        description: "Block file to walk"
+        required: true
+        default: "blocks/wholefoods-salsa.json"
+  # schedule:            # enable after the proof passes
+  #   - cron: "0 14 * * *"
+permissions:
+  contents: write
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      BRD_BROWSER_USER: brd-customer-hl_517ded2d-zone-mcp_browser
+      BRD_BROWSER_PASSWORD: ${{ secrets.BRD_BROWSER_PASSWORD }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm install --no-audit --no-fund
+      - name: Walk block
+        run: node src/pull.mjs "${{ github.event.inputs.block || 'blocks/wholefoods-salsa.json' }}"
+      - name: Upload artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: pull-output, path: data/, if-no-files-found: ignore }
+      - name: Commit results
+        if: always()
+        run: |
+          git config user.name "shelf-architect-runner"
+          git config user.email "runner@users.noreply.github.com"
+          git add data/ && git commit -m "pull: $(date -u +%Y-%m-%dT%H:%MZ) ${{ github.event.inputs.block }}" || echo "nothing to commit"
+          git push

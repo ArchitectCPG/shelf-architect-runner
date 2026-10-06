@@ -1,0 +1,8 @@
+{
+  "name": "shelf-architect-runner",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "scripts": { "pull": "node src/pull.mjs" },
+  "dependencies": { "playwright-core": "^1.47.0" }
+}
