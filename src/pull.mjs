@@ -63,11 +63,13 @@ async function extractProducts(page) {
   });
 }
 
-const browser = await chromium.connectOverCDP(wsEndpoint, { timeout: 120000 });
-log("connected to Bright Data Scraping Browser");
-const page = await browser.newPage();
-page.setDefaultTimeout(60000);
+log(`auth user=${user} password_len=${pass.length} endpoint=brd.superproxy.io:9222`);
+let browser = null, page = null;
 try {
+  browser = await chromium.connectOverCDP(wsEndpoint, { timeout: 120000 });
+  log("connected to Bright Data Scraping Browser");
+  page = await browser.newPage();
+  page.setDefaultTimeout(60000);
   await page.goto(block.home_url, { waitUntil: "domcontentloaded", timeout: 120000 });
   log(`loaded ${block.home_url}`);
   // Let Bright Data auto-solve any challenge.
@@ -110,10 +112,10 @@ try {
   log(`extracted ${out.houses.length} houses; raw text ${text.length} chars`);
 } catch (e) {
   out.error = String(e).slice(0, 500); log(`ERROR ${out.error}`);
-  try { await page.screenshot({ path: path.join(outDir, `${day}-error.png`) }); } catch {}
+  try { if (page) await page.screenshot({ path: path.join(outDir, `${day}-error.png`) }); } catch {}
 } finally {
   fs.writeFileSync(path.join(outDir, `${day}.json`), JSON.stringify(out, null, 2));
-  await browser.close();
+  try { if (browser) await browser.close(); } catch {}
 }
 console.log(`\nRESULT block=${out.block_id} store=${out.store_set} houses=${out.houses.length} error=${out.error}`);
 if (out.error) process.exit(1);
