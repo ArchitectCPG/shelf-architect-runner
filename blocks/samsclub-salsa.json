@@ -1,0 +1,49 @@
+{
+  "block_id": "condiments/salsa@samsclub",
+  "retailer": "samsclub",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "store_zip": "60615",
+  "steps": [
+    {
+      "goto": "https://www.samsclub.com/s/salsa"
+    },
+    {
+      "wait": 6000
+    },
+    {
+      "dismiss": [
+        "Close",
+        "No thanks",
+        "Not now",
+        "Continue"
+      ]
+    },
+    {
+      "press": "Escape"
+    },
+    {
+      "scroll": 2
+    },
+    {
+      "wait": 2000
+    },
+    {
+      "scroll": 2
+    },
+    {
+      "wait": 2000
+    },
+    {
+      "scroll": 2
+    },
+    {
+      "wait": 2000
+    }
+  ],
+  "store_patterns": [
+    "Delivering to\\s*(\\d{5})",
+    "Pickup at\\s*([^\\n|]{3,60})",
+    "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"
+  ]
+}
