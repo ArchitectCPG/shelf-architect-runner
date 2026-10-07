@@ -46,3 +46,10 @@ Club/value: Costco (KYC first), Grocery Outlet, Lidl, WinCo, Smart & Final, Save
 
 ## HANDOFF (2026-10-07 2 PM CT)
 State: repo ArchitectCPG/shelf-architect-runner main is clean and pushed, 37 salsa blocks, workflow works end to end (validate, clear stale data, 3 parallel, single collector commit). Latest data committed under data/. No Shelf Architect DB writes happened, so no backup zip is due. Start with section 1 (geo suffix test) and the two family fixes (Albertsons, Kroger). Sonnet can run sweeps and score; Fable for store pinning design and the hybrid decision.
+
+## STEVE'S LOOSE ENDS (Steve needs hand-holding on these; walk him through one at a time, plain steps, exactly what to click and paste, no jargon)
+1. Rotate the Bright Data API token that appeared in chat (Bright Data dashboard, account settings, API tokens: create new, delete old). Check nothing in the repo or connector uses the old one.
+2. Delete the redundant Bright Data zone scraping_browser1 (keep mcp_unlocker and mcp_browser).
+3. Costco: complete Bright Data identity verification (KYC) so Costco can be scraped. Steve does the ID step himself; Claude only guides and never enters IDs or documents.
+4. Send the Ed Lavery email (store-location data ask plus how Steve will use the Placer file). Draft was composed earlier, not sent. Re-draft in Steve's voice (steve-voice skill, no em dashes), show it, and send only after his yes.
+5. Clean-up check: Bright Data balance (about $54), $5 consumed alert on, auto-recharge off. Confirm nothing is spending unattended.
