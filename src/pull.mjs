@@ -85,10 +85,12 @@ async function extractProducts(page, cardSelector) {
       const txt = (card.innerText || "").trim(); if (!txt || seen.has(txt) || !priceRe.test(txt)) continue; seen.add(txt);
       const lines = txt.split("\n").map(s => s.trim()).filter(Boolean);
       const price = (txt.match(priceRe) || [""])[0].replace(/\s/g, "");
-      const junk = /^(add|add to cart|sale|save|sponsored|\d+% off|.*de descuento|ship|pickup|delivery|in stock|low stock|snap|ebt|sign in|view offer|options)/i;
-      const name = lines.find(l => l.length > 8 && !priceRe.test(l) && !junk.test(l) && !/^\d+(\.\d+)?\s?(oz|fl oz|lb|ct|g|ml)/i.test(l)) || lines[0];
-      const size = (txt.match(/\b\d+(\.\d+)?\s?(fl oz|oz|lb|lbs|ct|g|ml|l)\b/i) || [""])[0];
-      const brand = (card.querySelector("[class*=brand i], [data-testid*=brand i]")?.textContent || "").trim() || null;
+      const junk = /^(add|add to cart|sale|save|sponsored|\d+% off|.*de descuento|ship|pickup|delivery|in stock|low stock|snap|ebt|sign in|view offer|options|join prime|current price|original price|best seller|rated |\d+(\.\d+)? out of 5|\d+ reviews?|each|\$?\d+(\.\d+)?\s?(¢|\/|per)\s?\w+)/i;
+      const cands = lines.filter(l => l.length > 3 && !priceRe.test(l) && !junk.test(l) && !/^\d+(\.\d+)?\s?(oz|fl oz|lb|ct|g|ml)\b/i.test(l));
+      if (!cands.length) continue;                       // Prime sub-cards and price-only fragments
+      const name = cands.reduce((a, b) => (b.length > a.length ? b : a), "");
+      const brand = (cands[0] !== name && cands[0].length < 40) ? cands[0] : ((card.querySelector("[class*=brand i], [data-testid*=brand i]")?.textContent || "").trim() || null);
+      const size = (txt.match(/\b\d+(\.\d+)?\s?(fl oz|fl\. oz|oz|ounce|lb|lbs|ct|count|g|ml|l)\b/i) || [""])[0];
       items.push({ name, brand, price, size, img: card.querySelector("img")?.src || null, link: card.querySelector("a[href]")?.href || null, card_text: lines.slice(0, 8) });
     }
     return items;
