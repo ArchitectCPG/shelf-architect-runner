@@ -46,7 +46,7 @@ async function runStep(page, step) {
   const v = step[kind]; const to = step.timeout ?? 8000;
   try {
     switch (kind) {
-      case "goto": await page.goto(sub(v), { waitUntil: "domcontentloaded", timeout: 120000 }); log(`goto ${sub(v)}`); break;
+      case "goto": { for (let a = 1; a <= 4; a++) { try { await page.goto(sub(v), { waitUntil: "domcontentloaded", timeout: 120000 }); break; } catch (e) { if (a === 4 || !/rate limit|bucket_rate/i.test(String(e))) throw e; log(`rate limited, retry ${a}`); await page.waitForTimeout(8000 * a); } } log(`goto ${sub(v)}`); break; }
       case "wait": await page.waitForTimeout(v); break;
       case "dismiss": { // click any of these if visible; never fails
         const l = await firstVisible([].concat(...v.map(t => byText(page, t, false))), Math.min(to, 5000));
