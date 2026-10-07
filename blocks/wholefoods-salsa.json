@@ -11,15 +11,16 @@
     { "click": "Update Location", "optional": true },
     { "wait": 2000 },
     { "fill": { "placeholder": "zip|postal|code", "value": "{{store_zip}}" }, "optional": true },
+    { "wait": 4000 },
+    { "click_any": ["Apply", "Done", "Update location", "Confirm"], "optional": true, "timeout": 4000 },
     { "wait": 3000 },
-    { "click_any": ["Apply", "Update", "Confirm", "Select", "Done"], "optional": true, "timeout": 5000 },
-    { "wait": 3000 },
+    { "press": "Escape" },
     { "dismiss": ["Close", "No thanks", "Not now"] },
     { "search": { "placeholder": "Search Grocery" } },
-    { "wait": 6000 },
-    { "dismiss": ["Close"] },
+    { "wait": 7000 },
+    { "press": "Escape" },
     { "scroll": 4 }
   ],
   "store_patterns": ["Delivering to\\s*(\\d{5})", "Pickup at\\s*([^\\n|]{3,60})"],
-  "notes": "WFM is an Amazon storefront. Location is set via header 'Update Location'. A Prime modal pops on load."
+  "notes": "WFM is an Amazon storefront. Location via header 'Update Location'. Prime modal and promo panels overlay the page; Escape clears them."
 }

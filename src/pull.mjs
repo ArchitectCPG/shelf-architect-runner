@@ -35,7 +35,11 @@ async function firstVisible(locs, timeout) {
   }
   return null;
 }
-const byText = (page, t) => [page.getByRole("button", { name: rx(t) }), page.getByRole("link", { name: rx(t) }), page.getByText(rx(t))];
+const rxExact = (t) => new RegExp("^\\s*" + t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\s*$", "i");
+// exact: whole-label match on buttons/links first (prevents "Select" matching a "25% off Select ..." promo), then exact text.
+const byText = (page, t, exact = true) => exact
+  ? [page.getByRole("button", { name: rxExact(t) }), page.getByRole("link", { name: rxExact(t) }), page.getByText(rxExact(t))]
+  : [page.getByRole("button", { name: rx(t) }), page.getByRole("link", { name: rx(t) }), page.getByText(rx(t))];
 
 async function runStep(page, step) {
   const kind = Object.keys(step).find(k => !["note", "optional", "timeout"].includes(k));
@@ -45,7 +49,7 @@ async function runStep(page, step) {
       case "goto": await page.goto(sub(v), { waitUntil: "domcontentloaded", timeout: 120000 }); log(`goto ${sub(v)}`); break;
       case "wait": await page.waitForTimeout(v); break;
       case "dismiss": { // click any of these if visible; never fails
-        const l = await firstVisible([].concat(...v.map(t => byText(page, t))), Math.min(to, 5000));
+        const l = await firstVisible([].concat(...v.map(t => byText(page, t, false))), Math.min(to, 5000));
         if (l) { await l.click({ timeout: 3000 }).catch(() => {}); log(`dismissed "${(await l.textContent().catch(() => v[0]))?.trim().slice(0, 30)}"`); } else log("dismiss: nothing to close"); break; }
       case "click": { const l = await firstVisible(byText(page, sub(v)), to); if (!l) throw new Error(`click: "${v}" not found`); await l.click(); log(`click "${v}"`); break; }
       case "click_any": { const l = await firstVisible([].concat(...v.map(t => byText(page, sub(t)))), to); if (!l) throw new Error(`click_any: none of ${JSON.stringify(v)}`); await l.click(); log(`click_any -> "${(await l.textContent().catch(() => ""))?.trim().slice(0, 40)}"`); break; }
@@ -55,7 +59,7 @@ async function runStep(page, step) {
         await l.fill(sub(v.value)); log(`fill "${sub(v.value)}"`); if (v.enter !== false) { await l.press("Enter"); log("press Enter"); } break; }
       case "search": { const cands = [page.getByRole("searchbox")]; if (v.placeholder) cands.unshift(page.getByPlaceholder(rx(v.placeholder)));
         cands.push(page.getByRole("textbox", { name: /search/i }), page.locator("input[type=search]"), page.locator("input[name*=search i], input[id*=search i]"));
-        const l = await firstVisible(cands, to); if (!l) throw new Error("search: no search box"); await l.click(); await l.fill(sub(v.term || "{{term}}")); await l.press("Enter"); log(`search "${sub(v.term || "{{term}}")}"`); break; }
+        const l = await firstVisible(cands, to); if (!l) throw new Error("search: no search box"); await page.keyboard.press("Escape").catch(() => {}); await l.fill(sub(v.term || "{{term}}"), { force: true }); await l.press("Enter"); log(`search "${sub(v.term || "{{term}}")}"`); break; }
       case "scroll": for (let i = 0; i < (v || 3); i++) { await page.mouse.wheel(0, 2500); await page.waitForTimeout(1000); } log(`scrolled x${v || 3}`); break;
       case "press": await page.keyboard.press(v); log(`press ${v}`); break;
       default: log(`unknown step ${kind}`);
