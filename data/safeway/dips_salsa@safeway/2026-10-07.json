@@ -3,112 +3,72 @@
   "retailer": "safeway",
   "zip": "dips",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-07T16:44:15.440Z",
+  "pulled_at": "2026-10-07T17:55:25.858Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
-  "store_set": null,
+  "store_set": "44035",
   "url_final": "https://www.instacart.com/store/safeway/collections/3092-olives-dips-spreads/subjects/8198",
   "houses": [
     {
-      "name": "Buy 2, get $1 off",
-      "brand": "$399",
-      "price": "$3.99",
-      "size": "",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $3.99",
-        "$399",
-        "Buy 2, get $1 off"
-      ]
-    },
-    {
-      "name": "$599",
-      "brand": null,
-      "price": "$5.99",
-      "size": "",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $6.99",
-        "$6.99"
-      ]
-    },
-    {
-      "name": "Casa Sanchez Salsa Roja, Medium",
-      "brand": "$899",
-      "price": "$8.99",
-      "size": "15 oz",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $8.99",
-        "$899",
-        "Casa Sanchez Salsa Roja, Medium",
-        "15 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "$799",
+      "name": "La Mexicana Medium Salsa",
       "brand": null,
       "price": "$7.99",
-      "size": "",
+      "size": "16 oz",
       "img": null,
       "link": null,
       "card_text": [
         "Current price: $7.99",
         "$799",
-        "Original Price: $8.99",
-        "$8.99"
+        "La Mexicana Medium Salsa",
+        "16 oz"
       ]
     },
     {
-      "name": "Buy 2, get $1 off",
-      "brand": "$599",
-      "price": "$5.99",
-      "size": "",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Buy 2, get $1 off"
-      ]
-    },
-    {
-      "name": "$599",
+      "name": "La Mexicana Mild Salsa",
       "brand": null,
-      "price": "$5.99",
-      "size": "",
+      "price": "$7.99",
+      "size": "16 oz",
       "img": null,
       "link": null,
       "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $7.99",
-        "$7.99"
+        "Current price: $7.99",
+        "$799",
+        "La Mexicana Mild Salsa",
+        "16 oz"
       ]
     },
     {
-      "name": "Buy 2, get $1 off",
-      "brand": "$499",
-      "price": "$4.99",
-      "size": "",
+      "name": "La Mexicana Mango Peach Salsa",
+      "brand": null,
+      "price": "$7.99",
+      "size": "16 oz",
       "img": null,
       "link": null,
       "card_text": [
-        "Current price: $4.99",
-        "$499",
-        "Buy 2, get $1 off"
+        "Current price: $7.99",
+        "$799",
+        "La Mexicana Mango Peach Salsa",
+        "16 oz"
+      ]
+    },
+    {
+      "name": "La Mexicana Fire Roasted Salsa, Medium, Bold Chipotle Garlic",
+      "brand": null,
+      "price": "$7.99",
+      "size": "14 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $7.99",
+        "$799",
+        "La Mexicana Fire Roasted Salsa, Medium, Bold Chipotle Garlic",
+        "14 oz"
       ]
     },
     {
       "name": "Signature Cafe Fresca Mild Salsa",
-      "brand": "$599",
+      "brand": null,
       "price": "$5.99",
       "size": "16 oz",
       "img": null,
@@ -121,36 +81,22 @@
       ]
     },
     {
-      "name": "Casa Sanchez Salsa Roja, Mild",
-      "brand": "$899",
-      "price": "$8.99",
-      "size": "15 oz",
+      "name": "Signature SELECT Six Layer Dip",
+      "brand": null,
+      "price": "$11.99",
+      "size": "28 oz",
       "img": null,
       "link": null,
       "card_text": [
-        "Current price: $8.99",
-        "$899",
-        "Casa Sanchez Salsa Roja, Mild",
-        "15 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Buy 2, get $1 off",
-      "brand": "$699",
-      "price": "$6.99",
-      "size": "",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $6.99",
-        "$699",
-        "Buy 2, get $1 off"
+        "Current price: $11.99",
+        "$1199",
+        "Signature SELECT Six Layer Dip",
+        "28 oz"
       ]
     },
     {
       "name": "Casa Sanchez Taqueria Style Avocado Salsa",
-      "brand": "$899",
+      "brand": null,
       "price": "$8.99",
       "size": "15 oz",
       "img": null,
@@ -164,22 +110,23 @@
       ]
     },
     {
-      "name": "Signature SELECT Six Layer Dip",
-      "brand": "$1199",
-      "price": "$11.99",
-      "size": "28 oz",
+      "name": "Casa Sanchez Salsa Roja, Medium",
+      "brand": null,
+      "price": "$8.99",
+      "size": "15 oz",
       "img": null,
       "link": null,
       "card_text": [
-        "Current price: $11.99",
-        "$1199",
-        "Signature SELECT Six Layer Dip",
-        "28 oz"
+        "Current price: $8.99",
+        "$899",
+        "Casa Sanchez Salsa Roja, Medium",
+        "15 oz",
+        "Many in stock"
       ]
     },
     {
       "name": "Casa Sanchez Cremosa Salsa",
-      "brand": "$899",
+      "brand": null,
       "price": "$8.99",
       "size": "15 oz",
       "img": null,
@@ -193,7 +140,7 @@
     },
     {
       "name": "Casa Sanchez Salsa, Chunky, Pico De Gallo",
-      "brand": "$899",
+      "brand": null,
       "price": "$8.99",
       "size": "15 oz",
       "img": null,
@@ -207,23 +154,8 @@
       ]
     },
     {
-      "name": "La Mexicana Medium Salsa",
-      "brand": "$799",
-      "price": "$7.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $7.99",
-        "$799",
-        "La Mexicana Medium Salsa",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Casa Sanchez Salsa, Tomato & Roasted Pepper, Medium",
-      "brand": "$899",
+      "name": "Casa Sanchez Salsa Roja, Mild",
+      "brand": null,
       "price": "$8.99",
       "size": "15 oz",
       "img": null,
@@ -231,44 +163,14 @@
       "card_text": [
         "Current price: $8.99",
         "$899",
-        "Casa Sanchez Salsa, Tomato & Roasted Pepper, Medium",
+        "Casa Sanchez Salsa Roja, Mild",
         "15 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Bobby Salazar’s Salsa, Medium",
-      "brand": "$799",
-      "price": "$7.99",
-      "size": "15 oz",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $7.99",
-        "$799",
-        "Bobby Salazar’s Salsa, Medium",
-        "15 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "La Mexicana Mild Salsa",
-      "brand": "$799",
-      "price": "$7.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $7.99",
-        "$799",
-        "La Mexicana Mild Salsa",
-        "16 oz",
         "Many in stock"
       ]
     },
     {
       "name": "Casa Sanchez Salsa Roja, Hot",
-      "brand": "$899",
+      "brand": null,
       "price": "$8.99",
       "size": "15 oz",
       "img": null,
@@ -282,8 +184,23 @@
       ]
     },
     {
+      "name": "Bobby Salazar’s Salsa, Medium",
+      "brand": null,
+      "price": "$7.99",
+      "size": "15 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $7.99",
+        "$799",
+        "Bobby Salazar’s Salsa, Medium",
+        "15 oz",
+        "Many in stock"
+      ]
+    },
+    {
       "name": "Casa Sanchez Salsa Verde, Medium Green, Roasted",
-      "brand": "$899",
+      "brand": null,
       "price": "$8.99",
       "size": "15 oz",
       "img": null,
@@ -297,23 +214,8 @@
       ]
     },
     {
-      "name": "La Mexicana Mango Peach Salsa",
-      "brand": "$799",
-      "price": "$7.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $7.99",
-        "$799",
-        "La Mexicana Mango Peach Salsa",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
       "name": "Oaxaca Mama Salsa Medium Salsa",
-      "brand": "$799",
+      "brand": null,
       "price": "$7.99",
       "size": "12 oz",
       "img": null,
@@ -327,8 +229,23 @@
       ]
     },
     {
+      "name": "Casa Sanchez Salsa, Tomato & Roasted Pepper, Medium",
+      "brand": null,
+      "price": "$8.99",
+      "size": "15 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $8.99",
+        "$899",
+        "Casa Sanchez Salsa, Tomato & Roasted Pepper, Medium",
+        "15 oz",
+        "Many in stock"
+      ]
+    },
+    {
       "name": "Bobby Salazar's Salsa",
-      "brand": "$799",
+      "brand": null,
       "price": "$7.99",
       "size": "15 oz",
       "img": null,
@@ -342,7 +259,7 @@
     },
     {
       "name": "Bobby Salazar’s Salsa Verde, Hot",
-      "brand": "$799",
+      "brand": null,
       "price": "$7.99",
       "size": "15 oz",
       "img": null,
@@ -355,23 +272,8 @@
       ]
     },
     {
-      "name": "La Mexicana Fire Roasted Salsa, Medium, Bold Chipotle Garlic",
-      "brand": "$799",
-      "price": "$7.99",
-      "size": "14 oz",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $7.99",
-        "$799",
-        "La Mexicana Fire Roasted Salsa, Medium, Bold Chipotle Garlic",
-        "14 oz",
-        "Many in stock"
-      ]
-    },
-    {
       "name": "Salsa Buena Fresh Traditional Hot Salsa",
-      "brand": "$899",
+      "brand": null,
       "price": "$8.99",
       "size": "12 oz",
       "img": null,
@@ -385,7 +287,7 @@
     },
     {
       "name": "Mrs. A's Famous Salsa Buena Fresh Traditional Medium Salsa",
-      "brand": "$899",
+      "brand": null,
       "price": "$8.99",
       "size": "",
       "img": null,
@@ -398,22 +300,8 @@
       ]
     },
     {
-      "name": "Signature Cafe Traditional Hot Salsa Fresca",
-      "brand": "$599",
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Signature Cafe Traditional Hot Salsa Fresca",
-        "16 oz"
-      ]
-    },
-    {
       "name": "Casa Sanchez Salsa Diabla",
-      "brand": "$899",
+      "brand": null,
       "price": "$8.99",
       "size": "12 oz",
       "img": null,
@@ -427,17 +315,17 @@
       ]
     }
   ],
-  "raw_text_chars": 4125,
+  "raw_text_chars": 3921,
   "steps": [
-    "16:44:15 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "16:44:16 connected to Bright Data Scraping Browser",
-    "16:44:37 goto https://www.instacart.com/store/safeway/collections/3092-olives-dips-spreads/subjects/8198",
-    "16:44:45 captcha check passed",
-    "16:45:00 dismissed \"Continue\"",
-    "16:45:01 press Escape",
-    "16:45:06 scrolled x4",
-    "16:45:07 store_set: null",
-    "16:45:11 extracted 29 houses; raw text 4125 chars"
+    "17:55:25 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:55:26 connected to Bright Data Scraping Browser",
+    "17:55:35 goto https://www.instacart.com/store/safeway/collections/3092-olives-dips-spreads/subjects/8198",
+    "17:55:43 captcha check passed",
+    "17:55:51 dismissed \"Continue\"",
+    "17:55:51 press Escape",
+    "17:55:55 scrolled x4",
+    "17:55:55 store_set: 44035",
+    "17:55:56 extracted 21 houses; raw text 3921 chars"
   ],
   "error": null
 }

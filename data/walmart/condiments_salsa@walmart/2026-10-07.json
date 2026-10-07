@@ -3,18 +3,725 @@
   "retailer": "walmart",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-07T17:03:08.123Z",
+  "pulled_at": "2026-10-07T17:56:53.895Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
   "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "17:03:08 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "17:03:09 connected to Bright Data Scraping Browser",
-    "17:03:11 ERROR Error: page.goto: Protocol error (Page.navigate): A global adaptive rate limit has been applied. Please retry in a few seconds. (bucket_rate_limit)\nCall log:\n  - navigating to \"https://www.walmart.com/search?q=salsa\", waiting until \"domcontentloaded\"\n"
+  "url_final": "https://www.walmart.com/search?q=salsa",
+  "houses": [
+    {
+      "name": "Spanish / Español now available!",
+      "brand": "Reorder",
+      "price": "$0.00",
+      "size": "",
+      "img": "https://i5.walmartimages.com/dfw/63fd9f59-30b3/629cc93a-dae2-4b74-afd7-faecce345c85/v1/wplus-indigo-rebrand-bug.svg",
+      "link": "https://www.walmart.com/my-items",
+      "card_text": [
+        "Reorder",
+        "My Items",
+        "Sign In",
+        "Account",
+        "Spanish / Español now available!",
+        "Spanish / Español",
+        "now available!",
+        "0"
+      ]
+    },
+    {
+      "name": "Now$397",
+      "brand": null,
+      "price": "$3.97",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Now$397",
+        "current price Now $3.97, Was $4.48",
+        "$4.48"
+      ]
+    },
+    {
+      "name": "12.3 ¢/oz",
+      "brand": null,
+      "price": "$1.97",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "1",
+        "97",
+        "12.3 ¢/oz",
+        "Options from $1.97 – $7.88"
+      ]
+    },
+    {
+      "name": "(3 pack) CHI-CHI'S Restaurant Style Salsa, Gluten Free, Chip Dip, Mild, 16 oz Glass Jar​",
+      "brand": "14.8 ¢/oz",
+      "price": "$5.37",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-icon-blue.svg",
+      "link": null,
+      "card_text": [
+        "$",
+        "7",
+        "11",
+        "14.8 ¢/oz",
+        "Options from $5.37",
+        "(3 pack) CHI-CHI'S Restaurant Style Salsa, Gluten Free, Chip Dip, Mild, 16 oz Glass Jar​",
+        "4.6 out of 5 stars",
+        "1284"
+      ]
+    },
+    {
+      "name": "(4 pack) Newman's Own Chunky Medium Pineapple Salsa, 16 oz",
+      "brand": "20.5 ¢/oz",
+      "price": "$11.39",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-icon-blue.svg",
+      "link": null,
+      "card_text": [
+        "$",
+        "13",
+        "12",
+        "20.5 ¢/oz",
+        "Options from $11.39",
+        "(4 pack) Newman's Own Chunky Medium Pineapple Salsa, 16 oz",
+        "4.7 out of 5 stars",
+        "677"
+      ]
+    },
+    {
+      "name": "(4 pack) Red Gold Medium Salsa, 15.5 oz Jar",
+      "brand": "11.9 ¢/oz",
+      "price": "$6.85",
+      "size": "15.5 oz",
+      "img": "https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-icon-blue.svg",
+      "link": null,
+      "card_text": [
+        "$",
+        "7",
+        "36",
+        "11.9 ¢/oz",
+        "Options from $6.85",
+        "(4 pack) Red Gold Medium Salsa, 15.5 oz Jar",
+        "4.7 out of 5 stars",
+        "237"
+      ]
+    },
+    {
+      "name": "20.7 ¢/oz",
+      "brand": null,
+      "price": "$4.97",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "4",
+        "97",
+        "20.7 ¢/oz",
+        "Options from $4.97 – $14.91"
+      ]
+    },
+    {
+      "name": "(2 pack) Newman's Own Chunky Medium Mango Salsa, 16 oz",
+      "brand": "20.5 ¢/oz",
+      "price": "$4.49",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-icon-blue.svg",
+      "link": null,
+      "card_text": [
+        "$",
+        "6",
+        "56",
+        "20.5 ¢/oz",
+        "Options from $4.49",
+        "(2 pack) Newman's Own Chunky Medium Mango Salsa, 16 oz",
+        "4.6 out of 5 stars",
+        "613"
+      ]
+    },
+    {
+      "name": "(3 pack) Clint's Texas Mild Salsa, 16 oz",
+      "brand": "24.8 ¢/oz",
+      "price": "$7.99",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-icon-blue.svg",
+      "link": null,
+      "card_text": [
+        "$",
+        "11",
+        "91",
+        "24.8 ¢/oz",
+        "Options from $7.99",
+        "(3 pack) Clint's Texas Mild Salsa, 16 oz",
+        "4.6 out of 5 stars",
+        "254"
+      ]
+    },
+    {
+      "name": "24.8 ¢/oz",
+      "brand": null,
+      "price": "$8.88",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Now",
+        "$",
+        "7",
+        "94",
+        "$8.88",
+        "24.8 ¢/oz",
+        "Options from $7.94 – $11.91"
+      ]
+    },
+    {
+      "name": "24.9 ¢/oz",
+      "brand": null,
+      "price": "$11.97",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "11",
+        "97",
+        "24.9 ¢/oz",
+        "Options from $11.97 – $13.99"
+      ]
+    },
+    {
+      "name": "18.6 ¢/oz",
+      "brand": null,
+      "price": "$2.97",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "2",
+        "97",
+        "18.6 ¢/oz",
+        "Options from $2.97 – $8.91"
+      ]
+    },
+    {
+      "name": "62.4 ¢/oz",
+      "brand": null,
+      "price": "$9.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "9",
+        "99",
+        "62.4 ¢/oz",
+        "Options from $9.99 – $13.56"
+      ]
+    },
+    {
+      "name": "8.5 ¢/oz",
+      "brand": null,
+      "price": "$5.98",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "5",
+        "98",
+        "8.5 ¢/oz",
+        "Options from $5.98 – $17.94"
+      ]
+    },
+    {
+      "name": "28.3 ¢/oz",
+      "brand": null,
+      "price": "$13.56",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "13",
+        "56",
+        "28.3 ¢/oz",
+        "Options from $13.56 – $19.02"
+      ]
+    },
+    {
+      "name": "26.8 ¢/oz",
+      "brand": null,
+      "price": "$4.28",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "4",
+        "28",
+        "26.8 ¢/oz",
+        "Options from $4.28 – $12.84"
+      ]
+    },
+    {
+      "name": "18.8 ¢/oz",
+      "brand": null,
+      "price": "$2.92",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "2",
+        "92",
+        "18.8 ¢/oz",
+        "Options from $2.92 – $8.76"
+      ]
+    },
+    {
+      "name": "25.0 ¢/oz",
+      "brand": null,
+      "price": "$5.74",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "5",
+        "74",
+        "25.0 ¢/oz",
+        "Options from $5.74 – $17.22"
+      ]
+    },
+    {
+      "name": "33.1 ¢/oz",
+      "brand": null,
+      "price": "$4.97",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "4",
+        "97",
+        "33.1 ¢/oz",
+        "Options from $4.97 – $14.91"
+      ]
+    },
+    {
+      "name": "(3 pack) Siete Family Foods Gluten Free Green Enchilada Sauce, 15 oz",
+      "brand": "33.1 ¢/oz",
+      "price": "$9.99",
+      "size": "15 oz",
+      "img": "https://i5.walmartimages.com/dfw/63fd9f59-ac39/29c6759d-7f14-49fa-bd3a-b870eb4fb8fb/v1/wplus-icon-blue.svg",
+      "link": null,
+      "card_text": [
+        "$",
+        "14",
+        "91",
+        "33.1 ¢/oz",
+        "Options from $9.99",
+        "(3 pack) Siete Family Foods Gluten Free Green Enchilada Sauce, 15 oz",
+        "4.4 out of 5 stars",
+        "205"
+      ]
+    },
+    {
+      "name": "10.6 ¢/oz",
+      "brand": null,
+      "price": "$2.97",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "2",
+        "97",
+        "10.6 ¢/oz",
+        "Options from $2.97 – $33.86"
+      ]
+    },
+    {
+      "name": "49.5 ¢/oz",
+      "brand": null,
+      "price": "$3.96",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$",
+        "3",
+        "96",
+        "49.5 ¢/oz",
+        "Options from $3.96 – $6.99"
+      ]
+    },
+    {
+      "name": "Casa Martinez Medium Fire Roasted Fresh Salsa Verde 16 oz - Authentic Mexican Flavor",
+      "brand": "29.3 ¢/oz",
+      "price": "$4.68",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$468",
+        "current price $4.68",
+        "29.3 ¢/oz",
+        "Casa Martinez Medium Fire Roasted Fresh Salsa Verde 16 oz - Authentic Mexican Flavor",
+        "4.4 out of 5 stars",
+        "60",
+        "4.4 out of 5 Stars. 60 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Casa Martinez Medium Fire Roasted Roja Quemada Salsa, 16 oz - Fresh & Natural",
+      "brand": "29.3 ¢/oz",
+      "price": "$4.68",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$468",
+        "current price $4.68",
+        "29.3 ¢/oz",
+        "Casa Martinez Medium Fire Roasted Roja Quemada Salsa, 16 oz - Fresh & Natural",
+        "4.2 out of 5 stars",
+        "112",
+        "4.2 out of 5 Stars. 112 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Siete Family Foods, Casera Salsa Roja, Spicy, 10.5 oz.",
+      "brand": "43.0 ¢/oz",
+      "price": "$4.52",
+      "size": "10.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$452",
+        "current price $4.52",
+        "43.0 ¢/oz",
+        "Siete Family Foods, Casera Salsa Roja, Spicy, 10.5 oz.",
+        "4.6 out of 5 stars",
+        "231",
+        "4.6 out of 5 Stars. 231 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Tostitos Mild Chunky Salsa, No Artificial Colors, No Artificial Flavors, 15.5 oz Jar",
+      "brand": "25.7 ¢/oz",
+      "price": "$3.98",
+      "size": "15.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$398",
+        "current price $3.98",
+        "25.7 ¢/oz",
+        "Tostitos Mild Chunky Salsa, No Artificial Colors, No Artificial Flavors, 15.5 oz Jar",
+        "4.7 out of 5 stars",
+        "8193",
+        "4.7 out of 5 Stars. 8193 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Siete Family Foods, Casera Salsa Roja, Mild, 10.5 oz.",
+      "brand": "43.0 ¢/oz",
+      "price": "$4.52",
+      "size": "10.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$452",
+        "current price $4.52",
+        "43.0 ¢/oz",
+        "Siete Family Foods, Casera Salsa Roja, Mild, 10.5 oz.",
+        "4.3 out of 5 stars",
+        "207",
+        "4.3 out of 5 Stars. 207 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Stello Foods - Roasted Pineapple Salsa 16 oz, Vegetarian, No Corn Syrup, No added Preservatives, Vegan, Gluten Free",
+      "brand": null,
+      "price": "$11.70",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1170",
+        "current price $11.70",
+        "Stello Foods - Roasted Pineapple Salsa 16 oz, Vegetarian, No Corn Syrup, No added Preservatives, Vegan, Gluten Free",
+        "4.6 out of 5 stars",
+        "11",
+        "4.6 out of 5 Stars. 11 reviews",
+        "Shipping, arrives in 3+ days"
+      ]
+    },
+    {
+      "name": "LA VICTORIA SUPREMA Salsa Mild, Shelf-Stable, 15.5 oz Glass Jar",
+      "brand": "18.8 ¢/oz",
+      "price": "$2.92",
+      "size": "15.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$292",
+        "current price $2.92",
+        "18.8 ¢/oz",
+        "LA VICTORIA SUPREMA Salsa Mild, Shelf-Stable, 15.5 oz Glass Jar",
+        "4.5 out of 5 stars",
+        "160",
+        "4.5 out of 5 Stars. 160 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "2 Sisters' Salsa Jalapeno Salsa No Sugar Added 3 Pack 16 fl oz",
+      "brand": null,
+      "price": "$14.99",
+      "size": "16 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1499",
+        "current price $14.99",
+        "2 Sisters' Salsa Jalapeno Salsa No Sugar Added 3 Pack 16 fl oz",
+        "Shipping, arrives in 3+ days"
+      ]
+    },
+    {
+      "name": "Mateo's Gourmet Salsa Verde, All Natural, Medium Heat, 16oz Glass Jar",
+      "brand": "29.2 ¢/fl oz",
+      "price": "$4.67",
+      "size": "16oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$467",
+        "current price $4.67",
+        "29.2 ¢/fl oz",
+        "Mateo's Gourmet Salsa Verde, All Natural, Medium Heat, 16oz Glass Jar",
+        "4.7 out of 5 stars",
+        "66",
+        "4.7 out of 5 Stars. 66 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Mrs. Renfro's Habanero Salsa, 16 oz",
+      "brand": "24.3 ¢/oz",
+      "price": "$3.88",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$388",
+        "current price $3.88",
+        "24.3 ¢/oz",
+        "Mrs. Renfro's Habanero Salsa, 16 oz",
+        "4.6 out of 5 stars",
+        "264",
+        "4.6 out of 5 Stars. 264 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Mrs. Renfro's Mango Habanero Salsa, 16 oz",
+      "brand": "25.5 ¢/oz",
+      "price": "$4.08",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$408",
+        "current price $4.08",
+        "25.5 ¢/oz",
+        "Mrs. Renfro's Mango Habanero Salsa, 16 oz",
+        "4.7 out of 5 stars",
+        "244",
+        "4.7 out of 5 Stars. 244 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Set of 4: Gourmet Salsa Huichol Hot Sauce, with Lime + Habanera Roja & Salsa Negra, 6.5 oz bottles",
+      "brand": null,
+      "price": "$16.99",
+      "size": "6.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1699",
+        "current price $16.99",
+        "Set of 4: Gourmet Salsa Huichol Hot Sauce, with Lime + Habanera Roja & Salsa Negra, 6.5 oz bottles",
+        "4 out of 5 stars",
+        "3",
+        "4 out of 5 Stars. 3 reviews",
+        "Shipping, arrives Fri, Oct 9"
+      ]
+    },
+    {
+      "name": "Mateo's Hatch Chile Salsa, Medium Heat, 16 oz Glass Jar",
+      "brand": "29.2 ¢/oz",
+      "price": "$4.67",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$467",
+        "current price $4.67",
+        "29.2 ¢/oz",
+        "Mateo's Hatch Chile Salsa, Medium Heat, 16 oz Glass Jar",
+        "4.7 out of 5 stars",
+        "339",
+        "4.7 out of 5 Stars. 339 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "HERDEZ Salsa Verde Mild, Shelf Stable, 7 oz Steel Can",
+      "brand": "16.9 ¢/oz",
+      "price": "$1.18",
+      "size": "7 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$118",
+        "current price $1.18",
+        "16.9 ¢/oz",
+        "HERDEZ Salsa Verde Mild, Shelf Stable, 7 oz Steel Can",
+        "4.5 out of 5 stars",
+        "1097",
+        "4.5 out of 5 Stars. 1097 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "2 Sisters' Salsa Honey Salsa No Sugar Added 3 Pack 16 fl oz",
+      "brand": null,
+      "price": "$14.99",
+      "size": "16 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1499",
+        "current price $14.99",
+        "2 Sisters' Salsa Honey Salsa No Sugar Added 3 Pack 16 fl oz",
+        "Shipping, arrives in 3+ days"
+      ]
+    },
+    {
+      "name": "HERDEZ Salsa Casera Medium, Tortilla Chip Dip, Shelf Stable, Large 70 oz Plastic Jug",
+      "brand": "14.9 ¢/oz",
+      "price": "$10.44",
+      "size": "70 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1044",
+        "current price $10.44",
+        "14.9 ¢/oz",
+        "HERDEZ Salsa Casera Medium, Tortilla Chip Dip, Shelf Stable, Large 70 oz Plastic Jug",
+        "3.9 out of 5 stars",
+        "482",
+        "3.9 out of 5 Stars. 482 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "HERDEZ Guacamole Salsa Medium, Tortilla Chip Dip, Shelf Stable, 15.7 oz Glass Jar",
+      "brand": "22.7 ¢/oz",
+      "price": "$3.57",
+      "size": "15.7 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$357",
+        "current price $3.57",
+        "22.7 ¢/oz",
+        "HERDEZ Guacamole Salsa Medium, Tortilla Chip Dip, Shelf Stable, 15.7 oz Glass Jar",
+        "4.5 out of 5 stars",
+        "3332",
+        "4.5 out of 5 Stars. 3332 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "HERDEZ Salsa Casera Hot, Tortilla Chip Dip, Shelf Stable, 7 oz Steel Can",
+      "brand": "16.9 ¢/oz",
+      "price": "$1.18",
+      "size": "7 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$118",
+        "current price $1.18",
+        "16.9 ¢/oz",
+        "HERDEZ Salsa Casera Hot, Tortilla Chip Dip, Shelf Stable, 7 oz Steel Can",
+        "4.5 out of 5 stars",
+        "468",
+        "4.5 out of 5 Stars. 468 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "HERDEZ Salsa Casera Mild, Tortilla Chip Dip, Shelf Stable, 16 oz Glass Jar",
+      "brand": "18.6 ¢/oz",
+      "price": "$2.97",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$297",
+        "current price $2.97",
+        "18.6 ¢/oz",
+        "HERDEZ Salsa Casera Mild, Tortilla Chip Dip, Shelf Stable, 16 oz Glass Jar",
+        "4.5 out of 5 stars",
+        "1495",
+        "4.5 out of 5 Stars. 1495 reviews",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "30 Second Salsa Seasoning Mix - Thermal, (16-oz. Can Makes 26, 15-oz. Batches of Salsa, 1.15-Each)",
+      "brand": null,
+      "price": "$29.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2999",
+        "current price $29.99",
+        "30 Second Salsa Seasoning Mix - Thermal, (16-oz. Can Makes 26, 15-oz. Batches of Salsa, 1.15-Each)",
+        "5 out of 5 stars",
+        "1",
+        "5 out of 5 Stars. 1 reviews",
+        "Shipping, arrives Fri, Oct 9"
+      ]
+    }
   ],
-  "error": "Error: page.goto: Protocol error (Page.navigate): A global adaptive rate limit has been applied. Please retry in a few seconds. (bucket_rate_limit)\nCall log:\n  - navigating to \"https://www.walmart.com/search?q=salsa\", waiting until \"domcontentloaded\"\n"
+  "raw_text_chars": 29892,
+  "steps": [
+    "17:56:53 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:56:58 connected to Bright Data Scraping Browser",
+    "17:57:14 goto https://www.walmart.com/search?q=salsa",
+    "17:57:22 captcha check passed",
+    "17:57:34 dismiss: nothing to close",
+    "17:57:34 press Escape",
+    "17:57:38 scrolled x4",
+    "17:57:38 store_set: null",
+    "17:57:39 extracted 42 houses; raw text 29892 chars"
+  ],
+  "error": null
 }

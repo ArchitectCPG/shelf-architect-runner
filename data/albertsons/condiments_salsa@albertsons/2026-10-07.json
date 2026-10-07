@@ -3,11 +3,11 @@
   "retailer": "albertsons",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-07T17:02:04.205Z",
+  "pulled_at": "2026-10-07T17:52:57.240Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
-  "store_set": null,
+  "store_set": "4700 N Eagle Rd",
   "url_final": "https://www.albertsons.com/shop/search-results.html?q=salsa",
   "houses": [
     {
@@ -29,17 +29,21 @@
       ]
     }
   ],
-  "raw_text_chars": 8655,
+  "raw_text_chars": 8570,
   "steps": [
-    "17:02:04 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "17:02:07 connected to Bright Data Scraping Browser",
-    "17:02:21 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
-    "17:02:29 captcha check passed",
-    "17:02:37 dismissed \"Continue with all\"",
-    "17:02:38 press Escape",
-    "17:02:45 scrolled x4",
-    "17:02:48 store_set: null",
-    "17:02:52 extracted 1 houses; raw text 8655 chars"
+    "17:52:57 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:52:57 connected to Bright Data Scraping Browser",
+    "17:53:04 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
+    "17:53:12 captcha check passed",
+    "17:53:20 dismissed \"Continue with all\"",
+    "17:53:20 press Escape",
+    "17:53:22 scrolled x2",
+    "17:53:27 scrolled x2",
+    "17:53:32 scrolled x2",
+    "17:53:37 scrolled x2",
+    "17:53:41 scrolled x2",
+    "17:53:44 store_set: 4700 N Eagle Rd",
+    "17:53:44 extracted 1 houses; raw text 8570 chars"
   ],
   "error": null
 }

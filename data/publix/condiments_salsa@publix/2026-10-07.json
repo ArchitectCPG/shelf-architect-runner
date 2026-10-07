@@ -3,18 +3,527 @@
   "retailer": "publix",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-07T17:02:48.930Z",
+  "pulled_at": "2026-10-07T17:54:48.369Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "17:02:48 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "17:02:49 connected to Bright Data Scraping Browser",
-    "17:02:52 ERROR Error: page.goto: Protocol error (Page.navigate): A global adaptive rate limit has been applied. Please retry in a few seconds. (bucket_rate_limit)\nCall log:\n  - navigating to \"https://www.instacart.com/store/publix/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  "store_set": "1640 Publix Way",
+  "url_final": "https://www.instacart.com/store/publix/s?k=salsa",
+  "houses": [
+    {
+      "name": "Tostitos Scoops Tortilla Chips, Original",
+      "brand": null,
+      "price": "$8.09",
+      "size": "14.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $8.09",
+        "$809",
+        "Tostitos Scoops Tortilla Chips, Original",
+        "★★★★★",
+        "★★★★★",
+        "(47)",
+        "14.5 oz"
+      ]
+    },
+    {
+      "name": "Tostitos Medium Con Queso Salsa Dip",
+      "brand": null,
+      "price": "$6.97",
+      "size": "23 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $6.97",
+        "$697",
+        "Tostitos Medium Con Queso Salsa Dip",
+        "23 oz"
+      ]
+    },
+    {
+      "name": "Ruffles Original Potato Chips, Party Size",
+      "brand": null,
+      "price": "$8.09",
+      "size": "13 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $8.09",
+        "$809",
+        "Ruffles Original Potato Chips, Party Size",
+        "★★★★★",
+        "★★★★★",
+        "(10)",
+        "13 oz"
+      ]
+    },
+    {
+      "name": "Cascade Platinum Dishwasher Pods, Fresh",
+      "brand": null,
+      "price": "$12.19",
+      "size": "26 ct",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $12.19",
+        "$1219",
+        "Cascade Platinum Dishwasher Pods, Fresh",
+        "★★★★★",
+        "★★★★★",
+        "(5.65K)",
+        "26 ct"
+      ]
+    },
+    {
+      "name": "Tostitos Chunky Salsa, Medium",
+      "brand": null,
+      "price": "$4.67",
+      "size": "15.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $4.67",
+        "$467",
+        "Tostitos Chunky Salsa, Medium",
+        "★★★★★",
+        "★★★★★",
+        "(66)",
+        "15.5 oz"
+      ]
+    },
+    {
+      "name": "Publix Salsa, Mild",
+      "brand": null,
+      "price": "$2.97",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $2.97",
+        "$297",
+        "Publix Salsa, Mild",
+        "16 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$3.31",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $3.31",
+        "$331",
+        "Pace Chunky Mild Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(322)",
+        "16 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Tostitos Restaurant Style Salsa, Medium",
+      "brand": null,
+      "price": "$4.67",
+      "size": "15.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $4.67",
+        "$467",
+        "Tostitos Restaurant Style Salsa, Medium",
+        "★★★★★",
+        "★★★★★",
+        "(21)",
+        "15.5 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Publix Salsa, Medium",
+      "brand": null,
+      "price": "$2.97",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $2.97",
+        "$297",
+        "Publix Salsa, Medium",
+        "16 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Tostitos Chunky Salsa, Mild",
+      "brand": null,
+      "price": "$4.67",
+      "size": "15.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $4.67",
+        "$467",
+        "Tostitos Chunky Salsa, Mild",
+        "★★★★★",
+        "★★★★★",
+        "(62)",
+        "15.5 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Tabasco Green Pepper Sauce, Hot Sauce",
+      "brand": null,
+      "price": "$4.53",
+      "size": "5 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $4.53",
+        "$453",
+        "Tabasco Green Pepper Sauce, Hot Sauce",
+        "★★★★★",
+        "★★★★★",
+        "(3)",
+        "5 fl oz"
+      ]
+    },
+    {
+      "name": "Tabasco Chipotle Pepper Sauce, Hot Sauce",
+      "brand": null,
+      "price": "$4.53",
+      "size": "5 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $4.53",
+        "$453",
+        "Tabasco Chipotle Pepper Sauce, Hot Sauce",
+        "★★★★★",
+        "★★★★★",
+        "(7)",
+        "5 fl oz"
+      ]
+    },
+    {
+      "name": "Tabasco Original Red Pepper Sauce, Hot Sauce",
+      "brand": null,
+      "price": "$4.53",
+      "size": "5 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $4.53",
+        "$453",
+        "Tabasco Original Red Pepper Sauce, Hot Sauce",
+        "★★★★★",
+        "★★★★★",
+        "(8)",
+        "5 fl oz",
+        "• 3 sizes"
+      ]
+    },
+    {
+      "name": "Tabasco Original Red Pepper Sauce",
+      "brand": null,
+      "price": "$2.19",
+      "size": "2 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $2.19",
+        "$219",
+        "Tabasco Original Red Pepper Sauce",
+        "2 fl oz",
+        "• 3 sizes"
+      ]
+    },
+    {
+      "name": "Tostitos Chunky Salsa, Medium",
+      "brand": null,
+      "price": "$4.67",
+      "size": "15.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $4.67",
+        "$467",
+        "Tostitos Chunky Salsa, Medium",
+        "★★★★★",
+        "★★★★★",
+        "(66)",
+        "15.5 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Modelo Especial Mexican Lager Import Beer Bottles",
+      "brand": null,
+      "price": "$20.79",
+      "size": "12 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $20.79",
+        "$2079",
+        "Modelo Especial Mexican Lager Import Beer Bottles",
+        "★★★★★",
+        "★★★★★",
+        "(1.92K)",
+        "12 x 12 oz",
+        "• 3 sizes"
+      ]
+    },
+    {
+      "name": "Modelo Especial Mexican Lager Import Beer Bottles",
+      "brand": null,
+      "price": "$31.59",
+      "size": "12 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $31.59",
+        "$3159",
+        "Modelo Especial Mexican Lager Import Beer Bottles",
+        "★★★★★",
+        "★★★★★",
+        "(1.91K)",
+        "18 x 12 fl oz",
+        "• 3 sizes"
+      ]
+    },
+    {
+      "name": "Modelo Especial Mexican Lager Import Beer Cans",
+      "brand": null,
+      "price": "$36.59",
+      "size": "12 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $36.59",
+        "$3659",
+        "Modelo Especial Mexican Lager Import Beer Cans",
+        "★★★★★",
+        "★★★★★",
+        "(1.91K)",
+        "24 x 12 fl oz",
+        "• 3 sizes"
+      ]
+    },
+    {
+      "name": "Modelo Especial Mexican Lager Import Beer Cans",
+      "brand": null,
+      "price": "$20.79",
+      "size": "12 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $20.79",
+        "$2079",
+        "Modelo Especial Mexican Lager Import Beer Cans",
+        "★★★★★",
+        "★★★★★",
+        "(1.92K)",
+        "12 x 12 fl oz"
+      ]
+    },
+    {
+      "name": "Modelo Especial Modelito Mexican Lager Import Beer Bottles",
+      "brand": null,
+      "price": "$28.79",
+      "size": "7 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $28.79",
+        "$2879",
+        "Modelo Especial Modelito Mexican Lager Import Beer Bottles",
+        "★★★★★",
+        "★★★★★",
+        "(1.91K)",
+        "24 x 7 oz"
+      ]
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$5.09",
+      "size": "24 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $5.09",
+        "$509",
+        "Pace Chunky Mild Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(488)",
+        "24 oz"
+      ]
+    },
+    {
+      "name": "Chi-Chi's Thick & Chunky Salsa Mild",
+      "brand": null,
+      "price": "$3.31",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $3.31",
+        "$331",
+        "Chi-Chi's Thick & Chunky Salsa Mild",
+        "16 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Saucy Gourmet Classic Salsa",
+      "brand": null,
+      "price": "$7.75",
+      "size": "15.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $7.75",
+        "$775",
+        "Saucy Gourmet Classic Salsa",
+        "15.5 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$3.31",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $3.31",
+        "$331",
+        "Pace Chunky Medium Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(482)",
+        "16 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Pace Restaurant Style Salsa, Mild",
+      "brand": null,
+      "price": "$3.31",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $3.31",
+        "$331",
+        "Pace Restaurant Style Salsa, Mild",
+        "★★★★★",
+        "★★★★★",
+        "(99)",
+        "16 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$5.09",
+      "size": "24 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $5.09",
+        "$509",
+        "Pace Chunky Medium Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(510)",
+        "24 oz"
+      ]
+    },
+    {
+      "name": "Pace Restaurant Style Salsa, Medium",
+      "brand": null,
+      "price": "$3.31",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $3.31",
+        "$331",
+        "Pace Restaurant Style Salsa, Medium",
+        "★★★★★",
+        "★★★★★",
+        "(157)",
+        "16 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "CHI-CHI'S Thick and Chunky Salsa Medium, 16 oz.",
+      "brand": null,
+      "price": "$3.31",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $3.31",
+        "$331",
+        "CHI-CHI'S Thick and Chunky Salsa Medium, 16 oz.",
+        "16 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "GreenWise Organic Salsa Mild",
+      "brand": null,
+      "price": "$3.97",
+      "size": "15.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $3.97",
+        "$397",
+        "GreenWise Organic Salsa Mild",
+        "15.5 oz",
+        "Many in stock"
+      ]
+    },
+    {
+      "name": "Newman's Own Chunky Medium Pineapple Salsa",
+      "brand": null,
+      "price": "$3.87",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Current price: $3.87",
+        "$387",
+        "Newman's Own Chunky Medium Pineapple Salsa",
+        "16 oz",
+        "Many in stock"
+      ]
+    }
   ],
-  "error": "Error: page.goto: Protocol error (Page.navigate): A global adaptive rate limit has been applied. Please retry in a few seconds. (bucket_rate_limit)\nCall log:\n  - navigating to \"https://www.instacart.com/store/publix/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  "raw_text_chars": 7971,
+  "steps": [
+    "17:54:48 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:54:49 connected to Bright Data Scraping Browser",
+    "17:54:56 goto https://www.instacart.com/store/publix/s?k=salsa",
+    "17:55:21 captcha check passed",
+    "17:55:28 dismissed \"Continue\"",
+    "17:55:29 press Escape",
+    "17:55:33 scrolled x4",
+    "17:55:33 store_set: 1640 Publix Way",
+    "17:55:33 extracted 30 houses; raw text 7971 chars"
+  ],
+  "error": null
 }

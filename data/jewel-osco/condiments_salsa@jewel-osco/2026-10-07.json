@@ -3,7 +3,7 @@
   "retailer": "jewel-osco",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-07T17:02:05.898Z",
+  "pulled_at": "2026-10-07T17:53:13.699Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -29,17 +29,21 @@
       ]
     }
   ],
-  "raw_text_chars": 8279,
+  "raw_text_chars": 7736,
   "steps": [
-    "17:02:05 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "17:02:06 connected to Bright Data Scraping Browser",
-    "17:02:16 goto https://www.jewelosco.com/shop/search-results.html?q=salsa",
-    "17:02:24 captcha check passed",
-    "17:02:35 dismissed \"Continue with all\"",
-    "17:02:35 press Escape",
-    "17:02:40 scrolled x4",
-    "17:02:42 store_set: null",
-    "17:02:46 extracted 1 houses; raw text 8279 chars"
+    "17:53:13 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:53:33 connected to Bright Data Scraping Browser",
+    "17:53:48 goto https://www.jewelosco.com/shop/search-results.html?q=salsa",
+    "17:53:56 captcha check passed",
+    "17:54:06 dismissed \"Continue with all\"",
+    "17:54:06 press Escape",
+    "17:54:09 scrolled x2",
+    "17:54:16 scrolled x2",
+    "17:54:21 scrolled x2",
+    "17:54:26 scrolled x2",
+    "17:54:30 scrolled x2",
+    "17:54:33 store_set: null",
+    "17:54:33 extracted 1 houses; raw text 7736 chars"
   ],
   "error": null
 }

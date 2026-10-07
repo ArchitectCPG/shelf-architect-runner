@@ -3,11 +3,11 @@
   "retailer": "meijer",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-07T17:02:18.754Z",
+  "pulled_at": "2026-10-07T17:54:39.348Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
-  "store_set": null,
+  "store_set": "Alpine",
   "url_final": "https://www.meijer.com/shopping/search.html?text=salsa",
   "houses": [
     {
@@ -720,6 +720,7 @@
       "img": "https://www.meijer.com/content/dam/meijer/product/0072/87/8785/30/0072878785303_1_A1C1_0200.jpg",
       "link": null,
       "card_text": [
+        "Low Stock",
         "Herdez Fire Roasted Salsa Roja, 15.7 oz",
         "Sale price",
         "Buy 2 for $5.00",
@@ -746,17 +747,17 @@
       ]
     }
   ],
-  "raw_text_chars": 11541,
+  "raw_text_chars": 11551,
   "steps": [
-    "17:02:18 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "17:02:19 connected to Bright Data Scraping Browser",
-    "17:02:26 goto https://www.meijer.com/shopping/search.html?text=salsa",
-    "17:02:34 captcha check passed",
-    "17:02:46 dismiss: nothing to close",
-    "17:02:46 press Escape",
-    "17:02:50 scrolled x4",
-    "17:02:50 store_set: null",
-    "17:02:51 extracted 45 houses; raw text 11541 chars"
+    "17:54:39 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:54:40 connected to Bright Data Scraping Browser",
+    "17:54:45 goto https://www.meijer.com/shopping/search.html?text=salsa",
+    "17:54:53 captcha check passed",
+    "17:55:04 dismiss: nothing to close",
+    "17:55:05 press Escape",
+    "17:55:09 scrolled x4",
+    "17:55:09 store_set: Alpine",
+    "17:55:09 extracted 45 houses; raw text 11551 chars"
   ],
   "error": null
 }
