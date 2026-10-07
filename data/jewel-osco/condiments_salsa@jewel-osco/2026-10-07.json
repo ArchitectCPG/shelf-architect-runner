@@ -1,0 +1,45 @@
+{
+  "block_id": "condiments/salsa@jewel-osco",
+  "retailer": "jewel-osco",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T17:02:05.898Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.jewelosco.com/shop/search-results.html?q=salsa",
+  "houses": [
+    {
+      "name": "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/tostitos-salsa-con-queso-medium-15-oz/960013438",
+      "card_text": [
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per Ounce $0.40",
+        "($0.40 / Ounce)",
+        "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+        "15 Ounce",
+        "15 oz |",
+        "snap"
+      ]
+    }
+  ],
+  "raw_text_chars": 8279,
+  "steps": [
+    "17:02:05 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:02:06 connected to Bright Data Scraping Browser",
+    "17:02:16 goto https://www.jewelosco.com/shop/search-results.html?q=salsa",
+    "17:02:24 captcha check passed",
+    "17:02:35 dismissed \"Continue with all\"",
+    "17:02:35 press Escape",
+    "17:02:40 scrolled x4",
+    "17:02:42 store_set: null",
+    "17:02:46 extracted 1 houses; raw text 8279 chars"
+  ],
+  "error": null
+}

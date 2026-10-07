@@ -1,0 +1,45 @@
+{
+  "block_id": "condiments/salsa@albertsons",
+  "retailer": "albertsons",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T17:02:04.205Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.albertsons.com/shop/search-results.html?q=salsa",
+  "houses": [
+    {
+      "name": "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "15 Oz",
+      "img": null,
+      "link": "https://www.albertsons.com/shop/pd/tostitos-salsa-con-queso-medium-15-oz/960013438",
+      "card_text": [
+        "Your Price $5.49 each",
+        "$5.49",
+        "price per Ounce $0.37",
+        "($0.37 / Ounce)",
+        "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+        "15 Ounce",
+        "15 oz |",
+        "snap"
+      ]
+    }
+  ],
+  "raw_text_chars": 8655,
+  "steps": [
+    "17:02:04 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:02:07 connected to Bright Data Scraping Browser",
+    "17:02:21 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
+    "17:02:29 captcha check passed",
+    "17:02:37 dismissed \"Continue with all\"",
+    "17:02:38 press Escape",
+    "17:02:45 scrolled x4",
+    "17:02:48 store_set: null",
+    "17:02:52 extracted 1 houses; raw text 8655 chars"
+  ],
+  "error": null
+}

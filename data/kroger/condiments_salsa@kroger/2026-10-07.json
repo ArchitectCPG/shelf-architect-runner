@@ -1,0 +1,26 @@
+{
+  "block_id": "condiments/salsa@kroger",
+  "retailer": "kroger",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T17:02:05.585Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": "2701 Columbus St",
+  "url_final": "https://www.kroger.com/search?query=salsa",
+  "houses": [],
+  "raw_text_chars": 1580,
+  "steps": [
+    "17:02:05 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:02:06 connected to Bright Data Scraping Browser",
+    "17:02:13 goto https://www.kroger.com/search?query=salsa",
+    "17:02:21 captcha check passed",
+    "17:02:28 dismissed \"\"",
+    "17:02:28 press Escape",
+    "17:02:32 scrolled x4",
+    "17:02:32 store_set: 2701 Columbus St",
+    "17:02:32 extracted 0 houses; raw text 1580 chars"
+  ],
+  "error": null
+}

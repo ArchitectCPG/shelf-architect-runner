@@ -1,0 +1,20 @@
+{
+  "block_id": "condiments/salsa@publix",
+  "retailer": "publix",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T17:02:48.930Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "17:02:48 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:02:49 connected to Bright Data Scraping Browser",
+    "17:02:52 ERROR Error: page.goto: Protocol error (Page.navigate): A global adaptive rate limit has been applied. Please retry in a few seconds. (bucket_rate_limit)\nCall log:\n  - navigating to \"https://www.instacart.com/store/publix/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): A global adaptive rate limit has been applied. Please retry in a few seconds. (bucket_rate_limit)\nCall log:\n  - navigating to \"https://www.instacart.com/store/publix/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+}
