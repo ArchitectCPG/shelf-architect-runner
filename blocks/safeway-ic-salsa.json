@@ -1,3 +1,33 @@
-{ "block_id": "dips/salsa@safeway", "retailer": "safeway", "zip": "dips", "neighborhood": "salsa", "store_zip": "60615",
-  "steps": [ { "goto": "https://www.instacart.com/store/safeway/collections/3092-olives-dips-spreads/subjects/8198" }, { "wait": 6000 }, { "dismiss": ["Close", "No thanks", "Not now", "Continue"] }, { "press": "Escape" }, { "scroll": 4 } ],
-  "store_patterns": ["(\\\\b\\\\d{5}\\\\b)"] }
+{
+  "block_id": "dips/salsa@safeway",
+  "retailer": "safeway",
+  "zip": "dips",
+  "neighborhood": "salsa",
+  "store_zip": "60615",
+  "steps": [
+    {
+      "goto": "https://www.instacart.com/store/safeway/collections/3092-olives-dips-spreads/subjects/8198"
+    },
+    {
+      "wait": 6000
+    },
+    {
+      "dismiss": [
+        "Close",
+        "No thanks",
+        "Not now",
+        "Continue"
+      ]
+    },
+    {
+      "press": "Escape"
+    },
+    {
+      "scroll": 4
+    }
+  ],
+  "store_patterns": [
+    "Pickup\\s*\\n\\s*(\\d{5})",
+    "Delivery\\s*\\n\\s*Pickup\\s*\\n\\s*(\\d{5})"
+  ]
+}

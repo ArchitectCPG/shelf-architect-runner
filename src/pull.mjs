@@ -85,7 +85,7 @@ async function extractProducts(page, cardSelector) {
       const txt = (card.innerText || "").trim(); if (!txt || seen.has(txt) || !priceRe.test(txt)) continue; seen.add(txt);
       const lines = txt.split("\n").map(s => s.trim()).filter(Boolean);
       const price = (txt.match(priceRe) || [""])[0].replace(/\s/g, "");
-      const junk = /^(add|add to cart|sale|save|sponsored|\d+% off|.*de descuento|ship|pickup|delivery|in stock|low stock|snap|ebt|sign in|view offer|options|join prime|current price|original price|best seller|rated |\d+(\.\d+)? out of 5|\d+ reviews?|each|\$?\d+(\.\d+)?\s?(¢|\/|per)\s?\w+)/i;
+      const junk = /^(\$\d+$|[★☆\s]+$|\(\d[\d,.k]*\)$|buy \d|gluten|vegan|organic$|keto|low |non-gmo|original price|add|add to cart|sale|save|sponsored|\d+% off|.*de descuento|ship|pickup|delivery|in stock|low stock|snap|ebt|sign in|view offer|options|join prime|current price|original price|best seller|rated |\d+(\.\d+)? out of 5|\d+ reviews?|each|\$?\d+(\.\d+)?\s?(¢|\/|per)\s?\w+)/i;
       const cands = lines.filter(l => l.length > 3 && !priceRe.test(l) && !junk.test(l) && !/^\d+(\.\d+)?\s?(oz|fl oz|lb|ct|g|ml)\b/i.test(l));
       if (!cands.length) continue;                       // Prime sub-cards and price-only fragments
       const name = cands.reduce((a, b) => (b.length > a.length ? b : a), "");
