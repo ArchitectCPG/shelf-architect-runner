@@ -1,0 +1,1829 @@
+{
+  "block_id": "condiments/salsa@hyvee",
+  "retailer": "hyvee",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:17:43.774Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.hy-vee.com/",
+  "houses": [
+    {
+      "name": "Certified Ground Chuck 85% Lean 15% Fat",
+      "brand": null,
+      "price": "$7.99",
+      "size": "1 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$7.99/lb",
+        "Certified Ground Chuck 85% Lean 15% Fat",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "Hy-Vee One Step Russet Potatoes",
+      "brand": null,
+      "price": "$2.49",
+      "size": "5 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.49",
+        "$2.99",
+        "Hy-Vee One Step Russet Potatoes",
+        "5 lb"
+      ]
+    },
+    {
+      "name": "Simply Done Tall 13 Gallon Drawstring Kitchen Bags",
+      "brand": null,
+      "price": "$8.99",
+      "size": "45 ct",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$8.99",
+        "Simply Done Tall 13 Gallon Drawstring Kitchen Bags",
+        "45 ct Box"
+      ]
+    },
+    {
+      "name": "Hy-Vee Potato Chip Ripple",
+      "brand": null,
+      "price": "$4.00",
+      "size": "8 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/3528096/HyVee-Potato-Chip-Ripple",
+      "card_text": [
+        "2 / $4.00",
+        "Hy-Vee Potato Chip Ripple",
+        "8 oz",
+        "SNAP"
+      ]
+    },
+    {
+      "name": "Hy-Vee White Bread",
+      "brand": null,
+      "price": "$1.99",
+      "size": "20 oz",
+      "img": "https://0bb8856ba8259ec33e3d-a40599a114f3a4c6d0979c3ffe0b2bf5.ssl.cf2.rackcdn.com/20d6379b-94f5-4c22-bbc8-8d5cf636750e_thumb.png",
+      "link": "https://www.hy-vee.com/aisles-online/p/1955/HyVee-White-Bread",
+      "card_text": [
+        "$1.99",
+        "Hy-Vee White Bread",
+        "20 oz",
+        "SNAP",
+        "Log in to add"
+      ]
+    },
+    {
+      "name": "Hy-Vee Grade A Large Eggs",
+      "brand": null,
+      "price": "$1.99",
+      "size": "12 ct",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/57236/HyVee-Grade-A-Large-Eggs",
+      "card_text": [
+        "$1.99",
+        "Hy-Vee Grade A Large Eggs",
+        "12 ct",
+        "SNAP"
+      ]
+    },
+    {
+      "name": "Hy-Vee Choice Reserve Beef Bacon-Wrapped Top Sirloin Fillet",
+      "brand": null,
+      "price": "$5.99",
+      "size": "5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$5.99",
+        "$6.99",
+        "Hy-Vee Choice Reserve Beef Bacon-Wrapped Top Sirloin Fillet",
+        "5 oz"
+      ]
+    },
+    {
+      "name": "Bakery Fresh Iced Cut-Out Cookies, 6 Count (colors and design may vary)",
+      "brand": null,
+      "price": "$5.99",
+      "size": "6 Count",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$5.99",
+        "Bakery Fresh Iced Cut-Out Cookies, 6 Count (colors and design may vary)",
+        "6 ct"
+      ]
+    },
+    {
+      "name": "Hy-Vee One Step Purified Drinking Water 24Pk",
+      "brand": null,
+      "price": "$3.88",
+      "size": "16.9 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.88",
+        "$3.99",
+        "Hy-Vee One Step Purified Drinking Water 24Pk",
+        "16.9 fl oz"
+      ]
+    },
+    {
+      "name": "Red Seedless Grapes",
+      "brand": null,
+      "price": "$8.86",
+      "size": "1 lb",
+      "img": "https://cdn.hy-vee.com/products/0000000040230/CL/300342dd-3a1b-4b56-9ba8-edba6b60936c_thumb.png",
+      "link": "https://www.hy-vee.com/aisles-online/p/8508/Red-Seedless-Grapes",
+      "card_text": [
+        "$8.86 ea.",
+        "Red Seedless Grapes",
+        "1 lb",
+        "SNAP",
+        "Log in to add"
+      ]
+    },
+    {
+      "name": "DryWater Electrolytes + Vitamins Complete Stick Packs Raspberry Lemon Hydration Powder 6 Packs",
+      "brand": null,
+      "price": "$11.99",
+      "size": "2.33 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$11.99",
+        "DryWater Electrolytes + Vitamins Complete Stick Packs Raspberry Lemon Hydration Powder 6 Packs",
+        "2.33 oz"
+      ]
+    },
+    {
+      "name": "DryWater Electrolytes + Vitamins Complete Stick Packs Mixed Berry Hydration Powder 6 Packs",
+      "brand": null,
+      "price": "$11.99",
+      "size": "2.33 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$11.99",
+        "DryWater Electrolytes + Vitamins Complete Stick Packs Mixed Berry Hydration Powder 6 Packs",
+        "2.33 oz"
+      ]
+    },
+    {
+      "name": "DryWater Electrolyte + Vitamins Complete Stick Packs Peach Mango Hydration Powder 6 Packs",
+      "brand": null,
+      "price": "$11.99",
+      "size": "2.33 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$11.99",
+        "DryWater Electrolyte + Vitamins Complete Stick Packs Peach Mango Hydration Powder 6 Packs",
+        "2.33 oz"
+      ]
+    },
+    {
+      "name": "Beer Bratwurst",
+      "brand": null,
+      "price": "$1.50",
+      "size": "3.75 oz",
+      "img": "https://cdn.hy-vee.com/products/0233465000000/CL/a8068776-dd63-47fc-a768-8aa8021647bd_thumb.png",
+      "link": "https://www.hy-vee.com/aisles-online/p/32143/Beer-Bratwurst",
+      "card_text": [
+        "$1.50",
+        "Beer Bratwurst",
+        "3.75 oz",
+        "SNAP",
+        "4",
+        "Log in to add"
+      ]
+    },
+    {
+      "name": "Bacon & Cheddar Bratwurst",
+      "brand": null,
+      "price": "$1.50",
+      "size": "3.75 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/32144/Bacon-And-Cheddar-Bratwurst",
+      "card_text": [
+        "$1.50",
+        "Bacon & Cheddar Bratwurst",
+        "3.75 oz",
+        "SNAP"
+      ]
+    },
+    {
+      "name": "Jalapeno & Cheddar Bratwurst",
+      "brand": null,
+      "price": "$1.50",
+      "size": "3.75 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1.50",
+        "Jalapeno & Cheddar Bratwurst",
+        "3.75 oz"
+      ]
+    },
+    {
+      "name": "Bacon Cheddar Bratwurst Patties",
+      "brand": null,
+      "price": "$1.50",
+      "size": "3.75 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1.50",
+        "Bacon Cheddar Bratwurst Patties",
+        "3.75 oz"
+      ]
+    },
+    {
+      "name": "Pineapple Bratwurst",
+      "brand": null,
+      "price": "$1.50",
+      "size": "3.75 oz",
+      "img": "https://cdn.hy-vee.com/products/0233468000000/CL/c9696a4d-1650-4256-9a11-422e13e3081c_thumb.png",
+      "link": "https://www.hy-vee.com/aisles-online/p/32145/Pineapple-Bratwurst",
+      "card_text": [
+        "$1.50",
+        "Pineapple Bratwurst",
+        "3.75 oz",
+        "SNAP",
+        "Log in to add"
+      ]
+    },
+    {
+      "name": "Cheddar Bratwurst",
+      "brand": null,
+      "price": "$1.50",
+      "size": "3.75 oz",
+      "img": "https://cdn.hy-vee.com/products/0233460000000/CL/fed4d1c8-6656-4c1c-9392-b941f52cda06_thumb.png",
+      "link": "https://www.hy-vee.com/aisles-online/p/72030/Cheddar-Bratwurst",
+      "card_text": [
+        "$1.50",
+        "Cheddar Bratwurst",
+        "3.75 oz",
+        "SNAP",
+        "Log in to add"
+      ]
+    },
+    {
+      "name": "Apple & Brown Sugar Maple Pork Bratwurst",
+      "brand": null,
+      "price": "$1.50",
+      "size": "3 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1.50",
+        "Apple & Brown Sugar Maple Pork Bratwurst",
+        "3 oz"
+      ]
+    },
+    {
+      "name": "Beer Bratwurst Patties",
+      "brand": null,
+      "price": "$1.50",
+      "size": "3.75 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/771716/Beer-Bratwurst-Patties",
+      "card_text": [
+        "$1.50",
+        "Beer Bratwurst Patties",
+        "3.75 oz",
+        "SNAP"
+      ]
+    },
+    {
+      "name": "Skinless Bacon & Cheddar Bratwurst",
+      "brand": null,
+      "price": "$1.50",
+      "size": "3.75 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1.50",
+        "Skinless Bacon & Cheddar Bratwurst",
+        "3.75 oz"
+      ]
+    },
+    {
+      "name": "Fresh Mild Italian Pork Sausage",
+      "brand": null,
+      "price": "$4.99",
+      "size": "1 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.99/lb",
+        "Fresh Mild Italian Pork Sausage",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "10\" Mumbos in Apple Basket",
+      "brand": null,
+      "price": "$19.99",
+      "size": "1 ct",
+      "img": "https://cdn.hy-vee.com/products/0974053507620/CL/9be6b4bc-a3eb-4e0f-987d-c7a7862ee58d_thumb.jpg",
+      "link": "https://www.hy-vee.com/aisles-online/p/4269275/10-Mumbos-in-Apple-Basket",
+      "card_text": [
+        "$19.99",
+        "10\" Mumbos in Apple Basket",
+        "1 ct",
+        "Log in to add"
+      ]
+    },
+    {
+      "name": "Alani Nu Witch's Brew Sugar Free Energy Drink Can",
+      "brand": null,
+      "price": "$5.00",
+      "size": "12 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "3 / $5.00",
+        "Alani Nu Witch's Brew Sugar Free Energy Drink Can",
+        "12 fl oz"
+      ]
+    },
+    {
+      "name": "Pillsbury Ready to Bake! Pumpkin Shape Sugar Cookie Dough, 20 Cookies, 9.1 oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "9.1 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.99",
+        "$4.49",
+        "Pillsbury Ready to Bake! Pumpkin Shape Sugar Cookie Dough, 20 Cookies, 9.1 oz",
+        "20 ea Box"
+      ]
+    },
+    {
+      "name": "Pillsbury Ready to Bake! Pumpkin Shape Sugar Cookie Dough, 20 Cookies, 9.1 oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "9.1 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/3383317/Pillsbury-Ready-to-Bake-Pumpkin-Shape-Sugar-Cookie-Dough-20-Cookies-91-oz",
+      "card_text": [
+        "$3.99",
+        "$4.49",
+        "Pillsbury Ready to Bake! Pumpkin Shape Sugar Cookie Dough, 20 Cookies, 9.1 oz",
+        "20 ea Box",
+        "SNAP",
+        "$1.00 OFF"
+      ]
+    },
+    {
+      "name": "8\" Classic Mum",
+      "brand": null,
+      "price": "$6.99",
+      "size": "1 ct",
+      "img": "https://cdn.hy-vee.com/products/7335313502510/CL/b18463c3-27cc-41e2-9001-a2037e421372_thumb.jpg",
+      "link": "https://www.hy-vee.com/aisles-online/p/3644583/8-Classic-Mum",
+      "card_text": [
+        "$6.99",
+        "8\" Classic Mum",
+        "1 ct",
+        "Log in to add"
+      ]
+    },
+    {
+      "name": "Bloom Pear Scare Limited Edition Sparkling Energy Drink, 12 fl oz can",
+      "brand": null,
+      "price": "$9.00",
+      "size": "12 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "4 / $9.00",
+        "Bloom Pear Scare Limited Edition Sparkling Energy Drink, 12 fl oz can",
+        "12 fl oz Can"
+      ]
+    },
+    {
+      "name": "Pillsbury Grands! Pumpkin Spice Rolls & Icing 5Ct",
+      "brand": null,
+      "price": "$6.99",
+      "size": "5Ct",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$6.99",
+        "Pillsbury Grands! Pumpkin Spice Rolls & Icing 5Ct",
+        "5 ea Cylinder"
+      ]
+    },
+    {
+      "name": "Pillsbury Grands! Pumpkin Spice Rolls & Icing 5Ct",
+      "brand": null,
+      "price": "$6.99",
+      "size": "5Ct",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/890689/Pillsbury-Grands-Pumpkin-Spice-Rolls-And-Icing-5Ct",
+      "card_text": [
+        "$6.99",
+        "Pillsbury Grands! Pumpkin Spice Rolls & Icing 5Ct",
+        "5 ea Cylinder",
+        "SNAP",
+        "$1.00 OFF"
+      ]
+    },
+    {
+      "name": "International Delight Pumpkin Pie Spice Liquid Coffee Creamer, 32 fl. oz.",
+      "brand": null,
+      "price": "$4.69",
+      "size": "32 fl. oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.69",
+        "International Delight Pumpkin Pie Spice Liquid Coffee Creamer, 32 fl. oz.",
+        "32 fl. oz"
+      ]
+    },
+    {
+      "name": "Log in to add",
+      "brand": "12\" Mum",
+      "price": "$17.99",
+      "size": "1 ct",
+      "img": "https://cdn.hy-vee.com/products/0974053504890/CL/9d00aeb7-d1c5-46e4-a581-1c23dd49e8ea_thumb.jpg",
+      "link": "https://www.hy-vee.com/aisles-online/p/1793170/12-Mum",
+      "card_text": [
+        "$17.99",
+        "12\" Mum",
+        "1 ct",
+        "Log in to add"
+      ]
+    },
+    {
+      "name": "Log in to add",
+      "brand": "Pumpkins",
+      "price": "$5.99",
+      "size": "1 ct",
+      "img": "https://8e9d5b8b8dcb9208ef3f-01db2a53ae0368d03387780ee86ead55.ssl.cf2.rackcdn.com/3749d5fc-a7ae-46b2-a2e2-716b1db327e1_thumb.png",
+      "link": "https://www.hy-vee.com/aisles-online/p/8836/Pumpkins",
+      "card_text": [
+        "$5.99",
+        "Pumpkins",
+        "1 ct",
+        "SNAP",
+        "Log in to add"
+      ]
+    },
+    {
+      "name": "Pumpkin Spice Cheerios Gluten Free Breakfast Cereal, Whole Grain, 10.8 oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "10.8 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.49",
+        "$4.49",
+        "Pumpkin Spice Cheerios Gluten Free Breakfast Cereal, Whole Grain, 10.8 oz",
+        "10.8 oz Box"
+      ]
+    },
+    {
+      "name": "Pumpkin Spice Cheerios Gluten Free Breakfast Cereal, Whole Grain, 10.8 oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "10.8 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/2659512/Pumpkin-Spice-Cheerios-Gluten-Free-Breakfast-Cereal-Whole-Grain-108-oz",
+      "card_text": [
+        "$3.49",
+        "$4.49",
+        "Pumpkin Spice Cheerios Gluten Free Breakfast Cereal, Whole Grain, 10.8 oz",
+        "10.8 oz Box",
+        "SNAP",
+        "$1.00 OFF"
+      ]
+    },
+    {
+      "name": "Starbucks Pumpkin Spice K-Cups 10-0.36 oz ea",
+      "brand": null,
+      "price": "$11.49",
+      "size": "0.36 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$11.49",
+        "Starbucks Pumpkin Spice K-Cups 10-0.36 oz ea",
+        "3.6 oz"
+      ]
+    },
+    {
+      "name": "Starbucks Pumpkin Spice Latte Creamer, 28 fl. oz. Bottle",
+      "brand": null,
+      "price": "$5.98",
+      "size": "28 fl. oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$5.98",
+        "Starbucks Pumpkin Spice Latte Creamer, 28 fl. oz. Bottle",
+        "28 fl. oz"
+      ]
+    },
+    {
+      "name": "Thomas' Pumpkin Spice Bagels, 6 count, 18 oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "6 count",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.99",
+        "$5.49",
+        "Thomas' Pumpkin Spice Bagels, 6 count, 18 oz",
+        "6 ea Bag"
+      ]
+    },
+    {
+      "name": "Pumpkin Sunshine Flower Arrangement",
+      "brand": "Starting at",
+      "price": "$60.00",
+      "size": "1 ct",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Starting at",
+        "$60.00",
+        "Pumpkin Sunshine Flower Arrangement",
+        "1 ct"
+      ]
+    },
+    {
+      "name": "Pumpkin Bars Cream Cheese Iced, 6Ct",
+      "brand": null,
+      "price": "$6.99",
+      "size": "6Ct",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$6.99",
+        "Pumpkin Bars Cream Cheese Iced, 6Ct",
+        "18 oz"
+      ]
+    },
+    {
+      "name": "Brach's Classic Candy Corn",
+      "brand": null,
+      "price": "$3.49",
+      "size": "11 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/8934/Brachs-Classic-Candy-Corn",
+      "card_text": [
+        "$3.49",
+        "Brach's Classic Candy Corn",
+        "11 oz",
+        "SNAP"
+      ]
+    },
+    {
+      "name": "Coffee mate Pumpkin Spice Flavored Creamer, Liquid Coffee Creamer Zero Sugar, Fall Creamer",
+      "brand": null,
+      "price": "$3.98",
+      "size": "32 fl. oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.98",
+        "Coffee mate Pumpkin Spice Flavored Creamer, Liquid Coffee Creamer Zero Sugar, Fall Creamer",
+        "32 fl. oz"
+      ]
+    },
+    {
+      "name": "Chobani Coffee Creamer Limited Batch Pumpkin Spice 24 fl oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "24 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$5.99",
+        "Chobani Coffee Creamer Limited Batch Pumpkin Spice 24 fl oz",
+        "24 fl oz"
+      ]
+    },
+    {
+      "name": "Musselman's 100% Apple Cider",
+      "brand": null,
+      "price": "$8.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$8.99",
+        "Musselman's 100% Apple Cider",
+        "128 floz"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chicken With Carrots And Peas, Fresh Dog Food, Ready-To-Serve, 5-Lb Roll",
+      "brand": null,
+      "price": "$16.78",
+      "size": "5 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$16.78",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chicken With Carrots And Peas, Fresh Dog Food, Ready-To-Serve, 5-Lb Roll",
+        "5 lb"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chicken With Carrots And Peas, Fresh Dog Food, Ready-To-Serve, 5-Lb Roll",
+      "brand": null,
+      "price": "$16.78",
+      "size": "5 lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134694/Blue-Buffalo-Love-Made-Fresh-Natural-Adult-Dog-Food-Refrigerated-Chicken-With-Carrots-And-Peas-Fresh-Dog-Food-ReadyToServe-5Lb-Roll",
+      "card_text": [
+        "$16.78",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chicken With Carrots And Peas, Fresh Dog Food, Ready-To-Serve, 5-Lb Roll",
+        "5 lb",
+        "Save $1.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Beef With Carrots And Peas",
+      "brand": null,
+      "price": "$19.99",
+      "size": "5 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$19.99",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Beef With Carrots And Peas",
+        "5 lb"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Beef With Carrots And Peas",
+      "brand": null,
+      "price": "$19.99",
+      "size": "5 lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134695/Blue-Buffalo-Love-Made-Fresh-Natural-Adult-Dog-Food-Refrigerated-Beef-With-Carrots-And-Peas",
+      "card_text": [
+        "$19.99",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Beef With Carrots And Peas",
+        "5 lb",
+        "Save $1.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chicken With Carrots And Peas, Fresh Dog Food, Ready-To-Serve, 1-Lb Roll",
+      "brand": null,
+      "price": "$3.48",
+      "size": "1 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.48",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chicken With Carrots And Peas, Fresh Dog Food, Ready-To-Serve, 1-Lb Roll",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chicken With Carrots And Peas, Fresh Dog Food, Ready-To-Serve, 1-Lb Roll",
+      "brand": null,
+      "price": "$3.48",
+      "size": "1 lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134696/Blue-Buffalo-Love-Made-Fresh-Natural-Adult-Dog-Food-Refrigerated-Chicken-With-Carrots-And-Peas-Fresh-Dog-Food-ReadyToServe-1Lb-Roll",
+      "card_text": [
+        "$3.48",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chicken With Carrots And Peas, Fresh Dog Food, Ready-To-Serve, 1-Lb Roll",
+        "1 lb",
+        "Save $1.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Beef With Carrots And Peas",
+      "brand": null,
+      "price": "$4.98",
+      "size": "1 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.98",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Beef With Carrots And Peas",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Beef With Carrots And Peas",
+      "brand": null,
+      "price": "$4.98",
+      "size": "1 lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134697/Blue-Buffalo-Love-Made-Fresh-Natural-Adult-Dog-Food-Refrigerated-Beef-With-Carrots-And-Peas",
+      "card_text": [
+        "$4.98",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Beef With Carrots And Peas",
+        "1 lb",
+        "Save $1.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Breed Adult Dogs, Refrigerated , Chicken With Carrots And Peas",
+      "brand": null,
+      "price": "$6.99",
+      "size": "1 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$6.99",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Breed Adult Dogs, Refrigerated , Chicken With Carrots And Peas",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Breed Adult Dogs, Refrigerated , Chicken With Carrots And Peas",
+      "brand": null,
+      "price": "$6.99",
+      "size": "1 lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134698/Blue-Buffalo-Love-Made-Fresh-Natural-Adult-Dog-Food-For-Small-Breed-Adult-Dogs-Refrigerated-Chicken-With-Carrots-And-Peas",
+      "card_text": [
+        "$6.99",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Breed Adult Dogs, Refrigerated , Chicken With Carrots And Peas",
+        "1 lb",
+        "Save $1.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Dogs, Refrigerated, Beef With Carrots And Peas",
+      "brand": null,
+      "price": "$7.49",
+      "size": "1 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$7.49",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Dogs, Refrigerated, Beef With Carrots And Peas",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Dogs, Refrigerated, Beef With Carrots And Peas",
+      "brand": null,
+      "price": "$7.49",
+      "size": "1 lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134699/Blue-Buffalo-Love-Made-Fresh-Natural-Adult-Dog-Food-For-Small-Dogs-Refrigerated-Beef-With-Carrots-And-Peas",
+      "card_text": [
+        "$7.49",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Dogs, Refrigerated, Beef With Carrots And Peas",
+        "1 lb",
+        "Save $1.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+      "brand": null,
+      "price": "$11.48",
+      "size": "32 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$11.48",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+        "32 oz"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+      "brand": null,
+      "price": "$11.48",
+      "size": "32 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134701/Blue-Buffalo-Love-Made-Fresh-Natural-Adult-Dog-Food-Refrigerated-Chunky-Chicken-Stew-With-Carrots-And-Peas",
+      "card_text": [
+        "$11.48",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+        "32 oz",
+        "SAVE $2.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Beef Stew With Carrots And Peas",
+      "brand": null,
+      "price": "$6.98",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$6.98",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Beef Stew With Carrots And Peas",
+        "16 oz"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Beef Stew With Carrots And Peas",
+      "brand": null,
+      "price": "$6.98",
+      "size": "16 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134702/Blue-Buffalo-Love-Made-Fresh-Natural-Adult-Dog-Food-Refrigerated-Chunky-Beef-Stew-With-Carrots-And-Peas",
+      "card_text": [
+        "$6.98",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Beef Stew With Carrots And Peas",
+        "16 oz",
+        "SAVE $2.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+      "brand": null,
+      "price": "$5.98",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$5.98",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+        "16 oz"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+      "brand": null,
+      "price": "$5.98",
+      "size": "16 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134703/Blue-Buffalo-Love-Made-Fresh-Natural-Adult-Dog-Food-Refrigerated-Chunky-Chicken-Stew-With-Carrots-And-Peas",
+      "card_text": [
+        "$5.98",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+        "16 oz",
+        "SAVE $2.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Breed Adult Dogs, Refrigerated, Chunky Beef Stew With Carrots And Peas",
+      "brand": null,
+      "price": "$10.99",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$10.99",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Breed Adult Dogs, Refrigerated, Chunky Beef Stew With Carrots And Peas",
+        "16 oz"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Breed Adult Dogs, Refrigerated, Chunky Beef Stew With Carrots And Peas",
+      "brand": null,
+      "price": "$10.99",
+      "size": "16 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134704/Blue-Buffalo-Love-Made-Fresh-Natural-Adult-Dog-Food-For-Small-Breed-Adult-Dogs-Refrigerated-Chunky-Beef-Stew-With-Carrots-And-Peas",
+      "card_text": [
+        "$10.99",
+        "Blue Buffalo Love Made Fresh Natural Adult Dog Food For Small Breed Adult Dogs, Refrigerated, Chunky Beef Stew With Carrots And Peas",
+        "16 oz",
+        "SAVE $2.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Dog Food For Small Breed Adult Dogs, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+      "brand": null,
+      "price": "$9.98",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.98",
+        "Blue Buffalo Love Made Fresh Natural Dog Food For Small Breed Adult Dogs, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+        "16 oz"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Natural Dog Food For Small Breed Adult Dogs, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+      "brand": null,
+      "price": "$9.98",
+      "size": "16 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4134705/Blue-Buffalo-Love-Made-Fresh-Natural-Dog-Food-For-Small-Breed-Adult-Dogs-Refrigerated-Chunky-Chicken-Stew-With-Carrots-And-Peas",
+      "card_text": [
+        "$9.98",
+        "Blue Buffalo Love Made Fresh Natural Dog Food For Small Breed Adult Dogs, Refrigerated, Chunky Chicken Stew With Carrots And Peas",
+        "16 oz",
+        "SAVE $2.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Small Breed Adult Dog Food, Natural Ingredients, Resealable Standup Pouch 1lb",
+      "brand": null,
+      "price": "$6.98",
+      "size": "1lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$6.98",
+        "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Small Breed Adult Dog Food, Natural Ingredients, Resealable Standup Pouch 1lb",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Small Breed Adult Dog Food, Natural Ingredients, Resealable Standup Pouch 1lb",
+      "brand": null,
+      "price": "$6.98",
+      "size": "1lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4213322/Blue-Buffalo-Love-Made-Fresh-Fully-Cooked-Chicken-Meatball-Refrigerated-Small-Breed-Adult-Dog-Food-Natural-Ingredients-Resealable-Standup-Pouch-1lb",
+      "card_text": [
+        "$6.98",
+        "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Small Breed Adult Dog Food, Natural Ingredients, Resealable Standup Pouch 1lb",
+        "1 lb",
+        "SAVE $2.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Fully Cooked Beef Meatball Refrigerated Small Breed Adult Dog Food, Natural Ingredients, Resealable Standup Pouch 1lb",
+      "brand": null,
+      "price": "$8.48",
+      "size": "1lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$8.48",
+        "Blue Buffalo Love Made Fresh Fully Cooked Beef Meatball Refrigerated Small Breed Adult Dog Food, Natural Ingredients, Resealable Standup Pouch 1lb",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Fully Cooked Beef Meatball Refrigerated Small Breed Adult Dog Food, Natural Ingredients, Resealable Standup Pouch 1lb",
+      "brand": null,
+      "price": "$8.48",
+      "size": "1lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4212991/Blue-Buffalo-Love-Made-Fresh-Fully-Cooked-Beef-Meatball-Refrigerated-Small-Breed-Adult-Dog-Food-Natural-Ingredients-Resealable-Standup-Pouch-1lb",
+      "card_text": [
+        "$8.48",
+        "Blue Buffalo Love Made Fresh Fully Cooked Beef Meatball Refrigerated Small Breed Adult Dog Food, Natural Ingredients, Resealable Standup Pouch 1lb",
+        "1 lb",
+        "SAVE $2.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Adult Dog Food, Made with Natural Ingredients, Resealable Standup Pouch 1.5lb",
+      "brand": null,
+      "price": "$8.98",
+      "size": "1.5lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$8.98",
+        "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Adult Dog Food, Made with Natural Ingredients, Resealable Standup Pouch 1.5lb",
+        "1.5 lb"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Adult Dog Food, Made with Natural Ingredients, Resealable Standup Pouch 1.5lb",
+      "brand": null,
+      "price": "$8.98",
+      "size": "1.5lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4213321/Blue-Buffalo-Love-Made-Fresh-Fully-Cooked-Chicken-Meatball-Refrigerated-Adult-Dog-Food-Made-with-Natural-Ingredients-Resealable-Standup-Pouch-15lb",
+      "card_text": [
+        "$8.98",
+        "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Adult Dog Food, Made with Natural Ingredients, Resealable Standup Pouch 1.5lb",
+        "1.5 lb",
+        "SAVE $2.00"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Adult Dog Food, Made with Natural Ingredients, Resealable Standup Pouch 4lb",
+      "brand": null,
+      "price": "$17.98",
+      "size": "4lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$17.98",
+        "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Adult Dog Food, Made with Natural Ingredients, Resealable Standup Pouch 4lb",
+        "4 lb"
+      ]
+    },
+    {
+      "name": "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Adult Dog Food, Made with Natural Ingredients, Resealable Standup Pouch 4lb",
+      "brand": null,
+      "price": "$17.98",
+      "size": "4lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4213324/Blue-Buffalo-Love-Made-Fresh-Fully-Cooked-Chicken-Meatball-Refrigerated-Adult-Dog-Food-Made-with-Natural-Ingredients-Resealable-Standup-Pouch-4lb",
+      "card_text": [
+        "$17.98",
+        "Blue Buffalo Love Made Fresh Fully Cooked Chicken Meatball Refrigerated Adult Dog Food, Made with Natural Ingredients, Resealable Standup Pouch 4lb",
+        "4 lb",
+        "SAVE $2.00"
+      ]
+    },
+    {
+      "name": "Michelob ULTRA ZERO Non-Alcoholic American Lager Beer, 12 Pack, 12 fl oz Cans",
+      "brand": null,
+      "price": "$15.99",
+      "size": "12 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$15.99",
+        "$16.99",
+        "Michelob ULTRA ZERO Non-Alcoholic American Lager Beer, 12 Pack, 12 fl oz Cans",
+        "144 fl. oz"
+      ]
+    },
+    {
+      "name": "Budweiser Zero, 12Pk Cans",
+      "brand": null,
+      "price": "$14.99",
+      "size": "12 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$14.99",
+        "$16.99",
+        "Budweiser Zero, 12Pk Cans",
+        "12 fl oz"
+      ]
+    },
+    {
+      "name": "FRE Chardonnay White Wine, Alcohol-Removed",
+      "brand": null,
+      "price": "$9.99",
+      "size": "25.4 ml",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.99",
+        "FRE Chardonnay White Wine, Alcohol-Removed",
+        "25.4 ml"
+      ]
+    },
+    {
+      "name": "Guinness 0 Draught Non-Alcoholic Import Beer, 4 pack Cans, 14.9 fl oz, less than 0.5% ABV",
+      "brand": null,
+      "price": "$8.99",
+      "size": "14.9 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$8.99",
+        "$9.99",
+        "Guinness 0 Draught Non-Alcoholic Import Beer, 4 pack Cans, 14.9 fl oz, less than 0.5% ABV",
+        "14.9 fl. oz"
+      ]
+    },
+    {
+      "name": "FRE Cabernet Sauvignon Red Wine, Alcohol-Removed",
+      "brand": null,
+      "price": "$9.99",
+      "size": "750 ml",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.99",
+        "FRE Cabernet Sauvignon Red Wine, Alcohol-Removed",
+        "750 ml"
+      ]
+    },
+    {
+      "name": "Fre Moscato White Wine",
+      "brand": null,
+      "price": "$9.87",
+      "size": "750 ml",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.87",
+        "$9.99",
+        "Fre Moscato White Wine",
+        "750 ml"
+      ]
+    },
+    {
+      "name": "FRE Sparkling Brut Wine, Alcohol-Removed",
+      "brand": null,
+      "price": "$9.99",
+      "size": "750 ml",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.99",
+        "$10.99",
+        "FRE Sparkling Brut Wine, Alcohol-Removed",
+        "750 ml"
+      ]
+    },
+    {
+      "name": "FRE Red Wine Blend, Alcohol-Removed",
+      "brand": null,
+      "price": "$9.99",
+      "size": "750 ml",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.99",
+        "FRE Red Wine Blend, Alcohol-Removed",
+        "750 ml"
+      ]
+    },
+    {
+      "name": "Fre Sauvignon Blanc, California, Alcohol Removed Wine",
+      "brand": null,
+      "price": "$9.87",
+      "size": "750 ml",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.87",
+        "$9.99",
+        "Fre Sauvignon Blanc, California, Alcohol Removed Wine",
+        "750 ml"
+      ]
+    },
+    {
+      "name": "FRE Pinot Grigio White Wine, Alcohol-Removed",
+      "brand": null,
+      "price": "$9.99",
+      "size": "750 ml",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.99",
+        "FRE Pinot Grigio White Wine, Alcohol-Removed",
+        "750 ml Bottle"
+      ]
+    },
+    {
+      "name": "FRE Merlot Red Wine, Alcohol-Removed",
+      "brand": null,
+      "price": "$9.87",
+      "size": "750 ml",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.87",
+        "$9.99",
+        "FRE Merlot Red Wine, Alcohol-Removed",
+        "750 ml"
+      ]
+    },
+    {
+      "name": "Naked Life Margarita 4 Pack",
+      "brand": null,
+      "price": "$8.99",
+      "size": "33.6 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$8.99",
+        "$9.99",
+        "Naked Life Margarita 4 Pack",
+        "33.6 oz"
+      ]
+    },
+    {
+      "name": "Hiyo Organic Blackberry Lemon Non-Alcoholic Social Tonic, 4Pk",
+      "brand": null,
+      "price": "$12.97",
+      "size": "355 ml",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$12.97",
+        "$14.99",
+        "Hiyo Organic Blackberry Lemon Non-Alcoholic Social Tonic, 4Pk",
+        "355 ml"
+      ]
+    },
+    {
+      "name": "Pesche Unwind Tart Cherry Shirley",
+      "brand": null,
+      "price": "$3.99",
+      "size": "12 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.99",
+        "Pesche Unwind Tart Cherry Shirley",
+        "12 fl oz"
+      ]
+    },
+    {
+      "name": "FRE Alcohol-Removed Rosé Wine",
+      "brand": null,
+      "price": "$9.87",
+      "size": "750 ml",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.87",
+        "$9.99",
+        "FRE Alcohol-Removed Rosé Wine",
+        "750 ml"
+      ]
+    },
+    {
+      "name": "Pesche Kickback Strawberry Mint Mojito",
+      "brand": null,
+      "price": "$3.99",
+      "size": "12 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.99",
+        "Pesche Kickback Strawberry Mint Mojito",
+        "12 fl oz"
+      ]
+    },
+    {
+      "name": "Blue Moon Non-Alcoholic Belgian White Craft 12 Pack",
+      "brand": null,
+      "price": "$18.99",
+      "size": "144 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$18.99",
+        "$19.99",
+        "Blue Moon Non-Alcoholic Belgian White Craft 12 Pack",
+        "144 oz"
+      ]
+    },
+    {
+      "name": "Pesche Lift Peach Mango Marg",
+      "brand": null,
+      "price": "$3.99",
+      "size": "12 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.99",
+        "Pesche Lift Peach Mango Marg",
+        "12 fl oz"
+      ]
+    },
+    {
+      "name": "FRE White Zinfandel, Alcohol-Removed",
+      "brand": null,
+      "price": "$9.87",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.87",
+        "$9.99",
+        "FRE White Zinfandel, Alcohol-Removed",
+        "750 floz"
+      ]
+    },
+    {
+      "name": "Naked Life Mojito 4 Pack",
+      "brand": null,
+      "price": "$8.99",
+      "size": "33.6 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$8.99",
+        "$9.99",
+        "Naked Life Mojito 4 Pack",
+        "33.6 oz"
+      ]
+    },
+    {
+      "name": "Rao's Homemade Marinara Sauce Made with Italian Tomatoes, 24 oz",
+      "brand": null,
+      "price": "$7.52",
+      "size": "24 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$7.52",
+        "Rao's Homemade Marinara Sauce Made with Italian Tomatoes, 24 oz",
+        "24 oz"
+      ]
+    },
+    {
+      "name": "Rao's Homemade Tomato Basil Sauce Made with Italian Tomatoes, 24 oz",
+      "brand": null,
+      "price": "$7.52",
+      "size": "24 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$7.52",
+        "Rao's Homemade Tomato Basil Sauce Made with Italian Tomatoes, 24 oz",
+        "24 oz"
+      ]
+    },
+    {
+      "name": "Rao's Homemade Alfredo Sauce, 15 oz",
+      "brand": null,
+      "price": "$7.52",
+      "size": "15 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$7.52",
+        "Rao's Homemade Alfredo Sauce, 15 oz",
+        "15 oz"
+      ]
+    },
+    {
+      "name": "Gustare Vita Double Concentrated Tomato Paste 4.5 oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "4.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.49",
+        "Gustare Vita Double Concentrated Tomato Paste 4.5 oz",
+        "4.5 oz"
+      ]
+    },
+    {
+      "name": "Gustare Vita Pizza Sauce",
+      "brand": null,
+      "price": "$3.49",
+      "size": "12.5 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/2670323/Gustare-Vita-Pizza-Sauce",
+      "card_text": [
+        "$3.49",
+        "Gustare Vita Pizza Sauce",
+        "12.5 oz",
+        "SNAP",
+        "1¢ off / gal."
+      ]
+    },
+    {
+      "name": "Barilla Rustic Basil Pesto Sauce - Imported From Italy - Made with Fragrant Italian Basil & Freshly Grated Italian Cheeses - Pasta Sauce, Pizza Sauce & More",
+      "brand": null,
+      "price": "$4.79",
+      "size": "6.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.79",
+        "Barilla Rustic Basil Pesto Sauce - Imported From Italy - Made with Fragrant Italian Basil & Freshly Grated Italian Cheeses - Pasta Sauce, Pizza Sauce & More",
+        "6.5 oz"
+      ]
+    },
+    {
+      "name": "Gustare Vita Marinated Sundried Tomatoes 11.3 oz",
+      "brand": null,
+      "price": "$6.49",
+      "size": "11.3 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$6.49",
+        "Gustare Vita Marinated Sundried Tomatoes 11.3 oz",
+        "11.3 oz"
+      ]
+    },
+    {
+      "name": "Gustare Vita Capers",
+      "brand": null,
+      "price": "$3.29",
+      "size": "3.5 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/2665396/Gustare-Vita-Capers",
+      "card_text": [
+        "$3.29",
+        "Gustare Vita Capers",
+        "3.5 oz",
+        "SNAP",
+        "1¢ off / gal."
+      ]
+    },
+    {
+      "name": "Rao's Homemade Marinara Sauce Made with Italian Tomatoes, 32 oz",
+      "brand": null,
+      "price": "$9.64",
+      "size": "32 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.64",
+        "Rao's Homemade Marinara Sauce Made with Italian Tomatoes, 32 oz",
+        "32 oz"
+      ]
+    },
+    {
+      "name": "Good Grace Gluten Free Spaghetti Pasta",
+      "brand": null,
+      "price": "$2.99",
+      "size": "12 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.99",
+        "Good Grace Gluten Free Spaghetti Pasta",
+        "12 oz"
+      ]
+    },
+    {
+      "name": "Good Graces Gluten Free Rotini",
+      "brand": null,
+      "price": "$2.99",
+      "size": "12 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.99",
+        "Good Graces Gluten Free Rotini",
+        "12 oz"
+      ]
+    },
+    {
+      "name": "Good Graces Gluten Free Elbows Pasta",
+      "brand": null,
+      "price": "$2.99",
+      "size": "12 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.99",
+        "Good Graces Gluten Free Elbows Pasta",
+        "12 oz"
+      ]
+    },
+    {
+      "name": "Cento Whole Peeled Tomatoes with Basil Leaf 28 oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "28 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$5.99",
+        "Cento Whole Peeled Tomatoes with Basil Leaf 28 oz",
+        "28 oz"
+      ]
+    },
+    {
+      "name": "Gustare Vita Tomato Basil Pasta Sauce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "17.6 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.99",
+        "Gustare Vita Tomato Basil Pasta Sauce",
+        "17.6 oz"
+      ]
+    },
+    {
+      "name": "Mutti Double Concentrated Tomato Paste",
+      "brand": null,
+      "price": "$3.69",
+      "size": "4.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.69",
+        "Mutti Double Concentrated Tomato Paste",
+        "4.5 oz"
+      ]
+    },
+    {
+      "name": "Gustare Vita Extra Virgin Olive Oil",
+      "brand": null,
+      "price": "$10.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$10.99",
+        "Gustare Vita Extra Virgin Olive Oil",
+        "17 floz"
+      ]
+    },
+    {
+      "name": "Gustare Vita Balsamic Glaze",
+      "brand": null,
+      "price": "$4.99",
+      "size": "8.5 fl oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.99",
+        "Gustare Vita Balsamic Glaze",
+        "8.5 fl oz"
+      ]
+    },
+    {
+      "name": "Gustare Vita Balsamic Vinegar of Modena",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.99",
+        "Gustare Vita Balsamic Vinegar of Modena",
+        "17 floz"
+      ]
+    },
+    {
+      "name": "Fresh Pork Loin America's Cut Chop",
+      "brand": null,
+      "price": "$2.50",
+      "size": "8 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.50",
+        "$3.00",
+        "Fresh Pork Loin America's Cut Chop",
+        "8 oz"
+      ]
+    },
+    {
+      "name": "Pork Loin Boneless Butterfly Chop",
+      "brand": null,
+      "price": "$2.50",
+      "size": "8 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.50",
+        "$3.00",
+        "Pork Loin Boneless Butterfly Chop",
+        "8 oz"
+      ]
+    },
+    {
+      "name": "Chobani Flip Low-Fat Cookie Dough Greek Yogurt 4.5oz",
+      "brand": null,
+      "price": "$1.79",
+      "size": "4.5oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1.79",
+        "Chobani Flip Low-Fat Cookie Dough Greek Yogurt 4.5oz",
+        "4.5 oz"
+      ]
+    },
+    {
+      "name": "Sourdough Artisan Bread",
+      "brand": null,
+      "price": "$4.99",
+      "size": "24 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/292682/Sourdough-Artisan-Bread",
+      "card_text": [
+        "$4.99",
+        "Sourdough Artisan Bread",
+        "24 oz",
+        "SNAP",
+        "5¢ off / gal."
+      ]
+    },
+    {
+      "name": "Bacon Cheddar Chicken Griller",
+      "brand": null,
+      "price": "$4.99",
+      "size": "8 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/294051/Bacon-Cheddar-Chicken-Griller",
+      "card_text": [
+        "$4.99",
+        "Bacon Cheddar Chicken Griller",
+        "8 oz",
+        "SNAP",
+        "5¢ off / gal."
+      ]
+    },
+    {
+      "name": "Artisan Roasted Garlic Sour Dough Bread",
+      "brand": null,
+      "price": "$4.99",
+      "size": "24 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.99",
+        "$5.99",
+        "Artisan Roasted Garlic Sour Dough Bread",
+        "24 oz Loaf"
+      ]
+    },
+    {
+      "name": "BBQ Boneless Chicken Bites (Heat & Eat)",
+      "brand": null,
+      "price": "$8.99",
+      "size": "1 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$8.99 ea.",
+        "BBQ Boneless Chicken Bites (Heat & Eat)",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "Pretzel Bites with Cheese Dip Tray, Small",
+      "brand": null,
+      "price": "$16.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$16.00",
+        "Pretzel Bites with Cheese Dip Tray, Small",
+        "12 in Tray"
+      ]
+    },
+    {
+      "name": "General Mills Cheerios Protein Honey Nut Breakfast Cereal, Large Size",
+      "brand": null,
+      "price": "$5.49",
+      "size": "11.2 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$5.49",
+        "General Mills Cheerios Protein Honey Nut Breakfast Cereal, Large Size",
+        "11.2 oz"
+      ]
+    },
+    {
+      "name": "General Mills Cheerios Protein Honey Nut Breakfast Cereal, Large Size",
+      "brand": null,
+      "price": "$5.49",
+      "size": "11.2 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/4230235/General-Mills-Cheerios-Protein-Honey-Nut-Breakfast-Cereal-Large-Size",
+      "card_text": [
+        "$5.49",
+        "General Mills Cheerios Protein Honey Nut Breakfast Cereal, Large Size",
+        "11.2 oz",
+        "3¢ off / gal.",
+        "$1.00 OFF"
+      ]
+    },
+    {
+      "name": "Gustare Vita Fettuccine Alfredo",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$5.49",
+        "Gustare Vita Fettuccine Alfredo",
+        "16 oz"
+      ]
+    },
+    {
+      "name": "Smash Kitchen Organic Classic Tomato Ketchup",
+      "brand": null,
+      "price": "$3.99",
+      "size": "15 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.99",
+        "$4.99",
+        "Smash Kitchen Organic Classic Tomato Ketchup",
+        "15 oz"
+      ]
+    },
+    {
+      "name": "ARTISAN BAKER WHITE BREAD 14.1 OZ",
+      "brand": null,
+      "price": "$6.29",
+      "size": "14.1 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$6.29",
+        "ARTISAN BAKER WHITE BREAD 14.1 OZ",
+        "14.1 oz Bag"
+      ]
+    },
+    {
+      "name": "Ramen Bae Spicy Garlic Dried Ramen Topping Mix",
+      "brand": null,
+      "price": "$9.99",
+      "size": "6 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.99",
+        "Ramen Bae Spicy Garlic Dried Ramen Topping Mix",
+        "6 oz Bag"
+      ]
+    },
+    {
+      "name": "Barilla Al Bronzo Organic Bucatini Pasta",
+      "brand": null,
+      "price": "$2.00",
+      "size": "1 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.00",
+        "$3.99",
+        "Barilla Al Bronzo Organic Bucatini Pasta",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "Hy-Vee True All Natural Cage Free Boneless Skinless Chicken Breast",
+      "brand": null,
+      "price": "$6.59",
+      "size": "1 lb",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$6.59 ea.",
+        "$7.14 ea.",
+        "Hy-Vee True All Natural Cage Free Boneless Skinless Chicken Breast",
+        "1 lb"
+      ]
+    },
+    {
+      "name": "Chunk Pineapple",
+      "brand": null,
+      "price": "$6.49",
+      "size": "1 lb",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/76047/Chunk-Pineapple",
+      "card_text": [
+        "$6.49 ea.",
+        "Chunk Pineapple",
+        "1 lb",
+        "SNAP",
+        "5¢ off / gal."
+      ]
+    },
+    {
+      "name": "Cowboy Chicken Griller",
+      "brand": null,
+      "price": "$4.99",
+      "size": "8 oz",
+      "img": null,
+      "link": "https://www.hy-vee.com/aisles-online/p/65807/Cowboy-Chicken-Griller",
+      "card_text": [
+        "$4.99",
+        "Cowboy Chicken Griller",
+        "8 oz",
+        "SNAP",
+        "5¢ off / gal."
+      ]
+    },
+    {
+      "name": "Chobani Flip Greek Chocolate Covered Strawberry Yogurt 4.5 oz",
+      "brand": null,
+      "price": "$1.79",
+      "size": "4.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$1.79",
+        "Chobani Flip Greek Chocolate Covered Strawberry Yogurt 4.5 oz",
+        "4.5 oz"
+      ]
+    }
+  ],
+  "raw_text_chars": 13776,
+  "steps": [
+    "18:17:43 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:17:52 connected to Bright Data Scraping Browser",
+    "18:18:02 goto https://www.hy-vee.com/aisles-online/search?q=salsa",
+    "18:18:10 captcha check passed",
+    "18:18:22 dismiss: nothing to close",
+    "18:18:22 press Escape",
+    "18:18:25 scrolled x2",
+    "18:18:29 scrolled x2",
+    "18:18:33 scrolled x2",
+    "18:18:35 store_set: null",
+    "18:18:36 extracted 132 houses; raw text 13776 chars"
+  ],
+  "error": null
+}

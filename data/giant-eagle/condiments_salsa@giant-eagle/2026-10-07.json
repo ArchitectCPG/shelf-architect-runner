@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@giant-eagle",
+  "retailer": "giant-eagle",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:16:21.785Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.gianteagle.com/grocery/search?q=salsa",
+  "houses": [],
+  "raw_text_chars": 4788,
+  "steps": [
+    "18:16:21 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:16:22 connected to Bright Data Scraping Browser",
+    "18:16:26 goto https://www.gianteagle.com/grocery/search?q=salsa",
+    "18:16:34 captcha check passed",
+    "18:17:41 dismissed \"Close\"",
+    "18:17:42 press Escape",
+    "18:17:44 scrolled x2",
+    "18:17:48 scrolled x2",
+    "18:17:52 scrolled x2",
+    "18:17:54 store_set: null",
+    "18:17:55 extracted 0 houses; raw text 4788 chars"
+  ],
+  "error": null
+}

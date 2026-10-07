@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@naturalgrocers",
+  "retailer": "naturalgrocers",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:19:20.014Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.naturalgrocers.com/search?keys=salsa",
+  "houses": [],
+  "raw_text_chars": 61,
+  "steps": [
+    "18:19:20 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:19:21 connected to Bright Data Scraping Browser",
+    "18:19:27 goto https://www.naturalgrocers.com/search?keys=salsa",
+    "18:19:35 captcha check passed",
+    "18:19:47 dismiss: nothing to close",
+    "18:19:47 press Escape",
+    "18:19:49 scrolled x2",
+    "18:19:53 scrolled x2",
+    "18:19:57 scrolled x2",
+    "18:20:00 store_set: null",
+    "18:20:00 extracted 0 houses; raw text 61 chars"
+  ],
+  "error": null
+}

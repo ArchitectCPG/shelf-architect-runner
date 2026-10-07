@@ -1,0 +1,20 @@
+{
+  "block_id": "condiments/salsa@cvs",
+  "retailer": "cvs",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:13:44.525Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "18:13:44 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:13:45 connected to Bright Data Scraping Browser",
+    "18:15:09 ERROR Error: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.cvs.com/search?searchTerm=salsa\nCall log:\n  - navigating to \"https://www.cvs.com/search?searchTerm=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://www.cvs.com/search?searchTerm=salsa\nCall log:\n  - navigating to \"https://www.cvs.com/search?searchTerm=salsa\", waiting until \"domcontentloaded\"\n"
+}

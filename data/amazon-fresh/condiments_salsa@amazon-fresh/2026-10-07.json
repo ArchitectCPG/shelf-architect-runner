@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@amazon-fresh",
+  "retailer": "amazon-fresh",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:13:16.023Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.amazon.com/s?k=salsa&i=amazonfresh",
+  "houses": [],
+  "raw_text_chars": 4898,
+  "steps": [
+    "18:13:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:13:16 connected to Bright Data Scraping Browser",
+    "18:13:24 goto https://www.amazon.com/s?k=salsa&i=amazonfresh",
+    "18:13:32 captcha check passed",
+    "18:13:41 dismissed \"Close\"",
+    "18:13:42 press Escape",
+    "18:13:44 scrolled x2",
+    "18:13:48 scrolled x2",
+    "18:13:52 scrolled x2",
+    "18:13:54 store_set: null",
+    "18:13:54 extracted 0 houses; raw text 4898 chars"
+  ],
+  "error": null
+}

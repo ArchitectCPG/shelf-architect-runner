@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@thefreshmarket",
+  "retailer": "thefreshmarket",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:24:13.703Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": "Search...",
+  "url_final": "https://www.thefreshmarket.com/search?q=salsa",
+  "houses": [],
+  "raw_text_chars": 8467,
+  "steps": [
+    "18:24:13 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:24:14 connected to Bright Data Scraping Browser",
+    "18:24:28 goto https://www.thefreshmarket.com/search?q=salsa",
+    "18:24:37 captcha check passed",
+    "18:25:43 dismissed \"Close\"",
+    "18:25:43 press Escape",
+    "18:25:45 scrolled x2",
+    "18:25:49 scrolled x2",
+    "18:25:53 scrolled x2",
+    "18:25:55 store_set: Search...",
+    "18:25:55 extracted 0 houses; raw text 8467 chars"
+  ],
+  "error": null
+}

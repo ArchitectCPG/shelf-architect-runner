@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@shoprite",
+  "retailer": "shoprite",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:22:46.042Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.shoprite.com/sm/pickup/rsid/3000/results?q=salsa",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "18:22:46 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:22:47 connected to Bright Data Scraping Browser",
+    "18:22:53 goto https://www.shoprite.com/sm/pickup/rsid/3000/results?q=salsa",
+    "18:23:01 captcha check passed",
+    "18:23:08 dismissed \"\"",
+    "18:23:08 press Escape",
+    "18:23:10 scrolled x2",
+    "18:23:14 scrolled x2",
+    "18:23:18 scrolled x2",
+    "18:23:20 store_set: null",
+    "18:23:20 extracted 0 houses; raw text 0 chars"
+  ],
+  "error": null
+}

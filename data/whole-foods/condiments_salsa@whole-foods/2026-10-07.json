@@ -3,30 +3,339 @@
   "retailer": "whole-foods",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-07T17:56:57.661Z",
+  "pulled_at": "2026-10-07T18:26:12.272Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
-  "store_set": "Ashburn",
+  "store_set": "60615",
   "url_final": "https://www.wholefoodsmarket.com/grocery/search?k=salsa",
-  "houses": [],
-  "raw_text_chars": 1793,
+  "houses": [
+    {
+      "name": "365 By Whole Foods Market, Organic Thick & Chunky Mild Salsa, 16 Ounce",
+      "brand": "365 by Whole Foods Market",
+      "price": "$3.29",
+      "size": "16 Ounce",
+      "img": "https://m.media-amazon.com/images/I/71XnmodmCYL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "365 by Whole Foods Market",
+        "365 By Whole Foods Market, Organic Thick & Chunky Mild Salsa, 16 Ounce",
+        "$3.29"
+      ]
+    },
+    {
+      "name": "365 By Whole Foods Market, Organic Salsa, Restaurant Style Medium, 16 Ounce",
+      "brand": "365 by Whole Foods Market",
+      "price": "$3.29",
+      "size": "16 Ounce",
+      "img": "https://m.media-amazon.com/images/I/615aHl4nM5L._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "365 by Whole Foods Market",
+        "365 By Whole Foods Market, Organic Salsa, Restaurant Style Medium, 16 Ounce",
+        "$3.29"
+      ]
+    },
+    {
+      "name": "Whole Foods Market Mild Cantina Style Salsa Thick & Chunky, 16 oz",
+      "brand": "365 by Whole Foods Market",
+      "price": "$3.69",
+      "size": "16 oz",
+      "img": "https://m.media-amazon.com/images/I/819gkeffHjL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "365 by Whole Foods Market",
+        "Whole Foods Market Mild Cantina Style Salsa Thick & Chunky, 16 oz",
+        "$3.69"
+      ]
+    },
+    {
+      "name": "Salsa Medium Original, 12 Ounce",
+      "brand": "Cholula",
+      "price": "$4.79",
+      "size": "12 Ounce",
+      "img": "https://m.media-amazon.com/images/I/813yaQT8MCL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Cholula",
+        "Salsa Medium Original, 12 Ounce",
+        "$4.79"
+      ]
+    },
+    {
+      "name": "Whole Foods Market Mild Cantina Style Roasted Salsa, 16 oz",
+      "brand": "365 by Whole Foods Market",
+      "price": "$3.69",
+      "size": "16 oz",
+      "img": "https://m.media-amazon.com/images/I/819cOvzUviL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "365 by Whole Foods Market",
+        "Whole Foods Market Mild Cantina Style Roasted Salsa, 16 oz",
+        "$3.69"
+      ]
+    },
+    {
+      "name": "Rao's Homemade Marinara Sauce, 24 oz, All Purpose Tomato Sauce, Pasta Sauce, Carb Conscious, Keto Friendly, All Natural, Premium Quality, With Italian Tomatoes & Olive Oil",
+      "brand": "Rao's Homemade",
+      "price": "$9.49",
+      "size": "24 oz",
+      "img": "https://m.media-amazon.com/images/I/71ZMZeP+61L._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Rao's Homemade",
+        "Rao's Homemade Marinara Sauce, 24 oz, All Purpose Tomato Sauce, Pasta Sauce, Carb Conscious, Keto Friendly, All Natural, Premium Quality, With Italian Tomatoes & Olive Oil",
+        "8 Flavors, 4 Sizes",
+        "$9.49"
+      ]
+    },
+    {
+      "name": "365 By Whole Foods Market, Organic Thick & Chunky Medium Salsa, 16 Ounce",
+      "brand": "365 by Whole Foods Market",
+      "price": "$3.29",
+      "size": "16 Ounce",
+      "img": "https://m.media-amazon.com/images/I/81NkKvwtt0L._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "365 by Whole Foods Market",
+        "365 By Whole Foods Market, Organic Thick & Chunky Medium Salsa, 16 Ounce",
+        "$3.29"
+      ]
+    },
+    {
+      "name": "Salsa Medium Brooklyn Blend, 16 Ounce",
+      "brand": "Jalapa Jar",
+      "price": "$8.49",
+      "size": "16 Ounce",
+      "img": "https://m.media-amazon.com/images/I/817tOPVowiL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Jalapa Jar",
+        "Salsa Medium Brooklyn Blend, 16 Ounce",
+        "$8.49"
+      ]
+    },
+    {
+      "name": "Cholula Hot Sauce Original, Product of Mexico, 5 fl oz | Blend of arbol & piquin peppers with spices for eggs, rice, tacos, huevos rancheros, nachos & more",
+      "brand": "Cholula",
+      "price": "$4.99",
+      "size": "5 fl oz",
+      "img": "https://m.media-amazon.com/images/I/71Uz2j9M9dL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Cholula",
+        "Cholula Hot Sauce Original, Product of Mexico, 5 fl oz | Blend of arbol & piquin peppers with spices for eggs, rice, tacos, huevos rancheros, nachos & more",
+        "$4.99"
+      ]
+    },
+    {
+      "name": "Rao's Homemade Tomato Basil Sauce, 24 oz, Tomato Sauce, All Purpose, Keto Friendly Pasta Sauce, Premium Quality, Tomatoes from Italy and Basil",
+      "brand": "Rao's Homemade",
+      "price": "$9.49",
+      "size": "24 oz",
+      "img": "https://m.media-amazon.com/images/I/71SlzvU145L._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Rao's Homemade",
+        "Rao's Homemade Tomato Basil Sauce, 24 oz, Tomato Sauce, All Purpose, Keto Friendly Pasta Sauce, Premium Quality, Tomatoes from Italy and Basil",
+        "8 Flavors, 4 Sizes",
+        "$9.49"
+      ]
+    },
+    {
+      "name": "Medium Cantina Style Salsa, 16 oz",
+      "brand": "365 by Whole Foods Market",
+      "price": "$3.69",
+      "size": "16 oz",
+      "img": "https://m.media-amazon.com/images/I/81F4vlLI8aL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "365 by Whole Foods Market",
+        "Medium Cantina Style Salsa, 16 oz",
+        "1 Flavors, 1 Sizes",
+        "$3.69"
+      ]
+    },
+    {
+      "name": "Frontera, Salsa Double Roasted Tomato Medium, 16 Ounce | Double Roasted Tomato Medium Salsa; gluten-free; 0g added sugar; fits a low carb lifestyle; great for dipping & marinades",
+      "brand": "frontera",
+      "price": "$3.75",
+      "size": "16 Ounce",
+      "img": "https://m.media-amazon.com/images/I/71UiN4BCG7L._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "frontera",
+        "Frontera, Salsa Double Roasted Tomato Medium, 16 Ounce | Double Roasted Tomato Medium Salsa; gluten-free; 0g added sugar; fits a low carb lifestyle; great for dipping & marinades",
+        "$3.75"
+      ]
+    },
+    {
+      "name": "Whole Foods Market Mango Salsa, 15.25 OZ",
+      "brand": "Whole Foods Market",
+      "price": "$4.69",
+      "size": "15.25 OZ",
+      "img": "https://m.media-amazon.com/images/I/61UVYS+1bBL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Whole Foods Market",
+        "Whole Foods Market Mango Salsa, 15.25 OZ",
+        "$4.69"
+      ]
+    },
+    {
+      "name": "Salsa Mild Verde, 12 Ounce",
+      "brand": "Cholula",
+      "price": "$4.79",
+      "size": "12 Ounce",
+      "img": "https://m.media-amazon.com/images/I/81m5yaHsOPL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Cholula",
+        "Salsa Mild Verde, 12 Ounce",
+        "1 Flavors, 1 Sizes",
+        "$4.79"
+      ]
+    },
+    {
+      "name": "Momofuku Chili Crunch by David Chang, (5.5 Ounces), Chili Oil with Crunchy Garlic and Shallots, Spicy Chili Crisp",
+      "brand": "MOMOFUKU",
+      "price": "$11.99",
+      "size": "",
+      "img": "https://m.media-amazon.com/images/I/71vwPAL-s5L._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "MOMOFUKU",
+        "Momofuku Chili Crunch by David Chang, (5.5 Ounces), Chili Oil with Crunchy Garlic and Shallots, Spicy Chili Crisp",
+        "4 Flavors, 2 Sizes",
+        "$11.99"
+      ]
+    },
+    {
+      "name": "Heinz Organic Tomato Ketchup, 32 oz Bottle | America’s Favorite Ketchup®, No Artificial Sweeteners, No High Fructose Corn Syrup, All Natural Ingredients",
+      "brand": "HEINZ",
+      "price": "$8.99",
+      "size": "32 oz",
+      "img": "https://m.media-amazon.com/images/I/71aDvkONDWL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "HEINZ",
+        "Heinz Organic Tomato Ketchup, 32 oz Bottle | America’s Favorite Ketchup®, No Artificial Sweeteners, No High Fructose Corn Syrup, All Natural Ingredients",
+        "1 Flavors, 1 Sizes",
+        "$8.99"
+      ]
+    },
+    {
+      "name": "Green Mountain Gringo Mild Salsa, 16 oz",
+      "brand": "Green Mountain Gringo",
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://m.media-amazon.com/images/I/81fEaQuMzvL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Green Mountain Gringo",
+        "Green Mountain Gringo Mild Salsa, 16 oz",
+        "$5.99"
+      ]
+    },
+    {
+      "name": "Organic Tomato Basil Pasta Sauce, 25 Ounce",
+      "brand": "365 by Whole Foods Market",
+      "price": "$3.19",
+      "size": "25 Ounce",
+      "img": "https://m.media-amazon.com/images/I/51jbin0cuIL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "365 by Whole Foods Market",
+        "Organic Tomato Basil Pasta Sauce, 25 Ounce",
+        "1 Flavors, 1 Sizes",
+        "$3.19"
+      ]
+    },
+    {
+      "name": "Frontera, Salsa Tomatillo, 16 Ounce | Tomatillo Medium Salsa; gluten-free; 0g added sugar, fits a low carb lifestyle; great for dipping, tacos & marinades",
+      "brand": "frontera",
+      "price": "$3.75",
+      "size": "16 Ounce",
+      "img": "https://m.media-amazon.com/images/I/71MvUn7dXOL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "frontera",
+        "Frontera, Salsa Tomatillo, 16 Ounce | Tomatillo Medium Salsa; gluten-free; 0g added sugar, fits a low carb lifestyle; great for dipping, tacos & marinades",
+        "$3.75"
+      ]
+    },
+    {
+      "name": "Green Mountain Gringo Hot Salsa, 16 OZ",
+      "brand": "Green Mountain Gringo",
+      "price": "$5.99",
+      "size": "16 OZ",
+      "img": "https://m.media-amazon.com/images/I/61uDe7s9SaL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Green Mountain Gringo",
+        "Green Mountain Gringo Hot Salsa, 16 OZ",
+        "1 Flavors, 1 Sizes",
+        "$5.99"
+      ]
+    },
+    {
+      "name": "Salsa Country Fresh Garden Mild, 12 Ounce",
+      "brand": "Local Folk Foods",
+      "price": "$5.69",
+      "size": "12 Ounce",
+      "img": "https://m.media-amazon.com/images/I/81d6ljc3TLL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Local Folk Foods",
+        "Salsa Country Fresh Garden Mild, 12 Ounce",
+        "$5.69"
+      ]
+    },
+    {
+      "name": "Salsa Mild Mango, 16 Ounce",
+      "brand": "Chip Magnet",
+      "price": "$6.49",
+      "size": "16 Ounce",
+      "img": "https://m.media-amazon.com/images/I/71+OJYKV1zL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Chip Magnet",
+        "Salsa Mild Mango, 16 Ounce",
+        "$6.49"
+      ]
+    },
+    {
+      "name": "Salsa Hot Austin Blend, 16 Ounce",
+      "brand": "Jalapa Jar",
+      "price": "$8.49",
+      "size": "16 Ounce",
+      "img": "https://m.media-amazon.com/images/I/81eOjgNRmTL._FMwebp_.jpg",
+      "link": null,
+      "card_text": [
+        "Jalapa Jar",
+        "Salsa Hot Austin Blend, 16 Ounce",
+        "$8.49"
+      ]
+    }
+  ],
+  "raw_text_chars": 6592,
   "steps": [
-    "17:56:57 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "17:56:58 connected to Bright Data Scraping Browser",
-    "17:57:07 goto https://www.wholefoodsmarket.com/products",
-    "17:57:15 captcha check passed",
-    "17:57:20 dismissed \"\"",
-    "17:57:28 optional step click skipped: Error: click: \"Update Location\" not found",
-    "17:57:38 optional step fill skipped: Error: fill: no input found",
-    "17:57:46 optional step click_any skipped: Error: click_any: none of [\"Apply\",\"Done\",\"Update location\",\"Confirm\"]",
-    "17:57:49 press Escape",
-    "17:57:53 dismissed \"\"",
-    "17:57:54 search \"salsa\"",
-    "17:58:01 press Escape",
-    "17:58:05 scrolled x4",
-    "17:58:05 store_set: Ashburn",
-    "17:58:06 extracted 0 houses; raw text 1793 chars"
+    "18:26:12 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:26:12 connected to Bright Data Scraping Browser",
+    "18:26:23 goto https://www.wholefoodsmarket.com/products",
+    "18:26:31 captcha check passed",
+    "18:26:36 dismissed \"\"",
+    "18:26:36 click \"Update Location\"",
+    "18:26:39 fill \"60615\"",
+    "18:26:39 press Enter",
+    "18:26:44 click_any -> \"Update Location\"",
+    "18:26:47 press Escape",
+    "18:26:50 dismissed \"\"",
+    "18:26:53 search \"salsa\"",
+    "18:27:01 press Escape",
+    "18:27:05 scrolled x4",
+    "18:27:05 store_set: 60615",
+    "18:27:05 extracted 23 houses; raw text 6592 chars"
   ],
   "error": null
 }

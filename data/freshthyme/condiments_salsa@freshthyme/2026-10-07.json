@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@freshthyme",
+  "retailer": "freshthyme",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:15:31.549Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.instacart.com/store/fresh-thyme-market/s?k=salsa",
+  "houses": [],
+  "raw_text_chars": 214,
+  "steps": [
+    "18:15:31 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:15:32 connected to Bright Data Scraping Browser",
+    "18:15:35 goto https://www.instacart.com/store/fresh-thyme-market/s?k=salsa",
+    "18:15:43 captcha check passed",
+    "18:15:54 dismiss: nothing to close",
+    "18:15:54 press Escape",
+    "18:15:56 scrolled x2",
+    "18:16:00 scrolled x2",
+    "18:16:05 scrolled x2",
+    "18:16:07 store_set: null",
+    "18:16:07 extracted 0 houses; raw text 214 chars"
+  ],
+  "error": null
+}

@@ -1,0 +1,22 @@
+{
+  "block_id": "condiments/salsa@samsclub",
+  "retailer": "samsclub",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:22:13.109Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "18:22:13 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:22:14 connected to Bright Data Scraping Browser",
+    "18:22:25 goto https://www.samsclub.com/s/salsa",
+    "18:22:25 captcha hook: Error: cdpSession.send: Protocol error (Captcha.waitForSolve",
+    "18:22:25 ERROR Error: page.waitForTimeout: Target page, context or browser has been closed"
+  ],
+  "error": "Error: page.waitForTimeout: Target page, context or browser has been closed"
+}

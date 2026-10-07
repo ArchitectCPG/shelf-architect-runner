@@ -1,0 +1,137 @@
+{
+  "block_id": "condiments/salsa@shaws",
+  "retailer": "shaws",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:22:41.662Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.shaws.com/shop/search-results.html?q=salsa",
+  "houses": [
+    {
+      "name": "TOSTITOS Salsa Chunky Mild - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": "https://www.shaws.com/shop/pd/tostitos-salsa-chunky-mild-15-5-oz/129700011",
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Pound $5.15",
+        "($5.15 / Pound)",
+        "TOSTITOS Salsa Chunky Mild - 15.5 Oz",
+        "15 Ounce",
+        "15 oz |"
+      ]
+    },
+    {
+      "name": "TOSTITOS Salsa Chunky Medium - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": "https://www.shaws.com/shop/pd/tostitos-salsa-chunky-medium-15-5-oz/129700012",
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Pound $5.15",
+        "($5.15 / Pound)",
+        "TOSTITOS Salsa Chunky Medium - 15.5 Oz",
+        "15 Ounce",
+        "15 oz |"
+      ]
+    },
+    {
+      "name": "TOSTITOS Salsa Chunky Mild - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": "https://www.shaws.com/shop/pd/tostitos-salsa-chunky-mild-15-5-oz/129700011",
+      "card_text": [
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Pound $5.15",
+        "($5.15 / Pound)",
+        "TOSTITOS Salsa Chunky Mild - 15.5 Oz",
+        "15 Ounce",
+        "15 oz |",
+        "snap"
+      ]
+    },
+    {
+      "name": "TOSTITOS Salsa Chunky Medium - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": "https://www.shaws.com/shop/pd/tostitos-salsa-chunky-medium-15-5-oz/129700012",
+      "card_text": [
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Pound $5.15",
+        "($5.15 / Pound)",
+        "TOSTITOS Salsa Chunky Medium - 15.5 Oz",
+        "15 Ounce",
+        "15 oz |",
+        "snap"
+      ]
+    },
+    {
+      "name": "TOSTITOS Salsa Restaurant Style Medium - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": "https://www.shaws.com/shop/pd/tostitos-salsa-restaurant-style-medium-15-5-oz/960030750",
+      "card_text": [
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Pound $5.15",
+        "($5.15 / Pound)",
+        "TOSTITOS Salsa Restaurant Style Medium - 15.5 Oz",
+        "15 Ounce",
+        "15 oz |",
+        "snap"
+      ]
+    },
+    {
+      "name": "TOSTITOS Salsa Restaurant Style Medium - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": "https://www.shaws.com/shop/pd/tostitos-salsa-restaurant-style-medium-15-5-oz/960030750",
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Pound $5.15",
+        "($5.15 / Pound)",
+        "TOSTITOS Salsa Restaurant Style Medium - 15.5 Oz",
+        "15 Ounce",
+        "15 oz |"
+      ]
+    }
+  ],
+  "raw_text_chars": 8137,
+  "steps": [
+    "18:22:41 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:22:42 connected to Bright Data Scraping Browser",
+    "18:22:55 goto https://www.shaws.com/shop/search-results.html?q=salsa",
+    "18:23:03 captcha check passed",
+    "18:23:11 dismissed \"Continue with all\"",
+    "18:23:11 press Escape",
+    "18:23:14 scrolled x2",
+    "18:23:19 scrolled x2",
+    "18:23:23 scrolled x2",
+    "18:23:25 store_set: null",
+    "18:23:25 extracted 6 houses; raw text 8137 chars"
+  ],
+  "error": null
+}

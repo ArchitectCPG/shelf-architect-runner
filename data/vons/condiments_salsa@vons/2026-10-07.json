@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@vons",
+  "retailer": "vons",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:24:45.329Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.vons.com/shop/search-results.html?q=salsa",
+  "houses": [],
+  "raw_text_chars": 8348,
+  "steps": [
+    "18:24:45 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:24:46 connected to Bright Data Scraping Browser",
+    "18:24:59 goto https://www.vons.com/shop/search-results.html?q=salsa",
+    "18:25:08 captcha check passed",
+    "18:25:15 dismissed \"Continue with all\"",
+    "18:25:15 press Escape",
+    "18:25:18 scrolled x2",
+    "18:25:22 scrolled x2",
+    "18:25:26 scrolled x2",
+    "18:25:28 store_set: null",
+    "18:25:28 extracted 0 houses; raw text 8348 chars"
+  ],
+  "error": null
+}

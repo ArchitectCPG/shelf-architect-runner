@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@smiths",
+  "retailer": "smiths",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:23:25.842Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.smithsfoodanddrug.com/search?query=salsa",
+  "houses": [],
+  "raw_text_chars": 1609,
+  "steps": [
+    "18:23:25 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:23:26 connected to Bright Data Scraping Browser",
+    "18:23:32 goto https://www.smithsfoodanddrug.com/search?query=salsa",
+    "18:23:40 captcha check passed",
+    "18:23:46 dismissed \"\"",
+    "18:23:46 press Escape",
+    "18:23:48 scrolled x2",
+    "18:23:52 scrolled x2",
+    "18:23:56 scrolled x2",
+    "18:23:58 store_set: null",
+    "18:23:59 extracted 0 houses; raw text 1609 chars"
+  ],
+  "error": null
+}

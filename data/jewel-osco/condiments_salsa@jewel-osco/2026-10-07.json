@@ -3,7 +3,7 @@
   "retailer": "jewel-osco",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-07T17:53:13.699Z",
+  "pulled_at": "2026-10-07T18:18:10.548Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -27,23 +27,95 @@
         "15 oz |",
         "snap"
       ]
+    },
+    {
+      "name": "Cholula Salsa Verde - 12 Oz",
+      "brand": null,
+      "price": "$4.49",
+      "size": "12 Oz",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/cholula-salsa-verde-12-oz/970582123",
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.49",
+        "$4.49",
+        "Cholula Salsa Verde - 12 Oz",
+        "12 Ounce",
+        "12 oz |",
+        "snap",
+        "SNAP"
+      ]
+    },
+    {
+      "name": "TOSTITOS Salsa Chunky Mild - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/tostitos-salsa-chunky-mild-15-5-oz/129700011",
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.99",
+        "$4.99",
+        "TOSTITOS Salsa Chunky Mild - 15.5 Oz",
+        "15 Ounce",
+        "15 oz |",
+        "snap",
+        "SNAP"
+      ]
+    },
+    {
+      "name": "TOSTITOS Salsa Restaurant Style Medium - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/tostitos-salsa-restaurant-style-medium-15-5-oz/960030750",
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.99",
+        "$4.99",
+        "TOSTITOS Salsa Restaurant Style Medium - 15.5 Oz",
+        "15 Ounce",
+        "15 oz |",
+        "snap",
+        "SNAP"
+      ]
+    },
+    {
+      "name": "Cholula Salsa Hot Original - 12 OZ",
+      "brand": null,
+      "price": "$4.49",
+      "size": "12 OZ",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/cholula-salsa-hot-original-12-oz/971308997",
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.49",
+        "$4.49",
+        "Cholula Salsa Hot Original - 12 OZ",
+        "12 Ounce",
+        "12 oz |",
+        "snap",
+        "SNAP"
+      ]
     }
   ],
-  "raw_text_chars": 7736,
+  "raw_text_chars": 8937,
   "steps": [
-    "17:53:13 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "17:53:33 connected to Bright Data Scraping Browser",
-    "17:53:48 goto https://www.jewelosco.com/shop/search-results.html?q=salsa",
-    "17:53:56 captcha check passed",
-    "17:54:06 dismissed \"Continue with all\"",
-    "17:54:06 press Escape",
-    "17:54:09 scrolled x2",
-    "17:54:16 scrolled x2",
-    "17:54:21 scrolled x2",
-    "17:54:26 scrolled x2",
-    "17:54:30 scrolled x2",
-    "17:54:33 store_set: null",
-    "17:54:33 extracted 1 houses; raw text 7736 chars"
+    "18:18:10 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:18:11 connected to Bright Data Scraping Browser",
+    "18:18:25 goto https://www.jewelosco.com/shop/search-results.html?q=salsa",
+    "18:18:33 captcha check passed",
+    "18:18:40 dismissed \"Continue with all\"",
+    "18:18:41 press Escape",
+    "18:18:43 scrolled x2",
+    "18:18:48 scrolled x2",
+    "18:18:53 scrolled x2",
+    "18:18:58 scrolled x2",
+    "18:19:02 scrolled x2",
+    "18:19:05 store_set: null",
+    "18:19:05 extracted 5 houses; raw text 8937 chars"
   ],
   "error": null
 }

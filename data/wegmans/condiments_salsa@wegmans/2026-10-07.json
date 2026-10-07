@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@wegmans",
+  "retailer": "wegmans",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T18:26:02.527Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.wegmans.com/search?search_term=salsa",
+  "houses": [],
+  "raw_text_chars": 1107,
+  "steps": [
+    "18:26:02 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:26:03 connected to Bright Data Scraping Browser",
+    "18:26:08 goto https://shop.wegmans.com/search?search_term=salsa",
+    "18:26:16 captcha check passed",
+    "18:27:24 dismissed \"Close\"",
+    "18:27:24 press Escape",
+    "18:27:26 scrolled x2",
+    "18:27:30 scrolled x2",
+    "18:27:34 scrolled x2",
+    "18:27:36 store_set: null",
+    "18:27:36 extracted 0 houses; raw text 1107 chars"
+  ],
+  "error": null
+}
