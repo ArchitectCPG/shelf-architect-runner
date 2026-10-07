@@ -1,11 +1,25 @@
 {
-  "block_id": "salsa@whole-foods",
+  "block_id": "condiments/salsa@whole-foods",
   "retailer": "whole-foods",
-  "banner": "Whole Foods Market",
-  "home_url": "https://www.wholefoodsmarket.com/products",
+  "zip": "condiments",
+  "neighborhood": "salsa",
   "store_zip": "60615",
-  "search_term": "salsa",
-  "store_button_texts": ["Select a store", "Find a store", "Change store", "Set store"],
-  "search_input_hints": ["Search", "search"],
-  "notes": "Proof block. Chicago 60615 to match the Walmart Chrome store. Products only render after a store is set."
+  "steps": [
+    { "goto": "https://www.wholefoodsmarket.com/products" },
+    { "wait": 4000 },
+    { "dismiss": ["Close", "No thanks", "Not now"] },
+    { "click": "Update Location", "optional": true },
+    { "wait": 2000 },
+    { "fill": { "placeholder": "zip|postal|code", "value": "{{store_zip}}" }, "optional": true },
+    { "wait": 3000 },
+    { "click_any": ["Apply", "Update", "Confirm", "Select", "Done"], "optional": true, "timeout": 5000 },
+    { "wait": 3000 },
+    { "dismiss": ["Close", "No thanks", "Not now"] },
+    { "search": { "placeholder": "Search Grocery" } },
+    { "wait": 6000 },
+    { "dismiss": ["Close"] },
+    { "scroll": 4 }
+  ],
+  "store_patterns": ["Delivering to\\s*(\\d{5})", "Pickup at\\s*([^\\n|]{3,60})"],
+  "notes": "WFM is an Amazon storefront. Location is set via header 'Update Location'. A Prime modal pops on load."
 }

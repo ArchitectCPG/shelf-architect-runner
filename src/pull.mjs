@@ -1,5 +1,5 @@
-// Shelf Architect runner: drives Bright Data's Scraping Browser (remote Chromium over CDP)
-// to walk one retailer block: set a store, search a term, capture products + prices.
+// Shelf Architect runner: drives Bright Data's Scraping Browser (remote Chromium over CDP) through a
+// per-banner RECIPE (blocks/<block>.json) to walk one block: set a store, search a neighborhood, capture houses.
 // Usage: node src/pull.mjs blocks/<block>.json
 import { chromium } from "playwright-core";
 import fs from "node:fs";
@@ -8,107 +8,106 @@ import path from "node:path";
 const blockFile = process.argv[2];
 if (!blockFile) { console.error("usage: node src/pull.mjs blocks/<block>.json"); process.exit(2); }
 const block = JSON.parse(fs.readFileSync(blockFile, "utf8"));
+const vars = { store_zip: block.store_zip || "", term: block.neighborhood || block.search_term || "", ...(block.vars || {}) };
+const sub = (s) => String(s).replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? "");
 
-const user = process.env.BRD_BROWSER_USER;          // brd-customer-<id>-zone-<zone>
-const pass = process.env.BRD_BROWSER_PASSWORD;      // repo secret
-if (!user || !pass) { console.error("missing BRD_BROWSER_USER / BRD_BROWSER_PASSWORD"); process.exit(2); }
+const baseUser = process.env.BRD_BROWSER_USER;
+const pass = process.env.BRD_BROWSER_PASSWORD;
+if (!baseUser || !pass) { console.error("missing BRD_BROWSER_USER / BRD_BROWSER_PASSWORD"); process.exit(2); }
+const country = (block.country || process.env.BRD_COUNTRY || "us").toLowerCase();
+const user = `${baseUser}-country-${country}`;
 const wsEndpoint = `wss://${user}:${pass}@brd.superproxy.io:9222`;
 
-const stamp = new Date().toISOString();
-const day = stamp.slice(0, 10);
-const outDir = path.join("data", block.retailer, block.block_id.replace(/[^a-z0-9@_-]/gi, "_"));
+const stamp = new Date().toISOString(); const day = stamp.slice(0, 10);
+const outDir = path.join("data", block.retailer, block.block_id.replace(/[^a-z0-9@_.-]/gi, "_"));
 fs.mkdirSync(outDir, { recursive: true });
-const out = { block_id: block.block_id, retailer: block.retailer, pulled_at: stamp, runner: "github-actions+brightdata-scraping-browser",
-              store_requested_zip: block.store_zip, store_set: null, search_term: block.search_term, url_final: null,
-              houses: [], raw_text_chars: 0, steps: [], error: null };
-const log = (m) => { console.log(m); out.steps.push(`${new Date().toISOString().slice(11,19)} ${m}`); };
+const out = { block_id: block.block_id, retailer: block.retailer, zip: block.zip || null, neighborhood: block.neighborhood || block.search_term || null,
+  pulled_at: stamp, runner: "github-actions+brightdata-scraping-browser", country, store_requested_zip: block.store_zip || null,
+  store_set: null, url_final: null, houses: [], raw_text_chars: 0, steps: [], error: null };
+const log = (m) => { console.log(m); out.steps.push(`${new Date().toISOString().slice(11, 19)} ${m}`); };
+const rx = (t) => new RegExp(t.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"), "i");
 
-async function clickByText(page, texts, timeout = 8000) {
-  for (const t of texts) {
-    const loc = page.getByRole("button", { name: new RegExp(t, "i") }).first();
-    try { await loc.waitFor({ state: "visible", timeout }); await loc.click(); log(`clicked button "${t}"`); return true; } catch {}
-    const loc2 = page.getByText(new RegExp(`^\\s*${t}\\s*$`, "i")).first();
-    try { await loc2.waitFor({ state: "visible", timeout: 2000 }); await loc2.click(); log(`clicked text "${t}"`); return true; } catch {}
+async function firstVisible(locs, timeout) {
+  const end = Date.now() + timeout;
+  while (Date.now() < end) {
+    for (const l of locs) { try { if (await l.first().isVisible()) return l.first(); } catch {} }
+    await new Promise(r => setTimeout(r, 300));
   }
-  return false;
+  return null;
+}
+const byText = (page, t) => [page.getByRole("button", { name: rx(t) }), page.getByRole("link", { name: rx(t) }), page.getByText(rx(t))];
+
+async function runStep(page, step) {
+  const kind = Object.keys(step).find(k => !["note", "optional", "timeout"].includes(k));
+  const v = step[kind]; const to = step.timeout ?? 8000;
+  try {
+    switch (kind) {
+      case "goto": await page.goto(sub(v), { waitUntil: "domcontentloaded", timeout: 120000 }); log(`goto ${sub(v)}`); break;
+      case "wait": await page.waitForTimeout(v); break;
+      case "dismiss": { // click any of these if visible; never fails
+        const l = await firstVisible([].concat(...v.map(t => byText(page, t))), Math.min(to, 5000));
+        if (l) { await l.click({ timeout: 3000 }).catch(() => {}); log(`dismissed "${(await l.textContent().catch(() => v[0]))?.trim().slice(0, 30)}"`); } else log("dismiss: nothing to close"); break; }
+      case "click": { const l = await firstVisible(byText(page, sub(v)), to); if (!l) throw new Error(`click: "${v}" not found`); await l.click(); log(`click "${v}"`); break; }
+      case "click_any": { const l = await firstVisible([].concat(...v.map(t => byText(page, sub(t)))), to); if (!l) throw new Error(`click_any: none of ${JSON.stringify(v)}`); await l.click(); log(`click_any -> "${(await l.textContent().catch(() => ""))?.trim().slice(0, 40)}"`); break; }
+      case "fill": { // {fill:{placeholder|label|role, value}}
+        const cands = []; if (v.placeholder) cands.push(page.getByPlaceholder(rx(v.placeholder))); if (v.label) cands.push(page.getByLabel(rx(v.label)));
+        cands.push(page.getByRole(v.role || "textbox")); const l = await firstVisible(cands, to); if (!l) throw new Error("fill: no input found");
+        await l.fill(sub(v.value)); log(`fill "${sub(v.value)}"`); if (v.enter !== false) { await l.press("Enter"); log("press Enter"); } break; }
+      case "search": { const cands = [page.getByRole("searchbox")]; if (v.placeholder) cands.unshift(page.getByPlaceholder(rx(v.placeholder)));
+        cands.push(page.getByRole("textbox", { name: /search/i }), page.locator("input[type=search]"), page.locator("input[name*=search i], input[id*=search i]"));
+        const l = await firstVisible(cands, to); if (!l) throw new Error("search: no search box"); await l.click(); await l.fill(sub(v.term || "{{term}}")); await l.press("Enter"); log(`search "${sub(v.term || "{{term}}")}"`); break; }
+      case "scroll": for (let i = 0; i < (v || 3); i++) { await page.mouse.wheel(0, 2500); await page.waitForTimeout(1000); } log(`scrolled x${v || 3}`); break;
+      case "press": await page.keyboard.press(v); log(`press ${v}`); break;
+      default: log(`unknown step ${kind}`);
+    }
+  } catch (e) { if (step.optional) log(`optional step ${kind} skipped: ${String(e).slice(0, 80)}`); else throw e; }
 }
 
-// Generic product-card extraction: any element with a $x.xx price, walk up to a card-ish ancestor.
-async function extractProducts(page) {
-  return await page.evaluate(() => {
-    const priceRe = /\$\s?\d{1,4}\.\d{2}/;
-    const seen = new Set(); const items = [];
-    const nodes = Array.from(document.querySelectorAll("body *")).filter(el => {
-      const t = (el.childElementCount === 0 ? el.textContent : "") || "";
-      return priceRe.test(t) && t.trim().length < 40;
-    });
-    for (const el of nodes) {
-      let card = el;
-      for (let i = 0; i < 8 && card.parentElement; i++) {
-        card = card.parentElement;
-        const txt = card.innerText || "";
-        if (txt.length > 40 && txt.length < 900 && /\n/.test(txt)) break;
-      }
-      const txt = (card.innerText || "").trim();
-      if (!txt || seen.has(txt)) continue; seen.add(txt);
+async function captureStore(page, patterns) {
+  const text = await page.evaluate(() => document.body.innerText);
+  for (const p of patterns) { const m = text.match(new RegExp(p, "i")); if (m) return (m[1] || m[0]).trim().slice(0, 120); }
+  return null;
+}
+
+async function extractProducts(page, cardSelector) {
+  return await page.evaluate((cardSelector) => {
+    const priceRe = /\$\s?\d{1,4}\.\d{2}/; const seen = new Set(); const items = [];
+    let cards = cardSelector ? Array.from(document.querySelectorAll(cardSelector)) : [];
+    if (!cards.length) {
+      const leaves = Array.from(document.querySelectorAll("body *")).filter(el => el.childElementCount === 0 && priceRe.test(el.textContent || "") && (el.textContent || "").trim().length < 40);
+      for (const el of leaves) { let c = el; for (let i = 0; i < 8 && c.parentElement; i++) { c = c.parentElement; const t = c.innerText || ""; if (t.length > 40 && t.length < 900 && /\n/.test(t)) break; } cards.push(c); }
+    }
+    for (const card of cards) {
+      const txt = (card.innerText || "").trim(); if (!txt || seen.has(txt) || !priceRe.test(txt)) continue; seen.add(txt);
       const lines = txt.split("\n").map(s => s.trim()).filter(Boolean);
       const price = (txt.match(priceRe) || [""])[0].replace(/\s/g, "");
-      const name = lines.find(l => l.length > 8 && !priceRe.test(l) && !/add|cart|sale|save|\d+ ?(oz|lb|ct|fl)/i.test(l)) || lines[0];
-      const size = (txt.match(/\b\d+(\.\d+)?\s?(oz|fl oz|lb|lbs|ct|g|ml|l)\b/i) || [""])[0];
-      const img = card.querySelector("img")?.src || null;
-      const link = card.querySelector("a[href]")?.href || null;
-      items.push({ name, price, size, img, link, card_text: lines.slice(0, 8) });
+      const junk = /^(add|add to cart|sale|save|sponsored|\d+% off|.*de descuento|ship|pickup|delivery|in stock|low stock|snap|ebt|sign in|view offer|options)/i;
+      const name = lines.find(l => l.length > 8 && !priceRe.test(l) && !junk.test(l) && !/^\d+(\.\d+)?\s?(oz|fl oz|lb|ct|g|ml)/i.test(l)) || lines[0];
+      const size = (txt.match(/\b\d+(\.\d+)?\s?(fl oz|oz|lb|lbs|ct|g|ml|l)\b/i) || [""])[0];
+      const brand = (card.querySelector("[class*=brand i], [data-testid*=brand i]")?.textContent || "").trim() || null;
+      items.push({ name, brand, price, size, img: card.querySelector("img")?.src || null, link: card.querySelector("a[href]")?.href || null, card_text: lines.slice(0, 8) });
     }
     return items;
-  });
+  }, cardSelector || null);
 }
 
 log(`auth user=${user} password_len=${pass.length} endpoint=brd.superproxy.io:9222`);
 let browser = null, page = null;
 try {
-  browser = await chromium.connectOverCDP(wsEndpoint, { timeout: 120000 });
-  log("connected to Bright Data Scraping Browser");
-  page = await browser.newPage();
-  page.setDefaultTimeout(60000);
-  await page.goto(block.home_url, { waitUntil: "domcontentloaded", timeout: 120000 });
-  log(`loaded ${block.home_url}`);
-  // Let Bright Data auto-solve any challenge.
-  try { const cdp = await page.context().newCDPSession(page); await cdp.send("Captcha.waitForSolve", { detectTimeout: 10000 }); log("captcha check passed"); } catch (e) { log(`captcha hook n/a: ${String(e).slice(0,80)}`); }
-  await page.waitForTimeout(3000);
-
-  // 1) Set store
-  if (await clickByText(page, block.store_button_texts)) {
-    await page.waitForTimeout(2000);
-    const zipBox = page.getByRole("textbox").filter({ hasNot: page.locator("[type=password]") }).first();
-    try { await zipBox.waitFor({ timeout: 10000 }); await zipBox.fill(block.store_zip); await zipBox.press("Enter"); log(`entered zip ${block.store_zip}`); } catch { log("no zip textbox found after store click"); }
-    await page.waitForTimeout(4000);
-    const picked = await clickByText(page, ["Make this my store", "Select this store", "Make my store", "Shop this store", "Select store", "Choose store"], 6000);
-    if (!picked) {
-      // fall back: click the first store result card
-      try { await page.locator("button, a").filter({ hasText: /store|select|shop/i }).nth(1).click({ timeout: 5000 }); log("clicked first store-ish control"); } catch { log("could not pick a store result"); }
-    }
-    await page.waitForTimeout(4000);
-  } else { log("no store button found; continuing with site default"); }
-  out.store_set = await page.evaluate(() => (document.body.innerText.match(/(?:My Store|Your store|Shopping at|Store:)\s*[:\-]?\s*([^\n]{3,80})/i) || [null, null])[1]);
-  log(`store_set: ${out.store_set}`);
-
-  // 2) Search
-  let searched = false;
-  for (const hint of block.search_input_hints) {
-    const box = page.getByRole("searchbox").first().or(page.getByPlaceholder(new RegExp(hint, "i")).first()).or(page.getByRole("textbox", { name: new RegExp(hint, "i") }).first());
-    try { await box.waitFor({ timeout: 6000 }); await box.fill(block.search_term); await box.press("Enter"); searched = true; log(`searched "${block.search_term}" via "${hint}"`); break; } catch {}
+  browser = await chromium.connectOverCDP(wsEndpoint, { timeout: 120000 }); log("connected to Bright Data Scraping Browser");
+  page = await browser.newPage(); page.setDefaultTimeout(60000);
+  const steps = block.steps || [{ goto: block.home_url }, { wait: 3000 }, { search: {} }, { wait: 5000 }, { scroll: 4 }];
+  for (const step of steps) {
+    await runStep(page, step);
+    if (step.goto) { try { const cdp = await page.context().newCDPSession(page); await cdp.send("Captcha.waitForSolve", { detectTimeout: 8000 }); log("captcha check passed"); } catch (e) { log(`captcha hook: ${String(e).slice(0, 60)}`); } }
   }
-  if (!searched) { const u = `${block.home_url}?search=${encodeURIComponent(block.search_term)}`; await page.goto(u, { waitUntil: "domcontentloaded" }); log(`fallback search url ${u}`); }
-  await page.waitForTimeout(6000);
-  for (let i = 0; i < 4; i++) { await page.mouse.wheel(0, 2500); await page.waitForTimeout(1200); }
   out.url_final = page.url();
-
-  // 3) Extract
-  out.houses = await extractProducts(page);
-  const text = await page.evaluate(() => document.body.innerText);
-  out.raw_text_chars = text.length;
+  out.store_set = await captureStore(page, block.store_patterns || ["Delivering to\\s*(\\d{5})", "Pickup at\\s*([^\\n|]{3,60})", "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"]);
+  log(`store_set: ${out.store_set}`);
+  out.houses = await extractProducts(page, block.card_selector);
+  const text = await page.evaluate(() => document.body.innerText); out.raw_text_chars = text.length;
   fs.writeFileSync(path.join(outDir, `${day}.txt`), text);
-  await page.screenshot({ path: path.join(outDir, `${day}.png`), fullPage: false });
+  await page.screenshot({ path: path.join(outDir, `${day}.png`) });
   log(`extracted ${out.houses.length} houses; raw text ${text.length} chars`);
 } catch (e) {
   out.error = String(e).slice(0, 500); log(`ERROR ${out.error}`);

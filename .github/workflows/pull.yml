@@ -2,36 +2,52 @@ name: retailer-pull
 on:
   workflow_dispatch:
     inputs:
-      block:
-        description: "Block file to walk"
+      blocks:
+        description: "Comma-separated block files, or 'all'"
         required: true
         default: "blocks/wholefoods-salsa.json"
-  # schedule:            # enable after the proof passes
+  # schedule:            # enable after the sandbox proves out
   #   - cron: "0 14 * * *"
 permissions:
   contents: write
 jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: m
+        run: |
+          if [ "${{ github.event.inputs.blocks }}" = "all" ]; then list=$(ls blocks/*.json | jq -R . | jq -sc .); else list=$(echo "${{ github.event.inputs.blocks }}" | tr ',' '\n' | sed 's/ //g' | jq -R . | jq -sc .); fi
+          echo "matrix=$list" >> $GITHUB_OUTPUT; echo "$list"
   pull:
+    needs: plan
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix:
+        block: ${{ fromJson(needs.plan.outputs.matrix) }}
     env:
       BRD_BROWSER_USER: brd-customer-hl_517ded2d-zone-mcp_browser
       BRD_BROWSER_PASSWORD: ${{ secrets.BRD_BROWSER_PASSWORD }}
+      BRD_COUNTRY: us
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 20 }
       - run: npm install --no-audit --no-fund
       - name: Walk block
-        run: node src/pull.mjs "${{ github.event.inputs.block || 'blocks/wholefoods-salsa.json' }}"
+        run: node src/pull.mjs "${{ matrix.block }}"
       - name: Upload artifacts
         if: always()
         uses: actions/upload-artifact@v4
-        with: { name: pull-output, path: data/, if-no-files-found: ignore }
+        with: { name: "pull-${{ strategy.job-index }}", path: data/, if-no-files-found: ignore }
       - name: Commit results
         if: always()
         run: |
-          git config user.name "shelf-architect-runner"
-          git config user.email "runner@users.noreply.github.com"
-          git add data/ && git commit -m "pull: $(date -u +%Y-%m-%dT%H:%MZ) ${{ github.event.inputs.block }}" || echo "nothing to commit"
-          git push
+          git config user.name "shelf-architect-runner"; git config user.email "runner@users.noreply.github.com"
+          git add data/ && git commit -m "pull: $(date -u +%Y-%m-%dT%H:%MZ) ${{ matrix.block }}" || { echo "nothing to commit"; exit 0; }
+          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q && break || sleep $((RANDOM % 8 + 3)); done
