@@ -17,6 +17,8 @@ jobs:
       matrix: ${{ steps.m.outputs.matrix }}
     steps:
       - uses: actions/checkout@v4
+      - name: Validate blocks
+        run: for f in blocks/*.json; do node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || exit 1; done
       - id: m
         run: |
           if [ "${{ github.event.inputs.blocks }}" = "all" ]; then list=$(ls blocks/*.json | jq -R . | jq -sc .); else list=$(echo "${{ github.event.inputs.blocks }}" | tr ',' '\n' | sed 's/ //g' | jq -R . | jq -sc .); fi
