@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@whole-foods",
+  "retailer": "whole-foods",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-07T16:37:53.651Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "16:37:53 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "16:37:59 connected to Bright Data Scraping Browser",
+    "16:38:08 goto https://www.wholefoodsmarket.com/products",
+    "16:38:16 captcha check passed",
+    "16:38:26 dismissed \"\"",
+    "16:38:29 click \"Update Location\"",
+    "16:38:32 fill \"60615\"",
+    "16:38:33 press Enter",
+    "16:38:51 click_any -> \"25% off  Select Once Upon A Farm with Pr\"",
+    "16:38:57 dismissed \"\"",
+    "16:39:57 ERROR TimeoutError: locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for getByPlaceholder(/Search Grocery/i).first()\n    - locator resolved to <input value=\"\" type=\"text\" name=\"search\" maxlength=\"256\" role=\"combobox\" autocomplete=\"off\" aria-label=\"Search\" aria-haspopup=\"true\" aria-expanded=\"false\" data-testid=\"search-input\" aria-controls=\"search-results-modal\" aria-describedby=\"search-results-status\" placeholder=\"Search Grocery Pickup & Delivery\" class=\"bds--body-1 placeholder:bds--body-"
+  ],
+  "error": "TimeoutError: locator.click: Timeout 60000ms exceeded.\nCall log:\n  - waiting for getByPlaceholder(/Search Grocery/i).first()\n    - locator resolved to <input value=\"\" type=\"text\" name=\"search\" maxlength=\"256\" role=\"combobox\" autocomplete=\"off\" aria-label=\"Search\" aria-haspopup=\"true\" aria-expanded=\"false\" data-testid=\"search-input\" aria-controls=\"search-results-modal\" aria-describedby=\"search-results-status\" placeholder=\"Search Grocery Pickup & Delivery\" class=\"bds--body-1 placeholder:bds--body-"
+}
