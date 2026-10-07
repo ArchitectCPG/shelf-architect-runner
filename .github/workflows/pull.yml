@@ -45,9 +45,16 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with: { name: "pull-${{ strategy.job-index }}", path: data/, if-no-files-found: ignore }
-      - name: Commit results
-        if: always()
+  collect:
+    needs: pull
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with: { path: data/, pattern: "pull-*", merge-multiple: true }
+      - name: Commit all results once
         run: |
           git config user.name "shelf-architect-runner"; git config user.email "runner@users.noreply.github.com"
-          git add data/ && git commit -m "pull: $(date -u +%Y-%m-%dT%H:%MZ) ${{ matrix.block }}" || { echo "nothing to commit"; exit 0; }
-          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push -q && break || sleep $((RANDOM % 8 + 3)); done
+          git add data/ && git commit -m "pull: $(date -u +%Y-%m-%dT%H:%MZ) run ${{ github.run_id }}" || { echo "nothing to commit"; exit 0; }
+          git pull --rebase -q origin main && git push -q
