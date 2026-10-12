@@ -1,0 +1,82 @@
+{
+  "block_id": "condiments/salsa@albertsons-geo-us-state-il",
+  "retailer": "albertsons",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-12T16:21:17.054Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us-state-il",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.albertsons.com/shop/search-results.html?q=salsa",
+  "houses": [
+    {
+      "name": "Del Real Salsa Molcajete Verde - 16 Fl. Oz.",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Fl. Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960160209?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.albertsons.com/shop/pd/del-real-salsa-molcajete-verde-16-fl-oz/960160209",
+      "card_text": [
+        "Sign in to add",
+        "Sponsored",
+        "Your Price $5.49",
+        "$5.49",
+        "Del Real Salsa Molcajete Verde - 16 Fl. Oz.",
+        "snap",
+        "SNAP"
+      ]
+    },
+    {
+      "name": "Del Real Salsa Molcajete Roja - 16 Fl Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Fl Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960160208?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.albertsons.com/shop/pd/del-real-salsa-molcajete-roja-16-fl-oz/960160208",
+      "card_text": [
+        "Sign in to add",
+        "Sponsored",
+        "Your Price $5.49",
+        "$5.49",
+        "Del Real Salsa Molcajete Roja - 16 Fl Oz",
+        "snap",
+        "SNAP"
+      ]
+    },
+    {
+      "name": "La Mexicana Medium Salsa - 16 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960071790?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.albertsons.com/shop/pd/la-mexicana-medium-salsa-16-oz/960071790",
+      "card_text": [
+        "Sign in to add",
+        "Sponsored",
+        "Your Price $5.49",
+        "$5.49",
+        "La Mexicana Medium Salsa - 16 Oz",
+        "snap",
+        "SNAP"
+      ]
+    }
+  ],
+  "raw_text_chars": 9073,
+  "steps": [
+    "16:21:17 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us-state-il password_len=12 endpoint=brd.superproxy.io:9222",
+    "16:21:18 connected to Bright Data Scraping Browser",
+    "16:21:29 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
+    "16:21:38 captcha check passed",
+    "16:22:49 dismissed \"Close\"",
+    "16:22:49 press Escape",
+    "16:22:51 scrolled x2",
+    "16:22:56 scrolled x2",
+    "16:23:00 scrolled x2",
+    "16:23:05 scrolled x2",
+    "16:23:10 scrolled x2",
+    "16:23:12 store_set: null",
+    "16:23:14 extracted 3 houses; raw text 9073 chars"
+  ],
+  "error": null
+}

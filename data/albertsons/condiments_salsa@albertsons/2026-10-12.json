@@ -1,0 +1,30 @@
+{
+  "block_id": "condiments/salsa@albertsons",
+  "retailer": "albertsons",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-12T16:21:16.663Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.albertsons.com/shop/search-results.html?q=salsa",
+  "houses": [],
+  "raw_text_chars": 1001,
+  "steps": [
+    "16:21:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "16:21:17 connected to Bright Data Scraping Browser",
+    "16:22:08 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
+    "16:22:17 captcha check passed",
+    "16:22:28 dismiss: nothing to close",
+    "16:22:28 press Escape",
+    "16:22:59 scrolled x2",
+    "16:23:04 scrolled x2",
+    "16:23:08 scrolled x2",
+    "16:23:13 scrolled x2",
+    "16:23:17 scrolled x2",
+    "16:23:20 store_set: null",
+    "16:23:20 extracted 0 houses; raw text 1001 chars"
+  ],
+  "error": null
+}

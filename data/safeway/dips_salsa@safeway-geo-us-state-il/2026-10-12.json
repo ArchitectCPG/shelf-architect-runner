@@ -1,0 +1,27 @@
+{
+  "block_id": "dips/salsa@safeway-geo-us-state-il",
+  "retailer": "safeway",
+  "zip": "dips",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-12T16:23:05.000Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us-state-il",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.instacart.com/store/safeway/collections/3092-olives-dips-spreads/subjects/8198",
+  "houses": [],
+  "raw_text_chars": 513,
+  "steps": [
+    "16:23:05 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us-state-il password_len=12 endpoint=brd.superproxy.io:9222",
+    "16:23:05 connected to Bright Data Scraping Browser",
+    "16:23:09 rate limited, retry 1",
+    "16:23:18 goto https://www.instacart.com/store/safeway/collections/3092-olives-dips-spreads/subjects/8198",
+    "16:23:26 captcha check passed",
+    "16:23:38 dismiss: nothing to close",
+    "16:23:38 press Escape",
+    "16:23:43 scrolled x4",
+    "16:23:43 store_set: null",
+    "16:23:43 extracted 0 houses; raw text 513 chars"
+  ],
+  "error": null
+}

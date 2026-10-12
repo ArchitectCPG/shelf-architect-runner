@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@aldi",
+  "retailer": "aldi",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-12T16:21:18.223Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.aldi.us/results?q=salsa",
+  "houses": [],
+  "raw_text_chars": 84,
+  "steps": [
+    "16:21:18 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "16:21:20 connected to Bright Data Scraping Browser",
+    "16:21:26 goto https://new.aldi.us/results?q=salsa",
+    "16:21:34 captcha check passed",
+    "16:21:47 dismiss: nothing to close",
+    "16:21:47 press Escape",
+    "16:21:49 scrolled x2",
+    "16:21:53 scrolled x2",
+    "16:21:58 scrolled x2",
+    "16:22:00 store_set: null",
+    "16:22:01 extracted 0 houses; raw text 84 chars"
+  ],
+  "error": null
+}
