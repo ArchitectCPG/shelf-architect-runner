@@ -1,0 +1,33 @@
+{
+  "block_id": "condiments/salsa@target-geo-us-city-chicago",
+  "retailer": "target",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "store_zip": "60615",
+  "steps": [
+    {
+      "goto": "https://www.target.com/s?searchTerm=salsa"
+    },
+    {
+      "wait": 6000
+    },
+    {
+      "dismiss": [
+        "Close",
+        "No thanks",
+        "Not now",
+        "Continue"
+      ]
+    },
+    {
+      "press": "Escape"
+    },
+    {
+      "scroll": 4
+    }
+  ],
+  "store_patterns": [
+    "Ship to\\s*(\\d{5})\\s*\\n?\\s*([A-Za-z .]+)?"
+  ],
+  "country": "us-city-chicago"
+}

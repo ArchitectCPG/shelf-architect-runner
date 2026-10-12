@@ -79,7 +79,8 @@ async function extractProducts(page, cardSelector) {
     let cards = cardSelector ? Array.from(document.querySelectorAll(cardSelector)) : [];
     if (!cards.length) {
       const leaves = Array.from(document.querySelectorAll("body *")).filter(el => el.childElementCount === 0 && priceRe.test(el.textContent || "") && (el.textContent || "").trim().length < 40);
-      for (const el of leaves) { let c = el; for (let i = 0; i < 8 && c.parentElement; i++) { c = c.parentElement; const t = c.innerText || ""; if (t.length > 40 && t.length < 900 && /\n/.test(t)) break; } cards.push(c); }
+      const nPrice = el => el.querySelectorAll ? Array.from(el.querySelectorAll("*")).filter(x => x.childElementCount === 0 && priceRe.test(x.textContent || "") && (x.textContent || "").trim().length < 40).length : 0;
+      for (const el of leaves) { let c = el, best = el; for (let i = 0; i < 10 && c.parentElement; i++) { c = c.parentElement; const t = c.innerText || ""; if (t.length > 1500 || nPrice(c) > 3) break; best = c; } cards.push(best); }
     }
     for (const card of cards) {
       const txt = (card.innerText || "").trim(); if (!txt || seen.has(txt) || !priceRe.test(txt)) continue; seen.add(txt);
