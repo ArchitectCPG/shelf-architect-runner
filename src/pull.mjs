@@ -98,6 +98,23 @@ async function extractProducts(page, cardSelector) {
   }, cardSelector || null);
 }
 
+function extractFromText(text) {
+  const priceRe = /^\$\s?\d{1,4}\.\d{2}$/; const anyPrice = /\$\s?\d{1,4}\.\d{2}/;
+  const junk = /^(add|add to cart|sale|save|sponsored|\d+% off|ship|pickup|delivery|in stock|low stock|snap|ebt|sign in.*|view offer|options|current price.*|original price.*|your price.*|price per.*|\(.*\/.*\)|best seller|rated .*|\d+ reviews?|\d+|each|buy \d.*|price cut|now\$.*|clearance|[★☆ ]+|gluten-free|vegan|organic|low price|rollback|\d+(\.\d+)?\s?(oz|fl oz|lb|ct|g|ml)\b.*)$/i;
+  const lines = text.split("\n").map(l => l.trim()).filter(Boolean); const items = []; const seen = new Set();
+  for (let i = 0; i < lines.length; i++) {
+    if (!priceRe.test(lines[i])) continue;
+    const win = []; for (let j = Math.max(0, i - 5); j <= Math.min(lines.length - 1, i + 5); j++) if (j !== i) win.push(lines[j]);
+    const cands = win.filter(l => l.length > 8 && l.length < 120 && /[a-z]/i.test(l) && !anyPrice.test(l) && !junk.test(l));
+    if (!cands.length) continue;
+    const name = cands.reduce((a, b) => (b.length > a.length ? b : a), ""); const key = name + "|" + lines[i];
+    if (seen.has(key)) continue; seen.add(key);
+    const size = (name.match(/\b\d+(\.\d+)?\s?(fl oz|fl\. oz|oz|ounce|lb|lbs|ct|count|g|ml)\b/i) || [""])[0];
+    items.push({ name, brand: null, price: lines[i].replace(/\s/g, ""), size, img: null, link: null, card_text: [], via: "text" });
+  }
+  return items;
+}
+
 log(`auth user=${user} password_len=${pass.length} endpoint=brd.superproxy.io:9222`);
 let browser = null, page = null;
 try {
@@ -112,7 +129,10 @@ try {
   out.store_set = await captureStore(page, block.store_patterns || ["Delivering to\\s*(\\d{5})", "Pickup at\\s*([^\\n|]{3,60})", "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"]);
   log(`store_set: ${out.store_set}`);
   out.houses = await extractProducts(page, block.card_selector);
-  const text = await page.evaluate(() => document.body.innerText); out.raw_text_chars = text.length;
+  let text = await page.evaluate(() => document.body.innerText); out.raw_text_chars = text.length;
+  if (out.houses.length < 5 && !block.no_reload) { log("few houses, reloading once"); await page.reload({ waitUntil: "domcontentloaded", timeout: 120000 }).catch(() => {}); await page.waitForTimeout(8000); for (let i = 0; i < 3; i++) { await page.mouse.wheel(0, 1500); await page.waitForTimeout(1500); } out.houses = await extractProducts(page, block.card_selector); text = await page.evaluate(() => document.body.innerText); out.raw_text_chars = text.length; out.reloaded = true; }
+  const fromText = extractFromText(text); out.houses_text = fromText.length;
+  if (fromText.length > out.houses.length) { log(`text parser wins: ${fromText.length} vs ${out.houses.length}`); out.houses_dom = out.houses.length; out.houses = fromText; }
   fs.writeFileSync(path.join(outDir, `${day}.txt`), text);
   await page.screenshot({ path: path.join(outDir, `${day}.png`) });
   log(`extracted ${out.houses.length} houses; raw text ${text.length} chars`);
