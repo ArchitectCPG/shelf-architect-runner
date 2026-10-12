@@ -3,28 +3,524 @@
   "retailer": "albertsons",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-12T16:21:16.663Z",
+  "pulled_at": "2026-10-12T16:30:19.679Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
-  "store_set": null,
+  "store_set": "4700 N Eagle Rd",
   "url_final": "https://www.albertsons.com/shop/search-results.html?q=salsa",
-  "houses": [],
-  "raw_text_chars": 1001,
-  "steps": [
-    "16:21:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "16:21:17 connected to Bright Data Scraping Browser",
-    "16:22:08 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
-    "16:22:17 captcha check passed",
-    "16:22:28 dismiss: nothing to close",
-    "16:22:28 press Escape",
-    "16:22:59 scrolled x2",
-    "16:23:04 scrolled x2",
-    "16:23:08 scrolled x2",
-    "16:23:13 scrolled x2",
-    "16:23:17 scrolled x2",
-    "16:23:20 store_set: null",
-    "16:23:20 extracted 0 houses; raw text 1001 chars"
+  "houses": [
+    {
+      "name": "Del Real Salsa Molcajete Roja - 16 Fl Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Fl Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$6.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana Medium Salsa - 16 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Mild Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Mild Jar - 16 Oz",
+      "brand": null,
+      "price": "$6.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa - 16 Oz",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Cut Pico De Gallo - Each",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Casa Sanchez Medium Roja Salsa - 15 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Del Real Salsa Molcajete Verde - 16 Fl. Oz.",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Fl. Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Go Salsa Cantina Style - 16 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Go Salsa Cantina Style - 16 Oz",
+      "brand": null,
+      "price": "$6.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Cholula Salsa Verde - 12 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Resers Salsa Baja Cafe Restaurant - 16 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Casa Sanchez Mild Roja Salsa - 15 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Victoria Salsa Suprema Med - 15.5 OZ",
+      "brand": null,
+      "price": "$3.99",
+      "size": "15.5 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Hot Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Hot Salsa - 16 Oz",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Silver Fork Gourmet Traditiona...e Mild Salsa - 12 Oz",
+      "brand": null,
+      "price": "$4.49",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Silver Fork Gourmet Traditiona...e Mild Salsa - 12 Oz",
+      "brand": null,
+      "price": "$5.00",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Fresca Mild Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Sadies Salsa Hot Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana Mild Salsa - 16 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana Cantina Salsa - 14 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "14 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Hot Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Hot Jar - 16 Oz",
+      "brand": null,
+      "price": "$6.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Cholula Salsa Hot Original - 12 OZ",
+      "brand": null,
+      "price": "$5.49",
+      "size": "12 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Guacamole Salsa Mild - 15.7 Fl. Oz.",
+      "brand": null,
+      "price": "$4.79",
+      "size": "15.7 Fl. Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Guacamole Salsa Mild - 15.7 Fl. Oz.",
+      "brand": null,
+      "price": "$5.49",
+      "size": "15.7 Fl. Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Garlic Lovers Medium Salsa Jar - 24 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "24 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Verde Jar - 16 Oz",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Roasted Verde Medium Jar - 15.7 Oz",
+      "brand": null,
+      "price": "$4.79",
+      "size": "15.7 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Roasted Verde Medium Jar - 15.7 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "15.7 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Chunky Classic Mild Salsa Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Silver Fork Gourmet Traditiona...le Hot Salsa - 12 Oz",
+      "brand": null,
+      "price": "$4.49",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Silver Fork Gourmet Traditiona...le Hot Salsa - 12 Oz",
+      "brand": null,
+      "price": "$5.00",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Bomb Shel By Salsa Boss Fresh Hot Heat Salsa - 16 OZ",
+      "brand": null,
+      "price": "$6.99",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Silver Fork Gourmet Hatch Chil...Medium Salsa - 12 Oz",
+      "brand": null,
+      "price": "$4.49",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Silver Fork Gourmet Hatch Chil...Medium Salsa - 12 Oz",
+      "brand": null,
+      "price": "$5.00",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Casera Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Picante Sauce - Medium - 16 Oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Picante Sauce - Medium - 16 Oz",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Chunky Classic Salsa Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Del Real Fire Roasted Mild Salsa - 15 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Medium Fresca Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "O Organics Salsa Mild Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.79",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "We'd love to hear what you think of our website!",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": null
+  "raw_text_chars": 9098,
+  "steps": [
+    "16:30:19 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "16:30:20 connected to Bright Data Scraping Browser",
+    "16:30:35 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
+    "16:30:44 captcha check passed",
+    "16:30:53 dismissed \"Continue with all\"",
+    "16:30:53 press Escape",
+    "16:30:55 scrolled x2",
+    "16:31:00 scrolled x2",
+    "16:31:05 scrolled x2",
+    "16:31:10 scrolled x2",
+    "16:31:14 scrolled x2",
+    "16:31:17 store_set: 4700 N Eagle Rd",
+    "16:31:17 few houses, reloading once",
+    "16:31:32 text parser wins: 49 vs 3",
+    "16:31:33 extracted 49 houses; raw text 9098 chars"
+  ],
+  "error": null,
+  "reloaded": true,
+  "houses_text": 49,
+  "houses_dom": 3
 }

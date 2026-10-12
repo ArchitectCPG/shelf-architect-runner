@@ -3,25 +3,1870 @@
   "retailer": "kroger",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-12T16:23:57.662Z",
+  "pulled_at": "2026-10-12T16:31:50.528Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
-  "store_set": "3915 E US Highway 377",
+  "store_set": "2301 Locust St",
   "url_final": "https://www.kroger.com/search?query=salsa",
-  "houses": [],
-  "raw_text_chars": 1601,
-  "steps": [
-    "16:23:57 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "16:23:58 connected to Bright Data Scraping Browser",
-    "16:24:00 rate limited, retry 1",
-    "16:24:14 goto https://www.kroger.com/search?query=salsa",
-    "16:24:22 captcha check passed",
-    "16:24:28 dismissed \"\"",
-    "16:24:28 press Escape",
-    "16:24:32 scrolled x4",
-    "16:24:32 store_set: 3915 E US Highway 377",
-    "16:24:33 extracted 0 houses; raw text 1601 chars"
+  "houses": [
+    {
+      "name": "Guillermo's Salsa Mild",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Guillermo's Salsa Medium",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Mild Traditional Salsa",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Restaurant Style Medium Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Restaurant Style Mild Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Restaurant Style Mild Salsa",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Medium Traditional Salsa",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Medium Traditional Salsa",
+      "brand": null,
+      "price": "$4.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Mild Gourmet Salsa",
+      "brand": null,
+      "price": "$5.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Mild Chunky Salsa Dip",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Mild Chunky Salsa Dip",
+      "brand": null,
+      "price": "$4.09",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Medium Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Medium Salsa",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+      "brand": null,
+      "price": "$4.09",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Medium Restaurant Style Salsa",
+      "brand": null,
+      "price": "$4.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Medium Restaurant Style Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Medium Gourmet Salsa",
+      "brand": null,
+      "price": "$4.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Medium Gourmet Salsa",
+      "brand": null,
+      "price": "$5.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Yucatan Medium Restaurant Style Guacamole",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Yucatan Medium Restaurant Style Guacamole",
+      "brand": null,
+      "price": "$5.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Con Queso Salsa Dip",
+      "brand": null,
+      "price": "$5.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Rojo's® by La Mexicana® Mild Cantina Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Rojo's® by La Mexicana® Mild Cantina Salsa",
+      "brand": null,
+      "price": "$5.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana® Fresh Medium Salsa",
+      "brand": null,
+      "price": "$4.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana® Fresh Medium Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Queso Blanco Dip",
+      "brand": null,
+      "price": "$4.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Queso Blanco Dip",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Taco Bell Original Taco Seasoning Mix, Packet",
+      "brand": null,
+      "price": "$0.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Taco Bell Original Taco Seasoning Mix, Packet",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Taco Bell Mild Sauce, Bottle",
+      "brand": null,
+      "price": "$2.09",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Taco Bell Mild Sauce, Bottle",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Taco Bell Mild Sauce, Bottle",
+      "brand": null,
+      "price": "$0.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Taco Seasoning",
+      "brand": null,
+      "price": "$0.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® White Corn Restaurant Style Tortilla Chips",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® White Corn Restaurant Style Tortilla Chips",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Mexican Style Blend Shredded Cheese",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Mexican Style Blend Shredded Cheese",
+      "brand": null,
+      "price": "$1.89",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Original Sour Cream",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Shredded Iceberg Lettuce",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Shredded Iceberg Lettuce",
+      "brand": null,
+      "price": "$1.39",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Traditional Refried Beans",
+      "brand": null,
+      "price": "$1.09",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Traditional Refried Beans",
+      "brand": null,
+      "price": "$1.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Soft Taco Size Flour Tortillas",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "On The Border® Café Style Tortilla Chips",
+      "brand": null,
+      "price": "$3.50",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "On The Border® Café Style Tortilla Chips",
+      "brand": null,
+      "price": "$3.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "On The Border® Café Style Tortilla Chips",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® White Corn Rounds Tortilla Chips",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Medium Salsa Con Queso Cheese Dip",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Medium Salsa Con Queso Cheese Dip",
+      "brand": null,
+      "price": "$0.89",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® No Salt Added Black Beans",
+      "brand": null,
+      "price": "$1.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Old El Paso™ Original Flavor Taco Seasoning Mix",
+      "brand": null,
+      "price": "$1.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Old El Paso™ Original Flavor Taco Seasoning Mix",
+      "brand": null,
+      "price": "$1.25",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Old El Paso™ Original Flavor Taco Seasoning Mix",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Restaurant Style Medium Salsa",
+      "brand": null,
+      "price": "$0.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Reduced Sodium Taco Seasoning",
+      "brand": null,
+      "price": "$0.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Reduced Sodium Taco Seasoning",
+      "brand": null,
+      "price": "$1.59",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Original Crisp Taco Shells",
+      "brand": null,
+      "price": "$1.59",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Original Crisp Taco Shells",
+      "brand": null,
+      "price": "$1.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Knorr Mexican Rice Sides",
+      "brand": null,
+      "price": "$1.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Medium Queso Blanco Cheese Dip",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® White Corn Bite Size Rounds Tortilla Chips",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® White Corn Bite Size Rounds Tortilla Chips",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® White Corn Bite Size Rounds Tortilla Chips",
+      "brand": null,
+      "price": "$2.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Burrito Size Flour Tortillas",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mission Round Yellow Corn Tortilla Chips",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mission Round Yellow Corn Tortilla Chips",
+      "brand": null,
+      "price": "$3.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Mexican Style Blend Shredded Cheese",
+      "brand": null,
+      "price": "$3.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Mexican Style Blend Shredded Cheese",
+      "brand": null,
+      "price": "$3.69",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Mexican Style Blend Shredded Cheese",
+      "brand": null,
+      "price": "$0.89",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Diced Green Chile Peppers",
+      "brand": null,
+      "price": "$0.89",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Diced Green Chile Peppers",
+      "brand": null,
+      "price": "$0.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Mild Taco Seasoning",
+      "brand": null,
+      "price": "$0.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Wholly® Guacamole Classic Mild",
+      "brand": null,
+      "price": "$3.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Wholly® Guacamole Classic Mild",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Gordo's® Original Mexican Restaurant Style Queso Cheese Dip",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Gordo's® Original Mexican Restaurant Style Queso Cheese Dip",
+      "brand": null,
+      "price": "$6.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Gordo's® Original Mexican Restaurant Style Queso Cheese Dip",
+      "brand": null,
+      "price": "$6.39",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Scoops Tortilla Chips Party Size",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Scoops Tortilla Chips Party Size",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® White Corn Restaurant Style Tortilla Chips Family Size",
+      "brand": null,
+      "price": "$2.69",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® White Corn Restaurant Style Tortilla Chips Family Size",
+      "brand": null,
+      "price": "$2.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® White Corn Restaurant Style Tortilla Chips Family Size",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Original Thick and Smooth Mild Taco Sauce, Kosher, 8 oz",
+      "brand": null,
+      "price": "$2.99",
+      "size": "8 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Save $1 each when you buy 5 or more",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Santitas® White Corn Tortilla Chips",
+      "brand": null,
+      "price": "$1.89",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Light Sour Cream",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Knorr ® Spanish Rice Sides",
+      "brand": null,
+      "price": "$1.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Nacho & Taco Blend Shredded Cheese",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Nacho & Taco Blend Shredded Cheese",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Nacho & Taco Blend Shredded Cheese",
+      "brand": null,
+      "price": "$0.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Fajita Seasoning Mix",
+      "brand": null,
+      "price": "$0.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hershey Assorted Halloween Candy Bulk Variety Bag",
+      "brand": null,
+      "price": "$18.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hershey Assorted Halloween Candy Bulk Variety Bag",
+      "brand": null,
+      "price": "$21.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hershey Assorted Halloween Candy Bulk Variety Bag",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Elmer's® Super Glue - 3 Pack",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Skittles Twix Starburst & 3 Musketeers Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$9.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Skittles Twix Starburst & 3 Musketeers Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$11.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Skittles Twix Starburst & 3 Musketeers Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$5.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Skittles Twix Starburst & 3 Musketeers Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$6.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Grown Large Pumpkins (Up to 19 lbs) - Each",
+      "brand": null,
+      "price": "$5.99",
+      "size": "19 lbs",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Grown Large Pumpkins (Up to 19 lbs) - Each",
+      "brand": null,
+      "price": "$6.49",
+      "size": "19 lbs",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Twix Caramel Fun Size Chocolate Cookie Candy Bag",
+      "brand": null,
+      "price": "$8.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Twix Caramel Fun Size Chocolate Cookie Candy Bag",
+      "brand": null,
+      "price": "$10.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "KIT KAT® Milk Chocolate Wafer Counts Snack Size Halloween Candy Bag",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "KIT KAT® Milk Chocolate Wafer Counts Snack Size Halloween Candy Bag",
+      "brand": null,
+      "price": "$6.59",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "KIT KAT® Milk Chocolate Wafer Counts Snack Size Halloween Candy Bag",
+      "brand": null,
+      "price": "$5.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "KIT KAT® Milk Chocolate Wafer Counts Snack Size Halloween Candy Bag",
+      "brand": null,
+      "price": "$6.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Milky Way Fun Size 10.65 oz Each",
+      "brand": null,
+      "price": "$5.99",
+      "size": "10.65 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Milky Way Fun Size 10.65 oz Each",
+      "brand": null,
+      "price": "$6.49",
+      "size": "10.65 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pumpkin Patch Pals Orange Sparkler Ornamental Pumpkin - Each",
+      "brand": null,
+      "price": "$2.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pumpkin Patch Pals Orange Sparkler Ornamental Pumpkin - Each",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "KIT KAT® Milk Chocolate Wafer Snack Size Candy Bag",
+      "brand": null,
+      "price": "$6.59",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "KIT KAT® Milk Chocolate Wafer Snack Size Candy Bag",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "KIT KAT® Milk Chocolate Wafer Snack Size Candy Bag",
+      "brand": null,
+      "price": "$9.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pumpkin Masters® Ultimate Carving Party Kit",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "3 Musketeers Fun Size 10.48 oz Each",
+      "brand": null,
+      "price": "$5.99",
+      "size": "10.48 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "3 Musketeers Fun Size 10.48 oz Each",
+      "brand": null,
+      "price": "$6.49",
+      "size": "10.48 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "M&M'S Snickers Twix & Milky Way Milk Chocolate Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$29.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "M&M'S Snickers Twix & Milky Way Milk Chocolate Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$34.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "M&M'S Snickers Twix & Milky Way Milk Chocolate Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "M&M'S Snickers Twix & Milky Way Milk Chocolate Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$7.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Grown Heirloom Pumpkins - Each",
+      "brand": null,
+      "price": "$7.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Grown Heirloom Pumpkins - Each",
+      "brand": null,
+      "price": "$13.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Save $2 on Pepsi, Mountain Dew, Starry 24PK Soda Pop Soft Drink PICKUP OR DELIVERY ONLY",
+      "brand": null,
+      "price": "$14.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Save $2 on Pepsi, Mountain Dew, Starry 24PK Soda Pop Soft Drink PICKUP OR DELIVERY ONLY",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Save $2 on Pepsi, Mountain Dew, Starry 24PK Soda Pop Soft Drink PICKUP OR DELIVERY ONLY",
+      "brand": null,
+      "price": "$4.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Caramel Apples with Peanuts",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Bag",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Bag",
+      "brand": null,
+      "price": "$6.59",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Bag",
+      "brand": null,
+      "price": "$9.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "M&M'S Snickers & Twix Milk Chocolate Halloween Candy Bulk Bag",
+      "brand": null,
+      "price": "$11.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "M&M'S Snickers & Twix Milk Chocolate Halloween Candy Bulk Bag",
+      "brand": null,
+      "price": "$10.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "M&M'S Snickers & Twix Milk Chocolate Halloween Candy Bulk Bag",
+      "brand": null,
+      "price": "$12.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Outdoor Mums (Offered in Yellow - Purple - Red and White)",
+      "brand": null,
+      "price": "$8.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Snickers Twix Milky Way & 3 Musketeers Minis Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$9.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Snickers Twix Milky Way & 3 Musketeers Minis Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$11.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Snickers Twix Milky Way & 3 Musketeers Minis Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Snickers Twix Milky Way & 3 Musketeers Minis Halloween Candy Variety Bulk Bag",
+      "brand": null,
+      "price": "$6.59",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Pumpkins Halloween Candy Bag",
+      "brand": null,
+      "price": "$14.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coca-Cola® Soda Cans",
+      "brand": null,
+      "price": "$14.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Caramel Apple with Peanuts",
+      "brand": null,
+      "price": "$1.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Caramel Apple with Peanuts",
+      "brand": null,
+      "price": "$2.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Caramel Apple with Peanuts",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Jumbo Bag",
+      "brand": null,
+      "price": "$8.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Jumbo Bag",
+      "brand": null,
+      "price": "$9.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Jumbo Bag",
+      "brand": null,
+      "price": "$1.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Large McIntosh Apple - Each",
+      "brand": null,
+      "price": "$14.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Butterfinger®Fun Size",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Butterfinger®Fun Size",
+      "brand": null,
+      "price": "$6.59",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Peanut Butter Pumpkin Halloween Candy Pack",
+      "brand": null,
+      "price": "$1.67",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Peanut Butter Pumpkin Halloween Candy Pack",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Peanut Butter Pumpkin Halloween Candy Pack",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "HERSHEY'S Milk Chocolate Snack Size Candy Bag",
+      "brand": null,
+      "price": "$6.59",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tootsie® Caramel Apple Pops™ Family Pack Candy",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tootsie® Caramel Apple Pops™ Family Pack Candy",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Save $1 on Libby's Pumpkin PICKUP OR DELIVERY ONLY",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Save $1 on Libby's Pumpkin PICKUP OR DELIVERY ONLY",
+      "brand": null,
+      "price": "$0.75",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Black Plum - Each",
+      "brand": null,
+      "price": "$0.75",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Everyday Low Price",
+      "brand": null,
+      "price": "$0.75",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Swiss Miss Milk Chocolate Flavored Hot Cocoa Mix",
+      "brand": null,
+      "price": "$3.69",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Swiss Miss Milk Chocolate Flavored Hot Cocoa Mix",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "4X Points on Meat/Seafood purchases 10/7 - 10/13. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$8.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "4X Points on Meat/Seafood purchases 10/7 - 10/13. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$3.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Dry Roasted Lightly Salted Peanuts",
+      "brand": null,
+      "price": "$2.69",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Dry Roasted Lightly Salted Peanuts",
+      "brand": null,
+      "price": "$1.09",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger Regular Evaporated Milk",
+      "brand": null,
+      "price": "$1.09",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger Regular Evaporated Milk",
+      "brand": null,
+      "price": "$0.75",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jiffy® Honey Corn Muffin Mix",
+      "brand": null,
+      "price": "$0.89",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Nerds Fruity Chewy Halloween Trick-or-Treat Variety Bag, 55 ct, 18.42 oz",
+      "brand": null,
+      "price": "$9.99",
+      "size": "55 ct",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Nerds Fruity Chewy Halloween Trick-or-Treat Variety Bag, 55 ct, 18.42 oz",
+      "brand": null,
+      "price": "$11.99",
+      "size": "55 ct",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Nerds Fruity Chewy Halloween Trick-or-Treat Variety Bag, 55 ct, 18.42 oz",
+      "brand": null,
+      "price": "$3.69",
+      "size": "55 ct",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Swiss Miss Chocolate Hot Cocoa Mix With Marshmallows",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Hardwood Smoked Center Cut Bacon",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "4X Points on Meat/Seafood purchases 10/7 - 10/13. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": null
+  "raw_text_chars": 14354,
+  "steps": [
+    "16:31:50 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "16:31:51 connected to Bright Data Scraping Browser",
+    "16:31:57 goto https://www.kroger.com/search?query=salsa",
+    "16:32:05 captcha check passed",
+    "16:32:12 dismissed \"\"",
+    "16:32:12 press Escape",
+    "16:32:16 scrolled x4",
+    "16:32:16 store_set: 2301 Locust St",
+    "16:32:16 few houses, reloading once",
+    "16:32:33 text parser wins: 184 vs 108",
+    "16:32:33 extracted 184 houses; raw text 14354 chars"
+  ],
+  "error": null,
+  "reloaded": true,
+  "houses_text": 184,
+  "houses_dom": 108
 }
