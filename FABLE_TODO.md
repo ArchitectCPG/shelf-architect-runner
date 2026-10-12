@@ -1,5 +1,16 @@
 # Fable TODO: Shelf Architect runner (sandbox, no DB writes until Steve OKs)
 
+## START HERE (next Fable session, planned 2026-10-13)
+Read this file top to bottom, then README.md. Repo ArchitectCPG/shelf-architect-runner main is clean. Dispatch: gh api -X POST repos/ArchitectCPG/shelf-architect-runner/actions/workflows/pull.yml/dispatches -f ref=main -f 'inputs[blocks]=all' (or a comma list of blocks/*.json). Wait ~6-10 min, git pull, score data/*/*/<date>.json. Steve wants plain-words, step-by-step help on his own loose ends (section at bottom).
+
+Order of work:
+1. STORE PINNING recipes, one per family, biggest group first. Proxy geo is ruled out (tested 2026-10-12). Instacart banners (Safeway, Publix, Fresh Thyme, Sprouts): find the Pickup/Delivery zip control, fill {{store_zip}}, confirm, verify store_set is Chicago-area. Then Albertsons family (store locator or set-store URL/cookie), Kroger family ("Pickup at" header, store locator by zip), Target (Ship to zip / store picker), Meijer (store picker), Walmart (Scraper API zipcode). Acceptance: store_set is a Chicago-area store or the block is flagged "store drift".
+2. Fix the remaining access failures: Hy-Vee search URL (returns site-wide items), Food Lion (search-suggestion shell), Wegmans URL (page gone), Aldi (0 on new.aldi.us). Check saved png/txt in data/<retailer>/ first. H-E-B, BJ's, Stop & Shop, Walgreens are blocked at goto: try the Unlocker lane or keep attended.
+3. Full 37-banner rescore, then widen to the ~241 list (read the DB read-only, bucket by platform, generate blocks per family).
+4. Hybrid lanes decision and cost/time estimate, then draft the pull_process change for Steve's OK with a backup zip. Not before.
+5. Steve's loose ends (bottom of file), walk him through them.
+
+
 Context: claude/runner/README.md has the sweep table and design. Repo ArchitectCPG/shelf-architect-runner. Dispatch: gh api -X POST repos/ArchitectCPG/shelf-architect-runner/actions/workflows/pull.yml/dispatches -f ref=main -f 'inputs[blocks]=all'. Results are committed to data/<retailer>/<block>/<date>.json (job logs and artifacts are not readable from Claude).
 
 ## 1. Store pinning (the core problem)
