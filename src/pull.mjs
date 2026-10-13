@@ -147,6 +147,8 @@ async function runStep(page, step) {
         (out.js_results = out.js_results || []).push("dialog inputs: " + JSON.stringify(info).slice(0, 3000));
         if (!picked) { if (!step.optional) throw new Error("type_dialog: no visible textbox in dialog"); log("type_dialog miss"); break; }
         await picked.click({ timeout: 10000 }); await picked.pressSequentially(sub(v.value), { delay: 80 }); if (v.enter !== false) await picked.press("Enter"); log(`type_dialog "${sub(v.value)}"`); break; }
+      case "type_marked": { // {sel, value, enter}: Playwright-native typing into a locator (real key events)
+        const l = page.locator(sub(v.sel)).first(); try { await l.waitFor({ state: "visible", timeout: 15000 }); await l.scrollIntoViewIfNeeded(); await l.click({ timeout: 10000 }); await l.pressSequentially(sub(v.value), { delay: 90 }); if (v.enter) await l.press("Enter"); log(`type_marked ${v.sel}`); } catch (e) { if (!step.optional) throw e; log(`type_marked miss ${String(e).slice(0, 80)}`); } break; }
       case "press": await page.keyboard.press(v); log(`press ${v}`); break;
       default: log(`unknown step ${kind}`);
     }
