@@ -1,0 +1,81 @@
+{
+ "block_id": "diag/sprouts@pin",
+ "retailer": "sprouts",
+ "zip": "diag",
+ "neighborhood": "sprouts",
+ "term": "salsa",
+ "store_zip": "60563",
+ "store_js": "(()=>{const b=[...document.querySelectorAll('button,a,[role=button]')].find(b=>/Store #\\d+|shopping at|change store/i.test(b.innerText)); return b?b.innerText.replace(/\\s+/g,' ').trim().slice(0,90):null})()",
+ "steps": [
+  {
+   "netlog": "on"
+  },
+  {
+   "goto": "https://shop.sprouts.com/store/sprouts/s?k={{term}}"
+  },
+  {
+   "wait": 10000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it"
+   ]
+  },
+  {
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;}; const vis=e=>e&&(e.offsetWidth||e.offsetHeight); const b=await waitFor(()=>[...document.querySelectorAll('button,a,[role=button]')].find(e=>vis(e)&&/change store|store #|shopping at|select a store/i.test(e.innerText||'')),15); if(!b) return 'no store button: '+[...document.querySelectorAll('button')].filter(vis).map(e=>e.innerText.trim().slice(0,30)).filter(Boolean).slice(0,40).join('|'); b.click(); return 'opened: '+b.innerText.trim().slice(0,60)"
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "dump": "dialog1"
+  },
+  {
+   "js": "const b=[...document.querySelectorAll('button,[role=button],a')].find(b=>b.offsetWidth&&/^(Edit|Change|Enter zip|Use a different)/i.test(b.innerText.trim())); if(b){b.click(); return 'edit: '+b.innerText.trim()} const d=document.querySelector('[role=dialog],[aria-modal=true]'); return 'noedit; dialog='+(d?d.innerText.replace(/\\s+/g,' ').slice(0,600):'none')",
+   "optional": true
+  },
+  {
+   "wait": 2500
+  },
+  {
+   "dump": "dialog2"
+  },
+  {
+   "type_dialog": {
+    "value": "{{store_zip}}",
+    "enter": true
+   },
+   "optional": true
+  },
+  {
+   "wait": 6000
+  },
+  {
+   "dump": "dialog3"
+  },
+  {
+   "js": "await new Promise(x=>setTimeout(x,6000)); const d=document.queratorySelectorAll?0:0; const dl=document.querySelector('[role=dialog],[aria-modal=true]'); return 'after: '+(dl?dl.innerText.replace(/\\s+/g,' ').slice(0,1500):'no dialog')",
+   "optional": true
+  },
+  {
+   "js": "const dl=document.querySelector('[role=dialog],[aria-modal=true]'); if(!dl) return 'no dialog'; const b=[...dl.querySelectorAll('button,[role=button]')].find(b=>b.offsetWidth&&/set as my store|select|choose|shop here|start shopping/i.test(b.innerText)); if(b){b.click(); return 'picked: '+b.innerText.trim().slice(0,60)} return 'nopick: '+[...dl.querySelectorAll('button')].map(b=>b.innerText.trim().slice(0,25)).filter(Boolean).slice(0,30).join('|')",
+   "optional": true
+  },
+  {
+   "wait": 6000
+  },
+  {
+   "goto": "https://shop.sprouts.com/store/sprouts/s?k={{term}}"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "scroll": 3
+  }
+ ]
+}
