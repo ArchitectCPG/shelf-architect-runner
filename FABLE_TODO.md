@@ -1,40 +1,35 @@
 # Fable TODO: Shelf Architect runner (sandbox, no DB writes until Steve OKs)
 
-## START HERE (next Fable session, planned 2026-10-13)
+## START HERE (next session)
 Read this file top to bottom, then README.md. Repo ArchitectCPG/shelf-architect-runner main is clean. Dispatch: gh api -X POST repos/ArchitectCPG/shelf-architect-runner/actions/workflows/pull.yml/dispatches -f ref=main -f 'inputs[blocks]=all' (or a comma list of blocks/*.json). Wait ~6-10 min, git pull, score data/*/*/<date>.json. Steve wants plain-words, step-by-step help on his own loose ends (section at bottom).
 
-Order of work:
-1. STORE PINNING recipes, one per family, biggest group first. Proxy geo is ruled out (tested 2026-10-12). Instacart banners (Safeway, Publix, Fresh Thyme, Sprouts): find the Pickup/Delivery zip control, fill {{store_zip}}, confirm, verify store_set is Chicago-area. Then Albertsons family (store locator or set-store URL/cookie), Kroger family ("Pickup at" header, store locator by zip), Target (Ship to zip / store picker), Meijer (store picker), Walmart (Scraper API zipcode). Acceptance: store_set is a Chicago-area store or the block is flagged "store drift".
-2. Fix the remaining access failures: Hy-Vee search URL (returns site-wide items), Food Lion (search-suggestion shell), Wegmans URL (page gone), Aldi (0 on new.aldi.us). Check saved png/txt in data/<retailer>/ first. H-E-B, BJ's, Stop & Shop, Walgreens are blocked at goto: try the Unlocker lane or keep attended.
-3. Full 37-banner rescore, then widen to the ~241 list (read the DB read-only, bucket by platform, generate blocks per family).
+Order of work now:
+1. Map remaining banners live in Chrome with Steve (2-3 min each, same pattern as the Kroger/Albertsons/Meijer work: open the store picker, type zip, pick first store, confirm): publix.com, hy-vee, giant eagle, food lion, stop & shop, wegmans, aldi, sprouts.com (own site, not Instacart), fresh thyme. Encode as blocks with store_js.
+2. Full rescore of all blocks, score table into README.md.
+3. Widen toward the ~241 list (read the DB read-only, bucket by platform, generate blocks per family).
 4. Hybrid lanes decision and cost/time estimate, then draft the pull_process change for Steve's OK with a backup zip. Not before.
 5. Steve's loose ends (bottom of file), walk him through them.
 
+## 2026-10-13 TARGET: root-caused, deprioritized
+Confirmed (not a timing/selector bug): Target's zip-lookup inside the store-picker drawer returns a persistent server-side error in Bright Data's cloud browser - "We're sorry, something went wrong. Please try again." - reproduced 4x in a row on a fresh page load, retries do not clear it. Same flow works instantly in Steve's real Chrome, so this reads as anti-bot/proxy-IP blocking on that one endpoint, not something a wait or selector fix solves.
+Fix applied: target-salsa.json no longer tries to pin a store (was throwing and failing the whole block after a 6-loop timeout). It now pulls Target's IP-default store unpinned, flags it plainly in store_set, and does not fail. Verified: 47 clean salsa houses, no error.
+Net: Target is back to producing data, just not Chicago-pinned. Leave as-is unless Steve wants to spend more on it - options if revisited: Bright Data's prebuilt Target scraper, or Target's separate store-locator page instead of the drawer.
 
-Context: claude/runner/README.md has the sweep table and design. Repo ArchitectCPG/shelf-architect-runner. Dispatch: gh api -X POST repos/ArchitectCPG/shelf-architect-runner/actions/workflows/pull.yml/dispatches -f ref=main -f 'inputs[blocks]=all'. Results are committed to data/<retailer>/<block>/<date>.json (job logs and artifacts are not readable from Claude).
-
-## 1. Store pinning (the core problem)
-Only Whole Foods pins a store. Others land on the exit IP's store (Idaho Albertsons, Ohio Safeway, Missouri Target, Michigan Meijer).
-- Test Bright Data geo targeting on the browser username beyond -country-us (state or city suffix for Illinois). If supported this fixes most banners at once.
-- Otherwise per-banner set-store recipes: Target (Ship to / store picker), Meijer, Instacart banners (Pickup zip), Kroger family and Albertsons family (store locator by zip), Sprouts (store 505 vs Chicago store).
-- Walmart: zipcode via Bright Data Scraper API from the runner.
-- Acceptance: store_set equals a Chicago-area store for every banner, or the banner is flagged "store drift, not comparable".
+## 1. Store pinning (the core problem) - mostly solved
+Kroger platform (7/7), Albertsons platform (8/8), Meijer: pinned and unattended. Target: unpinned by design now (see above). Walmart: mapped live, not yet verified unattended. Instacart banners: no unattended path, need retailer-owned sites instead (see below).
 
 ## 2. Reliability
-- Whole Foods regressed (store did not set, 0 houses). Find the flaky step, add a retry or verify-and-redo loop on the Update Location flow.
-- H-E-B goto blocked: test with Unlocker lane or leave attended.
 - Add per-block retry (re-run whole block once if houses < threshold or store_set empty).
+- Watch for Bright Data no_peer/502 spikes; goto already retries on them.
 
 ## 3. Extraction quality
-- Kroger and Walmart names pick badges ("Price Cut", "Now$397", language banner). Prefer a name from the product link text or an h-tag/aria-label, fall back to longest clean line.
-- Albertsons and Jewel-Osco return 1 card (lazy load). Try HTML route (Bright Data scrape_as_html) or a card_selector plus scroll-until-stable.
-- Instacart banners (Safeway, Publix): names garbled by promo lines. Add explicit card selector.
-- Score every banner: houses >= 20, clean names >= 90%, store_set present.
+- Text-fallback parser plus reload-once-if-<5-houses is working well across the Kroger/Albertsons families. Revisit badge-picking names (Kroger/Walmart) only if it scores badly on full rescore.
 
 ## 4. Universe growth (sandbox)
-- Sweep now covers about 37 banners on the salsa neighborhood. Score the new 26, mark each: works / needs recipe / blocked (Costco needs Bright Data KYC).
+- Sweep covers 37 banners on the salsa neighborhood now, 15 with confirmed unattended store pinning.
 - Pull the full ~241 banner list from the DB (read only) and bucket by platform (Kroger, Albertsons, Instacart, Ahold, Walmart, Hy-Vee, independents) so one recipe covers a whole family.
 - Extend beyond salsa to the other neighborhoods in a client matrix, using search term and collection routes.
+- More banners to add once the above lands: Costco (KYC first), Grocery Outlet, Lidl, WinCo, Smart & Final, Save A Lot, Stater Bros, Raley's, Price Chopper, Weis, Harps, Brookshire's, Ingles, Lowes Foods, Piggly Wiggly, Bashas', Fareway, Dierbergs, Big Y, Erewhon, Earth Fare, Fairway, Gelson's, Dollar Tree, Family Dollar, Five Below, 7-Eleven, Casey's, Thrive Market, Amazon main, FreshDirect.
 
 ## 5. Hybrid lanes decision
 - Compare per banner: Bright Data prebuilt scraper with zipcode vs runner vs Claude in Chrome. Pick one lane per banner, record in the retailer docs.
@@ -43,20 +38,11 @@ Only Whole Foods pins a store. Others land on the exit IP's store (Idaho Alberts
 ## 6. Only after the above scores well
 - Draft a pull_process change (app_meta/pull_process, onboarding_runbook, pull_prompt_template) for Steve's OK, with a backup zip for the Drive folder. Do not write to the DB before his OK.
 
-## Housekeeping
-- Rotate the Bright Data API token that appeared in chat. Delete redundant zone scraping_browser1. Costco KYC. Ed email draft composed, not sent.
+## Instacart banners - re-routed, not store-pinnable via Instacart
+Safeway, Publix, Fresh Thyme, Sprouts (via Instacart) hit a login wall setting a delivery/zip address; zip_code URL param is ignored. Use each retailer's own branded site instead (publix.com, safeway.com are already Albertsons-family-pinned; sprouts.com and freshthyme need their own live mapping, see "Order of work" above).
 
-## Sweep 2 result (2026-10-07 ~2 PM CT, 37 banners, salsa)
-Got products: whole-foods 23 (Chicago 60615 pinned, recovered), sprouts 40, target 40, hyvee 132 (suspect: returns site-wide items like ground chuck, not salsa), foodlion 33 (names are search-suggestion junk), publix 37 (some non-salsa items), fredmeyer 23, walmart 26, safeway 12, acmemarkets 8, randalls 9, tomthumb 9, shaws 6, jewel 5, albertsons 1.
-Zero products, no error (page loaded, extractor found nothing; need recipe/selector): aldi, amazon-fresh, freshthyme, giant-eagle, meijer (regressed from 45), naturalgrocers, ralphs, shoprite, smiths, thefreshmarket, vons, wegmans, schnucks (store Rockford Pl set, 0 houses).
-Errors: bjs, heb, stopandshop, walgreens (goto blocked or restricted), cvs (tunnel failed), dollargeneral (timeout), harristeeter (CDP websocket error, transient), kroger (execution context destroyed on evaluate, page redirect, add retry), samsclub (context closed).
-Patterns: Albertsons family (acmemarkets, randalls, tomthumb, shaws, vons, jewel) all render a few cards, so one Albertsons-family fix (scroll until stable or HTML route) unlocks 6 banners. Kroger family (kroger, fredmeyer, ralphs, smiths, harristeeter) same: one fix, 5 banners. Zero-product pages are probably bot walls or shells, check the saved png/txt in data/<retailer>/ before writing recipes.
-
-## More banners to add (after the family fixes)
-Club/value: Costco (KYC first), Grocery Outlet, Lidl, WinCo, Smart & Final, Save A Lot. Regional: Stater Bros, Raley's, Price Chopper, Weis, Harps, Brookshire's, Ingles, Lowes Foods, Piggly Wiggly, Bashas', Fareway, Dierbergs, Mariano's/Pick 'n Save, Big Y. Specialty: Erewhon, Earth Fare, Fairway, Gelson's. Mass/dollar/c-store: Dollar Tree, Family Dollar, Five Below, 7-Eleven, Casey's. Online: Thrive Market, Amazon main, FreshDirect. Best source: read-only pull of the ~241 banner list from the Shelf Architect DB, bucket by platform, generate blocks per family.
-
-## HANDOFF (2026-10-07 2 PM CT)
-State: repo ArchitectCPG/shelf-architect-runner main is clean and pushed, 37 salsa blocks, workflow works end to end (validate, clear stale data, 3 parallel, single collector commit). Latest data committed under data/. No Shelf Architect DB writes happened, so no backup zip is due. Start with section 1 (geo suffix test) and the two family fixes (Albertsons, Kroger). Sonnet can run sweeps and score; Fable for store pinning design and the hybrid decision.
+## Design rule confirmed
+store_zip is per banner per market, not one universal zip. Zips in use: 60615 (Chicago banners), 45202 kroger, 97202 fredmeyer, 90024 ralphs, 84101 smiths, 28202 harristeeter, 83702 albertsons, 90210 vons, 94110 safeway, 19103 acme, 02116 shaws, 77005 randalls, 75205 tomthumb.
 
 ## STEVE'S LOOSE ENDS (Steve needs hand-holding on these; walk him through one at a time, plain steps, exactly what to click and paste, no jargon)
 1. Rotate the Bright Data API token that appeared in chat (Bright Data dashboard, account settings, API tokens: create new, delete old). Check nothing in the repo or connector uses the old one.
@@ -65,38 +51,21 @@ State: repo ArchitectCPG/shelf-architect-runner main is clean and pushed, 37 sal
 4. Send the Ed Lavery email (store-location data ask plus how Steve will use the Placer file). Draft was composed earlier, not sent. Re-draft in Steve's voice (steve-voice skill, no em dashes), show it, and send only after his yes.
 5. Clean-up check: Bright Data balance (about $54), $5 consumed alert on, auto-recharge off. Confirm nothing is spending unattended.
 
-## 2026-10-12 session (Fable, Steve light on data)
-DONE: (a) Geo test: -country-us-state-il connects but does NOT pin a store (Target landed Indiana 46516, Meijer still Michigan); -city-chicago ignored (SC). Verdict: proxy geo cannot pin stores, each banner needs a set-store step in its own UI. (b) Extractor: new text-fallback parser (parse innerText around $x.xx lines) plus reload-once when <5 houses. Albertsons 1->49, Jewel 5->43, Vons 0->39, Kroger 0->184, Ralphs 0->28, Safeway 0->25, Walmart 26->67, names clean. Albertsons family and Kroger family are now UNLOCKED at the access level. (c) Aldi URL -> new.aldi.us/results?q= (still 0, check png).
-STILL OPEN: Hy-Vee search URL wrong (returns site-wide items), Food Lion 0 (search-suggestion shell), Wegmans URL (page gone), Aldi 0, H-E-B/BJ's/Stop&Shop/Walgreens blocked, Target/Safeway flaky by exit store.
-NEXT (Fable): store pinning recipes per family, in this order by banner count: Instacart banners (Pickup zip field), Albertsons family (store locator /set-store cookie), Kroger family (store locator, "Pickup at" header), Target (Ship to zip), Meijer, Walmart (Scraper API zipcode). Then score the whole 37 and widen.
+## Prior session logs (kept for reference, most-recent decisions above supersede)
 
-## 2026-10-13 store pinning diagnostics (6 passes, runner now has dump/click_re/click_sel/type_sel steps)
-- Kroger: open [data-testid=CurrentModality-button], tabs Pickup/Delivery/In Store, zip box [data-testid=PostalCodeSearchBox-input], button "Start Shopping" (data-testid Start-Shopping-PICKUP). A privacy consent overlay ("Improving Your Experience") sits on top and has no obvious button; find its dismiss control, then select the first store result.
-- Meijer: [data-testid=store-flyout-button] opens flyout with input placeholder "Search by Zip or City, State" (fill placeholder "Search by Zip", NOT "Search" which hits the header). Next: pick store result.
-- Target: #zip-code-id-btn (Ship to) and #web-store-id-msg-btn (Store) exist; page.click and click_re did not open a picker. Needs live look.
-- Walmart: button "Pickup or delivery? <city>, <zip>" with tabs Shipping/Pickup/Delivery and "Add address". Intermittent (rate limit / no_peer). Scraper API zipcode is the cleaner lane.
-- Albertsons: no store picker found; zipcode URL param ignored; local.albertsons.com locator shows NO Albertsons stores near Chicago. Design rule: store_zip is per banner per market (Jewel = Chicago, Albertsons = Boise/Seattle etc.), not one zip for all.
-- Instacart (Safeway, Publix, Fresh Thyme, Sprouts): clicking the delivery/zip control opens a LOGIN modal; zip_code URL param ignored. Store pinning needs an Instacart account (attended lane) or the retailer's own site.
-- Bright Data: 502 no_peer outage ~12:54 UTC, cleared in 10 min; goto now retries on it. Rate limits still hit at parallel 2-3.
-- Recommendation: map Target, Walmart, Albertsons, Meijer pickers live in Steve's Chrome (one pass each), then encode. Cloud iteration is 6 min per guess.
+### Sweep 2 result (2026-10-07 ~2 PM CT, 37 banners, salsa)
+Got products: whole-foods 23 (Chicago 60615 pinned, recovered), sprouts 40, target 40, hyvee 132 (suspect: returns site-wide items like ground chuck, not salsa), foodlion 33 (names are search-suggestion junk), publix 37 (some non-salsa items), fredmeyer 23, walmart 26, safeway 12, acmemarkets 8, randalls 9, tomthumb 9, shaws 6, jewel 5, albertsons 1.
+Zero products, no error (page loaded, extractor found nothing; need recipe/selector): aldi, amazon-fresh, freshthyme, giant-eagle, meijer (regressed from 45), naturalgrocers, ralphs, shoprite, smiths, thefreshmarket, vons, wegmans, schnucks (store Rockford Pl set, 0 houses).
+Errors: bjs, heb, stopandshop, walgreens (goto blocked or restricted), cvs (tunnel failed), dollargeneral (timeout), harristeeter (CDP websocket error, transient), kroger (execution context destroyed on evaluate, page redirect, add retry), samsclub (context closed).
 
-## 2026-10-13 LIVE MAPPING RESULT (Chrome session with Steve, 15 min) -> UNATTENDED STORE PINNING WORKS
-Recipes encoded in blocks/*.json, run in Bright Data via Actions, no human in the loop:
-- Kroger platform (kroger, marianos, fredmeyer, ralphs, smiths, harristeeter): close banner button[aria-label='close banner'] -> [data-testid=CurrentModality-button] -> type zip in [data-testid=PostalCodeSearchBox-input] -> click its sibling Search button -> first input[type=radio] in dialog -> [data-testid=Start-Shopping-PICKUP] -> "Keep Shopping Here" if redirect modal -> reload search. 7/7 pinned. Kroger.com redirects Chicago zips to marianos.com, so Chicago block = marianos, kroger block uses 45202.
-- Albertsons platform (jewel, safeway, vons, shaws, randalls, tomthumb, albertsons, acme): click the address text inside #fulFillMentAddressNav (loop until input[placeholder*='ZIP Code'] visible) -> type zip + Enter -> first .fulfillment-content a "Select" -> page reloads. 7/8 pinned (acme page did not load this run; albertsons Boise pinned but 0 houses, retry).
-- Meijer: [data-testid=store-flyout-button] -> input[placeholder*='Zip'] -> click .store-fly-out-search__search-icon (Enter does nothing) -> first radio -> "Continue shopping". Pinned Evergreen Park IL.
-- Target: #web-store-id-msg-btn -> #zip-code-city-or-state -> "Look up" -> first radio in [data-test="@web/StoreMenu/SelectAStore"] -> [data-test="@web/StoreMenu/ShopThisStoreButton"]. Works in Chrome (Hyde Park). In cloud the drawer opens but no store list yet; recipe now loops waiting for a radio. Retest.
-- Walmart: button "Pickup or delivery?" -> #intent-id1 (Pickup) -> store button -> #zip-code-or-city-state -> radio name=pickup-store -> Save. Not verified (Steve's Chrome was signed in). Prefer Bright Data Walmart scraper with zipcode.
-- Instacart banners: login wall, no unattended store pinning. Use retailer-owned sites (safeway.com, publix.com) instead.
-- Runner changes: js step (page.evaluate with retries), store_js per block, desktop viewport 1440x900 (fixes mobile layouts), click_sel/type_sel retries and visible waits.
-- Design rule confirmed: store_zip is per banner per market. Zips used: 60615 (Chicago banners), 45202 kroger, 97202 fredmeyer, 90024 ralphs, 84101 smiths, 28202 harristeeter, 83702 albertsons, 90210 vons, 94110 safeway, 19103 acme, 02116 shaws, 77005 randalls, 75205 tomthumb.
-NEXT: retest target + acme + albertsons; add publix.com, hyvee, giant eagle, food lion, stop & shop, wegmans, aldi recipes (map live in Chrome, 2-3 min each); then full rescore and widen.
+### 2026-10-12 session (Fable, Steve light on data)
+DONE: (a) Geo test: -country-us-state-il connects but does NOT pin a store (Target landed Indiana 46516, Meijer still Michigan); -city-chicago ignored (SC). Verdict: proxy geo cannot pin stores, each banner needs a set-store step in its own UI. (b) Extractor: new text-fallback parser plus reload-once when <5 houses. Albertsons 1->49, Jewel 5->43, Vons 0->39, Kroger 0->184, Ralphs 0->28, Safeway 0->25, Walmart 26->67, names clean. (c) Aldi URL -> new.aldi.us/results?q= (still 0, check png).
 
-## HANDOFF 2026-10-13 noon CT (Fable -> Sonnet)
-Store pinning unattended: 15 of 16 blocks pinned with full product lists (Kroger platform 7/7, Albertsons platform 8/8 incl. ACME Philadelphia and Albertsons Boise, Meijer). Target is the only holdout: drawer opens in Bright Data but the store list never renders after "Look up" (works in Steve's Chrome). Sonnet items, in order:
-1. Target: try longer wait after Look up (10s), dump text of the drawer, or fall back to Target's store-locator page then "Shop this store". Low priority if it drags; Target also has a Bright Data prebuilt scraper.
-2. Map remaining banners live in Chrome with Steve (2-3 min each, same pattern: open picker, zip, pick first store, confirm): publix.com, hy-vee, giant eagle, food lion, stop & shop, wegmans, aldi, sprouts.com (own site, not Instacart), fresh thyme. Encode as blocks with store_js.
-3. Full rescore of all blocks, score table into README.md.
-4. Widen toward the 241 list (read DB read-only, bucket by platform).
-5. Steve's loose ends (bottom of file).
-No Shelf Architect DB writes have happened. No backup zip due.
+### 2026-10-13 store pinning diagnostics (6 passes)
+Kroger/Meijer/Target/Walmart/Albertsons/Instacart selector notes that fed the live-mapping session below.
+
+### 2026-10-13 LIVE MAPPING RESULT (Chrome session with Steve, 15 min)
+Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Target, Walmart - encoded into blocks/*.json. Runner gained js/store_js/click_sel/type_sel steps plus desktop viewport fix this session.
+
+### HANDOFF 2026-10-13 noon CT (Fable -> Sonnet)
+15 of 16 store-pinning blocks confirmed working unattended at handoff; Target was the one holdout, now resolved per the top of this file (deprioritized, not failing).
