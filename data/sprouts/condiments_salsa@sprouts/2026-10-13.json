@@ -3,7 +3,7 @@
   "retailer": "sprouts",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T18:28:19.587Z",
+  "pulled_at": "2026-10-13T18:32:51.858Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60563",
@@ -12,20 +12,20 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "18:28:19 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "18:28:20 connected to Bright Data Scraping Browser",
-    "18:28:55 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
-    "18:29:03 captcha check passed",
-    "18:29:18 dismiss: nothing to close",
-    "18:29:18 js ok ok",
-    "18:29:21 js ok edit",
-    "18:29:25 js ok typed:60563",
-    "18:31:46 ERROR Error: page.evaluate: Error: list not updated: Near 85260\n    at eval (eval at evaluate (:370:30), <anonymous>:1:461)\n    at async <anonymous>:396:30"
+    "18:32:51 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:32:53 connected to Bright Data Scraping Browser",
+    "18:33:26 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
+    "18:33:34 captcha check passed",
+    "18:33:50 dismiss: nothing to close",
+    "18:33:50 js ok ok",
+    "18:33:54 js ok edit",
+    "18:34:01 js ok typed:60563 none",
+    "18:36:25 ERROR Error: page.evaluate: Error: list not updated: Near 85260\n    at eval (eval at evaluate (:370:30), <anonymous>:1:461)\n    at async <anonymous>:396:30"
   ],
   "error": "Error: page.evaluate: Error: list not updated: Near 85260\n    at eval (eval at evaluate (:370:30), <anonymous>:1:461)\n    at async <anonymous>:396:30",
   "js_results": [
     "ok",
     "edit",
-    "typed:60563"
+    "typed:60563 none"
   ]
 }
