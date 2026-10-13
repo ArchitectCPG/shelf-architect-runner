@@ -3,7 +3,7 @@
   "retailer": "meijer",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:54:14.848Z",
+  "pulled_at": "2026-10-13T13:00:47.348Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -12,9 +12,14 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "12:54:14 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:54:16 connected to Bright Data Scraping Browser",
-    "12:54:24 ERROR Error: page.goto: Protocol error (Page.navigate): Unexpected Status 502 (no_peer) (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.meijer.com/shopping/search.html?text=salsa\", waiting until \"domcontentloaded\"\n"
+    "13:00:47 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:00:48 connected to Bright Data Scraping Browser",
+    "13:00:52 rate limited, retry 1",
+    "13:01:08 goto https://www.meijer.com/shopping/search.html?text=salsa",
+    "13:01:16 captcha check passed",
+    "13:01:29 dismiss: nothing to close",
+    "13:01:29 press Escape",
+    "13:01:37 ERROR TimeoutError: page.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=store-flyout-button]')\n"
   ],
-  "error": "Error: page.goto: Protocol error (Page.navigate): Unexpected Status 502 (no_peer) (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.meijer.com/shopping/search.html?text=salsa\", waiting until \"domcontentloaded\"\n"
+  "error": "TimeoutError: page.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=store-flyout-button]')\n"
 }

@@ -3,18 +3,5471 @@
   "retailer": "kroger",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:54:17.237Z",
+  "pulled_at": "2026-10-13T13:00:46.769Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
   "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "12:54:17 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:54:17 connected to Bright Data Scraping Browser",
-    "12:54:19 ERROR Error: page.goto: Protocol error (Page.navigate): Unexpected Status 502 (no_peer) (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.kroger.com/search?query=salsa\", waiting until \"domcontentloaded\"\n"
+  "url_final": "https://www.kroger.com/search?query=salsa",
+  "houses": [
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Salsa Mild",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Mild Traditional Salsa",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Salsa Medium",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Restaurant Style Medium Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Mild Chunky Salsa Dip",
+      "brand": null,
+      "price": "$4.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Mild Chunky Salsa Dip",
+      "brand": null,
+      "price": "$5.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Restaurant Style Salsa Dip",
+      "brand": null,
+      "price": "$4.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Restaurant Style Salsa Dip",
+      "brand": null,
+      "price": "$5.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Medium Restaurant Style Salsa",
+      "brand": null,
+      "price": "$4.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Medium Restaurant Style Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Pico de Gallo Mild",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Pico de Gallo Medium",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Pico de Gallo Medium",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Queso Blanco Dip",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Native Texan Medium Restaurant Style Salsa",
+      "brand": null,
+      "price": "$5.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$5.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Pico de Gallo Hot",
+      "brand": null,
+      "price": "$4.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Pico de Gallo Hot",
+      "brand": null,
+      "price": "$5.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Chunky Salsa Dip",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace® Chunky Medium Salsa",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": "Error: page.goto: Protocol error (Page.navigate): Unexpected Status 502 (no_peer) (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.kroger.com/search?query=salsa\", waiting until \"domcontentloaded\"\n"
+  "raw_text_chars": 7452,
+  "steps": [
+    "13:00:46 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:00:47 connected to Bright Data Scraping Browser",
+    "13:00:51 rate limited, retry 1",
+    "13:01:03 goto https://www.kroger.com/search?query=salsa",
+    "13:01:11 captcha check passed",
+    "13:01:37 dismiss: nothing to close",
+    "13:01:38 press Escape",
+    "13:01:39 dump landing: 267 controls",
+    "13:01:39 click_re ^(Accept|Accept All|I Agree|Agree|Got it|OK|Continue|Close)$ false",
+    "13:01:43 click_sel [data-testid=CurrentModality-button]",
+    "13:01:50 type_sel [data-testid=PostalCodeSearchBox-input] \"60615\"",
+    "13:01:58 dump stores: 299 controls",
+    "13:01:58 store_set: null",
+    "13:01:58 text parser wins: 33 vs 20",
+    "13:02:00 extracted 33 houses; raw text 7452 chars"
+  ],
+  "error": null,
+  "controls": [
+    {
+      "at": "landing",
+      "text": "DIALOG: Improving Your Experience\n\nTo provide and personalize our offerings, make recommendations, detect and prevent fraud, and improve our services, we use tools that collect and record your data, which may include your searches for and purchases of health and wellness products. We also may share non-sensitive data with third parties, such as advertising and analytics vendors, social networks, technology providers, and research providers. By continuing to use our websites and apps and shop our stores, this means you consent to these practices and accept our Terms and our Privacy Policy.\nBODY: Improving Your Experience\n\nTo provide and personalize our offerings, make recommendations, detect and prevent fraud, and improve our services, we use tools that collect and record your data, which may include your searches for and purchases of health and wellness products. We also may share non-sensitive data with third parties, such as advertising and analytics vendors, social networks, technology providers, and research providers. By continuing to use our websites and apps and shop our stores, this means you consent to these practices and accept our Terms and our Privacy Policy.\n\nSkip to content\nShop\nSave\nPickup & Delivery\nServices\nPharmacy & Health\nSign In\n Pickup\n at\n Studemont\n | \n1440 Studemont St\nDigital Coupons\nWeekly Ad\nBuy 5, Save $1 Each\nRewards Mastercard®\nHalloween\nMeal Planning & Recipes\nStore Locator\nReturn to top navigation\nBreadcrumbs\nHome\nSearch: salsa\nFilters\nSkip Carousel\nOn Sale\nFresh Salsa\nOrganic Salsa\nMild Salsa\nMedium Salsa\nHot Salsa\nTortilla Chips\nSips & Dips\nSkip Carousel\nSort & Filter\nPrice Range\nSavings\nBrands\nAvailability\nWays to Shop\nFlavor\nDepartments\nDietary Preferences\nBenefit Programs\nsalsa\n464 results\n464 products loaded\nSponsored\nPrice Cut\n$2.99\n$3.19\nSale: $2.99 discounted from $3.19\n$0.19/oz\nPace Chunky Medium Salsa\n16 oz\nSNAP EBT\nSign In to Add\nSponsored\nPrice Cut\n$2.99\n$3.19\nSale: $2.99 discounted from $3.19\n$0.19/oz\nPace Chunky Mild Salsa\n16 oz\nSNAP EBT\nSign In to Add\n$4.99\n$4.99\nFresh Made In Store Salsa Mild\n16 oz\nSNAP EBT\nSign In to Add\n$4.99\n$4.99\n$0.36/oz\nGuillermo's Salsa Mild\n14 oz\nSNAP EBT\nSign In to Add\nEveryday Low Price\n$2.19\n$2.19\n$0.14/oz\nKroger® Mild Traditional Salsa\n16 oz\nSNAP EBT\nSign In to Add\n$4.99\n$4.99\nFresh Made In Store Salsa Medium\n16 oz\nSNAP EBT\nSign In to Add\n$4.99\n$4.99\n$0.36/oz\nGuillermo's Salsa Medium\n14 oz\nSNAP EBT\nLow Stock\nSign In to Add\n$4.99\n$4.99\n$0.36/oz\nPrivate Selection® Restaurant Style Medium Salsa\n14 oz\nSNAP EBT\nCoupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs\nView Offer\nSign In to Add\n$4.99\n$4.99\n$0.36/oz\nPrivate Selection® Restaurant Style Mild Salsa\n14 oz\nSNAP EBT\nLow Stock\nCoupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs\nView Offer\nSign In to Add\nEveryday Low Price\n$2.19\n$2.19\n$0.14/oz\nKroger® Medium Traditional Salsa\n16 oz\nSNAP EBT\nSign In to Add\n$5.49\n$5.49\n$0.34/oz\nMateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce\n16oz\nSNAP EBT\nSign In to Add\nPrice Cut\n$3.99\n$5.49\nSale: $3.99 discounted from $5.49\n$0.25/oz\nGarden Fresh Gourmet Jack's Special Mild Salsa\n16 oz\nSNAP EBT\nSign In to Add\nSponsored\nPrice Cut\n$2.99\n$3.19\nSale: $2.99 discounted from $3.19\n$0.19/oz\nPace Medium Picante Sauce\n16 oz\nSNAP EBT\nSign In to Add\n$4.29\n$5.29\nSale: $4.29 discounted from $5.29\n$0.28/oz\nTostitos® Mild Chunky Salsa Dip\n15.5 oz\nSNAP EBT\nSign In to Add\n$4.29\n$5.29\nSale: $4.29 discounted from $5.29\n$0.28/oz\nTostitos® Medium Restaurant Style Salsa Dip\n15.5 oz\nSNAP EBT\nSign In to Add\n$4.79\n$4.79\n$0.20/oz\nPrivate Selection® Medium Restaurant Style Salsa\n24 oz\nSNAP EBT\nLow Stock\nSign In to Add\n$4.99\n$4.99\nFresh Made In Store Pico de Gallo Mild\n14 oz\nSNAP EBT\nSign In to Add\nSponsored\nPrice Cut\n$2.99\n$3.19\nSale: $2.99 discounted from $3.19\n$0.19/oz\nPace Mild Picante Sauce\n16 oz\nSNAP EBT\nLow Stock\nSign In to Add\n$4.99\n$4.99\nFresh Made In Store Pico de Gallo Medium\n14 oz\nSNAP EBT\nSign In to Add\n$5.49\n$5.49\n$0.34/oz\nMateo's Medium Gourmet Salsa\n16 oz\n",
+      "controls": [
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "close banner",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Terms",
+          "aria": "Terms (opens in a new tab)",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/i/terms/website-and-app"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": "Privacy Policy (opens in a new tab)",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/i/privacy-policy"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Learn more about Ketch for data privacy (opens in a new tab)",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.ketch.com/?utm_campaign=customer%20banner&utm_source=ketchcookiebann"
+        },
+        {
+          "tag": "a",
+          "text": "Skip to content",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "topnav-skiplink",
+          "href": "#content-skiplink"
+        },
+        {
+          "tag": "button",
+          "text": "Shop",
+          "aria": "Shop",
+          "ph": null,
+          "tid": "ExposedMenu-Category-Shop",
+          "id": "ExposedMenu-Category-Shop",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Save",
+          "aria": "Save",
+          "ph": null,
+          "tid": "ExposedMenu-Category-Save",
+          "id": "ExposedMenu-Category-Save",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pickup & Delivery",
+          "aria": "Pickup & Delivery",
+          "ph": null,
+          "tid": "ExposedMenu-Category-Pickup & Delivery",
+          "id": "ExposedMenu-Category-Pickup & Delivery",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Services",
+          "aria": "Services",
+          "ph": null,
+          "tid": "ExposedMenu-Category-Services",
+          "id": "ExposedMenu-Category-Services",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pharmacy & Health",
+          "aria": "Pharmacy & Health",
+          "ph": null,
+          "tid": "ExposedMenu-Category-Pharmacy & Health",
+          "id": "ExposedMenu-Category-Pharmacy & Health",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": "Search",
+          "ph": "Search Products",
+          "tid": "SearchBar-input",
+          "id": "SearchBar-input",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Dismiss",
+          "ph": null,
+          "tid": "SearchBarClearQueryButton",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In",
+          "aria": null,
+          "ph": null,
+          "tid": "WelcomeButtonDesktop",
+          "id": "welcome-menu-open-close-button",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "cart 0 items",
+          "ph": null,
+          "tid": "CartLink",
+          "id": null,
+          "href": "/cart"
+        },
+        {
+          "tag": "button",
+          "text": "Pickup\n at\n Studemont",
+          "aria": "Pickup at Studemont, open modal to change how you are shopping",
+          "ph": null,
+          "tid": "CurrentModality-button",
+          "id": "CurrentModality-button-A11Y-FOCUS-ID",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Digital Coupons",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/savings/cl/coupons/"
+        },
+        {
+          "tag": "a",
+          "text": "Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/weeklyad"
+        },
+        {
+          "tag": "a",
+          "text": "Buy 5, Save $1 Each",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/pr/buy-and-save"
+        },
+        {
+          "tag": "a",
+          "text": "Rewards Mastercard®",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/pr/rewards-mastercard"
+        },
+        {
+          "tag": "a",
+          "text": "Halloween",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/f/halloween"
+        },
+        {
+          "tag": "a",
+          "text": "Meal Planning & Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/meal-planning"
+        },
+        {
+          "tag": "a",
+          "text": "Store Locator",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/stores/search"
+        },
+        {
+          "tag": "a",
+          "text": "Return to top navigation",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "content-skiplink",
+          "href": "#topnav-skiplink"
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "button",
+          "text": "Skip Carousel",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "View previous Carousel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "On Sale",
+          "aria": "On Sale",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=salsa&searchType=default_search&savings=On%20Sale&fulfillment=all"
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Salsa",
+          "aria": "Fresh Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=fresh%20salsa&searchType=default_search&monet=none&pzn=none&keywor"
+        },
+        {
+          "tag": "a",
+          "text": "Organic Salsa",
+          "aria": "Organic Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/pl/natural-organic/18?query=salsa&searchType=default_search&nutrition=Organic&t"
+        },
+        {
+          "tag": "a",
+          "text": "Mild Salsa",
+          "aria": "Mild Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=mild%20salsa&searchType=default_search"
+        },
+        {
+          "tag": "a",
+          "text": "Medium Salsa",
+          "aria": "Medium Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=medium%20salsa&searchType=default_search"
+        },
+        {
+          "tag": "a",
+          "text": "Hot Salsa",
+          "aria": "Hot Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=hot%20salsa&searchType=default_search"
+        },
+        {
+          "tag": "a",
+          "text": "Tortilla Chips",
+          "aria": "Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=tortilla%20chips&searchType=default_search"
+        },
+        {
+          "tag": "a",
+          "text": "Sips & Dips",
+          "aria": "Sips & Dips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?searchType=default_search&monet=none&pzn=none&keyword=sipsanddipsvisnav2"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "View next Carousel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Skip Carousel",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "View previous Carousel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sort & Filter",
+          "aria": null,
+          "ph": null,
+          "tid": "allFilters-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Price Range",
+          "aria": null,
+          "ph": null,
+          "tid": "price-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Savings",
+          "aria": null,
+          "ph": null,
+          "tid": "savings-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Brands",
+          "aria": null,
+          "ph": null,
+          "tid": "brands-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Availability",
+          "aria": null,
+          "ph": null,
+          "tid": "availability-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Ways to Shop",
+          "aria": null,
+          "ph": null,
+          "tid": "waysToShop-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Flavor",
+          "aria": null,
+          "ph": null,
+          "tid": "flavor-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Departments",
+          "aria": null,
+          "ph": null,
+          "tid": "departments-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Dietary Preferences",
+          "aria": null,
+          "ph": null,
+          "tid": "nutrition-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Benefit Programs",
+          "aria": null,
+          "ph": null,
+          "tid": "specialBenefits-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "View next Carousel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace Chunky Medium Salsa",
+          "aria": "Pace Chunky Medium Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/pace-chunky-medium-salsa/0004156514116?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Pace Chunky Medium Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace Chunky Mild Salsa",
+          "aria": "Pace Chunky Mild Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/pace-chunky-mild-salsa/0004156514016?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Pace Chunky Mild Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Made In Store Salsa Mild",
+          "aria": "Fresh Made In Store Salsa Mild 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/fresh-made-in-store-salsa-mild/0063912388017?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Fresh Made In Store Salsa Mild to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Guillermo's Salsa Mild",
+          "aria": "Guillermo's Salsa Mild 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/guillermo-s-salsa-mild/0085007966803?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Guillermo's Salsa Mild to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Kroger® Mild Traditional Salsa",
+          "aria": "Kroger® Mild Traditional Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/kroger-mild-traditional-salsa/0001111066759?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Kroger® Mild Traditional Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Made In Store Salsa Medium",
+          "aria": "Fresh Made In Store Salsa Medium 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/fresh-made-in-store-salsa-medium/0063912388018?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Fresh Made In Store Salsa Medium to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Guillermo's Salsa Medium",
+          "aria": "Guillermo's Salsa Medium 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/guillermo-s-salsa-medium/0085007966804?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Guillermo's Salsa Medium to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Private Selection® Restaurant Style Medium Salsa",
+          "aria": "Private Selection® Restaurant Style Medium Salsa 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/private-selection-restaurant-style-medium-salsa/0001111008940?fulfillment=PIC"
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": "Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "coupon-checkbox",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View Offer",
+          "aria": "Details link for Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "open-coupon-modal-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Private Selection® Restaurant Style Medium Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Private Selection® Restaurant Style Mild Salsa",
+          "aria": "Private Selection® Restaurant Style Mild Salsa 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/private-selection-restaurant-style-mild-salsa/0001111008938?fulfillment=PICKU"
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": "Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "coupon-checkbox",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View Offer",
+          "aria": "Details link for Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "open-coupon-modal-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Private Selection® Restaurant Style Mild Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Kroger® Medium Traditional Salsa",
+          "aria": "Kroger® Medium Traditional Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/kroger-medium-traditional-salsa/0001111066760?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Kroger® Medium Traditional Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste",
+          "aria": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce 16oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/mateo-s-gourmet-mild-salsa-that-farmers-market-fresh-taste-16-ounce/008581020"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+          "aria": "Garden Fresh Gourmet Jack's Special Mild Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/garden-fresh-gourmet-jack-s-special-mild-salsa/0064767100015?fulfillment=PICK"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Garden Fresh Gourmet Jack's Special Mild Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace Medium Picante Sauce",
+          "aria": "Pace Medium Picante Sauce 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/pace-medium-picante-sauce/0004156500006?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Pace Medium Picante Sauce to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos® Mild Chunky Salsa Dip",
+          "aria": "Tostitos® Mild Chunky Salsa Dip 15.5 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/tostitos-mild-chunky-salsa-dip/0002840005597?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Tostitos® Mild Chunky Salsa Dip to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos® Medium Restaurant Style Salsa Dip",
+          "aria": "Tostitos® Medium Restaurant Style Salsa Dip 15.5 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/tostitos-medium-restaurant-style-salsa-dip/0002840008936?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Tostitos® Medium Restaurant Style Salsa Dip to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Private Selection® Medium Restaurant Style Salsa",
+          "aria": "Private Selection® Medium Restaurant Style Salsa 24 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/private-selection-medium-restaurant-style-salsa/0001111004344?fulfillment=PIC"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Private Selection® Medium Restaurant Style Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Made In Store Pico de Gallo Mild",
+          "aria": "Fresh Made In Store Pico de Gallo Mild 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/fresh-made-in-store-pico-de-gallo-mild/0063912388010?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Fresh Made In Store Pico de Gallo Mild to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace Mild Picante Sauce",
+          "aria": "Pace Mild Picante Sauce 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/pace-mild-picante-sauce/0004156500017?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Pace Mild Picante Sauce to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Made In Store Pico de Gallo Medium",
+          "aria": "Fresh Made In Store Pico de Gallo Medium 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/fresh-made-in-store-pico-de-gallo-medium/0063912388009?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Fresh Made In Store Pico de Gallo Medium to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Mateo's Medium Gourmet Salsa",
+          "aria": "Mateo's Medium Gourmet Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/mateo-s-medium-gourmet-salsa/0085810200401?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Mateo's Medium Gourmet Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos® Medium Queso Blanco Dip",
+          "aria": "Tostitos® Medium Queso Blanco Dip 15 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/tostitos-medium-queso-blanco-dip/0002840021573?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Tostitos® Medium Queso Blanco Dip to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Native Texan Medium Restaurant Style Salsa",
+          "aria": "Native Texan Medium Restaurant Style Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/native-texan-medium-restaurant-style-salsa/0065797876637?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Native Texan Medium Restaurant Style Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "La Mexicana® Fresh Medium Salsa",
+          "aria": "La Mexicana® Fresh Medium Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/la-mexicana-fresh-medium-salsa/0002011300152?fulfillment=PICKUP"
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": "Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "coupon-checkbox",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View Offer",
+          "aria": "Details link for Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "open-coupon-modal-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add La Mexicana® Fresh Medium Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Made In Store Pico de Gallo Hot",
+          "aria": "Fresh Made In Store Pico de Gallo Hot 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/fresh-made-in-store-pico-de-gallo-hot/0063912388011?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Fresh Made In Store Pico de Gallo Hot to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos® Medium Chunky Salsa Dip",
+          "aria": "Tostitos® Medium Chunky Salsa Dip 15.5 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/tostitos-medium-chunky-salsa-dip/0002840005598?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Tostitos® Medium Chunky Salsa Dip to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace® Chunky Medium Salsa",
+          "aria": "Pace® Chunky Medium Salsa 64 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/pace-chunky-medium-salsa/0004156514164?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Pace® Chunky Medium Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Load More Results",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Back to Top",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Start My Cart",
+          "aria": null,
+          "ph": null,
+          "tid": "seamless-shop-more-link",
+          "id": null,
+          "href": "/products/start-my-cart"
+        },
+        {
+          "tag": "a",
+          "text": "My Sale Items",
+          "aria": null,
+          "ph": null,
+          "tid": "seamless-shop-more-link",
+          "id": null,
+          "href": "/products/my-sale-items"
+        },
+        {
+          "tag": "a",
+          "text": "My Recent Purchases",
+          "aria": null,
+          "ph": null,
+          "tid": "seamless-shop-more-link",
+          "id": null,
+          "href": "/products/my-recent-purchases"
+        },
+        {
+          "tag": "a",
+          "text": "Shopping Assistant",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shoppingassistant"
+        },
+        {
+          "tag": "a",
+          "text": "About the Company",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav--About-the-Company",
+          "href": "https://www.thekrogerco.com"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Store Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Store-Brands",
+          "href": "/b/ourbrands"
+        },
+        {
+          "tag": "a",
+          "text": "Zero Hunger | Zero Waste",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Zero-Hunger-|-Zero-Waste",
+          "href": "/f/zero-hunger-zero-waste"
+        },
+        {
+          "tag": "a",
+          "text": "Community Rewards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Community-Rewards",
+          "href": "/i/community/community-rewards"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Careers",
+          "href": "https://www.krogerfamilycareers.com"
+        },
+        {
+          "tag": "a",
+          "text": "Request a Donation",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Request-a-Donation",
+          "href": "https://thekrogerco.versaic.com/login?Zip-Code-Locator=Enabled&ReturnTo=/Default"
+        },
+        {
+          "tag": "a",
+          "text": "Vendors & Suppliers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Vendors-&-Suppliers",
+          "href": "https://www.thekrogerco.com///become-a-vendor/"
+        },
+        {
+          "tag": "a",
+          "text": "Newsroom",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Newsroom",
+          "href": "https://www.thekrogerco.com/ir-news"
+        },
+        {
+          "tag": "a",
+          "text": "About the Company",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav--About-the-Company",
+          "href": "https://www.thekrogerco.com"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Store Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Store-Brands",
+          "href": "/b/ourbrands"
+        },
+        {
+          "tag": "a",
+          "text": "Zero Hunger | Zero Waste",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Zero-Hunger-|-Zero-Waste",
+          "href": "/f/zero-hunger-zero-waste"
+        },
+        {
+          "tag": "a",
+          "text": "Community Rewards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Community-Rewards",
+          "href": "/i/community/community-rewards"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Careers",
+          "href": "https://www.krogerfamilycareers.com"
+        },
+        {
+          "tag": "a",
+          "text": "Request a Donation",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Request-a-Donation",
+          "href": "https://thekrogerco.versaic.com/login?Zip-Code-Locator=Enabled&ReturnTo=/Default"
+        },
+        {
+          "tag": "a",
+          "text": "Vendors & Suppliers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Vendors-&-Suppliers",
+          "href": "https://www.thekrogerco.com///become-a-vendor/"
+        },
+        {
+          "tag": "a",
+          "text": "Newsroom",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Newsroom",
+          "href": "https://www.thekrogerco.com/ir-news"
+        },
+        {
+          "tag": "a",
+          "text": "Customer Service",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Customer-Service",
+          "href": "/hc/help"
+        },
+        {
+          "tag": "a",
+          "text": "FAQs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-FAQs",
+          "href": "/hc/help/faqs"
+        },
+        {
+          "tag": "a",
+          "text": "Find a Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-a-Store",
+          "href": "/stores/search"
+        },
+        {
+          "tag": "a",
+          "text": "Find a Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-a-Pharmacy",
+          "href": "/stores/pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Freshness Guarantee",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Freshness-Guarantee",
+          "href": "/i/guaranteed-fresh"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Center",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Privacy-Center",
+          "href": "/i/privacy-center"
+        },
+        {
+          "tag": "a",
+          "text": "Recall Alerts",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Recall-Alerts",
+          "href": "/i/recall-alerts"
+        },
+        {
+          "tag": "a",
+          "text": "Customer Service",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Customer-Service",
+          "href": "/hc/help"
+        },
+        {
+          "tag": "a",
+          "text": "FAQs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-FAQs",
+          "href": "/hc/help/faqs"
+        },
+        {
+          "tag": "a",
+          "text": "Find a Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-a-Store",
+          "href": "/stores/search"
+        },
+        {
+          "tag": "a",
+          "text": "Find a Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-a-Pharmacy",
+          "href": "/stores/pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Freshness Guarantee",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Freshness-Guarantee",
+          "href": "/i/guaranteed-fresh"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Center",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Privacy-Center",
+          "href": "/i/privacy-center"
+        },
+        {
+          "tag": "a",
+          "text": "Recall Alerts",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Recall-Alerts",
+          "href": "/i/recall-alerts"
+        },
+        {
+          "tag": "a",
+          "text": "Loyalty Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Loyalty-Card",
+          "href": "/pr/free-membership"
+        },
+        {
+          "tag": "a",
+          "text": "Boost Membership",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Boost-Membership",
+          "href": "/pr/boost"
+        },
+        {
+          "tag": "a",
+          "text": "Points Program",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Points-Program",
+          "href": "/pr/points-program"
+        },
+        {
+          "tag": "a",
+          "text": "Grocery Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Grocery-Pickup",
+          "href": "/i/ways-to-shop/pickup"
+        },
+        {
+          "tag": "a",
+          "text": "Delivery Providers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Delivery-Providers",
+          "href": "/i/ways-to-shop/delivery"
+        },
+        {
+          "tag": "a",
+          "text": "Find Your Delivery Location",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-Your-Delivery-Location",
+          "href": "/rp/grocery-delivery"
+        },
+        {
+          "tag": "a",
+          "text": "Custom Cakes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Custom-Cakes",
+          "href": "/d/custom-cakes"
+        },
+        {
+          "tag": "a",
+          "text": "Party Platters",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Party-Platters",
+          "href": "/order-ahead"
+        },
+        {
+          "tag": "a",
+          "text": "Loyalty Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Loyalty-Card",
+          "href": "/pr/free-membership"
+        },
+        {
+          "tag": "a",
+          "text": "Boost Membership",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Boost-Membership",
+          "href": "/pr/boost"
+        },
+        {
+          "tag": "a",
+          "text": "Points Program",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Points-Program",
+          "href": "/pr/points-program"
+        },
+        {
+          "tag": "a",
+          "text": "Grocery Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Grocery-Pickup",
+          "href": "/i/ways-to-shop/pickup"
+        },
+        {
+          "tag": "a",
+          "text": "Delivery Providers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Delivery-Providers",
+          "href": "/i/ways-to-shop/delivery"
+        },
+        {
+          "tag": "a",
+          "text": "Find Your Delivery Location",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-Your-Delivery-Location",
+          "href": "/rp/grocery-delivery"
+        },
+        {
+          "tag": "a",
+          "text": "Custom Cakes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Custom-Cakes",
+          "href": "/d/custom-cakes"
+        },
+        {
+          "tag": "a",
+          "text": "Party Platters",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Party-Platters",
+          "href": "/order-ahead"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy & Health",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Pharmacy-&-Health",
+          "href": "/health"
+        },
+        {
+          "tag": "a",
+          "text": "Healthcare Appointments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Healthcare-Appointments-",
+          "href": "/health/clinic/schedule-appointment"
+        },
+        {
+          "tag": "a",
+          "text": "Money Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Money-Services",
+          "href": "/o/money-services"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Gift-Cards",
+          "href": "/o/gift-cards"
+        },
+        {
+          "tag": "a",
+          "text": "SNAP EBT",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-SNAP-EBT",
+          "href": "/i/payment/snap-ebt-online-orders"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy & Health",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Pharmacy-&-Health",
+          "href": "/health"
+        },
+        {
+          "tag": "a",
+          "text": "Healthcare Appointments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Healthcare-Appointments-",
+          "href": "/health/clinic/schedule-appointment"
+        },
+        {
+          "tag": "a",
+          "text": "Money Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Money-Services",
+          "href": "/o/money-services"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Gift-Cards",
+          "href": "/o/gift-cards"
+        },
+        {
+          "tag": "a",
+          "text": "SNAP EBT",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-SNAP-EBT",
+          "href": "/i/payment/snap-ebt-online-orders"
+        },
+        {
+          "tag": "a",
+          "text": "Shop All Deals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-All-Deals",
+          "href": "/savings"
+        },
+        {
+          "tag": "a",
+          "text": "Clip Digital Coupons",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Clip-Digital-Coupons",
+          "href": "/savings/cl/coupons/"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Weekly-Ad",
+          "href": "/weeklyad"
+        },
+        {
+          "tag": "a",
+          "text": "Start Your Order",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Start-Your-Order",
+          "href": "/f/start-shopping"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Recipes",
+          "href": "/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "Explore Easy Meals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Explore-Easy-Meals",
+          "href": "/meal-planning"
+        },
+        {
+          "tag": "a",
+          "text": "Browse the Blog",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Browse-the-Blog",
+          "href": "/blog"
+        },
+        {
+          "tag": "a",
+          "text": "Schedule an Appointment",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Schedule-an-Appointment",
+          "href": "/health/schedule-appointment"
+        },
+        {
+          "tag": "a",
+          "text": "Shop All Deals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-All-Deals",
+          "href": "/savings"
+        },
+        {
+          "tag": "a",
+          "text": "Clip Digital Coupons",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Clip-Digital-Coupons",
+          "href": "/savings/cl/coupons/"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Weekly-Ad",
+          "href": "/weeklyad"
+        },
+        {
+          "tag": "a",
+          "text": "Start Your Order",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Start-Your-Order",
+          "href": "/f/start-shopping"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Recipes",
+          "href": "/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "Explore Easy Meals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Explore-Easy-Meals",
+          "href": "/meal-planning"
+        },
+        {
+          "tag": "a",
+          "text": "Browse the Blog",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Browse-the-Blog",
+          "href": "/blog"
+        },
+        {
+          "tag": "a",
+          "text": "Schedule an Appointment",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Schedule-an-Appointment",
+          "href": "/health/schedule-appointment"
+        },
+        {
+          "tag": "a",
+          "text": "Learn More",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Learn-More",
+          "href": "/pr/rewards-mastercard"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Learn More",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/pr/rewards-mastercard"
+        },
+        {
+          "tag": "a",
+          "text": "Learn More",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Learn-More",
+          "href": "/pr/rewards-mastercard"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Learn More",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/pr/rewards-mastercard"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "iOS",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/iosapp"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Google",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/androidapp"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "iOS",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/iosapp"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Google",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/androidapp"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility Statement",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/i/terms/accessibility"
+        },
+        {
+          "tag": "a",
+          "text": "1-800-576-4377",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "tel:1-800-576-4377"
+        },
+        {
+          "tag": "a",
+          "text": "Financial Products & Services Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/i/privacy-policy/financial-products"
+        },
+        {
+          "tag": "a",
+          "text": "HIPAA Notice of Privacy Practice",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/health/hipaa-policy"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/i/privacy-policy"
+        },
+        {
+          "tag": "button",
+          "text": "Your Privacy Choices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Text",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "ot-sdk-btn",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Terms and Conditions",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/termsandconditions"
+        },
+        {
+          "tag": "a",
+          "text": "TLC Terms and Conditions",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/i/tlc-terms-and-conditions"
+        },
+        {
+          "tag": "a",
+          "text": "TLC Patient Bill of Rights",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/i/tlc-patient-bill-of-rights-and-responsibilities"
+        },
+        {
+          "tag": "a",
+          "text": "Notice for California Dietitian Patients",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/content/v2/binary/document/california-residents-notice-16"
+        },
+        {
+          "tag": "a",
+          "text": "Dietitian/Telemedicine Consent to Treat Form",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/tlcconsenttotreat"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Connect with us on X",
+          "ph": null,
+          "tid": null,
+          "id": "twitter-footer-social-link",
+          "href": "https://www.kroger.com/twitter"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Connect with us on Facebook",
+          "ph": null,
+          "tid": null,
+          "id": "facebook-footer-social-link",
+          "href": "https://www.kroger.com/facebook"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Connect with us on YouTube",
+          "ph": null,
+          "tid": null,
+          "id": "youtube-footer-social-link",
+          "href": "https://www.kroger.com/youtube"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Connect with us on Pinterest",
+          "ph": null,
+          "tid": null,
+          "id": "pinterest-footer-social-link",
+          "href": "https://www.kroger.com/pinterest"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Connect with us on Instagram",
+          "ph": null,
+          "tid": null,
+          "id": "instagram-footer-social-link",
+          "href": "https://www.kroger.com/instagram"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Best Match",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Most Popular",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Price: Low to High",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Price: High to Low",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Alphabetical: A-Z",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Price Range",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "price-button",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "0.32",
+          "tid": "range-min",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "13.79",
+          "tid": "range-max",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Savings",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "savings-button",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "brands-button",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Availability",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "availability-button",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-in-stock-items-only",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Ways to Shop",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "waysToShop-button",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "in-store",
+          "aria": "In-Store",
+          "ph": null,
+          "tid": "radiobutton-in-store",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "pickup",
+          "aria": "Pickup",
+          "ph": null,
+          "tid": "radiobutton-pickup",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "delivery",
+          "aria": "Delivery",
+          "ph": null,
+          "tid": "radiobutton-delivery",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Flavor",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "flavor-button",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "departments-button",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Dietary Preferences",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "nutrition-button",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Benefit Programs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "specialBenefits-button",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-snap-ebt-eligible",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "0.32",
+          "tid": "range-min",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "13.79",
+          "tid": "range-max",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-in-stock-items-only",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "in-store",
+          "aria": "In-Store",
+          "ph": null,
+          "tid": "radiobutton-in-store",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "pickup",
+          "aria": "Pickup",
+          "ph": null,
+          "tid": "radiobutton-pickup",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "delivery",
+          "aria": "Delivery",
+          "ph": null,
+          "tid": "radiobutton-delivery",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-snap-ebt-eligible",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Shop All Items",
+          "aria": "Shop All Items for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In To Clip",
+          "aria": "Sign In To Clip for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": "CouponActionButton-4250208",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Shop All Items",
+          "aria": "Shop All Items for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In To Clip",
+          "aria": "Sign In To Clip for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": "CouponActionButton-4250208",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Shop All Items",
+          "aria": "Shop All Items for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In To Clip",
+          "aria": "Sign In To Clip for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": "CouponActionButton-4250208",
+          "id": null,
+          "href": null
+        }
+      ]
+    },
+    {
+      "at": "stores",
+      "text": "DIALOG: Improving Your Experience\n\nTo provide and personalize our offerings, make recommendations, detect and prevent fraud, and improve our services, we use tools that collect and record your data, which may include your searches for and purchases of health and wellness products. We also may share non-sensitive data with third parties, such as advertising and analytics vendors, social networks, technology providers, and research providers. By continuing to use our websites and apps and shop our stores, this means you consent to these practices and accept our Terms and our Privacy Policy.\nBODY: Improving Your Experience\n\nTo provide and personalize our offerings, make recommendations, detect and prevent fraud, and improve our services, we use tools that collect and record your data, which may include your searches for and purchases of health and wellness products. We also may share non-sensitive data with third parties, such as advertising and analytics vendors, social networks, technology providers, and research providers. By continuing to use our websites and apps and shop our stores, this means you consent to these practices and accept our Terms and our Privacy Policy.\n\nSkip to content\nShop\nSave\nPickup & Delivery\nServices\nPharmacy & Health\nSign In\n Pickup\n at\n Studemont\n | \n1440 Studemont St\nStart Your Shopping Trip\nPickup\nDelivery\nIn Store\nSearch by Postal Code\nUse My Location\n\nresults: 20 available shopping options\n\nMarianos Bronzeville\n3857 S Dr Martin Luther King Jr Dr, Chicago, IL 60653\nOpen Until 10 PM\n| 1.75 miles\nMarianos Bridgeport\n3145 S Ashland Ave, Chicago, IL 60608\nOpen Until 10 PM\n| 3.94 miles\nMarianos South Loop\n1615 S Clark St, Chicago, IL 60616\nOpen Until 10 PM\n| 4.28 miles\nMarianos Lakeshore East\n333 E Benton Pl, CHICAGO, IL 60601\nOpen Until 10 PM\n| 5.91 miles\nMarianos West Loop\n40 S Halsted St, Chicago, IL 60661\nOpen Until 10 PM\n| 6 miles\nMarianos Evergreen Park\n2559 W 95th St, Evergreen Park, IL 60805\nOpen Until 10 PM\n| 7.07 miles\nMarianos Ukrainian Village\n2021 W Chicago Ave, CHICAGO, IL 60622\nOpen Until 10 PM\n| 7.61 miles\nMarianos New City\n1500 N Clybourn Ave Unit C104, CHICAGO, IL 60610\nOpen Until 10 PM\n| 7.76 miles\nMarianos Bucktown\n2112 N Ashland Ave, Chicago, IL 60614\nOpen Until 10 PM\n| 8.97 miles\nMarianos 3030 Broadway\n3030 N Broadway St Ste 100, Chicago, IL 60657\nOpen Until 10 PM\n| 9.69 miles\nMarianos Oak Lawn\n11000 S Cicero Ave, OAK LAWN, IL 60453\nOpen Until 10 PM\n| 10.26 miles\nMarianos Roscoe Village\n3350 N Western Ave, Chicago, IL 60618\nOpen Until 10 PM\n| 10.77 miles\nMarianos Ravenswood\n1800 W Lawrence Ave, CHICAGO, IL 60640\nOpen Until 10 PM\n| 12.24 miles\nMarianos Edgewater\n5201 N Sheridan Rd, Chicago, IL 60640\nOpen Until 10 PM\n| 12.5 miles\nMarianos Jefferson Park\n5353 N Elston Ave, CHICAGO, IL 60630\nOpen Until 10 PM\n| 14.68 miles\nMarianos Western Springs\n4700 Gilbert Ave, WESTERN SPRINGS, IL 60558\nOpen Until 10 PM\n| 14.81 miles\nMarianos Westchester\n3020 Wolf Rd, Westchester, IL 60154\nOpen Until 10 PM\n| 15.41 miles\nMarianos Harwood Heights\n7401 W Lawrence Ave, Harwood Heights, IL 60706\nOpen Until 10 PM\n| 15.67 miles\nMarianos Skokie\n3358 W Touhy Ave, SKOKIE, IL 60076\nOpen Until 10 PM\n| 15.72 miles\nMarianos Orland Park\n9504 142nd St, ORLAND PARK, IL 60462\nOpen Until 10 PM\n| 17.21 miles\nStart Shopping\nDigital Coupons\nWeekly Ad\nBuy 5, Save $1 Each\nRewards Mastercard®\nHalloween\nMeal Planning & Recipes\nStore Locator\nReturn to top navigation\nBreadcrumbs\nHome\nSearch: salsa\nFilters\nSkip Carousel\nOn Sale\nFresh Salsa\nOrganic Salsa\nMild Salsa\nMedium Salsa\nHot Salsa\nTortilla Chips\nSips & Dips\nSkip Carousel\nSort & Filter\nPrice Range\nSavings\nBrands\nAvailability\nWays to Shop\nFlavor\nDepartments\nDietary Preferences\nBenefit Programs\nsalsa\n464 results\n464 products loaded\nSponsored\nPrice Cut\n$2.99\n$3.19\nSale: $2.99 discounted from $3.19\n$0.19/oz\nPace Chunky Medium Salsa\n16 oz\nSNAP EBT\nSign In to Add\nSponsored\nPrice Cut\n$2.99\n$3.19\nSale: $2.99 discounted from $3.19\n$0.19/oz\nPace Chunky Mild Salsa\n16 oz\nSNAP EBT\nSign In to Add\n$4.99\n$4.99\nFresh Made In Store Salsa Mild\n16 oz\nSNAP EBT\nSign In to Add\n$4.99\n$4.99\n$0.36/",
+      "controls": [
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "close banner",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Terms",
+          "aria": "Terms (opens in a new tab)",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/i/terms/website-and-app"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": "Privacy Policy (opens in a new tab)",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/i/privacy-policy"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Learn more about Ketch for data privacy (opens in a new tab)",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.ketch.com/?utm_campaign=customer%20banner&utm_source=ketchcookiebann"
+        },
+        {
+          "tag": "a",
+          "text": "Skip to content",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "topnav-skiplink",
+          "href": "#content-skiplink"
+        },
+        {
+          "tag": "button",
+          "text": "Shop",
+          "aria": "Shop",
+          "ph": null,
+          "tid": "ExposedMenu-Category-Shop",
+          "id": "ExposedMenu-Category-Shop",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Save",
+          "aria": "Save",
+          "ph": null,
+          "tid": "ExposedMenu-Category-Save",
+          "id": "ExposedMenu-Category-Save",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pickup & Delivery",
+          "aria": "Pickup & Delivery",
+          "ph": null,
+          "tid": "ExposedMenu-Category-Pickup & Delivery",
+          "id": "ExposedMenu-Category-Pickup & Delivery",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Services",
+          "aria": "Services",
+          "ph": null,
+          "tid": "ExposedMenu-Category-Services",
+          "id": "ExposedMenu-Category-Services",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pharmacy & Health",
+          "aria": "Pharmacy & Health",
+          "ph": null,
+          "tid": "ExposedMenu-Category-Pharmacy & Health",
+          "id": "ExposedMenu-Category-Pharmacy & Health",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": "Search",
+          "ph": "Search Products",
+          "tid": "SearchBar-input",
+          "id": "SearchBar-input",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Dismiss",
+          "ph": null,
+          "tid": "SearchBarClearQueryButton",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In",
+          "aria": null,
+          "ph": null,
+          "tid": "WelcomeButtonDesktop",
+          "id": "welcome-menu-open-close-button",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "cart 0 items",
+          "ph": null,
+          "tid": "CartLink",
+          "id": null,
+          "href": "/cart"
+        },
+        {
+          "tag": "button",
+          "text": "Pickup\n at\n Studemont",
+          "aria": "Pickup at Studemont, open modal to change how you are shopping",
+          "ph": null,
+          "tid": "CurrentModality-button",
+          "id": "CurrentModality-button-A11Y-FOCUS-ID",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Tabs-tab-citrus-Tabs-:rf:-0",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Delivery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Tabs-tab-citrus-Tabs-:rf:-1",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "In Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Tabs-tab-citrus-Tabs-:rf:-2",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "60615",
+          "aria": "Search",
+          "ph": null,
+          "tid": "PostalCodeSearchBox-input",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "How it Works",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "No Thanks",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Allow Location Access",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Use My Location",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100539",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100520",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100512",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100503",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100508",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100530",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100527",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100534",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100516",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100538",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100517",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100504",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100515",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100522",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100507",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100529",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100528",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100510",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100531",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "53100535",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Start Shopping",
+          "aria": null,
+          "ph": null,
+          "tid": "Start-Shopping-PICKUP",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Digital Coupons",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/savings/cl/coupons/"
+        },
+        {
+          "tag": "a",
+          "text": "Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/weeklyad"
+        },
+        {
+          "tag": "a",
+          "text": "Buy 5, Save $1 Each",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/pr/buy-and-save"
+        },
+        {
+          "tag": "a",
+          "text": "Rewards Mastercard®",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/pr/rewards-mastercard"
+        },
+        {
+          "tag": "a",
+          "text": "Halloween",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/f/halloween"
+        },
+        {
+          "tag": "a",
+          "text": "Meal Planning & Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/meal-planning"
+        },
+        {
+          "tag": "a",
+          "text": "Store Locator",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/stores/search"
+        },
+        {
+          "tag": "a",
+          "text": "Return to top navigation",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "content-skiplink",
+          "href": "#topnav-skiplink"
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "button",
+          "text": "Skip Carousel",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "View previous Carousel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "On Sale",
+          "aria": "On Sale",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=salsa&searchType=default_search&savings=On%20Sale&fulfillment=all"
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Salsa",
+          "aria": "Fresh Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=fresh%20salsa&searchType=default_search&monet=none&pzn=none&keywor"
+        },
+        {
+          "tag": "a",
+          "text": "Organic Salsa",
+          "aria": "Organic Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/pl/natural-organic/18?query=salsa&searchType=default_search&nutrition=Organic&t"
+        },
+        {
+          "tag": "a",
+          "text": "Mild Salsa",
+          "aria": "Mild Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=mild%20salsa&searchType=default_search"
+        },
+        {
+          "tag": "a",
+          "text": "Medium Salsa",
+          "aria": "Medium Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=medium%20salsa&searchType=default_search"
+        },
+        {
+          "tag": "a",
+          "text": "Hot Salsa",
+          "aria": "Hot Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=hot%20salsa&searchType=default_search"
+        },
+        {
+          "tag": "a",
+          "text": "Tortilla Chips",
+          "aria": "Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?query=tortilla%20chips&searchType=default_search"
+        },
+        {
+          "tag": "a",
+          "text": "Sips & Dips",
+          "aria": "Sips & Dips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/search?searchType=default_search&monet=none&pzn=none&keyword=sipsanddipsvisnav2"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "View next Carousel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Skip Carousel",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "View previous Carousel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sort & Filter",
+          "aria": null,
+          "ph": null,
+          "tid": "allFilters-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Price Range",
+          "aria": null,
+          "ph": null,
+          "tid": "price-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Savings",
+          "aria": null,
+          "ph": null,
+          "tid": "savings-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Brands",
+          "aria": null,
+          "ph": null,
+          "tid": "brands-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Availability",
+          "aria": null,
+          "ph": null,
+          "tid": "availability-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Ways to Shop",
+          "aria": null,
+          "ph": null,
+          "tid": "waysToShop-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Flavor",
+          "aria": null,
+          "ph": null,
+          "tid": "flavor-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Departments",
+          "aria": null,
+          "ph": null,
+          "tid": "departments-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Dietary Preferences",
+          "aria": null,
+          "ph": null,
+          "tid": "nutrition-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Benefit Programs",
+          "aria": null,
+          "ph": null,
+          "tid": "specialBenefits-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "View next Carousel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace Chunky Medium Salsa",
+          "aria": "Pace Chunky Medium Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/pace-chunky-medium-salsa/0004156514116?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Pace Chunky Medium Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace Chunky Mild Salsa",
+          "aria": "Pace Chunky Mild Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/pace-chunky-mild-salsa/0004156514016?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Pace Chunky Mild Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Made In Store Salsa Mild",
+          "aria": "Fresh Made In Store Salsa Mild 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/fresh-made-in-store-salsa-mild/0063912388017?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Fresh Made In Store Salsa Mild to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Guillermo's Salsa Mild",
+          "aria": "Guillermo's Salsa Mild 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/guillermo-s-salsa-mild/0085007966803?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Guillermo's Salsa Mild to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Kroger® Mild Traditional Salsa",
+          "aria": "Kroger® Mild Traditional Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/kroger-mild-traditional-salsa/0001111066759?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Kroger® Mild Traditional Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Made In Store Salsa Medium",
+          "aria": "Fresh Made In Store Salsa Medium 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/fresh-made-in-store-salsa-medium/0063912388018?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Fresh Made In Store Salsa Medium to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Guillermo's Salsa Medium",
+          "aria": "Guillermo's Salsa Medium 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/guillermo-s-salsa-medium/0085007966804?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Guillermo's Salsa Medium to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Private Selection® Restaurant Style Medium Salsa",
+          "aria": "Private Selection® Restaurant Style Medium Salsa 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/private-selection-restaurant-style-medium-salsa/0001111008940?fulfillment=PIC"
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": "Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "coupon-checkbox",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View Offer",
+          "aria": "Details link for Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "open-coupon-modal-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Private Selection® Restaurant Style Medium Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Private Selection® Restaurant Style Mild Salsa",
+          "aria": "Private Selection® Restaurant Style Mild Salsa 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/private-selection-restaurant-style-mild-salsa/0001111008938?fulfillment=PICKU"
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": "Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "coupon-checkbox",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View Offer",
+          "aria": "Details link for Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "open-coupon-modal-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Private Selection® Restaurant Style Mild Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Kroger® Medium Traditional Salsa",
+          "aria": "Kroger® Medium Traditional Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/kroger-medium-traditional-salsa/0001111066760?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Kroger® Medium Traditional Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste",
+          "aria": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce 16oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/mateo-s-gourmet-mild-salsa-that-farmers-market-fresh-taste-16-ounce/008581020"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+          "aria": "Garden Fresh Gourmet Jack's Special Mild Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/garden-fresh-gourmet-jack-s-special-mild-salsa/0064767100015?fulfillment=PICK"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Garden Fresh Gourmet Jack's Special Mild Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace Medium Picante Sauce",
+          "aria": "Pace Medium Picante Sauce 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/pace-medium-picante-sauce/0004156500006?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Pace Medium Picante Sauce to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos® Mild Chunky Salsa Dip",
+          "aria": "Tostitos® Mild Chunky Salsa Dip 15.5 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/tostitos-mild-chunky-salsa-dip/0002840005597?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Tostitos® Mild Chunky Salsa Dip to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos® Medium Restaurant Style Salsa Dip",
+          "aria": "Tostitos® Medium Restaurant Style Salsa Dip 15.5 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/tostitos-medium-restaurant-style-salsa-dip/0002840008936?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Tostitos® Medium Restaurant Style Salsa Dip to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Private Selection® Medium Restaurant Style Salsa",
+          "aria": "Private Selection® Medium Restaurant Style Salsa 24 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/private-selection-medium-restaurant-style-salsa/0001111004344?fulfillment=PIC"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Private Selection® Medium Restaurant Style Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Made In Store Pico de Gallo Mild",
+          "aria": "Fresh Made In Store Pico de Gallo Mild 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/fresh-made-in-store-pico-de-gallo-mild/0063912388010?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Fresh Made In Store Pico de Gallo Mild to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace Mild Picante Sauce",
+          "aria": "Pace Mild Picante Sauce 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/pace-mild-picante-sauce/0004156500017?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Pace Mild Picante Sauce to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Made In Store Pico de Gallo Medium",
+          "aria": "Fresh Made In Store Pico de Gallo Medium 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/fresh-made-in-store-pico-de-gallo-medium/0063912388009?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Fresh Made In Store Pico de Gallo Medium to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Mateo's Medium Gourmet Salsa",
+          "aria": "Mateo's Medium Gourmet Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/mateo-s-medium-gourmet-salsa/0085810200401?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Mateo's Medium Gourmet Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos® Medium Queso Blanco Dip",
+          "aria": "Tostitos® Medium Queso Blanco Dip 15 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/tostitos-medium-queso-blanco-dip/0002840021573?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Tostitos® Medium Queso Blanco Dip to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Native Texan Medium Restaurant Style Salsa",
+          "aria": "Native Texan Medium Restaurant Style Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/native-texan-medium-restaurant-style-salsa/0065797876637?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Native Texan Medium Restaurant Style Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "La Mexicana® Fresh Medium Salsa",
+          "aria": "La Mexicana® Fresh Medium Salsa 16 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/la-mexicana-fresh-medium-salsa/0002011300152?fulfillment=PICKUP"
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": "Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "coupon-checkbox",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View Offer",
+          "aria": "Details link for Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+          "ph": null,
+          "tid": "open-coupon-modal-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add La Mexicana® Fresh Medium Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Made In Store Pico de Gallo Hot",
+          "aria": "Fresh Made In Store Pico de Gallo Hot 14 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/fresh-made-in-store-pico-de-gallo-hot/0063912388011?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Fresh Made In Store Pico de Gallo Hot to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos® Medium Chunky Salsa Dip",
+          "aria": "Tostitos® Medium Chunky Salsa Dip 15.5 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/tostitos-medium-chunky-salsa-dip/0002840005598?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Tostitos® Medium Chunky Salsa Dip to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace® Chunky Medium Salsa",
+          "aria": "Pace® Chunky Medium Salsa 64 oz title",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/p/pace-chunky-medium-salsa/0004156514164?fulfillment=PICKUP"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In to Add",
+          "aria": "Sign in to add Pace® Chunky Medium Salsa to your cart",
+          "ph": null,
+          "tid": "pc-add-to-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Load More Results",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Back to Top",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Start My Cart",
+          "aria": null,
+          "ph": null,
+          "tid": "seamless-shop-more-link",
+          "id": null,
+          "href": "/products/start-my-cart"
+        },
+        {
+          "tag": "a",
+          "text": "My Sale Items",
+          "aria": null,
+          "ph": null,
+          "tid": "seamless-shop-more-link",
+          "id": null,
+          "href": "/products/my-sale-items"
+        },
+        {
+          "tag": "a",
+          "text": "My Recent Purchases",
+          "aria": null,
+          "ph": null,
+          "tid": "seamless-shop-more-link",
+          "id": null,
+          "href": "/products/my-recent-purchases"
+        },
+        {
+          "tag": "a",
+          "text": "Shopping Assistant",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shoppingassistant"
+        },
+        {
+          "tag": "a",
+          "text": "About the Company",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav--About-the-Company",
+          "href": "https://www.thekrogerco.com"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Store Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Store-Brands",
+          "href": "/b/ourbrands"
+        },
+        {
+          "tag": "a",
+          "text": "Zero Hunger | Zero Waste",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Zero-Hunger-|-Zero-Waste",
+          "href": "/f/zero-hunger-zero-waste"
+        },
+        {
+          "tag": "a",
+          "text": "Community Rewards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Community-Rewards",
+          "href": "/i/community/community-rewards"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Careers",
+          "href": "https://www.krogerfamilycareers.com"
+        },
+        {
+          "tag": "a",
+          "text": "Request a Donation",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Request-a-Donation",
+          "href": "https://thekrogerco.versaic.com/login?Zip-Code-Locator=Enabled&ReturnTo=/Default"
+        },
+        {
+          "tag": "a",
+          "text": "Vendors & Suppliers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Vendors-&-Suppliers",
+          "href": "https://www.thekrogerco.com///become-a-vendor/"
+        },
+        {
+          "tag": "a",
+          "text": "Newsroom",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Newsroom",
+          "href": "https://www.thekrogerco.com/ir-news"
+        },
+        {
+          "tag": "a",
+          "text": "About the Company",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav--About-the-Company",
+          "href": "https://www.thekrogerco.com"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Store Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Store-Brands",
+          "href": "/b/ourbrands"
+        },
+        {
+          "tag": "a",
+          "text": "Zero Hunger | Zero Waste",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Zero-Hunger-|-Zero-Waste",
+          "href": "/f/zero-hunger-zero-waste"
+        },
+        {
+          "tag": "a",
+          "text": "Community Rewards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Community-Rewards",
+          "href": "/i/community/community-rewards"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Careers",
+          "href": "https://www.krogerfamilycareers.com"
+        },
+        {
+          "tag": "a",
+          "text": "Request a Donation",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Request-a-Donation",
+          "href": "https://thekrogerco.versaic.com/login?Zip-Code-Locator=Enabled&ReturnTo=/Default"
+        },
+        {
+          "tag": "a",
+          "text": "Vendors & Suppliers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Vendors-&-Suppliers",
+          "href": "https://www.thekrogerco.com///become-a-vendor/"
+        },
+        {
+          "tag": "a",
+          "text": "Newsroom",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Newsroom",
+          "href": "https://www.thekrogerco.com/ir-news"
+        },
+        {
+          "tag": "a",
+          "text": "Customer Service",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Customer-Service",
+          "href": "/hc/help"
+        },
+        {
+          "tag": "a",
+          "text": "FAQs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-FAQs",
+          "href": "/hc/help/faqs"
+        },
+        {
+          "tag": "a",
+          "text": "Find a Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-a-Store",
+          "href": "/stores/search"
+        },
+        {
+          "tag": "a",
+          "text": "Find a Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-a-Pharmacy",
+          "href": "/stores/pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Freshness Guarantee",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Freshness-Guarantee",
+          "href": "/i/guaranteed-fresh"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Center",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Privacy-Center",
+          "href": "/i/privacy-center"
+        },
+        {
+          "tag": "a",
+          "text": "Recall Alerts",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Recall-Alerts",
+          "href": "/i/recall-alerts"
+        },
+        {
+          "tag": "a",
+          "text": "Customer Service",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Customer-Service",
+          "href": "/hc/help"
+        },
+        {
+          "tag": "a",
+          "text": "FAQs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-FAQs",
+          "href": "/hc/help/faqs"
+        },
+        {
+          "tag": "a",
+          "text": "Find a Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-a-Store",
+          "href": "/stores/search"
+        },
+        {
+          "tag": "a",
+          "text": "Find a Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-a-Pharmacy",
+          "href": "/stores/pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Freshness Guarantee",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Freshness-Guarantee",
+          "href": "/i/guaranteed-fresh"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Center",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Privacy-Center",
+          "href": "/i/privacy-center"
+        },
+        {
+          "tag": "a",
+          "text": "Recall Alerts",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Recall-Alerts",
+          "href": "/i/recall-alerts"
+        },
+        {
+          "tag": "a",
+          "text": "Loyalty Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Loyalty-Card",
+          "href": "/pr/free-membership"
+        },
+        {
+          "tag": "a",
+          "text": "Boost Membership",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Boost-Membership",
+          "href": "/pr/boost"
+        },
+        {
+          "tag": "a",
+          "text": "Points Program",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Points-Program",
+          "href": "/pr/points-program"
+        },
+        {
+          "tag": "a",
+          "text": "Grocery Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Grocery-Pickup",
+          "href": "/i/ways-to-shop/pickup"
+        },
+        {
+          "tag": "a",
+          "text": "Delivery Providers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Delivery-Providers",
+          "href": "/i/ways-to-shop/delivery"
+        },
+        {
+          "tag": "a",
+          "text": "Find Your Delivery Location",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-Your-Delivery-Location",
+          "href": "/rp/grocery-delivery"
+        },
+        {
+          "tag": "a",
+          "text": "Custom Cakes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Custom-Cakes",
+          "href": "/d/custom-cakes"
+        },
+        {
+          "tag": "a",
+          "text": "Party Platters",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Party-Platters",
+          "href": "/order-ahead"
+        },
+        {
+          "tag": "a",
+          "text": "Loyalty Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Loyalty-Card",
+          "href": "/pr/free-membership"
+        },
+        {
+          "tag": "a",
+          "text": "Boost Membership",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Boost-Membership",
+          "href": "/pr/boost"
+        },
+        {
+          "tag": "a",
+          "text": "Points Program",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Points-Program",
+          "href": "/pr/points-program"
+        },
+        {
+          "tag": "a",
+          "text": "Grocery Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Grocery-Pickup",
+          "href": "/i/ways-to-shop/pickup"
+        },
+        {
+          "tag": "a",
+          "text": "Delivery Providers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Delivery-Providers",
+          "href": "/i/ways-to-shop/delivery"
+        },
+        {
+          "tag": "a",
+          "text": "Find Your Delivery Location",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Find-Your-Delivery-Location",
+          "href": "/rp/grocery-delivery"
+        },
+        {
+          "tag": "a",
+          "text": "Custom Cakes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Custom-Cakes",
+          "href": "/d/custom-cakes"
+        },
+        {
+          "tag": "a",
+          "text": "Party Platters",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Party-Platters",
+          "href": "/order-ahead"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy & Health",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Pharmacy-&-Health",
+          "href": "/health"
+        },
+        {
+          "tag": "a",
+          "text": "Healthcare Appointments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Healthcare-Appointments-",
+          "href": "/health/clinic/schedule-appointment"
+        },
+        {
+          "tag": "a",
+          "text": "Money Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Money-Services",
+          "href": "/o/money-services"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Gift-Cards",
+          "href": "/o/gift-cards"
+        },
+        {
+          "tag": "a",
+          "text": "SNAP EBT",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-SNAP-EBT",
+          "href": "/i/payment/snap-ebt-online-orders"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy & Health",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Pharmacy-&-Health",
+          "href": "/health"
+        },
+        {
+          "tag": "a",
+          "text": "Healthcare Appointments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Healthcare-Appointments-",
+          "href": "/health/clinic/schedule-appointment"
+        },
+        {
+          "tag": "a",
+          "text": "Money Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Money-Services",
+          "href": "/o/money-services"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Gift-Cards",
+          "href": "/o/gift-cards"
+        },
+        {
+          "tag": "a",
+          "text": "SNAP EBT",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-SNAP-EBT",
+          "href": "/i/payment/snap-ebt-online-orders"
+        },
+        {
+          "tag": "a",
+          "text": "Shop All Deals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-All-Deals",
+          "href": "/savings"
+        },
+        {
+          "tag": "a",
+          "text": "Clip Digital Coupons",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Clip-Digital-Coupons",
+          "href": "/savings/cl/coupons/"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Weekly-Ad",
+          "href": "/weeklyad"
+        },
+        {
+          "tag": "a",
+          "text": "Start Your Order",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Start-Your-Order",
+          "href": "/f/start-shopping"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Recipes",
+          "href": "/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "Explore Easy Meals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Explore-Easy-Meals",
+          "href": "/meal-planning"
+        },
+        {
+          "tag": "a",
+          "text": "Browse the Blog",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Browse-the-Blog",
+          "href": "/blog"
+        },
+        {
+          "tag": "a",
+          "text": "Schedule an Appointment",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Schedule-an-Appointment",
+          "href": "/health/schedule-appointment"
+        },
+        {
+          "tag": "a",
+          "text": "Shop All Deals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-All-Deals",
+          "href": "/savings"
+        },
+        {
+          "tag": "a",
+          "text": "Clip Digital Coupons",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Clip-Digital-Coupons",
+          "href": "/savings/cl/coupons/"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Weekly-Ad",
+          "href": "/weeklyad"
+        },
+        {
+          "tag": "a",
+          "text": "Start Your Order",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Start-Your-Order",
+          "href": "/f/start-shopping"
+        },
+        {
+          "tag": "a",
+          "text": "Shop Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Shop-Recipes",
+          "href": "/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "Explore Easy Meals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Explore-Easy-Meals",
+          "href": "/meal-planning"
+        },
+        {
+          "tag": "a",
+          "text": "Browse the Blog",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Browse-the-Blog",
+          "href": "/blog"
+        },
+        {
+          "tag": "a",
+          "text": "Schedule an Appointment",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Schedule-an-Appointment",
+          "href": "/health/schedule-appointment"
+        },
+        {
+          "tag": "a",
+          "text": "Learn More",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Learn-More",
+          "href": "/pr/rewards-mastercard"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Learn More",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/pr/rewards-mastercard"
+        },
+        {
+          "tag": "a",
+          "text": "Learn More",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "footer-nav-Learn-More",
+          "href": "/pr/rewards-mastercard"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Learn More",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/pr/rewards-mastercard"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "iOS",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/iosapp"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Google",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/androidapp"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "iOS",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/iosapp"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Google",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/androidapp"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility Statement",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/i/terms/accessibility"
+        },
+        {
+          "tag": "a",
+          "text": "1-800-576-4377",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "tel:1-800-576-4377"
+        },
+        {
+          "tag": "a",
+          "text": "Financial Products & Services Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/i/privacy-policy/financial-products"
+        },
+        {
+          "tag": "a",
+          "text": "HIPAA Notice of Privacy Practice",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/health/hipaa-policy"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/i/privacy-policy"
+        },
+        {
+          "tag": "button",
+          "text": "Your Privacy Choices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Text",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "ot-sdk-btn",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Terms and Conditions",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/termsandconditions"
+        },
+        {
+          "tag": "a",
+          "text": "TLC Terms and Conditions",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/i/tlc-terms-and-conditions"
+        },
+        {
+          "tag": "a",
+          "text": "TLC Patient Bill of Rights",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/i/tlc-patient-bill-of-rights-and-responsibilities"
+        },
+        {
+          "tag": "a",
+          "text": "Notice for California Dietitian Patients",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/content/v2/binary/document/california-residents-notice-16"
+        },
+        {
+          "tag": "a",
+          "text": "Dietitian/Telemedicine Consent to Treat Form",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.kroger.com/tlcconsenttotreat"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Connect with us on X",
+          "ph": null,
+          "tid": null,
+          "id": "twitter-footer-social-link",
+          "href": "https://www.kroger.com/twitter"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Connect with us on Facebook",
+          "ph": null,
+          "tid": null,
+          "id": "facebook-footer-social-link",
+          "href": "https://www.kroger.com/facebook"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Connect with us on YouTube",
+          "ph": null,
+          "tid": null,
+          "id": "youtube-footer-social-link",
+          "href": "https://www.kroger.com/youtube"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Connect with us on Pinterest",
+          "ph": null,
+          "tid": null,
+          "id": "pinterest-footer-social-link",
+          "href": "https://www.kroger.com/pinterest"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Connect with us on Instagram",
+          "ph": null,
+          "tid": null,
+          "id": "instagram-footer-social-link",
+          "href": "https://www.kroger.com/instagram"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Best Match",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Most Popular",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Price: Low to High",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Price: High to Low",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Alphabetical: A-Z",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Price Range",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "price-button",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "0.32",
+          "tid": "range-min",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "13.79",
+          "tid": "range-max",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Savings",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "savings-button",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "brands-button",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Availability",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "availability-button",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-in-stock-items-only",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Ways to Shop",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "waysToShop-button",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "in-store",
+          "aria": "In-Store",
+          "ph": null,
+          "tid": "radiobutton-in-store",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "pickup",
+          "aria": "Pickup",
+          "ph": null,
+          "tid": "radiobutton-pickup",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "delivery",
+          "aria": "Delivery",
+          "ph": null,
+          "tid": "radiobutton-delivery",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Flavor",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "flavor-button",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "departments-button",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Dietary Preferences",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "nutrition-button",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Benefit Programs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "specialBenefits-button",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-snap-ebt-eligible",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "0.32",
+          "tid": "range-min",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "13.79",
+          "tid": "range-max",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-in-stock-items-only",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "in-store",
+          "aria": "In-Store",
+          "ph": null,
+          "tid": "radiobutton-in-store",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "pickup",
+          "aria": "Pickup",
+          "ph": null,
+          "tid": "radiobutton-pickup",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "delivery",
+          "aria": "Delivery",
+          "ph": null,
+          "tid": "radiobutton-delivery",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-snap-ebt-eligible",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View 464 Products",
+          "aria": "View results",
+          "ph": null,
+          "tid": "viewResults",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Shop All Items",
+          "aria": "Shop All Items for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In To Clip",
+          "aria": "Sign In To Clip for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": "CouponActionButton-4250208",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Shop All Items",
+          "aria": "Shop All Items for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In To Clip",
+          "aria": "Sign In To Clip for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": "CouponActionButton-4250208",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close modal dialog",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Shop All Items",
+          "aria": "Shop All Items for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In To Clip",
+          "aria": "Sign In To Clip for coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs coupon",
+          "ph": null,
+          "tid": "CouponActionButton-4250208",
+          "id": null,
+          "href": null
+        }
+      ]
+    }
+  ],
+  "houses_text": 33,
+  "houses_dom": 20
 }

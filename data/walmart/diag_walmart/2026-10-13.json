@@ -3,7 +3,7 @@
   "retailer": "walmart",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:54:39.018Z",
+  "pulled_at": "2026-10-13T13:02:16.537Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -12,9 +12,13 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "12:54:39 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:54:40 connected to Bright Data Scraping Browser",
-    "12:54:44 ERROR Error: page.goto: Protocol error (Page.navigate): No Peer Found (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.walmart.com/search?q=salsa\", waiting until \"domcontentloaded\"\n"
+    "13:02:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:02:17 connected to Bright Data Scraping Browser",
+    "13:03:25 goto https://www.walmart.com/search?q=salsa",
+    "13:05:56 captcha check passed",
+    "13:06:09 dismiss: nothing to close",
+    "13:06:09 press Escape",
+    "13:06:09 ERROR Error: click_re no match ^Pickup or delivery"
   ],
-  "error": "Error: page.goto: Protocol error (Page.navigate): No Peer Found (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.walmart.com/search?q=salsa\", waiting until \"domcontentloaded\"\n"
+  "error": "Error: click_re no match ^Pickup or delivery"
 }

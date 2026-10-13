@@ -3,18 +3,1986 @@
   "retailer": "target",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:54:33.431Z",
+  "pulled_at": "2026-10-13T13:01:56.016Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
   "store_set": null,
-  "url_final": null,
+  "url_final": "https://www.target.com/s?searchTerm=salsa",
   "houses": [],
-  "raw_text_chars": 0,
+  "raw_text_chars": 1465,
   "steps": [
-    "12:54:33 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:54:34 connected to Bright Data Scraping Browser",
-    "12:54:36 ERROR Error: page.goto: Protocol error (Page.navigate): Unexpected Status 502 (no_peer) (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.target.com/s?searchTerm=salsa\", waiting until \"domcontentloaded\"\n"
+    "13:01:56 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:01:57 connected to Bright Data Scraping Browser",
+    "13:02:01 goto https://www.target.com/s?searchTerm=salsa",
+    "13:02:09 captcha check passed",
+    "13:02:22 dismiss: nothing to close",
+    "13:02:22 press Escape",
+    "13:02:30 click_sel miss #zip-code-id-btn",
+    "13:02:35 dump zipmodal: 108 controls",
+    "13:02:44 optional step fill skipped: Error: fill: no input found",
+    "13:02:49 dump after: 108 controls",
+    "13:02:49 store_set: null",
+    "13:02:50 extracted 0 houses; raw text 1465 chars"
   ],
-  "error": "Error: page.goto: Protocol error (Page.navigate): Unexpected Status 502 (no_peer) (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.target.com/s?searchTerm=salsa\", waiting until \"domcontentloaded\"\n"
+  "error": null,
+  "controls": [
+    {
+      "at": "zipmodal",
+      "text": "DIALOG: \nBODY: skip to main content\nskip to footer\nShip to 97027\nClackamas\nTarget Circle™\nTarget Circle™ Card\nTarget Circle 360™\nRegistry & Wish List\nWeekly Ad\nFind Stores\nCategories\nDeals\nPickup & delivery\nsearch\nAsk Target\nAccount\n“”\nWe couldn’t find a match for your search.\nFeatured categories\n\nShop all\n\nWomen’s\nMen’s\nKids’\nBaby\nPets\nToys\nElectronics\nVideo Games\nApple\nSports & Outdoors\nLuggage\nGrocery\nBeauty\nHealth\nHousehold Essentials\nPersonal Care\nSchool & Office\nHome\nKitchen & Dining\nDeals\nClearance\n\nSponsored\n\nSponsored\n\nGet top deals, latest trends, and more.\nEmail address\nSign up\nPrivacy policy\nTerms\nFooter\n\n*See details. Restrictions and terms apply. Pricing, promotions, and availability may vary by location and at Target.com\n\nAbout Us\nAbout Target\nCareers\nNews & Blog\nTarget Brands\nBullseye Shop\nSustainability & Governance\nPress Center\nAdvertise with Us\nInvestors\nAffiliates & Partners\nClub Target\nSuppliers\nTargetPlus\nHelp\nTarget Help\nReturns\nTrack Orders\nRecalls\nContact Us\nFeedback\nAccessibility\nSecurity & Fraud\nTeam Member Services\nLegal & Privacy\nStores\nFind a Store\nClinic\nPharmacy\nTarget Optical\nMore In-Store Services\nServices\nTarget Circle™\nTarget Circle™ Card\nTarget Circle 360™\nTarget App\nRegistry\nSame Day Delivery\nOrder Pickup\nDrive Up\nFree 2-Day Shipping\nShipping & Delivery\nMore Services\nTerms\nCA Supply Chain\nPrivacy Policy\nYour CA Privacy Rights\nYour Privacy Choices\nInterest Based Ads\nHealth Privacy Policy\n\nTM & © 2026 Target Brands, Inc.",
+      "controls": [
+        {
+          "tag": "a",
+          "text": "skip to main content",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#skip"
+        },
+        {
+          "tag": "a",
+          "text": "skip to footer",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#skip"
+        },
+        {
+          "tag": "button",
+          "text": "Ship to 97027",
+          "aria": "Ship to location: 97027",
+          "ph": null,
+          "tid": null,
+          "id": "zip-code-id-btn",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Clackamas",
+          "aria": "Store: Clackamas",
+          "ph": null,
+          "tid": null,
+          "id": "web-store-id-msg-btn",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle™",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-circle",
+          "href": "/l/target-circle/-/N-pzno9"
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle™ Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-circleCardLI",
+          "href": "/circlecard"
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle 360™",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-circle360",
+          "href": "/l/target-circle-360/-/N-2rguk"
+        },
+        {
+          "tag": "a",
+          "text": "Registry & Wish List",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-registries",
+          "href": "/gift-registry"
+        },
+        {
+          "tag": "a",
+          "text": "Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-weeklyAd",
+          "href": "/weekly-ad"
+        },
+        {
+          "tag": "a",
+          "text": "Find Stores",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-findStores",
+          "href": "/store-locator/find-stores"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Target home",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Main menu",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/shop-all-categories/-/N-5xsxf?prehydrateClick=true"
+        },
+        {
+          "tag": "a",
+          "text": "Categories",
+          "aria": "Categories",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/shop-all-categories/-/N-5xsxf?prehydrateClick=true"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Target home",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "Deals",
+          "aria": "Deals",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/top-deals/-/N-4xw74?prehydrateClick=true"
+        },
+        {
+          "tag": "a",
+          "text": "Pickup & delivery",
+          "aria": "pickup and delivery",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/order-pickup/-/N-ng0a0?l1_nid=5xt1a&prehydrateClick=true"
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": "What can we help you find? suggestions appear below",
+          "ph": "What can we help you find?",
+          "tid": null,
+          "id": "search",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": null,
+          "ph": " ",
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "search by voice",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "reset",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "search",
+          "aria": "search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "div",
+          "text": "Ask Target",
+          "aria": "Ask Target",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Account",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/account?prehydrateClick=true"
+        },
+        {
+          "tag": "a",
+          "text": "Account",
+          "aria": "Account, sign in",
+          "ph": null,
+          "tid": null,
+          "id": "account-sign-in",
+          "href": "/account?prehydrateClick=true"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "cart 0 items",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/cart?prehydrateClick=true"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "What can we help you find?",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": null,
+          "ph": "What can we help you find?",
+          "tid": null,
+          "id": "searchMobile",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": null,
+          "ph": " ",
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "div",
+          "text": "Ask Target",
+          "aria": "Ask Target",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Shop all",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/shop-all-categories/-/N-5xsxf?tag=ShopAll_CN"
+        },
+        {
+          "tag": "a",
+          "text": "Women’s",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/women/-/N-5xtd3"
+        },
+        {
+          "tag": "a",
+          "text": "Men’s",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/men/-/N-18y1l"
+        },
+        {
+          "tag": "a",
+          "text": "Kids’",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/kids/-/N-xcoz4"
+        },
+        {
+          "tag": "a",
+          "text": "Baby",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/baby/-/N-5xtly"
+        },
+        {
+          "tag": "a",
+          "text": "Pets",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/pets/-/N-5xt44"
+        },
+        {
+          "tag": "a",
+          "text": "Toys",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/toys/-/N-5xtb0"
+        },
+        {
+          "tag": "a",
+          "text": "Electronics",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/electronics/-/N-5xtg6"
+        },
+        {
+          "tag": "a",
+          "text": "Video Games",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/video-games/-/N-5xtg5"
+        },
+        {
+          "tag": "a",
+          "text": "Apple",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/b/apple/-/N-5y3ej"
+        },
+        {
+          "tag": "a",
+          "text": "Sports & Outdoors",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/sports-outdoors/-/N-5xt85"
+        },
+        {
+          "tag": "a",
+          "text": "Luggage",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/luggage/-/N-5xtz1"
+        },
+        {
+          "tag": "a",
+          "text": "Grocery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/grocery/-/N-5xt1a"
+        },
+        {
+          "tag": "a",
+          "text": "Beauty",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/beauty/-/N-55r1x"
+        },
+        {
+          "tag": "a",
+          "text": "Health",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/health/-/N-5xu1n"
+        },
+        {
+          "tag": "a",
+          "text": "Household Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/household-essentials/-/N-5xsz1"
+        },
+        {
+          "tag": "a",
+          "text": "Personal Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/personal-care/-/N-5xtzq"
+        },
+        {
+          "tag": "a",
+          "text": "School & Office",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/school-office-supplies/-/N-5xsxr"
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/home/-/N-5xtvd"
+        },
+        {
+          "tag": "a",
+          "text": "Kitchen & Dining",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/kitchen-dining/-/N-hz89j"
+        },
+        {
+          "tag": "a",
+          "text": "Deals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/top-deals/-/N-4xw74"
+        },
+        {
+          "tag": "a",
+          "text": "Clearance",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/clearance/-/N-5q0ga"
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": " ",
+          "tid": null,
+          "id": "email-address",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign up",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "submit-button",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Privacy policy",
+          "aria": "privacy policy - opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.target.com/c/target-privacy-policy/-/N-4sr7p"
+        },
+        {
+          "tag": "a",
+          "text": "Terms",
+          "aria": "terms and conditions - opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.target.com/c/terms-conditions/-/N-4sr7l"
+        },
+        {
+          "tag": "a",
+          "text": "*See details. Restrictions and terms apply. Pricing, promoti",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/articles/promotions-coupons/current-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "About Target",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/about"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/careers/"
+        },
+        {
+          "tag": "a",
+          "text": "News & Blog",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/news-features"
+        },
+        {
+          "tag": "a",
+          "text": "Target Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/about/products-services/Target-Brands"
+        },
+        {
+          "tag": "a",
+          "text": "Bullseye Shop",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.bullseyeshop.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Sustainability & Governance",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/sustainability-governance"
+        },
+        {
+          "tag": "a",
+          "text": "Press Center",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/press"
+        },
+        {
+          "tag": "a",
+          "text": "Advertise with Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://roundel.com/?utm_source=Referral&utm_medium=Targetwebsite&utm_campaign=a"
+        },
+        {
+          "tag": "a",
+          "text": "Investors",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/investors"
+        },
+        {
+          "tag": "a",
+          "text": "Affiliates & Partners",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://partners.target.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Club Target",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.target.com/c/club-target/-/N-q6m3b"
+        },
+        {
+          "tag": "a",
+          "text": "Suppliers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/about/products-services/suppliers#?lnk=fnav_t_spc_1"
+        },
+        {
+          "tag": "a",
+          "text": "TargetPlus",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://plus.target.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Target Help",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help"
+        },
+        {
+          "tag": "a",
+          "text": "Returns",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/returns"
+        },
+        {
+          "tag": "a",
+          "text": "Track Orders",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/orders"
+        },
+        {
+          "tag": "a",
+          "text": "Recalls",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/articles/news-safety/product-recalls"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/contact-us"
+        },
+        {
+          "tag": "button",
+          "text": "Feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/articles/compliances/accessibility"
+        },
+        {
+          "tag": "a",
+          "text": "Security & Fraud",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://security.target.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Team Member Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/team-member-services/-/N-4srq9"
+        },
+        {
+          "tag": "a",
+          "text": "Legal & Privacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/guest-privacy/legal-privacy"
+        },
+        {
+          "tag": "a",
+          "text": "Find a Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/store-locator/find-stores"
+        },
+        {
+          "tag": "a",
+          "text": "Clinic",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/clinic/-/N-54x94"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/pharmacy-health/-/N-54y52"
+        },
+        {
+          "tag": "a",
+          "text": "Target Optical",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/optical/-/N-4y8o9"
+        },
+        {
+          "tag": "a",
+          "text": "More In-Store Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/services/-/N-oq1wk"
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle™",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/l/target-circle/-/N-pzno9"
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle™ Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/circlecard"
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle 360™",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/l/target-circle-360/-/N-2rguk"
+        },
+        {
+          "tag": "a",
+          "text": "Target App",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/target-app/-/N-4th2r"
+        },
+        {
+          "tag": "a",
+          "text": "Registry",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/gift-registry"
+        },
+        {
+          "tag": "a",
+          "text": "Same Day Delivery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/same-day-delivery/-/N-bswkz"
+        },
+        {
+          "tag": "a",
+          "text": "Order Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/order-pickup/-/N-ng0a0"
+        },
+        {
+          "tag": "a",
+          "text": "Drive Up",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/drive-up/-/N-9d42z"
+        },
+        {
+          "tag": "a",
+          "text": "Free 2-Day Shipping",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/free-2-day-shipping/-/N-49cz6"
+        },
+        {
+          "tag": "a",
+          "text": "Shipping & Delivery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/shipping-order-services/-/N-551st"
+        },
+        {
+          "tag": "a",
+          "text": "More Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/services/-/N-oq1wk"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Pinterest",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.pinterest.com/target"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Facebook",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.facebook.com/target"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Instagram",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.instagram.com/target"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "X",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.x.com/Target"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Youtube",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.youtube.com/target"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Tiktok",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.tiktok.com/@target"
+        },
+        {
+          "tag": "a",
+          "text": "Terms",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/terms-conditions/-/N-4sr7l"
+        },
+        {
+          "tag": "a",
+          "text": "CA Supply Chain",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/articles/compliances/ca-transparency-in-supply-chains-act"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/target-privacy-policy/-/N-4sr7p"
+        },
+        {
+          "tag": "a",
+          "text": "Your CA Privacy Rights",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/your-ca-privacy-rights-/N-m2wjt"
+        },
+        {
+          "tag": "a",
+          "text": "Your Privacy Choices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/guest-privacy"
+        },
+        {
+          "tag": "a",
+          "text": "Interest Based Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/interest-based-advertising-privacy-policy/-/N-ztavm"
+        },
+        {
+          "tag": "a",
+          "text": "Health Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/health-policy/-/N-4gc0k"
+        }
+      ]
+    },
+    {
+      "at": "after",
+      "text": "DIALOG: \nBODY: skip to main content\nskip to footer\nShip to 97027\nClackamas\nTarget Circle™\nTarget Circle™ Card\nTarget Circle 360™\nRegistry & Wish List\nWeekly Ad\nFind Stores\nCategories\nDeals\nPickup & delivery\nsearch\nAsk Target\nAccount\n“”\nWe couldn’t find a match for your search.\nFeatured categories\n\nShop all\n\nWomen’s\nMen’s\nKids’\nBaby\nPets\nToys\nElectronics\nVideo Games\nApple\nSports & Outdoors\nLuggage\nGrocery\nBeauty\nHealth\nHousehold Essentials\nPersonal Care\nSchool & Office\nHome\nKitchen & Dining\nDeals\nClearance\n\nSponsored\n\nSponsored\n\nGet top deals, latest trends, and more.\nEmail address\nSign up\nPrivacy policy\nTerms\nFooter\n\n*See details. Restrictions and terms apply. Pricing, promotions, and availability may vary by location and at Target.com\n\nAbout Us\nAbout Target\nCareers\nNews & Blog\nTarget Brands\nBullseye Shop\nSustainability & Governance\nPress Center\nAdvertise with Us\nInvestors\nAffiliates & Partners\nClub Target\nSuppliers\nTargetPlus\nHelp\nTarget Help\nReturns\nTrack Orders\nRecalls\nContact Us\nFeedback\nAccessibility\nSecurity & Fraud\nTeam Member Services\nLegal & Privacy\nStores\nFind a Store\nClinic\nPharmacy\nTarget Optical\nMore In-Store Services\nServices\nTarget Circle™\nTarget Circle™ Card\nTarget Circle 360™\nTarget App\nRegistry\nSame Day Delivery\nOrder Pickup\nDrive Up\nFree 2-Day Shipping\nShipping & Delivery\nMore Services\nTerms\nCA Supply Chain\nPrivacy Policy\nYour CA Privacy Rights\nYour Privacy Choices\nInterest Based Ads\nHealth Privacy Policy\n\nTM & © 2026 Target Brands, Inc.",
+      "controls": [
+        {
+          "tag": "a",
+          "text": "skip to main content",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#skip"
+        },
+        {
+          "tag": "a",
+          "text": "skip to footer",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#skip"
+        },
+        {
+          "tag": "button",
+          "text": "Ship to 97027",
+          "aria": "Ship to location: 97027",
+          "ph": null,
+          "tid": null,
+          "id": "zip-code-id-btn",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Clackamas",
+          "aria": "Store: Clackamas",
+          "ph": null,
+          "tid": null,
+          "id": "web-store-id-msg-btn",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle™",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-circle",
+          "href": "/l/target-circle/-/N-pzno9"
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle™ Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-circleCardLI",
+          "href": "/circlecard"
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle 360™",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-circle360",
+          "href": "/l/target-circle-360/-/N-2rguk"
+        },
+        {
+          "tag": "a",
+          "text": "Registry & Wish List",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-registries",
+          "href": "/gift-registry"
+        },
+        {
+          "tag": "a",
+          "text": "Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-weeklyAd",
+          "href": "/weekly-ad"
+        },
+        {
+          "tag": "a",
+          "text": "Find Stores",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "utilityNav-findStores",
+          "href": "/store-locator/find-stores"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Target home",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Main menu",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/shop-all-categories/-/N-5xsxf?prehydrateClick=true"
+        },
+        {
+          "tag": "a",
+          "text": "Categories",
+          "aria": "Categories",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/shop-all-categories/-/N-5xsxf?prehydrateClick=true"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Target home",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "Deals",
+          "aria": "Deals",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/top-deals/-/N-4xw74?prehydrateClick=true"
+        },
+        {
+          "tag": "a",
+          "text": "Pickup & delivery",
+          "aria": "pickup and delivery",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/order-pickup/-/N-ng0a0?l1_nid=5xt1a&prehydrateClick=true"
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": "What can we help you find? suggestions appear below",
+          "ph": "What can we help you find?",
+          "tid": null,
+          "id": "search",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": null,
+          "ph": " ",
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "search by voice",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "reset",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "search",
+          "aria": "search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "div",
+          "text": "Ask Target",
+          "aria": "Ask Target",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Account",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/account?prehydrateClick=true"
+        },
+        {
+          "tag": "a",
+          "text": "Account",
+          "aria": "Account, sign in",
+          "ph": null,
+          "tid": null,
+          "id": "account-sign-in",
+          "href": "/account?prehydrateClick=true"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "cart 0 items",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/cart?prehydrateClick=true"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "What can we help you find?",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": null,
+          "ph": "What can we help you find?",
+          "tid": null,
+          "id": "searchMobile",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": null,
+          "ph": " ",
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "div",
+          "text": "Ask Target",
+          "aria": "Ask Target",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Shop all",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/shop-all-categories/-/N-5xsxf?tag=ShopAll_CN"
+        },
+        {
+          "tag": "a",
+          "text": "Women’s",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/women/-/N-5xtd3"
+        },
+        {
+          "tag": "a",
+          "text": "Men’s",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/men/-/N-18y1l"
+        },
+        {
+          "tag": "a",
+          "text": "Kids’",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/kids/-/N-xcoz4"
+        },
+        {
+          "tag": "a",
+          "text": "Baby",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/baby/-/N-5xtly"
+        },
+        {
+          "tag": "a",
+          "text": "Pets",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/pets/-/N-5xt44"
+        },
+        {
+          "tag": "a",
+          "text": "Toys",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/toys/-/N-5xtb0"
+        },
+        {
+          "tag": "a",
+          "text": "Electronics",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/electronics/-/N-5xtg6"
+        },
+        {
+          "tag": "a",
+          "text": "Video Games",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/video-games/-/N-5xtg5"
+        },
+        {
+          "tag": "a",
+          "text": "Apple",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/b/apple/-/N-5y3ej"
+        },
+        {
+          "tag": "a",
+          "text": "Sports & Outdoors",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/sports-outdoors/-/N-5xt85"
+        },
+        {
+          "tag": "a",
+          "text": "Luggage",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/luggage/-/N-5xtz1"
+        },
+        {
+          "tag": "a",
+          "text": "Grocery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/grocery/-/N-5xt1a"
+        },
+        {
+          "tag": "a",
+          "text": "Beauty",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/beauty/-/N-55r1x"
+        },
+        {
+          "tag": "a",
+          "text": "Health",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/health/-/N-5xu1n"
+        },
+        {
+          "tag": "a",
+          "text": "Household Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/household-essentials/-/N-5xsz1"
+        },
+        {
+          "tag": "a",
+          "text": "Personal Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/personal-care/-/N-5xtzq"
+        },
+        {
+          "tag": "a",
+          "text": "School & Office",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/school-office-supplies/-/N-5xsxr"
+        },
+        {
+          "tag": "a",
+          "text": "Home",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/home/-/N-5xtvd"
+        },
+        {
+          "tag": "a",
+          "text": "Kitchen & Dining",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/kitchen-dining/-/N-hz89j"
+        },
+        {
+          "tag": "a",
+          "text": "Deals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/top-deals/-/N-4xw74"
+        },
+        {
+          "tag": "a",
+          "text": "Clearance",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/clearance/-/N-5q0ga"
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": " ",
+          "tid": null,
+          "id": "email-address",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign up",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "submit-button",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Privacy policy",
+          "aria": "privacy policy - opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.target.com/c/target-privacy-policy/-/N-4sr7p"
+        },
+        {
+          "tag": "a",
+          "text": "Terms",
+          "aria": "terms and conditions - opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.target.com/c/terms-conditions/-/N-4sr7l"
+        },
+        {
+          "tag": "a",
+          "text": "*See details. Restrictions and terms apply. Pricing, promoti",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/articles/promotions-coupons/current-promotions"
+        },
+        {
+          "tag": "a",
+          "text": "About Target",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/about"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/careers/"
+        },
+        {
+          "tag": "a",
+          "text": "News & Blog",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/news-features"
+        },
+        {
+          "tag": "a",
+          "text": "Target Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/about/products-services/Target-Brands"
+        },
+        {
+          "tag": "a",
+          "text": "Bullseye Shop",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.bullseyeshop.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Sustainability & Governance",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/sustainability-governance"
+        },
+        {
+          "tag": "a",
+          "text": "Press Center",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/press"
+        },
+        {
+          "tag": "a",
+          "text": "Advertise with Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://roundel.com/?utm_source=Referral&utm_medium=Targetwebsite&utm_campaign=a"
+        },
+        {
+          "tag": "a",
+          "text": "Investors",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/investors"
+        },
+        {
+          "tag": "a",
+          "text": "Affiliates & Partners",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://partners.target.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Club Target",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.target.com/c/club-target/-/N-q6m3b"
+        },
+        {
+          "tag": "a",
+          "text": "Suppliers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.target.com/about/products-services/suppliers#?lnk=fnav_t_spc_1"
+        },
+        {
+          "tag": "a",
+          "text": "TargetPlus",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://plus.target.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Target Help",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help"
+        },
+        {
+          "tag": "a",
+          "text": "Returns",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/returns"
+        },
+        {
+          "tag": "a",
+          "text": "Track Orders",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/orders"
+        },
+        {
+          "tag": "a",
+          "text": "Recalls",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/articles/news-safety/product-recalls"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/contact-us"
+        },
+        {
+          "tag": "button",
+          "text": "Feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/articles/compliances/accessibility"
+        },
+        {
+          "tag": "a",
+          "text": "Security & Fraud",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://security.target.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Team Member Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/team-member-services/-/N-4srq9"
+        },
+        {
+          "tag": "a",
+          "text": "Legal & Privacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/guest-privacy/legal-privacy"
+        },
+        {
+          "tag": "a",
+          "text": "Find a Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/store-locator/find-stores"
+        },
+        {
+          "tag": "a",
+          "text": "Clinic",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/clinic/-/N-54x94"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/pharmacy-health/-/N-54y52"
+        },
+        {
+          "tag": "a",
+          "text": "Target Optical",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/optical/-/N-4y8o9"
+        },
+        {
+          "tag": "a",
+          "text": "More In-Store Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/services/-/N-oq1wk"
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle™",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/l/target-circle/-/N-pzno9"
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle™ Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/circlecard"
+        },
+        {
+          "tag": "a",
+          "text": "Target Circle 360™",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/l/target-circle-360/-/N-2rguk"
+        },
+        {
+          "tag": "a",
+          "text": "Target App",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/target-app/-/N-4th2r"
+        },
+        {
+          "tag": "a",
+          "text": "Registry",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/gift-registry"
+        },
+        {
+          "tag": "a",
+          "text": "Same Day Delivery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/same-day-delivery/-/N-bswkz"
+        },
+        {
+          "tag": "a",
+          "text": "Order Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/order-pickup/-/N-ng0a0"
+        },
+        {
+          "tag": "a",
+          "text": "Drive Up",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/drive-up/-/N-9d42z"
+        },
+        {
+          "tag": "a",
+          "text": "Free 2-Day Shipping",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/free-2-day-shipping/-/N-49cz6"
+        },
+        {
+          "tag": "a",
+          "text": "Shipping & Delivery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/shipping-order-services/-/N-551st"
+        },
+        {
+          "tag": "a",
+          "text": "More Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/services/-/N-oq1wk"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Pinterest",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.pinterest.com/target"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Facebook",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.facebook.com/target"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Instagram",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.instagram.com/target"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "X",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.x.com/Target"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Youtube",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.youtube.com/target"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Tiktok",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.tiktok.com/@target"
+        },
+        {
+          "tag": "a",
+          "text": "Terms",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/terms-conditions/-/N-4sr7l"
+        },
+        {
+          "tag": "a",
+          "text": "CA Supply Chain",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/articles/compliances/ca-transparency-in-supply-chains-act"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/target-privacy-policy/-/N-4sr7p"
+        },
+        {
+          "tag": "a",
+          "text": "Your CA Privacy Rights",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/your-ca-privacy-rights-/N-m2wjt"
+        },
+        {
+          "tag": "a",
+          "text": "Your Privacy Choices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/guest-privacy"
+        },
+        {
+          "tag": "a",
+          "text": "Interest Based Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/interest-based-advertising-privacy-policy/-/N-ztavm"
+        },
+        {
+          "tag": "a",
+          "text": "Health Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/c/health-policy/-/N-4gc0k"
+        }
+      ]
+    }
+  ],
+  "houses_text": 0
 }
