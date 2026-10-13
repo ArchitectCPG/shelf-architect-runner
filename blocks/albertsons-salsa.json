@@ -3,60 +3,70 @@
   "retailer": "albertsons",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "store_zip": "60615",
+  "term": "salsa",
+  "store_zip": "83702",
+  "store_js": "document.querySelector('#fulFillMentAddressNav')?.innerText.replace(/\\s+/g,' ').trim()",
   "steps": [
     {
-      "goto": "https://www.albertsons.com/shop/search-results.html?q=salsa"
+      "goto": "https://www.albertsons.com/shop/search-results.html?q={{term}}"
     },
     {
-      "wait": 6000
+      "wait": 7000
     },
     {
       "dismiss": [
         "Close",
         "No thanks",
         "Not now",
-        "Continue"
+        "Continue",
+        "Got it"
       ]
     },
     {
       "press": "Escape"
     },
     {
+      "js": "const n=document.querySelector('#fulFillMentAddressNav'); const leaf=[...n.querySelectorAll('*')].filter(e=>e.children.length===0&&e.textContent.trim()).pop()||n; leaf.click(); return leaf.textContent.trim()"
+    },
+    {
+      "wait": 3000
+    },
+    {
+      "type_sel": {
+        "sel": "input[placeholder*='ZIP Code']",
+        "value": "{{store_zip}}",
+        "enter": true
+      }
+    },
+    {
+      "wait": 6000
+    },
+    {
+      "js": "const a=Array.from(document.querySelectorAll('.fulfillment-content a')).find(x=>x.innerText.trim()==='Select'); a.click(); return 'selected'"
+    },
+    {
+      "wait": 10000
+    },
+    {
+      "scroll": 4
+    },
+    {
       "scroll": 2
     },
     {
-      "wait": 2500
+      "wait": 2000
     },
     {
       "scroll": 2
     },
     {
-      "wait": 2500
+      "wait": 2000
     },
     {
       "scroll": 2
     },
     {
-      "wait": 2500
-    },
-    {
-      "scroll": 2
-    },
-    {
-      "wait": 2500
-    },
-    {
-      "scroll": 2
-    },
-    {
-      "wait": 2500
+      "wait": 2000
     }
-  ],
-  "store_patterns": [
-    "Pickup at\\s*([^\\n|]{3,60})",
-    "Delivering to\\s*(\\d{5})",
-    "(\\d{3,5} [A-Z][A-Za-z .]+(?:Rd|St|Ave|Blvd|Dr|Hwy|Pkwy|Way)\\b[^\\n]{0,40})",
-    "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"
   ]
 }

@@ -3,47 +3,63 @@
   "retailer": "ralphs",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "store_zip": "60615",
+  "term": "salsa",
+  "store_zip": "90024",
+  "store_js": "document.querySelector('[data-testid=CurrentModality-button]')?.innerText.replace(/\\s+/g,' ').trim()",
   "steps": [
     {
-      "goto": "https://www.ralphs.com/search?query=salsa"
+      "goto": "https://www.ralphs.com/search?query={{term}}"
+    },
+    {
+      "wait": 7000
+    },
+    {
+      "click_sel": "button[aria-label='close banner']",
+      "optional": true
+    },
+    {
+      "wait": 1000
+    },
+    {
+      "click_sel": "[data-testid=CurrentModality-button]"
+    },
+    {
+      "wait": 3000
+    },
+    {
+      "type_sel": {
+        "sel": "[data-testid=PostalCodeSearchBox-input]",
+        "value": "{{store_zip}}",
+        "enter": false
+      }
+    },
+    {
+      "js": "const i=document.querySelector('[data-testid=PostalCodeSearchBox-input]'); (i.parentElement.querySelector('button')||i.closest('form')?.querySelector('button')).click(); return 'search'"
     },
     {
       "wait": 6000
     },
     {
-      "dismiss": [
-        "Close",
-        "No thanks",
-        "Not now",
-        "Continue"
-      ]
+      "js": "const d=document.querySelector('[role=dialog],[aria-modal=true]'); const r=d.querySelector('input[type=radio]'); r.click(); await new Promise(x=>setTimeout(x,1000)); d.querySelector('[data-testid=Start-Shopping-PICKUP]').click(); return r.value"
     },
     {
-      "press": "Escape"
+      "wait": 8000
     },
     {
-      "scroll": 2
+      "click_re": "^Keep Shopping Here$",
+      "optional": true
     },
     {
       "wait": 2000
     },
     {
-      "scroll": 2
+      "goto": "https://www.ralphs.com/search?query={{term}}"
     },
     {
-      "wait": 2000
+      "wait": 7000
     },
     {
-      "scroll": 2
-    },
-    {
-      "wait": 2000
+      "scroll": 4
     }
-  ],
-  "store_patterns": [
-    "Delivering to\\s*(\\d{5})",
-    "Pickup at\\s*([^\\n|]{3,60})",
-    "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"
   ]
 }

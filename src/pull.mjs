@@ -65,6 +65,7 @@ async function runStep(page, step) {
       case "click_re": { const re = new RegExp(v, "i"); const ok = await page.evaluate((src) => { const re = new RegExp(src, "i"); const els = Array.from(document.querySelectorAll("button,a,[role=button]")); const el = els.find(e => re.test((e.innerText || "").trim()) || re.test((e.getAttribute("aria-label") || "").trim())); if (el) { el.click(); return true; } return false; }, v); if (!ok && !step.optional) throw new Error(`click_re no match ${v}`); log(`click_re ${v} ${ok}`); break; }
       case "click_sel": { try { await page.click(sub(v), { timeout: 8000 }); log(`click_sel ${v}`); } catch (e) { if (!step.optional) throw e; log(`click_sel miss ${v}`); } break; }
       case "type_sel": { const l = page.locator(sub(v.sel)).first(); try { await l.click({ timeout: 8000, force: true }); await l.fill(""); await page.keyboard.type(sub(v.value), { delay: 40 }); if (v.enter !== false) await page.keyboard.press("Enter"); log(`type_sel ${v.sel} "${sub(v.value)}"`); } catch (e) { if (!step.optional) throw e; log(`type_sel miss ${v.sel}`); } break; }
+      case "js": { try { const r = await page.evaluate(`(async()=>{ ${sub(v)} })()`); log(`js ok ${String(r ?? "").slice(0, 80)}`); } catch (e) { if (!step.optional) throw e; log(`js miss ${String(e).slice(0, 80)}`); } break; }
       case "press": await page.keyboard.press(v); log(`press ${v}`); break;
       default: log(`unknown step ${kind}`);
     }
@@ -130,7 +131,8 @@ try {
     if (step.goto) { try { const cdp = await page.context().newCDPSession(page); await cdp.send("Captcha.waitForSolve", { detectTimeout: 8000 }); log("captcha check passed"); } catch (e) { log(`captcha hook: ${String(e).slice(0, 60)}`); } }
   }
   out.url_final = page.url();
-  out.store_set = await captureStore(page, block.store_patterns || ["Delivering to\\s*(\\d{5})", "Pickup at\\s*([^\\n|]{3,60})", "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"]);
+  if (block.store_js) { try { out.store_set = await page.evaluate(block.store_js); } catch (e) { log(`store_js failed ${String(e).slice(0,60)}`); } }
+  if (!out.store_set) out.store_set = await captureStore(page, block.store_patterns || ["Delivering to\\s*(\\d{5})", "Pickup at\\s*([^\\n|]{3,60})", "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"]);
   log(`store_set: ${out.store_set}`);
   out.houses = await extractProducts(page, block.card_selector);
   let text = await page.evaluate(() => document.body.innerText); out.raw_text_chars = text.length;
