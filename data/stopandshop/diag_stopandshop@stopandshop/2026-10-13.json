@@ -1,0 +1,20 @@
+{
+  "block_id": "diag/stopandshop@stopandshop",
+  "retailer": "stopandshop",
+  "zip": "diag",
+  "neighborhood": "stopandshop",
+  "pulled_at": "2026-10-13T17:18:13.988Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "02116",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "17:18:13 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:18:17 connected to Bright Data Scraping Browser",
+    "17:18:19 ERROR Error: page.goto: Protocol error (Page.navigate): Requested URL (https://stopandshop.com/product-search/salsa) is restricted in accordance with robots.txt. Ask your account manager to get full access for targeting this site (brob). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#access-and-permissions\nCall log:\n  - navigating to \"https://stopandshop.com/product-search/salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Requested URL (https://stopandshop.com/product-search/salsa) is restricted in accordance with robots.txt. Ask your account manager to get full access for targeting this site (brob). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#access-and-permissions\nCall log:\n  - navigating to \"https://stopandshop.com/product-search/salsa\", waiting until \"domcontentloaded\"\n"
+}

@@ -1,0 +1,46 @@
+{
+  "block_id": "diag/aldi@aldi",
+  "retailer": "aldi",
+  "zip": "diag",
+  "neighborhood": "aldi",
+  "pulled_at": "2026-10-13T17:19:15.489Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.aldi.us/results?q=salsa",
+  "houses": [],
+  "raw_text_chars": 84,
+  "steps": [
+    "17:19:15 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:19:16 connected to Bright Data Scraping Browser",
+    "17:19:20 goto https://new.aldi.us/results?q=salsa",
+    "17:19:28 captcha check passed",
+    "17:19:41 dismiss: nothing to close",
+    "17:19:43 dump after-load: 1 controls",
+    "17:19:44 store_set: null",
+    "17:19:44 few houses, reloading once",
+    "17:19:58 extracted 0 houses; raw text 84 chars"
+  ],
+  "error": null,
+  "controls": [
+    {
+      "at": "after-load",
+      "text": "DIALOG: \nBODY: 404 Not Found\n\n\nUh-oh! We can't find the page you're looking for.\nReturn to homepage",
+      "controls": [
+        {
+          "tag": "a",
+          "text": "Return to homepage",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "ic-btn",
+          "href": "/"
+        }
+      ]
+    }
+  ],
+  "reloaded": true,
+  "houses_text": 0
+}

@@ -1,0 +1,786 @@
+{
+  "block_id": "diag/wegmans@wegmans",
+  "retailer": "wegmans",
+  "zip": "diag",
+  "neighborhood": "wegmans",
+  "pulled_at": "2026-10-13T17:18:33.740Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "14618",
+  "store_set": null,
+  "url_final": "https://www.wegmans.com/search?search_term=salsa",
+  "houses": [],
+  "raw_text_chars": 1109,
+  "steps": [
+    "17:18:33 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:18:35 connected to Bright Data Scraping Browser",
+    "17:18:38 goto https://shop.wegmans.com/search?search_term=salsa",
+    "17:18:46 captcha check passed",
+    "17:19:55 dismissed \"Close\"",
+    "17:19:57 dump after-load: 75 controls",
+    "17:19:57 store_set: null",
+    "17:19:57 few houses, reloading once",
+    "17:20:14 extracted 0 houses; raw text 1109 chars"
+  ],
+  "error": null,
+  "controls": [
+    {
+      "at": "after-load",
+      "text": "DIALOG: \nBODY: Skip To Search\nStores\nPharmacy\nMeals 2GO & Catering\nMeals & Recipes\nDigital Coupons\nHealth & Nutrition\nCareers\nMy Items\nSign In / Register\nSearch\nIn Store\nat\nBallantyne\n0\n0 items in my List\nAll Departments\nSeasonal Entertaining\nGold Pan Entrees\nBakery Desserts\nArtisan Breads\nLiving Gluten Free\nActive & Sports Nutrition\nAw, crumbs!\nThis page is no longer available.\nGo To Home Page\n\nJump to a specific topic:\n\nproductsrecipespharmacyshoppers clubcareersstore locatorcustomer service\nAbout Us\nService\nNewsroom\nContact Us\nOur Values in Action\nHealth and Nutrition\nFAQs\nChat With Us\nEvents\nPrivacy Policy\nTerms\nAccessibility\nSuppliers\nRestaurants\nSite Map\nCatering Near Me\nGrocery Delivery & Pickup\nBusiness Customers\nWegmans for Athletics\nAdditional Wegmans Sites\nCakes\nGift Cards\nCopyright © 2026 Wegmans Food Markets. All Rights Reserved.\nUNDER STATE LAW, ANY PACKAGE STORE IS ENTITLED TO BUY ANY ITEM OF LIQUOR OR WINE SHOWN IN THIS ADVERTISEMENT AT THE SAME PRICE PAID BY THE STORES LISTED IN THIS AD. THE LISTED STORES ARE INDEPENDENTLY OWNED AND OPERATED, NOT PART OF A CHAIN OR COOPERATIVE BUYING GROUP.",
+      "controls": [
+        {
+          "tag": "button",
+          "text": "Skip To Search",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "skip-block",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "menu",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "tw:-ml-3 tw:p-2 tw:rounded-full tw:cursor-pointer",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In",
+          "aria": "Account",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer sign-in-g",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "0",
+          "aria": "View 0 selected items in my List",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "cart-item-count tw:flex tw:items-center tw:gap-1 t",
+          "href": "/my-list"
+        },
+        {
+          "tag": "a",
+          "text": "Stores",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:flex tw:px-2.5 tw:h-full tw:items-center t",
+          "href": "/stores"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:flex tw:px-2.5 tw:h-full tw:items-center t",
+          "href": "/pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Meals 2GO & Catering",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:flex tw:px-2.5 tw:h-full tw:items-center t",
+          "href": "https://meals2go.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Meals & Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:flex tw:px-2.5 tw:h-full tw:items-center t",
+          "href": "/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "Digital Coupons",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:flex tw:px-2.5 tw:h-full tw:items-center t",
+          "href": "/shop/coupons"
+        },
+        {
+          "tag": "a",
+          "text": "Health & Nutrition",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:flex tw:px-2.5 tw:h-full tw:items-center t",
+          "href": "/values-in-action/feel-your-best"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:flex tw:px-2.5 tw:h-full tw:items-center t",
+          "href": "https://jobs.wegmans.com/"
+        },
+        {
+          "tag": "a",
+          "text": "My Items",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer buttons-n",
+          "href": "/items"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In / Register",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer component",
+          "href": null
+        },
+        {
+          "tag": "div",
+          "text": "Search",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "aa-Autocomplete tw:relative",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "What can we help you find?",
+          "tid": null,
+          "id": "site-header-search-input",
+          "cls": "aa-Input",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "In Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer selector-",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Ballantyne",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer selector-",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "0",
+          "aria": "View 0 selected items in my List",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "button-cart cart-item-count tw:h-full tw:px-6 tw:p",
+          "href": "/my-list"
+        },
+        {
+          "tag": "button",
+          "text": "In Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer selector-",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Ballantyne",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer selector-",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "All Departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "allDepartmentsMenu",
+          "cls": "menu-button tw:px-3 tw:whitespace-nowrap tw:flex t",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Baby & Toddler",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957335"
+        },
+        {
+          "tag": "a",
+          "text": "Bulk Foods",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2952090"
+        },
+        {
+          "tag": "a",
+          "text": "Bakery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957051"
+        },
+        {
+          "tag": "a",
+          "text": "Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957339"
+        },
+        {
+          "tag": "a",
+          "text": "Cheese",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957053"
+        },
+        {
+          "tag": "a",
+          "text": "Dairy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2952075"
+        },
+        {
+          "tag": "a",
+          "text": "Meat",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957055"
+        },
+        {
+          "tag": "a",
+          "text": "Frozen",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957336"
+        },
+        {
+          "tag": "a",
+          "text": "Grocery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957334"
+        },
+        {
+          "tag": "a",
+          "text": "Health & Wellness",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957346"
+        },
+        {
+          "tag": "a",
+          "text": "Household Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957345"
+        },
+        {
+          "tag": "a",
+          "text": "Kitchen & Home",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957344"
+        },
+        {
+          "tag": "a",
+          "text": "Party Celebrations & Gifts",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957653"
+        },
+        {
+          "tag": "a",
+          "text": "Personal Care & Makeup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2952098"
+        },
+        {
+          "tag": "a",
+          "text": "Prepared Foods",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957054"
+        },
+        {
+          "tag": "a",
+          "text": "Produce & Floral",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957052"
+        },
+        {
+          "tag": "a",
+          "text": "Seafood",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957058"
+        },
+        {
+          "tag": "a",
+          "text": "Seasonal Home",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957652"
+        },
+        {
+          "tag": "a",
+          "text": "Wine, Beer & Spirits",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "menu-link false tw:flex tw:w-full",
+          "href": "/shop/categories/2957056"
+        },
+        {
+          "tag": "a",
+          "text": "Seasonal Entertaining",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link false",
+          "href": "/shop/featured/seasonal-entertaining"
+        },
+        {
+          "tag": "a",
+          "text": "Gold Pan Entrees",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link false",
+          "href": "/shop/discovery/gold-pan-meals"
+        },
+        {
+          "tag": "a",
+          "text": "Bakery Desserts",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link false",
+          "href": "/shop/categories/2952074"
+        },
+        {
+          "tag": "a",
+          "text": "Artisan Breads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link false",
+          "href": "/shop/categories/2952084"
+        },
+        {
+          "tag": "a",
+          "text": "Living Gluten Free",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link false",
+          "href": "/shop/discovery/gluten-free"
+        },
+        {
+          "tag": "a",
+          "text": "Active & Sports Nutrition",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link false",
+          "href": "/shop/discovery/active-nutrition"
+        },
+        {
+          "tag": "a",
+          "text": "Go To Home Page",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer item-desc",
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer tw:mr-2 t",
+          "href": "/shop/categories"
+        },
+        {
+          "tag": "a",
+          "text": "recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer tw:mr-2 t",
+          "href": "/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer tw:mr-2 t",
+          "href": "/pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "shoppers club",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer tw:mr-2 t",
+          "href": "/service/shoppers-club"
+        },
+        {
+          "tag": "a",
+          "text": "careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer tw:mr-2 t",
+          "href": "https://jobs.wegmans.com"
+        },
+        {
+          "tag": "a",
+          "text": "store locator",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer tw:mr-2 t",
+          "href": "/stores"
+        },
+        {
+          "tag": "a",
+          "text": "customer service",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "component--base-button tw:cursor-pointer tw:mr-2 t",
+          "href": "/service"
+        },
+        {
+          "tag": "a",
+          "text": "About Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/about-us"
+        },
+        {
+          "tag": "a",
+          "text": "Service",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/service"
+        },
+        {
+          "tag": "a",
+          "text": "Newsroom",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/news-media"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/service/contact-us"
+        },
+        {
+          "tag": "a",
+          "text": "Our Values in Action",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/values-in-action"
+        },
+        {
+          "tag": "a",
+          "text": "Health and Nutrition",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/values-in-action/feel-your-best"
+        },
+        {
+          "tag": "a",
+          "text": "FAQs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/service/faq"
+        },
+        {
+          "tag": "a",
+          "text": "Chat With Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "#chat-with-us"
+        },
+        {
+          "tag": "a",
+          "text": "Events",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/events"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/privacy"
+        },
+        {
+          "tag": "a",
+          "text": "Terms",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/terms"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/terms#Accessibility"
+        },
+        {
+          "tag": "a",
+          "text": "Suppliers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/service/for-our-suppliers"
+        },
+        {
+          "tag": "a",
+          "text": "Restaurants",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/restaurants"
+        },
+        {
+          "tag": "a",
+          "text": "Site Map",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/sitemap"
+        },
+        {
+          "tag": "a",
+          "text": "Catering Near Me",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "https://meals2go.com/browse-catering"
+        },
+        {
+          "tag": "a",
+          "text": "Grocery Delivery & Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/grocery-delivery-pickup"
+        },
+        {
+          "tag": "a",
+          "text": "Business Customers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/wegmans-for-business"
+        },
+        {
+          "tag": "a",
+          "text": "Wegmans for Athletics",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "link tw:hover:underline tw:flex",
+          "href": "/athletics"
+        },
+        {
+          "tag": "a",
+          "text": "Cakes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": null,
+          "href": "/cake"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": null,
+          "href": "/gift-cards"
+        }
+      ]
+    }
+  ],
+  "reloaded": true,
+  "houses_text": 0
+}

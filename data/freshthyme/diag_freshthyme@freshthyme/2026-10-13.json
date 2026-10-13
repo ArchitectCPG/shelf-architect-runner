@@ -1,0 +1,46 @@
+{
+  "block_id": "diag/freshthyme@freshthyme",
+  "retailer": "freshthyme",
+  "zip": "diag",
+  "neighborhood": "freshthyme",
+  "pulled_at": "2026-10-13T17:20:27.057Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60056",
+  "store_set": null,
+  "url_final": "https://shop.freshthyme.com/store/fresh-thyme-market/s?k=salsa",
+  "houses": [],
+  "raw_text_chars": 102,
+  "steps": [
+    "17:20:27 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:20:27 connected to Bright Data Scraping Browser",
+    "17:20:42 goto https://shop.freshthyme.com/store/fresh-thyme-market/s?k=salsa",
+    "17:20:50 captcha check passed",
+    "17:21:03 dismiss: nothing to close",
+    "17:21:05 dump after-load: 1 controls",
+    "17:21:05 store_set: null",
+    "17:21:05 few houses, reloading once",
+    "17:21:19 extracted 0 houses; raw text 102 chars"
+  ],
+  "error": null,
+  "controls": [
+    {
+      "at": "after-load",
+      "text": "DIALOG: \nBODY: 404 Not Found\n\n\nUh-oh! We can't find the page you're looking for.\n\nError code: 404\n\nReturn to homepage",
+      "controls": [
+        {
+          "tag": "a",
+          "text": "Return to homepage",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "ic-btn",
+          "href": "/"
+        }
+      ]
+    }
+  ],
+  "reloaded": true,
+  "houses_text": 0
+}

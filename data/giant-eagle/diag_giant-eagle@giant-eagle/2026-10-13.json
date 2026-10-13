@@ -1,0 +1,2046 @@
+{
+  "block_id": "diag/giant-eagle@giant-eagle",
+  "retailer": "giant-eagle",
+  "zip": "diag",
+  "neighborhood": "giant-eagle",
+  "pulled_at": "2026-10-13T17:17:23.364Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "15237",
+  "store_set": null,
+  "url_final": "https://www.gianteagle.com/grocery/search?q=salsa",
+  "houses": [],
+  "raw_text_chars": 4477,
+  "steps": [
+    "17:17:23 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:17:24 connected to Bright Data Scraping Browser",
+    "17:17:26 goto https://www.gianteagle.com/grocery/search?q=salsa",
+    "17:17:34 captcha check passed",
+    "17:18:43 dismissed \"Close\"",
+    "17:18:45 dump after-load: 201 controls",
+    "17:18:45 store_set: null",
+    "17:18:45 few houses, reloading once",
+    "17:18:59 extracted 0 houses; raw text 4477 chars"
+  ],
+  "error": null,
+  "controls": [
+    {
+      "at": "after-load",
+      "text": "DIALOG: \nBODY: Skip to main content\nUse code SAVE20 for $20 off your first purchase of $75+*\nLearn More >\nSelect a Store\nmyPerks\nWeekly Ad\nGift Cards\nCatering & Cakes\nMeal Planning\nPharmacy\nSign In\nShop\nSave\nReorder\nSearch Products\nno results found\n0\nitems in cart\n231 results\nSort by\nSort by\nBest Match\nShowing 1-34 of 231 results\nDeals\nOur Brands\nCategory\nCategory options\nProduce\nPrepared Foods\nDairy\nPantry\nDeli\nShow 2 More\nBrand\nBrand options\nAmish Wedding\nArmour\nBarrio\nBrochachos Salsa\nChao\nShow 60 More\nDietary\nDietary options\nGluten Free\nKosher\nVegetarian\nVegan\nNon-GMO\nShow 12 More\nSelect store\nto see prices\nGiant Eagle Pico De Gallo\n10 oz (40¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Salsa, Original, Mild\n16 oz (31¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Salsa, Mexican Style, Medium\n16 oz (31¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Thick & Chunky Salsa, Mild, 15.5 Oz\n15.5 oz (19¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nTostitos Chunky Mild Salsa\n15.5 oz (30¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nTostitos Restaurant Style Medium Salsa\n15.5 oz (30¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nTostitos Chunky Salsa, Medium\n15.5 oz (30¢/oz)\n\nSNAP Eligible\n\nUltimate Homegate\nBring big flavor to your watch party.\nShop Now\nSelect store\nto see prices\nGiant Eagle Salsa, Sweet Onion, Mild\n16 oz (31¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Salsa, Peach Mango, Mild\n16 oz (31¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Medium Original Salsa\n16 oz (31¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Thick & Chunky Salsa, Medium\n15.5 oz (19¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Salsa, Mexican Style, Hot\n16 oz (31¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nNature's Basket Organic Salsa, Mild\n16 oz (21¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Salsa, Mexican Style, Medium\n48 oz (19¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nPace Chunky Mild Salsa, 16 oz Jar\n16 oz (22¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Thick And Chunky Salsa\n16 oz (31¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nNature's Basket Organic Salsa, Medium\n16 oz (21¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Salsa, Black Bean & Corn, Medium\n16 oz (31¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nPace Chunky Medium Salsa, 16 oz Jar\n16 oz (22¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nPace Chunky Mild Salsa, 24 oz Jar\n24 oz (18¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nPace Restaurant Style Original Recipe Medium Salsa, 16 oz Jar\n16 oz (22¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nMateo's Medium Gourmet Salsa\n16 oz (34¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nPace Restaurant Style Mild Salsa, 16 oz Jar\n16 oz (22¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nNewman's Own Chunky Medium Pineapple Salsa\n16 oz (27¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nGiant Eagle Thick & Chunky Salsa, Mild, 24 Ounce\n24 oz (16¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nOn the Border Salsa, Mild\n16 oz (25¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nMateo's Mild Gourmet Salsa\n16 oz (34¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nPace Mild Picante Sauce, 16 oz Jar\n16 oz (22¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nPace Medium Picante Sauce, 24 oz Jar\n24 oz (18¢/oz)\n\nSNAP Eligible\n\nSelect store\nto see prices\nPace Chunky Medium Salsa, 24 oz Jar\n24 oz (18¢/oz)\n\nSNAP",
+      "controls": [
+        {
+          "tag": "button",
+          "text": "Skip to main content",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 i38L1bYT _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Previous banner",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Learn More >",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root w7c4-jNb",
+          "href": "/pickup-and-delivery"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Next banner",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Pause auto-rotation",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Select a Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 nM3odz9l _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "myPerks",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root UCbX9vy-",
+          "href": "/myperks"
+        },
+        {
+          "tag": "button",
+          "text": "Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 nM3odz9l _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Flyer View",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/grocery/weekly-flyer"
+        },
+        {
+          "tag": "a",
+          "text": "List View",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/grocery/weekly-ad?filter_context=utility_link"
+        },
+        {
+          "tag": "button",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 nM3odz9l _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Digital Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "https://giftcard.gianteagle.com"
+        },
+        {
+          "tag": "a",
+          "text": "Physical Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/category/43?filter_context=utility_link"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Card Balance",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/balancecheck"
+        },
+        {
+          "tag": "button",
+          "text": "Catering & Cakes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 nM3odz9l _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Catering",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "https://catering.gianteagle.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Cake Ordering",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/in-store-services/cakes"
+        },
+        {
+          "tag": "a",
+          "text": "Entertaining",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/hub/entertaining"
+        },
+        {
+          "tag": "button",
+          "text": "Meal Planning",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 nM3odz9l _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Shopping Made Easy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/hub/shopping-made-easy"
+        },
+        {
+          "tag": "a",
+          "text": "Bundles",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/bundles"
+        },
+        {
+          "tag": "a",
+          "text": "Recipe Builder",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/recipe-builder"
+        },
+        {
+          "tag": "a",
+          "text": "Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "New & Trendy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/new-and-trendy"
+        },
+        {
+          "tag": "button",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 nM3odz9l _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy Home",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Immunizations & Vaccines",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/pharmacy#immunizations"
+        },
+        {
+          "tag": "a",
+          "text": "Manage Prescriptions",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "/pharmacy#prescriptions"
+        },
+        {
+          "tag": "a",
+          "text": "Transfer Prescriptions",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": "https://gianteagle.web.medrefill.com/geweb/#/transferRx"
+        },
+        {
+          "tag": "button",
+          "text": "Sign In",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 nM3odz9l _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Create an Account",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD jrUQX2DL",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Shop",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 nM3odz9l _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "All Categories",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD uIGfupPW",
+          "href": "/category"
+        },
+        {
+          "tag": "button",
+          "text": "Fall Hub",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Gameday Headquarters",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Shopping Made Easy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Produce",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Bakery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Meat",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Seafood",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Prepared Foods",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Dairy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pantry",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Frozen",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Snacks",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Candy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Beverages",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Beer, Wine, & Liquor",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Health & Nutrition",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Beauty & Accessories",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Personal Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Household Supplies",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Baby",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pet",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Home & Auto",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Floral",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 mvv4tJjQ _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Save",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 nM3odz9l _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "All Savings",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD uIGfupPW",
+          "href": "/savings"
+        },
+        {
+          "tag": "a",
+          "text": "My Offers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD uIGfupPW",
+          "href": "/offers"
+        },
+        {
+          "tag": "a",
+          "text": "Sales",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD uIGfupPW",
+          "href": "/grocery/search?savings=GEAC&filter_context=quick_navigation"
+        },
+        {
+          "tag": "a",
+          "text": "Coupons",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD uIGfupPW",
+          "href": "/coupons"
+        },
+        {
+          "tag": "a",
+          "text": "Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD uIGfupPW",
+          "href": "/grocery/weekly-flyer"
+        },
+        {
+          "tag": "a",
+          "text": "Everyday Savings",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD uIGfupPW",
+          "href": "/grocery/search?savings=EVERYDAY_SAVINGS&filter_context=quick_navigation"
+        },
+        {
+          "tag": "a",
+          "text": "On Sale This Season",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD uIGfupPW",
+          "href": "/grocery/search?savings=onSaleThisSeason&filter_context=quick_navigation"
+        },
+        {
+          "tag": "a",
+          "text": "Alcohol Rebates",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root eeoZrNDD uIGfupPW",
+          "href": "/grocery/alcohol-rebates"
+        },
+        {
+          "tag": "a",
+          "text": "Reorder",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root _8GeI-vxo",
+          "href": "/grocery/reorder?filter_context=quick_navigation"
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": null,
+          "ph": "Search Products",
+          "tid": null,
+          "id": "searchInput",
+          "cls": "GjqDzLgl IrPnLDPY nMU-9UUc",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Clear Search Query",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _2d1l6c74 u48tzpBB",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _2d1l6c74 D5jRZR6n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "0\nitems in cart",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sort by\nBest Match",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "headlessui-listbox-button-:r3:",
+          "cls": "acH-gHSi",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Deals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root WZxZHRib JsZi77W1 OYf8Q9E",
+          "href": "/grocery/search?savings=GEAC&savings=EVERYDAY_SAVINGS&q=salsa"
+        },
+        {
+          "tag": "a",
+          "text": "Our Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root WZxZHRib JsZi77W1 OYf8Q9E",
+          "href": "/grocery/search?pBrand=GIANT_EAGLE&pBrand=MARKET_DISTRICT&pBrand=NATURES_BASKET&"
+        },
+        {
+          "tag": "input",
+          "text": "bestMatch",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "option-0",
+          "cls": "_9zodttgj",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "priceLowToHigh",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "option-1",
+          "cls": "_9zodttgj",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "priceHighToLow",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "option-2",
+          "cls": "_9zodttgj",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Produce",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "17",
+          "cls": "_9zodttgj",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Prepared Foods",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "35",
+          "cls": "_9zodttgj",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Dairy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "18",
+          "cls": "_9zodttgj",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Pantry",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "24",
+          "cls": "_9zodttgj",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "37",
+          "cls": "_9zodttgj",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Show 2 More",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _2d1l6c74 a5QvrP-X",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "AMISH_WEDDING",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Amish Wedding",
+          "cls": "nhw7GDQS",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "ARMOUR",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Armour",
+          "cls": "nhw7GDQS",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "BARRIO",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Barrio",
+          "cls": "nhw7GDQS",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "BROCHACHOS_SALSA",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Brochachos Salsa",
+          "cls": "nhw7GDQS",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "CHAO",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Chao",
+          "cls": "nhw7GDQS",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Show 60 More",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _2d1l6c74 XK9SdceL",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "GLUTEN_FREE",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Gluten Free",
+          "cls": "nhw7GDQS",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "KOSHER",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Kosher",
+          "cls": "nhw7GDQS",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "VEGETARIAN",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Vegetarian",
+          "cls": "nhw7GDQS",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "VEGAN",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Vegan",
+          "cls": "nhw7GDQS",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "NON-GMO",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Non-GMO",
+          "cls": "nhw7GDQS",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Show 12 More",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _2d1l6c74 XK9SdceL",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Pico De Gallo\n10 oz (",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034938352"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Salsa, Original, Mild",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034013295"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Salsa, Mexican Style,",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034013325"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Thick & Chunky Salsa,",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034917630"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nTostitos Chunky Mild Salsa\n15.5 o",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00028400055970"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nTostitos Restaurant Style Medium ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00028400089364"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nTostitos Chunky Salsa, Medium\n15.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00028400055987"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Ultimate Homegate\nBring big flavor to your watch party.\nShop",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root s-aNjOsv FeaturedSearchCo",
+          "href": "/gameday/homegating"
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Salsa, Sweet Onion, M",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034013318"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Salsa, Peach Mango, M",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034062040"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Medium Original Salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034931711"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Thick & Chunky Salsa,",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034917647"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Salsa, Mexican Style,",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034062033"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nNature's Basket Organic Salsa, Mi",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034917227"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Salsa, Mexican Style,",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034066697"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nPace Chunky Mild Salsa, 16 oz Jar",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00041565140169"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Thick And Chunky Sals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034013349"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nNature's Basket Organic Salsa, Me",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034917234"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Salsa, Black Bean & C",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034068028"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nPace Chunky Medium Salsa, 16 oz J",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00041565141166"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nPace Chunky Mild Salsa, 24 oz Jar",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00041565140244"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nPace Restaurant Style Original Re",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00041565193882"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nMateo's Medium Gourmet Salsa\n16 o",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00858102004019"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nPace Restaurant Style Mild Salsa,",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00041565268948"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nNewman's Own Chunky Medium Pineap",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00020662000538"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nGiant Eagle Thick & Chunky Salsa,",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00030034917654"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nOn the Border Salsa, Mild\n16 oz (",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00781138703161"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nMateo's Mild Gourmet Salsa\n16 oz ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00858102004026"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nPace Mild Picante Sauce, 16 oz Ja",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00041565000173"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nPace Medium Picante Sauce, 24 oz ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00041565000241"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nPace Chunky Medium Salsa, 24 oz J",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00041565141241"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nHERDEZ Salsa Verde Mild\n16 oz (37",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00072878275705"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nOn the Border Salsa, Medium\n16 oz",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00781138700160"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nNewman's Own Bolder Flavor Medium",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00020662000965"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Select store\nto see prices\nMateo's Medium Cantina Style Gour",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root productTileOverride_produ",
+          "href": "/grocery/search/product/00858102004484"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Add To Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Load More Results",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 i38L1bYT _2d1l6c74 ",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Take Survey",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Find a Store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/stores"
+        },
+        {
+          "tag": "a",
+          "text": "myPerks",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/myperks"
+        },
+        {
+          "tag": "a",
+          "text": "My Account",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "https://myprofile.accounts.gianteagle.com/"
+        },
+        {
+          "tag": "a",
+          "text": "My Prescriptions",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "https://gianteagle.web.medrefill.com/geweb/#/home"
+        },
+        {
+          "tag": "a",
+          "text": "Pickup and Delivery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/pickup-and-delivery"
+        },
+        {
+          "tag": "a",
+          "text": "Our History",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/about-us/our-history"
+        },
+        {
+          "tag": "a",
+          "text": "Our Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/about-us/our-brands"
+        },
+        {
+          "tag": "a",
+          "text": "Our Leaders",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/company-info/leadership"
+        },
+        {
+          "tag": "a",
+          "text": "Press Room",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/about-us/press-room"
+        },
+        {
+          "tag": "a",
+          "text": "Corporate Social Responsibility",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/about-us/corporate-social-responsibility"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/contact-us"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/product-recall"
+        },
+        {
+          "tag": "a",
+          "text": "Policies",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/about-us/policies"
+        },
+        {
+          "tag": "a",
+          "text": "FAQs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/about-us/faqs"
+        },
+        {
+          "tag": "a",
+          "text": "myPerks FAQs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/about-us/faqs#myperks"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "https://jobs.gianteagle.com/us/en"
+        },
+        {
+          "tag": "a",
+          "text": "Team Member Login",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "http://my.gianteagle.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Supplier Inquiries",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "/work-with-us/supplier-inquiries"
+        },
+        {
+          "tag": "a",
+          "text": "MarketPartners",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "https://marketpartners.gianteagle.com/content//Article.aspx?cntid=218559"
+        },
+        {
+          "tag": "a",
+          "text": "Retail Media Network",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root",
+          "href": "https://www.leapmediagroup.com/"
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": "Enter Email Address",
+          "ph": "",
+          "tid": null,
+          "id": "input_17919118475695508497385072548",
+          "cls": "mqJo-mBG MLm0yU6Q",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign Up",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _49erSKL4 -mhXVq4W _2d1l6c74",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Facebook",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root -tUN8J4s",
+          "href": "https://www.facebook.com/gianteagleinc/"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Instagram",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root -tUN8J4s",
+          "href": "https://www.instagram.com/gianteagle"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Pinterest",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root -tUN8J4s",
+          "href": "https://www.pinterest.com/gianteagle/"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Youtube",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root -tUN8J4s",
+          "href": "https://www.youtube.com/channel/UCQNwXq2dPXK3AhjHDzRLv9A"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Tiktok",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root -tUN8J4s",
+          "href": "https://www.tiktok.com/@gianteagleinc"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Notice",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root _2m4SLAHD",
+          "href": "/privacy-notice"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Web Form",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root _2m4SLAHD",
+          "href": "https://gianteagle-privacy.my.onetrust.com/webform/5e2cf858-841f-4ec8-9db0-304f6"
+        },
+        {
+          "tag": "a",
+          "text": "Terms of Use",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root _2m4SLAHD",
+          "href": "/about-us/terms-of-use"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "NCRQrmsO SharedLink_root _2m4SLAHD",
+          "href": "/about-us/accessibility"
+        },
+        {
+          "tag": "button",
+          "text": "Your Privacy Choices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "eO2BJTSE Button_root _2m4SLAHD Ep73uxX-",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "nebula_div_btn",
+          "cls": "kampyle_vertical_button kampyle_left  noOutline ",
+          "href": null
+        }
+      ]
+    }
+  ],
+  "reloaded": true,
+  "houses_text": 0
+}
