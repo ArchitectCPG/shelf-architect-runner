@@ -3,22 +3,834 @@
   "retailer": "target",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T14:04:08.005Z",
+  "pulled_at": "2026-10-13T17:08:56.165Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
   "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "14:04:08 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "14:04:08 connected to Bright Data Scraping Browser",
-    "14:04:22 goto https://www.target.com/s?searchTerm=salsa",
-    "14:04:30 captcha check passed",
-    "14:04:52 dismissed \"Close\"",
-    "14:05:02 js ok ",
-    "14:05:25 ERROR TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#zip-code-city-or-state').first()\n    - locator resolved to <input value=\"\" type=\"text\" placeholder=\" \" autocomplete=\"on\" autocorrect=\"off\" id=\"zip-code-city-or-state\" name=\"zip-code-city-or-state\"/>\n"
+  "url_final": "https://www.target.com/s?searchTerm=salsa",
+  "houses": [
+    {
+      "name": "Tostitos Restaurant Style Salsa Dip - 15.5oz: Medium Spice Level",
+      "brand": "Highly rated",
+      "price": "$4.29",
+      "size": "15.5oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_f3016202-41fc-45b1-a06d-0bd42a6f5988",
+      "link": "https://www.target.com/p/tostitos-restaurant-style-salsa-15-5oz/-/A-13325984",
+      "card_text": [
+        "Highly rated",
+        "$4.29 ($0.28/ounce)",
+        "Tostitos Restaurant Style Salsa Dip - 15.5oz: Medium Spice Level",
+        "4.6",
+        "4.59 out of 5 stars",
+        "(881)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Siete Casera Mild Salsa Roja - 10.5oz",
+      "brand": "New lower price",
+      "price": "$4.79",
+      "size": "10.5oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_122f3b56-6d3c-4aff-9d39-22c5e2fc33df",
+      "link": "https://www.target.com/p/siete-casera-mild-salsa-roja-10-5oz/-/A-91294571",
+      "card_text": [
+        "$4.79 was $5.89 ($0.46/ounce)",
+        "New lower price",
+        "Siete Casera Mild Salsa Roja - 10.5oz",
+        "4.2",
+        "4.25 out of 5 stars",
+        "(54)",
+        "SNAP EBT eligible",
+        "Shipping get it tomorrow"
+      ]
+    },
+    {
+      "name": "Tostitos Chunky Salsa Mild Dip - 15.5oz",
+      "brand": "Highly rated",
+      "price": "$4.29",
+      "size": "15.5oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_41722f95-5bb7-4047-8845-381224c2d596",
+      "link": "https://www.target.com/p/tostitos-chunky-salsa-mild-15-5oz/-/A-13319573",
+      "card_text": [
+        "Highly rated",
+        "$4.29 ($0.28/ounce)",
+        "Tostitos Chunky Salsa Mild Dip - 15.5oz",
+        "4.7",
+        "4.72 out of 5 stars",
+        "(1,227)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Pace Mild Chunky Salsa - 24oz: Gluten-Free, No Added Sugar, Vegan",
+      "brand": null,
+      "price": "$4.79",
+      "size": "24oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_a70cc450-5231-4309-bb9b-3eb7548017c1",
+      "link": "https://www.target.com/p/pace-mild-chunky-salsa-24oz/-/A-14836484",
+      "card_text": [
+        "$4.79 ($0.20/ounce)",
+        "Pace Mild Chunky Salsa - 24oz: Gluten-Free, No Added Sugar, Vegan",
+        "4.7",
+        "4.68 out of 5 stars",
+        "(650)",
+        "SNAP EBT eligible",
+        "Only 6 left at Los Angeles USC Village",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Tostitos Medium Chunky Salsa Dip - 24oz",
+      "brand": "Highly rated",
+      "price": "$4.99",
+      "size": "24oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_3bdf4dc0-dfef-409a-94d2-65024cc5e7f8?qlt=65&fmt=webp&hei=350&wid=350",
+      "link": "https://www.target.com/p/tostitos-medium-chunky-salsa-24oz/-/A-13319586#lnk=sametab",
+      "card_text": [
+        "Highly rated",
+        "$4.99($0.21/ounce)",
+        "Buy 2 for $10 snacks & dips",
+        "Tostitos Medium Chunky Salsa Dip - 24oz",
+        "4.7 out of 5 stars with 584 ratings",
+        "584 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Tostitos Mild Chunky Salsa Dip - 24oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "24oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_7e64ddf3-8e0e-431b-a6ef-65a46a2d2411?qlt=65&fmt=webp&hei=350&wid=350",
+      "link": "https://www.target.com/p/tostitos-mild-chunky-salsa-24oz/-/A-13319404#lnk=sametab",
+      "card_text": [
+        "$4.99($0.21/ounce)",
+        "Buy 2 for $10 snacks & dips",
+        "Tostitos Mild Chunky Salsa Dip - 24oz",
+        "4.8 out of 5 stars with 332 ratings",
+        "332 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Good & Gather™ Mild Heat Restaurant Style Salsa - 16oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_dc0a42e0-f82d-4609-86a5-d40352e83050",
+      "link": "https://www.target.com/p/mild-restaurant-style-salsa-16oz-good-38-gather-8482/-/A-79500172",
+      "card_text": [
+        "$3.29 ($0.21/ounce)",
+        "Good & Gather™ Mild Heat Restaurant Style Salsa - 16oz",
+        "4.6",
+        "4.55 out of 5 stars",
+        "(873)",
+        "SNAP EBT eligible",
+        "Only 3 left at Los Angeles USC Village",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "BEZI Dippers Everything Creamy Yogurt Dip with Naturally Gluten Free Crackers - 4.1oz",
+      "brand": "When purchased online",
+      "price": "$3.99",
+      "size": "4.1oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_91a2c5df-2811-4715-8177-a576d931e05b",
+      "link": "https://www.target.com/p/bezi-dippers-everything-creamy-yogurt-dip-with-naturally-gluten-free-crackers-4-1oz/-/A-1009879424",
+      "card_text": [
+        "$3.99",
+        "When purchased online",
+        "New at",
+        "BEZI Dippers Everything Creamy Yogurt Dip with Naturally Gluten Free Crackers - 4.1oz",
+        "5.0",
+        "5 out of 5 stars",
+        "(7)",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Tostitos Medium Chunky Salsa Dip - 24oz",
+      "brand": "Highly rated",
+      "price": "$4.99",
+      "size": "24oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_3bdf4dc0-dfef-409a-94d2-65024cc5e7f8",
+      "link": "https://www.target.com/p/tostitos-medium-chunky-salsa-24oz/-/A-13319586",
+      "card_text": [
+        "Highly rated",
+        "$4.99 ($0.21/ounce)",
+        "Buy 2 for $10 snacks & dips",
+        "Tostitos Medium Chunky Salsa Dip - 24oz",
+        "4.7",
+        "4.73 out of 5 stars",
+        "(584)",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Tostitos Salsa Con Queso Medium Dip - 15oz",
+      "brand": "Bestseller",
+      "price": "$5.19",
+      "size": "15oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_8d88aa87-a03f-4a15-a5f6-076fa84a01ef",
+      "link": "https://www.target.com/p/tostitos-salsa-con-queso-medium-15oz/-/A-14930860",
+      "card_text": [
+        "Bestseller",
+        "$5.19 ($0.35/ounce)",
+        "Tostitos Salsa Con Queso Medium Dip - 15oz",
+        "4.7",
+        "4.67 out of 5 stars",
+        "(3,038)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Tostitos Chunky Salsa Medium - 15.5oz Dip",
+      "brand": "Bestseller",
+      "price": "$4.29",
+      "size": "15.5oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_bde1b1d5-3a46-437f-a982-1efd1002d098",
+      "link": "https://www.target.com/p/tostitos-chunky-salsa-medium-15-5oz/-/A-13319576",
+      "card_text": [
+        "Bestseller",
+        "$4.29 ($0.28/ounce)",
+        "Tostitos Chunky Salsa Medium - 15.5oz Dip",
+        "4.7",
+        "4.72 out of 5 stars",
+        "(1,246)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Good & Gather™ Medium Serrano Pepper Salsa - 16oz",
+      "brand": "Highly rated",
+      "price": "$5.59",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_7c03dd2b-44dc-4207-82bb-8e755df12643",
+      "link": "https://www.target.com/p/medium-serrano-pepper-salsa-16oz-good-38-gather-8482/-/A-54562066",
+      "card_text": [
+        "Highly rated",
+        "$5.59 ($0.35/ounce)",
+        "Good & Gather™ Medium Serrano Pepper Salsa - 16oz",
+        "4.6",
+        "4.6 out of 5 stars",
+        "(897)",
+        "SNAP EBT eligible",
+        "Only 4 left at LA Huntington Park"
+      ]
+    },
+    {
+      "name": "Good & Gather™ Medium Heat Restaurant Style Salsa - 16oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_0f3ae2d9-3362-411c-8b28-08da469b9b2e",
+      "link": "https://www.target.com/p/medium-restaurant-style-salsa-16oz-good-38-gather-8482/-/A-79500466",
+      "card_text": [
+        "$3.29 ($0.21/ounce)",
+        "Good & Gather™ Medium Heat Restaurant Style Salsa - 16oz",
+        "4.4",
+        "4.45 out of 5 stars",
+        "(383)",
+        "SNAP EBT eligible",
+        "Only 9 left at LA Huntington Park",
+        "Delivery as soon as 12pm PDT"
+      ]
+    },
+    {
+      "name": "Halloween candy",
+      "brand": null,
+      "price": "$1.39",
+      "size": "",
+      "img": null,
+      "link": "https://www.target.com/c/halloween-candy/-/N-nzhon",
+      "card_text": [
+        "Halloween candy",
+        "from",
+        "139",
+        "Halloween candy from $1.39"
+      ]
+    },
+    {
+      "name": "BEZI Labneh Hot Honey Creamy Yogurt Dip - 7oz",
+      "brand": "When purchased online",
+      "price": "$6.99",
+      "size": "7oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_827c8b11-ca8e-4ede-8e92-93c851189313",
+      "link": "https://www.target.com/p/bezi-labneh-hot-honey-creamy-yogurt-dip-7oz/-/A-95278444",
+      "card_text": [
+        "$6.99",
+        "When purchased online",
+        "New at",
+        "BEZI Labneh Hot Honey Creamy Yogurt Dip - 7oz",
+        "5.0",
+        "5 out of 5 stars",
+        "(6)",
+        "SNAP EBT eligible"
+      ]
+    },
+    {
+      "name": "Good & Gather™ Organic Mild Roasted Restaurant Style Salsa 16oz",
+      "brand": "Highly rated",
+      "price": "$3.29",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_be0ecbcb-79de-4cc9-84b5-a31ad1a06523",
+      "link": "https://www.target.com/p/organic-mild-roasted-restaurant-style-salsa-16oz-good-38-gather-8482/-/A-79500157",
+      "card_text": [
+        "Highly rated",
+        "$3.29 ($0.21/ounce)",
+        "Good & Gather™ Organic Mild Roasted Restaurant Style Salsa 16oz",
+        "4.5",
+        "4.47 out of 5 stars",
+        "(537)",
+        "SNAP EBT eligible",
+        "Only 9 left at Los Angeles USC Village"
+      ]
+    },
+    {
+      "name": "Pace Chunky Salsa Medium - 24oz: Gluten-Free, Vegan, No Added Sugar",
+      "brand": "Highly rated",
+      "price": "$4.79",
+      "size": "24oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_ebc33747-5bc2-49aa-8d78-1701958ad38f",
+      "link": "https://www.target.com/p/pace-chunky-salsa-medium-24oz/-/A-14836483",
+      "card_text": [
+        "Highly rated",
+        "$4.79 ($0.20/ounce)",
+        "Pace Chunky Salsa Medium - 24oz: Gluten-Free, Vegan, No Added Sugar",
+        "4.7",
+        "4.66 out of 5 stars",
+        "(850)",
+        "SNAP EBT eligible",
+        "Only 8 left at LA Huntington Park"
+      ]
+    },
+    {
+      "name": "Only 4 left at Los Angeles USC Village",
+      "brand": "Good & Gather™ Caramel Dip - 14oz",
+      "price": "$5.49",
+      "size": "14oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_0fb70a0b-1f7d-4bd1-9f1b-63de8bdc9926",
+      "link": "https://www.target.com/p/caramel-dip-14oz-good-38-gather-8482/-/A-87059982",
+      "card_text": [
+        "$5.49 ($0.39/ounce)",
+        "Good & Gather™ Caramel Dip - 14oz",
+        "4.1",
+        "4.06 out of 5 stars",
+        "(265)",
+        "SNAP EBT eligible",
+        "Only 4 left at Los Angeles USC Village",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Good Foods Avocado Mash - 2oz/4ct",
+      "brand": "Bestseller",
+      "price": "$4.99",
+      "size": "2oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_550d1c6d-ce4d-47f4-99c2-1fcb61cad60d?qlt=65&fmt=webp&hei=350&wid=350",
+      "link": "https://www.target.com/p/good-foods-avocado-mash-8oz-4ct/-/A-79333004?preselect=79333004#lnk=sametab",
+      "card_text": [
+        "Bestseller",
+        "$4.99($0.62/ounce)",
+        "Good Foods Avocado Mash - 2oz/4ct",
+        "Sponsored",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Hormel Original Pepperoni Slices - 6oz",
+      "brand": "Highly rated",
+      "price": "$5.29",
+      "size": "6oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_1183f40d-f040-449f-a444-9d756a7ea385?qlt=65&fmt=webp&hei=350&wid=350",
+      "link": "https://www.target.com/p/hormel-original-pepperoni-slices-6oz/-/A-13192122#lnk=sametab",
+      "card_text": [
+        "Highly rated",
+        "$5.29($0.88/ounce)",
+        "Hormel Original Pepperoni Slices - 6oz",
+        "Sponsored",
+        "4.7 out of 5 stars with 1853 ratings",
+        "1853 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Hillshire Snacking Small Plates Genoa Salami and White Cheddar Cheese - 2.76oz",
+      "brand": "Bestseller",
+      "price": "$3.29",
+      "size": "2.76oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_b880544b-2079-46b5-ba13-bc539086f3f5?qlt=65&fmt=webp&hei=350&wid=350",
+      "link": "https://www.target.com/p/hillshire-genoa-salami-small-plates-2-76oz/-/A-15842318#lnk=sametab",
+      "card_text": [
+        "Bestseller",
+        "$3.29($1.19/ounce)",
+        "Hillshire Snacking Small Plates Genoa Salami and White Cheddar Cheese - 2.76oz",
+        "Sponsored",
+        "4.5 out of 5 stars with 2330 ratings",
+        "2330 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Lunchables Extra Cheesy Pizza - 4.2oz",
+      "brand": "Highly rated",
+      "price": "$2.19",
+      "size": "4.2oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_23d4fede-e0a0-459c-8001-cd52c3b8a1c6?qlt=65&fmt=webp&hei=350&wid=350",
+      "link": "https://www.target.com/p/lunchables-extra-cheesy-pizza-4-2oz/-/A-12945704#lnk=sametab",
+      "card_text": [
+        "Highly rated",
+        "$2.19($0.52/ounce)",
+        "Lunchables Extra Cheesy Pizza - 4.2oz",
+        "Sponsored",
+        "4.6 out of 5 stars with 1770 ratings",
+        "1770 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Homestyle Guacamole - 10oz - Good & Gather™",
+      "brand": "Bestseller",
+      "price": "$4.69",
+      "size": "10oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_a25982ad-4b7a-499d-b3de-7eee82aaa529?qlt=65&fmt=webp&hei=350&wid=350",
+      "link": "https://www.target.com/p/homestyle-guacamole-10oz-good-38-gather-8482/-/A-95139146#lnk=sametab",
+      "card_text": [
+        "Bestseller",
+        "$4.69",
+        "Homestyle Guacamole - 10oz - Good & Gather™",
+        "4.5 out of 5 stars with 153 ratings",
+        "153 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Queso Blanco - 15oz - Good & Gather™",
+      "brand": null,
+      "price": "$3.49",
+      "size": "15oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_690b4bf5-f500-4060-b6a8-1d1948ae6655?qlt=65&fmt=webp&hei=350&wid=350",
+      "link": "https://www.target.com/p/queso-blanco-15oz-good-38-gather-8482/-/A-86056793#lnk=sametab",
+      "card_text": [
+        "$3.49($0.23/ounce)",
+        "Queso Blanco - 15oz - Good & Gather™",
+        "4.6 out of 5 stars with 723 ratings",
+        "723 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Grilled Fajita Chicken Breast Strips - 12oz - Good & Gather™",
+      "brand": "Highly rated",
+      "price": "$7.29",
+      "size": "12oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_7012a1d6-ce2e-46cf-8a39-63a964a5de4d?qlt=65&fmt=webp&hei=350&wid=350",
+      "link": "https://www.target.com/p/grilled-fajita-chicken-breast-strips-12oz-good-38-gather-8482/-/A-82021213?preselect=82021213#lnk=sametab",
+      "card_text": [
+        "Highly rated",
+        "$7.29($0.61/ounce)",
+        "Grilled Fajita Chicken Breast Strips - 12oz - Good & Gather™",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Good & Gather™ Mild Sweet Onion Salsa - 16oz",
+      "brand": "Highly rated",
+      "price": "$5.59",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_61349882-a62a-4f26-bdc9-934b6882bc29",
+      "link": "https://www.target.com/p/mild-sweet-onion-salsa-16oz-good-38-gather-8482/-/A-54562065",
+      "card_text": [
+        "Highly rated",
+        "$5.59 ($0.35/ounce)",
+        "Good & Gather™ Mild Sweet Onion Salsa - 16oz",
+        "4.6",
+        "4.56 out of 5 stars",
+        "(748)",
+        "SNAP EBT eligible",
+        "Only 6 left at LA Huntington Park"
+      ]
+    },
+    {
+      "name": "Tostitos Chunky Salsa Medium - 15.5oz Dip",
+      "brand": "Bestseller",
+      "price": "$4.29",
+      "size": "15.5oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_bde1b1d5-3a46-437f-a982-1efd1002d098",
+      "link": "https://www.target.com/p/tostitos-chunky-salsa-medium-15-5oz/-/A-13319576",
+      "card_text": [
+        "Bestseller",
+        "$4.29 ($0.28/ounce)",
+        "Tostitos Chunky Salsa Medium - 15.5oz Dip",
+        "4.7",
+        "4.72 out of 5 stars",
+        "(1,246)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Tostitos Salsa Con Queso Medium Dip - 15oz",
+      "brand": "Bestseller",
+      "price": "$5.19",
+      "size": "15oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_8d88aa87-a03f-4a15-a5f6-076fa84a01ef",
+      "link": "https://www.target.com/p/tostitos-salsa-con-queso-medium-15oz/-/A-14930860",
+      "card_text": [
+        "Bestseller",
+        "$5.19 ($0.35/ounce)",
+        "Tostitos Salsa Con Queso Medium Dip - 15oz",
+        "4.7",
+        "4.67 out of 5 stars",
+        "(3,038)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "TATEMADA Salsa Verde Casera Style - 16oz",
+      "brand": "New at",
+      "price": "$7.69",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_c532e875-c883-4714-8f27-b45469639d4a",
+      "link": "https://www.target.com/p/tatemada-salsa-verde-casera-style-16oz/-/A-1011305657",
+      "card_text": [
+        "$7.69",
+        "New at",
+        "TATEMADA Salsa Verde Casera Style - 16oz",
+        "SNAP EBT eligible",
+        "Shipping arrives Thu, Oct 15",
+        "Ships free - exclusions apply",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Tostitos Chunky Salsa Mild Dip - 15.5oz",
+      "brand": "Highly rated",
+      "price": "$4.29",
+      "size": "15.5oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_41722f95-5bb7-4047-8845-381224c2d596",
+      "link": "https://www.target.com/p/tostitos-chunky-salsa-mild-15-5oz/-/A-13319573",
+      "card_text": [
+        "Highly rated",
+        "$4.29 ($0.28/ounce)",
+        "Tostitos Chunky Salsa Mild Dip - 15.5oz",
+        "4.7",
+        "4.72 out of 5 stars",
+        "(1,227)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "TATEMADA Salsa Molcajete - 16oz",
+      "brand": "New at",
+      "price": "$7.69",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_59466fda-2402-46fc-bc0a-9986f80406dc",
+      "link": "https://www.target.com/p/tatemada-salsa-molcajete-16oz/-/A-1011305658",
+      "card_text": [
+        "$7.69",
+        "New at",
+        "TATEMADA Salsa Molcajete - 16oz",
+        "SNAP EBT eligible",
+        "Shipping arrives Thu, Oct 15",
+        "Ships free - exclusions apply",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "505 Southwestern Medium Roasted Green Chile - 4oz",
+      "brand": "New lower price",
+      "price": "$1.99",
+      "size": "4oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_6b06c1e6-eccd-4169-97c4-e5fafe97d5e5",
+      "link": "https://www.target.com/p/505-southwestern-medium-roasted-green-chile-4oz/-/A-1010623500",
+      "card_text": [
+        "$1.99 was $2.59",
+        "New lower price",
+        "New at",
+        "505 Southwestern Medium Roasted Green Chile - 4oz",
+        "SNAP EBT eligible",
+        "Shipping get it tomorrow",
+        "Ships free - exclusions apply",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "HERDEZ Salsa Verde 16oz: Mild Spice",
+      "brand": "Highly rated",
+      "price": "$3.59",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_aa626bda-9eb0-4655-a6f9-d93a76a921b8",
+      "link": "https://www.target.com/p/herdez-salsa-verde-16oz/-/A-47112517",
+      "card_text": [
+        "Highly rated",
+        "$3.59 ($0.22/ounce)",
+        "HERDEZ Salsa Verde 16oz: Mild Spice",
+        "4.4",
+        "4.44 out of 5 stars",
+        "(882)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Casa Sanchez Organic Medium Salsa - 15oz",
+      "brand": "New at",
+      "price": "$7.99",
+      "size": "15oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_6c0c91dd-7090-4ebd-aca8-77e6456cbcb3",
+      "link": "https://www.target.com/p/casa-sanchez-organic-medium-salsa-15oz/-/A-1011233513",
+      "card_text": [
+        "$7.99",
+        "New at",
+        "Casa Sanchez Organic Medium Salsa - 15oz",
+        "5.0",
+        "5 out of 5 stars",
+        "(2)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Pace Restaurant Style Original Recipe Salsa 16oz: Gluten-Free, No Added Sugar, Vegan",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_4a6885e9-78ca-4a41-af9d-9c597e73f9fb",
+      "link": "https://www.target.com/p/pace-restaurant-style-original-recipe-salsa-16oz/-/A-14847433",
+      "card_text": [
+        "$3.99 ($0.25/ounce)",
+        "Pace Restaurant Style Original Recipe Salsa 16oz: Gluten-Free, No Added Sugar, Vegan",
+        "4.4",
+        "4.42 out of 5 stars",
+        "(250)",
+        "SNAP EBT eligible",
+        "Shipping arrives Thu, Oct 15",
+        "Ships free - exclusions apply"
+      ]
+    },
+    {
+      "name": "Tostitos Restaurant Style Salsa Dip - 15.5oz: Medium Spice Level",
+      "brand": "Highly rated",
+      "price": "$4.29",
+      "size": "15.5oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_f3016202-41fc-45b1-a06d-0bd42a6f5988",
+      "link": "https://www.target.com/p/tostitos-restaurant-style-salsa-15-5oz/-/A-13325984",
+      "card_text": [
+        "Highly rated",
+        "$4.29 ($0.28/ounce)",
+        "Tostitos Restaurant Style Salsa Dip - 15.5oz: Medium Spice Level",
+        "4.6",
+        "4.59 out of 5 stars",
+        "(881)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Good & Gather Mild Mango Peach Salsa 16oz - Good & Gather: No Artificial Flavors, Colors or Preservatives",
+      "brand": null,
+      "price": "$3.29",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_b8947dd4-66d9-4a11-836a-4c2a52ca0656",
+      "link": "https://www.target.com/p/mild-mango-peach-salsa-16oz-good-38-gather-8482/-/A-79500734",
+      "card_text": [
+        "$3.29 ($0.21/ounce)",
+        "Good & Gather Mild Mango Peach Salsa 16oz - Good & Gather: No Artificial Flavors, Colors or Preservatives",
+        "4.7",
+        "4.66 out of 5 stars",
+        "(779)",
+        "SNAP EBT eligible",
+        "Only 9 left at LA Huntington Park",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Valentina Salsa Picante - 12.5 fl oz: Hot Spice Level",
+      "brand": null,
+      "price": "$1.79",
+      "size": "12.5 fl oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_2d95d6bf-9fa8-4313-b6c8-9732dfc83103",
+      "link": "https://www.target.com/p/valentina-salsa-picante-12-5fl-oz/-/A-47087593",
+      "card_text": [
+        "$1.79 ($0.14/fluid ounce)",
+        "Valentina Salsa Picante - 12.5 fl oz: Hot Spice Level",
+        "4.8",
+        "4.82 out of 5 stars",
+        "(521)",
+        "SNAP EBT eligible",
+        "Pickup ready within 2 hours",
+        "Delivery as soon as 12pm PDT"
+      ]
+    },
+    {
+      "name": "Only 5 left at Los Angeles USC Village",
+      "brand": "Casa Sanchez Roja Mild Salsa - 15oz",
+      "price": "$6.99",
+      "size": "15oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_a5d97b5d-4a49-4093-a1a8-79e1f84a522c",
+      "link": "https://www.target.com/p/casa-sanchez-roja-mild-salsa-15oz/-/A-14917410",
+      "card_text": [
+        "$6.99 ($0.47/ounce)",
+        "Casa Sanchez Roja Mild Salsa - 15oz",
+        "4.4",
+        "4.42 out of 5 stars",
+        "(92)",
+        "SNAP EBT eligible",
+        "Only 5 left at Los Angeles USC Village",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Good & Gather Organic Mild Thick & Chunky Salsa 16oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "16oz",
+      "img": "https://target.scene7.com/is/image/Target/GUEST_11c3e93f-fc5f-4d06-aa84-d370c4627605",
+      "link": "https://www.target.com/p/organic-mild-thick-38-chunky-salsa-16oz-good-38-gather-8482/-/A-79500100",
+      "card_text": [
+        "$3.29 ($0.21/ounce)",
+        "Good & Gather Organic Mild Thick & Chunky Salsa 16oz",
+        "4.6",
+        "4.63 out of 5 stars",
+        "(309)",
+        "SNAP EBT eligible",
+        "Only 4 left at LA Huntington Park",
+        "Pickup ready within 2 hours"
+      ]
+    },
+    {
+      "name": "Mild Heat Restaurant Style Salsa - 16oz - Good & Gather™",
+      "brand": null,
+      "price": "$3.29",
+      "size": "16oz",
+      "img": null,
+      "link": "https://www.target.com/p/mild-restaurant-style-salsa-16oz-good-38-gather-8482/-/A-79500172#lnk=sametab",
+      "card_text": [
+        "$3.29($0.21/ounce)",
+        "Mild Heat Restaurant Style Salsa - 16oz - Good & Gather™",
+        "4.6 out of 5 stars with 873 ratings",
+        "873 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Medium Serrano Pepper Salsa - 16oz - Good & Gather™",
+      "brand": "Highly rated",
+      "price": "$5.59",
+      "size": "16oz",
+      "img": null,
+      "link": "https://www.target.com/p/medium-serrano-pepper-salsa-16oz-good-38-gather-8482/-/A-54562066#lnk=sametab",
+      "card_text": [
+        "Highly rated",
+        "$5.59($0.35/ounce)",
+        "Medium Serrano Pepper Salsa - 16oz - Good & Gather™",
+        "4.6 out of 5 stars with 897 ratings",
+        "897 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Shredded Cheese - Good & Gather™",
+      "brand": "Highly rated",
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": "https://www.target.com/p/shredded-cheese-good-gather/-/A-95161102#lnk=sametab",
+      "card_text": [
+        "Highly rated",
+        "$1.99 - $7.59",
+        "Shredded Cheese - Good & Gather™",
+        "4.7 out of 5 stars with 32387 ratings",
+        "32387 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Organic Mild Roasted Restaurant Style Salsa 16oz - Good & Gather™",
+      "brand": "Highly rated",
+      "price": "$3.29",
+      "size": "16oz",
+      "img": null,
+      "link": "https://www.target.com/p/organic-mild-roasted-restaurant-style-salsa-16oz-good-38-gather-8482/-/A-79500157#lnk=sametab",
+      "card_text": [
+        "Highly rated",
+        "$3.29($0.21/ounce)",
+        "Organic Mild Roasted Restaurant Style Salsa 16oz - Good & Gather™",
+        "4.5 out of 5 stars with 537 ratings",
+        "537 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Pace Mild Chunky Salsa - 24oz: Gluten-Free, No Added Sugar, Vegan",
+      "brand": null,
+      "price": "$4.79",
+      "size": "24oz",
+      "img": null,
+      "link": "https://www.target.com/p/pace-mild-chunky-salsa-24oz/-/A-14836484#lnk=sametab",
+      "card_text": [
+        "$4.79($0.20/ounce)",
+        "Pace Mild Chunky Salsa - 24oz: Gluten-Free, No Added Sugar, Vegan",
+        "4.7 out of 5 stars with 650 ratings",
+        "650 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Mild Sweet Onion Salsa - 16oz - Good & Gather™",
+      "brand": "Highly rated",
+      "price": "$5.59",
+      "size": "16oz",
+      "img": null,
+      "link": "https://www.target.com/p/mild-sweet-onion-salsa-16oz-good-38-gather-8482/-/A-54562065#lnk=sametab",
+      "card_text": [
+        "Highly rated",
+        "$5.59($0.35/ounce)",
+        "Mild Sweet Onion Salsa - 16oz - Good & Gather™",
+        "4.6 out of 5 stars with 748 ratings",
+        "748 reviews",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Tostitos Chunky Salsa Mild Dip - 15.5oz",
+      "brand": "Highly rated",
+      "price": "$4.29",
+      "size": "15.5oz",
+      "img": null,
+      "link": "https://www.target.com/p/tostitos-chunky-salsa-mild-15-5oz/-/A-13319573#lnk=sametab",
+      "card_text": [
+        "Highly rated",
+        "$4.29($0.28/ounce)",
+        "Tostitos Chunky Salsa Mild Dip - 15.5oz",
+        "4.7 out of 5 stars with 1227 ratings",
+        "1227 reviews",
+        "Add to cart"
+      ]
+    }
   ],
-  "error": "TimeoutError: locator.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('#zip-code-city-or-state').first()\n    - locator resolved to <input value=\"\" type=\"text\" placeholder=\" \" autocomplete=\"on\" autocorrect=\"off\" id=\"zip-code-city-or-state\" name=\"zip-code-city-or-state\"/>\n"
+  "raw_text_chars": 11269,
+  "steps": [
+    "17:08:56 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:08:56 connected to Bright Data Scraping Browser",
+    "17:09:07 goto https://www.target.com/s?searchTerm=salsa",
+    "17:09:15 captcha check passed",
+    "17:09:27 dismiss: nothing to close",
+    "17:09:33 scrolled x4",
+    "17:09:34 store_js failed Error: page.evaluate: Execution context was destroyed, most ",
+    "17:09:34 store_set: null",
+    "17:09:35 few houses, reloading once",
+    "17:09:51 extracted 47 houses; raw text 11269 chars"
+  ],
+  "error": null,
+  "reloaded": true,
+  "houses_text": 6
 }
