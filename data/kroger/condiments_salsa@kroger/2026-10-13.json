@@ -3,24 +3,415 @@
   "retailer": "kroger",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T13:26:38.329Z",
+  "pulled_at": "2026-10-13T13:44:24.550Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "45202",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "13:26:38 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:26:39 connected to Bright Data Scraping Browser",
-    "13:26:48 goto https://www.kroger.com/search?query=salsa",
-    "13:26:57 captcha check passed",
-    "13:27:05 click_sel button[aria-label='close banner']",
-    "13:27:06 click_sel [data-testid=CurrentModality-button]",
-    "13:27:10 type_sel [data-testid=PostalCodeSearchBox-input] \"45202\"",
-    "13:27:10 js ok search",
-    "13:27:16 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "store_set": "Pickup at Newport (Locker Pickup)",
+  "url_final": "https://www.kroger.com/search?query=salsa",
+  "houses": [
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Guillermo's Salsa Mild",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Mild Traditional Salsa",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Restaurant Style Medium Salsa",
+      "brand": null,
+      "price": "$2.89",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$2.89",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Medium Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Medium Salsa",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$5.79",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$5.29",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Restaurant Style Salsa Dip",
+      "brand": null,
+      "price": "$4.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Restaurant Style Salsa Dip",
+      "brand": null,
+      "price": "$5.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Medium Restaurant Style Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Pico de Gallo Medium",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Pico de Gallo Medium",
+      "brand": null,
+      "price": "$5.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Queso Blanco Dip",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Queso Blanco Dip",
+      "brand": null,
+      "price": "$9.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace® Chunky Medium Salsa",
+      "brand": null,
+      "price": "$9.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana® Fresh Medium Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana® Fresh Medium Salsa",
+      "brand": null,
+      "price": "$6.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Pico de Gallo Hot",
+      "brand": null,
+      "price": "$4.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Made In Store Pico de Gallo Hot",
+      "brand": null,
+      "price": "$5.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Hot Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Hot Picante Sauce",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Cholula Original - Medium Salsa",
+      "brand": null,
+      "price": "$4.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "raw_text_chars": 5643,
+  "steps": [
+    "13:44:24 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:44:25 connected to Bright Data Scraping Browser",
+    "13:44:27 rate limited, retry 1",
+    "13:44:51 goto https://www.kroger.com/search?query=salsa",
+    "13:44:59 captcha check passed",
+    "13:45:07 click_sel button[aria-label='close banner']",
+    "13:45:08 click_sel [data-testid=CurrentModality-button]",
+    "13:45:12 type_sel [data-testid=PostalCodeSearchBox-input] \"45202\"",
+    "13:45:12 js ok search",
+    "13:45:19 js ok 01400473",
+    "13:45:27 click_re ^Keep Shopping Here$ false",
+    "13:45:42 goto https://www.kroger.com/search?query=salsa",
+    "13:45:50 captcha check passed",
+    "13:46:01 scrolled x4",
+    "13:46:01 store_set: Pickup at Newport (Locker Pickup)",
+    "13:46:01 text parser wins: 38 vs 17",
+    "13:46:01 extracted 38 houses; raw text 5643 chars"
+  ],
+  "error": null,
+  "houses_text": 38,
+  "houses_dom": 17
 }

@@ -3,21 +3,334 @@
   "retailer": "ralphs",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T13:28:45.930Z",
+  "pulled_at": "2026-10-13T13:44:42.533Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "90024",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "13:28:45 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:28:46 connected to Bright Data Scraping Browser",
-    "13:28:51 goto https://www.ralphs.com/search?query=salsa",
-    "13:28:59 captcha check passed",
-    "13:29:14 click_sel miss button[aria-label='close banner']",
-    "13:29:23 ERROR TimeoutError: page.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=CurrentModality-button]')\n    - locator resolved to <button data-citrus-component=\"Button\" data-testid=\"CurrentModality-button\" id=\"CurrentModality-button-A11Y-FOCUS-ID\" aria-label=\"Pickup at Citrus Plaza, open modal to change how you are shopping\" class=\"citrus-Button citrus-Button--compact hover:bg-neutral-more-subtle cursor-pointer px-2 rounded-small CurrentModality-button py-0 text-left default"
+  "store_set": "Pickup at Westwood",
+  "url_final": "https://www.ralphs.com/search?query=salsa",
+  "houses": [
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace® Chunky Medium Salsa",
+      "brand": null,
+      "price": "$10.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace® Chunky Medium Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Restaurant Style Medium Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Del Real™ Foods Fire Roasted Red Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Kroger® Mild Traditional Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Casa Sanchez Medium Salsa Roja",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Mild Chunky Salsa Dip",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Mild Chunky Salsa Dip",
+      "brand": null,
+      "price": "$5.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Mild Chunky Salsa Dip",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$6.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Del Real™ Foods Fire Roasted Green Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Restaurant Style Salsa Dip",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Restaurant Style Salsa Dip",
+      "brand": null,
+      "price": "$5.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Restaurant Style Salsa Dip",
+      "brand": null,
+      "price": "$3.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Wholly® Guacamole Classic Mild",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Cravings® Medium Restaurant Style Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Cravings® Medium Restaurant Style Salsa",
+      "brand": null,
+      "price": "$5.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Queso Blanco Dip",
+      "brand": null,
+      "price": "$5.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "NET WT 32 OZ (2LB) 907g | 2 more sizes | 1 more flavor",
+      "brand": null,
+      "price": "$7.99",
+      "size": "32 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "NET WT 32 OZ (2LB) 907g | 2 more sizes | 1 more flavor",
+      "brand": null,
+      "price": "$3.99",
+      "size": "32 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana® Fresh Hot Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Coupon: Earn 4X Points on Frozen Food and Dairy Purchases on 10/14 -10/20. Points will load within 24 hrs",
+      "brand": null,
+      "price": "$8.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": "TimeoutError: page.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=CurrentModality-button]')\n    - locator resolved to <button data-citrus-component=\"Button\" data-testid=\"CurrentModality-button\" id=\"CurrentModality-button-A11Y-FOCUS-ID\" aria-label=\"Pickup at Citrus Plaza, open modal to change how you are shopping\" class=\"citrus-Button citrus-Button--compact hover:bg-neutral-more-subtle cursor-pointer px-2 rounded-small CurrentModality-button py-0 text-left default"
+  "raw_text_chars": 5319,
+  "steps": [
+    "13:44:42 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:44:43 connected to Bright Data Scraping Browser",
+    "13:44:54 goto https://www.ralphs.com/search?query=salsa",
+    "13:45:03 captcha check passed",
+    "13:45:11 click_sel button[aria-label='close banner']",
+    "13:45:14 click_sel [data-testid=CurrentModality-button]",
+    "13:45:19 type_sel [data-testid=PostalCodeSearchBox-input] \"90024\"",
+    "13:45:20 js ok search",
+    "13:45:27 js ok 70300759",
+    "13:45:35 click_re ^Keep Shopping Here$ false",
+    "13:45:45 goto https://www.ralphs.com/search?query=salsa",
+    "13:45:53 captcha check passed",
+    "13:46:04 scrolled x4",
+    "13:46:04 store_set: Pickup at Westwood",
+    "13:46:04 text parser wins: 30 vs 20",
+    "13:46:05 extracted 30 houses; raw text 5319 chars"
+  ],
+  "error": null,
+  "houses_text": 30,
+  "houses_dom": 20
 }

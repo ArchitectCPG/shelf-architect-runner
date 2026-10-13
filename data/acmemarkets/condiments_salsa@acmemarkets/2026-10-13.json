@@ -3,7 +3,7 @@
   "retailer": "acmemarkets",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T13:24:04.380Z",
+  "pulled_at": "2026-10-13T13:41:37.987Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "19103",
@@ -12,14 +12,14 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "13:24:04 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:24:04 connected to Bright Data Scraping Browser",
-    "13:24:23 goto https://www.acmemarkets.com/shop/search-results.html?q=salsa",
-    "13:24:31 captcha check passed",
-    "13:24:39 dismissed \"Continue with all\"",
-    "13:24:40 press Escape",
-    "13:24:40 js ok 6800 New Falls Rd",
-    "13:24:51 ERROR TimeoutError: locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first()\n"
+    "13:41:37 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:41:38 connected to Bright Data Scraping Browser",
+    "13:41:48 goto https://www.acmemarkets.com/shop/search-results.html?q=salsa",
+    "13:41:56 captcha check passed",
+    "13:42:13 dismissed \"Continue with all\"",
+    "13:42:14 press Escape",
+    "13:42:17 js ok ",
+    "13:42:45 ERROR TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first() to be visible\n"
   ],
-  "error": "TimeoutError: locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first()\n"
+  "error": "TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first() to be visible\n"
 }

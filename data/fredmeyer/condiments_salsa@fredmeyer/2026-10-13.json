@@ -3,22 +3,344 @@
   "retailer": "fredmeyer",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T13:24:54.288Z",
+  "pulled_at": "2026-10-13T13:43:04.137Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "97202",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "13:24:54 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:24:54 connected to Bright Data Scraping Browser",
-    "13:25:16 goto https://www.fredmeyer.com/search?query=salsa",
-    "13:25:24 captcha check passed",
-    "13:25:39 click_sel miss button[aria-label='close banner']",
-    "13:25:41 click_sel [data-testid=CurrentModality-button]",
-    "13:25:52 ERROR TimeoutError: locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=PostalCodeSearchBox-input]').first()\n"
+  "store_set": "Pickup at Hawthorne",
+  "url_final": "https://www.fredmeyer.com/search?query=salsa",
+  "houses": [
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$3.39",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$3.39",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Restaurant Style Medium Salsa",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Restaurant Style Mild Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Cravings® Medium Restaurant Style Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Simple Truth Organic® Thick & Chunky Mild Salsa",
+      "brand": null,
+      "price": "$3.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "brand": null,
+      "price": "$3.39",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Reser's® Baja Cafe Restaurant Style Medium Salsa",
+      "brand": null,
+      "price": "$5.64",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Reser's® Baja Cafe Restaurant Style Medium Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Simple Truth Organic® Thick & Chunky Medium Salsa",
+      "brand": null,
+      "price": "$3.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Simple Truth Organic® Thick & Chunky Medium Salsa",
+      "brand": null,
+      "price": "$4.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Medium Restaurant Style Salsa",
+      "brand": null,
+      "price": "$3.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Juantonio's Gluten Free Tortilla Chips",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Cravings® Mild Restaurant Style Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace® Mild Picante Sauce, 64 oz Bottle",
+      "brand": null,
+      "price": "$8.99",
+      "size": "64 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace® Mild Picante Sauce, 64 oz Bottle",
+      "brand": null,
+      "price": "$5.99",
+      "size": "64 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce",
+      "brand": null,
+      "price": "$3.39",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Queso Blanco Dip",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos® Medium Queso Blanco Dip",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace® Medium Picante Sauce, 64 oz Bottle",
+      "brand": null,
+      "price": "$8.99",
+      "size": "64 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Hot Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Hot Picante Sauce",
+      "brand": null,
+      "price": "$3.39",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Reser's Baja Cafe Restaurant Style Medium Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Rojo's® by La Mexicana® Medium Cantina Salsa",
+      "brand": null,
+      "price": "$5.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana® Fresh Hot Salsa",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace® Chunky Medium Salsa",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": "TimeoutError: locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=PostalCodeSearchBox-input]').first()\n"
+  "raw_text_chars": 4578,
+  "steps": [
+    "13:43:04 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:43:04 connected to Bright Data Scraping Browser",
+    "13:43:07 goto https://www.fredmeyer.com/search?query=salsa",
+    "13:43:15 captcha check passed",
+    "13:43:22 click_sel button[aria-label='close banner']",
+    "13:43:23 click_sel [data-testid=CurrentModality-button]",
+    "13:43:27 type_sel [data-testid=PostalCodeSearchBox-input] \"97202\"",
+    "13:43:27 js ok search",
+    "13:43:34 js ok 70100135",
+    "13:43:42 click_re ^Keep Shopping Here$ false",
+    "13:43:48 goto https://www.fredmeyer.com/search?query=salsa",
+    "13:43:56 captcha check passed",
+    "13:44:07 scrolled x4",
+    "13:44:07 store_set: Pickup at Hawthorne",
+    "13:44:07 text parser wins: 31 vs 20",
+    "13:44:07 extracted 31 houses; raw text 4578 chars"
+  ],
+  "error": null,
+  "houses_text": 31,
+  "houses_dom": 20
 }

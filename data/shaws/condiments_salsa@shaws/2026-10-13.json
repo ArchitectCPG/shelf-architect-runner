@@ -3,7 +3,7 @@
   "retailer": "shaws",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T13:30:51.536Z",
+  "pulled_at": "2026-10-13T13:46:21.141Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "02116",
@@ -12,13 +12,14 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "13:30:51 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:30:52 connected to Bright Data Scraping Browser",
-    "13:31:05 goto https://www.shaws.com/shop/search-results.html?q=salsa",
-    "13:31:13 captcha check passed",
-    "13:31:27 dismissed \"Continue with all\"",
-    "13:31:28 press Escape",
-    "13:31:28 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'querySelectorAll')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:88)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:223)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+    "13:46:21 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:46:22 connected to Bright Data Scraping Browser",
+    "13:46:38 goto https://www.shaws.com/shop/search-results.html?q=salsa",
+    "13:46:46 captcha check passed",
+    "13:46:55 dismissed \"Continue with all\"",
+    "13:46:55 press Escape",
+    "13:46:55 js ok 127 Marion Rd",
+    "13:47:23 ERROR TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first() to be visible\n"
   ],
-  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'querySelectorAll')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:88)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:223)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "error": "TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first() to be visible\n"
 }
