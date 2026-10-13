@@ -23,7 +23,7 @@
    ]
   },
   {
-   "js": "const b=[...document.querySelectorAll('button')].find(b=>/^Change store$/.test(b.innerText.trim())&&b.offsetWidth)||[...document.querySelectorAll('button')].find(b=>/^Change store$/.test(b.innerText.trim())); b.click(); return 'ok'"
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;}; const vis=e=>e&&(e.offsetWidth||e.offsetHeight); const byText=(re,sel)=>[...document.querySelectorAll(sel||'button,a,[role=button],span,div')].filter(e=>vis(e)&&e.childElementCount<3&&re.test((e.innerText||'').trim())).pop();const b=await waitFor(()=>byText(/^Change store$/,'button'),40); if(!b) throw new Error('no Change store'); b.click(); return 'ok'"
   },
   {
    "wait": 3000
@@ -42,7 +42,7 @@
    "wait": 5000
   },
   {
-   "js": "const b=[...document.querySelectorAll('button')].find(b=>b.offsetWidth&&/^Set as my store$/.test(b.innerText.trim())); if(!b) throw new Error('no store list'); b.click(); return 'set'"
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;}; const vis=e=>e&&(e.offsetWidth||e.offsetHeight); const byText=(re,sel)=>[...document.querySelectorAll(sel||'button,a,[role=button],span,div')].filter(e=>vis(e)&&e.childElementCount<3&&re.test((e.innerText||'').trim())).pop();const b=await waitFor(()=>byText(/^Set as my store$/,'button'),25); if(!b) throw new Error('no store list: '+document.body.innerText.slice(0,200)); b.click(); return 'set'"
   },
   {
    "wait": 8000

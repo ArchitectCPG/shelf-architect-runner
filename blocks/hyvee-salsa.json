@@ -35,7 +35,7 @@
    "wait": 5000
   },
   {
-   "js": "const b=[...document.querySelectorAll('button,a,[role=button]')].find(b=>b.offsetWidth&&/^Select$/.test(b.innerText.trim())); if(!b) throw new Error('no Select'); b.click(); return 'selected'"
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;}; const vis=e=>e&&(e.offsetWidth||e.offsetHeight); const byText=(re,sel)=>[...document.querySelectorAll(sel||'button,a,[role=button],span,div')].filter(e=>vis(e)&&e.childElementCount<3&&re.test((e.innerText||'').trim())).pop();const b=await waitFor(()=>byText(/^Select$/),25); if(!b) throw new Error('no Select: '+document.body.innerText.slice(0,200)); b.click(); return 'selected'"
   },
   {
    "wait": 8000
