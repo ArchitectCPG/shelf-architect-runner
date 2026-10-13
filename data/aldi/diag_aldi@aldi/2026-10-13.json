@@ -3,44 +3,6356 @@
   "retailer": "aldi",
   "zip": "diag",
   "neighborhood": "aldi",
-  "pulled_at": "2026-10-13T17:19:15.489Z",
+  "pulled_at": "2026-10-13T17:24:08.193Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
-  "store_set": null,
-  "url_final": "https://www.aldi.us/results?q=salsa",
-  "houses": [],
-  "raw_text_chars": 84,
+  "store_set": "ALDI - FRE 40 - Frederick",
+  "url_final": "https://www.aldi.us/store/aldi/s?k=salsa",
+  "houses": [
+    {
+      "name": "Clancy's Restaurant Style Tortilla Chips",
+      "brand": null,
+      "price": "$2.19",
+      "size": "13 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6592681e-27a7-4efe-9ad9-92901cb09537.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/18648712-clancy-s-restaurant-style-tortilla-chips-13-oz",
+      "card_text": [
+        "Current price: $2.19",
+        "$219",
+        "Clancy's Restaurant Style Tortilla Chips",
+        "13 oz",
+        "• 3 flavors",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Cheez-It Original Baked Snack Crackers",
+      "brand": null,
+      "price": "$2.49",
+      "size": "7 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7288edc5-3407-459a-a957-24057d9de7db.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/35549-cheez-it-cheese-crackers-baked-snack-crackers-original-7-oz",
+      "card_text": [
+        "Current price: $2.49",
+        "$249",
+        "Cheez-It Original Baked Snack Crackers",
+        "7 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Simply Nature Seaweed Snacks",
+      "brand": null,
+      "price": "$2.19",
+      "size": "0.17 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_92561c5a-d822-417e-a02c-02b1dbbc73d4.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/20189085-simply-nature-roasted-seaweed-snacks-0-17-oz",
+      "card_text": [
+        "Current price: $2.19",
+        "$219",
+        "Simply Nature Seaweed Snacks",
+        "3 x 0.17 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Clancy's Original Pretzel Slims",
+      "brand": null,
+      "price": "$2.45",
+      "size": "8 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_280b02fd-9795-428a-8d0f-f28691124ac6.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/20094134-clancy-s-original-pretzel-slims-8-oz",
+      "card_text": [
+        "Current price: $2.45",
+        "$245",
+        "Clancy's Original Pretzel Slims",
+        "8 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Clancy's Pretzel Mini Twists",
+      "brand": null,
+      "price": "$2.15",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5c1a02ec-5ea1-47ec-9e7a-88175a6dd3d7.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/20251435-clancy-s-pretzel-minis-16-oz",
+      "card_text": [
+        "Current price: $2.15",
+        "$215",
+        "Clancy's Pretzel Mini Twists",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Baker's Treat Chocolate Chip Mini Muffins - 5 Packs",
+      "brand": null,
+      "price": "$3.19",
+      "size": "8.25 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_67f7f56c-76f5-4ef2-9cde-8f174323967e.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/20033771-baker-s-treat-chocolate-chip-mini-muffins-8-25-oz",
+      "card_text": [
+        "Current price: $3.19",
+        "$319",
+        "Baker's Treat Chocolate Chip Mini Muffins - 5 Packs",
+        "8.25 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Aldi Mandarin Oranges Fruit Cups - 4 Count",
+      "brand": "Trans fat-free",
+      "price": "$2.15",
+      "size": "4 Count",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cdef2ec8-ae91-454b-b5a0-27401064f0ba.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/18649501-lunch-buddies-mandarin-oranges-in-100-fruit-juice-from-concentrate-4-oz",
+      "card_text": [
+        "Trans fat-free",
+        "Current price: $2.15",
+        "$215",
+        "Aldi Mandarin Oranges Fruit Cups - 4 Count",
+        "4 x 4 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Clancy's White Cheddar Cheese Popcorn",
+      "brand": null,
+      "price": "$1.55",
+      "size": "6.75 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_84f105d9-4d6c-49cc-bd6d-7577e2799692.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/69945479-clancys-white-cheddar-cheese-popcorn-675-oz",
+      "card_text": [
+        "Gluten-freeWhole grain",
+        "Current price: $1.55",
+        "$155",
+        "Clancy's White Cheddar Cheese Popcorn",
+        "6.75 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Clancy's Original Kettle Chips",
+      "brand": null,
+      "price": "$1.89",
+      "size": "8 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_691a1220-a946-42a0-854f-bc392805cff1.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19535445-clancy-s-original-kettle-chips-8-oz",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $1.89",
+        "$189",
+        "Clancy's Original Kettle Chips",
+        "8 oz",
+        "• 4 flavors",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Clancy's Sea Salt Veggie Straws",
+      "brand": null,
+      "price": "$2.75",
+      "size": "7 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a49c3e76-0299-46c9-9dff-b452a6db6f78.jpeg",
+      "link": "https://www.aldi.us/store/aldi/products/18648684-clancy-s-original-veggie-straws-7-oz",
+      "card_text": [
+        "Current price: $2.75",
+        "$275",
+        "Original Price: $3.09",
+        "$3.09",
+        "11% off",
+        "Clancy's Sea Salt Veggie Straws",
+        "7 oz",
+        "• 3 flavors"
+      ]
+    },
+    {
+      "name": "Savoritz Golden Round Crackers",
+      "brand": null,
+      "price": "$2.45",
+      "size": "13.7 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0f53972c-1423-4faa-ab0f-d988e359179a.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/20761566-savoritz-buttery-round-crackers-13-7-oz",
+      "card_text": [
+        "Current price: $2.45",
+        "$245",
+        "Savoritz Golden Round Crackers",
+        "13.7 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Clancy's Hint of Lime Tortilla Chips",
+      "brand": null,
+      "price": "$2.19",
+      "size": "13 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_68dd3cef-1df0-4d5c-abc7-4ae959d6ce0b.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/20059760-clancy-s-hint-of-lime-tortilla-chips-13-oz",
+      "card_text": [
+        "Current price: $2.19",
+        "$219",
+        "Clancy's Hint of Lime Tortilla Chips",
+        "13 oz",
+        "• 3 flavors",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Simply Nature Organic Blue Corn Tortilla Chips",
+      "brand": null,
+      "price": "$2.59",
+      "size": "8.25 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_81aa9a08-4c8a-4f75-bdab-d325d5613767.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19502885-simply-nature-blue-corn-tortilla-chips-8-25-oz",
+      "card_text": [
+        "Gluten-freeOrganic",
+        "Current price: $2.59",
+        "$259",
+        "Simply Nature Organic Blue Corn Tortilla Chips",
+        "8.25 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Chomps Original Beef Chomplings Mini Sticks - 6 Count",
+      "brand": null,
+      "price": "$8.05",
+      "size": "6 Count",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1c8ae8eb-fd82-45e9-8eee-f7010d6315e1.png",
+      "link": "https://www.aldi.us/store/aldi/products/21846416-chomps-chomplings-original-beef-mild-0-5-oz",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $8.05",
+        "$805",
+        "Chomps Original Beef Chomplings Mini Sticks - 6 Count",
+        "6 x 0.5 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Baker's Treat Peanut Butter Wafers - 12 Bars",
+      "brand": null,
+      "price": "$2.65",
+      "size": "12 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8ecf034f-451e-4315-8606-c119d93f5354.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/51330619-peanut-butter-wafers",
+      "card_text": [
+        "Current price: $2.65",
+        "$265",
+        "Baker's Treat Peanut Butter Wafers - 12 Bars",
+        "12 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Simply Nature Organic Multigrain Tortilla Chips",
+      "brand": null,
+      "price": "$2.59",
+      "size": "8.25 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8bc7a652-7adf-4edb-a512-ae3aad9d1031.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19500835-simply-nature-multi-grain-tortilla-chips-8-25-oz",
+      "card_text": [
+        "Gluten-freeOrganic",
+        "Current price: $2.59",
+        "$259",
+        "Simply Nature Organic Multigrain Tortilla Chips",
+        "8.25 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Clancy's Wavy Potato Chips",
+      "brand": null,
+      "price": "$1.99",
+      "size": "10 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_85850e6f-bfe0-45c2-a77d-323b52c921b1.jpeg",
+      "link": "https://www.aldi.us/store/aldi/products/20112294-clancy-s-wavy-potato-chips-10-oz",
+      "card_text": [
+        "Current price: $1.99",
+        "$199",
+        "Clancy's Wavy Potato Chips",
+        "10 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Little Debbie Oatmeal Creme Pies",
+      "brand": "Whole grain",
+      "price": "$3.45",
+      "size": "12 ct",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d94b2752-0ccc-4499-bde5-49dedd60dcb9.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/16409829-little-debbie-oatmeal-creme-pies-12-ct",
+      "card_text": [
+        "Whole grain",
+        "Current price: $3.45",
+        "$345",
+        "Little Debbie Oatmeal Creme Pies",
+        "12 ct",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Clancy's Snack Combo Pack",
+      "brand": null,
+      "price": "$6.95",
+      "size": "18 ct",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_61352ee9-d46f-4856-b0d2-cc18f7b5b3be.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/21298132-clancy-s-snack-combo-18-ct",
+      "card_text": [
+        "Current price: $6.95",
+        "$695",
+        "Clancy's Snack Combo Pack",
+        "18 ct",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Clancy's Pretzel Sticks",
+      "brand": null,
+      "price": "$2.15",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_116c0d5b-23cd-46a1-b96e-6df8283af248.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/20251434-clancy-s-pretzel-sticks-16-oz",
+      "card_text": [
+        "Current price: $2.15",
+        "$215",
+        "Clancy's Pretzel Sticks",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Mamita Chunky Salsa, Mild",
+      "brand": "Store choice",
+      "price": "$2.85",
+      "size": "24 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_424798db-ce90-4ca7-b520-69820e820c73.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19796199-casa-mamita-ancient-grains-habanero-salse-24-oz",
+      "card_text": [
+        "Store choice",
+        "Current price: $2.85",
+        "$285",
+        "Casa Mamita Chunky Salsa, Mild",
+        "24 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Mamita Chunky Salsa, Medium",
+      "brand": null,
+      "price": "$2.55",
+      "size": "24 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b7ef65cf-32e6-46e2-8d6c-6fdb9774b114.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19763196-casa-mamita-medium-salsa-24-oz",
+      "card_text": [
+        "Current price: $2.55",
+        "$255",
+        "Casa Mamita Chunky Salsa, Medium",
+        "24 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Park Street Deli Fresh Cut Salsa, Mild",
+      "brand": null,
+      "price": "$2.75",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5a05e947-c8ec-47cb-9444-4ae5df08d135.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19500831-park-street-deli-fresh-cut-mild-salsa-16-oz",
+      "card_text": [
+        "Current price: $2.75",
+        "$275",
+        "Park Street Deli Fresh Cut Salsa, Mild",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Mamita Restaurant Style Salsa, Mild",
+      "brand": null,
+      "price": "$2.75",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_32e45d11-6ee5-4972-b0de-11431ba276a5.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/21298147-casa-mamita-restaurant-style-salsa-16-oz",
+      "card_text": [
+        "Best seller",
+        "Current price: $2.75",
+        "$275",
+        "Casa Mamita Restaurant Style Salsa, Mild",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Park Street Deli Fresh Cut Salsa, Medium",
+      "brand": null,
+      "price": "$2.75",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4219443e-0828-4fb9-9f10-6ed485afc5d9.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19500830-park-street-deli-medium-fresh-cut-salsa-16-oz",
+      "card_text": [
+        "Current price: $2.75",
+        "$275",
+        "Park Street Deli Fresh Cut Salsa, Medium",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Simply Nature Organic Salsa, Mild",
+      "brand": null,
+      "price": "$2.85",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1be514a9-0014-465f-82ed-3a3f3e4b036c.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19517201-simply-nature-organic-mild-salsa-16-oz",
+      "card_text": [
+        "Current price: $2.85",
+        "$285",
+        "Simply Nature Organic Salsa, Mild",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Park Street Deli Cantina Salsa, Mild",
+      "brand": null,
+      "price": "$2.49",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_10a29d2e-16d0-4552-9e91-3ccac2c8b8fb.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/60948104-cantina-salsa-mild",
+      "card_text": [
+        "Vegan",
+        "Current price: $2.49",
+        "$249",
+        "Park Street Deli Cantina Salsa, Mild",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Park Street Deli Cantina Salsa, Medium",
+      "brand": null,
+      "price": "$2.49",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b0682294-2d1a-4c2e-a0db-482e3f277b48.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/53358029-park-street-deli-cantina-salsa-16-oz",
+      "card_text": [
+        "Vegan",
+        "Current price: $2.49",
+        "$249",
+        "Park Street Deli Cantina Salsa, Medium",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Simply Nature Organic Salsa, Medium",
+      "brand": null,
+      "price": "$2.85",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c8be268b-7646-486f-9193-5b6a0b4a99bb.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19539991-simply-nature-medium-organic-salsa-16-oz",
+      "card_text": [
+        "Vegan",
+        "Current price: $2.85",
+        "$285",
+        "Simply Nature Organic Salsa, Medium",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Mamita Pineapple Salsa, Mild",
+      "brand": null,
+      "price": "$2.75",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_47f2624b-8fbb-4adf-bb0f-785c4ad0e107.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/21298142-casa-mamita-pineapple-salsa-16-oz",
+      "card_text": [
+        "Current price: $2.75",
+        "$275",
+        "Casa Mamita Pineapple Salsa, Mild",
+        "16 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Mamita Black Bean & Corn Salsa, Mild",
+      "brand": null,
+      "price": "$2.75",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4e5480b8-13d0-4697-859d-f14fed182962.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/21298111-casa-mamita-black-bean-corn-salsa-16-oz",
+      "card_text": [
+        "Current price: $2.75",
+        "$275",
+        "Casa Mamita Black Bean & Corn Salsa, Mild",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Specially Selected Verde Salsa",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7fe51ca0-411b-4b0e-8784-505ed55aa7ff.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/21298149-specially-selected-verde-salsa-16-oz",
+      "card_text": [
+        "Current price: $4.29",
+        "$429",
+        "Specially Selected Verde Salsa",
+        "16 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Park Street Deli Pico De Gallo Salsa, Mild",
+      "brand": null,
+      "price": "$3.65",
+      "size": "10 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e49e4a18-c63b-4e33-bd8b-4d8bfe2e1899.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/49522131-park-street-deli-mild-pico-de-gallo-10-oz",
+      "card_text": [
+        "Current price: $3.65",
+        "$365",
+        "Park Street Deli Pico De Gallo Salsa, Mild",
+        "10 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Specially Selected Avocado Tomatillo Salsa, Mild",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3891c473-7544-459c-beeb-49cd284811aa.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/21298144-specially-selected-avocado-tomatillo-salsa-16-oz",
+      "card_text": [
+        "Current price: $4.29",
+        "$429",
+        "Specially Selected Avocado Tomatillo Salsa, Mild",
+        "16 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Simply Nature Organic Salsa, Hot",
+      "brand": null,
+      "price": "$2.85",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e7b0bcf7-41fe-43ac-8ec0-6c957c6a2f39.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19539987-simply-nature-organic-hot-salsa-16-oz",
+      "card_text": [
+        "Current price: $2.85",
+        "$285",
+        "Simply Nature Organic Salsa, Hot",
+        "16 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Park Street Deli Pico De Gallo Salsa, Medium",
+      "brand": null,
+      "price": "$3.65",
+      "size": "10 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_74afe11a-db0d-485a-8544-e6f1d904bcf8.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/49625594-park-street-deli-pico-de-gallo-10-oz",
+      "card_text": [
+        "Current price: $3.65",
+        "$365",
+        "Park Street Deli Pico De Gallo Salsa, Medium",
+        "10 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Mamita Salsa Con Queso",
+      "brand": null,
+      "price": "$2.55",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8273608b-4d09-4850-8f35-4debfff1db84.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/21044060-casa-mamita-salsa-con-queso-15-oz",
+      "card_text": [
+        "Current price: $2.55",
+        "$255",
+        "Casa Mamita Salsa Con Queso",
+        "15 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Specially Selected Four Pepper Restaurant Style Salsa, Medium",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9dc94d7b-07e5-4bc1-8e63-370f87996fa7.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/20739253-bake-house-creations-sugar-cookie-dough-16-5-oz",
+      "card_text": [
+        "Current price: $4.29",
+        "$429",
+        "Specially Selected Four Pepper Restaurant Style Salsa, Medium",
+        "16 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Mamita Original Taco Seasoning Mix",
+      "brand": null,
+      "price": "$0.55",
+      "size": "1 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9e5127d3-c05b-4218-aa9c-844c3d17d539.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19433622-casa-mamita-taco-seasoning-mix-1-oz",
+      "card_text": [
+        "Current price: $0.55",
+        "$055",
+        "Casa Mamita Original Taco Seasoning Mix",
+        "1 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Aldi Classic Guacamole",
+      "brand": null,
+      "price": "$4.75",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_05b5d678-7f3e-475f-9df7-8a141a2f06da.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/25928617-deli-style-classic-guacamole-15-oz",
+      "card_text": [
+        "Current price: $4.75",
+        "$475",
+        "Aldi Classic Guacamole",
+        "15 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Pueblo Lindo Flour Tortillas - 10 Count",
+      "brand": "Trans fat-free",
+      "price": "$1.75",
+      "size": "10 Count",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f4e7a9fd-f9ea-4c84-ae7d-6c16fc8187e9.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19630529-pueblo-lindo-flour-tortillas-17-5-oz",
+      "card_text": [
+        "Trans fat-free",
+        "Current price: $1.75",
+        "$175",
+        "Pueblo Lindo Flour Tortillas - 10 Count",
+        "17.5 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Mamita Queso Blanco Dip",
+      "brand": null,
+      "price": "$2.55",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3cec17a3-4014-4524-9256-0bafc6afdfa9.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/64096930-queso-blanco-dip",
+      "card_text": [
+        "Current price: $2.55",
+        "$255",
+        "Casa Mamita Queso Blanco Dip",
+        "15 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Pueblo Lindo Small Fajita Flour Tortillas - 20 Count",
+      "brand": "Trans fat-free",
+      "price": "$2.05",
+      "size": "20 Count",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_30c4ed77-e3ed-490f-8438-8570d83854ab.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19589827-pueblo-lindo-fajita-flour-tortillas-20-ct",
+      "card_text": [
+        "Trans fat-free",
+        "Current price: $2.05",
+        "$205",
+        "Pueblo Lindo Small Fajita Flour Tortillas - 20 Count",
+        "23 oz",
+        "• 2 sizes",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Gordo’s Foodservice Gordo's White Queso",
+      "brand": "Trans fat-free",
+      "price": "$5.49",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1ae370e4-a65d-4339-829d-e9cd0e557a66.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/277057-gordo-s-cheese-dip-original-16-oz",
+      "card_text": [
+        "Trans fat-free",
+        "Current price: $5.49",
+        "$549",
+        "Gordo’s Foodservice Gordo's White Queso",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Pueblo Lindo Casera Amarillas Tostadas",
+      "brand": null,
+      "price": "$2.35",
+      "size": "12.8 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3aa59c35-ec84-4628-b087-7bf5980de75a.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19682518-pueblo-lindo-casera-tostadas-12-8-oz",
+      "card_text": [
+        "Gluten-freeLow cholesterol",
+        "Current price: $2.35",
+        "$235",
+        "Original Price: $2.55",
+        "$2.55",
+        "8% off",
+        "Pueblo Lindo Casera Amarillas Tostadas",
+        "12.8 oz"
+      ]
+    },
+    {
+      "name": "Clancy's Bite Size Round Tortilla Chips",
+      "brand": null,
+      "price": "$2.19",
+      "size": "13 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_35a077cf-0aef-417b-99fb-5a3bf0623c36.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/28033104-clancy-s-white-round-tortilla-chips-13-oz",
+      "card_text": [
+        "Current price: $2.19",
+        "$219",
+        "Clancy's Bite Size Round Tortilla Chips",
+        "13 oz",
+        "• 3 flavors",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Mamita Canned Diced Tomatoes with Green Chilies",
+      "brand": null,
+      "price": "$1.05",
+      "size": "10 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b881ae76-1466-498b-bc49-7b1653867687.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/18648903-casa-mamita-diced-tomatoes-with-green-chilies-10-oz",
+      "card_text": [
+        "Current price: $1.05",
+        "$105",
+        "Casa Mamita Canned Diced Tomatoes with Green Chilies",
+        "10 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Mamita 25% Less Sodium Taco Seasoning Mix",
+      "brand": null,
+      "price": "$0.55",
+      "size": "1 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_343bdfae-7b42-4be5-95be-25e20bfb67de.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19433620-casa-mamita-low-sodium-taco-seasoning-1-oz",
+      "card_text": [
+        "Current price: $0.55",
+        "$055",
+        "Casa Mamita 25% Less Sodium Taco Seasoning Mix",
+        "1 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Aldi Chunky Guacamole",
+      "brand": null,
+      "price": "$4.75",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_af0b49ae-1c0d-4750-846a-b5e65a1d34d8.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/25928427-deli-style-chunky-guacamole-15-oz",
+      "card_text": [
+        "Current price: $4.75",
+        "$475",
+        "Aldi Chunky Guacamole",
+        "15 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Pueblo Lindo Party Size Restaurant Tortilla Strips",
+      "brand": null,
+      "price": "$4.29",
+      "size": "24 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4365c478-221f-4a3b-af8d-bcd60b1d2f3e.jpg",
+      "link": "https://www.aldi.us/store/aldi/products/19750612-pueblo-lindo-tortilla-strips-24-oz",
+      "card_text": [
+        "Current price: $4.29",
+        "$429",
+        "Pueblo Lindo Party Size Restaurant Tortilla Strips",
+        "24 oz",
+        "Many in stock",
+        "Add"
+      ]
+    }
+  ],
+  "raw_text_chars": 7612,
   "steps": [
-    "17:19:15 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "17:19:16 connected to Bright Data Scraping Browser",
-    "17:19:20 goto https://new.aldi.us/results?q=salsa",
-    "17:19:28 captcha check passed",
-    "17:19:41 dismiss: nothing to close",
-    "17:19:43 dump after-load: 1 controls",
-    "17:19:44 store_set: null",
-    "17:19:44 few houses, reloading once",
-    "17:19:58 extracted 0 houses; raw text 84 chars"
+    "17:24:08 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:24:09 connected to Bright Data Scraping Browser",
+    "17:24:14 goto https://shop.aldi.us/store/aldi/s?k=salsa",
+    "17:24:23 captcha check passed",
+    "17:24:36 dismiss: nothing to close",
+    "17:24:37 dump load: 275 controls",
+    "17:24:37 click_re ^Change store$|Change location|^Pickup$ true",
+    "17:24:40 dump picker: 275 controls",
+    "17:24:40 store_set: ALDI - FRE 40 - Frederick",
+    "17:24:40 extracted 50 houses; raw text 7612 chars"
   ],
   "error": null,
   "controls": [
     {
-      "at": "after-load",
-      "text": "DIALOG: \nBODY: 404 Not Found\n\n\nUh-oh! We can't find the page you're looking for.\nReturn to homepage",
+      "at": "load",
+      "text": "DIALOG: \nBODY:  \nSkip Navigation\nWeekly Ads\nBuy It Again\nFind Stores\nDelivery · 2:13-2:23pm\n21702\nShopping at ALDI - FRE 40 - Frederick\nProducts\nWeekly Specials\nFeatured\nRecipes\n\nExplore popular searches with arrow keys or begin typing in the search field, and the app will offer suggestions. Use the arrow keys to navigate to a suggestion and then use the Enter key to select it. Once you press Enter, navigate to the search results that appear.\n\nGive Us Feedback\n\nView cart\n\n0\nView cart\nSign In / Register\nView Pricing Policy\nBuy It Again\nExplore All Products\nThis Week's ALDI Finds\nUpcoming ALDI Finds\nFresh Produce\nMeat & Seafood\nSnacks & Candy\nFrozen Foods\nDairy & Eggs\nBakery & Bread\nBeverages\nAlcohol\nPantry Essentials\nDeli\nHousehold Essentials\nBreakfast & Cereals\nPet Supplies\nPersonal Care\nBaby Items\nDepartments\nALDI Exclusive Brands\nPrice Drops\nShop By Diet\nRecipes\nALDI Brands\nTop Selling Snacks & Candy\nView More\nCurrent price: $2.19\n$219\nClancy's Restaurant Style Tortilla Chips\n13 oz\n • 3 flavors\nMany in stock\nAdd\nCurrent price: $2.49\n$249\nCheez-It Original Baked Snack Crackers\n7 oz\nMany in stock\nAdd\nCurrent price: $2.19\n$219\nSimply Nature Seaweed Snacks\n3 x 0.17 oz\nMany in stock\nAdd\nCurrent price: $2.45\n$245\nClancy's Original Pretzel Slims\n8 oz\nMany in stock\nAdd\nCurrent price: $2.15\n$215\nClancy's Pretzel Mini Twists\n16 oz\nMany in stock\nAdd\nCurrent price: $3.19\n$319\nBaker's Treat Chocolate Chip Mini Muffins - 5 Packs\n8.25 oz\nMany in stock\nAdd\nTrans fat-free\nCurrent price: $2.15\n$215\nAldi Mandarin Oranges Fruit Cups - 4 Count\n4 x 4 oz\nAdd\nGluten-freeWhole grain\nCurrent price: $1.55\n$155\nClancy's White Cheddar Cheese Popcorn\n6.75 oz\nMany in stock\nAdd\nGluten-free\nCurrent price: $1.89\n$189\nClancy's Original Kettle Chips\n8 oz\n • 4 flavors\nMany in stock\nAdd\nCurrent price: $2.75\n$275\nOriginal Price: $3.09\n\n$3.09\n\n11% off\nClancy's Sea Salt Veggie Straws\n7 oz\n • 3 flavors\nMany in stock\nAdd\nCurrent price: $2.45\n$245\nSavoritz Golden Round Crackers\n13.7 oz\nMany in stock\nAdd\nCurrent price: $2.19\n$219\nClancy's Hint of Lime Tortilla Chips\n13 oz\n • 3 flavors\nMany in stock\nAdd\nGluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature Organic Blue Corn Tortilla Chips\n8.25 oz\nMany in stock\nAdd\nGluten-free\nCurrent price: $8.05\n$805\nChomps Original Beef Chomplings Mini Sticks - 6 Count\n6 x 0.5 oz\nMany in stock\nAdd\nCurrent price: $2.65\n$265\nBaker's Treat Peanut Butter Wafers - 12 Bars\n12 oz\nMany in stock\nAdd\nGluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature Organic Multigrain Tortilla Chips\n8.25 oz\nMany in stock\nAdd\nCurrent price: $1.99\n$199\nClancy's Wavy Potato Chips\n10 oz\nMany in stock\nAdd\nWhole grain\nCurrent price: $3.45\n$345\nLittle Debbie Oatmeal Creme Pies\n12 ct\nMany in stock\nAdd\nCurrent price: $6.95\n$695\nClancy's Snack Combo Pack\n18 ct\nMany in stock\nAdd\nCurrent price: $2.15\n$215\nClancy's Pretzel Sticks\n16 oz\nMany in stock\nAdd\nUse next and previous buttons to navigate. Activating elements within this carousel will change the search results\nSort\nSNAP Eligible\nDietary\nBrands\nResults for \"salsa\"\n\nStore choice\nCurrent price: $2.85\n$285\nCasa Mamita Chunky Salsa, Mild\n24 oz\nMany in stock\nAdd\nCurrent price: $2.55\n$255\nCasa Mamita Chunky Salsa, Medium\n24 oz\nMany in stock\nAdd\nCurrent price: $2.75\n$275\nPark Street Deli Fresh Cut Salsa, Mild\n16 oz\nMany in stock\nAdd\nBest seller\nCurrent price: $2.75\n$275\nCasa Mamita Restaurant Style Salsa, Mild\n16 oz\nMany in stock\nAdd\nCurrent price: $2.75\n$275\nPark Street Deli Fresh Cut Salsa, Medium\n16 oz\nMany in stock\nAdd\nCurrent price",
       "controls": [
         {
           "tag": "a",
-          "text": "Return to homepage",
+          "text": "Skip Navigation",
+          "aria": "Skip Navigation",
+          "ph": null,
+          "tid": null,
+          "id": "skip_navigation_link",
+          "cls": null,
+          "href": "#store-wrapper"
+        },
+        {
+          "tag": "a",
+          "text": "Weekly Ads",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "cls": "ic-btn",
-          "href": "/"
+          "cls": "e-zn6tfr",
+          "href": "https://www.aldi.us/store/aldi/flyers/view/weekly/print"
+        },
+        {
+          "tag": "a",
+          "text": "Buy It Again",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-zn6tfr",
+          "href": "/store/aldi/buy_it_again"
+        },
+        {
+          "tag": "a",
+          "text": "Find Stores",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-zn6tfr",
+          "href": "https://info.aldi.us/stores"
+        },
+        {
+          "tag": "button",
+          "text": "Delivery · 2:13-2:23pm\n21702\nShopping at ALDI - FRE 40 - Fre",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-djw7pn",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Delivery · 2:13-2:23pm21702Shopping at ALDI - FRE 40 - Frede",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Edit",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pickup · available from 6:00pm todayALDI - FRE 51 - Frederic",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Change store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "In-Store · open 9am - 8pmALDI - FRE 40 - Frederick",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Change store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1aepgt4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "View All Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/explore-all-products"
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Produce",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/fresh-produce"
+        },
+        {
+          "tag": "a",
+          "text": "Meat & Seafood",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/meat-seafood"
+        },
+        {
+          "tag": "a",
+          "text": "Snacks & Candy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/snacks-candy"
+        },
+        {
+          "tag": "a",
+          "text": "Frozen Foods",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/frozen-foods"
+        },
+        {
+          "tag": "a",
+          "text": "Dairy & Eggs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/dairy-and-eggs"
+        },
+        {
+          "tag": "a",
+          "text": "Bakery & Bread",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/bakery-bread"
+        },
+        {
+          "tag": "a",
+          "text": "Beverages",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/beverages"
+        },
+        {
+          "tag": "a",
+          "text": "Alcohol",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/alcohol"
+        },
+        {
+          "tag": "a",
+          "text": "Pantry Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/pantry-essentials"
+        },
+        {
+          "tag": "a",
+          "text": "Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/deli"
+        },
+        {
+          "tag": "a",
+          "text": "Breakfast & Cereals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/breakfast-cereals"
+        },
+        {
+          "tag": "a",
+          "text": "Household Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/household-essentials"
+        },
+        {
+          "tag": "a",
+          "text": "Pet Supplies",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/pet-supplies"
+        },
+        {
+          "tag": "a",
+          "text": "Personal Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/personal-care"
+        },
+        {
+          "tag": "a",
+          "text": "Baby Items",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/baby-items"
+        },
+        {
+          "tag": "button",
+          "text": "Weekly Specials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1aepgt4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Weekly Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "https://www.aldi.us/store/aldi/flyers/view/weekly/print"
+        },
+        {
+          "tag": "a",
+          "text": "Price Drops",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/price-drops"
+        },
+        {
+          "tag": "a",
+          "text": "This Week's ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/this-weeks-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "Upcoming ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/upcoming-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "All ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/aldi-finds"
+        },
+        {
+          "tag": "button",
+          "text": "Featured",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1aepgt4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fall Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/fall-products"
+        },
+        {
+          "tag": "a",
+          "text": "Halloween",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/halloween"
+        },
+        {
+          "tag": "a",
+          "text": "Game Day Favorites",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/game-day"
+        },
+        {
+          "tag": "a",
+          "text": "Easy Meals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/easy-meals"
+        },
+        {
+          "tag": "a",
+          "text": "BBQ & Picnic",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/bbq-picnic"
+        },
+        {
+          "tag": "a",
+          "text": "Fall Seasonal Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/seasonal"
+        },
+        {
+          "tag": "a",
+          "text": "New & Trending",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/new-trending"
+        },
+        {
+          "tag": "a",
+          "text": "Fan Favorites",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/fan-favorites"
+        },
+        {
+          "tag": "a",
+          "text": "Protein Foods",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/protein-foods"
+        },
+        {
+          "tag": "a",
+          "text": "Foods with Fiber",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/foods-with-fiber"
+        },
+        {
+          "tag": "a",
+          "text": "Healthy Living",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/healthy-living"
+        },
+        {
+          "tag": "a",
+          "text": "Charcuterie",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/charcuterie"
+        },
+        {
+          "tag": "a",
+          "text": "Meatless Meals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/meatless"
+        },
+        {
+          "tag": "a",
+          "text": "Award-Winning Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/award-winning-products"
+        },
+        {
+          "tag": "a",
+          "text": "Shop By Diet",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/collections/n-shop-by-diet-95504"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/aldi-brands"
+        },
+        {
+          "tag": "button",
+          "text": "Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1aepgt4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Featured Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/featured-recipes"
+        },
+        {
+          "tag": "a",
+          "text": "All Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "Recipes A-to-Z",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/recipes-a-to-z"
+        },
+        {
+          "tag": "a",
+          "text": "My Saved Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/saved-recipes"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-8otzvz",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": "Search",
+          "ph": "Search products, recipes, and more",
+          "tid": null,
+          "id": "search-bar-input",
+          "cls": "e-751jof",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Clear search bar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-pp9ca7",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Give Us Feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-pe6nv",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View cart\n\n0",
+          "aria": "View Cart. Items in cart: 0, View cart",
+          "ph": null,
+          "tid": "floating-cart-button",
+          "id": "floating-cart-button",
+          "cls": "e-y6ntrx",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In / Register",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-okki8",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View Pricing Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-16fv9c4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Buy It Again",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/buy_it_again"
+        },
+        {
+          "tag": "a",
+          "text": "Explore All Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/explore-all-products"
+        },
+        {
+          "tag": "a",
+          "text": "This Week's ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/this-weeks-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "Upcoming ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/upcoming-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Produce",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/fresh-produce"
+        },
+        {
+          "tag": "a",
+          "text": "Meat & Seafood",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/meat-seafood"
+        },
+        {
+          "tag": "a",
+          "text": "Snacks & Candy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/snacks-candy"
+        },
+        {
+          "tag": "a",
+          "text": "Frozen Foods",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/frozen-foods"
+        },
+        {
+          "tag": "a",
+          "text": "Dairy & Eggs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/dairy-and-eggs"
+        },
+        {
+          "tag": "a",
+          "text": "Bakery & Bread",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/bakery-bread"
+        },
+        {
+          "tag": "a",
+          "text": "Beverages",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/beverages"
+        },
+        {
+          "tag": "a",
+          "text": "Alcohol",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/alcohol"
+        },
+        {
+          "tag": "a",
+          "text": "Pantry Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/pantry-essentials"
+        },
+        {
+          "tag": "a",
+          "text": "Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/deli"
+        },
+        {
+          "tag": "a",
+          "text": "Household Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/household-essentials"
+        },
+        {
+          "tag": "a",
+          "text": "Breakfast & Cereals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/breakfast-cereals"
+        },
+        {
+          "tag": "a",
+          "text": "Pet Supplies",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/pet-supplies"
+        },
+        {
+          "tag": "a",
+          "text": "Personal Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/personal-care"
+        },
+        {
+          "tag": "a",
+          "text": "Baby Items",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/baby-items"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI Exclusive Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-15ofc3w",
+          "href": "/store/aldi/collections/n-aldi-brands-11323"
+        },
+        {
+          "tag": "a",
+          "text": "Price Drops",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-15ofc3w",
+          "href": "/store/aldi/collections/rc-price-drops"
+        },
+        {
+          "tag": "a",
+          "text": "Shop By Diet",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-15ofc3w",
+          "href": "/store/aldi/collections/n-shop-by-diet-95504"
+        },
+        {
+          "tag": "a",
+          "text": "Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/aldi-brands"
+        },
+        {
+          "tag": "a",
+          "text": "Top Selling Snacks & Candy\nView More",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-ytumd6",
+          "href": "/store/aldi/collections/rc-top-selling-snacks-candy"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Previous page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1d8vdnl",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nClancy's Restaurant Style Tortilla",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/18648712-clancy-s-restaurant-style-tortilla-chips-13-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Restaurant Style Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.49\n$249\nCheez-It Original Baked Snack Crac",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/35549-cheez-it-cheese-crackers-baked-snack-crackers-origina"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Cheez-It Original Baked Snack Crackers",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nSimply Nature Seaweed Snacks\n3 x 0",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20189085-simply-nature-roasted-seaweed-snacks-0-17-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Seaweed Snacks",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.45\n$245\nClancy's Original Pretzel Slims\n8 ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20094134-clancy-s-original-pretzel-slims-8-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Original Pretzel Slims",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.15\n$215\nClancy's Pretzel Mini Twists\n16 oz",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20251435-clancy-s-pretzel-minis-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Pretzel Mini Twists",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.19\n$319\nBaker's Treat Chocolate Chip Mini ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20033771-baker-s-treat-chocolate-chip-mini-muffins-8-25-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Baker's Treat Chocolate Chip Mini Muffins - 5 Packs",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Trans fat-free\nCurrent price: $2.15\n$215\nAldi Mandarin Orang",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/18649501-lunch-buddies-mandarin-oranges-in-100-fruit-juice-"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Aldi Mandarin Oranges Fruit Cups - 4 Count",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeWhole grain\nCurrent price: $1.55\n$155\nClancy's Wh",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/69945479-clancys-white-cheddar-cheese-popcorn-675-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's White Cheddar Cheese Popcorn",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free\nCurrent price: $1.89\n$189\nClancy's Original Kett",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19535445-clancy-s-original-kettle-chips-8-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Original Kettle Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.75\n$275\nOriginal Price: $3.09\n\n$3.09\n\n11% ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/18648684-clancy-s-original-veggie-straws-7-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Sea Salt Veggie Straws",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.45\n$245\nSavoritz Golden Round Crackers\n13.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20761566-savoritz-buttery-round-crackers-13-7-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Savoritz Golden Round Crackers",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nClancy's Hint of Lime Tortilla Chi",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20059760-clancy-s-hint-of-lime-tortilla-chips-13-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Hint of Lime Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature O",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19502885-simply-nature-blue-corn-tortilla-chips-8-25-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Blue Corn Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free\nCurrent price: $8.05\n$805\nChomps Original Beef C",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21846416-chomps-chomplings-original-beef-mild-0-5-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Chomps Original Beef Chomplings Mini Sticks - 6 Count",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.65\n$265\nBaker's Treat Peanut Butter Wafers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/51330619-peanut-butter-wafers"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Baker's Treat Peanut Butter Wafers - 12 Bars",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature O",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19500835-simply-nature-multi-grain-tortilla-chips-8-25-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Multigrain Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $1.99\n$199\nClancy's Wavy Potato Chips\n10 oz\nM",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20112294-clancy-s-wavy-potato-chips-10-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Wavy Potato Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Whole grain\nCurrent price: $3.45\n$345\nLittle Debbie Oatmeal ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/16409829-little-debbie-oatmeal-creme-pies-12-ct"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Little Debbie Oatmeal Creme Pies",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $6.95\n$695\nClancy's Snack Combo Pack\n18 ct\nMa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298132-clancy-s-snack-combo-18-ct"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Snack Combo Pack",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.15\n$215\nClancy's Pretzel Sticks\n16 oz\nMany",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20251434-clancy-s-pretzel-sticks-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Pretzel Sticks",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Next page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1ixxyzl",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sort",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1sz7m7",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "all",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "25c5446f-c00e-47b3-9b24-1e13c7d3a966",
+          "cls": "e-d6oxmw",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "c00e2c94",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "c00e2c94",
+          "cls": "e-d6oxmw",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "939dd3be",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "939dd3be",
+          "cls": "e-d6oxmw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-l2t6op",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Show results",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-y5dskt",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "SNAP Eligible",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1sz7m7",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Dietary",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1sz7m7",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1993",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "ecc3ba67",
+          "cls": "e-29vif1",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-l2t6op",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Show results",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-y5dskt",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1sz7m7",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "332264",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "3f944e4f",
+          "cls": "e-29vif1",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "41767",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "42212607",
+          "cls": "e-29vif1",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "31234",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "04999e20",
+          "cls": "e-29vif1",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "49033",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "76c7f945",
+          "cls": "e-29vif1",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-l2t6op",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Show results",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-y5dskt",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Store choice\nCurrent price: $2.85\n$285\nCasa Mamita Chunky Sa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19796199-casa-mamita-ancient-grains-habanero-salse-24-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Chunky Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.55\n$255\nCasa Mamita Chunky Salsa, Medium\n2",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19763196-casa-mamita-medium-salsa-24-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Chunky Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.75\n$275\nPark Street Deli Fresh Cut Salsa, ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19500831-park-street-deli-fresh-cut-mild-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Fresh Cut Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Best seller\nCurrent price: $2.75\n$275\nCasa Mamita Restaurant",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298147-casa-mamita-restaurant-style-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Restaurant Style Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.75\n$275\nPark Street Deli Fresh Cut Salsa, ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19500830-park-street-deli-medium-fresh-cut-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Fresh Cut Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.85\n$285\nSimply Nature Organic Salsa, Mild\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19517201-simply-nature-organic-mild-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Vegan\nCurrent price: $2.49\n$249\nPark Street Deli Cantina Sal",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/60948104-cantina-salsa-mild"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Cantina Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Vegan\nCurrent price: $2.49\n$249\nPark Street Deli Cantina Sal",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/53358029-park-street-deli-cantina-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Cantina Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Vegan\nCurrent price: $2.85\n$285\nSimply Nature Organic Salsa,",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19539991-simply-nature-medium-organic-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.75\n$275\nCasa Mamita Pineapple Salsa, Mild\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298142-casa-mamita-pineapple-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Pineapple Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.75\n$275\nCasa Mamita Black Bean & Corn Sals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298111-casa-mamita-black-bean-corn-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Black Bean & Corn Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.29\n$429\nSpecially Selected Verde Salsa\n16 ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298149-specially-selected-verde-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Specially Selected Verde Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.65\n$365\nPark Street Deli Pico De Gallo Sal",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/49522131-park-street-deli-mild-pico-de-gallo-10-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Pico De Gallo Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.29\n$429\nSpecially Selected Avocado Tomatil",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298144-specially-selected-avocado-tomatillo-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Specially Selected Avocado Tomatillo Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.85\n$285\nSimply Nature Organic Salsa, Hot\n1",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19539987-simply-nature-organic-hot-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Salsa, Hot",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.65\n$365\nPark Street Deli Pico De Gallo Sal",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/49625594-park-street-deli-pico-de-gallo-10-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Pico De Gallo Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.55\n$255\nCasa Mamita Salsa Con Queso\n15 oz\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21044060-casa-mamita-salsa-con-queso-15-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Salsa Con Queso",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.29\n$429\nSpecially Selected Four Pepper Res",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20739253-bake-house-creations-sugar-cookie-dough-16-5-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Specially Selected Four Pepper Restaurant Style Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $0.55\n$055\nCasa Mamita Original Taco Seasonin",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19433622-casa-mamita-taco-seasoning-mix-1-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Original Taco Seasoning Mix",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.75\n$475\nAldi Classic Guacamole\n15 oz\nMany ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/25928617-deli-style-classic-guacamole-15-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Aldi Classic Guacamole",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Trans fat-free\nCurrent price: $1.75\n$175\nPueblo Lindo Flour ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19630529-pueblo-lindo-flour-tortillas-17-5-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pueblo Lindo Flour Tortillas - 10 Count",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature O",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19502885-simply-nature-blue-corn-tortilla-chips-8-25-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Blue Corn Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.55\n$255\nCasa Mamita Queso Blanco Dip\n15 oz",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/64096930-queso-blanco-dip"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Queso Blanco Dip",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nClancy's Hint of Lime Tortilla Chi",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20059760-clancy-s-hint-of-lime-tortilla-chips-13-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Hint of Lime Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Trans fat-free\nCurrent price: $2.05\n$205\nPueblo Lindo Small ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19589827-pueblo-lindo-fajita-flour-tortillas-20-ct"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pueblo Lindo Small Fajita Flour Tortillas - 20 Count",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nClancy's Restaurant Style Tortilla",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/18648712-clancy-s-restaurant-style-tortilla-chips-13-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Restaurant Style Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Trans fat-free\nCurrent price: $5.49\n$549\nGordo’s Foodservice",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/277057-gordo-s-cheese-dip-original-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Gordo’s Foodservice Gordo's White Queso",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeLow cholesterol\nCurrent price: $2.35\n$235\nOrigina",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19682518-pueblo-lindo-casera-tostadas-12-8-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pueblo Lindo Casera Amarillas Tostadas",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nClancy's Bite Size Round Tortilla ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/28033104-clancy-s-white-round-tortilla-chips-13-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Bite Size Round Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $1.05\n$105\nCasa Mamita Canned Diced Tomatoes ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/18648903-casa-mamita-diced-tomatoes-with-green-chilies-10-o"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Canned Diced Tomatoes with Green Chilies",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature O",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19500835-simply-nature-multi-grain-tortilla-chips-8-25-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Multigrain Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $0.55\n$055\nCasa Mamita 25% Less Sodium Taco S",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19433620-casa-mamita-low-sodium-taco-seasoning-1-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita 25% Less Sodium Taco Seasoning Mix",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.75\n$475\nAldi Chunky Guacamole\n15 oz\nMany i",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/25928427-deli-style-chunky-guacamole-15-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Aldi Chunky Guacamole",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.29\n$429\nPueblo Lindo Party Size Restaurant",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19750612-pueblo-lindo-tortilla-strips-24-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pueblo Lindo Party Size Restaurant Tortilla Strips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Load more",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1o3e8yi",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "About ALDI",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/about-aldi"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/aldi-brands"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://careers.aldi.us/"
+        },
+        {
+          "tag": "a",
+          "text": "Email Sign Up",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://account.aldi.us/s/email-sign-up?experience=new"
+        },
+        {
+          "tag": "a",
+          "text": "Grand Openings",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/grand-openings"
+        },
+        {
+          "tag": "a",
+          "text": "Refunds and Returns",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://help.aldi.us/faqs/article/Refunds-and-Returns"
+        },
+        {
+          "tag": "a",
+          "text": "Suppliers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://corporate.aldi.us/suppliers"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI Corporate",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://corporate.aldi.us/"
+        },
+        {
+          "tag": "a",
+          "text": "Help Center",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://help.aldi.us/"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/gift-cards"
+        },
+        {
+          "tag": "a",
+          "text": "Warranties & Manuals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://help.aldi.us/warranties-manuals"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://corporate.aldi.us/newsroom/product-recalls/"
+        },
+        {
+          "tag": "a",
+          "text": "Give Us Feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/feedback-survey"
+        },
+        {
+          "tag": "a",
+          "text": "View Weekly Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/flyers/view/weekly/print"
+        },
+        {
+          "tag": "a",
+          "text": "Upcoming ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/upcoming-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "This Week's ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/this-weeks-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "All ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "Price Drops",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/price-drops"
+        },
+        {
+          "tag": "button",
+          "text": "Cookie Preferences",
+          "aria": "Cookie Preferences, opens a dedicated popup modal window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://www.aldi.us/store/aldi/pages/online-privacy-notice"
+        },
+        {
+          "tag": "a",
+          "text": "Terms of Use",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://www.aldi.us/store/aldi/pages/terms-of-use"
+        },
+        {
+          "tag": "a",
+          "text": "Your Privacy Choices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://aldi-privacy.my.onetrust.com/webform/88287088-72d8-4e0d-8c0f-28404e719f4"
+        },
+        {
+          "tag": "a",
+          "text": "Security Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://security.aldi-sued.com/"
+        },
+        {
+          "tag": "a",
+          "text": "CA Cookware Disclosure",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://corporate.aldi.us/corporate-sustainability/supply-chain/california-produ"
+        },
+        {
+          "tag": "a",
+          "text": "CA Supply Chains Act",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://corporate.aldi.us/corporate-sustainability/supply-chain/california-trans"
+        },
+        {
+          "tag": "a",
+          "text": "CA Cleaning Disclosure",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://corporate.aldi.us/corporate-sustainability/supply-chain/california-clean"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI International",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://www.aldi.com/"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-utgu8h",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Delivery · 2:13-2:23pm\n21702\nShopping at ALDI - FRE 40 - Fre",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Edit",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pickup · available from 6:00pm today\nALDI - FRE 51 - Frederi",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Change store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "In-Store · open 9am - 8pm\nALDI - FRE 40 - Frederick",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Change store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Login now",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vt4bpx",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Confirm",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-182rjqr",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-utgu8h",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": null,
+          "href": "https://info.aldi.us/online-privacy-notice"
+        },
+        {
+          "tag": "button",
+          "text": "Cookie Preferences",
+          "aria": "Cookie Preferences, Opens the preference center dialog",
+          "ph": null,
+          "tid": null,
+          "id": "onetrust-pc-btn-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Reject All Non-Essential",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "onetrust-reject-all-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Accept All",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "onetrust-accept-btn-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Learn more about how we collect and process your data in our",
+          "aria": "Learn more about how we collect and process your data in our Privacy Policy., opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "privacy-notice-link",
+          "href": "https://info.aldi.us/online-privacy-notice"
+        },
+        {
+          "tag": "button",
+          "text": "Accept All",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "accept-recommended-btn-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "ot-group-id-C2",
+          "cls": "category-switch-handler",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "ot-group-id-C4",
+          "cls": "category-switch-handler",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Back Button",
+          "aria": "Back",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "ot-link-btn back-btn-handler",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": "Cookie list search",
+          "ph": "Search…",
+          "tid": null,
+          "id": "vendor-search-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Filter Icon",
+          "aria": "Filter Cookie List",
+          "ph": null,
+          "tid": null,
+          "id": "filter-btn-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Clear",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "clear-filters-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "chkbox-id",
+          "cls": "category-filter-handler",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Apply",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "filter-apply-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Cancel",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "filter-cancel-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "select-all-hosts-groups-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "select-all-vendor-groups-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "select-all-vendor-leg-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Reject All Non-Essential",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "ot-pc-refuse-all-handler",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Confirm Choices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "save-preference-btn-handler onetrust-close-btn-han",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Powered by OneTrust Opens in a new Tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": null,
+          "href": "https://www.onetrust.com/products/cookie-consent/"
+        }
+      ]
+    },
+    {
+      "at": "picker",
+      "text": "DIALOG: \nBODY:  \nSkip Navigation\nWeekly Ads\nBuy It Again\nFind Stores\nDelivery · 2:13-2:23pm\n21702\nShopping at ALDI - FRE 40 - Frederick\nProducts\nWeekly Specials\nFeatured\nRecipes\n\nExplore popular searches with arrow keys or begin typing in the search field, and the app will offer suggestions. Use the arrow keys to navigate to a suggestion and then use the Enter key to select it. Once you press Enter, navigate to the search results that appear.\n\nGive Us Feedback\n\nView cart\n\n0\nView cart\nSign In / Register\nView Pricing Policy\nBuy It Again\nExplore All Products\nThis Week's ALDI Finds\nUpcoming ALDI Finds\nFresh Produce\nMeat & Seafood\nSnacks & Candy\nFrozen Foods\nDairy & Eggs\nBakery & Bread\nBeverages\nAlcohol\nPantry Essentials\nDeli\nHousehold Essentials\nBreakfast & Cereals\nPet Supplies\nPersonal Care\nBaby Items\nDepartments\nALDI Exclusive Brands\nPrice Drops\nShop By Diet\nRecipes\nALDI Brands\nTop Selling Snacks & Candy\nView More\nCurrent price: $2.19\n$219\nClancy's Restaurant Style Tortilla Chips\n13 oz\n • 3 flavors\nMany in stock\nAdd\nCurrent price: $2.49\n$249\nCheez-It Original Baked Snack Crackers\n7 oz\nMany in stock\nAdd\nCurrent price: $2.19\n$219\nSimply Nature Seaweed Snacks\n3 x 0.17 oz\nMany in stock\nAdd\nCurrent price: $2.45\n$245\nClancy's Original Pretzel Slims\n8 oz\nMany in stock\nAdd\nCurrent price: $2.15\n$215\nClancy's Pretzel Mini Twists\n16 oz\nMany in stock\nAdd\nCurrent price: $3.19\n$319\nBaker's Treat Chocolate Chip Mini Muffins - 5 Packs\n8.25 oz\nMany in stock\nAdd\nTrans fat-free\nCurrent price: $2.15\n$215\nAldi Mandarin Oranges Fruit Cups - 4 Count\n4 x 4 oz\nAdd\nGluten-freeWhole grain\nCurrent price: $1.55\n$155\nClancy's White Cheddar Cheese Popcorn\n6.75 oz\nMany in stock\nAdd\nGluten-free\nCurrent price: $1.89\n$189\nClancy's Original Kettle Chips\n8 oz\n • 4 flavors\nMany in stock\nAdd\nCurrent price: $2.75\n$275\nOriginal Price: $3.09\n\n$3.09\n\n11% off\nClancy's Sea Salt Veggie Straws\n7 oz\n • 3 flavors\nMany in stock\nAdd\nCurrent price: $2.45\n$245\nSavoritz Golden Round Crackers\n13.7 oz\nMany in stock\nAdd\nCurrent price: $2.19\n$219\nClancy's Hint of Lime Tortilla Chips\n13 oz\n • 3 flavors\nMany in stock\nAdd\nGluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature Organic Blue Corn Tortilla Chips\n8.25 oz\nMany in stock\nAdd\nGluten-free\nCurrent price: $8.05\n$805\nChomps Original Beef Chomplings Mini Sticks - 6 Count\n6 x 0.5 oz\nMany in stock\nAdd\nCurrent price: $2.65\n$265\nBaker's Treat Peanut Butter Wafers - 12 Bars\n12 oz\nMany in stock\nAdd\nGluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature Organic Multigrain Tortilla Chips\n8.25 oz\nMany in stock\nAdd\nCurrent price: $1.99\n$199\nClancy's Wavy Potato Chips\n10 oz\nMany in stock\nAdd\nWhole grain\nCurrent price: $3.45\n$345\nLittle Debbie Oatmeal Creme Pies\n12 ct\nMany in stock\nAdd\nCurrent price: $6.95\n$695\nClancy's Snack Combo Pack\n18 ct\nMany in stock\nAdd\nCurrent price: $2.15\n$215\nClancy's Pretzel Sticks\n16 oz\nMany in stock\nAdd\nUse next and previous buttons to navigate. Activating elements within this carousel will change the search results\nSort\nSNAP Eligible\nDietary\nBrands\nResults for \"salsa\"\n\nStore choice\nCurrent price: $2.85\n$285\nCasa Mamita Chunky Salsa, Mild\n24 oz\nMany in stock\nAdd\nCurrent price: $2.55\n$255\nCasa Mamita Chunky Salsa, Medium\n24 oz\nMany in stock\nAdd\nCurrent price: $2.75\n$275\nPark Street Deli Fresh Cut Salsa, Mild\n16 oz\nMany in stock\nAdd\nBest seller\nCurrent price: $2.75\n$275\nCasa Mamita Restaurant Style Salsa, Mild\n16 oz\nMany in stock\nAdd\nCurrent price: $2.75\n$275\nPark Street Deli Fresh Cut Salsa, Medium\n16 oz\nMany in stock\nAdd\nCurrent price",
+      "controls": [
+        {
+          "tag": "a",
+          "text": "Skip Navigation",
+          "aria": "Skip Navigation",
+          "ph": null,
+          "tid": null,
+          "id": "skip_navigation_link",
+          "cls": null,
+          "href": "#store-wrapper"
+        },
+        {
+          "tag": "a",
+          "text": "Weekly Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-zn6tfr",
+          "href": "https://www.aldi.us/store/aldi/flyers/view/weekly/print"
+        },
+        {
+          "tag": "a",
+          "text": "Buy It Again",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-zn6tfr",
+          "href": "/store/aldi/buy_it_again"
+        },
+        {
+          "tag": "a",
+          "text": "Find Stores",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-zn6tfr",
+          "href": "https://info.aldi.us/stores"
+        },
+        {
+          "tag": "button",
+          "text": "Delivery · 2:13-2:23pm\n21702\nShopping at ALDI - FRE 40 - Fre",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-djw7pn",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Delivery · 2:13-2:23pm21702Shopping at ALDI - FRE 40 - Frede",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Edit",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pickup · available from 6:00pm todayALDI - FRE 51 - Frederic",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Change store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "In-Store · open 9am - 8pmALDI - FRE 40 - Frederick",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Change store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1aepgt4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "View All Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/explore-all-products"
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Produce",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/fresh-produce"
+        },
+        {
+          "tag": "a",
+          "text": "Meat & Seafood",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/meat-seafood"
+        },
+        {
+          "tag": "a",
+          "text": "Snacks & Candy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/snacks-candy"
+        },
+        {
+          "tag": "a",
+          "text": "Frozen Foods",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/frozen-foods"
+        },
+        {
+          "tag": "a",
+          "text": "Dairy & Eggs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/dairy-and-eggs"
+        },
+        {
+          "tag": "a",
+          "text": "Bakery & Bread",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/bakery-bread"
+        },
+        {
+          "tag": "a",
+          "text": "Beverages",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/beverages"
+        },
+        {
+          "tag": "a",
+          "text": "Alcohol",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/alcohol"
+        },
+        {
+          "tag": "a",
+          "text": "Pantry Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/pantry-essentials"
+        },
+        {
+          "tag": "a",
+          "text": "Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/deli"
+        },
+        {
+          "tag": "a",
+          "text": "Breakfast & Cereals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/breakfast-cereals"
+        },
+        {
+          "tag": "a",
+          "text": "Household Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/household-essentials"
+        },
+        {
+          "tag": "a",
+          "text": "Pet Supplies",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/pet-supplies"
+        },
+        {
+          "tag": "a",
+          "text": "Personal Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/personal-care"
+        },
+        {
+          "tag": "a",
+          "text": "Baby Items",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/baby-items"
+        },
+        {
+          "tag": "button",
+          "text": "Weekly Specials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1aepgt4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Weekly Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "https://www.aldi.us/store/aldi/flyers/view/weekly/print"
+        },
+        {
+          "tag": "a",
+          "text": "Price Drops",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/price-drops"
+        },
+        {
+          "tag": "a",
+          "text": "This Week's ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/this-weeks-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "Upcoming ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/upcoming-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "All ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/aldi-finds"
+        },
+        {
+          "tag": "button",
+          "text": "Featured",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1aepgt4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fall Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/fall-products"
+        },
+        {
+          "tag": "a",
+          "text": "Halloween",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/halloween"
+        },
+        {
+          "tag": "a",
+          "text": "Game Day Favorites",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/game-day"
+        },
+        {
+          "tag": "a",
+          "text": "Easy Meals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/easy-meals"
+        },
+        {
+          "tag": "a",
+          "text": "BBQ & Picnic",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/bbq-picnic"
+        },
+        {
+          "tag": "a",
+          "text": "Fall Seasonal Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/seasonal"
+        },
+        {
+          "tag": "a",
+          "text": "New & Trending",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/new-trending"
+        },
+        {
+          "tag": "a",
+          "text": "Fan Favorites",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/fan-favorites"
+        },
+        {
+          "tag": "a",
+          "text": "Protein Foods",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/protein-foods"
+        },
+        {
+          "tag": "a",
+          "text": "Foods with Fiber",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/foods-with-fiber"
+        },
+        {
+          "tag": "a",
+          "text": "Healthy Living",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/healthy-living"
+        },
+        {
+          "tag": "a",
+          "text": "Charcuterie",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/charcuterie"
+        },
+        {
+          "tag": "a",
+          "text": "Meatless Meals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/meatless"
+        },
+        {
+          "tag": "a",
+          "text": "Award-Winning Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/award-winning-products"
+        },
+        {
+          "tag": "a",
+          "text": "Shop By Diet",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/collections/n-shop-by-diet-95504"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/aldi-brands"
+        },
+        {
+          "tag": "button",
+          "text": "Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1aepgt4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Featured Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/featured-recipes"
+        },
+        {
+          "tag": "a",
+          "text": "All Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "Recipes A-to-Z",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/recipes-a-to-z"
+        },
+        {
+          "tag": "a",
+          "text": "My Saved Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vs83xf",
+          "href": "/store/aldi/pages/saved-recipes"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-8otzvz",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": "Search",
+          "ph": "Search products, recipes, and more",
+          "tid": null,
+          "id": "search-bar-input",
+          "cls": "e-751jof",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Clear search bar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-pp9ca7",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Give Us Feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-pe6nv",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View cart\n\n0",
+          "aria": "View Cart. Items in cart: 0, View cart",
+          "ph": null,
+          "tid": "floating-cart-button",
+          "id": "floating-cart-button",
+          "cls": "e-y6ntrx",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign In / Register",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-okki8",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "View Pricing Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-16fv9c4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Buy It Again",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/buy_it_again"
+        },
+        {
+          "tag": "a",
+          "text": "Explore All Products",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/explore-all-products"
+        },
+        {
+          "tag": "a",
+          "text": "This Week's ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/this-weeks-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "Upcoming ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/upcoming-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "Fresh Produce",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/fresh-produce"
+        },
+        {
+          "tag": "a",
+          "text": "Meat & Seafood",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/meat-seafood"
+        },
+        {
+          "tag": "a",
+          "text": "Snacks & Candy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/snacks-candy"
+        },
+        {
+          "tag": "a",
+          "text": "Frozen Foods",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/frozen-foods"
+        },
+        {
+          "tag": "a",
+          "text": "Dairy & Eggs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/dairy-and-eggs"
+        },
+        {
+          "tag": "a",
+          "text": "Bakery & Bread",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/bakery-bread"
+        },
+        {
+          "tag": "a",
+          "text": "Beverages",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/beverages"
+        },
+        {
+          "tag": "a",
+          "text": "Alcohol",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/alcohol"
+        },
+        {
+          "tag": "a",
+          "text": "Pantry Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/pantry-essentials"
+        },
+        {
+          "tag": "a",
+          "text": "Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/deli"
+        },
+        {
+          "tag": "a",
+          "text": "Household Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/household-essentials"
+        },
+        {
+          "tag": "a",
+          "text": "Breakfast & Cereals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/breakfast-cereals"
+        },
+        {
+          "tag": "a",
+          "text": "Pet Supplies",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/pet-supplies"
+        },
+        {
+          "tag": "a",
+          "text": "Personal Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/personal-care"
+        },
+        {
+          "tag": "a",
+          "text": "Baby Items",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/baby-items"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI Exclusive Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-15ofc3w",
+          "href": "/store/aldi/collections/n-aldi-brands-11323"
+        },
+        {
+          "tag": "a",
+          "text": "Price Drops",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-15ofc3w",
+          "href": "/store/aldi/collections/rc-price-drops"
+        },
+        {
+          "tag": "a",
+          "text": "Shop By Diet",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-15ofc3w",
+          "href": "/store/aldi/collections/n-shop-by-diet-95504"
+        },
+        {
+          "tag": "a",
+          "text": "Recipes",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-xc3w18",
+          "href": "/store/aldi/pages/aldi-brands"
+        },
+        {
+          "tag": "a",
+          "text": "Top Selling Snacks & Candy\nView More",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-ytumd6",
+          "href": "/store/aldi/collections/rc-top-selling-snacks-candy"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Previous page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1d8vdnl",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nClancy's Restaurant Style Tortilla",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/18648712-clancy-s-restaurant-style-tortilla-chips-13-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Restaurant Style Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.49\n$249\nCheez-It Original Baked Snack Crac",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/35549-cheez-it-cheese-crackers-baked-snack-crackers-origina"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Cheez-It Original Baked Snack Crackers",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nSimply Nature Seaweed Snacks\n3 x 0",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20189085-simply-nature-roasted-seaweed-snacks-0-17-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Seaweed Snacks",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.45\n$245\nClancy's Original Pretzel Slims\n8 ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20094134-clancy-s-original-pretzel-slims-8-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Original Pretzel Slims",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.15\n$215\nClancy's Pretzel Mini Twists\n16 oz",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20251435-clancy-s-pretzel-minis-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Pretzel Mini Twists",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.19\n$319\nBaker's Treat Chocolate Chip Mini ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20033771-baker-s-treat-chocolate-chip-mini-muffins-8-25-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Baker's Treat Chocolate Chip Mini Muffins - 5 Packs",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Trans fat-free\nCurrent price: $2.15\n$215\nAldi Mandarin Orang",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/18649501-lunch-buddies-mandarin-oranges-in-100-fruit-juice-"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Aldi Mandarin Oranges Fruit Cups - 4 Count",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeWhole grain\nCurrent price: $1.55\n$155\nClancy's Wh",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/69945479-clancys-white-cheddar-cheese-popcorn-675-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's White Cheddar Cheese Popcorn",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free\nCurrent price: $1.89\n$189\nClancy's Original Kett",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19535445-clancy-s-original-kettle-chips-8-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Original Kettle Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.75\n$275\nOriginal Price: $3.09\n\n$3.09\n\n11% ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/18648684-clancy-s-original-veggie-straws-7-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Sea Salt Veggie Straws",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.45\n$245\nSavoritz Golden Round Crackers\n13.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20761566-savoritz-buttery-round-crackers-13-7-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Savoritz Golden Round Crackers",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nClancy's Hint of Lime Tortilla Chi",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20059760-clancy-s-hint-of-lime-tortilla-chips-13-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Hint of Lime Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature O",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19502885-simply-nature-blue-corn-tortilla-chips-8-25-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Blue Corn Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free\nCurrent price: $8.05\n$805\nChomps Original Beef C",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21846416-chomps-chomplings-original-beef-mild-0-5-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Chomps Original Beef Chomplings Mini Sticks - 6 Count",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.65\n$265\nBaker's Treat Peanut Butter Wafers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/51330619-peanut-butter-wafers"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Baker's Treat Peanut Butter Wafers - 12 Bars",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature O",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19500835-simply-nature-multi-grain-tortilla-chips-8-25-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Multigrain Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $1.99\n$199\nClancy's Wavy Potato Chips\n10 oz\nM",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20112294-clancy-s-wavy-potato-chips-10-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Wavy Potato Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Whole grain\nCurrent price: $3.45\n$345\nLittle Debbie Oatmeal ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/16409829-little-debbie-oatmeal-creme-pies-12-ct"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Little Debbie Oatmeal Creme Pies",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $6.95\n$695\nClancy's Snack Combo Pack\n18 ct\nMa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298132-clancy-s-snack-combo-18-ct"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Snack Combo Pack",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.15\n$215\nClancy's Pretzel Sticks\n16 oz\nMany",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20251434-clancy-s-pretzel-sticks-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Pretzel Sticks",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Next page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1ixxyzl",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sort",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1sz7m7",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "all",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "25c5446f-c00e-47b3-9b24-1e13c7d3a966",
+          "cls": "e-d6oxmw",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "c00e2c94",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "c00e2c94",
+          "cls": "e-d6oxmw",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "939dd3be",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "939dd3be",
+          "cls": "e-d6oxmw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-l2t6op",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Show results",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-y5dskt",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "SNAP Eligible",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1sz7m7",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Dietary",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1sz7m7",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1993",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "ecc3ba67",
+          "cls": "e-29vif1",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-l2t6op",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Show results",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-y5dskt",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1sz7m7",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "332264",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "3f944e4f",
+          "cls": "e-29vif1",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "41767",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "42212607",
+          "cls": "e-29vif1",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "31234",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "04999e20",
+          "cls": "e-29vif1",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "49033",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "76c7f945",
+          "cls": "e-29vif1",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Reset",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-l2t6op",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Show results",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-y5dskt",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Store choice\nCurrent price: $2.85\n$285\nCasa Mamita Chunky Sa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19796199-casa-mamita-ancient-grains-habanero-salse-24-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Chunky Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.55\n$255\nCasa Mamita Chunky Salsa, Medium\n2",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19763196-casa-mamita-medium-salsa-24-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Chunky Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.75\n$275\nPark Street Deli Fresh Cut Salsa, ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19500831-park-street-deli-fresh-cut-mild-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Fresh Cut Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Best seller\nCurrent price: $2.75\n$275\nCasa Mamita Restaurant",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298147-casa-mamita-restaurant-style-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Restaurant Style Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.75\n$275\nPark Street Deli Fresh Cut Salsa, ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19500830-park-street-deli-medium-fresh-cut-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Fresh Cut Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.85\n$285\nSimply Nature Organic Salsa, Mild\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19517201-simply-nature-organic-mild-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Vegan\nCurrent price: $2.49\n$249\nPark Street Deli Cantina Sal",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/60948104-cantina-salsa-mild"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Cantina Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Vegan\nCurrent price: $2.49\n$249\nPark Street Deli Cantina Sal",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/53358029-park-street-deli-cantina-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Cantina Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Vegan\nCurrent price: $2.85\n$285\nSimply Nature Organic Salsa,",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19539991-simply-nature-medium-organic-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.75\n$275\nCasa Mamita Pineapple Salsa, Mild\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298142-casa-mamita-pineapple-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Pineapple Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.75\n$275\nCasa Mamita Black Bean & Corn Sals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298111-casa-mamita-black-bean-corn-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Black Bean & Corn Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.29\n$429\nSpecially Selected Verde Salsa\n16 ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298149-specially-selected-verde-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Specially Selected Verde Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.65\n$365\nPark Street Deli Pico De Gallo Sal",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/49522131-park-street-deli-mild-pico-de-gallo-10-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Pico De Gallo Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.29\n$429\nSpecially Selected Avocado Tomatil",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21298144-specially-selected-avocado-tomatillo-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Specially Selected Avocado Tomatillo Salsa, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.85\n$285\nSimply Nature Organic Salsa, Hot\n1",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19539987-simply-nature-organic-hot-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Salsa, Hot",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.65\n$365\nPark Street Deli Pico De Gallo Sal",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/49625594-park-street-deli-pico-de-gallo-10-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Park Street Deli Pico De Gallo Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.55\n$255\nCasa Mamita Salsa Con Queso\n15 oz\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/21044060-casa-mamita-salsa-con-queso-15-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Salsa Con Queso",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.29\n$429\nSpecially Selected Four Pepper Res",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20739253-bake-house-creations-sugar-cookie-dough-16-5-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Specially Selected Four Pepper Restaurant Style Salsa, Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $0.55\n$055\nCasa Mamita Original Taco Seasonin",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19433622-casa-mamita-taco-seasoning-mix-1-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Original Taco Seasoning Mix",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.75\n$475\nAldi Classic Guacamole\n15 oz\nMany ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/25928617-deli-style-classic-guacamole-15-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Aldi Classic Guacamole",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Trans fat-free\nCurrent price: $1.75\n$175\nPueblo Lindo Flour ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19630529-pueblo-lindo-flour-tortillas-17-5-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pueblo Lindo Flour Tortillas - 10 Count",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature O",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19502885-simply-nature-blue-corn-tortilla-chips-8-25-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Blue Corn Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.55\n$255\nCasa Mamita Queso Blanco Dip\n15 oz",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/64096930-queso-blanco-dip"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Queso Blanco Dip",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nClancy's Hint of Lime Tortilla Chi",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/20059760-clancy-s-hint-of-lime-tortilla-chips-13-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Hint of Lime Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Trans fat-free\nCurrent price: $2.05\n$205\nPueblo Lindo Small ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19589827-pueblo-lindo-fajita-flour-tortillas-20-ct"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pueblo Lindo Small Fajita Flour Tortillas - 20 Count",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nClancy's Restaurant Style Tortilla",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/18648712-clancy-s-restaurant-style-tortilla-chips-13-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Restaurant Style Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Trans fat-free\nCurrent price: $5.49\n$549\nGordo’s Foodservice",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/277057-gordo-s-cheese-dip-original-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Gordo’s Foodservice Gordo's White Queso",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeLow cholesterol\nCurrent price: $2.35\n$235\nOrigina",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19682518-pueblo-lindo-casera-tostadas-12-8-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pueblo Lindo Casera Amarillas Tostadas",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $2.19\n$219\nClancy's Bite Size Round Tortilla ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/28033104-clancy-s-white-round-tortilla-chips-13-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Clancy's Bite Size Round Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $1.05\n$105\nCasa Mamita Canned Diced Tomatoes ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/18648903-casa-mamita-diced-tomatoes-with-green-chilies-10-o"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita Canned Diced Tomatoes with Green Chilies",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-freeOrganic\nCurrent price: $2.59\n$259\nSimply Nature O",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19500835-simply-nature-multi-grain-tortilla-chips-8-25-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Simply Nature Organic Multigrain Tortilla Chips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $0.55\n$055\nCasa Mamita 25% Less Sodium Taco S",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19433620-casa-mamita-low-sodium-taco-seasoning-1-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Mamita 25% Less Sodium Taco Seasoning Mix",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.75\n$475\nAldi Chunky Guacamole\n15 oz\nMany i",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/25928427-deli-style-chunky-guacamole-15-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Aldi Chunky Guacamole",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.29\n$429\nPueblo Lindo Party Size Restaurant",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1nw1bbv",
+          "href": "/store/aldi/products/19750612-pueblo-lindo-tortilla-strips-24-oz"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pueblo Lindo Party Size Restaurant Tortilla Strips",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-11idvg4",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Load more",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1o3e8yi",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "About ALDI",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/about-aldi"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/aldi-brands"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://careers.aldi.us/"
+        },
+        {
+          "tag": "a",
+          "text": "Email Sign Up",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://account.aldi.us/s/email-sign-up?experience=new"
+        },
+        {
+          "tag": "a",
+          "text": "Grand Openings",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/grand-openings"
+        },
+        {
+          "tag": "a",
+          "text": "Refunds and Returns",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://help.aldi.us/faqs/article/Refunds-and-Returns"
+        },
+        {
+          "tag": "a",
+          "text": "Suppliers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://corporate.aldi.us/suppliers"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI Corporate",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://corporate.aldi.us/"
+        },
+        {
+          "tag": "a",
+          "text": "Help Center",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://help.aldi.us/"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/gift-cards"
+        },
+        {
+          "tag": "a",
+          "text": "Warranties & Manuals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://help.aldi.us/warranties-manuals"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://corporate.aldi.us/newsroom/product-recalls/"
+        },
+        {
+          "tag": "a",
+          "text": "Give Us Feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/feedback-survey"
+        },
+        {
+          "tag": "a",
+          "text": "View Weekly Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/flyers/view/weekly/print"
+        },
+        {
+          "tag": "a",
+          "text": "Upcoming ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/upcoming-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "This Week's ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/this-weeks-aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "All ALDI Finds",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/aldi-finds"
+        },
+        {
+          "tag": "a",
+          "text": "Price Drops",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-w9inaq",
+          "href": "https://www.aldi.us/store/aldi/pages/price-drops"
+        },
+        {
+          "tag": "button",
+          "text": "Cookie Preferences",
+          "aria": "Cookie Preferences, opens a dedicated popup modal window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://www.aldi.us/store/aldi/pages/online-privacy-notice"
+        },
+        {
+          "tag": "a",
+          "text": "Terms of Use",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://www.aldi.us/store/aldi/pages/terms-of-use"
+        },
+        {
+          "tag": "a",
+          "text": "Your Privacy Choices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://aldi-privacy.my.onetrust.com/webform/88287088-72d8-4e0d-8c0f-28404e719f4"
+        },
+        {
+          "tag": "a",
+          "text": "Security Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://security.aldi-sued.com/"
+        },
+        {
+          "tag": "a",
+          "text": "CA Cookware Disclosure",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://corporate.aldi.us/corporate-sustainability/supply-chain/california-produ"
+        },
+        {
+          "tag": "a",
+          "text": "CA Supply Chains Act",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://corporate.aldi.us/corporate-sustainability/supply-chain/california-trans"
+        },
+        {
+          "tag": "a",
+          "text": "CA Cleaning Disclosure",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://corporate.aldi.us/corporate-sustainability/supply-chain/california-clean"
+        },
+        {
+          "tag": "a",
+          "text": "ALDI International",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1e9btla",
+          "href": "https://www.aldi.com/"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-utgu8h",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Delivery · 2:13-2:23pm\n21702\nShopping at ALDI - FRE 40 - Fre",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Edit",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pickup · available from 6:00pm today\nALDI - FRE 51 - Frederi",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Change store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "In-Store · open 9am - 8pm\nALDI - FRE 40 - Frederick",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1p18ejw",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Change store",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-1tyk67n",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Login now",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-vt4bpx",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Confirm",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-182rjqr",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "e-utgu8h",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": null,
+          "href": "https://info.aldi.us/online-privacy-notice"
+        },
+        {
+          "tag": "button",
+          "text": "Cookie Preferences",
+          "aria": "Cookie Preferences, Opens the preference center dialog",
+          "ph": null,
+          "tid": null,
+          "id": "onetrust-pc-btn-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Reject All Non-Essential",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "onetrust-reject-all-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Accept All",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "onetrust-accept-btn-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Learn more about how we collect and process your data in our",
+          "aria": "Learn more about how we collect and process your data in our Privacy Policy., opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "privacy-notice-link",
+          "href": "https://info.aldi.us/online-privacy-notice"
+        },
+        {
+          "tag": "button",
+          "text": "Accept All",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "accept-recommended-btn-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "ot-group-id-C2",
+          "cls": "category-switch-handler",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "ot-group-id-C4",
+          "cls": "category-switch-handler",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Back Button",
+          "aria": "Back",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "ot-link-btn back-btn-handler",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": "Cookie list search",
+          "ph": "Search…",
+          "tid": null,
+          "id": "vendor-search-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Filter Icon",
+          "aria": "Filter Cookie List",
+          "ph": null,
+          "tid": null,
+          "id": "filter-btn-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Clear",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "clear-filters-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "chkbox-id",
+          "cls": "category-filter-handler",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Apply",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "filter-apply-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Cancel",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "filter-cancel-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "select-all-hosts-groups-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "select-all-vendor-groups-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "on",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "select-all-vendor-leg-handler",
+          "cls": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Reject All Non-Essential",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "ot-pc-refuse-all-handler",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Confirm Choices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "save-preference-btn-handler onetrust-close-btn-han",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Powered by OneTrust Opens in a new Tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": null,
+          "href": "https://www.onetrust.com/products/cookie-consent/"
         }
       ]
     }
   ],
-  "reloaded": true,
-  "houses_text": 0
+  "houses_text": 2
 }

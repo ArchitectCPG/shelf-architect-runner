@@ -3,18 +3,44 @@
   "retailer": "foodlion",
   "zip": "diag",
   "neighborhood": "foodlion",
-  "pulled_at": "2026-10-13T17:17:55.295Z",
+  "pulled_at": "2026-10-13T17:28:27.278Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "28202",
   "store_set": null,
-  "url_final": null,
+  "url_final": "https://foodlion.com/search?q=salsa",
   "houses": [],
-  "raw_text_chars": 0,
+  "raw_text_chars": 477,
   "steps": [
-    "17:17:55 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "17:17:55 connected to Bright Data Scraping Browser",
-    "17:17:56 ERROR Error: page.goto: Protocol error (Page.navigate): Could not resolve host shop.foodlion.com. Check host name is correctly spelled and retry. If host is properly spelled or can only be resolved from a specific region contact brightdata support for DNS support. (proxy_error). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy_error-messages\nCall log:\n  - navigating to \"https://shop.foodlion.com/search?search_term=salsa\", waiting until \"domcontentloaded\"\n"
+    "17:28:27 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:28:28 connected to Bright Data Scraping Browser",
+    "17:28:54 goto https://www.foodlion.com/search?q=salsa",
+    "17:29:02 captcha check passed",
+    "17:29:16 dismiss: nothing to close",
+    "17:29:17 dump load: 1 controls",
+    "17:29:17 store_set: null",
+    "17:29:17 few houses, reloading once",
+    "17:29:31 extracted 0 houses; raw text 477 chars"
   ],
-  "error": "Error: page.goto: Protocol error (Page.navigate): Could not resolve host shop.foodlion.com. Check host name is correctly spelled and retry. If host is properly spelled or can only be resolved from a specific region contact brightdata support for DNS support. (proxy_error). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy_error-messages\nCall log:\n  - navigating to \"https://shop.foodlion.com/search?search_term=salsa\", waiting until \"domcontentloaded\"\n"
+  "error": null,
+  "controls": [
+    {
+      "at": "load",
+      "text": "DIALOG: \nBODY: Our Food Lion website and app are currently unavailable.\n\nWe are working to restore service as quickly as possible. Customers may place delivery orders through Instacart, DoorDash, and Uber Eats. Any unfulfilled orders placed through FoodLion.com or the Food Lion app will be refunded.\n\nFor prescriptions, please contact your local Food Lion Pharmacy.\n\nFood Lion stores remain open during normal business hours.\n\nWe apologize for the inconvenience and appreciate your patience.",
+      "controls": [
+        {
+          "tag": "button",
+          "text": "Refresh This Page",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "n-button",
+          "href": null
+        }
+      ]
+    }
+  ],
+  "reloaded": true,
+  "houses_text": 0
 }
