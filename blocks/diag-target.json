@@ -24,14 +24,27 @@
       "press": "Escape"
     },
     {
-      "click_sel": "#web-store-id-msg-btn",
+      "click_re": "^Store: ",
       "optional": true
     },
     {
-      "wait": 4000
+      "wait": 3000
     },
     {
-      "dump": "store-modal"
+      "dump": "modal"
+    },
+    {
+      "fill": {
+        "placeholder": "zip|ZIP|city|Enter",
+        "value": "{{store_zip}}"
+      },
+      "optional": true
+    },
+    {
+      "wait": 5000
+    },
+    {
+      "dump": "results"
     }
   ]
 }

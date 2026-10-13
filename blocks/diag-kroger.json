@@ -24,17 +24,43 @@
       "press": "Escape"
     },
     {
-      "dump": "landing"
-    },
-    {
-      "click_re": "^Pickup at|Change store|Select store|Find a store",
+      "click_sel": "[data-testid=CurrentModality-button]",
       "optional": true
     },
     {
-      "wait": 4000
+      "wait": 3000
     },
     {
-      "dump": "after-click"
+      "fill": {
+        "placeholder": "45201|Cincinnati|ZIP",
+        "value": "{{store_zip}}"
+      },
+      "optional": true
+    },
+    {
+      "wait": 5000
+    },
+    {
+      "dump": "stores"
+    },
+    {
+      "click_re": "^(Select|Shop this store|Start shopping|Choose|Shop here)",
+      "optional": true
+    },
+    {
+      "wait": 6000
+    },
+    {
+      "dump": "final"
+    },
+    {
+      "goto": "https://www.kroger.com/search?query=salsa"
+    },
+    {
+      "wait": 7000
+    },
+    {
+      "scroll": 3
     }
   ]
 }

@@ -24,17 +24,27 @@
       "press": "Escape"
     },
     {
-      "dump": "landing"
-    },
-    {
-      "click_re": "select store|choose store|change store|store locator|^store$",
+      "click_sel": "#fulFillMentAddressNav",
       "optional": true
     },
     {
       "wait": 4000
     },
     {
-      "dump": "after-click"
+      "dump": "modal"
+    },
+    {
+      "fill": {
+        "placeholder": "zip|ZIP|address|city",
+        "value": "{{store_zip}}"
+      },
+      "optional": true
+    },
+    {
+      "wait": 5000
+    },
+    {
+      "dump": "results"
     }
   ]
 }
