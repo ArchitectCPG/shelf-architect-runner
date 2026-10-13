@@ -3,7 +3,7 @@
   "retailer": "albertsons",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:31:55.129Z",
+  "pulled_at": "2026-10-13T12:37:16.171Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -481,25 +481,27 @@
       "via": "text"
     }
   ],
-  "raw_text_chars": 8831,
+  "raw_text_chars": 9233,
   "steps": [
-    "12:31:55 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:31:59 connected to Bright Data Scraping Browser",
-    "12:32:19 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
-    "12:32:27 captcha check passed",
-    "12:32:36 dismissed \"Continue with all\"",
-    "12:32:37 press Escape",
-    "12:32:37 dump landing: 250 controls",
-    "12:32:37 optional step click_re skipped: Error: page.evaluate: Execution context was destroyed, most likely because of a ",
-    "12:32:44 dump after-click: 250 controls",
-    "12:32:46 store_set: null",
-    "12:32:50 text parser wins: 47 vs 0",
-    "12:32:54 extracted 47 houses; raw text 8831 chars"
+    "12:37:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "12:37:16 connected to Bright Data Scraping Browser",
+    "12:37:26 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
+    "12:37:34 captcha check passed",
+    "12:37:43 dismissed \"Continue with all\"",
+    "12:37:43 press Escape",
+    "12:37:46 click_sel #fulFillMentAddressNav",
+    "12:37:52 dump modal: 250 controls",
+    "12:37:53 fill \"60615\"",
+    "12:37:53 press Enter",
+    "12:37:58 dump results: 250 controls",
+    "12:37:58 store_set: null",
+    "12:37:58 text parser wins: 47 vs 0",
+    "12:37:59 extracted 47 houses; raw text 9233 chars"
   ],
   "error": null,
   "controls": [
     {
-      "at": "landing",
+      "at": "modal",
       "controls": [
         {
           "tag": "a",
@@ -2754,7 +2756,7 @@
       ]
     },
     {
-      "at": "after-click",
+      "at": "results",
       "controls": [
         {
           "tag": "a",
