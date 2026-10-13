@@ -24,14 +24,23 @@
       "press": "Escape"
     },
     {
-      "click_re": "^Delivery by|^Pickup at|^\\d{5}",
+      "goto": "https://www.instacart.com/store/safeway/storefront?zip_code=60615"
+    },
+    {
+      "wait": 7000
+    },
+    {
+      "dump": "zipparam"
+    },
+    {
+      "click_re": "^Pickup$",
       "optional": true
     },
     {
       "wait": 4000
     },
     {
-      "dump": "modal"
+      "dump": "pickup"
     }
   ]
 }

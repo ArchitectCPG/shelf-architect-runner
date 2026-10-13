@@ -24,24 +24,19 @@
       "press": "Escape"
     },
     {
-      "click_sel": "[data-testid=store-flyout-button]",
-      "optional": true
+      "click_sel": "[data-testid=store-flyout-button]"
     },
     {
       "wait": 4000
     },
     {
-      "dump": "flyout"
-    },
-    {
       "fill": {
-        "placeholder": "zip|ZIP|city|Search",
+        "placeholder": "Search by Zip",
         "value": "{{store_zip}}"
-      },
-      "optional": true
+      }
     },
     {
-      "wait": 6000
+      "wait": 7000
     },
     {
       "dump": "results"

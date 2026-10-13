@@ -32,33 +32,19 @@
     {
       "type_sel": {
         "sel": "[data-testid=PostalCodeSearchBox-input]",
-        "value": "{{store_zip}}"
+        "value": "{{store_zip}}",
+        "enter": false
       }
     },
     {
-      "wait": 6000
-    },
-    {
-      "dump": "stores"
-    },
-    {
-      "click_re": "^(Select Store|Select|Shop this store|Start Shopping)",
+      "click_sel": "[data-testid=PostalCodeSearchBox-input] ~ button, [data-testid=PostalCodeSearchBox-input] + button, [data-testid*=PostalCodeSearchBox] button",
       "optional": true
-    },
-    {
-      "wait": 6000
-    },
-    {
-      "dump": "final"
-    },
-    {
-      "goto": "https://www.kroger.com/search?query=salsa"
     },
     {
       "wait": 7000
     },
     {
-      "scroll": 3
+      "dump": "stores"
     }
   ]
 }

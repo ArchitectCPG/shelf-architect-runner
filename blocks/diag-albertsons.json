@@ -24,14 +24,22 @@
       "press": "Escape"
     },
     {
-      "click_sel": "#fulFillMentAddressNav button, #fulFillMentAddressNav [role=button], #fulFillMentAddressNav a, #fulFillMentAddressNav",
-      "optional": true
+      "goto": "https://www.albertsons.com/shop/search-results.html?q=salsa&zipcode=60615&storeId="
     },
     {
-      "wait": 4000
+      "wait": 7000
     },
     {
-      "dump": "modal"
+      "dump": "zipparam"
+    },
+    {
+      "goto": "https://local.albertsons.com/search.html?q=60615"
+    },
+    {
+      "wait": 7000
+    },
+    {
+      "dump": "locator"
     }
   ]
 }

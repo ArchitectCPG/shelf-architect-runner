@@ -27,23 +27,10 @@
       "click_re": "^Store: "
     },
     {
-      "wait": 4000
-    },
-    {
-      "dump": "modal"
-    },
-    {
-      "fill": {
-        "placeholder": "zip|ZIP|city|Enter|Search",
-        "value": "{{store_zip}}"
-      },
-      "optional": true
-    },
-    {
       "wait": 6000
     },
     {
-      "dump": "results"
+      "dump": "modal"
     }
   ]
 }
