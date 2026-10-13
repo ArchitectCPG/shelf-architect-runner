@@ -124,7 +124,7 @@ log(`auth user=${user} password_len=${pass.length} endpoint=brd.superproxy.io:92
 let browser = null, page = null;
 try {
   browser = await chromium.connectOverCDP(wsEndpoint, { timeout: 120000 }); log("connected to Bright Data Scraping Browser");
-  page = await browser.newPage(); page.setDefaultTimeout(60000);
+  page = await browser.newPage(); page.setDefaultTimeout(60000); await page.setViewportSize({ width: 1440, height: 900 }).catch(() => {});
   const steps = block.steps || [{ goto: block.home_url }, { wait: 3000 }, { search: {} }, { wait: 5000 }, { scroll: 4 }];
   for (const step of steps) {
     await runStep(page, step);
