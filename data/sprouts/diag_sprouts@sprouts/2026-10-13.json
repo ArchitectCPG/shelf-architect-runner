@@ -3,21 +3,140 @@
   "retailer": "sprouts",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T17:35:28.009Z",
+  "pulled_at": "2026-10-13T18:13:14.379Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60563",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "17:35:28 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "17:35:32 connected to Bright Data Scraping Browser",
-    "17:36:39 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
-    "17:36:47 captcha check passed",
-    "17:37:02 dismiss: nothing to close",
-    "17:37:02 ERROR Error: click_re no match ^Change store$"
+  "store_set": "Scottsdale - Shea Blvd. (Store #2)",
+  "url_final": "https://shop.sprouts.com/store/sprouts/s?k=salsa",
+  "houses": [
+    {
+      "name": "Mateo's Medium Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fab14c30-2262-4b4b-aa7d-d3412be7d4db.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/3080345-mateo-s-gourmet-salsa-medium-16-0-oz",
+      "card_text": [
+        "Gluten-Free",
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $6.49",
+        "$6.49",
+        "8% off",
+        "Mateo's Medium Salsa",
+        "★★★★★"
+      ]
+    },
+    {
+      "name": "Mateo's Mild Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bcab4905-622d-4fa8-a70f-3c5ad1b73579.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/3078643-mateo-s-gourmets-salsa-mild-16-oz",
+      "card_text": [
+        "Gluten-Free",
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $6.49",
+        "$6.49",
+        "8% off",
+        "Mateo's Mild Salsa",
+        "★★★★★"
+      ]
+    },
+    {
+      "name": "Mateo's Medium Cantina Style Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b303a5b7-8a46-4d6b-9354-cedbad0e17c1.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/19648179-mateo-s-cantina-style-gourmet-salsa-each",
+      "card_text": [
+        "Gluten-Free",
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $6.49",
+        "$6.49",
+        "8% off",
+        "Mateo's Medium Cantina Style Salsa",
+        "★★★★★"
+      ]
+    },
+    {
+      "name": "Sprouts Organic Mild Salsa",
+      "brand": "Organic, +3",
+      "price": "$3.49",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3484f3e9-417b-4fa6-8304-f5bcaa7fee4c.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856132-sprouts-mild-organic-salsa-16-oz",
+      "card_text": [
+        "Organic, +3",
+        "more attributes",
+        "Current price: $3.49",
+        "$349",
+        "Original Price: $4.49",
+        "$4.49",
+        "22% off",
+        "Sprouts Organic Mild Salsa"
+      ]
+    },
+    {
+      "name": "Sprouts Organic Medium Salsa",
+      "brand": "Organic, +3",
+      "price": "$3.49",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_29dfdc05-47fb-4628-ac34-34cae866d908.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856134-sprouts-organic-medium-salsa-16-oz",
+      "card_text": [
+        "Organic, +3",
+        "more attributes",
+        "Current price: $3.49",
+        "$349",
+        "Original Price: $4.49",
+        "$4.49",
+        "22% off",
+        "Sprouts Organic Medium Salsa"
+      ]
+    },
+    {
+      "name": "Sprouts Organic Restaurant Style Salsa",
+      "brand": "Organic, +3",
+      "price": "$3.49",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0d1db546-22db-49db-8f2d-b34dd479d30c.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856886-sprouts-organic-restaurant-style-salsa-16-oz",
+      "card_text": [
+        "Organic, +3",
+        "more attributes",
+        "Current price: $3.49",
+        "$349",
+        "Original Price: $4.49",
+        "$4.49",
+        "22% off",
+        "Sprouts Organic Restaurant Style Salsa"
+      ]
+    }
   ],
-  "error": "Error: click_re no match ^Change store$"
+  "raw_text_chars": 11716,
+  "steps": [
+    "18:13:14 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:13:14 connected to Bright Data Scraping Browser",
+    "18:13:23 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
+    "18:13:31 captcha check passed",
+    "18:13:47 dismiss: nothing to close",
+    "18:13:58 js ok clicked 4",
+    "18:14:00 js ok DLG[e-laqgxn]: Close\nNear 85260\nChoose an In-Store location\nScottsdale - Shea Bl",
+    "18:14:00 js ok Search Sprouts Farmers Market... ||  ||  || ",
+    "18:14:00 store_set: Scottsdale - Shea Blvd. (Store #2)",
+    "18:14:02 extracted 6 houses; raw text 11716 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "clicked 4",
+    "DLG[e-laqgxn]: Close\nNear 85260\nChoose an In-Store location\nScottsdale - Shea Blvd. (Store #2)\n\n9301 E Shea Blvd. Suite 132\n\n(480) 551-9665\n\nStore 2.1mi away\n\nSet as my store\nStore info\nScottsdale - Gainey Ranch (Store #39)\n\n8787 N Scottsdale Rd\n\n(480) 534-3620\n\nStore 3.6mi away\n\nSet as my store\nStore info\nParadise Valley (Store #4)\n\n12415 N Tatum Blvd\n\n(602) 971-4177\n\nStore 5.0mi away\n\nSet as my store\nStore info\nPhoenix-City North (Store #990)\n\n20650 N. 56th Street\n\n(480) 701-0310\n\nStore 5.9mi away\n\nSet as my store\nStore info\nNorth Scottsdale (Store #29)\n\n23269 N Scottsdale Rd\n\n(480) 295-4789\n\nStore 6.3mi away\n\nSet as my store\nStore info\nScottsdale - Miller Rd. (Store #19)\n\n4402 N Miller Rd\n\n(480) 941-6001\n\nStore 7.7mi away\n\nSet as my store\nStore info\nPhoenix - Glendale Ave. (Store #17)\n\n1625 E Glendale Ave\n\n(602) 385-2150\n\nStore 10.2mi away\n\nSet as my store\nStore info\nPhoenix - Bell Rd. (Store #18)\n\n245 E Bell Rd. Suite 15\n\n(602) 218-4949\n\nStore 10.5mi away\n\nSet as my store\nStore info\nPhoenix - Indian School Rd. (Store #8)\n\n2824 E Indian School Rd. Suite 126\n\n(602) 553-3131\n\nStore 10.8mi away\n\nSet as my store\nStore info\nPhoenix - Northern Ave. (Store #7)\n\n8040 N 19th Ave\n\n(602) 864-6130\n\nStore 12.6mi away\n\nSet as my store\nStore info\nMesa - Brown Rd. (Store #5)\n\n1933 E Brown Rd. Suite 1\n\n(480) 668-0800\n\nStore 13.4mi away\n\nSet as my store\nStore info\nCave Creek (Store #44)\n\n5355 E. Carefree Highway\n\n(480) 637-4699\n\nStore 13.7mi away\n\nSet as my store\nStore info\nPhoenix - 7th Ave. (Store #41)\n",
+    "Search Sprouts Farmers Market... ||  ||  || "
+  ],
+  "houses_text": 6
 }
