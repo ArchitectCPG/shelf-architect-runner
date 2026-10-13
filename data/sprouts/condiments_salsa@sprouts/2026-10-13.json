@@ -3,7 +3,7 @@
   "retailer": "sprouts",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T18:32:51.858Z",
+  "pulled_at": "2026-10-13T18:37:46.373Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60563",
@@ -12,20 +12,20 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "18:32:51 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "18:32:53 connected to Bright Data Scraping Browser",
-    "18:33:26 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
-    "18:33:34 captcha check passed",
-    "18:33:50 dismiss: nothing to close",
-    "18:33:50 js ok ok",
-    "18:33:54 js ok edit",
-    "18:34:01 js ok typed:60563 none",
-    "18:36:25 ERROR Error: page.evaluate: Error: list not updated: Near 85260\n    at eval (eval at evaluate (:370:30), <anonymous>:1:461)\n    at async <anonymous>:396:30"
+    "18:37:46 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:37:47 connected to Bright Data Scraping Browser",
+    "18:38:12 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
+    "18:38:20 captcha check passed",
+    "18:38:35 dismiss: nothing to close",
+    "18:38:35 js ok ok",
+    "18:38:39 js ok edit",
+    "18:38:41 js ok tagged",
+    "18:38:42 ERROR Error: locator.click: Element is outside of the viewport\nCall log:\n  - waiting for locator('[data-zipbox=\\'1\\']').first()\n    - locator resolved to <input tabindex=\"-1\" data-zipbox=\"1\" class=\"e-1oh9uda\" aria-hidden=\"true\" data-testid=\"hidden-input-for-ios-virtual-keyboard\"/>\n  - attempting click action\n    - scrolling into view if needed\n    - done scrolling\n"
   ],
-  "error": "Error: page.evaluate: Error: list not updated: Near 85260\n    at eval (eval at evaluate (:370:30), <anonymous>:1:461)\n    at async <anonymous>:396:30",
+  "error": "Error: locator.click: Element is outside of the viewport\nCall log:\n  - waiting for locator('[data-zipbox=\\'1\\']').first()\n    - locator resolved to <input tabindex=\"-1\" data-zipbox=\"1\" class=\"e-1oh9uda\" aria-hidden=\"true\" data-testid=\"hidden-input-for-ios-virtual-keyboard\"/>\n  - attempting click action\n    - scrolling into view if needed\n    - done scrolling\n",
   "js_results": [
     "ok",
     "edit",
-    "typed:60563 none"
+    "tagged"
   ]
 }
