@@ -7,7 +7,7 @@
  "store_zip": "28202",
  "steps": [
   {
-   "goto": "https://shop.foodlion.com/search?search_term=salsa"
+   "goto": "https://www.foodlion.com/search?q=salsa"
   },
   {
    "wait": 8000
@@ -18,17 +18,11 @@
     "No thanks",
     "Not now",
     "Continue",
-    "Got it",
-    "Accept",
-    "Accept All Cookies",
-    "I Accept"
+    "Got it"
    ]
   },
   {
-   "wait": 2000
-  },
-  {
-   "dump": "after-load"
+   "dump": "load"
   }
  ]
 }

@@ -7,7 +7,7 @@
  "store_zip": "50309",
  "steps": [
   {
-   "goto": "https://www.hy-vee.com/aisles-online/search?q=salsa"
+   "goto": "https://www.hy-vee.com/aisles-online/"
   },
   {
    "wait": 8000
@@ -18,17 +18,29 @@
     "No thanks",
     "Not now",
     "Continue",
-    "Got it",
-    "Accept",
-    "Accept All Cookies",
-    "I Accept"
+    "Got it"
    ]
   },
   {
-   "wait": 2000
+   "search": {
+    "value": "salsa"
+   }
   },
   {
-   "dump": "after-load"
+   "wait": 7000
+  },
+  {
+   "dump": "search"
+  },
+  {
+   "click_sel": "[data-testid=global-navigation-store-change-btn]",
+   "optional": true
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "dump": "picker"
   }
  ]
 }

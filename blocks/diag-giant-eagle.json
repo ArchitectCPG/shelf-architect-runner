@@ -18,17 +18,31 @@
     "No thanks",
     "Not now",
     "Continue",
-    "Got it",
-    "Accept",
-    "Accept All Cookies",
-    "I Accept"
+    "Got it"
    ]
   },
   {
-   "wait": 2000
+   "click_re": "^Select a Store$"
   },
   {
-   "dump": "after-load"
+   "wait": 4000
+  },
+  {
+   "dump": "picker"
+  },
+  {
+   "type_sel": {
+    "sel": "input[placeholder*='zip' i], input[placeholder*='city' i], input[type=search]",
+    "value": "{{store_zip}}",
+    "enter": true
+   },
+   "optional": true
+  },
+  {
+   "wait": 5000
+  },
+  {
+   "dump": "results"
   }
  ]
 }

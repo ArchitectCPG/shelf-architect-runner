@@ -7,7 +7,7 @@
  "store_zip": "60615",
  "steps": [
   {
-   "goto": "https://new.aldi.us/results?q=salsa"
+   "goto": "https://shop.aldi.us/store/aldi/s?k=salsa"
   },
   {
    "wait": 8000
@@ -18,17 +18,21 @@
     "No thanks",
     "Not now",
     "Continue",
-    "Got it",
-    "Accept",
-    "Accept All Cookies",
-    "I Accept"
+    "Got it"
    ]
   },
   {
-   "wait": 2000
+   "dump": "load"
   },
   {
-   "dump": "after-load"
+   "click_re": "^Change store$|Change location|^Pickup$",
+   "optional": true
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "dump": "picker"
   }
  ]
 }

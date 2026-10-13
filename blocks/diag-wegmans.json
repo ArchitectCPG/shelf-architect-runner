@@ -7,7 +7,7 @@
  "store_zip": "14618",
  "steps": [
   {
-   "goto": "https://shop.wegmans.com/search?search_term=salsa"
+   "goto": "https://www.wegmans.com/"
   },
   {
    "wait": 8000
@@ -18,17 +18,29 @@
     "No thanks",
     "Not now",
     "Continue",
-    "Got it",
-    "Accept",
-    "Accept All Cookies",
-    "I Accept"
+    "Got it"
    ]
   },
   {
-   "wait": 2000
+   "search": {
+    "value": "salsa"
+   }
   },
   {
-   "dump": "after-load"
+   "wait": 7000
+  },
+  {
+   "dump": "search"
+  },
+  {
+   "click_re": "^Ballantyne$|^In Store$",
+   "optional": true
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "dump": "picker"
   }
  ]
 }
