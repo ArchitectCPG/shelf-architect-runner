@@ -5,7 +5,7 @@
  "neighborhood": "salsa",
  "term": "salsa",
  "store_zip": "60563",
- "store_js": "(()=>{const b=[...document.querySelectorAll('button')].find(b=>/Store #\\d+/.test(b.innerText)); return b?b.innerText.replace(/\\s+/g,' ').trim().slice(0,80):null})()",
+ "store_js": "(()=>{const b=[...document.querySelectorAll('button')].find(b=>/Store #\\d+/.test(b.innerText)); return b?'UNPINNED default: '+b.innerText.replace(/\\s+/g,' ').trim().slice(0,70):null})()",
  "steps": [
   {
    "goto": "https://shop.sprouts.com/store/sprouts/s?k={{term}}"
@@ -23,36 +23,7 @@
    ]
   },
   {
-   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;}; const vis=e=>e&&(e.offsetWidth||e.offsetHeight); const byText=(re,sel)=>[...document.querySelectorAll(sel||'button,a,[role=button],span,div')].filter(e=>vis(e)&&e.childElementCount<3&&re.test((e.innerText||'').trim())).pop();const b=await waitFor(()=>byText(/^Change store$/,'button'),40); if(!b) throw new Error('no Change store'); b.click(); return 'ok'"
-  },
-  {
-   "wait": 3000
-  },
-  {
-   "js": "const b=[...document.querySelectorAll('button,[role=button]')].find(b=>b.offsetWidth&&/^Edit$/i.test(b.innerText.trim())); if(b){b.click(); return 'edit'} return 'noedit'",
-   "optional": true
-  },
-  {
-   "wait": 2500
-  },
-  {
-   "js": "const c=[...document.querySelectorAll('input')].filter(e=>e.offsetWidth&&e.tabIndex!==-1&&e.id!=='search-bar-input'&&!/ios-virtual/.test(e.getAttribute('data-testid')||'')&&!/Search Sprouts/i.test(e.placeholder||'')&&e.getBoundingClientRect().top>=0&&e.getBoundingClientRect().top<innerHeight); const i=c.pop(); if(!i) throw new Error('no zip input'); i.setAttribute('data-zipbox','1'); return 'tagged '+c.length+' '+(i.type||'')+' '+(i.placeholder||i.id||i.name||'')"
-  },
-  {
-   "type_sel": {
-    "sel": "[data-zipbox='1']",
-    "value": "{{store_zip}}",
-    "enter": true
-   }
-  },
-  {
-   "wait": 5000
-  },
-  {
-   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;}; const vis=e=>e&&(e.offsetWidth||e.offsetHeight); const byText=(re,sel)=>[...document.querySelectorAll(sel||'button,a,[role=button],span,div')].filter(e=>vis(e)&&e.childElementCount<3&&re.test((e.innerText||'').trim())).pop();const z=await waitFor(()=>/Near {{store_zip}}/.test(document.body.innerText),30); if(!z) throw new Error('list not updated: '+(document.body.innerText.match(/Near \\d{5}/)||[''])[0]); const b=await waitFor(()=>byText(/^Set as my store$/,'button'),10); if(!b) throw new Error('no store list: '+document.body.innerText.slice(0,200)); b.click(); return 'set'"
-  },
-  {
-   "wait": 8000
+   "wait": 2000
   },
   {
    "scroll": 4

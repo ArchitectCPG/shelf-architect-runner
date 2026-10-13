@@ -52,6 +52,16 @@ store_zip is per banner per market, not one universal zip. Zips in use: 60615 (C
 5. Clean-up check: Bright Data balance (about $54), $5 consumed alert on, auto-recharge off. Confirm nothing is spending unattended.
 6. Ask Bright Data (account manager or support chat in the dashboard) to allow these sites that are currently blocked by robots.txt in the Scraping Browser: publix.com, stopandshop.com, heb.com, bjs.com, walgreens.com. Error text to paste: "Requested URL is restricted in accordance with robots.txt. Ask your account manager to get full access for targeting this site (brob)". Until then those 5 banners are attended-only (Publix also pulls via the Instacart storefront, unpinned).
 
+## 2026-10-13 PM (Sonnet 5.5): banner mapping via cloud diagnostics, no Chrome needed
+Method: the runner dumps each site's picker (dump/js steps) and I read the committed JSON. No live browser sessions needed.
+- Hy-Vee: PINNED unattended (Sycamore IL, 61 houses). Flow: store-change button -> type zip in "City, State or Zip Code" -> first "Select" -> reload search.
+- Sprouts (own shop.sprouts.com, Instacart whitelabel): Change store -> Edit -> zip box -> "Set as my store" list. The zip box ignores scripted typing and the visible input could not be targeted (tabindex/hidden ios input trap). Parked: pulls UNPINNED (default store, flagged). Aldi shop.aldi.us is the same Instacart whitelabel, same fix will serve both.
+- Target and Walmart: use Bright Data prebuilt scrapers with a zip field instead of recipes. Target tested with 60615: clean records (brand, price, stock). Walmart "products zipcodes" scraper (gd_m693oc1r1gebnayxq, keyword + zip_code) test was still running. These need a runner lane (Actions calling the Bright Data API), not a block file.
+- Wegmans: search works via /shop/search?query=, picker input is "Enter City or Zip" then "Select"; drawer text not yet captured. Giant Eagle: "Select a Store" opens a React modal with FindYourStore input; store list not yet captured.
+- Publix, Stop & Shop, H-E-B, BJ's, Walgreens: blocked by Bright Data robots.txt policy (see loose end 6). Food Lion: site is down for maintenance (status page says use Instacart).
+- Universe: all 241 banners bucketed in UNIVERSE.md. 146 independents need a one-time probe; most are likely Instacart whitelabel (fix Sprouts/Aldi once, unlock many).
+NEXT (Sonnet is fine): (1) Instacart whitelabel picker fix (Sprouts, Aldi, then probe independents), (2) Wegmans + Giant Eagle drawer capture, (3) add Bright Data API lane for Target and Walmart, (4) full rescore into README.
+
 ## Prior session logs (kept for reference, most-recent decisions above supersede)
 
 ### Sweep 2 result (2026-10-07 ~2 PM CT, 37 banners, salsa)
