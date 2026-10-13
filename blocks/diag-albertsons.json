@@ -24,7 +24,7 @@
       "press": "Escape"
     },
     {
-      "click_sel": "#fulFillMentAddressNav",
+      "click_sel": "#fulFillMentAddressNav button, #fulFillMentAddressNav [role=button], #fulFillMentAddressNav a, #fulFillMentAddressNav",
       "optional": true
     },
     {
@@ -32,19 +32,6 @@
     },
     {
       "dump": "modal"
-    },
-    {
-      "fill": {
-        "placeholder": "zip|ZIP|address|city",
-        "value": "{{store_zip}}"
-      },
-      "optional": true
-    },
-    {
-      "wait": 5000
-    },
-    {
-      "dump": "results"
     }
   ]
 }

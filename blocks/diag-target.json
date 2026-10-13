@@ -24,24 +24,23 @@
       "press": "Escape"
     },
     {
-      "click_re": "^Store: ",
-      "optional": true
+      "click_re": "^Store: "
     },
     {
-      "wait": 3000
+      "wait": 4000
     },
     {
       "dump": "modal"
     },
     {
       "fill": {
-        "placeholder": "zip|ZIP|city|Enter",
+        "placeholder": "zip|ZIP|city|Enter|Search",
         "value": "{{store_zip}}"
       },
       "optional": true
     },
     {
-      "wait": 5000
+      "wait": 6000
     },
     {
       "dump": "results"

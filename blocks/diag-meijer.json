@@ -24,7 +24,27 @@
       "press": "Escape"
     },
     {
-      "dump": "landing"
+      "click_sel": "[data-testid=store-flyout-button]",
+      "optional": true
+    },
+    {
+      "wait": 4000
+    },
+    {
+      "dump": "flyout"
+    },
+    {
+      "fill": {
+        "placeholder": "zip|ZIP|city|Search",
+        "value": "{{store_zip}}"
+      },
+      "optional": true
+    },
+    {
+      "wait": 6000
+    },
+    {
+      "dump": "results"
     }
   ]
 }

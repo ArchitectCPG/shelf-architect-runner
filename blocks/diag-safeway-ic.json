@@ -24,7 +24,7 @@
       "press": "Escape"
     },
     {
-      "click_sel": "text=/^\\d{5}$/",
+      "click_re": "^Delivery by|^Pickup at|^\\d{5}",
       "optional": true
     },
     {
@@ -32,19 +32,6 @@
     },
     {
       "dump": "modal"
-    },
-    {
-      "fill": {
-        "placeholder": "zip|ZIP|address|Enter",
-        "value": "{{store_zip}}"
-      },
-      "optional": true
-    },
-    {
-      "wait": 5000
-    },
-    {
-      "dump": "results"
     }
   ]
 }

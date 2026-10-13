@@ -24,27 +24,25 @@
       "press": "Escape"
     },
     {
-      "click_sel": "[data-testid=CurrentModality-button]",
-      "optional": true
+      "click_sel": "[data-testid=CurrentModality-button]"
     },
     {
       "wait": 3000
     },
     {
-      "fill": {
-        "placeholder": "45201|Cincinnati|ZIP",
+      "type_sel": {
+        "sel": "[data-testid=PostalCodeSearchBox-input]",
         "value": "{{store_zip}}"
-      },
-      "optional": true
+      }
     },
     {
-      "wait": 5000
+      "wait": 6000
     },
     {
       "dump": "stores"
     },
     {
-      "click_re": "^(Select|Shop this store|Start shopping|Choose|Shop here)",
+      "click_re": "^(Select Store|Select|Shop this store|Start Shopping)",
       "optional": true
     },
     {

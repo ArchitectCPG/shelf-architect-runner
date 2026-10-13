@@ -24,7 +24,36 @@
       "press": "Escape"
     },
     {
-      "dump": "landing-all"
+      "click_re": "^Pickup or delivery"
+    },
+    {
+      "wait": 4000
+    },
+    {
+      "dump": "modal"
+    },
+    {
+      "click_re": "^Pickup$",
+      "optional": true
+    },
+    {
+      "wait": 3000
+    },
+    {
+      "dump": "pickup-tab"
+    },
+    {
+      "fill": {
+        "placeholder": "zip|ZIP|city|Enter|address",
+        "value": "{{store_zip}}"
+      },
+      "optional": true
+    },
+    {
+      "wait": 6000
+    },
+    {
+      "dump": "results"
     }
   ]
 }
