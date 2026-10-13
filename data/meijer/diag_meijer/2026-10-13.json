@@ -3,571 +3,34 @@
   "retailer": "meijer",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:38:11.283Z",
+  "pulled_at": "2026-10-13T12:43:47.697Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
   "store_set": null,
-  "url_final": "https://www.meijer.com/shopping/search.html?text=salsa",
-  "houses": [
-    {
-      "name": "4.6 out of 5 stars. 322 reviews for Pace Chunky Mild Salsa 16 oz Jar.",
-      "brand": null,
-      "price": "$2.49",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 322 reviews for Pace Chunky Mild Salsa 16 oz Jar.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.0 out of 5 stars. 27 reviews for Meijer Mild Restaurant Style Salsa 16oz.",
-      "brand": null,
-      "price": "$2.19",
-      "size": "16oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.0 out of 5 stars. 27 reviews for Meijer Mild Restaurant Style Salsa 16oz.",
-      "brand": null,
-      "price": "$2.49",
-      "size": "16oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 481 reviews for Pace Chunky Medium Salsa 16 oz Jar.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 99 reviews for Pace Restaurant Style Mild Salsa 16 oz Jar.",
-      "brand": null,
-      "price": "$2.49",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 99 reviews for Pace Restaurant Style Mild Salsa 16 oz Jar.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 4 reviews for Frederik s by Meijer Signature Salsa 16 oz.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 4 reviews for Frederik s by Meijer Signature Salsa 16 oz.",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.0 out of 5 stars. 27 reviews for Fresh from Meijer Mild Homestyle Salsa 16 oz..",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.5 out of 5 stars. 156 reviews for Pace Restaurant Style Original Recipe Medium Salsa 16 oz Jar.",
-      "brand": null,
-      "price": "$2.49",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.5 out of 5 stars. 156 reviews for Pace Restaurant Style Original Recipe Medium Salsa 16 oz Jar.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 1 review for Tostitos Chunky Salsa Mild 15.5 Oz.",
-      "brand": null,
-      "price": "$4.29",
-      "size": "15.5 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.1 out of 5 stars. 20 reviews for Fresh from Meijer Medium Homestyle Salsa 16 oz.",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.1 out of 5 stars. 15 reviews for Fresh from Meijer Cantina Style Mild Salsa 16 oz..",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "3.3 out of 5 stars. 7 reviews for Garden Fresh Gourmet Jack s Special Mild Salsa 16 oz.",
-      "brand": null,
-      "price": "$4.49",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.7 out of 5 stars. 94 reviews for MATEO S MILD GOURMET SALSA 16OZ.",
-      "brand": null,
-      "price": "$4.99",
-      "size": "16OZ",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "3.5 out of 5 stars. 10 reviews for Meijer Medium Restaurant Style Salsa 16oz.",
-      "brand": null,
-      "price": "$2.19",
-      "size": "16oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "3.5 out of 5 stars. 10 reviews for Meijer Medium Restaurant Style Salsa 16oz.",
-      "brand": null,
-      "price": "$4.29",
-      "size": "16oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 2 reviews for CHI-CHI S Restaurant Style Salsa Mild 16 OZ.",
-      "brand": null,
-      "price": "$2.49",
-      "size": "16 OZ",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 2 reviews for CHI-CHI S Restaurant Style Salsa Mild 16 OZ.",
-      "brand": null,
-      "price": "$2.19",
-      "size": "16 OZ",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.3 out of 5 stars. 16 reviews for Meijer Mild Thick Chunky Salsa 16 oz.",
-      "brand": null,
-      "price": "$2.49",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.5 out of 5 stars. 131 reviews for Pace Chunky Hot Salsa 16 oz Jar.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "2.7 out of 5 stars. 3 reviews for Garden Fresh Gourmet Jack s Special Medium Salsa 16 oz.",
-      "brand": null,
-      "price": "$4.49",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 94 reviews for MATEO S MEDIUM GOURMET SALSA 16OZ.",
-      "brand": null,
-      "price": "$4.99",
-      "size": "16OZ",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 510 reviews for Pace Chunky Medium Salsa 15 oz Jar.",
-      "brand": null,
-      "price": "$4.29",
-      "size": "15 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.3 out of 5 stars. 8 reviews for True Goodness Organic Thick Chunky Salsa Mild 16 oz.",
-      "brand": null,
-      "price": "$3.29",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.3 out of 5 stars. 8 reviews for True Goodness Organic Thick Chunky Salsa Mild 16 oz.",
-      "brand": null,
-      "price": "$2.49",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "3.7 out of 5 stars. 3 reviews for CHI-CHI S Restaurant Style Salsa Medium 16 OZ.",
-      "brand": null,
-      "price": "$4.49",
-      "size": "16 OZ",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.8 out of 5 stars. 6 reviews for Meijer Mild Thick Chunky Salsa 45 oz.",
-      "brand": null,
-      "price": "$4.49",
-      "size": "45 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.0 out of 5 stars. 2 reviews for Cholula Salsa Medium - Original.",
-      "brand": null,
-      "price": "$3.59",
-      "size": "",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.9 out of 5 stars. 7 reviews for Meijer Medium Thick Chunky Salsa 16 oz.",
-      "brand": null,
-      "price": "$2.19",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 9 reviews for Frederik s by Meijer Roasted Garlic Salsa 16 oz.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 9 reviews for Frederik s by Meijer Roasted Garlic Salsa 16 oz.",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 9 reviews for Frederik s by Meijer Roasted Garlic Salsa 16 oz.",
-      "brand": null,
-      "price": "$3.49",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.9 out of 5 stars. 12 reviews for Fresh from Meijer Sweet Heat Pineapple Salsa 16 oz..",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "3.0 out of 5 stars. 4 reviews for Meijer Mild Restaurant Style Salsa 15.5 oz.",
-      "brand": null,
-      "price": "$3.29",
-      "size": "15.5 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 8 reviews for Fresh from Meijer Cantina Style Medium Hatch Chile Salsa 16 oz..",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 8 reviews for Fresh from Meijer Cantina Style Medium Hatch Chile Salsa 16 oz..",
-      "brand": null,
-      "price": "$5.59",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "0.0 out of 5 stars. 0 reviews for CHI-CHI S Thick Chunky Salsa Medium 16 OZ.",
-      "brand": null,
-      "price": "$2.49",
-      "size": "16 OZ",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "0.0 out of 5 stars. 0 reviews for CHI-CHI S Thick Chunky Salsa Medium 16 OZ.",
-      "brand": null,
-      "price": "$4.09",
-      "size": "16 OZ",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.9 out of 5 stars. 7 reviews for Frederik s by Meijer Roasted Habanero Salsa 16 oz.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.9 out of 5 stars. 7 reviews for Frederik s by Meijer Roasted Habanero Salsa 16 oz.",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 1 review for Garden Fresh Gourmet Jack s Special Medium Salsa 32 oz.",
-      "brand": null,
-      "price": "$6.99",
-      "size": "32 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 1 review for Garden Fresh Gourmet Jack s Special Medium Salsa 32 oz.",
-      "brand": null,
-      "price": "$3.99",
-      "size": "32 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 9 reviews for Fresh from Meijer Hot Homestyle Salsa 16 oz.",
-      "brand": null,
-      "price": "$4.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.6 out of 5 stars. 321 reviews for Pace Chunky Mild Salsa 64 oz Bottle.",
-      "brand": null,
-      "price": "$8.49",
-      "size": "64 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 2 reviews for Newman s Own Chunky Medium Pineapple Salsa 16 oz.",
-      "brand": null,
-      "price": "$3.49",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 2 reviews for Chi-Chi s Restaurant Style Salsa Medium 24 Oz.",
-      "brand": null,
-      "price": "$3.99",
-      "size": "24 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "5.0 out of 5 stars. 2 reviews for Chi-Chi s Restaurant Style Salsa Medium 24 Oz.",
-      "brand": null,
-      "price": "$5.49",
-      "size": "24 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "3.7 out of 5 stars. 6 reviews for Frederik s by Meijer Sweet Peach Salsa 16 oz.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "3.7 out of 5 stars. 6 reviews for Frederik s by Meijer Sweet Peach Salsa 16 oz.",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "3.7 out of 5 stars. 6 reviews for Frederik s by Meijer Sweet Peach Salsa 16 oz.",
-      "brand": null,
-      "price": "$2.49",
-      "size": "16 oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "4.0 out of 5 stars. 2 reviews for CHI-CHI S Thick Chunky Salsa Mild 16 OZ.",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 OZ",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    }
-  ],
-  "raw_text_chars": 11625,
+  "url_final": "https://www.meijer.com/shopping/search.html?text=60615",
+  "houses": [],
+  "raw_text_chars": 2143,
   "steps": [
-    "12:38:11 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:38:12 connected to Bright Data Scraping Browser",
-    "12:38:17 goto https://www.meijer.com/shopping/search.html?text=salsa",
-    "12:38:26 captcha check passed",
-    "12:38:38 dismiss: nothing to close",
-    "12:38:39 press Escape",
-    "12:38:39 dump landing: 250 controls",
-    "12:38:39 store_set: null",
-    "12:38:39 text parser wins: 54 vs 52",
-    "12:38:40 extracted 54 houses; raw text 11625 chars"
+    "12:43:47 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "12:43:51 connected to Bright Data Scraping Browser",
+    "12:43:53 rate limited, retry 1",
+    "12:44:28 goto https://www.meijer.com/shopping/search.html?text=salsa",
+    "12:44:37 captcha check passed",
+    "12:44:52 dismiss: nothing to close",
+    "12:44:52 press Escape",
+    "12:44:55 click_sel [data-testid=store-flyout-button]",
+    "12:45:00 dump flyout: 372 controls",
+    "12:45:00 fill \"60615\"",
+    "12:45:02 press Enter",
+    "12:45:08 dump results: 152 controls",
+    "12:45:08 store_set: null",
+    "12:45:10 extracted 0 houses; raw text 2143 chars"
   ],
   "error": null,
   "controls": [
     {
-      "at": "landing",
+      "at": "flyout",
       "controls": [
         {
           "tag": "a",
@@ -661,8 +124,44 @@
         },
         {
           "tag": "button",
-          "text": "Close (Large)",
+          "text": "",
           "aria": "close",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "tabOne-tab",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Delivery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "tabTwo-tab",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "Search by Zip or City, State",
+          "tid": "ads-text-input__input",
+          "id": "[object Object]-999877685905890",
+          "href": null
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "aria": "search",
           "ph": null,
           "tid": null,
           "id": null,
@@ -1129,15 +628,6 @@
         },
         {
           "tag": "input",
-          "text": "FREDERIKS BY MEIJER",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "input",
           "text": "TRUE GOODNESS",
           "aria": null,
           "ph": null,
@@ -1148,6 +638,15 @@
         {
           "tag": "input",
           "text": "FRESH FROM MEIJER",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "FREDERIKS BY MEIJER",
           "aria": null,
           "ph": null,
           "tid": null,
@@ -2227,6 +1726,24 @@
         },
         {
           "tag": "a",
+          "text": "Garden Fresh Gourmet Jack's Special Mild Salsa, 16 oz\nOrigin",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "64767100015",
+          "href": "/shopping/product/garden-fresh-gourmet-jack-s-special-mild-salsa-16-oz/647671000"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
           "text": "Fresh from Meijer Cantina Style Mild Salsa, 16 oz.\nOriginal ",
           "aria": null,
           "ph": null,
@@ -2245,12 +1762,12 @@
         },
         {
           "tag": "a",
-          "text": "Garden Fresh Gourmet Jack's Special Mild Salsa, 16 oz\nOrigin",
+          "text": "Meijer Medium Restaurant Style Salsa, 16oz\nOriginal price\n$2",
           "aria": null,
           "ph": null,
           "tid": null,
-          "id": "64767100015",
-          "href": "/shopping/product/garden-fresh-gourmet-jack-s-special-mild-salsa-16-oz/647671000"
+          "id": "71373388859",
+          "href": "/shopping/product/meijer-medium-restaurant-style-salsa-16oz/71373388859.html"
         },
         {
           "tag": "button",
@@ -2308,24 +1825,6 @@
         },
         {
           "tag": "a",
-          "text": "Meijer Medium Restaurant Style Salsa, 16oz\nOriginal price\n$2",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "71373388859",
-          "href": "/shopping/product/meijer-medium-restaurant-style-salsa-16oz/71373388859.html"
-        },
-        {
-          "tag": "button",
-          "text": "",
-          "aria": "add to cart",
-          "ph": null,
-          "tid": "cart-button-add-cart",
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
           "text": "Tostitos Salsa Restaurant Style, 15.5 oz\nOriginal price\n$4.2",
           "aria": null,
           "ph": null,
@@ -2371,12 +1870,12 @@
         },
         {
           "tag": "a",
-          "text": "CHI-CHI'S Restaurant Style Salsa Mild, 16 OZ\nOriginal price\n",
+          "text": "Meijer Mild Thick & Chunky Salsa, 16 oz\nOriginal price\n$2.19",
           "aria": null,
           "ph": null,
           "tid": null,
-          "id": "3760028225",
-          "href": "/shopping/product/chi-chi-s-restaurant-style-salsa-mild-16-oz/3760028225.html"
+          "id": "71928383725",
+          "href": "/shopping/product/meijer-mild-thick-chunky-salsa-16-oz/71928383725.html"
         },
         {
           "tag": "button",
@@ -2389,12 +1888,12 @@
         },
         {
           "tag": "a",
-          "text": "Meijer Mild Thick & Chunky Salsa, 16 oz\nOriginal price\n$2.19",
+          "text": "CHI-CHI'S Restaurant Style Salsa Mild, 16 OZ\nOriginal price\n",
           "aria": null,
           "ph": null,
           "tid": null,
-          "id": "71928383725",
-          "href": "/shopping/product/meijer-mild-thick-chunky-salsa-16-oz/71928383725.html"
+          "id": "3760028225",
+          "href": "/shopping/product/chi-chi-s-restaurant-style-salsa-mild-16-oz/3760028225.html"
         },
         {
           "tag": "button",
@@ -2452,24 +1951,6 @@
         },
         {
           "tag": "a",
-          "text": "Garden Fresh Gourmet Sweet Onion Salsa, 16 oz\nOriginal price",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "64767100006",
-          "href": "/shopping/product/garden-fresh-gourmet-sweet-onion-salsa-16-oz/64767100006.html"
-        },
-        {
-          "tag": "button",
-          "text": "",
-          "aria": "add to cart",
-          "ph": null,
-          "tid": "cart-button-add-cart",
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
           "text": "On The Border Medium Salsa, 16 oz\nSale price\nBuy 2 for $6.00",
           "aria": null,
           "ph": null,
@@ -2488,21 +1969,12 @@
         },
         {
           "tag": "a",
-          "text": "MATEO'S MEDIUM GOURMET SALSA 16OZ\nOriginal price\n$4.99\n(94)\n",
+          "text": "Garden Fresh Gourmet Sweet Onion Salsa, 16 oz\nOriginal price",
           "aria": null,
           "ph": null,
           "tid": null,
-          "id": "85810200401",
-          "href": "/shopping/product/mateo-s-medium-gourmet-salsa-16oz/85810200401.html"
-        },
-        {
-          "tag": "button",
-          "text": "",
-          "aria": "Display a pop up to show review summary.",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
+          "id": "64767100006",
+          "href": "/shopping/product/garden-fresh-gourmet-sweet-onion-salsa-16-oz/64767100006.html"
         },
         {
           "tag": "button",
@@ -2542,12 +2014,21 @@
         },
         {
           "tag": "a",
-          "text": "Tostitos Chunky Salsa Medium, 15.5 Oz\nOriginal price\n$4.29\n(",
+          "text": "MATEO'S MEDIUM GOURMET SALSA 16OZ\nOriginal price\n$4.99\n(94)\n",
           "aria": null,
           "ph": null,
           "tid": null,
-          "id": "2840005598",
-          "href": "/shopping/product/tostitos-chunky-salsa-medium-15-5-oz/2840005598.html"
+          "id": "85810200401",
+          "href": "/shopping/product/mateo-s-medium-gourmet-salsa-16oz/85810200401.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Display a pop up to show review summary.",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
         },
         {
           "tag": "button",
@@ -2560,12 +2041,12 @@
         },
         {
           "tag": "a",
-          "text": "True Goodness Organic Thick & Chunky Salsa Mild, 16 oz\nOrigi",
+          "text": "Tostitos Chunky Salsa Medium, 15.5 Oz\nOriginal price\n$4.29\n(",
           "aria": null,
           "ph": null,
           "tid": null,
-          "id": "71373345229",
-          "href": "/shopping/product/true-goodness-organic-thick-chunky-salsa-mild-16-oz/7137334522"
+          "id": "2840005598",
+          "href": "/shopping/product/tostitos-chunky-salsa-medium-15-5-oz/2840005598.html"
         },
         {
           "tag": "button",
@@ -2596,12 +2077,12 @@
         },
         {
           "tag": "a",
-          "text": "Garden Fresh Wild Mild Salsa, 16 oz\nOriginal price\n$4.49\n(0)",
+          "text": "True Goodness Organic Thick & Chunky Salsa Mild, 16 oz\nOrigi",
           "aria": null,
           "ph": null,
           "tid": null,
-          "id": "64767100002",
-          "href": "/shopping/product/garden-fresh-wild-mild-salsa-16-oz/64767100002.html"
+          "id": "71373345229",
+          "href": "/shopping/product/true-goodness-organic-thick-chunky-salsa-mild-16-oz/7137334522"
         },
         {
           "tag": "button",
@@ -2620,6 +2101,24 @@
           "tid": null,
           "id": "7287827555",
           "href": "/shopping/product/herdez-salsa-cesara-medium-16-oz/7287827555.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Garden Fresh Wild Mild Salsa, 16 oz\nOriginal price\n$4.49\n(0)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "64767100002",
+          "href": "/shopping/product/garden-fresh-wild-mild-salsa-16-oz/64767100002.html"
         },
         {
           "tag": "button",
@@ -2722,6 +2221,24 @@
         },
         {
           "tag": "a",
+          "text": "Fresh from Meijer Cantina Style Medium Hatch Chile Salsa, 16",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "70882093869",
+          "href": "/shopping/product/fresh-from-meijer-cantina-style-medium-hatch-chile-salsa-16-oz"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
           "text": "Fresh from Meijer Sweet Heat Pineapple Salsa, 16 oz.\nOrigina",
           "aria": null,
           "ph": null,
@@ -2746,24 +2263,6 @@
           "tid": null,
           "id": "71373351702",
           "href": "/shopping/product/meijer-mild-restaurant-style-salsa-15-5-oz/71373351702.html"
-        },
-        {
-          "tag": "button",
-          "text": "",
-          "aria": "add to cart",
-          "ph": null,
-          "tid": "cart-button-add-cart",
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Fresh from Meijer Cantina Style Medium Hatch Chile Salsa, 16",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "70882093869",
-          "href": "/shopping/product/fresh-from-meijer-cantina-style-medium-hatch-chile-salsa-16-oz"
         },
         {
           "tag": "button",
@@ -2812,16 +2311,2450 @@
         },
         {
           "tag": "a",
+          "text": "Frederik's by Meijer Roasted Habanero Salsa, 16 oz\nSale pric",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "70882029398",
+          "href": "/shopping/product/frederik-s-by-meijer-roasted-habanero-salsa-16-oz/70882029398."
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
           "text": "Pace Chunky Mild Salsa, 24 oz Jar\nOriginal price\n$4.09\n(293)",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": "4156514024",
           "href": "/shopping/product/pace-chunky-mild-salsa-24-oz-jar/4156514024.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Display a pop up to show review summary.",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Garden Fresh Gourmet Jack's Special Medium Salsa, 32 oz\nOrig",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "64767160702",
+          "href": "/shopping/product/garden-fresh-gourmet-jack-s-special-medium-salsa-32-oz/6476716"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fresh from Meijer Hot Homestyle Salsa, 16 oz\nOriginal price\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "71373339648",
+          "href": "/shopping/product/fresh-from-meijer-hot-homestyle-salsa-16-oz/71373339648.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "MATEO'S GOURMET CANTINA STYLE 16OZ\nOriginal price\n$4.99\n(127",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "85810200448",
+          "href": "/shopping/product/mateo-s-gourmet-cantina-style-16oz/85810200448.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Display a pop up to show review summary.",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pace Chunky Mild Salsa, 64 oz Bottle\nOriginal price\n$8.49\n(3",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "4156514064",
+          "href": "/shopping/product/pace-chunky-mild-salsa-64-oz-bottle/4156514064.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Display a pop up to show review summary.",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Newman's Own Chunky Medium Pineapple Salsa, 16 oz\nOriginal p",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "2066200053",
+          "href": "/shopping/product/newman-s-own-chunky-medium-pineapple-salsa-16-oz/2066200053.ht"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Chi-Chi's Restaurant Style Salsa, Medium, 24 Oz\nOriginal pri",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "3760045941",
+          "href": "/shopping/product/chi-chi-s-restaurant-style-salsa-medium-24-oz/3760045941.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos Salsa Mild, 24 oz\nOriginal price\n$5.49\n(1)\n5.0 out ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "2840003281",
+          "href": "/shopping/product/tostitos-salsa-mild-24-oz/2840003281.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Herdez Salsa Verde - 16 oz\nSale price\nBuy 2 for $5.00\nSave $",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "7287827570",
+          "href": "/shopping/product/herdez-salsa-verde-16-oz/7287827570.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "CHI-CHI'S Thick & Chunky Salsa Mild, 16 OZ\nOriginal price\n$2",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "3760029538",
+          "href": "/shopping/product/chi-chi-s-thick-chunky-salsa-mild-16-oz/3760029538.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Frederik's by Meijer Sweet Peach Salsa, 16 oz\nSale price\n$2.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "70882029401",
+          "href": "/shopping/product/frederik-s-by-meijer-sweet-peach-salsa-16-oz/70882029401.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Meijer Medium Thick & Chunky Salsa, 45 oz\nOriginal price\n$4.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "70882026357",
+          "href": "/shopping/product/meijer-medium-thick-chunky-salsa-45-oz/70882026357.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "add to cart",
+          "ph": null,
+          "tid": "cart-button-add-cart",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Load More",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "See all offer details. Restrictions apply. Pricing, promotio",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shopping/index/current-promotions-and-coupon-details.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Back to top",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Customer Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com"
+        },
+        {
+          "tag": "a",
+          "text": "Food Safety",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/food-safety.html?icid=Footer:FoodSafety"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=m_kb_recall"
+        },
+        {
+          "tag": "a",
+          "text": "Returns",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=kb_article_view&sysparm_article=KB0015703"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=csp_case_help&sys_id=9c1214f747e23558d2c3b604836d"
+        },
+        {
+          "tag": "a",
+          "text": "About Our Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/privacy-policy.html?icid=Footer:FoodSafety"
+        },
+        {
+          "tag": "a",
+          "text": "Price Adjustments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=kb_article_view&sysparm_article=KB0016274"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/accessibility.html?icid=Footer:Acce"
+        },
+        {
+          "tag": "a",
+          "text": "About Meijer",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer.html?icid=Footer:AboutMeijer"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://jobs.meijer.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Community",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Newsroom",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://newsroom.meijer.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Simply Give",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/simply-give"
+        },
+        {
+          "tag": "a",
+          "text": "Team Members",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/team-members.html?icid=Footer:TeamMembers"
+        },
+        {
+          "tag": "a",
+          "text": "Inclusion & Belonging",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/inclusion-and-belonging.html?icid=F"
+        },
+        {
+          "tag": "a",
+          "text": "Environ. Stewardship",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/sustainability"
+        },
+        {
+          "tag": "a",
+          "text": "Vendor Hub",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/vendor-hub.html?icid=Footer:VendorH"
+        },
+        {
+          "tag": "a",
+          "text": "Real Estate",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/realestate.html?icid=Footer:RealEstate"
+        },
+        {
+          "tag": "a",
+          "text": "Business to Business",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/business-to-business.html?icid=Footer:B"
+        },
+        {
+          "tag": "a",
+          "text": "Fleet Service Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/fleet-card.html?icid=Footer:FleetServic"
+        },
+        {
+          "tag": "a",
+          "text": "Store Finder",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/store-finder.html?icid=Footer:StoreFinder"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/pharmacy.html?icid=Footer:Pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Meijer Express",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/meijer-express.html?icid=Footer:MeijerE"
+        },
+        {
+          "tag": "a",
+          "text": "Delivery/Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/more-ways-to-meijer.html?icid=Footer:De"
+        },
+        {
+          "tag": "a",
+          "text": "Shop & Scan",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/shop-and-scan.html?icid=Footer:ShopAndS"
+        },
+        {
+          "tag": "a",
+          "text": "New Stores",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/newstores.html?icid=Footer:NewStores"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/giftcard.html?icid=Footer:GiftCards"
+        },
+        {
+          "tag": "a",
+          "text": "Meijer Credit Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/credit-card.html?icid=Footer:MCC"
+        },
+        {
+          "tag": "a",
+          "text": "Prepaid Debit Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/Meijer-Prepaid-Debit-Cards.html?icid=Fo"
+        },
+        {
+          "tag": "a",
+          "text": "Cakes & Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/c/collections/catering-celebration-shop.html?ici"
+        },
+        {
+          "tag": "a",
+          "text": "Optical",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijeroptical.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Photo",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijerphoto.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Facebook",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.facebook.com/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Twitter",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://twitter.com/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Pinterest",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://www.pinterest.com/meijerstores/"
+        },
+        {
+          "tag": "a",
+          "text": "Youtube",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.youtube.com/user/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://instagram.com/meijerstores"
+        },
+        {
+          "tag": "a",
+          "text": "TikTok",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.tiktok.com/@meijer"
+        },
+        {
+          "tag": "button",
+          "text": "HelpArrow Down (Large)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Customer Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com"
+        },
+        {
+          "tag": "a",
+          "text": "Food Safety",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/food-safety.html?icid=Footer:FoodSafety"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=m_kb_recall"
+        },
+        {
+          "tag": "a",
+          "text": "Returns",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=kb_article_view&sysparm_article=KB0015703"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=csp_case_help&sys_id=9c1214f747e23558d2c3b604836d"
+        },
+        {
+          "tag": "a",
+          "text": "About Our Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/privacy-policy.html?icid=Footer:FoodSafety"
+        },
+        {
+          "tag": "a",
+          "text": "Price Adjustments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=kb_article_view&sysparm_article=KB0016274"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/accessibility.html?icid=Footer:Acce"
+        },
+        {
+          "tag": "button",
+          "text": "CompanyArrow Down (Large)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "About Meijer",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer.html?icid=Footer:AboutMeijer"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://jobs.meijer.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Community",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Newsroom",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://newsroom.meijer.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Simply Give",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/simply-give"
+        },
+        {
+          "tag": "a",
+          "text": "Team Members",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/team-members.html?icid=Footer:TeamMembers"
+        },
+        {
+          "tag": "a",
+          "text": "Inclusion & Belonging",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/inclusion-and-belonging.html?icid=F"
+        },
+        {
+          "tag": "a",
+          "text": "Environ. Stewardship",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/sustainability"
+        },
+        {
+          "tag": "button",
+          "text": "BusinessesArrow Down (Large)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Vendor Hub",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/vendor-hub.html?icid=Footer:VendorH"
+        },
+        {
+          "tag": "a",
+          "text": "Real Estate",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/realestate.html?icid=Footer:RealEstate"
+        },
+        {
+          "tag": "a",
+          "text": "Business to Business",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/business-to-business.html?icid=Footer:B"
+        },
+        {
+          "tag": "a",
+          "text": "Fleet Service Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/fleet-card.html?icid=Footer:FleetServic"
+        },
+        {
+          "tag": "button",
+          "text": "StoresArrow Down (Large)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Store Finder",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/store-finder.html?icid=Footer:StoreFinder"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/pharmacy.html?icid=Footer:Pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Meijer Express",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/meijer-express.html?icid=Footer:MeijerE"
+        },
+        {
+          "tag": "a",
+          "text": "Delivery/Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/more-ways-to-meijer.html?icid=Footer:De"
+        },
+        {
+          "tag": "a",
+          "text": "Shop & Scan",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/shop-and-scan.html?icid=Footer:ShopAndS"
+        },
+        {
+          "tag": "a",
+          "text": "New Stores",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/newstores.html?icid=Footer:NewStores"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/giftcard.html?icid=Footer:GiftCards"
+        },
+        {
+          "tag": "a",
+          "text": "Meijer Credit Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/credit-card.html?icid=Footer:MCC"
+        },
+        {
+          "tag": "a",
+          "text": "Prepaid Debit Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/Meijer-Prepaid-Debit-Cards.html?icid=Fo"
+        },
+        {
+          "tag": "a",
+          "text": "Cakes & Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/c/collections/catering-celebration-shop.html?ici"
+        },
+        {
+          "tag": "a",
+          "text": "Optical",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijeroptical.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Photo",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijerphoto.com/"
+        },
+        {
+          "tag": "button",
+          "text": "Connect With UsArrow Down (Large)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Facebook",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.facebook.com/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Twitter",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://twitter.com/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Pinterest",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://www.pinterest.com/meijerstores/"
+        },
+        {
+          "tag": "a",
+          "text": "Youtube",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.youtube.com/user/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://instagram.com/meijerstores"
+        },
+        {
+          "tag": "a",
+          "text": "TikTok",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.tiktok.com/@meijer"
+        },
+        {
+          "tag": "button",
+          "text": "Cookie Preferences",
+          "aria": null,
+          "ph": null,
+          "tid": "ads-link-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Terms and Conditions of Use",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/terms.html"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Center",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shopping/privacycenter.html"
+        },
+        {
+          "tag": "a",
+          "text": "FAQ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/s/"
+        },
+        {
+          "tag": "a",
+          "text": "Site Map",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shopping/sitemap.html"
+        },
+        {
+          "tag": "button",
+          "text": "Feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "nebula_div_btn",
+          "href": null
+        }
+      ]
+    },
+    {
+      "at": "results",
+      "controls": [
+        {
+          "tag": "a",
+          "text": "Skip To Main Content",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#main-content"
+        },
+        {
+          "tag": "input",
+          "text": "60615",
+          "aria": null,
+          "ph": "Search",
+          "tid": null,
+          "id": "search-input-textbox",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Clear",
+          "aria": "Clear Search Field",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Perform Search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign in",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Close (Large)",
+          "aria": "close",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign in",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Let's create one!",
+          "aria": "create account",
+          "ph": null,
+          "tid": "ads-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "...and so much more!",
+          "aria": "view mperks",
+          "ph": null,
+          "tid": "ads-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pickup\nAlpine",
+          "aria": null,
+          "ph": null,
+          "tid": "store-flyout-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "close",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "tabOne-tab",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Delivery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "tabTwo-tab",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "Search by Zip or City, State",
+          "tid": "ads-text-input__input",
+          "id": "[object Object]-370922369286807",
+          "href": null
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "aria": "search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Continue shopping",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Cart",
+          "aria": "cart 0 items in the cart",
+          "ph": null,
+          "tid": "cart-btn",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "All Departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Halloween",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Grocery",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Fresh",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Household Essentials",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pet Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Electronics",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Beauty & Personal Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Beer, Wine, & Spirits",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "HalloweenArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Good Deal DaysArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Fall HarvestArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Meijer FindsArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "GroceryArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "FreshArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "ElectronicsArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "HomeArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Pet CareArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Household EssentialsArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Beauty & Personal CareArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Beer, Wine, & SpiritsArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Health CareArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Baby & ToddlerArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "ToysArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Bulk Stock UpArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Meals Made EasyArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Clothing, Shoes, & AccessoriesArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sporting GoodsArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Our BrandsArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Home Improvement & AutoArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Garden & Outdoor LivingArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "School, Home, & Office SuppliesArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Arts, Crafts, & SewingArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Card & PartyArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Books & EntertainmentArrow Right (Small)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "mPerks",
+          "aria": null,
+          "ph": null,
+          "tid": "ads-link--button-router-link",
+          "id": null,
+          "href": "/shopping/mPerks.html?icid=Eyebrow:mPerks"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": "ads-link--button-router-link",
+          "id": null,
+          "href": "/shopping/services/pharmacy.html?icid=Eyebrow:Pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Coupons",
+          "aria": null,
+          "ph": null,
+          "tid": "ads-link--button-router-link",
+          "id": null,
+          "href": "/shopping/coupons.html?icid=Eyebrow:Coupons"
+        },
+        {
+          "tag": "a",
+          "text": "Weekly Ad",
+          "aria": null,
+          "ph": null,
+          "tid": "ads-link--button-router-link",
+          "id": null,
+          "href": "/shopping/weeklyad.html?icid=Eyebrow:WeeklyAd"
+        },
+        {
+          "tag": "a",
+          "text": "Services",
+          "aria": null,
+          "ph": null,
+          "tid": "ads-link--button-router-link",
+          "id": null,
+          "href": "/shopping/services.html?icid=Eyebrow:Services"
+        },
+        {
+          "tag": "a",
+          "text": "Meijer Photo",
+          "aria": null,
+          "ph": null,
+          "tid": "ads-link",
+          "id": null,
+          "href": "https://www.meijerphoto.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Credit Card",
+          "aria": null,
+          "ph": null,
+          "tid": "ads-link--button-router-link",
+          "id": null,
+          "href": "/shopping/services/credit-card.html?icid=Eyebrow:MCC"
+        },
+        {
+          "tag": "a",
+          "text": "Meijer",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shopping/home.html"
+        },
+        {
+          "tag": "a",
+          "text": "1-877-E-MEIJER (1-877-363-4537)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "tel:1-(877)-363-4537"
+        },
+        {
+          "tag": "a",
+          "text": "https://help.meijer.com/",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/"
+        },
+        {
+          "tag": "a",
+          "text": "see all departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/departments.html"
+        },
+        {
+          "tag": "a",
+          "text": "See all offer details. Restrictions apply. Pricing, promotio",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shopping/index/current-promotions-and-coupon-details.html"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Back to top",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Customer Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com"
+        },
+        {
+          "tag": "a",
+          "text": "Food Safety",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/food-safety.html?icid=Footer:FoodSafety"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=m_kb_recall"
+        },
+        {
+          "tag": "a",
+          "text": "Returns",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=kb_article_view&sysparm_article=KB0015703"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=csp_case_help&sys_id=9c1214f747e23558d2c3b604836d"
+        },
+        {
+          "tag": "a",
+          "text": "About Our Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/privacy-policy.html?icid=Footer:FoodSafety"
+        },
+        {
+          "tag": "a",
+          "text": "Price Adjustments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=kb_article_view&sysparm_article=KB0016274"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/accessibility.html?icid=Footer:Acce"
+        },
+        {
+          "tag": "a",
+          "text": "About Meijer",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer.html?icid=Footer:AboutMeijer"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://jobs.meijer.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Community",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Newsroom",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://newsroom.meijer.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Simply Give",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/simply-give"
+        },
+        {
+          "tag": "a",
+          "text": "Team Members",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/team-members.html?icid=Footer:TeamMembers"
+        },
+        {
+          "tag": "a",
+          "text": "Inclusion & Belonging",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/inclusion-and-belonging.html?icid=F"
+        },
+        {
+          "tag": "a",
+          "text": "Environ. Stewardship",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/sustainability"
+        },
+        {
+          "tag": "a",
+          "text": "Vendor Hub",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/vendor-hub.html?icid=Footer:VendorH"
+        },
+        {
+          "tag": "a",
+          "text": "Real Estate",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/realestate.html?icid=Footer:RealEstate"
+        },
+        {
+          "tag": "a",
+          "text": "Business to Business",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/business-to-business.html?icid=Footer:B"
+        },
+        {
+          "tag": "a",
+          "text": "Fleet Service Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/fleet-card.html?icid=Footer:FleetServic"
+        },
+        {
+          "tag": "a",
+          "text": "Store Finder",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/store-finder.html?icid=Footer:StoreFinder"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/pharmacy.html?icid=Footer:Pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Meijer Express",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/meijer-express.html?icid=Footer:MeijerE"
+        },
+        {
+          "tag": "a",
+          "text": "Delivery/Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/more-ways-to-meijer.html?icid=Footer:De"
+        },
+        {
+          "tag": "a",
+          "text": "Shop & Scan",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/shop-and-scan.html?icid=Footer:ShopAndS"
+        },
+        {
+          "tag": "a",
+          "text": "New Stores",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/newstores.html?icid=Footer:NewStores"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/giftcard.html?icid=Footer:GiftCards"
+        },
+        {
+          "tag": "a",
+          "text": "Meijer Credit Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/credit-card.html?icid=Footer:MCC"
+        },
+        {
+          "tag": "a",
+          "text": "Prepaid Debit Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/Meijer-Prepaid-Debit-Cards.html?icid=Fo"
+        },
+        {
+          "tag": "a",
+          "text": "Cakes & Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/c/collections/catering-celebration-shop.html?ici"
+        },
+        {
+          "tag": "a",
+          "text": "Optical",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijeroptical.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Photo",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijerphoto.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Facebook",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.facebook.com/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Twitter",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://twitter.com/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Pinterest",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://www.pinterest.com/meijerstores/"
+        },
+        {
+          "tag": "a",
+          "text": "Youtube",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.youtube.com/user/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://instagram.com/meijerstores"
+        },
+        {
+          "tag": "a",
+          "text": "TikTok",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.tiktok.com/@meijer"
+        },
+        {
+          "tag": "button",
+          "text": "HelpArrow Down (Large)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Customer Care",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com"
+        },
+        {
+          "tag": "a",
+          "text": "Food Safety",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/food-safety.html?icid=Footer:FoodSafety"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=m_kb_recall"
+        },
+        {
+          "tag": "a",
+          "text": "Returns",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=kb_article_view&sysparm_article=KB0015703"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=csp_case_help&sys_id=9c1214f747e23558d2c3b604836d"
+        },
+        {
+          "tag": "a",
+          "text": "About Our Ads",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/privacy-policy.html?icid=Footer:FoodSafety"
+        },
+        {
+          "tag": "a",
+          "text": "Price Adjustments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/csp?id=kb_article_view&sysparm_article=KB0016274"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/accessibility.html?icid=Footer:Acce"
+        },
+        {
+          "tag": "button",
+          "text": "CompanyArrow Down (Large)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "About Meijer",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer.html?icid=Footer:AboutMeijer"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://jobs.meijer.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Community",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Newsroom",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://newsroom.meijer.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Simply Give",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/simply-give"
+        },
+        {
+          "tag": "a",
+          "text": "Team Members",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/team-members.html?icid=Footer:TeamMembers"
+        },
+        {
+          "tag": "a",
+          "text": "Inclusion & Belonging",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/inclusion-and-belonging.html?icid=F"
+        },
+        {
+          "tag": "a",
+          "text": "Environ. Stewardship",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://meijercommunity.com/sustainability"
+        },
+        {
+          "tag": "button",
+          "text": "BusinessesArrow Down (Large)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Vendor Hub",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/about-meijer/vendor-hub.html?icid=Footer:VendorH"
+        },
+        {
+          "tag": "a",
+          "text": "Real Estate",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/realestate.html?icid=Footer:RealEstate"
+        },
+        {
+          "tag": "a",
+          "text": "Business to Business",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/business-to-business.html?icid=Footer:B"
+        },
+        {
+          "tag": "a",
+          "text": "Fleet Service Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/fleet-card.html?icid=Footer:FleetServic"
+        },
+        {
+          "tag": "button",
+          "text": "StoresArrow Down (Large)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Store Finder",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/store-finder.html?icid=Footer:StoreFinder"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/pharmacy.html?icid=Footer:Pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Meijer Express",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/meijer-express.html?icid=Footer:MeijerE"
+        },
+        {
+          "tag": "a",
+          "text": "Delivery/Pickup",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/more-ways-to-meijer.html?icid=Footer:De"
+        },
+        {
+          "tag": "a",
+          "text": "Shop & Scan",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/shop-and-scan.html?icid=Footer:ShopAndS"
+        },
+        {
+          "tag": "a",
+          "text": "New Stores",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/newstores.html?icid=Footer:NewStores"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/giftcard.html?icid=Footer:GiftCards"
+        },
+        {
+          "tag": "a",
+          "text": "Meijer Credit Card",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/credit-card.html?icid=Footer:MCC"
+        },
+        {
+          "tag": "a",
+          "text": "Prepaid Debit Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/services/Meijer-Prepaid-Debit-Cards.html?icid=Fo"
+        },
+        {
+          "tag": "a",
+          "text": "Cakes & Deli",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/c/collections/catering-celebration-shop.html?ici"
+        },
+        {
+          "tag": "a",
+          "text": "Optical",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijeroptical.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Photo",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijerphoto.com/"
+        },
+        {
+          "tag": "button",
+          "text": "Connect With UsArrow Down (Large)",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Facebook",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.facebook.com/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Twitter",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://twitter.com/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Pinterest",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://www.pinterest.com/meijerstores/"
+        },
+        {
+          "tag": "a",
+          "text": "Youtube",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.youtube.com/user/meijer"
+        },
+        {
+          "tag": "a",
+          "text": "Instagram",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://instagram.com/meijerstores"
+        },
+        {
+          "tag": "a",
+          "text": "TikTok",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.tiktok.com/@meijer"
+        },
+        {
+          "tag": "button",
+          "text": "Cookie Preferences",
+          "aria": null,
+          "ph": null,
+          "tid": "ads-link-button",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Terms and Conditions of Use",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.meijer.com/shopping/terms.html"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Center",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shopping/privacycenter.html"
+        },
+        {
+          "tag": "a",
+          "text": "FAQ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.meijer.com/s/"
+        },
+        {
+          "tag": "a",
+          "text": "Site Map",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shopping/sitemap.html"
+        },
+        {
+          "tag": "button",
+          "text": "Feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "nebula_div_btn",
+          "href": null
         }
       ]
     }
   ],
-  "houses_text": 54,
-  "houses_dom": 52
+  "houses_text": 0
 }

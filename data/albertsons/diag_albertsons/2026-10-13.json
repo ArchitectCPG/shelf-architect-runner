@@ -3,7 +3,7 @@
   "retailer": "albertsons",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:37:16.171Z",
+  "pulled_at": "2026-10-13T12:42:52.589Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -481,22 +481,19 @@
       "via": "text"
     }
   ],
-  "raw_text_chars": 9233,
+  "raw_text_chars": 8911,
   "steps": [
-    "12:37:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:37:16 connected to Bright Data Scraping Browser",
-    "12:37:26 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
-    "12:37:34 captcha check passed",
-    "12:37:43 dismissed \"Continue with all\"",
-    "12:37:43 press Escape",
-    "12:37:46 click_sel #fulFillMentAddressNav",
-    "12:37:52 dump modal: 250 controls",
-    "12:37:53 fill \"60615\"",
-    "12:37:53 press Enter",
-    "12:37:58 dump results: 250 controls",
-    "12:37:58 store_set: null",
-    "12:37:58 text parser wins: 47 vs 0",
-    "12:37:59 extracted 47 houses; raw text 9233 chars"
+    "12:42:52 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "12:42:54 connected to Bright Data Scraping Browser",
+    "12:43:06 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
+    "12:43:14 captcha check passed",
+    "12:43:23 dismissed \"Continue with all\"",
+    "12:43:23 press Escape",
+    "12:43:26 click_sel #fulFillMentAddressNav button, #fulFillMentAddressNav [role=button], #fulFillMentAddressNav a, #fulFillMentAddressNav",
+    "12:43:30 dump modal: 500 controls",
+    "12:43:31 store_set: null",
+    "12:43:33 text parser wins: 47 vs 0",
+    "12:43:33 extracted 47 houses; raw text 8911 chars"
   ],
   "error": null,
   "controls": [
@@ -2752,25 +2749,137 @@
           "tid": null,
           "id": null,
           "href": "/shop/aisles/personal-care-health/hair-care.html?loc=177"
-        }
-      ]
-    },
-    {
-      "at": "results",
-      "controls": [
+        },
         {
           "tag": "a",
-          "text": "View supported browsers",
-          "aria": "Here Link redirects you to Microsoft Edge page",
+          "text": "Personal & Adult Care",
+          "aria": "Personal & Adult Care link",
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "https://www.albertsons.com/lp/supported-browsers.html"
+          "href": "/shop/aisles/personal-care-health/personal-adult-care.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Oral Hygiene",
+          "aria": "Oral Hygiene link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/oral-hygiene.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Pain Relief",
+          "aria": "Pain Relief link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/pain-relief.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Pantyhose & Apparel",
+          "aria": "Pantyhose & Apparel link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/pantyhose-apparel.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Shave Needs",
+          "aria": "Shave Needs link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/shave-needs.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Skin Care & Cosmetics",
+          "aria": "Skin Care & Cosmetics link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/skin-care-cosmetics.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "First Aid & Medical Care",
+          "aria": "First Aid & Medical Care link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/first-aid-medical-care.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Trial Size",
+          "aria": "Trial Size link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/trial-size.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Health Care & Apothecary",
+          "aria": "Health Care & Apothecary link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/health-care-apothecary.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Cold & Allergy",
+          "aria": "Cold & Allergy link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/cold-allergy.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Deodorants",
+          "aria": "Deodorants link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/deodorants.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Eye & Ear Care",
+          "aria": "Eye & Ear Care link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/eye-ear-care.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Family Planning",
+          "aria": "Family Planning link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/family-planning.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Feminine Care",
+          "aria": "Feminine Care link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/personal-care-health/feminine-care.html?loc=177"
         },
         {
           "tag": "button",
-          "text": "✕",
-          "aria": "Close",
+          "text": "Shop now",
+          "aria": "Click to shop for personal care products.",
           "ph": null,
           "tid": null,
           "id": null,
@@ -2778,170 +2887,485 @@
         },
         {
           "tag": "a",
-          "text": "Skip to search",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "skipToSearchContent",
-          "href": "#"
-        },
-        {
-          "tag": "a",
-          "text": "Skip to main content",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "skipToMainContent",
-          "href": "#"
-        },
-        {
-          "tag": "a",
-          "text": "Skip to cookie settings",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "skipToCookieConsent",
-          "href": "#"
-        },
-        {
-          "tag": "a",
-          "text": "Skip to chat",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "skipToChat",
-          "href": "#"
-        },
-        {
-          "tag": "a",
-          "text": "Grocery",
-          "aria": "Grocery (opens in a new tab)",
+          "text": "Pet Care",
+          "aria": "",
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "https://www.albertsons.com"
-        },
-        {
-          "tag": "a",
-          "text": "Health",
-          "aria": "Health (opens in a new tab)",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/health.html"
-        },
-        {
-          "tag": "a",
-          "text": "Pharmacy",
-          "aria": "Pharmacy (opens in a new tab)",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/pharmacy.html?utm_source=groceryIngress"
-        },
-        {
-          "tag": "a",
-          "text": "For Business",
-          "aria": "For Business (opens in a new tab)",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "https://business.albertsons.com"
-        },
-        {
-          "tag": "button",
-          "text": "",
-          "aria": "Navigation menu",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "",
-          "aria": "albertsons Homepage",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/"
-        },
-        {
-          "tag": "button",
-          "text": "Got it",
-          "aria": "Got it",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "div",
-          "text": "4700 N Eagle Rd",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "fulFillMentAddressNav",
-          "href": null
-        },
-        {
-          "tag": "button",
-          "text": "Got it",
-          "aria": "Got it",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Hours & info",
-          "aria": "Store hours & info",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "https://local.albertsons.com/search.html"
-        },
-        {
-          "tag": "input",
-          "text": "salsa",
-          "aria": "Search combobox editable has autocomplete search everything at albertsons online in store",
-          "ph": "Search products and recipes",
-          "tid": null,
-          "id": "skip-main-content",
-          "href": null
-        },
-        {
-          "tag": "button",
-          "text": "",
-          "aria": "clear search",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Sign in",
-          "aria": "Account menu",
-          "ph": null,
-          "tid": null,
-          "id": "auth_signin_link",
           "href": "javascript:void(0)"
         },
         {
           "tag": "a",
-          "text": "",
-          "aria": "Shopping Cart",
+          "text": "All Pet Care",
+          "aria": "All Pet Care link",
           "ph": null,
           "tid": null,
-          "id": "abCart",
-          "href": "javascript:;"
+          "id": null,
+          "href": "/shop/mf/aisles/pet-care?loc=177"
         },
         {
-          "tag": "div",
-          "text": "",
-          "aria": "Close account menu",
+          "tag": "a",
+          "text": "Cat Care",
+          "aria": "Cat Care link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/pet-care/cat-care.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Dog Care",
+          "aria": "Dog Care link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/pet-care/dog-care.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Small Animal Care",
+          "aria": "Small Animal Care link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/pet-care/small-animal-care.html?loc=177"
+        },
+        {
+          "tag": "button",
+          "text": "Try again",
+          "aria": "Try again",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "All Recipes",
+          "aria": "Recipes link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/recipes"
+        },
+        {
+          "tag": "a",
+          "text": "Meals Hub",
+          "aria": "Click to view Meals Hub link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/meal-plans-recipes"
+        },
+        {
+          "tag": "a",
+          "text": "Carb-Conscious",
+          "aria": "Click to view Carb-Conscious recipes link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/recipes/diet/carb-conscious"
+        },
+        {
+          "tag": "a",
+          "text": "Keto-Friendly",
+          "aria": "Click to view Keto-Friendly recipes link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/recipes/diet/keto-friendly"
+        },
+        {
+          "tag": "a",
+          "text": "Flexitarian",
+          "aria": "Click to view Flexitarian recipes link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/recipes/diet/flexitarian"
+        },
+        {
+          "tag": "a",
+          "text": "Paleo-Friendly",
+          "aria": "Click to view Paleo-Friendly recipes link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/recipes/diet/paleo-friendly"
+        },
+        {
+          "tag": "a",
+          "text": "Vegetarian",
+          "aria": "Click to view Vegetarian  recipes link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/recipes/diet/vegetarian"
+        },
+        {
+          "tag": "a",
+          "text": "Pescatarian",
+          "aria": "Click to view Pescatarian recipes link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/recipes/diet/pescatarian"
+        },
+        {
+          "tag": "a",
+          "text": "Vegan",
+          "aria": "Click to view Vegan recipes link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/recipes/diet/vegan"
+        },
+        {
+          "tag": "button",
+          "text": "Try again",
+          "aria": "Try again",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Flowers & gifts",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "javascript:void(0)"
+        },
+        {
+          "tag": "a",
+          "text": "All Flowers, Cards, Occasion",
+          "aria": "All Flowers, Cards, Occasion link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/mf/aisles/flowers-cards-occasion?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Flowers",
+          "aria": "Flowers link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/flowers-cards-occasion/flowers.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Decor",
+          "aria": "Decor link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/flowers-cards-occasion/decor.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Greeting Cards",
+          "aria": "Greeting Cards link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/flowers-cards-occasion/greeting-cards.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Candles, Gift Bag, Wrap",
+          "aria": "Candles, Gift Bag, Wrap link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/flowers-cards-occasion/candles-gift-bag-wrap.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Seasonal Items",
+          "aria": "Seasonal Items link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/flowers-cards-occasion/seasonal-items.html?loc=177"
+        },
+        {
+          "tag": "a",
+          "text": "Party Supplies",
+          "aria": "Party Supplies link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/aisles/flowers-cards-occasion/party-supplies.html?loc=177"
+        },
+        {
+          "tag": "button",
+          "text": "Shop now",
+          "aria": "Click to shop now for celebration products",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "javascript:void(0)"
+        },
+        {
+          "tag": "a",
+          "text": "Gift Cards",
+          "aria": "Click to view gift cards link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://albertsons.thegiftcardshop.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Diets",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "javascript:void(0)"
+        },
+        {
+          "tag": "a",
+          "text": "All Diets",
+          "aria": "Specialty Diets Products link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/specialty-diets.html"
+        },
+        {
+          "tag": "a",
+          "text": "Keto-friendly",
+          "aria": "Keto-friendly products link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/specialty-diets/keto-diet.html"
+        },
+        {
+          "tag": "a",
+          "text": "Vegan",
+          "aria": "Vegan products link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/specialty-diets/vegan-diet.html"
+        },
+        {
+          "tag": "a",
+          "text": "Plant-based",
+          "aria": "Plant-based products link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/specialty-diets/plant-based-diet.html"
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free",
+          "aria": "Gluten-free products link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/specialty-diets/gluten-free-diet.html"
+        },
+        {
+          "tag": "a",
+          "text": "Dairy-free",
+          "aria": "Dairy-free products link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/specialty-diets/dairy-free-diet.html"
+        },
+        {
+          "tag": "a",
+          "text": "Paleo-friendly",
+          "aria": "Paleo-friendly products link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/specialty-diets/paleo-diet.html"
+        },
+        {
+          "tag": "a",
+          "text": "Sale",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "javascript:void(0)"
+        },
+        {
+          "tag": "a",
+          "text": "All Sale",
+          "aria": "Click to view Sale Price products link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/deals/sale-prices.html"
+        },
+        {
+          "tag": "a",
+          "text": "Promo code deals",
+          "aria": "Promo Code Deals link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/deals/promo-code-deals.html"
+        },
+        {
+          "tag": "a",
+          "text": "Buy One Get One Free",
+          "aria": "Click to view Buy One Get One Free offers link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/deals/buy-one-get-one-free.html"
+        },
+        {
+          "tag": "a",
+          "text": "Sale Prices",
+          "aria": "Click to view Sale prices  link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/deals/sale-prices.html"
+        },
+        {
+          "tag": "a",
+          "text": "Our Brands",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "javascript:void(0)"
+        },
+        {
+          "tag": "a",
+          "text": "All Our Brands",
+          "aria": "Our Brands link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/about-us/our-brands.html"
+        },
+        {
+          "tag": "a",
+          "text": "O Organics®",
+          "aria": " O Organics® link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/o-organics-organic.html"
+        },
+        {
+          "tag": "a",
+          "text": "Open Nature®",
+          "aria": "Open Nature® link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/open-nature-natural.html"
+        },
+        {
+          "tag": "a",
+          "text": "Signature Select®",
+          "aria": "Signature Select®  link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/signature-select-cafe-reserve.html"
+        },
+        {
+          "tag": "a",
+          "text": "Lucerne®",
+          "aria": "Lucerne® link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/lucerne.html"
+        },
+        {
+          "tag": "a",
+          "text": "Waterfront Bistro®",
+          "aria": "Waterfront Bistro® link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/waterfrontbistro.html"
+        },
+        {
+          "tag": "a",
+          "text": "Primo Taglio®",
+          "aria": "Primo Taglio® link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/primo-taglio.html"
+        },
+        {
+          "tag": "a",
+          "text": "Value Corner®",
+          "aria": "Value Corner® link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/value-corner.html"
+        },
+        {
+          "tag": "a",
+          "text": "Soleil™",
+          "aria": "Soleil™ link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/soleil.html"
+        },
+        {
+          "tag": "a",
+          "text": "ReadyMeals®",
+          "aria": "ReadyMeals® link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/readymeals.html"
+        },
+        {
+          "tag": "a",
+          "text": "Chef's Counter",
+          "aria": "Chef's Counter link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/chefs-counter.html"
+        },
+        {
+          "tag": "a",
+          "text": "Overjoyed®",
+          "aria": "Overjoyed® link",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/overjoyed.html"
+        },
+        {
+          "tag": "button",
+          "text": "Shop now",
+          "aria": "Click to shop for fall seasonal flavors.",
           "ph": null,
           "tid": null,
           "id": null,
@@ -2949,8 +3373,8 @@
         },
         {
           "tag": "button",
-          "text": "",
-          "aria": "close account menu",
+          "text": "Try again",
+          "aria": "Try again",
           "ph": null,
           "tid": null,
           "id": null,
@@ -2958,165 +3382,39 @@
         },
         {
           "tag": "a",
-          "text": "Sign In",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "sign-in-modal-link",
-          "href": "#"
-        },
-        {
-          "tag": "a",
-          "text": "Create Account",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "creat-account-modal-link",
-          "href": "#"
-        },
-        {
-          "tag": "a",
-          "text": "My account",
+          "text": "Halloween 🎃",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/customer-account/account-dashboard"
+          "href": "/order/fall/halloween-candy-and-pumpkins.html"
         },
         {
           "tag": "a",
-          "text": "Buy It Again",
-          "aria": null,
+          "text": "Deals forU",
+          "aria": "Deals forU",
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/shop/purchases/buy-it-again.html"
+          "href": "/loyalty/coupons-deals"
         },
         {
           "tag": "a",
-          "text": "Purchases",
-          "aria": null,
+          "text": "Weekly Ad",
+          "aria": "Weekly Ad",
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/order-account/orders"
+          "href": "/weeklyad"
         },
         {
           "tag": "a",
-          "text": "Manage Schedule & Save",
-          "aria": null,
+          "text": "Albertsons AI",
+          "aria": "click to view Albertsons AI",
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/schedule-and-save/manage"
-        },
-        {
-          "tag": "a",
-          "text": "Profile & preferences",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/customer-account/account-settings"
-        },
-        {
-          "tag": "a",
-          "text": "Family members",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/customer-account/family-members"
-        },
-        {
-          "tag": "a",
-          "text": "Points & rewards",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/customer-account/rewards"
-        },
-        {
-          "tag": "a",
-          "text": "Refer & earn",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/customer-account/refer-program"
-        },
-        {
-          "tag": "a",
-          "text": "Wallet",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/customer-account/payment"
-        },
-        {
-          "tag": "a",
-          "text": "Albertsons forU+",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/foruplus"
-        },
-        {
-          "tag": "a",
-          "text": "My List",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/loyalty/mylist"
-        },
-        {
-          "tag": "a",
-          "text": "Contact Us",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/help/home"
-        },
-        {
-          "tag": "a",
-          "text": "Sign Out",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "javascript:;"
-        },
-        {
-          "tag": "div",
-          "text": "Close",
-          "aria": "Close menu",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "div",
-          "text": "4700 N Eagle Rd",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": "fulFillMentAddressNavMobile",
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Hours & info",
-          "aria": "Store hours & info",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "https://local.albertsons.com/search.html"
+          "href": "/assistant/"
         },
         {
           "tag": "button",
@@ -4701,312 +4999,6 @@
           "tid": null,
           "id": null,
           "href": "javascript:void(0)"
-        },
-        {
-          "tag": "a",
-          "text": "All Baby Care",
-          "aria": "All Baby Care link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/mf/aisles/baby-care?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Baby Accessories",
-          "aria": "Baby Accessories link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/baby-care/baby-accessories.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Baby Bath & Skin Care",
-          "aria": "Baby Bath & Skin Care link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/baby-care/baby-bath-skin-care.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Diapers & Wipes",
-          "aria": "Diapers & Wipes link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/baby-care/diapers-wipes.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Formula & Baby Food",
-          "aria": "Formula & Baby Food link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/baby-care/formula-baby-food.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Nutrition & Wellness",
-          "aria": "",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "javascript:void(0)"
-        },
-        {
-          "tag": "a",
-          "text": "All Nutrition & Wellness",
-          "aria": "All Nutrition & Wellness link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/mf/aisles/nutrition-wellness?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Adult Nutrition",
-          "aria": "Adult Nutrition link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/nutrition-wellness/adult-nutrition.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Diabetes Management",
-          "aria": "Diabetes Management link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/nutrition-wellness/diabetes-management.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Herbal Supplements",
-          "aria": "Herbal Supplements link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/nutrition-wellness/herbal-supplements.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Protein Supplements",
-          "aria": "Protein Supplements link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/nutrition-wellness/protein-supplements.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Specialty Supplements",
-          "aria": "Specialty Supplements link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/nutrition-wellness/specialty-supplements.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Vitamins & Minerals",
-          "aria": "Vitamins & Minerals link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/nutrition-wellness/vitamins-minerals.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Weight Management",
-          "aria": "Weight Management link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/nutrition-wellness/weight-management.html?loc=177"
-        },
-        {
-          "tag": "button",
-          "text": "Shop now",
-          "aria": "Nourish Your Body",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Paper, Cleaning & Home",
-          "aria": "",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "javascript:void(0)"
-        },
-        {
-          "tag": "a",
-          "text": "All Paper, Cleaning & Home",
-          "aria": "All Paper, Cleaning & Home link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/mf/aisles/paper-cleaning-home?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Fire Logs & BBQ Needs",
-          "aria": "Fire Logs & BBQ Needs link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/fire-logs-bbq-needs.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Air Fresheners & Candles",
-          "aria": "Air Fresheners & Candles link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/air-fresheners-candles.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Kitchen Accessories",
-          "aria": "Kitchen Accessories link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/kitchen-accessories.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Paper Products",
-          "aria": "Paper Products link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/paper-products.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Plastic, Foil & Storage",
-          "aria": "Plastic, Foil & Storage link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/plastic-foil-storage.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Tableware & Trash Bags",
-          "aria": "Tableware & Trash Bags link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/tableware-trash-bags.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Magazines, Books & Media",
-          "aria": "Magazines, Books & Media link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/magazines-books-media.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Shoe Care",
-          "aria": "Shoe Care link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/shoe-care.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Dish Detergents",
-          "aria": "Dish Detergents link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/dish-detergents.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Laundry",
-          "aria": "Laundry link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/laundry.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Hardware & Home Needs",
-          "aria": "Hardware & Home Needs link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/hardware-home-needs.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Cleaners & Supplies",
-          "aria": "Cleaners & Supplies link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/paper-cleaning-home/cleaners-supplies.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Personal Care & Health",
-          "aria": "",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "javascript:void(0)"
-        },
-        {
-          "tag": "a",
-          "text": "All Personal Care & Health",
-          "aria": "All Personal Care & Health link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/mf/aisles/personal-care-health?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Antacid & Digestive Aids",
-          "aria": "Antacid & Digestive Aids link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/personal-care-health/antacid-digestive-aids.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Foot Care",
-          "aria": "Foot Care link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/personal-care-health/foot-care.html?loc=177"
-        },
-        {
-          "tag": "a",
-          "text": "Hair Care",
-          "aria": "Hair Care link",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/shop/aisles/personal-care-health/hair-care.html?loc=177"
         }
       ]
     }
