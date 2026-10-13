@@ -1,0 +1,30 @@
+{
+  "block_id": "diag/kroger",
+  "retailer": "kroger",
+  "zip": "diag",
+  "neighborhood": "salsa",
+  "store_zip": "60615",
+  "no_reload": true,
+  "steps": [
+    {
+      "goto": "https://www.kroger.com/search?query=salsa"
+    },
+    {
+      "wait": 7000
+    },
+    {
+      "dismiss": [
+        "Close",
+        "No thanks",
+        "Not now",
+        "Continue"
+      ]
+    },
+    {
+      "press": "Escape"
+    },
+    {
+      "dump": "landing"
+    }
+  ]
+}

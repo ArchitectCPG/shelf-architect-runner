@@ -1,0 +1,30 @@
+{
+  "block_id": "diag/albertsons",
+  "retailer": "albertsons",
+  "zip": "diag",
+  "neighborhood": "salsa",
+  "store_zip": "60615",
+  "no_reload": true,
+  "steps": [
+    {
+      "goto": "https://www.albertsons.com/shop/search-results.html?q=salsa"
+    },
+    {
+      "wait": 7000
+    },
+    {
+      "dismiss": [
+        "Close",
+        "No thanks",
+        "Not now",
+        "Continue"
+      ]
+    },
+    {
+      "press": "Escape"
+    },
+    {
+      "dump": "landing"
+    }
+  ]
+}
