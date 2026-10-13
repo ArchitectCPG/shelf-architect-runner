@@ -3,33 +3,530 @@
   "retailer": "tomthumb",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T13:47:38.950Z",
+  "pulled_at": "2026-10-13T13:58:11.185Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "75205",
   "store_set": "3878 Oaklawn Ave #18",
   "url_final": "https://www.tomthumb.com/shop/search-results.html?q=salsa",
-  "houses": [],
-  "raw_text_chars": 962,
+  "houses": [
+    {
+      "name": "Mateos Gourmet Salsa Medium Jar - 16 Oz",
+      "brand": "price per",
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960160538?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/mateos-gourmet-salsa-medium-jar-16-oz/960160538",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per",
+        "( / )",
+        "Mateos Gourmet Salsa Medium Jar - 16 Oz",
+        "Rated 4.8 out of 5, 4 reviews",
+        "4"
+      ]
+    },
+    {
+      "name": "Pace Chunky Mild Salsa - 16 Oz",
+      "brand": "price per",
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/127100031?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/pace-chunky-mild-salsa-16-oz/127100031",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.49 each",
+        "$3.49",
+        "price per",
+        "( / )",
+        "Pace Chunky Mild Salsa - 16 Oz",
+        "Rated 4.6 out of 5, 330 reviews",
+        "330"
+      ]
+    },
+    {
+      "name": "Fresh Cut Pico De Gallo - Each",
+      "brand": "price per",
+      "price": "$4.99",
+      "size": "",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960131384?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/fresh-cut-pico-de-gallo-each/960131384",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per",
+        "( / )",
+        "Fresh Cut Pico De Gallo - Each",
+        "Rated 4.3 out of 5, 94 reviews",
+        "94"
+      ]
+    },
+    {
+      "name": "Alberts Famous Mexican Hot Sauce Mild Salsa - 16 OZ",
+      "brand": "price per",
+      "price": "$5.99",
+      "size": "16 OZ",
+      "img": "https://images.albertsons-media.com/is/image/ABS/971076983?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/alberts-famous-mexican-hot-sauce-mild-salsa-16-oz/971076983",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per",
+        "( / )",
+        "Alberts Famous Mexican Hot Sauce Mild Salsa - 16 OZ"
+      ]
+    },
+    {
+      "name": "Mateos Gourmet Salsa Mild Jar - 16 Oz",
+      "brand": "price per",
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960160539?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/mateos-gourmet-salsa-mild-jar-16-oz/960160539",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per",
+        "( / )",
+        "Mateos Gourmet Salsa Mild Jar - 16 Oz",
+        "Rated 5.0 out of 5, 2 reviews",
+        "2"
+      ]
+    },
+    {
+      "name": "Signature SELECT Chipotle Salsa Medium Jar - 24 Oz",
+      "brand": "price per",
+      "price": "$4.49",
+      "size": "24 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/127100658?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/signature-select-chipotle-salsa-medium-jar-24-oz/127100658",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.49 each",
+        "$4.49",
+        "price per",
+        "( / )",
+        "Signature SELECT Chipotle Salsa Medium Jar - 24 Oz",
+        "Rated 4.9 out of 5, 77 reviews",
+        "77"
+      ]
+    },
+    {
+      "name": "Signature SELECT Chunky Classic Mild Salsa Jar - 16 Oz",
+      "brand": "price per",
+      "price": "$2.99",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960048237?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/signature-select-chunky-classic-mild-salsa-jar-16-oz/960048237",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.99 each",
+        "$2.99",
+        "price per",
+        "( / )",
+        "Signature SELECT Chunky Classic Mild Salsa Jar - 16 Oz",
+        "Rated 4.8 out of 5, 154 reviews",
+        "154"
+      ]
+    },
+    {
+      "name": "Fresh Innovations Restaurant Style Salsa Mild 12oz - 12 OZ",
+      "brand": "price per",
+      "price": "$4.99",
+      "size": "12oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/971420533?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/fresh-innovations-restaurant-style-salsa-mild-12oz-12-oz/971420533",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per",
+        "( / )",
+        "Fresh Innovations Restaurant Style Salsa Mild 12oz - 12 OZ"
+      ]
+    },
+    {
+      "name": "Pace Picante Sauce - Medium - 16 Oz",
+      "brand": "price per",
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/127100027?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/pace-picante-sauce-medium-16-oz/127100027",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.49 each",
+        "$3.49",
+        "price per",
+        "( / )",
+        "Pace Picante Sauce - Medium - 16 Oz",
+        "Rated 4.7 out of 5, 402 reviews",
+        "402"
+      ]
+    },
+    {
+      "name": "Pace Chunky Hot Salsa - 16 Oz",
+      "brand": "price per",
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960205643?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/pace-chunky-hot-salsa-16-oz/960205643",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.49 each",
+        "$3.49",
+        "price per",
+        "( / )",
+        "Pace Chunky Hot Salsa - 16 Oz",
+        "Rated 4.5 out of 5, 131 reviews",
+        "131"
+      ]
+    },
+    {
+      "name": "La Mexicana Medium Salsa - 16 Oz",
+      "brand": "price per",
+      "price": "$6.49",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960071790?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/la-mexicana-medium-salsa-16-oz/960071790",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.49 each",
+        "$6.49",
+        "price per",
+        "( / )",
+        "La Mexicana Medium Salsa - 16 Oz",
+        "Rated 4.6 out of 5, 19 reviews",
+        "19"
+      ]
+    },
+    {
+      "name": "Herdez Salsa Roasted Verde Medium Jar - 15.7 Oz",
+      "brand": "price per",
+      "price": "$5.49",
+      "size": "15.7 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960313100?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/herdez-salsa-roasted-verde-medium-jar-15-7-oz/960313100",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.49 each",
+        "$5.49",
+        "price per",
+        "( / )",
+        "Herdez Salsa Roasted Verde Medium Jar - 15.7 Oz",
+        "Rated 4.7 out of 5, 105 reviews",
+        "105"
+      ]
+    },
+    {
+      "name": "Herdez Salsa Verde Jar - 16 Oz",
+      "brand": "price per",
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": "https://www.tomthumb.com/shop/pd/herdez-salsa-verde-jar-16-oz/127102948",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per",
+        "( / )",
+        "Herdez Salsa Verde Jar - 16 Oz",
+        "Rated 4.1 out of 5, 299 reviews",
+        "299"
+      ]
+    },
+    {
+      "name": "Fresh Innovations Restaurant S...d Salsa 12oz - 12 OZ",
+      "brand": "price per",
+      "price": "$4.99",
+      "size": "12oz",
+      "img": null,
+      "link": "https://www.tomthumb.com/shop/pd/fresh-innovations-restaurant-style-roasted-salsa-12oz-12-oz/971420532",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per",
+        "( / )",
+        "Fresh Innovations Restaurant S...d Salsa 12oz - 12 OZ"
+      ]
+    },
+    {
+      "name": "Signature SELECT Chunky Classic Salsa Medium Jar - 16 Oz",
+      "brand": "price per",
+      "price": "$2.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": "https://www.tomthumb.com/shop/pd/signature-select-chunky-classic-salsa-medium-jar-16-oz/960048130",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.99 each",
+        "$2.99",
+        "price per",
+        "( / )",
+        "Signature SELECT Chunky Classic Salsa Medium Jar - 16 Oz",
+        "Rated 4.7 out of 5, 105 reviews",
+        "105"
+      ]
+    },
+    {
+      "name": "Mateos Go Salsa Cantina Style - 16 Oz",
+      "brand": "price per",
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": "https://www.tomthumb.com/shop/pd/mateos-go-salsa-cantina-style-16-oz/960521366",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per",
+        "( / )",
+        "Mateos Go Salsa Cantina Style - 16 Oz",
+        "Rated 4.8 out of 5, 4 reviews",
+        "4"
+      ]
+    },
+    {
+      "name": "Herdez Salsa Casera Medium Jar - 16 Oz",
+      "brand": "price per",
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": "https://www.tomthumb.com/shop/pd/herdez-salsa-casera-medium-jar-16-oz/127102945",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per",
+        "( / )",
+        "Herdez Salsa Casera Medium Jar - 16 Oz",
+        "Rated 3.6 out of 5, 193 reviews",
+        "193"
+      ]
+    },
+    {
+      "name": "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+      "brand": "price per",
+      "price": "$6.49",
+      "size": "15 Oz",
+      "img": null,
+      "link": "https://www.tomthumb.com/shop/pd/tostitos-salsa-con-queso-medium-15-oz/960013438",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.49 each",
+        "$6.49",
+        "price per",
+        "( / )",
+        "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+        "Rated 4.7 out of 5, 56 reviews",
+        "56"
+      ]
+    },
+    {
+      "name": "Signature SELECT Medium Fresca Salsa - 16 Oz",
+      "brand": "price per",
+      "price": "$4.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": "https://www.tomthumb.com/shop/pd/signature-select-medium-fresca-salsa-16-oz/960045381",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per",
+        "( / )",
+        "Signature SELECT Medium Fresca Salsa - 16 Oz",
+        "Rated 4.7 out of 5, 381 reviews",
+        "381"
+      ]
+    },
+    {
+      "name": "O Organics Salsa Medium Chunky Jar - 16 Oz",
+      "brand": "price per",
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": "https://www.tomthumb.com/shop/pd/o-organics-salsa-medium-chunky-jar-16-oz/960111291",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.49 each",
+        "$3.49",
+        "price per",
+        "( / )",
+        "O Organics Salsa Medium Chunky Jar - 16 Oz",
+        "Rated 4.7 out of 5, 40 reviews",
+        "40"
+      ]
+    },
+    {
+      "name": "Signature SELECT Garlic Lovers Medium Salsa Jar - 24 Oz",
+      "brand": "price per",
+      "price": "$4.49",
+      "size": "24 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/127100227?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/signature-select-garlic-lovers-medium-salsa-jar-24-oz/127100227",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.49 each",
+        "$4.49",
+        "price per",
+        "( / )",
+        "Signature SELECT Garlic Lovers Medium Salsa Jar - 24 Oz",
+        "Rated 4.8 out of 5, 97 reviews",
+        "97"
+      ]
+    },
+    {
+      "name": "Mateos Gourmet Salsa Hot Jar - 16 Oz",
+      "brand": "price per",
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960160537?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/mateos-gourmet-salsa-hot-jar-16-oz/960160537",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per",
+        "( / )",
+        "Mateos Gourmet Salsa Hot Jar - 16 Oz",
+        "Rated 5.0 out of 5, 2 reviews",
+        "2"
+      ]
+    },
+    {
+      "name": "Signature SELECT Fresca Mild Salsa - 16 Oz",
+      "brand": "price per",
+      "price": "$4.99",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960045382?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/signature-select-fresca-mild-salsa-16-oz/960045382",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per",
+        "( / )",
+        "Signature SELECT Fresca Mild Salsa - 16 Oz",
+        "Rated 4.7 out of 5, 395 reviews",
+        "395"
+      ]
+    },
+    {
+      "name": "Herdez Guacamole Salsa Mild - 15.7 Fl. Oz.",
+      "brand": "price per",
+      "price": "$5.49",
+      "size": "15.7 Fl. Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960323279?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/herdez-guacamole-salsa-mild-15-7-fl-oz/960323279",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.49 each",
+        "$5.49",
+        "price per",
+        "( / )",
+        "Herdez Guacamole Salsa Mild - 15.7 Fl. Oz.",
+        "Rated 4.4 out of 5, 171 reviews",
+        "171"
+      ]
+    },
+    {
+      "name": "Signature SELECT Peach Pineapple Medium Salsa Jar - 24 Oz",
+      "brand": "price per",
+      "price": "$4.49",
+      "size": "24 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/127100945?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/signature-select-peach-pineapple-medium-salsa-jar-24-oz/127100945",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.49 each",
+        "$4.49",
+        "price per",
+        "( / )",
+        "Signature SELECT Peach Pineapple Medium Salsa Jar - 24 Oz",
+        "Rated 4.8 out of 5, 218 reviews",
+        "218"
+      ]
+    },
+    {
+      "name": "Desert Pepper Salsa Corn Black...r Medium Jar - 16 Oz",
+      "brand": "price per",
+      "price": "$6.49",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960095294?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/desert-pepper-salsa-corn-black-bean-red-pepper-medium-jar-16-oz/960095294",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.49 each",
+        "$6.49",
+        "price per",
+        "( / )",
+        "Desert Pepper Salsa Corn Black...r Medium Jar - 16 Oz",
+        "Rated 5.0 out of 5, 2 reviews",
+        "2"
+      ]
+    },
+    {
+      "name": "Joe T. Garcias Salsa Picante Medium Jar - 16 Oz",
+      "brand": "price per",
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960247248?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/joe-t-garcias-salsa-picante-medium-jar-16-oz/960247248",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per",
+        "( / )",
+        "Joe T. Garcias Salsa Picante Medium Jar - 16 Oz",
+        "Rated 5.0 out of 5, 2 reviews",
+        "2"
+      ]
+    },
+    {
+      "name": "Julios Mild Salsa - 16 Oz",
+      "brand": "price per",
+      "price": "$5.49",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960246577?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.tomthumb.com/shop/pd/julios-mild-salsa-16-oz/960246577",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.49 each",
+        "$5.49",
+        "price per",
+        "( / )",
+        "Julios Mild Salsa - 16 Oz",
+        "Rated 3.0 out of 5, 2 reviews",
+        "2"
+      ]
+    }
+  ],
+  "raw_text_chars": 4916,
   "steps": [
-    "13:47:38 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:47:39 connected to Bright Data Scraping Browser",
-    "13:48:56 goto https://www.tomthumb.com/shop/search-results.html?q=salsa",
-    "13:49:04 captcha check passed",
-    "13:49:16 dismiss: nothing to close",
-    "13:49:16 press Escape",
-    "13:49:16 js ok 3100 S Hulen St",
-    "13:49:21 type_sel input[placeholder*='ZIP Code'] \"75205\"",
-    "13:49:27 js ok selected",
-    "13:49:44 scrolled x4",
-    "13:49:46 scrolled x2",
-    "13:49:50 scrolled x2",
-    "13:49:54 scrolled x2",
-    "13:49:56 store_set: 3878 Oaklawn Ave #18",
-    "13:49:57 few houses, reloading once",
-    "13:50:12 extracted 0 houses; raw text 962 chars"
+    "13:58:11 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:58:11 connected to Bright Data Scraping Browser",
+    "13:58:40 goto https://www.tomthumb.com/shop/search-results.html?q=salsa",
+    "13:58:48 captcha check passed",
+    "13:58:57 dismissed \"Continue with all\"",
+    "13:58:57 press Escape",
+    "13:59:06 js ok open 0",
+    "13:59:15 type_sel input[placeholder*='ZIP Code'] \"75205\"",
+    "13:59:21 js ok selected",
+    "13:59:38 scrolled x4",
+    "13:59:40 scrolled x2",
+    "13:59:44 scrolled x2",
+    "13:59:48 scrolled x2",
+    "13:59:50 store_set: 3878 Oaklawn Ave #18",
+    "13:59:51 extracted 28 houses; raw text 4916 chars"
   ],
   "error": null,
-  "reloaded": true,
-  "houses_text": 0
+  "houses_text": 27
 }

@@ -3,23 +3,486 @@
   "retailer": "shaws",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T13:46:21.141Z",
+  "pulled_at": "2026-10-13T13:56:32.589Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "02116",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "13:46:21 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:46:22 connected to Bright Data Scraping Browser",
-    "13:46:38 goto https://www.shaws.com/shop/search-results.html?q=salsa",
-    "13:46:46 captcha check passed",
-    "13:46:55 dismissed \"Continue with all\"",
-    "13:46:55 press Escape",
-    "13:46:55 js ok 127 Marion Rd",
-    "13:47:23 ERROR TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first() to be visible\n"
+  "store_set": "127 Marion Rd",
+  "url_final": "https://www.shaws.com/shop/search-results.html?q=salsa",
+  "houses": [
+    {
+      "name": "Pace Restaurant Style Original Recipe Medium Salsa - 16 Oz",
+      "brand": null,
+      "price": "$2.50",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Restaurant Style Original Recipe Medium Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$6.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa - 16 Oz",
+      "brand": null,
+      "price": "$2.50",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Picante Sauce - Medium - 16 Oz",
+      "brand": null,
+      "price": "$2.50",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Picante Sauce - Medium - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Chunky Mild - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Homestyle Salsa - 14 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "14 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Chunky Medium - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Chunky Classic Mild Salsa Jar - 16 Oz",
+      "brand": null,
+      "price": "$2.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "O Organics Salsa Mild Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Picante Sauce - Mild - 16 Oz",
+      "brand": null,
+      "price": "$2.50",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Picante Sauce - Mild - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Lower Sodium Chunky Medium Salsa Jar - 16 Oz",
+      "brand": null,
+      "price": "$2.50",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Lower Sodium Chunky Medium Salsa Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Sams Salsa Mild - 16 OZ",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Chunky Mild - 24 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "24 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mitchell's Mild Salsa - 15 Oz.",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Newman's Own Salsa Medium Chunky Pineapple Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Newman's Own Salsa Medium Chunky Pineapple Jar - 16 Oz",
+      "brand": null,
+      "price": "$4.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Restaurant Style Medium - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Desert Pepper Salsa Corn Black...r Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Newmans Own Salsa Medium Chunky Mango Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Newmans Own Salsa Medium Chunky Mango Jar - 16 Oz",
+      "brand": null,
+      "price": "$4.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Sams Salsa Medium - 16 OZ",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Hot Honey Habanero Sweet And Spicy Salsa - 16 Oz",
+      "brand": null,
+      "price": "$2.50",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Hot Honey Habanero Sweet And Spicy Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Hot Picante Sauce - 16 Oz",
+      "brand": null,
+      "price": "$2.50",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Hot Picante Sauce - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Siete Salsa Spicy Casera - 10.5 Oz.",
+      "brand": null,
+      "price": "$5.99",
+      "size": "10.5 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Chunky Classic Salsa Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$2.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Verde Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Verde Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Cholula Smoky Chipotle Salsa -12 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Guacamole Salsa Mild - 15.7 Fl. Oz.",
+      "brand": null,
+      "price": "$3.99",
+      "size": "15.7 Fl. Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Roasted Verde Medium Jar - 15.7 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "15.7 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Cholula Salsa Verde - 12 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mitchells Medium Salsa - EA",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Casera Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Casera Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "O Organics Mild Salsa - 15 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Southwest Medium Salsa Jar - 24 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "24 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": "TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first() to be visible\n"
+  "raw_text_chars": 8834,
+  "steps": [
+    "13:56:32 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:56:33 connected to Bright Data Scraping Browser",
+    "13:56:48 goto https://www.shaws.com/shop/search-results.html?q=salsa",
+    "13:56:56 captcha check passed",
+    "13:57:05 dismissed \"Continue with all\"",
+    "13:57:05 press Escape",
+    "13:57:13 js ok open 0",
+    "13:57:17 type_sel input[placeholder*='ZIP Code'] \"02116\"",
+    "13:57:23 js ok selected",
+    "13:57:38 scrolled x4",
+    "13:57:40 scrolled x2",
+    "13:57:44 scrolled x2",
+    "13:57:48 scrolled x2",
+    "13:57:50 store_set: 127 Marion Rd",
+    "13:57:50 few houses, reloading once",
+    "13:58:04 text parser wins: 45 vs 0",
+    "13:58:05 extracted 45 houses; raw text 8834 chars"
+  ],
+  "error": null,
+  "reloaded": true,
+  "houses_text": 45,
+  "houses_dom": 0
 }

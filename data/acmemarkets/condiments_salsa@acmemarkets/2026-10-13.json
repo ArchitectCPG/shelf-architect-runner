@@ -3,7 +3,7 @@
   "retailer": "acmemarkets",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T13:41:37.987Z",
+  "pulled_at": "2026-10-13T13:51:53.814Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "19103",
@@ -12,14 +12,13 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "13:41:37 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:41:38 connected to Bright Data Scraping Browser",
-    "13:41:48 goto https://www.acmemarkets.com/shop/search-results.html?q=salsa",
-    "13:41:56 captcha check passed",
-    "13:42:13 dismissed \"Continue with all\"",
-    "13:42:14 press Escape",
-    "13:42:17 js ok ",
-    "13:42:45 ERROR TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first() to be visible\n"
+    "13:51:53 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:51:54 connected to Bright Data Scraping Browser",
+    "13:52:41 goto https://www.acmemarkets.com/shop/search-results.html?q=salsa",
+    "13:52:49 captcha check passed",
+    "13:53:02 dismiss: nothing to close",
+    "13:53:02 press Escape",
+    "13:53:15 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'querySelectorAll')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:88)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:457)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
   ],
-  "error": "TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first() to be visible\n"
+  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'querySelectorAll')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:88)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:457)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
 }
