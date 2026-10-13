@@ -36,7 +36,7 @@
    "wait": 2500
   },
   {
-   "js": "const i=[...document.querySelectorAll(\"input[type=text],input[type=search],input:not([type])\")].filter(e=>e.offsetWidth&&e.id!=='search-bar-input'&&!/Search Sprouts/i.test(e.placeholder||'')).pop(); if(!i) throw new Error('no zip input'); i.setAttribute('data-zipbox','1'); return 'tagged'"
+   "js": "const c=[...document.querySelectorAll('input')].filter(e=>e.offsetWidth&&e.tabIndex!==-1&&e.id!=='search-bar-input'&&!/ios-virtual/.test(e.getAttribute('data-testid')||'')&&!/Search Sprouts/i.test(e.placeholder||'')&&e.getBoundingClientRect().top>=0&&e.getBoundingClientRect().top<innerHeight); const i=c.pop(); if(!i) throw new Error('no zip input'); i.setAttribute('data-zipbox','1'); return 'tagged '+c.length+' '+(i.type||'')+' '+(i.placeholder||i.id||i.name||'')"
   },
   {
    "type_sel": {
