@@ -3,7 +3,7 @@
   "retailer": "walmart",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:52:14.111Z",
+  "pulled_at": "2026-10-13T12:54:39.018Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -12,9 +12,9 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "12:52:14 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:52:14 connected to Bright Data Scraping Browser",
-    "12:52:15 ERROR Error: page.goto: Protocol error (Page.navigate): No Peer Found (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.walmart.com/search?q=salsa\", waiting until \"domcontentloaded\"\n"
+    "12:54:39 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "12:54:40 connected to Bright Data Scraping Browser",
+    "12:54:44 ERROR Error: page.goto: Protocol error (Page.navigate): No Peer Found (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.walmart.com/search?q=salsa\", waiting until \"domcontentloaded\"\n"
   ],
   "error": "Error: page.goto: Protocol error (Page.navigate): No Peer Found (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.walmart.com/search?q=salsa\", waiting until \"domcontentloaded\"\n"
 }
