@@ -1,0 +1,80 @@
+{
+  "block_id": "diag/walmart",
+  "retailer": "walmart",
+  "zip": "diag",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-13T12:26:24.916Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.walmart.com/blocked?url=L3NlYXJjaD9xPXNhbHNh&uuid=565fa700-c701-11f1-971b-f7b84607079c&vid=56eecb3a-c701-11f1-a597-93cc2b5ce231&g=b",
+  "houses": [],
+  "raw_text_chars": 211,
+  "steps": [
+    "12:26:24 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "12:26:25 connected to Bright Data Scraping Browser",
+    "12:26:28 rate limited, retry 1",
+    "12:27:43 goto https://www.walmart.com/search?q=salsa",
+    "12:29:30 captcha check passed",
+    "12:29:43 dismiss: nothing to close",
+    "12:29:43 press Escape",
+    "12:29:43 dump landing: 5 controls",
+    "12:29:43 store_set: null",
+    "12:29:44 extracted 0 houses; raw text 211 chars"
+  ],
+  "error": null,
+  "controls": [
+    {
+      "at": "landing",
+      "controls": [
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Walmart. Save Money. Live Better. Home Page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "Terms of Use",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://help.walmart.com/app/answers/detail/a_id/8"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/privacy-security"
+        },
+        {
+          "tag": "a",
+          "text": "Do Not Sell My Personal Information",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/account/api/ccpa-intake?native=false&type=sod"
+        },
+        {
+          "tag": "a",
+          "text": "Request My Personal Information",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/account/api/ccpa-intake?native=false&type=access"
+        }
+      ]
+    }
+  ],
+  "houses_text": 0
+}
