@@ -3,13 +3,31 @@
   "retailer": "sprouts",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T18:23:08.849Z",
+  "pulled_at": "2026-10-13T18:25:53.407Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60563",
-  "store_set": "In-Store · open 7am - 10pm Pasadena (Store #919)",
+  "store_set": "In-Store · open 7am - 10pm Maricopa (Store #45)",
   "url_final": "https://shop.sprouts.com/store/sprouts/s?k=salsa",
   "houses": [
+    {
+      "name": "Mateo's Mild Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bcab4905-622d-4fa8-a70f-3c5ad1b73579.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/3078643-mateo-s-gourmets-salsa-mild-16-oz",
+      "card_text": [
+        "Gluten-Free",
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $6.49",
+        "$6.49",
+        "8% off",
+        "Mateo's Mild Salsa",
+        "★★★★★"
+      ]
+    },
     {
       "name": "Mateo's Medium Salsa",
       "brand": null,
@@ -44,24 +62,6 @@
         "8% off",
         "Mateo's Medium Cantina Style Salsa",
         "★★★★★"
-      ]
-    },
-    {
-      "name": "Good Foods Avocado Tomatillo Salsa",
-      "brand": "more attribute",
-      "price": "$5.99",
-      "size": "12 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2ea2409-1c67-4d58-996e-585ac179d341.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17860874-good-foods-avocado-salsa-with-fresh-tomatillos-12-0-oz",
-      "card_text": [
-        "Gluten-Free, +1",
-        "more attribute",
-        "Current price: $5.99",
-        "$599",
-        "Good Foods Avocado Tomatillo Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(15)"
       ]
     },
     {
@@ -137,24 +137,6 @@
       ]
     },
     {
-      "name": "Sprouts Cilantro Lime Salsa",
-      "brand": "more attributes",
-      "price": "$4.29",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_90326972-c568-4248-8c2e-3711e3d8ac8a.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17856894-sprouts-cilantro-lime-salsa-16-oz",
-      "card_text": [
-        "Gluten-Free, +2",
-        "more attributes",
-        "Current price: $4.29",
-        "$429",
-        "Sprouts Cilantro Lime Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(11)"
-      ]
-    },
-    {
       "name": "Sprouts Organic Medium Chunky Salsa",
       "brand": "Organic, +3",
       "price": "$3.49",
@@ -173,102 +155,12 @@
       ]
     },
     {
-      "name": "Mateo's Hot Salsa",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_296e1d51-3664-4dc1-b89e-09dc591c8f5d.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/3078642-mateo-s-gourmet-salsa-uniquely-different-hot-16-oz",
-      "card_text": [
-        "Gluten-Free",
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $6.49",
-        "$6.49",
-        "8% off",
-        "Mateo's Hot Salsa",
-        "★★★★★"
-      ]
-    },
-    {
-      "name": "Mateo's Mild Cantina Style Salsa",
-      "brand": "more attribute",
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d8aad5f-c4cc-400c-b8a7-3036061f6859.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/110768534-mateo-s-gourmet-salsa-mild-cantina-style-salsa-16-oz",
-      "card_text": [
-        "Gluten-Free, +1",
-        "more attribute",
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $6.49",
-        "$6.49",
-        "8% off",
-        "Mateo's Mild Cantina Style Salsa"
-      ]
-    },
-    {
-      "name": "Mateo's Extra Hot Habanero Salsa",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_45ca304b-10c2-488e-82e9-e628f0030895.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/20573070-mateo-s-gourmet-habanero-salsa-16-fl-oz",
-      "card_text": [
-        "Gluten-Free",
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $6.49",
-        "$6.49",
-        "8% off",
-        "Mateo's Extra Hot Habanero Salsa",
-        "★★★★★"
-      ]
-    },
-    {
-      "name": "Desert Pepper Trading Co Medium Peach Mango Salsa",
-      "brand": "more attribute",
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_21c1fb29-286c-4190-988c-24f2125d2ef1.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/27284-desert-pepper-salsa-peach-mango-medium-hot-16-oz",
-      "card_text": [
-        "Gluten-Free, +1",
-        "more attribute",
-        "Current price: $5.99",
-        "$599",
-        "Desert Pepper Trading Co Medium Peach Mango Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(8)"
-      ]
-    },
-    {
-      "name": "Sprouts Jalapeno Verde Salsa",
-      "brand": "more attributes",
-      "price": "$4.29",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_054486eb-ad5e-457a-b00e-73f6f30b98cc.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17856892-sprouts-jalapeno-verde-salsa-16-oz",
-      "card_text": [
-        "Gluten-Free, +2",
-        "more attributes",
-        "Current price: $4.29",
-        "$429",
-        "Sprouts Jalapeno Verde Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(10)"
-      ]
-    },
-    {
-      "name": "Sprouts Organic Hot Salsa",
+      "name": "Sprouts Organic Pineapple Salsa",
       "brand": "Organic, +3",
       "price": "$3.49",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dc7548bb-7eba-4405-a891-299f09923b9c.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17856136-sprouts-organic-hot-salsa-16-oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c2c10ea4-6d4a-4e24-b4db-e18465d3be69.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856884-sprouts-organic-pineapple-salsa-16-oz",
       "card_text": [
         "Organic, +3",
         "more attributes",
@@ -277,133 +169,76 @@
         "Original Price: $4.49",
         "$4.49",
         "22% off",
-        "Sprouts Organic Hot Salsa"
+        "Sprouts Organic Pineapple Salsa"
       ]
     },
     {
-      "name": "Sprouts Chipotle, Pineapple & Green Chile Salsa",
-      "brand": "more attributes",
-      "price": "$4.29",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0a344b38-7d7f-4d12-bbc1-46625c126d2e.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17856146-sprouts-chipotle-pineapple-green-chile-salsa-16-oz",
+      "name": "Casa Sanchez Medium Salsa Roja",
+      "brand": null,
+      "price": "$7.99",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_41daa9c9-6eb8-4f18-acf0-59fbe6ae381c.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/29567-casa-sanchez-salsa-roja-medium-15-oz",
       "card_text": [
-        "Gluten-Free, +2",
-        "more attributes",
-        "Current price: $4.29",
-        "$429",
-        "Sprouts Chipotle, Pineapple & Green Chile Salsa",
+        "Current price: $7.99",
+        "$799",
+        "Casa Sanchez Medium Salsa Roja",
         "★★★★★",
         "★★★★★",
-        "(11)"
+        "(31)",
+        "15 oz"
       ]
     },
     {
-      "name": "Sprouts Mild Salsa",
-      "brand": "more attributes",
-      "price": "$5.49",
-      "size": "24 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e1977698-178f-485f-92d8-9e00f98fbdfa.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/20047711-sprouts-mild-salsa-24-oz",
-      "card_text": [
-        "Gluten-Free, +2",
-        "more attributes",
-        "Current price: $5.49",
-        "$549",
-        "Sprouts Mild Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(8)"
-      ]
-    },
-    {
-      "name": "Sprouts Medium Salsa",
-      "brand": "more attributes",
-      "price": "$4.29",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f9c6381c-ab5d-4545-b04a-67aac20f9476.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17856128-sprouts-medium-salsa-16-oz",
-      "card_text": [
-        "Gluten-Free, +2",
-        "more attributes",
-        "Current price: $4.29",
-        "$429",
-        "Sprouts Medium Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(14)"
-      ]
-    },
-    {
-      "name": "Late July Mild Salsa",
-      "brand": "Organic, +2",
-      "price": "$4.99",
-      "size": "15.5 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6b424a7c-bf43-4048-9688-b8dead0dc4cd.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/39801299-late-july-mild-salsa-15-5-oz",
-      "card_text": [
-        "Organic, +2",
-        "more attributes",
-        "Current price: $4.99",
-        "$499",
-        "Original Price: $6.99",
-        "$6.99",
-        "29% off",
-        "Late July Mild Salsa"
-      ]
-    },
-    {
-      "name": "Fody Mild Salsa",
+      "name": "Good Foods Avocado Tomatillo Salsa",
       "brand": "more attribute",
       "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bead2626-a233-4a8b-8d0b-15a98ced6c1f.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/19043943-fody-foods-mild-salsa-16-0-oz",
+      "size": "12 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2ea2409-1c67-4d58-996e-585ac179d341.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17860874-good-foods-avocado-salsa-with-fresh-tomatillos-12-0-oz",
       "card_text": [
         "Gluten-Free, +1",
         "more attribute",
         "Current price: $5.99",
         "$599",
-        "Fody Mild Salsa",
+        "Good Foods Avocado Tomatillo Salsa",
         "★★★★★",
         "★★★★★",
-        "(9)"
+        "(15)"
       ]
     },
     {
-      "name": "Fody Medium Salsa",
-      "brand": "more attribute",
-      "price": "$5.99",
+      "name": "Jalapa Jar Medium Fresh Salsa",
+      "brand": null,
+      "price": "$8.99",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d195e556-9280-42d4-8933-40caa3bd175b.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/19103597-fody-foods-medium-salsa-16-0-oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2e4225ab-ed62-4e7c-a744-9c8c8e76d004.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/18265467-jalapa-jar-fresh-salsa-medium-16-oz",
       "card_text": [
-        "Gluten-Free, +1",
-        "more attribute",
-        "Current price: $5.99",
-        "$599",
-        "Fody Medium Salsa",
+        "Current price: $8.99",
+        "$899",
+        "Jalapa Jar Medium Fresh Salsa",
         "★★★★★",
         "★★★★★",
-        "(8)"
+        "(4)",
+        "16 oz"
       ]
     },
     {
-      "name": "Siete Casera Style Mild Salsa",
-      "brand": "more attribute",
-      "price": "$4.86",
-      "size": "10.5 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a0057ea8-8713-43c2-bcea-b4daddd0e981.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/32551759-siete-mild-salsa-roja-10-5-oz",
+      "name": "Jalapa Jar Hot Fresh Salsa",
+      "brand": null,
+      "price": "$8.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c40cdb83-6053-4b36-bcb3-96461d5c249c.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/18266222-jalapa-jar-fresh-salsa-hot-16-oz",
       "card_text": [
-        "Gluten-Free, +1",
-        "more attribute",
-        "Current price: $4.86",
-        "$486",
-        "Original Price: $6.49",
-        "$6.49",
-        "25% off",
-        "Siete Casera Style Mild Salsa"
+        "Current price: $8.99",
+        "$899",
+        "Jalapa Jar Hot Fresh Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(2)",
+        "16 oz"
       ]
     },
     {
@@ -425,173 +260,66 @@
       ]
     },
     {
-      "name": "Late July Medium Salsa",
-      "brand": "Organic, +2",
-      "price": "$4.99",
-      "size": "15.5 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_63bf1471-d852-4a5e-8b21-63020f53a190.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/39801298-late-july-medium-salsa-15-5-oz",
-      "card_text": [
-        "Organic, +2",
-        "more attributes",
-        "Current price: $4.99",
-        "$499",
-        "Original Price: $6.99",
-        "$6.99",
-        "29% off",
-        "Late July Medium Salsa"
-      ]
-    },
-    {
-      "name": "Sprouts Organic Black Bean & Corn Salsa",
-      "brand": "Organic, +3",
-      "price": "$3.49",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2e6e0f1f-140d-4d37-9d5a-d5d54445fd70.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17856876-sprouts-organic-black-bean-corn-salsa-16-oz",
-      "card_text": [
-        "Organic, +3",
-        "more attributes",
-        "Current price: $3.49",
-        "$349",
-        "Original Price: $4.49",
-        "$4.49",
-        "22% off",
-        "Sprouts Organic Black Bean & Corn Salsa"
-      ]
-    },
-    {
-      "name": "Siete Taqueria Style Salsa Soleada",
-      "brand": "Organic, +2",
-      "price": "$4.86",
-      "size": "10.5 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0db9d3b8-03df-4ea4-b3a0-b5116906093b.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/32551370-siete-soledad-salsa-10-5-oz",
-      "card_text": [
-        "Organic, +2",
-        "more attributes",
-        "Current price: $4.86",
-        "$486",
-        "Original Price: $6.49",
-        "$6.49",
-        "25% off",
-        "Siete Taqueria Style Salsa Soleada"
-      ]
-    },
-    {
-      "name": "Sprouts Hatch Chile Salsa",
+      "name": "Sprouts Fire Roasted Salsa",
       "brand": "more attributes",
-      "price": "$5.29",
+      "price": "$4.29",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7e4c405b-8650-41e9-afdc-e8ab235a9609.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17856150-sprouts-hatch-chile-salsa-16-oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f4490fec-8a00-49fc-a892-6045c745da42.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856896-sprouts-fire-roasted-salsa-16-oz",
       "card_text": [
         "Gluten-Free, +2",
         "more attributes",
-        "Current price: $5.29",
-        "$529",
-        "Sprouts Hatch Chile Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(11)"
-      ]
-    },
-    {
-      "name": "Casa Sanchez Medium Organica Salsa",
-      "brand": null,
-      "price": "$8.49",
-      "size": "15 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e1269ee0-ebdc-49a6-a63a-cb2587aff0dd.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/122357-casa-sanchez-medium-salsa-organica-15-oz",
-      "card_text": [
-        "Organic",
-        "Current price: $8.49",
-        "$849",
-        "Casa Sanchez Medium Organica Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(24)",
-        "15 oz"
-      ]
-    },
-    {
-      "name": "Fody Sensitive Recipe Salsa Verde",
-      "brand": "more attributes",
-      "price": "$7.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0ea7e971-4b4c-4aa2-8c20-314ee3a24b50.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/24170072-fody-foods-salsa-verde-16-0-oz",
-      "card_text": [
-        "Gluten-Free, +3",
-        "more attributes",
-        "Current price: $7.99",
-        "$799",
-        "Fody Sensitive Recipe Salsa Verde",
+        "Current price: $4.29",
+        "$429",
+        "Sprouts Fire Roasted Salsa",
         "★★★★★",
         "★★★★★",
         "(6)"
       ]
     },
     {
-      "name": "Late July Medium Salsa Verde",
+      "name": "Desert Pepper Trading Co Medium Peach Mango Salsa",
       "brand": "more attribute",
-      "price": "$4.99",
-      "size": "15.5 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_04901fcb-9e6f-43bb-bb8c-7c11a2ca55f5.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/39801297-late-july-salsa-verde-with-roasted-tomatillos-15-5-oz",
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_21c1fb29-286c-4190-988c-24f2125d2ef1.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/27284-desert-pepper-salsa-peach-mango-medium-hot-16-oz",
       "card_text": [
         "Gluten-Free, +1",
         "more attribute",
-        "Current price: $4.99",
-        "$499",
-        "Original Price: $6.99",
-        "$6.99",
-        "29% off",
-        "Late July Medium Salsa Verde"
+        "Current price: $5.99",
+        "$599",
+        "Desert Pepper Trading Co Medium Peach Mango Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(8)"
       ]
     },
     {
-      "name": "Casa Sanchez Medium Salsa Roja",
-      "brand": null,
-      "price": "$7.99",
-      "size": "15 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_41daa9c9-6eb8-4f18-acf0-59fbe6ae381c.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/29567-casa-sanchez-salsa-roja-medium-15-oz",
-      "card_text": [
-        "Current price: $7.99",
-        "$799",
-        "Casa Sanchez Medium Salsa Roja",
-        "★★★★★",
-        "★★★★★",
-        "(31)",
-        "15 oz"
-      ]
-    },
-    {
-      "name": "Tatemada Arbol Salsa",
+      "name": "Sprouts Cilantro Lime Salsa",
       "brand": "more attributes",
-      "price": "$6.99",
+      "price": "$4.29",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e3fa814b-f59e-48ea-9403-6ce4fc068394.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/25806734-tatemada-arbol-salsa-16-oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_90326972-c568-4248-8c2e-3711e3d8ac8a.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856894-sprouts-cilantro-lime-salsa-16-oz",
       "card_text": [
-        "Keto, +2",
+        "Gluten-Free, +2",
         "more attributes",
-        "Current price: $6.99",
-        "$699",
-        "Original Price: $8.29",
-        "$8.29",
-        "16% off",
-        "Tatemada Arbol Salsa"
+        "Current price: $4.29",
+        "$429",
+        "Sprouts Cilantro Lime Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(11)"
       ]
     },
     {
-      "name": "Sprouts Organic Fire Roasted Salsa",
+      "name": "Sprouts Organic Hot Salsa",
       "brand": "Organic, +3",
       "price": "$3.49",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6c71d8da-2b1e-4365-bd01-6b1a8d604225.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17856140-sprouts-organic-fire-roasted-salsa-16-oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dc7548bb-7eba-4405-a891-299f09923b9c.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856136-sprouts-organic-hot-salsa-16-oz",
       "card_text": [
         "Organic, +3",
         "more attributes",
@@ -600,144 +328,79 @@
         "Original Price: $4.49",
         "$4.49",
         "22% off",
-        "Sprouts Organic Fire Roasted Salsa"
+        "Sprouts Organic Hot Salsa"
       ]
     },
     {
-      "name": "Sadie's Not As Hot Salsa",
+      "name": "Mateo's Mild Cantina Style Salsa",
+      "brand": "more attribute",
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d8aad5f-c4cc-400c-b8a7-3036061f6859.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/110768534-mateo-s-gourmet-salsa-mild-cantina-style-salsa-16-oz",
+      "card_text": [
+        "Gluten-Free, +1",
+        "more attribute",
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $6.49",
+        "$6.49",
+        "8% off",
+        "Mateo's Mild Cantina Style Salsa"
+      ]
+    },
+    {
+      "name": "Mateo's Medium Gourmet Hatch Chile Salsa",
       "brand": null,
-      "price": "$5.49",
+      "price": "$5.99",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e7b66474-fec7-46be-8840-676d7eb7d2ec.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/221623-sadie-s-salsa-16-oz",
-      "card_text": [
-        "Current price: $5.49",
-        "$549",
-        "Sadie's Not As Hot Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(5)",
-        "16 oz"
-      ]
-    },
-    {
-      "name": "Mild Mango Salsa",
-      "brand": null,
-      "price": "$6.00",
-      "size": "14 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_406f656b-2cf8-492a-b1e7-e911fc616d98.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/167324-east-coast-fresh-salsa-mango-14-oz",
-      "card_text": [
-        "Current price: $6.00",
-        "$600",
-        "Mild Mango Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(3)",
-        "14 oz"
-      ]
-    },
-    {
-      "name": "Tatemada Molcajete Salsa",
-      "brand": "more attributes",
-      "price": "$6.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e6f98f84-159c-4303-8610-ec47d7bdb402.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/25020821-tatemada-fire-roasted-salsa-16-oz",
-      "card_text": [
-        "Keto, +2",
-        "more attributes",
-        "Current price: $6.99",
-        "$699",
-        "Original Price: $8.29",
-        "$8.29",
-        "16% off",
-        "Tatemada Molcajete Salsa"
-      ]
-    },
-    {
-      "name": "505 Southwest Medium Southwest Style Salsa",
-      "brand": "more attributes",
-      "price": "$5.79",
-      "size": "15 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96266b22-038d-4b50-80ae-4a6fcd5b76c2.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/33201548-505-southwestern-roadhouse-texas-style-medium-salsa-15-fl-oz",
-      "card_text": [
-        "Gluten-Free, +2",
-        "more attributes",
-        "Current price: $5.79",
-        "$579",
-        "505 Southwest Medium Southwest Style Salsa",
-        "15 oz"
-      ]
-    },
-    {
-      "name": "Sprouts Mango Habanero Salsa",
-      "brand": "more attributes",
-      "price": "$4.29",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7830b804-b15d-408c-9ace-34282eb9c102.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17856890-sprouts-mango-habanero-salsa-16-oz",
-      "card_text": [
-        "Gluten-Free, +2",
-        "more attributes",
-        "Current price: $4.29",
-        "$429",
-        "Sprouts Mango Habanero Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(18)"
-      ]
-    },
-    {
-      "name": "Lucky Habanero Original Hot Salsa",
-      "brand": null,
-      "price": "$8.49",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_deae13fc-5925-4127-847d-bb3aad373928.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/19910452-lucky-habanero-original-hot-salsa-16-oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_80fc9837-eb67-4d6c-aa2a-cd2f7c297ccb.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/3080344-mateo-s-salsa-gourmet-medium-hatch-chile-16-oz",
       "card_text": [
         "Gluten-Free",
-        "Current price: $8.49",
-        "$849",
-        "Lucky Habanero Original Hot Salsa",
-        "★★★★★",
-        "★★★★★",
-        "(24)",
-        "16 oz"
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $6.49",
+        "$6.49",
+        "8% off",
+        "Mateo's Medium Gourmet Hatch Chile Salsa",
+        "★★★★★"
       ]
     },
     {
-      "name": "505 Southwest Medium Tomatillo Salsa",
+      "name": "Mateo's Hot Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_296e1d51-3664-4dc1-b89e-09dc591c8f5d.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/3078642-mateo-s-gourmet-salsa-uniquely-different-hot-16-oz",
+      "card_text": [
+        "Gluten-Free",
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $6.49",
+        "$6.49",
+        "8% off",
+        "Mateo's Hot Salsa",
+        "★★★★★"
+      ]
+    },
+    {
+      "name": "Sprouts Mild Salsa",
       "brand": "more attributes",
-      "price": "$5.79",
-      "size": "15 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4e4c1eaf-6638-457e-bcea-996ebbfa6ddf.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/33201318-505-southwestern-roadhouse-tomatillo-and-medium-roasted-green-chile-salsa-15-oz",
+      "price": "$5.49",
+      "size": "24 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e1977698-178f-485f-92d8-9e00f98fbdfa.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/20047711-sprouts-mild-salsa-24-oz",
       "card_text": [
         "Gluten-Free, +2",
         "more attributes",
-        "Current price: $5.79",
-        "$579",
-        "505 Southwest Medium Tomatillo Salsa",
-        "15 oz"
-      ]
-    },
-    {
-      "name": "Nature's Kitchen Nl Pico De Gallo",
-      "brand": null,
-      "price": "$6.00",
-      "size": "",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e1c8af6f-6648-496f-851f-80ec02cd73ba.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/29456150-nature-s-kitchen-pico-de-gallo-dip-each",
-      "card_text": [
-        "Current price: $6.00",
-        "$600",
-        "Nature's Kitchen Nl Pico De Gallo",
+        "Current price: $5.49",
+        "$549",
+        "Sprouts Mild Salsa",
         "★★★★★",
         "★★★★★",
-        "(7)",
-        "1 each"
+        "(8)"
       ]
     },
     {
@@ -759,94 +422,525 @@
       ]
     },
     {
-      "name": "East Coast Fresh Mango Pineapple Salsa",
-      "brand": null,
-      "price": "$6.00",
-      "size": "12 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5e722338-0a2d-4478-bbe2-9dfb58ca30b1.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/29421651-east-coast-fresh-mango-pineapple-salsa-12-oz",
-      "card_text": [
-        "Current price: $6.00",
-        "$600",
-        "East Coast Fresh Mango Pineapple Salsa",
-        "12 oz"
-      ]
-    },
-    {
-      "name": "Desert Pepper Trading Co Medium Green Cantina Salsa",
-      "brand": "more attribute",
-      "price": "$4.49",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_388117eb-d954-46f4-a755-7f1891de1086.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/17179188-cantina-salsa-medium-16-oz",
-      "card_text": [
-        "Gluten-Free, +1",
-        "more attribute",
-        "Current price: $4.49",
-        "$449",
-        "Original Price: $4.99",
-        "$4.99",
-        "10% off",
-        "Desert Pepper Trading Co Medium Green Cantina Salsa"
-      ]
-    },
-    {
-      "name": "505 Southwest Mild Fire Roasted Green Chile Salsa",
+      "name": "Sprouts Jalapeno Verde Salsa",
       "brand": "more attributes",
-      "price": "$6.79",
+      "price": "$4.29",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d879eb2f-10b0-47ab-84a3-17ed8783f85d.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/19996438-505-southwestern-flame-roasted-green-chile-medium-salsa-16-oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_054486eb-ad5e-457a-b00e-73f6f30b98cc.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856892-sprouts-jalapeno-verde-salsa-16-oz",
       "card_text": [
         "Gluten-Free, +2",
         "more attributes",
-        "Current price: $6.79",
-        "$679",
-        "505 Southwest Mild Fire Roasted Green Chile Salsa",
+        "Current price: $4.29",
+        "$429",
+        "Sprouts Jalapeno Verde Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(10)"
+      ]
+    },
+    {
+      "name": "Sprouts Hatch Chile Salsa",
+      "brand": "more attributes",
+      "price": "$5.29",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7e4c405b-8650-41e9-afdc-e8ab235a9609.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856150-sprouts-hatch-chile-salsa-16-oz",
+      "card_text": [
+        "Gluten-Free, +2",
+        "more attributes",
+        "Current price: $5.29",
+        "$529",
+        "Sprouts Hatch Chile Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(11)"
+      ]
+    },
+    {
+      "name": "Sprouts Organic Black Bean & Corn Salsa",
+      "brand": "Organic, +3",
+      "price": "$3.49",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2e6e0f1f-140d-4d37-9d5a-d5d54445fd70.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856876-sprouts-organic-black-bean-corn-salsa-16-oz",
+      "card_text": [
+        "Organic, +3",
+        "more attributes",
+        "Current price: $3.49",
+        "$349",
+        "Original Price: $4.49",
+        "$4.49",
+        "22% off",
+        "Sprouts Organic Black Bean & Corn Salsa"
+      ]
+    },
+    {
+      "name": "Siete Casera Style Mild Salsa",
+      "brand": "more attribute",
+      "price": "$4.86",
+      "size": "10.5 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a0057ea8-8713-43c2-bcea-b4daddd0e981.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/32551759-siete-mild-salsa-roja-10-5-oz",
+      "card_text": [
+        "Gluten-Free, +1",
+        "more attribute",
+        "Current price: $4.86",
+        "$486",
+        "Original Price: $6.49",
+        "$6.49",
+        "25% off",
+        "Siete Casera Style Mild Salsa"
+      ]
+    },
+    {
+      "name": "Late July Mild Salsa",
+      "brand": "Organic, +2",
+      "price": "$4.99",
+      "size": "15.5 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6b424a7c-bf43-4048-9688-b8dead0dc4cd.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/39801299-late-july-mild-salsa-15-5-oz",
+      "card_text": [
+        "Organic, +2",
+        "more attributes",
+        "Current price: $4.99",
+        "$499",
+        "Original Price: $6.99",
+        "$6.99",
+        "29% off",
+        "Late July Mild Salsa"
+      ]
+    },
+    {
+      "name": "Mateo's Extra Hot Habanero Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_45ca304b-10c2-488e-82e9-e628f0030895.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/20573070-mateo-s-gourmet-habanero-salsa-16-fl-oz",
+      "card_text": [
+        "Gluten-Free",
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $6.49",
+        "$6.49",
+        "8% off",
+        "Mateo's Extra Hot Habanero Salsa",
+        "★★★★★"
+      ]
+    },
+    {
+      "name": "Mateo's Mild Black Bean & Corn Gourmet Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3bd5a1f6-12ac-4022-8218-170e3475b956.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/58911043-mateo-s-black-bean-corn-gourmet-salsa-16-oz",
+      "card_text": [
+        "Gluten-Free",
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $6.49",
+        "$6.49",
+        "8% off",
+        "Mateo's Mild Black Bean & Corn Gourmet Salsa",
+        "★★★★★"
+      ]
+    },
+    {
+      "name": "Tatemada Molcajete Salsa",
+      "brand": "more attributes",
+      "price": "$6.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e6f98f84-159c-4303-8610-ec47d7bdb402.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/25020821-tatemada-fire-roasted-salsa-16-oz",
+      "card_text": [
+        "Keto, +2",
+        "more attributes",
+        "Current price: $6.99",
+        "$699",
+        "Original Price: $8.29",
+        "$8.29",
+        "16% off",
+        "Tatemada Molcajete Salsa"
+      ]
+    },
+    {
+      "name": "Siete Casera Style Spicy Salsa",
+      "brand": "more attribute",
+      "price": "$4.86",
+      "size": "10.5 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3cc2a084-0d09-43ac-9a3d-ec382d2f8e2b.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/32551268-siete-spicy-salsa-roja-10-5-oz",
+      "card_text": [
+        "Gluten-Free, +1",
+        "more attribute",
+        "Current price: $4.86",
+        "$486",
+        "Original Price: $6.49",
+        "$6.49",
+        "25% off",
+        "Siete Casera Style Spicy Salsa"
+      ]
+    },
+    {
+      "name": "Sprouts Medium Salsa",
+      "brand": "more attributes",
+      "price": "$5.49",
+      "size": "24 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b340662e-6947-41d1-93f9-c16f6e1b9585.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/20047665-sprouts-medium-salsa-24-oz",
+      "card_text": [
+        "Gluten-Free, +2",
+        "more attributes",
+        "Current price: $5.49",
+        "$549",
+        "Sprouts Medium Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(10)"
+      ]
+    },
+    {
+      "name": "Tatemada Arbol Salsa",
+      "brand": "more attributes",
+      "price": "$6.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cc3bec00-8992-4b28-a930-2bf102369f2c.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/25806734-tatemada-arbol-salsa-16-oz",
+      "card_text": [
+        "Keto, +2",
+        "more attributes",
+        "Current price: $6.99",
+        "$699",
+        "Original Price: $8.29",
+        "$8.29",
+        "16% off",
+        "Tatemada Arbol Salsa"
+      ]
+    },
+    {
+      "name": "Xochitl Asada Verde Medium Salsa",
+      "brand": null,
+      "price": "$7.49",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f83f2182-eb2e-4633-9d68-4a812fa83cf4.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/56584-xochitl-asada-verde-salsa-medium-15-oz",
+      "card_text": [
+        "Current price: $7.49",
+        "$749",
+        "Xochitl Asada Verde Medium Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(3)",
+        "15 oz"
+      ]
+    },
+    {
+      "name": "Desert Pepper Trading Co Mild Salsa Divino",
+      "brand": "more attribute",
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_eaac9b5f-80c5-4cc9-8ff3-8534bf4ed09c.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/72956-desert-pepper-salsa-divino-mild-16-oz",
+      "card_text": [
+        "Gluten-Free, +1",
+        "more attribute",
+        "Current price: $5.99",
+        "$599",
+        "Desert Pepper Trading Co Mild Salsa Divino",
         "★★★★★",
         "★★★★★",
         "(1)"
       ]
     },
     {
-      "name": "Nature's Kitchen Nl Pico De Guaco",
-      "brand": null,
-      "price": "$6.00",
-      "size": "14 oz",
-      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ec1fa63d-93a3-4d08-ad23-81367c33e242.png",
-      "link": "https://shop.sprouts.com/store/sprouts/products/29455904-nature-s-kitchen-nl-pico-de-guaco-14-oz",
+      "name": "Tatemada Habanero Salsa",
+      "brand": "more attributes",
+      "price": "$6.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_587abc23-f9e1-4ffa-b1d3-c2d7f22c9ab7.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/28117833-tatemada-habanero-salsa-16-oz",
       "card_text": [
-        "Current price: $6.00",
-        "$600",
-        "Nature's Kitchen Nl Pico De Guaco",
+        "Keto, +2",
+        "more attributes",
+        "Current price: $6.99",
+        "$699",
+        "Original Price: $8.29",
+        "$8.29",
+        "16% off",
+        "Tatemada Habanero Salsa"
+      ]
+    },
+    {
+      "name": "Siete Taqueria Style Salsa Cremosa",
+      "brand": "more attribute",
+      "price": "$4.86",
+      "size": "10.5 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6daba71d-56d1-4e48-9bc3-2f08a81a7987.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/32552536-siete-jalapeno-botana-sauce-10-5-oz",
+      "card_text": [
+        "Gluten-Free, +1",
+        "more attribute",
+        "Current price: $4.86",
+        "$486",
+        "Original Price: $6.49",
+        "$6.49",
+        "25% off",
+        "Siete Taqueria Style Salsa Cremosa"
+      ]
+    },
+    {
+      "name": "Tatemada Jalapeno Salsa",
+      "brand": "more attributes",
+      "price": "$6.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f5cd3b26-7147-4a03-a05f-92f8d3f689b8.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/25020829-tatemada-jalapeno-salsa-16-oz",
+      "card_text": [
+        "Keto, +2",
+        "more attributes",
+        "Current price: $6.99",
+        "$699",
+        "Original Price: $8.29",
+        "$8.29",
+        "16% off",
+        "Tatemada Jalapeno Salsa"
+      ]
+    },
+    {
+      "name": "505 Southwest Medium Southwest Style Salsa",
+      "brand": "more attributes",
+      "price": "$5.79",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96266b22-038d-4b50-80ae-4a6fcd5b76c2.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/33201548-505-southwestern-roadhouse-texas-style-medium-salsa-15-fl-oz",
+      "card_text": [
+        "Gluten-Free, +2",
+        "more attributes",
+        "Current price: $5.79",
+        "$579",
+        "505 Southwest Medium Southwest Style Salsa",
+        "15 oz"
+      ]
+    },
+    {
+      "name": "Casa Sanchez Medium Organica Salsa",
+      "brand": null,
+      "price": "$8.49",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e1269ee0-ebdc-49a6-a63a-cb2587aff0dd.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/122357-casa-sanchez-medium-salsa-organica-15-oz",
+      "card_text": [
+        "Organic",
+        "Current price: $8.49",
+        "$849",
+        "Casa Sanchez Medium Organica Salsa",
         "★★★★★",
         "★★★★★",
-        "(4)",
-        "14 oz"
+        "(24)",
+        "15 oz"
+      ]
+    },
+    {
+      "name": "Late July Medium Salsa Verde",
+      "brand": "more attribute",
+      "price": "$4.99",
+      "size": "15.5 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_04901fcb-9e6f-43bb-bb8c-7c11a2ca55f5.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/39801297-late-july-salsa-verde-with-roasted-tomatillos-15-5-oz",
+      "card_text": [
+        "Gluten-Free, +1",
+        "more attribute",
+        "Current price: $4.99",
+        "$499",
+        "Original Price: $6.99",
+        "$6.99",
+        "29% off",
+        "Late July Medium Salsa Verde"
+      ]
+    },
+    {
+      "name": "505 Southwest Mild Southwest Style Salsa",
+      "brand": "more attributes",
+      "price": "$5.79",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_688368dd-4fae-4782-ac52-dfe8452633e0.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/51900267-505-southwestern-mild-southwest-style-salsa",
+      "card_text": [
+        "Gluten-Free, +2",
+        "more attributes",
+        "Current price: $5.79",
+        "$579",
+        "505 Southwest Mild Southwest Style Salsa",
+        "15 oz"
+      ]
+    },
+    {
+      "name": "Sprouts Organic Fire Roasted Salsa",
+      "brand": "Organic, +3",
+      "price": "$3.49",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6c71d8da-2b1e-4365-bd01-6b1a8d604225.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/17856140-sprouts-organic-fire-roasted-salsa-16-oz",
+      "card_text": [
+        "Organic, +3",
+        "more attributes",
+        "Current price: $3.49",
+        "$349",
+        "Original Price: $4.49",
+        "$4.49",
+        "22% off",
+        "Sprouts Organic Fire Roasted Salsa"
+      ]
+    },
+    {
+      "name": "Sprouts Pico De Gallo",
+      "brand": "Sprouts Brand",
+      "price": "$5.49",
+      "size": "11 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_deecb676-51a6-46a8-82bb-99a2c7188ff8.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/26804355-sprouts-pico-de-gallo-11-oz",
+      "card_text": [
+        "Sprouts Brand",
+        "Current price: $5.49",
+        "$549",
+        "Sprouts Pico De Gallo",
+        "★★★★★",
+        "★★★★★",
+        "(9)",
+        "11 oz"
+      ]
+    },
+    {
+      "name": "505 Southwest Medium Tomatillo, Garlic & Lime Green Chile Salsa",
+      "brand": "more attributes",
+      "price": "$6.79",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2b3b254-7f41-4cbb-ab19-8fc4b5b300af.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/3052915-505-southwestern-tomatillo-garlic-lime-salsa-medium-16-oz",
+      "card_text": [
+        "Gluten-Free, +2",
+        "more attributes",
+        "Current price: $6.79",
+        "$679",
+        "505 Southwest Medium Tomatillo, Garlic & Lime Green Chile Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(4)"
+      ]
+    },
+    {
+      "name": "Hatch Organic Medium Salsa",
+      "brand": "Organic, +2",
+      "price": "$5.79",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fcae6495-f5cf-4781-a544-f32945b839d2.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/18999368-hatch-salsa-organic-medium-16-oz",
+      "card_text": [
+        "Organic, +2",
+        "more attributes",
+        "Current price: $5.79",
+        "$579",
+        "Hatch Organic Medium Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(5)"
+      ]
+    },
+    {
+      "name": "Jalapa Jar Mild Fresh Salsa",
+      "brand": null,
+      "price": "$8.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e6343f99-2c86-47b1-ba9b-72ed6a33a559.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/18266205-jalapa-jar-fresh-salsa-mild-16-oz",
+      "card_text": [
+        "Current price: $8.99",
+        "$899",
+        "Jalapa Jar Mild Fresh Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(1)",
+        "16 oz"
+      ]
+    },
+    {
+      "name": "Wild Sol Mild Salsa",
+      "brand": "more attribute",
+      "price": "$6.79",
+      "size": "11 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a903c789-bc5a-4838-a554-629f1d10db0f.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/48103078-wild-sol-mild-salsa-blanco-tequila",
+      "card_text": [
+        "Gluten-Free, +1",
+        "more attribute",
+        "Current price: $6.79",
+        "$679",
+        "Wild Sol Mild Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(4)"
+      ]
+    },
+    {
+      "name": "Wild Sol Verde Salsa",
+      "brand": "more attribute",
+      "price": "$6.79",
+      "size": "11 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_38a76cb1-f2fb-4510-ba25-da47ee8b369f.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/54466817-wild-sol-salsa-verde-11-oz",
+      "card_text": [
+        "Gluten-Free, +1",
+        "more attribute",
+        "Current price: $6.79",
+        "$679",
+        "Wild Sol Verde Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(6)"
+      ]
+    },
+    {
+      "name": "Wild Sol Hot Salsa",
+      "brand": "more attribute",
+      "price": "$6.79",
+      "size": "11 oz",
+      "img": "https://www.instacart.com/image-server/197x197/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_972766b4-1af2-44e9-8744-f695332b63c1.png",
+      "link": "https://shop.sprouts.com/store/sprouts/products/48311678-wild-sol-hot-salsa",
+      "card_text": [
+        "Gluten-Free, +1",
+        "more attribute",
+        "Current price: $6.79",
+        "$679",
+        "Wild Sol Hot Salsa",
+        "★★★★★",
+        "★★★★★",
+        "(6)"
       ]
     }
   ],
-  "raw_text_chars": 7608,
+  "raw_text_chars": 8984,
   "steps": [
-    "18:23:08 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "18:23:09 connected to Bright Data Scraping Browser",
-    "18:24:00 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
-    "18:24:08 captcha check passed",
-    "18:24:24 dismiss: nothing to close",
-    "18:24:24 js ok ok",
-    "18:24:27 js ok edit",
-    "18:24:31 js ok typed",
-    "18:24:36 js ok set",
-    "18:24:48 scrolled x4",
-    "18:24:48 store_set: In-Store · open 7am - 10pm Pasadena (Store #919)",
-    "18:24:48 extracted 46 houses; raw text 7608 chars"
+    "18:25:53 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:25:53 connected to Bright Data Scraping Browser",
+    "18:26:22 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
+    "18:26:30 captcha check passed",
+    "18:26:46 dismiss: nothing to close",
+    "18:26:47 js ok ok",
+    "18:26:50 js ok edit",
+    "18:26:56 js ok typed:60563",
+    "18:27:01 js ok set",
+    "18:27:13 scrolled x4",
+    "18:27:13 store_set: In-Store · open 7am - 10pm Maricopa (Store #45)",
+    "18:27:14 extracted 51 houses; raw text 8984 chars"
   ],
   "error": null,
   "js_results": [
     "ok",
     "edit",
-    "typed",
+    "typed:60563",
     "set"
   ],
-  "houses_text": 21
+  "houses_text": 27
 }
