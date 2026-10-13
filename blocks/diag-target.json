@@ -1,0 +1,28 @@
+{
+  "block_id": "diag/target@target",
+  "retailer": "target",
+  "zip": "diag",
+  "neighborhood": "target",
+  "term": "salsa",
+  "store_zip": "60615",
+  "steps": [
+    { "goto": "https://www.target.com/s?searchTerm={{term}}" },
+    { "wait": 7000 },
+    { "dismiss": ["Close", "No thanks", "Not now", "Continue", "Got it"] },
+    { "js": "document.querySelector('#web-store-id-msg-btn').click()" },
+    { "wait": 3000 },
+    { "dump": true },
+    {
+      "type_sel": {
+        "sel": "#zip-code-city-or-state",
+        "value": "{{store_zip}}",
+        "enter": false
+      }
+    },
+    { "wait": 2000 },
+    { "dump": true },
+    { "click_re": "^Look up$" },
+    { "wait": 5000 },
+    { "dump": true }
+  ]
+}
