@@ -91,3 +91,12 @@ Recipes encoded in blocks/*.json, run in Bright Data via Actions, no human in th
 - Runner changes: js step (page.evaluate with retries), store_js per block, desktop viewport 1440x900 (fixes mobile layouts), click_sel/type_sel retries and visible waits.
 - Design rule confirmed: store_zip is per banner per market. Zips used: 60615 (Chicago banners), 45202 kroger, 97202 fredmeyer, 90024 ralphs, 84101 smiths, 28202 harristeeter, 83702 albertsons, 90210 vons, 94110 safeway, 19103 acme, 02116 shaws, 77005 randalls, 75205 tomthumb.
 NEXT: retest target + acme + albertsons; add publix.com, hyvee, giant eagle, food lion, stop & shop, wegmans, aldi recipes (map live in Chrome, 2-3 min each); then full rescore and widen.
+
+## HANDOFF 2026-10-13 noon CT (Fable -> Sonnet)
+Store pinning unattended: 15 of 16 blocks pinned with full product lists (Kroger platform 7/7, Albertsons platform 8/8 incl. ACME Philadelphia and Albertsons Boise, Meijer). Target is the only holdout: drawer opens in Bright Data but the store list never renders after "Look up" (works in Steve's Chrome). Sonnet items, in order:
+1. Target: try longer wait after Look up (10s), dump text of the drawer, or fall back to Target's store-locator page then "Shop this store". Low priority if it drags; Target also has a Bright Data prebuilt scraper.
+2. Map remaining banners live in Chrome with Steve (2-3 min each, same pattern: open picker, zip, pick first store, confirm): publix.com, hy-vee, giant eagle, food lion, stop & shop, wegmans, aldi, sprouts.com (own site, not Instacart), fresh thyme. Encode as blocks with store_js.
+3. Full rescore of all blocks, score table into README.md.
+4. Widen toward the 241 list (read DB read-only, bucket by platform).
+5. Steve's loose ends (bottom of file).
+No Shelf Architect DB writes have happened. No backup zip due.
