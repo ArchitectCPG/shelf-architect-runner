@@ -42,7 +42,7 @@
    "wait": 5000
   },
   {
-   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;}; const vis=e=>e&&(e.offsetWidth||e.offsetHeight); const byText=(re,sel)=>[...document.querySelectorAll(sel||'button,a,[role=button],span,div')].filter(e=>vis(e)&&e.childElementCount<3&&re.test((e.innerText||'').trim())).pop();const b=await waitFor(()=>byText(/^Set as my store$/,'button'),25); if(!b) throw new Error('no store list: '+document.body.innerText.slice(0,200)); b.click(); return 'set'"
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;}; const vis=e=>e&&(e.offsetWidth||e.offsetHeight); const byText=(re,sel)=>[...document.querySelectorAll(sel||'button,a,[role=button],span,div')].filter(e=>vis(e)&&e.childElementCount<3&&re.test((e.innerText||'').trim())).pop();const z=await waitFor(()=>/Near {{store_zip}}/.test(document.body.innerText),30); if(!z) throw new Error('list not updated: '+(document.body.innerText.match(/Near \\d{5}/)||[''])[0]); const b=await waitFor(()=>byText(/^Set as my store$/,'button'),10); if(!b) throw new Error('no store list: '+document.body.innerText.slice(0,200)); b.click(); return 'set'"
   },
   {
    "wait": 8000
