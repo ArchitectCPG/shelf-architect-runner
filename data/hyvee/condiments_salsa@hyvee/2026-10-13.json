@@ -1,0 +1,28 @@
+{
+  "block_id": "condiments/salsa@hyvee",
+  "retailer": "hyvee",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-13T18:20:20.260Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60563",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "18:20:20 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:20:20 connected to Bright Data Scraping Browser",
+    "18:20:37 goto https://www.hy-vee.com/aisles-online/search?search=salsa",
+    "18:20:45 captcha check passed",
+    "18:20:58 dismiss: nothing to close",
+    "18:20:59 click_sel [data-testid=global-navigation-store-change-btn]",
+    "18:21:03 js ok typed",
+    "18:21:20 ERROR Error: page.evaluate: Error: no Select\n    at eval (eval at evaluate (:370:30), <anonymous>:1:152)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:207)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  ],
+  "error": "Error: page.evaluate: Error: no Select\n    at eval (eval at evaluate (:370:30), <anonymous>:1:152)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:207)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+  "js_results": [
+    "typed"
+  ]
+}

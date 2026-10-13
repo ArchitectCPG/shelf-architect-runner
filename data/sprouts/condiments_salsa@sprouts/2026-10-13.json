@@ -1,0 +1,23 @@
+{
+  "block_id": "condiments/salsa@sprouts",
+  "retailer": "sprouts",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-13T18:20:21.389Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60563",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "18:20:21 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:20:22 connected to Bright Data Scraping Browser",
+    "18:21:13 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
+    "18:21:21 captcha check passed",
+    "18:21:37 dismiss: nothing to close",
+    "18:21:49 ERROR Error: page.evaluate: TypeError: Cannot read properties of undefined (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:224)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:247)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  ],
+  "error": "Error: page.evaluate: TypeError: Cannot read properties of undefined (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:224)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:247)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+}
