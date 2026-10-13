@@ -1,0 +1,24 @@
+{
+  "block_id": "condiments/salsa@albertsons",
+  "retailer": "albertsons",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-13T13:24:02.639Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "83702",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "13:24:02 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:24:03 connected to Bright Data Scraping Browser",
+    "13:24:15 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
+    "13:24:23 captcha check passed",
+    "13:24:32 dismissed \"Continue with all\"",
+    "13:24:32 press Escape",
+    "13:24:32 ERROR Error: page.evaluate: Execution context was destroyed, most likely because of a navigation"
+  ],
+  "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation"
+}

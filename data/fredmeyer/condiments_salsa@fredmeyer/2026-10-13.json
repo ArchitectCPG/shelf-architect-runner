@@ -1,0 +1,24 @@
+{
+  "block_id": "condiments/salsa@fredmeyer",
+  "retailer": "fredmeyer",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-13T13:24:54.288Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "97202",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "13:24:54 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:24:54 connected to Bright Data Scraping Browser",
+    "13:25:16 goto https://www.fredmeyer.com/search?query=salsa",
+    "13:25:24 captcha check passed",
+    "13:25:39 click_sel miss button[aria-label='close banner']",
+    "13:25:41 click_sel [data-testid=CurrentModality-button]",
+    "13:25:52 ERROR TimeoutError: locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=PostalCodeSearchBox-input]').first()\n"
+  ],
+  "error": "TimeoutError: locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=PostalCodeSearchBox-input]').first()\n"
+}

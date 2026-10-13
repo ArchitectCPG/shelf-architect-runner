@@ -1,0 +1,23 @@
+{
+  "block_id": "condiments/salsa@ralphs",
+  "retailer": "ralphs",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-13T13:28:45.930Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "90024",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "13:28:45 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:28:46 connected to Bright Data Scraping Browser",
+    "13:28:51 goto https://www.ralphs.com/search?query=salsa",
+    "13:28:59 captcha check passed",
+    "13:29:14 click_sel miss button[aria-label='close banner']",
+    "13:29:23 ERROR TimeoutError: page.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=CurrentModality-button]')\n    - locator resolved to <button data-citrus-component=\"Button\" data-testid=\"CurrentModality-button\" id=\"CurrentModality-button-A11Y-FOCUS-ID\" aria-label=\"Pickup at Citrus Plaza, open modal to change how you are shopping\" class=\"citrus-Button citrus-Button--compact hover:bg-neutral-more-subtle cursor-pointer px-2 rounded-small CurrentModality-button py-0 text-left default"
+  ],
+  "error": "TimeoutError: page.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=CurrentModality-button]')\n    - locator resolved to <button data-citrus-component=\"Button\" data-testid=\"CurrentModality-button\" id=\"CurrentModality-button-A11Y-FOCUS-ID\" aria-label=\"Pickup at Citrus Plaza, open modal to change how you are shopping\" class=\"citrus-Button citrus-Button--compact hover:bg-neutral-more-subtle cursor-pointer px-2 rounded-small CurrentModality-button py-0 text-left default"
+}

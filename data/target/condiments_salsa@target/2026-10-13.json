@@ -1,0 +1,27 @@
+{
+  "block_id": "condiments/salsa@target",
+  "retailer": "target",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-13T13:32:17.041Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "13:32:17 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:32:17 connected to Bright Data Scraping Browser",
+    "13:32:20 rate limited, retry 1",
+    "13:32:32 goto https://www.target.com/s?searchTerm=salsa",
+    "13:32:40 captcha check passed",
+    "13:33:01 dismiss: nothing to close",
+    "13:33:02 js ok ",
+    "13:33:11 type_sel #zip-code-city-or-state \"60615\"",
+    "13:33:11 click_re ^Look up$ true",
+    "13:33:16 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:126)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:268)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  ],
+  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:126)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:268)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+}

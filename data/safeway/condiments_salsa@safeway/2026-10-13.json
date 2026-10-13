@@ -1,0 +1,25 @@
+{
+  "block_id": "condiments/salsa@safeway",
+  "retailer": "safeway",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-13T13:29:50.427Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "94110",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "13:29:50 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:29:51 connected to Bright Data Scraping Browser",
+    "13:29:53 rate limited, retry 1",
+    "13:30:02 goto https://www.safeway.com/shop/search-results.html?q=salsa",
+    "13:30:11 captcha check passed",
+    "13:30:29 dismissed \"Continue with all\"",
+    "13:30:30 press Escape",
+    "13:30:30 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'querySelectorAll')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:88)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:223)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  ],
+  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'querySelectorAll')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:88)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:223)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+}

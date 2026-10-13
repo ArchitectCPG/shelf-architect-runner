@@ -1,0 +1,25 @@
+{
+  "block_id": "condiments/salsa@jewel-osco",
+  "retailer": "jewel-osco",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-13T13:26:10.174Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "13:26:10 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:26:11 connected to Bright Data Scraping Browser",
+    "13:26:27 goto https://www.jewelosco.com/shop/search-results.html?q=salsa",
+    "13:26:35 captcha check passed",
+    "13:26:48 dismiss: nothing to close",
+    "13:26:49 press Escape",
+    "13:26:49 js ok ",
+    "13:27:00 ERROR TimeoutError: locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first()\n"
+  ],
+  "error": "TimeoutError: locator.click: Timeout 8000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'ZIP Code\\']').first()\n"
+}
