@@ -3,25 +3,273 @@
   "retailer": "walmart",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:26:24.916Z",
+  "pulled_at": "2026-10-13T12:34:09.145Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
   "store_set": null,
-  "url_final": "https://www.walmart.com/blocked?url=L3NlYXJjaD9xPXNhbHNh&uuid=565fa700-c701-11f1-971b-f7b84607079c&vid=56eecb3a-c701-11f1-a597-93cc2b5ce231&g=b",
-  "houses": [],
-  "raw_text_chars": 211,
+  "url_final": "https://www.walmart.com/search?q=salsa",
+  "houses": [
+    {
+      "name": "Skip to Main Content",
+      "brand": null,
+      "price": "$0.00",
+      "size": "",
+      "img": "https://i5.walmartimages.com/dfw/63fd9f59-14e2/9d304ce6-96de-4331-b8ec-c5191226d378/v1/spark-icon.svg",
+      "link": "https://www.walmart.com/search?q=salsa#maincontent",
+      "card_text": [
+        "Skip to Main Content",
+        "Pickup or delivery?",
+        "Reorder",
+        "My Items",
+        "Sign In",
+        "Account",
+        "$0.00",
+        "Departments"
+      ]
+    },
+    {
+      "name": "Tostitos Con Queso Cheese, No Artificial Colors, No Artificial Flavors, 15 oz Jar",
+      "brand": null,
+      "price": "$4.97",
+      "size": "15 oz",
+      "img": "https://i5.walmartimages.com/seo/Tostitos-Salsa-Medium-Salsa-Con-Queso-Spread-15-Ounce-Jar-Shelf-Stable_23a9f354-ef5e-4413-a5ed-7c86c4dccd3e.10c4ae3a324306236cad16ac1a8f87ce.jpeg?odnHeight=288&odnWidth=288&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&pos=2&tax=976759_7404240_2694309_7035487&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FTostitos-Salsa-Medium-Salsa-Con-Queso-Spread-15-Ounce-Jar-Shelf-Stable%2F15240680%3FadsRedirect%3Dtrue&adUid=8042dfee-2341-4940-80ee-c4d1f060efbf&mloc=sb-search-top&pltfm=desktop&pgId=salsa&pt=search&spQs=vlG7X3vbl6G3D2ZdGxHfzyzWQvda1LPN7bPHKsikFlSRP3A5-_3pUWiMP5DsNmJbqFcXKG0slQAlrs8AF11X4m7yNv_JyA38mthUGWqpuuZUXUVLe5V2GU3WYsnii4fs8inSkP6FOlbpQk8Y7kncHxF1De9fdl3AJYz2uQ_cRX53_cmtPIFn9rCAcQJMO0LB8Y04HveaHiXJTL4XPt8mhTKxJdE5ietNBXOY5sPLhmLY6B-xZGrNPjYyel0nw11Z&storeId=3081&specificity=broad&specificityScore=0.19440931&couponState=na&bkt=ace1_default%7Cace2_default%7Cace3_14159&/ip/Tostitos-Salsa-Medium-Salsa-Con-Queso-Spread-15-Ounce-Jar-Shelf-Stable/15240680",
+      "card_text": [
+        "Tostitos Con Queso Cheese, No Artificial Colors, No Artificial Flavors, 15 oz Jar $4.97",
+        "Add",
+        "$497",
+        "current price $4.97",
+        "Tostitos Con Queso Cheese, No Artificial Colors, No Artificial Flavors, 15 oz Jar",
+        "Delivery as soon as 9am"
+      ]
+    },
+    {
+      "name": "Tostitos Scoops! Tortilla Chips Multigrain, 10 oz",
+      "brand": "Rollback",
+      "price": "$3.97",
+      "size": "10 oz",
+      "img": "https://i5.walmartimages.com/seo/Tostitos-Scoops-Tortilla-Chips-Multigrain-10-oz-Bag_4a301f43-5cfa-4077-9161-56ff32370307.3c50b55c5e2492b644cf54d57f33f402.jpeg?odnHeight=288&odnWidth=288&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&pos=3&tax=976759_7404240_2694309_7035487&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FTostitos-Scoops-Tortilla-Chips-Multigrain-10-oz-Bag%2F17177091%3FadsRedirect%3Dtrue&adUid=8042dfee-2341-4940-80ee-c4d1f060efbf&mloc=sb-search-top&pltfm=desktop&pgId=salsa&pt=search&spQs=emJOZ-RvZURyNJAOCpNZOCzWQvda1LPN7bPHKsikFlSRP3A5-_3pUWiMP5DsNmJbqFcXKG0slQAlrs8AF11X4m7yNv_JyA38mthUGWqpuuZUXUVLe5V2GU3WYsnii4fs8inSkP6FOlbpQk8Y7kncHxF1De9fdl3AJYz2uQ_cRX53_cmtPIFn9rCAcQJMO0LB8Y04HveaHiXJTL4XPt8mhTKxJdE5ietNBXOY5sPLhmLY6B-xZGrNPjYyel0nw11Z&storeId=3081&specificity=broad&specificityScore=0.19440931&couponState=na&bkt=ace1_default%7Cace2_default%7Cace3_14159&/ip/Tostitos-Scoops-Tortilla-Chips-Multigrain-10-oz-Bag/17177091",
+      "card_text": [
+        "Rollback, Tostitos Scoops! Tortilla Chips Multigrain, 10 oz $3.97 Was $4.48",
+        "Rollback",
+        "Add",
+        "Now$397",
+        "current price Now $3.97, Was $4.48",
+        "$4.48",
+        "Tostitos Scoops! Tortilla Chips Multigrain, 10 oz",
+        "Delivery as soon as 9am"
+      ]
+    },
+    {
+      "name": "Tostitos Restaurant Style Original Tortilla Chips, 17 oz Party Size Bag",
+      "brand": null,
+      "price": "$5.94",
+      "size": "17 oz",
+      "img": "https://i5.walmartimages.com/seo/Tostitos-Restaurant-Style-Original-Tortilla-Chips-17-oz-Bag_1086f1c4-6522-4cc3-bca0-f3b81ebc2548.9603a7b9fab02033f84d416a10f4b70b.jpeg?odnHeight=288&odnWidth=288&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&pos=4&tax=976759_7404240_2694309_7035487&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FTostitos-Restaurant-Style-Original-Tortilla-Chips-17-oz-Bag%2F400522214%3FadsRedirect%3Dtrue&adUid=8042dfee-2341-4940-80ee-c4d1f060efbf&mloc=sb-search-top&pltfm=desktop&pgId=salsa&pt=search&spQs=zyeTTEyBm2HlWh2F57Nj9pfTlK2bvHRqY8x7ra0tdh0CY7pnlFsckjaF0YJmf3wFWLjKonIeCJeG0RHBxDPA4LKll9NlZqqTUPhdYwWOPSuzoptxL8H4zv8CkMl-0tXJ-zeU_LfkMVo87bMfZVB26XSEjMBZ4Z4fKLiSpEiGm8SPHp89bUyBLiib8nRdyvsxBGRT0RlYHF4X98pP5VppRo-bgZ1qnSW4LaKGKhiAX3Ngg4CM5Vt_BGpPhzur3r36&storeId=3081&specificity=broad&specificityScore=0.19440931&couponState=na&bkt=ace1_default%7Cace2_default%7Cace3_14159&/ip/Tostitos-Restaurant-Style-Original-Tortilla-Chips-17-oz-Bag/400522214",
+      "card_text": [
+        "Tostitos Restaurant Style Original Tortilla Chips, 17 oz Party Size Bag $5.94",
+        "Add",
+        "$594",
+        "current price $5.94",
+        "Tostitos Restaurant Style Original Tortilla Chips, 17 oz Party Size Bag",
+        "Delivery as soon as 9am"
+      ]
+    },
+    {
+      "name": "Tostitos Hint of Lime Flavored Tortilla Chips, 17 oz",
+      "brand": null,
+      "price": "$5.94",
+      "size": "17 oz",
+      "img": "https://i5.walmartimages.com/seo/Tostitos-Hint-of-Lime-Flavored-Tortilla-Chips-17-oz-Bag_f346a15c-1be3-4908-97ab-48b7856ef229.9fddcda22a37650ea23379a438af812b.jpeg?odnHeight=288&odnWidth=288&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&pos=5&tax=976759_7404240_2694309_7035487&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FTostitos-Hint-of-Lime-Flavored-Tortilla-Chips-17-oz-Bag%2F5080177346%3FadsRedirect%3Dtrue&adUid=8042dfee-2341-4940-80ee-c4d1f060efbf&mloc=sb-search-top&pltfm=desktop&pgId=salsa&pt=search&spQs=XHGOUQePwkuQcz10xgEs_Y6LJl-HjObQabOLY9fjNE3Wawr1iArludW_wBveX9bBMhUJ4mkzPi3g5SSdLu02bjJBh9pEGSU76IyjWCFVMnPKxTc-oOVmJo3S3geEto9VNPGk-O1eg87PbIYe_p_DNgZnq0T28dKpybHeYZt9AF_MlKdRsD2GqEk7M7o_IBf9mjx7T5AYpyX7J1Nix_g4ffL82wiitTl65xHruaJQZ0QW6Xi6FDQ3WZOBvNkHcS-i&storeId=3081&specificity=broad&specificityScore=0.19440931&couponState=na&bkt=ace1_default%7Cace2_default%7Cace3_14159&/ip/Tostitos-Hint-of-Lime-Flavored-Tortilla-Chips-17-oz-Bag/5080177346",
+      "card_text": [
+        "Tostitos Hint of Lime Flavored Tortilla Chips, 17 oz $5.94",
+        "Add",
+        "$594",
+        "current price $5.94",
+        "Tostitos Hint of Lime Flavored Tortilla Chips, 17 oz",
+        "Delivery as soon as 9am"
+      ]
+    },
+    {
+      "name": "LA VICTORIA Thick 'N Chunky Salsa, Mild, Shelf-Stable, 15.5 oz Glass Jar",
+      "brand": "Subscribe",
+      "price": "$2.92",
+      "size": "15.5 oz",
+      "img": "https://i5.walmartimages.com/seo/LA-VICTORIA-Thick-N-Chunky-Salsa-Mild-Shelf-Stable-15-5-oz-Glass-Jar_679a5457-d857-4fa0-8baf-a9c7bb34486a.4a70bf25ffd57923beda7aac020c22af.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~primary-exact&pos=1&tax=976759_7404240_2694309_7035487&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FLA-VICTORIA-Thick-N-Chunky-Salsa-Mild-Shelf-Stable-15-5-oz-Glass-Jar%2F1307267666%3FclassType%3DREGULAR%26adsRedirect%3Dtrue&adUid=4c53e8c4-9d48-4cab-809c-24936954d0f0-0-0&mloc=sp-search-middle&pltfm=desktop&pgId=salsa&pt=search&spQs=SG4tT7AYdflsXRTeO_UvtlWyC6cW3YQZMl9n_17Mg2UN7e3VcuMwCFFec3XUc_DvCvT7RjuVZQ-lA6mkwE-mOataE0qHE_5DoIQB4fxRclPzLT6n_uSetCLUcRqgbIMqnqC9fF4RqN3semAIP4fzsLniJDqVpiPmEsYTZYmQVzmgC3u2AjGJWr4iLKGQrTqN7L6YkZxP4WMQSI8j0zSriswlozZzIIHRQEaEZLmy7UB2--qry_VZRm4OqRXrVp4-0jEQuiAu3HVQQLPxTd_DwQBmCjwiFJD7c28KGi4yKLsW6Xi6FDQ3WZOBvNkHcS-i&storeId=3081&specificity=broad&specificityScore=0.19440931&couponState=na&bkt=ace1_14864%7Cace2_14870%7Cace3_14767%7Cbb_3_14743%7Cbb_4_14758%7Csearch_iro%7Ccoldstart_off%7Csearch_Glass_SBE_SEO_SEM_with_Doc2query_Combo_rWeb&classType=REGULAR",
+      "card_text": [
+        "LA VICTORIA Thick 'N Chunky Salsa, Mild, Shelf-Stable, 15.5 oz Glass Jar, Price $2.92",
+        "Add",
+        "Subscribe",
+        "Sponsored",
+        "Price $2.92",
+        "$",
+        "2",
+        "92"
+      ]
+    },
+    {
+      "name": "Fresh Cravings Restaurant Style Mild Salsa, 16 oz, Refrigerated",
+      "brand": "5K+ bought since yesterday",
+      "price": "$3.97",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/seo/Fresh-Cravings-Restaurant-Style-Mild-Salsa-16-oz-Ready-to-Eat-Gluten-Free-Recyclable-Packaging-Keep-Refrigerated_83548291-515f-49d9-ac07-67ddecaf7c2c.a271a70cafd3313521ee7bf218476602.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~primary-exact&pos=2&tax=976759_7404240_2694309_7035487&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FFresh-Cravings-Restaurant-Style-Mild-Salsa-16-oz-Ready-to-Eat-Gluten-Free-Recyclable-Packaging-Keep-Refrigerated%2F45980580%3FclassType%3DREGULAR%26athbdg%3DL1102%26adsRedirect%3Dtrue&adUid=4c53e8c4-9d48-4cab-809c-24936954d0f0-0-0&mloc=sp-search-middle&pltfm=desktop&pgId=salsa&pt=search&spQs=Qm9HJADz8u8UH8I3Cf5Nmwt6y3Cd3x1izj_f1vQ0ft_ggU9w8tBGUMXV-V10ArwoTqooezkIlRStozLRqKiP6NFLn1AUSfdt6qlwAP2cR7A9Y1kz2tU2xP_a_YZlG8dZh2OlB5X6nPOl6hSoVfjs9GVzGANXyIwDyXfQaYQ1-oHFBfXMGycLt_FOkv3yH_bAzZ3eZBRiE5eX-KIDY2sM85o8e0-QGKcl-ydTYsf4OH3KezQLKhEk-Qk109B43DKyN2UTE_gxBOGCrtwCz67v7aUhu0cM40t_YITK56K69grDU5etrm24XPMEKO7h6hKd&storeId=3081&specificity=broad&specificityScore=0.19440931&couponState=na&bkt=ace1_14864%7Cace2_14870%7Cace3_14767%7Cbb_3_14743%7Cbb_4_14758%7Csearch_iro%7Ccoldstart_off%7Csearch_Glass_SBE_SEO_SEM_with_Doc2query_Combo_rWeb&classType=REGULAR&athbdg=L1102",
+      "card_text": [
+        "5K+ bought since yesterday, Fresh Cravings Restaurant Style Mild Salsa, 16 oz, Refrigerated, Price $3.97 24.8 ¢/oz",
+        "5K+ bought since yesterday",
+        "Add",
+        "Subscribe",
+        "Sponsored",
+        "Price $3.97 24.8 ¢/oz",
+        "$",
+        "3"
+      ]
+    },
+    {
+      "name": "Fresh Cravings Restaurant Style Medium Salsa, 16 oz., Recyclable Plastic Tub, Refrigerated",
+      "brand": "Subscribe",
+      "price": "$3.97",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/seo/Fresh-Cravings-Restaurant-Style-Medium-Salsa-16-oz-Recyclable-Plastic-Tub-Refrigerated_43856094-819b-4c01-9647-249edd08de64.9c99e5e8c463467f53d63a70d7449338.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~primary-exact&pos=3&tax=976759_7404240_2694309_7035487&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FFresh-Cravings-Restaurant-Style-Medium-Salsa-16-oz-Recyclable-Plastic-Tub-Refrigerated%2F45980581%3FclassType%3DREGULAR%26athbdg%3DL1600%26adsRedirect%3Dtrue&adUid=4c53e8c4-9d48-4cab-809c-24936954d0f0-0-0&mloc=sp-search-middle&pltfm=desktop&pgId=salsa&pt=search&spQs=6kIj87vjookT1lRbe8lUwwt6y3Cd3x1izj_f1vQ0ft_ggU9w8tBGUMXV-V10ArwoBsgEBigmY1WtC53DkMD2MdFLn1AUSfdt6qlwAP2cR7A9Y1kz2tU2xP_a_YZlG8dZIKJp2y0f3SadnbEerJznH2Zdqp5nG8Mz1SFmYzekBAaONwg20H8RQ-ZNv5vKqdDZzZ3eZBRiE5eX-KIDY2sM85o8e0-QGKcl-ydTYsf4OH3KezQLKhEk-Qk109B43DKyN2UTE_gxBOGCrtwCz67v7aUhu0cM40t_YITK56K69grDU5etrm24XPMEKO7h6hKd&storeId=3081&specificity=broad&specificityScore=0.19440931&couponState=na&bkt=ace1_14864%7Cace2_14870%7Cace3_14767%7Cbb_3_14743%7Cbb_4_14758%7Csearch_iro%7Ccoldstart_off%7Csearch_Glass_SBE_SEO_SEM_with_Doc2query_Combo_rWeb&classType=REGULAR&athbdg=L1600",
+      "card_text": [
+        "Best seller, Fresh Cravings Restaurant Style Medium Salsa, 16 oz., Recyclable Plastic Tub, Refrigerated, Price $3.97 24.8 ¢/oz",
+        "Best seller",
+        "Add",
+        "Subscribe",
+        "Sponsored",
+        "Price $3.97 24.8 ¢/oz",
+        "$",
+        "3"
+      ]
+    },
+    {
+      "name": "Great Value Thick and Chunky Salsa Mild, 16 oz",
+      "brand": "Overall pick",
+      "price": "$1.97",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/seo/Great-Value-Thick-and-Chunky-Salsa-Mild-16-oz_f33bfd55-0b98-43af-98e1-641b6be57e85.ac4cfef3163c7542b1b6424b3b56899d.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/ip/Great-Value-Thick-and-Chunky-Salsa-Mild-16-oz/1959652540?classType=VARIANT&athbdg=L1200&from=/search",
+      "card_text": [
+        "Overall pick, Great Value Thick and Chunky Salsa Mild, 16 oz, Price $1.97 12.3 ¢/oz Options from $1.97 – $7.88",
+        "Overall pick",
+        "Add",
+        "Subscribe",
+        "Price $1.97 12.3 ¢/oz Options from $1.97 – $7.88",
+        "$",
+        "1",
+        "97"
+      ]
+    },
+    {
+      "name": "Fresh Cravings Restaurant Style Mild Salsa, 16 oz, Refrigerated",
+      "brand": "5K+ bought since yesterday",
+      "price": "$3.97",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/seo/Fresh-Cravings-Restaurant-Style-Mild-Salsa-16-oz-Ready-to-Eat-Gluten-Free-Recyclable-Packaging-Keep-Refrigerated_83548291-515f-49d9-ac07-67ddecaf7c2c.a271a70cafd3313521ee7bf218476602.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/ip/Fresh-Cravings-Restaurant-Style-Mild-Salsa-16-oz-Ready-to-Eat-Gluten-Free-Recyclable-Packaging-Keep-Refrigerated/45980580?classType=REGULAR&athbdg=L1102&from=/search",
+      "card_text": [
+        "5K+ bought since yesterday, Fresh Cravings Restaurant Style Mild Salsa, 16 oz, Refrigerated, Price $3.97 24.8 ¢/oz",
+        "5K+ bought since yesterday",
+        "Add",
+        "Subscribe",
+        "Price $3.97 24.8 ¢/oz",
+        "$",
+        "3",
+        "97"
+      ]
+    },
+    {
+      "name": "On The Border Mild Salsa, Gluten-Free, 16 oz Jar",
+      "brand": "Subscribe",
+      "price": "$3.62",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/seo/On-The-Border-Mild-Salsa-Gluten-Free-16-oz-Jar_a3e46108-4167-4af7-925a-8e4bf06cc09f.2f3df6f23f338f74426c17b1520e0b15.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~primary-exact&pos=6&tax=976759_7404240_2694309_7035487&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FOn-The-Border-Mexican-Grill-Cantina-Mild-Salsa-16-oz%2F10317637%3FclassType%3DREGULAR%26adsRedirect%3Dtrue&adUid=4c53e8c4-9d48-4cab-809c-24936954d0f0-0-0&mloc=sp-search-middle&pltfm=desktop&pgId=salsa&pt=search&spQs=tKHLrZ78OvTOjGIoJBCjSI-SF0Dgvz-MsLr4_iRT9JEkC6XvtWNTn-K1eu64r4zBFViEgo2Wm4QBquMRJltnl9FLn1AUSfdt6qlwAP2cR7BRmpOXan7yyChvXaeIYEewQm6fNU_wZbfnQQj6m2kZQHKM84l60zlJjG2ZZZhkC_COF09DemGFEoCZzLHHUhE2PH49fdXlvzSy4SMgjwqP1wRkU9EZWBxeF_fKT-VaaUZ6OnwqYSrVQCZBFN8Q7XIrVou3_w1O7zcNkYR_bljlY8TnSmv66OLzJ7Z4DI5yL8CFtSe8xgpNjnAuj475F4Ec&storeId=3081&specificity=broad&specificityScore=0.19440931&couponState=na&bkt=ace1_14864%7Cace2_14870%7Cace3_14767%7Cbb_3_14743%7Cbb_4_14758%7Csearch_iro%7Ccoldstart_off%7Csearch_Glass_SBE_SEO_SEM_with_Doc2query_Combo_rWeb&classType=REGULAR",
+      "card_text": [
+        "On The Border Mild Salsa, Gluten-Free, 16 oz Jar, Price $3.62 22.6 ¢/oz",
+        "Add",
+        "Subscribe",
+        "Sponsored",
+        "Price $3.62 22.6 ¢/oz",
+        "$",
+        "3",
+        "62"
+      ]
+    },
+    {
+      "name": "HERDEZ Salsa Verde Mild, Tortilla Chip Dip, Shelf Stable, 16 oz Glass Jar",
+      "brand": "Subscribe",
+      "price": "$2.97",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/seo/HERDEZ-Salsa-Verde-Mild-Tortilla-Chip-Dip-Shelf-Stable-16-oz-Glass-Jar_6a364291-d57f-4547-a3f8-10fef3da425d.2443f4dbd256dad60b76617476b1e9ce.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~primary-exact&pos=7&tax=976759_7404240_2694309_7035487&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FHERDEZ-Salsa-Verde-Mild-Tortilla-Chip-Dip-Shelf-Stable-16-oz-Glass-Jar%2F10292961%3FclassType%3DREGULAR%26athbdg%3DL1600%26adsRedirect%3Dtrue&adUid=4c53e8c4-9d48-4cab-809c-24936954d0f0-0-0&mloc=sp-search-middle&pltfm=desktop&pgId=salsa&pt=search&spQs=d1mJ44OVW-MmNelRtF27-dWURnd13fMFWJD21vHJkxFRSMQlSvGlZ0UhfJaxJ676eYTpAKXS5O8mRqu6rFZCLNFLn1AUSfdt6qlwAP2cR7DfdigqV2Q7VzfDFJS5L7euKGsdM-1pN-jjFwulZJ2qJYnfzESaZTAQMkMXu_1T0kyW49NPROYglJOtXP2BhLiiTm7NAKRAoGIgvHI7mn2l5-_3YF-VQjFH6wXqMgcjzSQ2dYxc5WjS2yhQRBDfLZNEXYYCjM656y_inA2jBouMCjZ6aYubTAltp2fIBpIKJgzY6B-xZGrNPjYyel0nw11Z&storeId=3081&specificity=broad&specificityScore=0.19440931&couponState=na&bkt=ace1_14864%7Cace2_14870%7Cace3_14767%7Cbb_3_14743%7Cbb_4_14758%7Csearch_iro%7Ccoldstart_off%7Csearch_Glass_SBE_SEO_SEM_with_Doc2query_Combo_rWeb&classType=REGULAR&athbdg=L1600",
+      "card_text": [
+        "Best seller, HERDEZ Salsa Verde Mild, Tortilla Chip Dip, Shelf Stable, 16 oz Glass Jar, Price $2.97 18.6 ¢/oz",
+        "Best seller",
+        "Add",
+        "Subscribe",
+        "Sponsored",
+        "Price $2.97 18.6 ¢/oz",
+        "$",
+        "2"
+      ]
+    },
+    {
+      "name": "LA VICTORIA Thick 'N Chunky Salsa, Medium, Shelf-Stable, 15.5 oz Glass Jar",
+      "brand": "Subscribe",
+      "price": "$2.92",
+      "size": "15.5 oz",
+      "img": "https://i5.walmartimages.com/seo/LA-VICTORIA-Thick-N-Chunky-Salsa-Medium-Shelf-Stable-15-5-oz-Glass-Jar_4c930b86-d0d1-4e44-995c-82eb50533e2d.b17bab39685a814c951f3c93a3dace30.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~desktop~primary-exact&pos=8&tax=976759_7404240_2694309_7035487&rdf=1&rd=https%3A%2F%2Fwww.walmart.com%2Fip%2FLA-VICTORIA-Thick-N-Chunky-Salsa-Medium-Shelf-Stable-15-5-oz-Glass-Jar%2F3403890417%3FclassType%3DREGULAR%26adsRedirect%3Dtrue&adUid=4c53e8c4-9d48-4cab-809c-24936954d0f0-0-0&mloc=sp-search-middle&pltfm=desktop&pgId=salsa&pt=search&spQs=DFbISdsIFuTEG4oxbI1FrqXMOv8XfYInR-uEoFSd4dIN7e3VcuMwCFFec3XUc_DvCvT7RjuVZQ-lA6mkwE-mOataE0qHE_5DoIQB4fxRclPzLT6n_uSetCLUcRqgbIMqnqC9fF4RqN3semAIP4fzsKZqPdZNs1Ehj2m9O0YXZfVvP1j8FnAjElRuOXCfc3ddAxXpPh0xXQe2yEN43DM2upbv3_DFq9Mtom8yFJCwpQ23bKHsJgSMWQtBrUrAcQhrnAffGJ91ez10U-C-ijKPDyWz7bg47eDKXPhQdUouXfRgg4CM5Vt_BGpPhzur3r36&storeId=3081&specificity=broad&specificityScore=0.19440931&couponState=na&bkt=ace1_14864%7Cace2_14870%7Cace3_14767%7Cbb_3_14743%7Cbb_4_14758%7Csearch_iro%7Ccoldstart_off%7Csearch_Glass_SBE_SEO_SEM_with_Doc2query_Combo_rWeb&classType=REGULAR",
+      "card_text": [
+        "LA VICTORIA Thick 'N Chunky Salsa, Medium, Shelf-Stable, 15.5 oz Glass Jar, Price $2.92",
+        "Add",
+        "Subscribe",
+        "Sponsored",
+        "Price $2.92",
+        "$",
+        "2",
+        "92"
+      ]
+    },
+    {
+      "name": "Pace Chunky Mild Salsa, 16 oz Jar",
+      "brand": "5K+ bought since yesterday",
+      "price": "$2.97",
+      "size": "16 oz",
+      "img": "https://i5.walmartimages.com/seo/Pace-Chunky-Mild-Salsa-16-oz-Jar_0f3fa897-855a-4ad0-b4d5-b1ee528409ae.3b337984c87f80a6db9acda82eec41a3.jpeg?odnHeight=576&odnWidth=576&odnBg=FFFFFF",
+      "link": "https://www.walmart.com/ip/Pace-Chunky-Mild-Salsa-16-oz-Jar/10320079?classType=VARIANT&athbdg=L1102&from=/search",
+      "card_text": [
+        "5K+ bought since yesterday, Pace Chunky Mild Salsa, 16 oz Jar, Price $2.97 18.6 ¢/oz",
+        "5K+ bought since yesterday",
+        "Add",
+        "Subscribe",
+        "Price $2.97 18.6 ¢/oz",
+        "$",
+        "2",
+        "97"
+      ]
+    }
+  ],
+  "raw_text_chars": 4888,
   "steps": [
-    "12:26:24 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:26:25 connected to Bright Data Scraping Browser",
-    "12:26:28 rate limited, retry 1",
-    "12:27:43 goto https://www.walmart.com/search?q=salsa",
-    "12:29:30 captcha check passed",
-    "12:29:43 dismiss: nothing to close",
-    "12:29:43 press Escape",
-    "12:29:43 dump landing: 5 controls",
-    "12:29:43 store_set: null",
-    "12:29:44 extracted 0 houses; raw text 211 chars"
+    "12:34:09 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "12:34:09 connected to Bright Data Scraping Browser",
+    "12:35:26 goto https://www.walmart.com/search?q=salsa",
+    "12:35:35 captcha check passed",
+    "12:35:47 dismiss: nothing to close",
+    "12:35:47 press Escape",
+    "12:35:47 dump landing: 149 controls",
+    "12:35:47 click_re pickup or delivery|How do you want your items|Add (an )?address|Sacramento|Store true",
+    "12:35:51 dump after-click: 149 controls",
+    "12:35:51 store_set: null",
+    "12:35:52 extracted 14 houses; raw text 4888 chars"
   ],
   "error": null,
   "controls": [
@@ -30,12 +278,1218 @@
       "controls": [
         {
           "tag": "a",
+          "text": "Skip to Main Content",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#maincontent"
+        },
+        {
+          "tag": "a",
           "text": "",
-          "aria": "Walmart. Save Money. Live Better. Home Page",
+          "aria": "All Departments Menu",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/all-departments"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Walmart Homepage",
           "ph": null,
           "tid": null,
           "id": null,
           "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Walmart Homepage",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": "Search",
+          "ph": "Search Walmart",
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Clear search field text",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Cancel",
+          "aria": "Cancel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Reorder\nMy Items",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/my-items"
+        },
+        {
+          "tag": "a",
+          "text": "Reorder",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/my-items"
+        },
+        {
+          "tag": "a",
+          "text": "Lists",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lists"
+        },
+        {
+          "tag": "a",
+          "text": "Registries",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/my-registries"
+        },
+        {
+          "tag": "a",
+          "text": "Sign In\nAccount",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "Sign in or create account",
+          "aria": null,
+          "ph": null,
+          "tid": "sign-in",
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "Purchase History",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/orders"
+        },
+        {
+          "tag": "a",
+          "text": "Walmart+",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/plus"
+        },
+        {
+          "tag": "a",
+          "text": "Subscriptions",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/cp/subscriptions/4191733"
+        },
+        {
+          "tag": "button",
+          "text": "Language | English",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "$0.00",
+          "aria": "Cart contains 0 items Total Amount $0.00",
+          "ph": null,
+          "tid": null,
+          "id": "cart-button-header",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Always a Fiesta\nSponsored by Tostitos",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=bhc&plmt=sb-search-top~desktop~&po"
+        },
+        {
+          "tag": "a",
+          "text": "Shop now",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=bhc&plmt=sb-search-top~desktop~&po"
+        },
+        {
+          "tag": "button",
+          "text": "Shop now",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos Con Queso Cheese, No Artificial Colors, No Artifici",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add - Tostitos Con Queso Cheese, No Artificial Colors, No Artificial Flavors, 15 oz Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Rollback, Tostitos Scoops! Tortilla Chips Multigrain, 10 oz ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add - Tostitos Scoops! Tortilla Chips Multigrain, 10 oz",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos Restaurant Style Original Tortilla Chips, 17 oz Par",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add - Tostitos Restaurant Style Original Tortilla Chips, 17 oz Party Size Bag",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos Hint of Lime Flavored Tortilla Chips, 17 oz $5.94",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add - Tostitos Hint of Lime Flavored Tortilla Chips, 17 oz",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "In-store",
+          "aria": "Filter by In-store",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Get it fast",
+          "aria": "Filter by Get it fast",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "All deals",
+          "aria": "Filter by All deals",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Price",
+          "aria": "Filter by Price not applied, activate to change",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Brand",
+          "aria": "Filter by Brand not applied, activate to change",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Best Match",
+          "aria": "Sort by Best Match",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Previous slide for chipModuleWithImages list",
+          "ph": null,
+          "tid": "horizontal-scroller-previous",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pantry rollbacks",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/pantry-savings/0?_refineresult=true&_be_shelf_id="
+        },
+        {
+          "tag": "a",
+          "text": "New arrivals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/shop/food-and-beverage/pantry-new-arrivals"
+        },
+        {
+          "tag": "a",
+          "text": "Chunky salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/chunky-salsa/976759_976787_1001393_7109351_7"
+        },
+        {
+          "tag": "a",
+          "text": "Smooth salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/smooth-salsa/976759_976787_1001393_7109351_2"
+        },
+        {
+          "tag": "a",
+          "text": "Verde salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/salsa-verde/976759_976787_1001393_7109351_85"
+        },
+        {
+          "tag": "a",
+          "text": "Mild salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/mild-level-heat-salsa/976759_976787_1001393_"
+        },
+        {
+          "tag": "a",
+          "text": "Medium salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/medium-level-heat-salsa/976759_976787_100139"
+        },
+        {
+          "tag": "a",
+          "text": "Hot salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/hot-level-heat-salsa/976759_976787_1001393_7"
+        },
+        {
+          "tag": "a",
+          "text": "Organic salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/org-salsa/976759_976787_1001393_7109351_6186"
+        },
+        {
+          "tag": "a",
+          "text": "Fresh salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/fresh-salsa/976759_976787_1001393_7109351_45"
+        },
+        {
+          "tag": "a",
+          "text": "Shelf stable salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/shelf-stable-salsa/976759_976787_1001393_710"
+        },
+        {
+          "tag": "a",
+          "text": "Shop all salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/salsa/976759_976787_1001393_7109351"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Next slide for chipModuleWithImages list",
+          "ph": null,
+          "tid": "horizontal-scroller-next",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pantry rollbacks",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/pantry-savings/0?_refineresult=true&_be_shelf_id="
+        },
+        {
+          "tag": "a",
+          "text": "New arrivals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/shop/food-and-beverage/pantry-new-arrivals"
+        },
+        {
+          "tag": "a",
+          "text": "Chunky salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/chunky-salsa/976759_976787_1001393_7109351_7"
+        },
+        {
+          "tag": "a",
+          "text": "Smooth salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/smooth-salsa/976759_976787_1001393_7109351_2"
+        },
+        {
+          "tag": "a",
+          "text": "Verde salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/salsa-verde/976759_976787_1001393_7109351_85"
+        },
+        {
+          "tag": "a",
+          "text": "Mild salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/mild-level-heat-salsa/976759_976787_1001393_"
+        },
+        {
+          "tag": "a",
+          "text": "Medium salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/medium-level-heat-salsa/976759_976787_100139"
+        },
+        {
+          "tag": "a",
+          "text": "Hot salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/hot-level-heat-salsa/976759_976787_1001393_7"
+        },
+        {
+          "tag": "a",
+          "text": "Organic salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/org-salsa/976759_976787_1001393_7109351_6186"
+        },
+        {
+          "tag": "a",
+          "text": "Fresh salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/fresh-salsa/976759_976787_1001393_7109351_45"
+        },
+        {
+          "tag": "a",
+          "text": "Shelf stable salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/shelf-stable-salsa/976759_976787_1001393_710"
+        },
+        {
+          "tag": "a",
+          "text": "Shop all salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/salsa/976759_976787_1001393_7109351"
+        },
+        {
+          "tag": "button",
+          "text": "Refrigerated",
+          "aria": "Refrigerated",
+          "ph": null,
+          "tid": "suggested-filter-food_condition-Refrigerated",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Shelf-Stable",
+          "aria": "Shelf-Stable",
+          "ph": null,
+          "tid": "suggested-filter-food_condition-Shelf-Stable",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Spicy",
+          "aria": "Spicy",
+          "ph": null,
+          "tid": "suggested-filter-flavor-Spicy",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Low Sodium",
+          "aria": "Low Sodium",
+          "ph": null,
+          "tid": "suggested-filter-dietary_need-Low Sodium",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "5 to 10 lbs.",
+          "aria": "5 to 10 lbs.",
+          "ph": null,
+          "tid": "suggested-filter-size_cat_food-5 to 10 lbs.",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Gluten-Free",
+          "aria": "Gluten-Free",
+          "ph": null,
+          "tid": "suggested-filter-dietary_need-Gluten-Free",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "16 to 20 lbs.",
+          "aria": "16 to 20 lbs.",
+          "ph": null,
+          "tid": "suggested-filter-size_cat_food-16 to 20 lbs.",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Original",
+          "aria": "Original",
+          "ph": null,
+          "tid": "suggested-filter-flavor-Original",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Price",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Brand",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Walmart Cash Offers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Flavor",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Special Diet Needs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Category",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Weight",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Food Condition",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscription",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Availability",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Deals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Customer Rating",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Retailer",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Gifting",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Benefit Programs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Ver resultados para \"sauce\"",
+          "aria": null,
+          "ph": null,
+          "tid": "url-link-text",
+          "id": null,
+          "href": "/search?q=sauce&query=sauce&translation=eyJvcmlnaW5hbFF1ZXJ5Ijoic2Fsc2EiLCJ0cmFu"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "legal information",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "LA VICTORIA Thick 'N Chunky Salsa, Mild, Shelf-Stable, 15.5 ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - LA VICTORIA Thick 'N Chunky Salsa, Mild, Shelf-Stable, 15.5 oz Glass Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "5K+ bought since yesterday, Fresh Cravings Restaurant Style ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - Fresh Cravings Restaurant Style Mild Salsa, 16 oz, Refrigerated",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Best seller, Fresh Cravings Restaurant Style Medium Salsa, 1",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - Fresh Cravings Restaurant Style Medium Salsa, 16 oz., Recyclable Plastic Tub, Refrigerated",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Overall pick, Great Value Thick and Chunky Salsa Mild, 16 oz",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/ip/Great-Value-Thick-and-Chunky-Salsa-Mild-16-oz/1959652540?classType=VARIANT&a"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - Great Value Thick and Chunky Salsa Mild, 16 oz",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "5K+ bought since yesterday, Fresh Cravings Restaurant Style ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/ip/Fresh-Cravings-Restaurant-Style-Mild-Salsa-16-oz-Ready-to-Eat-Gluten-Free-Re"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - Fresh Cravings Restaurant Style Mild Salsa, 16 oz, Refrigerated",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "On The Border Mild Salsa, Gluten-Free, 16 oz Jar, Price $3.6",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - On The Border Mild Salsa, Gluten-Free, 16 oz Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Best seller, HERDEZ Salsa Verde Mild, Tortilla Chip Dip, She",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - HERDEZ Salsa Verde Mild, Tortilla Chip Dip, Shelf Stable, 16 oz Glass Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "LA VICTORIA Thick 'N Chunky Salsa, Medium, Shelf-Stable, 15.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - LA VICTORIA Thick 'N Chunky Salsa, Medium, Shelf-Stable, 15.5 oz Glass Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "5K+ bought since yesterday, Pace Chunky Mild Salsa, 16 oz Ja",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/ip/Pace-Chunky-Mild-Salsa-16-oz-Jar/10320079?classType=VARIANT&athbdg=L1102&fro"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - Pace Chunky Mild Salsa, 16 oz Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Give feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "All Departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/all-departments"
+        },
+        {
+          "tag": "a",
+          "text": "Store Directory",
+          "aria": "Store Directory - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/store/directory"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": "Careers - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://careers.walmart.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Our Company",
+          "aria": "Our Company - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Sell on Walmart.com",
+          "aria": "Sell on Walmart.com - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://marketplace.walmart.com/?utm_source=Walmart.com&utm_medium=link&utm_camp"
+        },
+        {
+          "tag": "a",
+          "text": "Help",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": "Product Recalls - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/recalls"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility",
+          "aria": "Accessibility - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/help/article/responsible-disclosure-and-accessibility-po"
+        },
+        {
+          "tag": "a",
+          "text": "Tax Exempt Program",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/cp/tax-exemption-program/8480422"
+        },
+        {
+          "tag": "a",
+          "text": "Get the Walmart App",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://walmart.onelink.me/UIev?pid=walmart.com&af_web_dp=https%3A%2F%2Fwww.walm"
+        },
+        {
+          "tag": "a",
+          "text": "Safety Data Sheet",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://msds.walmartstores.com/"
         },
         {
           "tag": "a",
@@ -44,37 +1498,1473 @@
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "https://help.walmart.com/app/answers/detail/a_id/8"
+          "href": "http://walmart.com/help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f"
         },
         {
           "tag": "a",
-          "text": "Privacy Policy",
+          "text": "Privacy Notice",
+          "aria": "Privacy Notice - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice"
+        },
+        {
+          "tag": "a",
+          "text": "California Supply Chain Act",
+          "aria": "California Supply Chain Act - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/california-transparency"
+        },
+        {
+          "tag": "a",
+          "text": "Your Privacy Choices",
+          "aria": "Your Privacy Choices - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/privacyrequest"
+        },
+        {
+          "tag": "a",
+          "text": "Customer Privacy Center",
+          "aria": "Customer Privacy Center - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/privacy-center"
+        },
+        {
+          "tag": "a",
+          "text": "Notice at Collection",
+          "aria": "Notice at Collection - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/privacy-security/california-privacy-rights#what-ar"
+        },
+        {
+          "tag": "a",
+          "text": "AdChoices",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "https://corporate.walmart.com/privacy-security"
+          "href": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice#interest-b"
         },
         {
           "tag": "a",
-          "text": "Do Not Sell My Personal Information",
+          "text": "Consumer Health Data Privacy Notices",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/account/api/ccpa-intake?native=false&type=sod"
+          "href": "https://corporate.walmart.com/privacy-security/walmart-consumer-health-data-priv"
         },
         {
           "tag": "a",
-          "text": "Request My Personal Information",
+          "text": "Learn about Spark Driver",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/account/api/ccpa-intake?native=false&type=access"
+          "href": "https://www.sparkdriverapp.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Brand Shop Directory",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/brand/branddirectory"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/cp/pharmacy/5431?povid=HWS_GlobalFooter_Pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Walmart Business",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://business.walmart.com/cp/about-walmart-business/6136230?povid=6136230_POV"
+        },
+        {
+          "tag": "a",
+          "text": "#IYWYK",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/cp/walmart-in-the-know/7781927"
+        },
+        {
+          "tag": "a",
+          "text": "Delete Account",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/account/login?vid=oaoh&tid=0&returnUrl=%2Faccount%2Fdele"
+        }
+      ]
+    },
+    {
+      "at": "after-click",
+      "controls": [
+        {
+          "tag": "a",
+          "text": "Skip to Main Content",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#maincontent"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "All Departments Menu",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/all-departments"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Walmart Homepage",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Walmart Homepage",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "input",
+          "text": "salsa",
+          "aria": "Search",
+          "ph": "Search Walmart",
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Clear search field text",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Search",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Cancel",
+          "aria": "Cancel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Reorder\nMy Items",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/my-items"
+        },
+        {
+          "tag": "a",
+          "text": "Reorder",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/my-items"
+        },
+        {
+          "tag": "a",
+          "text": "Lists",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lists"
+        },
+        {
+          "tag": "a",
+          "text": "Registries",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/my-registries"
+        },
+        {
+          "tag": "a",
+          "text": "Sign In\nAccount",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "Sign in or create account",
+          "aria": null,
+          "ph": null,
+          "tid": "sign-in",
+          "id": null,
+          "href": "/"
+        },
+        {
+          "tag": "a",
+          "text": "Purchase History",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/orders"
+        },
+        {
+          "tag": "a",
+          "text": "Walmart+",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/plus"
+        },
+        {
+          "tag": "a",
+          "text": "Subscriptions",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/cp/subscriptions/4191733"
+        },
+        {
+          "tag": "button",
+          "text": "Language | English",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "$0.00",
+          "aria": "Cart contains 0 items Total Amount $0.00",
+          "ph": null,
+          "tid": null,
+          "id": "cart-button-header",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Always a Fiesta\nSponsored by Tostitos",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=bhc&plmt=sb-search-top~desktop~&po"
+        },
+        {
+          "tag": "a",
+          "text": "Shop now",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=bhc&plmt=sb-search-top~desktop~&po"
+        },
+        {
+          "tag": "button",
+          "text": "Shop now",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos Con Queso Cheese, No Artificial Colors, No Artifici",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add - Tostitos Con Queso Cheese, No Artificial Colors, No Artificial Flavors, 15 oz Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Rollback, Tostitos Scoops! Tortilla Chips Multigrain, 10 oz ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add - Tostitos Scoops! Tortilla Chips Multigrain, 10 oz",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos Restaurant Style Original Tortilla Chips, 17 oz Par",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add - Tostitos Restaurant Style Original Tortilla Chips, 17 oz Party Size Bag",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Tostitos Hint of Lime Flavored Tortilla Chips, 17 oz $5.94",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sb-search-top~desktop~&"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add - Tostitos Hint of Lime Flavored Tortilla Chips, 17 oz",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "In-store",
+          "aria": "Filter by In-store",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Get it fast",
+          "aria": "Filter by Get it fast",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "All deals",
+          "aria": "Filter by All deals",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Price",
+          "aria": "Filter by Price not applied, activate to change",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Brand",
+          "aria": "Filter by Brand not applied, activate to change",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Best Match",
+          "aria": "Sort by Best Match",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Previous slide for chipModuleWithImages list",
+          "ph": null,
+          "tid": "horizontal-scroller-previous",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pantry rollbacks",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/pantry-savings/0?_refineresult=true&_be_shelf_id="
+        },
+        {
+          "tag": "a",
+          "text": "New arrivals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/shop/food-and-beverage/pantry-new-arrivals"
+        },
+        {
+          "tag": "a",
+          "text": "Chunky salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/chunky-salsa/976759_976787_1001393_7109351_7"
+        },
+        {
+          "tag": "a",
+          "text": "Smooth salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/smooth-salsa/976759_976787_1001393_7109351_2"
+        },
+        {
+          "tag": "a",
+          "text": "Verde salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/salsa-verde/976759_976787_1001393_7109351_85"
+        },
+        {
+          "tag": "a",
+          "text": "Mild salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/mild-level-heat-salsa/976759_976787_1001393_"
+        },
+        {
+          "tag": "a",
+          "text": "Medium salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/medium-level-heat-salsa/976759_976787_100139"
+        },
+        {
+          "tag": "a",
+          "text": "Hot salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/hot-level-heat-salsa/976759_976787_1001393_7"
+        },
+        {
+          "tag": "a",
+          "text": "Organic salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/org-salsa/976759_976787_1001393_7109351_6186"
+        },
+        {
+          "tag": "a",
+          "text": "Fresh salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/fresh-salsa/976759_976787_1001393_7109351_45"
+        },
+        {
+          "tag": "a",
+          "text": "Shelf stable salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/shelf-stable-salsa/976759_976787_1001393_710"
+        },
+        {
+          "tag": "a",
+          "text": "Shop all salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/salsa/976759_976787_1001393_7109351"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Next slide for chipModuleWithImages list",
+          "ph": null,
+          "tid": "horizontal-scroller-next",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Pantry rollbacks",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/pantry-savings/0?_refineresult=true&_be_shelf_id="
+        },
+        {
+          "tag": "a",
+          "text": "New arrivals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/shop/food-and-beverage/pantry-new-arrivals"
+        },
+        {
+          "tag": "a",
+          "text": "Chunky salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/chunky-salsa/976759_976787_1001393_7109351_7"
+        },
+        {
+          "tag": "a",
+          "text": "Smooth salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/smooth-salsa/976759_976787_1001393_7109351_2"
+        },
+        {
+          "tag": "a",
+          "text": "Verde salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/salsa-verde/976759_976787_1001393_7109351_85"
+        },
+        {
+          "tag": "a",
+          "text": "Mild salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/mild-level-heat-salsa/976759_976787_1001393_"
+        },
+        {
+          "tag": "a",
+          "text": "Medium salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/medium-level-heat-salsa/976759_976787_100139"
+        },
+        {
+          "tag": "a",
+          "text": "Hot salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/hot-level-heat-salsa/976759_976787_1001393_7"
+        },
+        {
+          "tag": "a",
+          "text": "Organic salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/org-salsa/976759_976787_1001393_7109351_6186"
+        },
+        {
+          "tag": "a",
+          "text": "Fresh salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/fresh-salsa/976759_976787_1001393_7109351_45"
+        },
+        {
+          "tag": "a",
+          "text": "Shelf stable salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/shelf-stable-salsa/976759_976787_1001393_710"
+        },
+        {
+          "tag": "a",
+          "text": "Shop all salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/browse/food/salsa/976759_976787_1001393_7109351"
+        },
+        {
+          "tag": "button",
+          "text": "Refrigerated",
+          "aria": "Refrigerated",
+          "ph": null,
+          "tid": "suggested-filter-food_condition-Refrigerated",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Shelf-Stable",
+          "aria": "Shelf-Stable",
+          "ph": null,
+          "tid": "suggested-filter-food_condition-Shelf-Stable",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Spicy",
+          "aria": "Spicy",
+          "ph": null,
+          "tid": "suggested-filter-flavor-Spicy",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Low Sodium",
+          "aria": "Low Sodium",
+          "ph": null,
+          "tid": "suggested-filter-dietary_need-Low Sodium",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "5 to 10 lbs.",
+          "aria": "5 to 10 lbs.",
+          "ph": null,
+          "tid": "suggested-filter-size_cat_food-5 to 10 lbs.",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Gluten-Free",
+          "aria": "Gluten-Free",
+          "ph": null,
+          "tid": "suggested-filter-dietary_need-Gluten-Free",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "16 to 20 lbs.",
+          "aria": "16 to 20 lbs.",
+          "ph": null,
+          "tid": "suggested-filter-size_cat_food-16 to 20 lbs.",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Original",
+          "aria": "Original",
+          "ph": null,
+          "tid": "suggested-filter-flavor-Original",
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Price",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Brand",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Walmart Cash Offers",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Flavor",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Special Diet Needs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Category",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Weight",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Food Condition",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscription",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Availability",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Deals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Customer Rating",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Retailer",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Gifting",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Benefit Programs",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Ver resultados para \"sauce\"",
+          "aria": null,
+          "ph": null,
+          "tid": "url-link-text",
+          "id": null,
+          "href": "/search?q=sauce&query=sauce&translation=eyJvcmlnaW5hbFF1ZXJ5Ijoic2Fsc2EiLCJ0cmFu"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "legal information",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "LA VICTORIA Thick 'N Chunky Salsa, Mild, Shelf-Stable, 15.5 ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - LA VICTORIA Thick 'N Chunky Salsa, Mild, Shelf-Stable, 15.5 oz Glass Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "5K+ bought since yesterday, Fresh Cravings Restaurant Style ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - Fresh Cravings Restaurant Style Mild Salsa, 16 oz, Refrigerated",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Best seller, Fresh Cravings Restaurant Style Medium Salsa, 1",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - Fresh Cravings Restaurant Style Medium Salsa, 16 oz., Recyclable Plastic Tub, Refrigerated",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Overall pick, Great Value Thick and Chunky Salsa Mild, 16 oz",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/ip/Great-Value-Thick-and-Chunky-Salsa-Mild-16-oz/1959652540?classType=VARIANT&a"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - Great Value Thick and Chunky Salsa Mild, 16 oz",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "5K+ bought since yesterday, Fresh Cravings Restaurant Style ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/ip/Fresh-Cravings-Restaurant-Style-Mild-Salsa-16-oz-Ready-to-Eat-Gluten-Free-Re"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - Fresh Cravings Restaurant Style Mild Salsa, 16 oz, Refrigerated",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "On The Border Mild Salsa, Gluten-Free, 16 oz Jar, Price $3.6",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - On The Border Mild Salsa, Gluten-Free, 16 oz Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Best seller, HERDEZ Salsa Verde Mild, Tortilla Chip Dip, She",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - HERDEZ Salsa Verde Mild, Tortilla Chip Dip, Shelf Stable, 16 oz Glass Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "LA VICTORIA Thick 'N Chunky Salsa, Medium, Shelf-Stable, 15.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/sp/track?bt=1&eventST=click&plmt=sp-search-middle~deskto"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - LA VICTORIA Thick 'N Chunky Salsa, Medium, Shelf-Stable, 15.5 oz Glass Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Ad disclaimer and feedback",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "5K+ bought since yesterday, Pace Chunky Mild Salsa, 16 oz Ja",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/ip/Pace-Chunky-Mild-Salsa-16-oz-Jar/10320079?classType=VARIANT&athbdg=L1102&fro"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add to cart - Pace Chunky Mild Salsa, 16 oz Jar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Subscribe",
+          "aria": "",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Give feedback",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "All Departments",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/all-departments"
+        },
+        {
+          "tag": "a",
+          "text": "Store Directory",
+          "aria": "Store Directory - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/store/directory"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": "Careers - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://careers.walmart.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Our Company",
+          "aria": "Our Company - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Sell on Walmart.com",
+          "aria": "Sell on Walmart.com - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://marketplace.walmart.com/?utm_source=Walmart.com&utm_medium=link&utm_camp"
+        },
+        {
+          "tag": "a",
+          "text": "Help",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": "Product Recalls - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/recalls"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility",
+          "aria": "Accessibility - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/help/article/responsible-disclosure-and-accessibility-po"
+        },
+        {
+          "tag": "a",
+          "text": "Tax Exempt Program",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/cp/tax-exemption-program/8480422"
+        },
+        {
+          "tag": "a",
+          "text": "Get the Walmart App",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://walmart.onelink.me/UIev?pid=walmart.com&af_web_dp=https%3A%2F%2Fwww.walm"
+        },
+        {
+          "tag": "a",
+          "text": "Safety Data Sheet",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://msds.walmartstores.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Terms of Use",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://walmart.com/help/article/walmart-com-terms-of-use/3b75080af40340d6bbd596f"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Notice",
+          "aria": "Privacy Notice - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice"
+        },
+        {
+          "tag": "a",
+          "text": "California Supply Chain Act",
+          "aria": "California Supply Chain Act - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/california-transparency"
+        },
+        {
+          "tag": "a",
+          "text": "Your Privacy Choices",
+          "aria": "Your Privacy Choices - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/privacyrequest"
+        },
+        {
+          "tag": "a",
+          "text": "Customer Privacy Center",
+          "aria": "Customer Privacy Center - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/privacy-center"
+        },
+        {
+          "tag": "a",
+          "text": "Notice at Collection",
+          "aria": "Notice at Collection - opens in a new window",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/privacy-security/california-privacy-rights#what-ar"
+        },
+        {
+          "tag": "a",
+          "text": "AdChoices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/privacy-security/walmart-privacy-notice#interest-b"
+        },
+        {
+          "tag": "a",
+          "text": "Consumer Health Data Privacy Notices",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://corporate.walmart.com/privacy-security/walmart-consumer-health-data-priv"
+        },
+        {
+          "tag": "a",
+          "text": "Learn about Spark Driver",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.sparkdriverapp.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Brand Shop Directory",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/brand/branddirectory"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/cp/pharmacy/5431?povid=HWS_GlobalFooter_Pharmacy"
+        },
+        {
+          "tag": "a",
+          "text": "Walmart Business",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://business.walmart.com/cp/about-walmart-business/6136230?povid=6136230_POV"
+        },
+        {
+          "tag": "a",
+          "text": "#IYWYK",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/cp/walmart-in-the-know/7781927"
+        },
+        {
+          "tag": "a",
+          "text": "Delete Account",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.walmart.com/account/login?vid=oaoh&tid=0&returnUrl=%2Faccount%2Fdele"
         }
       ]
     }
   ],
-  "houses_text": 0
+  "houses_text": 2
 }

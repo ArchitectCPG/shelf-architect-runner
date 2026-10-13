@@ -3,7 +3,7 @@
   "retailer": "meijer",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:25:14.788Z",
+  "pulled_at": "2026-10-13T12:33:09.024Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -12,9 +12,9 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "12:25:14 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:25:16 connected to Bright Data Scraping Browser",
-    "12:25:22 ERROR Error: page.goto: Protocol error (Page.navigate): Unexpected Status 502 (no_peer) (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.meijer.com/shopping/search.html?text=salsa\", waiting until \"domcontentloaded\"\n"
+    "12:33:09 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "12:33:10 connected to Bright Data Scraping Browser",
+    "12:33:13 ERROR Error: page.goto: Protocol error (Page.navigate): No Peer Found (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.meijer.com/shopping/search.html?text=salsa\", waiting until \"domcontentloaded\"\n"
   ],
-  "error": "Error: page.goto: Protocol error (Page.navigate): Unexpected Status 502 (no_peer) (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.meijer.com/shopping/search.html?text=salsa\", waiting until \"domcontentloaded\"\n"
+  "error": "Error: page.goto: Protocol error (Page.navigate): No Peer Found (no_peers). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#proxy-errors\nCall log:\n  - navigating to \"https://www.meijer.com/shopping/search.html?text=salsa\", waiting until \"domcontentloaded\"\n"
 }

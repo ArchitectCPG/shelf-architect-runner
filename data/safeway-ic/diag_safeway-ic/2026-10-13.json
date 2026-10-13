@@ -3,7 +3,7 @@
   "retailer": "safeway-ic",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:25:37.013Z",
+  "pulled_at": "2026-10-13T12:33:26.425Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -13,14 +13,29 @@
     {
       "name": "Bounty Paper Towels Select-A-Size",
       "brand": null,
-      "price": "$25.99",
+      "price": "$32.99",
+      "size": "6 ct",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_57be7b0f-e8ad-40ec-af2a-19713b1a173a.png",
+      "link": "https://www.instacart.com/products/61345279-bounty-paper-towel-sas-white-mega-rl?retailerSlug=safeway",
+      "card_text": [
+        "Add",
+        "Current price: $32.99",
+        "$3299",
+        "Bounty Paper Towels Select-A-Size",
+        "6 ct"
+      ]
+    },
+    {
+      "name": "Bounty Paper Towels Select-A-Size",
+      "brand": null,
+      "price": "$22.99",
       "size": "6 ct",
       "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2acfc124-337c-47bb-932a-ef8a06f5bfb2.png",
       "link": "https://www.instacart.com/products/62901111-bnty-twl-sas-wht-6trpl?retailerSlug=safeway",
       "card_text": [
         "Add",
-        "Current price: $25.99",
-        "$2599",
+        "Current price: $22.99",
+        "$2299",
         "Original Price: $26.99",
         "$26.99",
         "Bounty Paper Towels Select-A-Size",
@@ -47,16 +62,14 @@
     {
       "name": "Cascade Platinum Plus Dishwasher Pods",
       "brand": null,
-      "price": "$22.99",
+      "price": "$29.99",
       "size": "47 ct",
       "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fda800a8-ff38-4776-b696-bc5ad2171014.png",
       "link": "https://www.instacart.com/products/59499260-cascade-action-pacs-plat-plus-fresh-47ct?retailerSlug=safeway",
       "card_text": [
         "Add",
-        "Current price: $22.99",
-        "$2299",
-        "Original Price: $27.99",
-        "$27.99",
+        "Current price: $29.99",
+        "$2999",
         "Cascade Platinum Plus Dishwasher Pods",
         "47 ct"
       ]
@@ -64,133 +77,64 @@
     {
       "name": "Tostitos Medium Con Queso Salsa Dip",
       "brand": null,
-      "price": "$7.99",
+      "price": "$8.99",
       "size": "23 oz",
       "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e8e6d2c4-1831-486e-84d1-8d83bb56702d.png",
       "link": "https://www.instacart.com/products/40413-tostitos-salsa-con-queso-medium-23-oz?retailerSlug=safeway",
       "card_text": [
         "Add",
-        "Current price: $7.99",
-        "$799",
+        "Current price: $8.99",
+        "$899",
         "Tostitos Medium Con Queso Salsa Dip",
         "23 oz"
       ]
     },
     {
-      "name": "Ruffles Original Potato Chips, Party Size",
-      "brand": null,
-      "price": "$6.99",
-      "size": "13 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4884c807-10c9-475d-bb8d-fc23338e63e7.jpeg",
-      "link": "https://www.instacart.com/products/23587559-ruffles-original-potato-chips-13-0-oz?retailerSlug=safeway",
-      "card_text": [
-        "Add",
-        "Current price: $6.99",
-        "$699",
-        "Original Price: $8.99",
-        "$8.99",
-        "Ruffles Original Potato Chips, Party Size",
-        "13 oz"
-      ]
-    },
-    {
-      "name": "Salsa Pico De Gallo",
-      "brand": null,
-      "price": "$5.99",
-      "size": "12 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cd011f5f-7629-4442-ac93-f1286439771d.jpeg",
-      "link": "https://www.instacart.com/products/47228848-salsa-pico-de-gallo-12-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Salsa Pico De Gallo",
-        "12 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Mateo's Gourmet Salsa, Medium",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5c3b622c-7914-4fc7-9196-25d91b98bb9e.png",
-      "link": "https://www.instacart.com/products/3080345-mateo-s-gourmet-salsa-medium-16-0-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $6.99",
-        "$6.99",
-        "14% off",
-        "Mateo's Gourmet Salsa, Medium",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Pace Chunky Mild Salsa",
-      "brand": null,
-      "price": "$4.69",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de5c2145-b19b-4cb7-930c-31c5330bec96.jpg",
-      "link": "https://www.instacart.com/products/35199-pace-mild-chunky-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Best seller",
-        "Current price: $4.69",
-        "$469",
-        "Pace Chunky Mild Salsa",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Chi-Chi's Restaurant Style Salsa Mild",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06f37bfd-3782-4b82-bb21-d7b6f409d0a0.jpg",
-      "link": "https://www.instacart.com/products/72941-chi-chi-s-restaurant-style-mild-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Original Price: $3.99",
-        "$3.99",
-        "25% off",
-        "Chi-Chi's Restaurant Style Salsa Mild",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Tostitos Chunky Salsa, Medium",
-      "brand": null,
-      "price": "$4.95",
-      "size": "15.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_75b35699-5a1c-40e2-b782-5407f4484229.png",
-      "link": "https://www.instacart.com/products/16848067-tostitos-medium-chunky-salsa-dip-15-5-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.95",
-        "$495",
-        "Buy 3 for $10.34",
-        "Tostitos Chunky Salsa, Medium",
-        "15.5 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "La Mexicana Mild Salsa",
+      "name": "Casa Sanchez Salsa Roja, Medium",
       "brand": null,
       "price": "$8.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_357971c7-aecd-4251-afd8-c363ed481817.png",
-      "link": "https://www.instacart.com/products/39861-la-mexicana-salsa-mild-16-oz?retailerSlug=safeway",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c127e663-c719-4dfa-9a33-109c6ecaf80d.png",
+      "link": "https://www.instacart.com/products/29567-casa-sanchez-salsa-roja-medium-15-oz?retailerSlug=safeway",
       "card_text": [
-        "Low calorie",
+        "Best seller",
         "Current price: $8.99",
         "$899",
-        "La Mexicana Mild Salsa",
+        "Casa Sanchez Salsa Roja, Medium",
+        "15 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Sanchez Salsa Roja, Mild",
+      "brand": null,
+      "price": "$8.99",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_51e19fd0-b2b1-4365-b17b-11717b6a969f.png",
+      "link": "https://www.instacart.com/products/16292435-casa-sanchez-salsa-roja-mild-15-00-oz?retailerSlug=safeway",
+      "card_text": [
+        "Best seller",
+        "Current price: $8.99",
+        "$899",
+        "Casa Sanchez Salsa Roja, Mild",
+        "15 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "La Mexicana Medium Salsa",
+      "brand": "Peanut-free",
+      "price": "$7.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3b47dac2-d3c7-4dad-ae06-5b56e64fbf2e.png",
+      "link": "https://www.instacart.com/products/192426-la-mexicana-salsa-medium-16-oz?retailerSlug=safeway",
+      "card_text": [
+        "Peanut-free",
+        "Current price: $7.99",
+        "$799",
+        "La Mexicana Medium Salsa",
         "16 oz",
         "Many in stock",
         "Sp",
@@ -198,17 +142,98 @@
       ]
     },
     {
-      "name": "La Mexicana Medium Salsa",
-      "brand": "Peanut-free",
-      "price": "$8.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3b47dac2-d3c7-4dad-ae06-5b56e64fbf2e.png",
-      "link": "https://www.instacart.com/products/192426-la-mexicana-salsa-medium-16-oz?retailerSlug=safeway",
+      "name": "Tostitos Chunky Salsa, Medium",
+      "brand": null,
+      "price": "$6.99",
+      "size": "15.5 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_75b35699-5a1c-40e2-b782-5407f4484229.png",
+      "link": "https://www.instacart.com/products/16848067-tostitos-medium-chunky-salsa-dip-15-5-oz?retailerSlug=safeway",
       "card_text": [
-        "Peanut-free",
+        "Current price: $6.99",
+        "$699",
+        "Tostitos Chunky Salsa, Medium",
+        "15.5 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Sanchez Salsa, Tomato & Roasted Pepper, Medium",
+      "brand": null,
+      "price": "$8.99",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3fed92ac-0ad2-4588-8fab-78f7a62cfa16.png",
+      "link": "https://www.instacart.com/products/47654-casa-sanchez-salsa-fresh-roasted-tomate-chile-asado-medium-15-oz?retailerSlug=safeway",
+      "card_text": [
         "Current price: $8.99",
         "$899",
-        "La Mexicana Medium Salsa",
+        "Casa Sanchez Salsa, Tomato & Roasted Pepper, Medium",
+        "15 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Tostitos Restaurant Style Salsa, Medium",
+      "brand": null,
+      "price": "$6.99",
+      "size": "15.5 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c470120b-a473-44d8-836f-eca269812a90.png",
+      "link": "https://www.instacart.com/products/76436-tostitos-medium-salsa-dip-15-5-oz?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $6.99",
+        "$699",
+        "Tostitos Restaurant Style Salsa, Medium",
+        "15.5 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de5c2145-b19b-4cb7-930c-31c5330bec96.jpg",
+      "link": "https://www.instacart.com/products/35199-pace-mild-chunky-salsa-16-oz?retailerSlug=safeway",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $5.99",
+        "$599",
+        "Pace Chunky Mild Salsa",
+        "16 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$11.99",
+      "size": "64 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f11aa729-dee3-4e49-8eb3-7ea440b8e340.jpg",
+      "link": "https://www.instacart.com/products/16965286-pace-chunky-salsa-medium-64-oz?retailerSlug=safeway",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $11.99",
+        "$1199",
+        "Pace Chunky Medium Salsa",
+        "64 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "La Mexicana Mild Salsa",
+      "brand": null,
+      "price": "$7.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_357971c7-aecd-4251-afd8-c363ed481817.png",
+      "link": "https://www.instacart.com/products/39861-la-mexicana-salsa-mild-16-oz?retailerSlug=safeway",
+      "card_text": [
+        "Low calorie",
+        "Current price: $7.99",
+        "$799",
+        "La Mexicana Mild Salsa",
         "16 oz",
         "Many in stock",
         "Sp",
@@ -218,14 +243,14 @@
     {
       "name": "La Mexicana Mango Peach Salsa",
       "brand": null,
-      "price": "$8.99",
+      "price": "$7.99",
       "size": "16 oz",
       "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d6128ca7-c6a2-434f-8d44-7504f51d2e6d.png",
       "link": "https://www.instacart.com/products/150720-la-mexicana-salsa-mango-peach-16-oz?retailerSlug=safeway",
       "card_text": [
         "Vegan",
-        "Current price: $8.99",
-        "$899",
+        "Current price: $7.99",
+        "$799",
         "La Mexicana Mango Peach Salsa",
         "16 oz",
         "Many in stock",
@@ -234,85 +259,137 @@
       ]
     },
     {
-      "name": "Signature SELECT Chunky Mild Classic Salsa",
-      "brand": null,
-      "price": "$2.99",
-      "size": "454 g",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7ef74763-d9ab-4bfe-85ba-0982687db5d8.png",
-      "link": "https://www.instacart.com/products/294980-signature-kitchens-salsa-chunky-classic-mild-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Signature SELECT Chunky Mild Classic Salsa",
-        "454 g",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Mateo's Gourmet Salsa, Cantina Style",
+      "name": "Pace Chunky Mild Salsa",
       "brand": null,
       "price": "$5.99",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ff014913-a2af-448c-8b0a-39888a080095.png",
-      "link": "https://www.instacart.com/products/19648179-mateo-s-cantina-style-gourmet-salsa-each?retailerSlug=safeway",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de5c2145-b19b-4cb7-930c-31c5330bec96.jpg",
+      "link": "https://www.instacart.com/products/35199-pace-mild-chunky-salsa-16-oz?retailerSlug=safeway",
       "card_text": [
         "Gluten-free",
         "Current price: $5.99",
         "$599",
-        "Original Price: $6.99",
-        "$6.99",
-        "14% off",
-        "Mateo's Gourmet Salsa, Cantina Style",
-        "16 oz"
-      ]
-    },
-    {
-      "name": "La Mexicana Fire Roasted Salsa, Hot, Fiery Habanero",
-      "brand": null,
-      "price": "$8.99",
-      "size": "14 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1dd54056-9cc7-4bc0-8184-92af21f756f5.png",
-      "link": "https://www.instacart.com/products/55168953-salsa-cv-fire-roasted-habanero-la-mexicana?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $8.99",
-        "$899",
-        "La Mexicana Fire Roasted Salsa, Hot, Fiery Habanero",
-        "14 oz",
+        "Pace Chunky Mild Salsa",
+        "16 oz",
         "Sp",
         "onsored",
         "Add"
       ]
     },
     {
-      "name": "Mateo's Gourmet Salsa, Medium",
+      "name": "Herdez Traditional Salsa Medium Cup",
+      "brand": null,
+      "price": "$5.99",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_12deb5b5-3b27-435e-bb7b-4f066e7ecbb6.jpg",
+      "link": "https://www.instacart.com/products/27439833-herdez-medium-traditional-salsa-15-oz?retailerSlug=safeway",
+      "card_text": [
+        "Low calorie",
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $7.99",
+        "$7.99",
+        "25% off",
+        "Herdez Traditional Salsa Medium Cup",
+        "15 oz"
+      ]
+    },
+    {
+      "name": "La Mexicana Fire Roasted Salsa, Medium, Zesty Serrano",
+      "brand": null,
+      "price": "$7.99",
+      "size": "14 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7fcf28ce-282c-4656-9d94-bed85674a2ee.png",
+      "link": "https://www.instacart.com/products/55169174-salsa-cv-fire-roasted-serrano-la-mexicana?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $7.99",
+        "$799",
+        "La Mexicana Fire Roasted Salsa, Medium, Zesty Serrano",
+        "14 oz",
+        "Many in stock",
+        "Sp",
+        "onsored",
+        "Add"
+      ]
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
       "brand": null,
       "price": "$5.99",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5c3b622c-7914-4fc7-9196-25d91b98bb9e.png",
-      "link": "https://www.instacart.com/products/3080345-mateo-s-gourmet-salsa-medium-16-0-oz?retailerSlug=safeway",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0bead836-eee7-4da8-8f07-a8493453eb6e.jpg",
+      "link": "https://www.instacart.com/products/35252-pace-chunky-salsa-medium-16-oz?retailerSlug=safeway",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $5.99",
+        "$599",
+        "Pace Chunky Medium Salsa",
+        "16 oz",
+        "Sp",
+        "onsored",
+        "Add"
+      ]
+    },
+    {
+      "name": "Signature SELECT Salsa, Flavorful Southwest Style, Mild",
+      "brand": null,
+      "price": "$5.99",
+      "size": "24 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_56bf837d-8b3d-4fd4-8d41-a5383f9fc60c.png",
+      "link": "https://www.instacart.com/products/170695-signature-kitchens-salsa-flavorful-southwest-style-mild-24-oz?retailerSlug=safeway",
       "card_text": [
         "Current price: $5.99",
         "$599",
-        "Original Price: $6.99",
-        "$6.99",
-        "14% off",
-        "Mateo's Gourmet Salsa, Medium",
-        "16 oz",
-        "Many in stock"
+        "Signature SELECT Salsa, Flavorful Southwest Style, Mild",
+        "24 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Tostitos Chunky Salsa, Mild",
+      "brand": null,
+      "price": "$6.99",
+      "size": "15.5 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_63344470-dfe7-48c1-805b-9362009f06dd.png",
+      "link": "https://www.instacart.com/products/3414310-tostitos-mild-chunky-salsa-dip-15-5-oz?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $6.99",
+        "$699",
+        "Tostitos Chunky Salsa, Mild",
+        "15.5 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Herdez Traditional Salsa Mild Cup",
+      "brand": null,
+      "price": "$5.99",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8a18e6ad-593a-4383-a263-52ec7f49edbc.jpg",
+      "link": "https://www.instacart.com/products/27439685-herdez-traditional-mild-salsa-15-oz?retailerSlug=safeway",
+      "card_text": [
+        "Low calorie",
+        "Current price: $5.99",
+        "$599",
+        "Original Price: $7.99",
+        "$7.99",
+        "25% off",
+        "Herdez Traditional Salsa Mild Cup",
+        "2 x 15 oz"
       ]
     },
     {
       "name": "La Mexicana Fire Roasted Salsa, Sweet & Smoky, Mild, Pasilla",
       "brand": null,
-      "price": "$8.99",
+      "price": "$7.99",
       "size": "14 oz",
       "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0b46ce28-0d45-4619-9ae7-a4384bd9f3d0.png",
       "link": "https://www.instacart.com/products/60609420-la-mexicana-salsa-pasilla-fire-roasted-sweet-smoky-mild-14-oz?retailerSlug=safeway",
       "card_text": [
-        "Current price: $8.99",
-        "$899",
+        "Current price: $7.99",
+        "$799",
         "La Mexicana Fire Roasted Salsa, Sweet & Smoky, Mild, Pasilla",
         "14 oz",
         "Sp",
@@ -321,53 +398,53 @@
       ]
     },
     {
-      "name": "Mateo's Gourmet Salsa, Mild",
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$6.99",
+      "size": "24 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cc199e60-4bc0-460f-ad1d-29a3c31bee5d.jpg",
+      "link": "https://www.instacart.com/products/78386-pace-chunky-salsa-medium-24-oz?retailerSlug=safeway",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $6.99",
+        "$699",
+        "Pace Chunky Medium Salsa",
+        "24 oz",
+        "Sp",
+        "onsored",
+        "Add"
+      ]
+    },
+    {
+      "name": "Pace Restaurant Style Salsa, Mild",
       "brand": null,
       "price": "$5.99",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2f27c75-a761-458e-93f6-40c6f3a3e49a.png",
-      "link": "https://www.instacart.com/products/3078643-mateo-s-gourmets-salsa-mild-16-oz?retailerSlug=safeway",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7acc2485-f20a-4d72-9611-a129d6c67410.jpg",
+      "link": "https://www.instacart.com/products/19324034-pace-restaurant-style-mild-recipe-restaurant-style-salsa-16-oz?retailerSlug=safeway",
       "card_text": [
         "Current price: $5.99",
         "$599",
-        "Original Price: $6.99",
-        "$6.99",
-        "14% off",
-        "Mateo's Gourmet Salsa, Mild",
+        "Pace Restaurant Style Salsa, Mild",
         "16 oz",
-        "Many in stock"
+        "Many in stock",
+        "Sp",
+        "onsored",
+        "Add"
       ]
     },
     {
-      "name": "On The Border Mild Salsa",
-      "brand": "Fat-free",
-      "price": "$5.59",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06cc45d4-8fee-4ac1-bff3-c4f86586f9ce.png",
-      "link": "https://www.instacart.com/products/3317752-on-the-border-mild-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Fat-free",
-        "Current price: $5.59",
-        "$559",
-        "Original Price: $5.99",
-        "$5.99",
-        "7% off",
-        "On The Border Mild Salsa",
-        "16 oz"
-      ]
-    },
-    {
-      "name": "Pace Chunky Mild Salsa",
+      "name": "Pace Restaurant Style Salsa, Medium",
       "brand": null,
-      "price": "$4.69",
+      "price": "$5.99",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de5c2145-b19b-4cb7-930c-31c5330bec96.jpg",
-      "link": "https://www.instacart.com/products/35199-pace-mild-chunky-salsa-16-oz?retailerSlug=safeway",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_59516cce-78d0-494c-9dbc-419aa507220e.jpg",
+      "link": "https://www.instacart.com/products/35277-pace-original-recipe-restaurant-style-salsa-16-oz?retailerSlug=safeway",
       "card_text": [
-        "Best seller",
-        "Current price: $4.69",
-        "$469",
-        "Pace Chunky Mild Salsa",
+        "Gluten-free",
+        "Current price: $5.99",
+        "$599",
+        "Pace Restaurant Style Salsa, Medium",
         "16 oz",
         "Many in stock",
         "Sp",
@@ -375,38 +452,312 @@
       ]
     },
     {
-      "name": "Chi-Chi's Thick & Chunky Salsa Mild",
+      "name": "Pace Chunky Mild Salsa",
       "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3fa56461-1f2c-4f2e-b47a-ae9f893e6c1d.jpg",
-      "link": "https://www.instacart.com/products/16409486-chi-chi-s-sauces-mild-thick-chunky-salsa-16-oz?retailerSlug=safeway",
+      "price": "$6.99",
+      "size": "24 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de40faab-90fb-4476-8725-417b7b2ce76e.jpg",
+      "link": "https://www.instacart.com/products/78387-pace-mild-chunky-salsa-24-oz?retailerSlug=safeway",
       "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Original Price: $3.99",
-        "$3.99",
-        "25% off",
-        "Chi-Chi's Thick & Chunky Salsa Mild",
-        "16 oz",
-        "Many in stock"
+        "Gluten-free",
+        "Current price: $6.99",
+        "$699",
+        "Pace Chunky Mild Salsa",
+        "24 oz",
+        "Sp",
+        "onsored",
+        "Add"
       ]
     },
     {
-      "name": "Tostitos Chunky Salsa, Mild",
+      "name": "Maggi Caldo Sabor A Pollo Chicken Flavored Bouillon Powder Granulated Chicken Soup Seasoning",
       "brand": null,
-      "price": "$4.95",
-      "size": "15.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_63344470-dfe7-48c1-805b-9362009f06dd.png",
-      "link": "https://www.instacart.com/products/3414310-tostitos-mild-chunky-salsa-dip-15-5-oz?retailerSlug=safeway",
+      "price": "$6.99",
+      "size": "7.9 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6d7922d5-4b1a-4469-8569-ecf44e15c40c.jpg",
+      "link": "https://www.instacart.com/products/40858-maggi-granulated-chicken-flavor-bouillon-7-9-oz?retailerSlug=safeway",
       "card_text": [
-        "Current price: $4.95",
-        "$495",
-        "Buy 3 for $10.34",
-        "Tostitos Chunky Salsa, Mild",
-        "15.5 oz",
+        "Current price: $6.99",
+        "$699",
+        "Spend $15, save $2.50",
+        "Maggi Caldo Sabor A Pollo Chicken Flavored Bouillon Powder Granulated Chicken Soup Seasoning",
+        "7.9 oz",
+        "See eligible items",
+        "Add"
+      ]
+    },
+    {
+      "name": "Maggi Jugo Seasoning Sauce",
+      "brand": null,
+      "price": "$6.99",
+      "size": "3.38 fl oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1e45ec5e-37f3-478b-be17-2ec09d5fac1a.png",
+      "link": "https://www.instacart.com/products/120579-maggi-jugo-seasoning-sauce-3-38-fl-oz?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $6.99",
+        "$699",
+        "Spend $15, save $2.50",
+        "Maggi Jugo Seasoning Sauce",
+        "3.38 fl oz",
+        "See eligible items",
+        "Add"
+      ]
+    },
+    {
+      "name": "Guerrero Harina Caseras Fajita Flour Tortillas",
+      "brand": null,
+      "price": "$5.99",
+      "size": "20 ct",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9c153d2b-b101-4e36-9542-2fcd38d4560a.jpg",
+      "link": "https://www.instacart.com/products/57060-guerrero-harina-caseras-fajita-flour-tortillas-20-ct?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $5.99",
+        "$599",
+        "Guerrero Harina Caseras Fajita Flour Tortillas",
+        "20 ct",
+        "Add"
+      ]
+    },
+    {
+      "name": "Guerrero Tostadas Caseras Amarillas",
+      "brand": null,
+      "price": "$4.69",
+      "size": "22 ct",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_04aa77a1-5315-40ca-9335-4b6dd8d7dcec.jpg",
+      "link": "https://www.instacart.com/products/203419-guerrero-tostadas-22-ct?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $4.69",
+        "$469",
+        "Original Price: $4.99",
+        "$4.99",
+        "6% off",
+        "Guerrero Tostadas Caseras Amarillas",
+        "22 ct",
+        "Add"
+      ]
+    },
+    {
+      "name": "Guerrero Caseras Flour Tortillas, Soft Taco Size, 20 Count",
+      "brand": null,
+      "price": "$7.99",
+      "size": "20 Count",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b8ff97c1-63bc-41c6-80ca-e49be151749f.jpg",
+      "link": "https://www.instacart.com/products/17026860-guerrero-tortillas-flour-soft-taco-20-ea?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $7.99",
+        "$799",
+        "Guerrero Caseras Flour Tortillas, Soft Taco Size, 20 Count",
+        "20 ct",
+        "Add"
+      ]
+    },
+    {
+      "name": "Mrs. Renfro's Mango Habanero Salsa",
+      "brand": null,
+      "price": "$7.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_35b1cd85-3257-4ff5-a883-e6257effc488.jpeg",
+      "link": "https://www.instacart.com/products/27293-mrs-renfro-s-salsa-mango-habanero-medium-hot-16-oz?retailerSlug=safeway",
+      "card_text": [
+        "Non-GMO",
+        "Current price: $7.99",
+        "$799",
+        "Mrs. Renfro's Mango Habanero Salsa",
+        "16 oz",
         "Many in stock",
         "Add"
+      ]
+    },
+    {
+      "name": "La Mexicana Fire Roasted Salsa, Medium, Bold Chipotle Garlic",
+      "brand": null,
+      "price": "$7.99",
+      "size": "14 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7523d5ee-cb64-4eeb-a13a-fa65b5596038.png",
+      "link": "https://www.instacart.com/products/55169071-salsa-cv-fire-roasted-chipotle-garlic-la-mexicana?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $7.99",
+        "$799",
+        "La Mexicana Fire Roasted Salsa, Medium, Bold Chipotle Garlic",
+        "14 oz",
+        "Sp",
+        "onsored",
+        "Add"
+      ]
+    },
+    {
+      "name": "Casa Sanchez Taqueria Style Avocado Salsa",
+      "brand": null,
+      "price": "$8.99",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b1a5e2e2-6cbf-4836-a0b6-d34b5b00a6bb.png",
+      "link": "https://www.instacart.com/products/305700-casa-sanchez-taqueria-style-avocado-salsa-15-oz?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $8.99",
+        "$899",
+        "Casa Sanchez Taqueria Style Avocado Salsa",
+        "15 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Pace Chunky Hot Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2027ac0-b578-4aa9-9cc2-0cf33232edc6.jpg",
+      "link": "https://www.instacart.com/products/123552-pace-thick-chunky-salsa-hot-16-oz?retailerSlug=safeway",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $5.99",
+        "$599",
+        "Pace Chunky Hot Salsa",
+        "16 oz",
+        "Sp",
+        "onsored",
+        "Add"
+      ]
+    },
+    {
+      "name": "On The Border Medium Salsa",
+      "brand": "Fat-free",
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ca48425e-de5e-49be-b198-ac90928584e6.png",
+      "link": "https://www.instacart.com/products/3317753-on-the-border-medium-salsa-16-oz?retailerSlug=safeway",
+      "card_text": [
+        "Fat-free",
+        "Current price: $5.99",
+        "$599",
+        "On The Border Medium Salsa",
+        "16 oz",
+        "Many in stock",
+        "Sp",
+        "onsored"
+      ]
+    },
+    {
+      "name": "Newman's Own Chunky Medium Pineapple Salsa",
+      "brand": null,
+      "price": "$4.69",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_09e5320f-6cff-44c0-b14f-7813fd60cf29.png",
+      "link": "https://www.instacart.com/products/78395-newman-s-own-salsa-pineapple-medium-chunky-16-oz?retailerSlug=safeway",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $4.69",
+        "$469",
+        "Newman's Own Chunky Medium Pineapple Salsa",
+        "16 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "On The Border Mild Salsa",
+      "brand": "Fat-free",
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06cc45d4-8fee-4ac1-bff3-c4f86586f9ce.png",
+      "link": "https://www.instacart.com/products/3317752-on-the-border-mild-salsa-16-oz?retailerSlug=safeway",
+      "card_text": [
+        "Fat-free",
+        "Current price: $5.99",
+        "$599",
+        "On The Border Mild Salsa",
+        "16 oz",
+        "Sp",
+        "onsored",
+        "Add"
+      ]
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "brand": null,
+      "price": "$11.99",
+      "size": "64 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f11aa729-dee3-4e49-8eb3-7ea440b8e340.jpg",
+      "link": "https://www.instacart.com/products/16965286-pace-chunky-salsa-medium-64-oz?retailerSlug=safeway",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $11.99",
+        "$1199",
+        "Pace Chunky Medium Salsa",
+        "64 oz",
+        "Many in stock",
+        "Sp",
+        "onsored"
+      ]
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d104e4da-0f8c-4f79-bf83-25fbfa3c62c3.jpg",
+      "link": "https://www.instacart.com/products/57070-pace-mild-chunky-salsa-15-oz?retailerSlug=safeway",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $4.99",
+        "$499",
+        "Original Price: $5.99",
+        "$5.99",
+        "17% off",
+        "Pace Chunky Mild Salsa",
+        "15 oz"
+      ]
+    },
+    {
+      "name": "Cholula® Salsa Verde - Mild Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "12 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3ae76ce0-d17b-42a0-a49d-fbd074936bac.jpg",
+      "link": "https://www.instacart.com/products/30032915-cholula-salsa-salsa-verde-mild-12-oz?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $4.99",
+        "$499",
+        "Cholula® Salsa Verde - Mild Salsa",
+        "12 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "Siete Salsa, Roja, Casera Style, Mild",
+      "brand": null,
+      "price": "$7.99",
+      "size": "10.5 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dfea2297-03ad-4ee0-bd0f-b5f97b41a5f6.png",
+      "link": "https://www.instacart.com/products/32551759-siete-mild-salsa-roja-10-5-oz?retailerSlug=safeway",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $7.99",
+        "$799",
+        "Siete Salsa, Roja, Casera Style, Mild",
+        "10.5 oz",
+        "Many in stock",
+        "Sp",
+        "onsored"
+      ]
+    },
+    {
+      "name": "Juantonio's Salsa, Medium",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9b7ab13d-405b-4912-b2d5-690f57dea07b.png",
+      "link": "https://www.instacart.com/products/43298028-juantonio-s-salsa-medium-15-5-oz?retailerSlug=safeway",
+      "card_text": [
+        "Gluten-free",
+        "Current price: $4.99",
+        "$499",
+        "Original Price: $5.99",
+        "$5.99",
+        "17% off",
+        "Juantonio's Salsa, Medium",
+        "15.5 oz"
       ]
     },
     {
@@ -426,301 +777,97 @@
       ]
     },
     {
-      "name": "La Mexicana Fire Roasted Salsa, Medium, Bold Chipotle Garlic",
+      "name": "Siete Salsa, Roja, Casera Style, Mild",
       "brand": null,
-      "price": "$8.99",
-      "size": "14 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7523d5ee-cb64-4eeb-a13a-fa65b5596038.png",
-      "link": "https://www.instacart.com/products/55169071-salsa-cv-fire-roasted-chipotle-garlic-la-mexicana?retailerSlug=safeway",
+      "price": "$7.99",
+      "size": "10.5 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dfea2297-03ad-4ee0-bd0f-b5f97b41a5f6.png",
+      "link": "https://www.instacart.com/products/32551759-siete-mild-salsa-roja-10-5-oz?retailerSlug=safeway",
       "card_text": [
-        "Current price: $8.99",
-        "$899",
-        "La Mexicana Fire Roasted Salsa, Medium, Bold Chipotle Garlic",
-        "14 oz",
-        "Many in stock",
-        "Sp",
-        "onsored",
+        "Current price: $7.99",
+        "$799",
+        "Siete Salsa, Roja, Casera Style, Mild",
+        "10.5 oz",
         "Add"
       ]
     },
     {
-      "name": "Herdez Traditional Salsa Medium Cup",
+      "name": "Siete Salsa, Roja, Casera Style, Spicy",
       "brand": null,
       "price": "$7.99",
-      "size": "15 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_12deb5b5-3b27-435e-bb7b-4f066e7ecbb6.jpg",
-      "link": "https://www.instacart.com/products/27439833-herdez-medium-traditional-salsa-15-oz?retailerSlug=safeway",
+      "size": "10.5 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5cb72b06-5875-4125-9f9b-77b93dad8b21.png",
+      "link": "https://www.instacart.com/products/32551268-siete-spicy-salsa-roja-10-5-oz?retailerSlug=safeway",
       "card_text": [
-        "Low calorie",
         "Current price: $7.99",
         "$799",
-        "Herdez Traditional Salsa Medium Cup",
-        "15 oz",
-        "Many in stock",
-        "Sp",
-        "onsored"
-      ]
-    },
-    {
-      "name": "On The Border Medium Salsa",
-      "brand": "Fat-free",
-      "price": "$5.59",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ca48425e-de5e-49be-b198-ac90928584e6.png",
-      "link": "https://www.instacart.com/products/3317753-on-the-border-medium-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Fat-free",
-        "Current price: $5.59",
-        "$559",
-        "Original Price: $5.99",
-        "$5.99",
-        "7% off",
-        "On The Border Medium Salsa",
-        "16 oz"
-      ]
-    },
-    {
-      "name": "Herdez Avocado Tomatillo Salsa Cup",
-      "brand": null,
-      "price": "$7.99",
-      "size": "15 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_70e95110-05fb-43a0-a410-df76b0dd7085.jpg",
-      "link": "https://www.instacart.com/products/25537407-herdez-mild-avocado-tomatillo-salsa-each?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $7.99",
-        "$799",
-        "Herdez Avocado Tomatillo Salsa Cup",
-        "15 oz",
-        "Sp",
-        "onsored",
+        "Siete Salsa, Roja, Casera Style, Spicy",
+        "10.5 oz",
         "Add"
       ]
     },
     {
-      "name": "Mateo's Gourmet Salsa, Cantina Style",
+      "name": "Siete Salsa Cremosa, Jalapenos & Roasted Garlic, Taqueria Style",
+      "brand": null,
+      "price": "$7.99",
+      "size": "10.5 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f1153006-02e8-4ad3-bfdc-c7f04b22e1f2.png",
+      "link": "https://www.instacart.com/products/32552536-siete-jalapeno-botana-sauce-10-5-oz?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $7.99",
+        "$799",
+        "Siete Salsa Cremosa, Jalapenos & Roasted Garlic, Taqueria Style",
+        "10.5 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Siete Corn Tortilla Chips, Blue Corn, Totopos",
+      "brand": null,
+      "price": "$6.99",
+      "size": "7.5 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1eaa512b-d966-4438-8e62-089fbbb7d68f.png",
+      "link": "https://www.instacart.com/products/29421816-siete-organic-blue-corn-totopos-tortilla-chips-7-5-oz?retailerSlug=safeway",
+      "card_text": [
+        "Current price: $6.99",
+        "$699",
+        "Siete Corn Tortilla Chips, Blue Corn, Totopos",
+        "7.5 oz",
+        "Add"
+      ]
+    },
+    {
+      "name": "Siete Corn Tortilla Chips, Lime, Totopos",
       "brand": null,
       "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ff014913-a2af-448c-8b0a-39888a080095.png",
-      "link": "https://www.instacart.com/products/19648179-mateo-s-cantina-style-gourmet-salsa-each?retailerSlug=safeway",
+      "size": "7.5 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_38c792c6-7d9f-4912-ab5f-c35c5ef0c742.png",
+      "link": "https://www.instacart.com/products/29697302-siete-family-foods-maiz-sea-salt-totopos-corn-tortilla-chips-7-5-oz?retailerSlug=safeway",
       "card_text": [
-        "Gluten-free",
         "Current price: $5.99",
         "$599",
         "Original Price: $6.99",
         "$6.99",
         "14% off",
-        "Mateo's Gourmet Salsa, Cantina Style",
-        "16 oz"
+        "Siete Corn Tortilla Chips, Lime, Totopos",
+        "7.5 oz",
+        "• 2 flavors"
       ]
     },
     {
       "name": "Pace Chunky Medium Salsa",
       "brand": null,
-      "price": "$4.69",
+      "price": "$5.99",
       "size": "16 oz",
       "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0bead836-eee7-4da8-8f07-a8493453eb6e.jpg",
       "link": "https://www.instacart.com/products/35252-pace-chunky-salsa-medium-16-oz?retailerSlug=safeway",
       "card_text": [
-        "Best seller",
-        "Current price: $4.69",
-        "$469",
-        "Pace Chunky Medium Salsa",
-        "16 oz",
-        "Sp",
-        "onsored",
-        "Add"
-      ]
-    },
-    {
-      "name": "Herdez Traditional Salsa Mild Cup",
-      "brand": null,
-      "price": "$7.99",
-      "size": "15 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8a18e6ad-593a-4383-a263-52ec7f49edbc.jpg",
-      "link": "https://www.instacart.com/products/27439685-herdez-traditional-mild-salsa-15-oz?retailerSlug=safeway",
-      "card_text": [
-        "Low calorie",
-        "Current price: $7.99",
-        "$799",
-        "Herdez Traditional Salsa Mild Cup",
-        "2 x 15 oz",
-        "Sp",
-        "onsored",
-        "Add"
-      ]
-    },
-    {
-      "name": "Mateo's Gourmet Salsa, Hot",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_177317a4-97d4-427f-b74e-a7d8d46370ef.png",
-      "link": "https://www.instacart.com/products/3078642-mateo-s-gourmet-salsa-uniquely-different-hot-16-oz?retailerSlug=safeway",
-      "card_text": [
         "Gluten-free",
         "Current price: $5.99",
         "$599",
-        "Original Price: $6.99",
-        "$6.99",
-        "14% off",
-        "Mateo's Gourmet Salsa, Hot",
-        "16 oz"
-      ]
-    },
-    {
-      "name": "Pace Chunky Medium Salsa",
-      "brand": null,
-      "price": "$5.59",
-      "size": "24 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cc199e60-4bc0-460f-ad1d-29a3c31bee5d.jpg",
-      "link": "https://www.instacart.com/products/78386-pace-chunky-salsa-medium-24-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $5.59",
-        "$559",
-        "Pace Chunky Medium Salsa",
-        "24 oz",
-        "Many in stock",
-        "Sp",
-        "onsored"
-      ]
-    },
-    {
-      "name": "Signature SELECT Salsa, Flavorful Southwest Style, Mild",
-      "brand": null,
-      "price": "$3.99",
-      "size": "24 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_56bf837d-8b3d-4fd4-8d41-a5383f9fc60c.png",
-      "link": "https://www.instacart.com/products/170695-signature-kitchens-salsa-flavorful-southwest-style-mild-24-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $3.99",
-        "$399",
-        "Signature SELECT Salsa, Flavorful Southwest Style, Mild",
-        "24 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Tostitos Restaurant Style Salsa, Medium",
-      "brand": null,
-      "price": "$4.95",
-      "size": "15.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c470120b-a473-44d8-836f-eca269812a90.png",
-      "link": "https://www.instacart.com/products/76436-tostitos-medium-salsa-dip-15-5-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.95",
-        "$495",
-        "Buy 3 for $10.34",
-        "Tostitos Restaurant Style Salsa, Medium",
-        "15.5 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Chi-Chi's Restaurant Style Salsa Mild",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06f37bfd-3782-4b82-bb21-d7b6f409d0a0.jpg",
-      "link": "https://www.instacart.com/products/72941-chi-chi-s-restaurant-style-mild-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Original Price: $3.99",
-        "$3.99",
-        "25% off",
-        "Chi-Chi's Restaurant Style Salsa Mild",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Signature Cafe Fresca Mild Salsa",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_587f84f2-842c-4b0b-9418-035c7f37dae2.jpg",
-      "link": "https://www.instacart.com/products/32546475-signature-selects-mild-salsa-fresca-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Signature Cafe Fresca Mild Salsa",
-        "16 oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "CHI-CHI'S Thick and Chunky Salsa Medium, 16 oz.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ac157505-58d5-438c-b1fb-f535aa2b6919.jpg",
-      "link": "https://www.instacart.com/products/72936-chi-chi-s-sauces-medium-thick-chunky-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Original Price: $3.99",
-        "$3.99",
-        "25% off",
-        "CHI-CHI'S Thick and Chunky Salsa Medium, 16 oz.",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "On The Border Medium Salsa",
-      "brand": "Fat-free",
-      "price": "$5.59",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ca48425e-de5e-49be-b198-ac90928584e6.png",
-      "link": "https://www.instacart.com/products/3317753-on-the-border-medium-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Fat-free",
-        "Current price: $5.59",
-        "$559",
-        "Original Price: $5.99",
-        "$5.99",
-        "7% off",
-        "On The Border Medium Salsa",
-        "16 oz"
-      ]
-    },
-    {
-      "name": "Pace Chunky Medium Salsa",
-      "brand": null,
-      "price": "$4.69",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0bead836-eee7-4da8-8f07-a8493453eb6e.jpg",
-      "link": "https://www.instacart.com/products/35252-pace-chunky-salsa-medium-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Best seller",
-        "Current price: $4.69",
-        "$469",
         "Pace Chunky Medium Salsa",
         "16 oz",
         "Add"
-      ]
-    },
-    {
-      "name": "HERDEZ Salsa Casera Medium",
-      "brand": null,
-      "price": "$4.69",
-      "size": "24 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e0648dfd-612d-4262-9c5c-dbecbb19521a.jpg",
-      "link": "https://www.instacart.com/products/34300-herdez-casera-medium-salsa-24-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.69",
-        "$469",
-        "Original Price: $5.99",
-        "$5.99",
-        "22% off",
-        "HERDEZ Salsa Casera Medium",
-        "24 oz",
-        "Many in stock"
       ]
     },
     {
@@ -740,34 +887,49 @@
       ]
     },
     {
-      "name": "Newman's Own Chunky Medium Pineapple Salsa",
+      "name": "Casa Sanchez Cremosa Salsa",
       "brand": null,
-      "price": "$4.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_09e5320f-6cff-44c0-b14f-7813fd60cf29.png",
-      "link": "https://www.instacart.com/products/78395-newman-s-own-salsa-pineapple-medium-chunky-16-oz?retailerSlug=safeway",
+      "price": "$8.99",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b546d249-2b3b-4eb3-ad81-0a71a375736f.jpeg",
+      "link": "https://www.instacart.com/products/19144988-casa-sanchez-cremosa-salsa-15-oz?retailerSlug=safeway",
       "card_text": [
-        "Gluten-free",
-        "Current price: $4.99",
-        "$499",
-        "Original Price: $5.29",
-        "$5.29",
-        "6% off",
-        "Newman's Own Chunky Medium Pineapple Salsa",
-        "16 oz"
+        "Current price: $8.99",
+        "$899",
+        "Casa Sanchez Cremosa Salsa",
+        "15 oz",
+        "Many in stock",
+        "Add"
       ]
     },
     {
-      "name": "Signature SELECT Chunky Classic Medium Salsa",
+      "name": "Casa Sanchez Salsa Roja, Hot",
       "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1dcb0fa7-1301-482b-a1ad-408521111323.png",
-      "link": "https://www.instacart.com/products/122402-signature-kitchens-salsa-chunky-classic-medium-16-oz?retailerSlug=safeway",
+      "price": "$8.99",
+      "size": "15 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_125d601a-1495-427f-8ee3-ada1b567e03d.png",
+      "link": "https://www.instacart.com/products/7760-salsa-roja-hot-15-00-oz?retailerSlug=safeway",
       "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Signature SELECT Chunky Classic Medium Salsa",
+        "Current price: $8.99",
+        "$899",
+        "Casa Sanchez Salsa Roja, Hot",
+        "15 oz",
+        "Many in stock",
+        "Add"
+      ]
+    },
+    {
+      "name": "On The Border Mild Salsa",
+      "brand": "Fat-free",
+      "price": "$5.99",
+      "size": "16 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06cc45d4-8fee-4ac1-bff3-c4f86586f9ce.png",
+      "link": "https://www.instacart.com/products/3317752-on-the-border-mild-salsa-16-oz?retailerSlug=safeway",
+      "card_text": [
+        "Fat-free",
+        "Current price: $5.99",
+        "$599",
+        "On The Border Mild Salsa",
         "16 oz",
         "Add"
       ]
@@ -789,701 +951,65 @@
       ]
     },
     {
-      "name": "Southwest Salsa",
-      "brand": null,
-      "price": "$5.99",
-      "size": "12 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_17456653-d609-4da9-baa1-0185d33313fa.jpeg",
-      "link": "https://www.instacart.com/products/21728123-southwest-salsa-12-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Southwest Salsa",
-        "12 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Pace Restaurant Style Salsa, Mild",
-      "brand": null,
-      "price": "$4.69",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7acc2485-f20a-4d72-9611-a129d6c67410.jpg",
-      "link": "https://www.instacart.com/products/19324034-pace-restaurant-style-mild-recipe-restaurant-style-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.69",
-        "$469",
-        "Pace Restaurant Style Salsa, Mild",
-        "16 oz",
-        "Many in stock",
-        "Sp",
-        "onsored",
-        "Add"
-      ]
-    },
-    {
-      "name": "Pace Chunky Mild Salsa",
-      "brand": null,
-      "price": "$5.59",
-      "size": "24 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de40faab-90fb-4476-8725-417b7b2ce76e.jpg",
-      "link": "https://www.instacart.com/products/78387-pace-mild-chunky-salsa-24-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $5.59",
-        "$559",
-        "Pace Chunky Mild Salsa",
-        "24 oz",
-        "Many in stock",
-        "Sp",
-        "onsored"
-      ]
-    },
-    {
-      "name": "Chi-Chi's Thick & Chunky Salsa Mild",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3fa56461-1f2c-4f2e-b47a-ae9f893e6c1d.jpg",
-      "link": "https://www.instacart.com/products/16409486-chi-chi-s-sauces-mild-thick-chunky-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Original Price: $3.99",
-        "$3.99",
-        "25% off",
-        "Chi-Chi's Thick & Chunky Salsa Mild",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "HERDEZ Salsa Casera Medium",
-      "brand": null,
-      "price": "$4.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ad2aa886-a9d3-4cb1-a667-8195fa52da31.jpg",
-      "link": "https://www.instacart.com/products/27303-herdez-casera-medium-salsa-16-fl-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.99",
-        "$499",
-        "HERDEZ Salsa Casera Medium",
-        "16 oz",
-        "Many in stock",
-        "Sp",
-        "onsored",
-        "Add"
-      ]
-    },
-    {
-      "name": "CHI-CHI'S Thick and Chunky Salsa Medium, 16 oz.",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ac157505-58d5-438c-b1fb-f535aa2b6919.jpg",
-      "link": "https://www.instacart.com/products/72936-chi-chi-s-sauces-medium-thick-chunky-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Original Price: $3.99",
-        "$3.99",
-        "25% off",
-        "CHI-CHI'S Thick and Chunky Salsa Medium, 16 oz.",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Chi-Chi's Restaurant Style Salsa Medium",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5b21ba5b-252e-4bef-8b19-255f34ef3077.jpg",
-      "link": "https://www.instacart.com/products/72939-chi-chi-s-restaurant-style-medium-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Original Price: $3.99",
-        "$3.99",
-        "25% off",
-        "Chi-Chi's Restaurant Style Salsa Medium",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Pace Chunky Hot Salsa",
-      "brand": null,
-      "price": "$4.69",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2027ac0-b578-4aa9-9cc2-0cf33232edc6.jpg",
-      "link": "https://www.instacart.com/products/123552-pace-thick-chunky-salsa-hot-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $4.69",
-        "$469",
-        "Pace Chunky Hot Salsa",
-        "16 oz",
-        "Many in stock",
-        "Sp",
-        "onsored"
-      ]
-    },
-    {
-      "name": "Chi-Chi's Thick & Chunky Salsa Mild",
-      "brand": null,
-      "price": "$5.99",
-      "size": "15.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f0a19ef9-27b0-40e4-9e5b-47a77ced024c.jpg",
-      "link": "https://www.instacart.com/products/142153-chi-chi-s-fiesta-mild-thick-chunky-salsa-15-5-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $6.99",
-        "$6.99",
-        "14% off",
-        "Chi-Chi's Thick & Chunky Salsa Mild",
-        "15.5 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Pace Restaurant Style Salsa, Medium",
-      "brand": null,
-      "price": "$4.69",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_59516cce-78d0-494c-9dbc-419aa507220e.jpg",
-      "link": "https://www.instacart.com/products/35277-pace-original-recipe-restaurant-style-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $4.69",
-        "$469",
-        "Pace Restaurant Style Salsa, Medium",
-        "16 oz",
-        "Many in stock",
-        "Sp",
-        "onsored"
-      ]
-    },
-    {
-      "name": "Chi-Chi's Restaurant Style Salsa Medium",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5b21ba5b-252e-4bef-8b19-255f34ef3077.jpg",
-      "link": "https://www.instacart.com/products/72939-chi-chi-s-restaurant-style-medium-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Original Price: $3.99",
-        "$3.99",
-        "25% off",
-        "Chi-Chi's Restaurant Style Salsa Medium",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Many in stock",
-      "brand": "Mild Salsa",
-      "price": "$5.99",
-      "size": "12 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_003dc264-125d-43e5-853a-5883dc91ff2b.jpeg",
-      "link": "https://www.instacart.com/products/21728172-skip-s-salsa-mild-salsa-10-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Mild Salsa",
-        "12 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Mateo's Gourmet Salsa, Mild",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2f27c75-a761-458e-93f6-40c6f3a3e49a.png",
-      "link": "https://www.instacart.com/products/3078643-mateo-s-gourmets-salsa-mild-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $6.99",
-        "$6.99",
-        "14% off",
-        "Mateo's Gourmet Salsa, Mild",
-        "16 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Signature SELECT Salsa Roja, Medium, Taqueria Style",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e91cb0b6-c05a-46a6-a6cf-05b47fad6731.png",
-      "link": "https://www.instacart.com/products/17829328-signature-cafe-salsa-roja-taqueria-style-medium-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $5.99",
-        "$599",
-        "Signature SELECT Salsa Roja, Medium, Taqueria Style",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "HERDEZ Salsa Casera Medium",
-      "brand": null,
-      "price": "$4.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ad2aa886-a9d3-4cb1-a667-8195fa52da31.jpg",
-      "link": "https://www.instacart.com/products/27303-herdez-casera-medium-salsa-16-fl-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.99",
-        "$499",
-        "HERDEZ Salsa Casera Medium",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Cholula® Salsa Verde - Mild Salsa",
-      "brand": null,
-      "price": "$4.99",
-      "size": "12 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3ae76ce0-d17b-42a0-a49d-fbd074936bac.jpg",
-      "link": "https://www.instacart.com/products/30032915-cholula-salsa-salsa-verde-mild-12-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.99",
-        "$499",
-        "Cholula® Salsa Verde - Mild Salsa",
-        "12 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Mateo's Gourmet Salsa, Hot",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_177317a4-97d4-427f-b74e-a7d8d46370ef.png",
-      "link": "https://www.instacart.com/products/3078642-mateo-s-gourmet-salsa-uniquely-different-hot-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $6.99",
-        "$6.99",
-        "14% off",
-        "Mateo's Gourmet Salsa, Hot",
-        "16 oz"
-      ]
-    },
-    {
-      "name": "Pace Chunky Mild Salsa",
-      "brand": null,
-      "price": "$5.59",
-      "size": "24 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de40faab-90fb-4476-8725-417b7b2ce76e.jpg",
-      "link": "https://www.instacart.com/products/78387-pace-mild-chunky-salsa-24-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $5.59",
-        "$559",
-        "Pace Chunky Mild Salsa",
-        "24 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Pace Chunky Medium Salsa",
-      "brand": null,
-      "price": "$5.59",
-      "size": "24 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cc199e60-4bc0-460f-ad1d-29a3c31bee5d.jpg",
-      "link": "https://www.instacart.com/products/78386-pace-chunky-salsa-medium-24-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $5.59",
-        "$559",
-        "Pace Chunky Medium Salsa",
-        "24 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Chi-Chi's Thick & Chunky Salsa Mild",
-      "brand": null,
-      "price": "$5.99",
-      "size": "15.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f0a19ef9-27b0-40e4-9e5b-47a77ced024c.jpg",
-      "link": "https://www.instacart.com/products/142153-chi-chi-s-fiesta-mild-thick-chunky-salsa-15-5-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $6.99",
-        "$6.99",
-        "14% off",
-        "Chi-Chi's Thick & Chunky Salsa Mild",
-        "15.5 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "On The Border Mild Salsa",
-      "brand": "Fat-free",
-      "price": "$5.59",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06cc45d4-8fee-4ac1-bff3-c4f86586f9ce.png",
-      "link": "https://www.instacart.com/products/3317752-on-the-border-mild-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Fat-free",
-        "Current price: $5.59",
-        "$559",
-        "Original Price: $5.99",
-        "$5.99",
-        "7% off",
-        "On The Border Mild Salsa",
-        "16 oz"
-      ]
-    },
-    {
-      "name": "Siete Salsa, Roja, Casera Style, Mild",
-      "brand": null,
-      "price": "$6.99",
-      "size": "10.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dfea2297-03ad-4ee0-bd0f-b5f97b41a5f6.png",
-      "link": "https://www.instacart.com/products/32551759-siete-mild-salsa-roja-10-5-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $6.99",
-        "$699",
-        "Siete Salsa, Roja, Casera Style, Mild",
-        "10.5 oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "Siete Corn Tortilla Chips, Lime, Totopos",
-      "brand": null,
-      "price": "$7.99",
-      "size": "7.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_38c792c6-7d9f-4912-ab5f-c35c5ef0c742.png",
-      "link": "https://www.instacart.com/products/29697302-siete-family-foods-maiz-sea-salt-totopos-corn-tortilla-chips-7-5-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $7.99",
-        "$799",
-        "Siete Corn Tortilla Chips, Lime, Totopos",
-        "7.5 oz",
-        "• 2 flavors",
-        "Add"
-      ]
-    },
-    {
-      "name": "Siete Maiz Taco Seasoning Corn Tortilla Chips",
-      "brand": null,
-      "price": "$7.99",
-      "size": "7.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6b64d614-c09f-44fc-b4ea-02b48e2afac7.jpeg",
-      "link": "https://www.instacart.com/products/64418343-siete-organic-taco-seasoning-corn-tortilla-chips-75-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $7.99",
-        "$799",
-        "Siete Maiz Taco Seasoning Corn Tortilla Chips",
-        "7.5 oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "Siete Grain Free Dip Chip Tortilla Chips",
-      "brand": null,
-      "price": "$6.99",
-      "size": "5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cb2ec580-8f4b-4912-b417-e335f96e40a8.png",
-      "link": "https://www.instacart.com/products/21176253-siete-tortilla-chips-grain-free-dip-chip-familia-style-5-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $6.99",
-        "$699",
-        "Siete Grain Free Dip Chip Tortilla Chips",
-        "5 oz",
-        "• 4 flavors",
-        "Add"
-      ]
-    },
-    {
-      "name": "Siete Potato Chips, Hint of Serrano Sea Salt & Vinegar, Kettle Cooked",
-      "brand": null,
-      "price": "$5.99",
-      "size": "5.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cd0d2684-32b8-48ec-bfd3-a6d2b6944714.png",
-      "link": "https://www.instacart.com/products/23590408-siete-potato-chips-sea-salt-vinegar-kettle-cooked-5-5-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Siete Potato Chips, Hint of Serrano Sea Salt & Vinegar, Kettle Cooked",
-        "5.5 oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "La Mexicana Medium Salsa",
-      "brand": "Peanut-free",
-      "price": "$8.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3b47dac2-d3c7-4dad-ae06-5b56e64fbf2e.png",
-      "link": "https://www.instacart.com/products/192426-la-mexicana-salsa-medium-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Peanut-free",
-        "Current price: $8.99",
-        "$899",
-        "La Mexicana Medium Salsa",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "O Organics Chunky Mild Salsa",
+      "name": "Signature SELECT Chunky Classic Medium Salsa",
       "brand": null,
       "price": "$3.99",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7b307c34-f97f-4b9f-aa6d-986446485f9b.png",
-      "link": "https://www.instacart.com/products/294979-o-organics-salsa-organic-mild-16-oz?retailerSlug=safeway",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1dcb0fa7-1301-482b-a1ad-408521111323.png",
+      "link": "https://www.instacart.com/products/122402-signature-kitchens-salsa-chunky-classic-medium-16-oz?retailerSlug=safeway",
       "card_text": [
-        "Organic",
         "Current price: $3.99",
         "$399",
-        "O Organics Chunky Mild Salsa",
+        "Signature SELECT Chunky Classic Medium Salsa",
         "16 oz",
-        "Many in stock",
         "Add"
       ]
     },
     {
-      "name": "Pace Restaurant Style Salsa, Medium",
-      "brand": null,
-      "price": "$4.69",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_59516cce-78d0-494c-9dbc-419aa507220e.jpg",
-      "link": "https://www.instacart.com/products/35277-pace-original-recipe-restaurant-style-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $4.69",
-        "$469",
-        "Pace Restaurant Style Salsa, Medium",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Herdez Traditional Salsa Medium Cup",
+      "name": "La Mexicana Fire Roasted Salsa, Medium, Zesty Serrano",
       "brand": null,
       "price": "$7.99",
-      "size": "15 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_12deb5b5-3b27-435e-bb7b-4f066e7ecbb6.jpg",
-      "link": "https://www.instacart.com/products/27439833-herdez-medium-traditional-salsa-15-oz?retailerSlug=safeway",
+      "size": "14 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7fcf28ce-282c-4656-9d94-bed85674a2ee.png",
+      "link": "https://www.instacart.com/products/55169174-salsa-cv-fire-roasted-serrano-la-mexicana?retailerSlug=safeway",
       "card_text": [
-        "Low calorie",
         "Current price: $7.99",
         "$799",
-        "Herdez Traditional Salsa Medium Cup",
-        "15 oz",
+        "La Mexicana Fire Roasted Salsa, Medium, Zesty Serrano",
+        "14 oz",
         "Many in stock",
         "Add"
       ]
     },
     {
-      "name": "Tostitos Hot Chunky Habanero Salsa Dip",
-      "brand": null,
-      "price": "$4.95",
-      "size": "15.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fd01d272-13da-4ac1-9d2e-70be885c8842.png",
-      "link": "https://www.instacart.com/products/3137951-tostitos-chunky-salsa-hot-habanero-15-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.95",
-        "$495",
-        "Buy 3 for $10.34",
-        "Tostitos Hot Chunky Habanero Salsa Dip",
-        "15.5 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "La Mexicana Mild Salsa",
-      "brand": null,
-      "price": "$8.99",
+      "name": "On The Border Medium Salsa",
+      "brand": "Fat-free",
+      "price": "$5.99",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_357971c7-aecd-4251-afd8-c363ed481817.png",
-      "link": "https://www.instacart.com/products/39861-la-mexicana-salsa-mild-16-oz?retailerSlug=safeway",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ca48425e-de5e-49be-b198-ac90928584e6.png",
+      "link": "https://www.instacart.com/products/3317753-on-the-border-medium-salsa-16-oz?retailerSlug=safeway",
       "card_text": [
-        "Low calorie",
-        "Current price: $8.99",
-        "$899",
-        "La Mexicana Mild Salsa",
+        "Fat-free",
+        "Current price: $5.99",
+        "$599",
+        "On The Border Medium Salsa",
         "16 oz",
         "Many in stock",
         "Add"
       ]
     },
     {
-      "name": "Tostitos Mild Chunky Salsa Dip",
+      "name": "Mrs. Renfro's Habanero Salsa, Hot",
       "brand": null,
-      "price": "$5.99",
-      "size": "24 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0c8acbf8-b804-45e1-babc-b2fbaef8a729.png",
-      "link": "https://www.instacart.com/products/3317724-tostitos-mild-chunky-salsa-dip-24-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Tostitos Mild Chunky Salsa Dip",
-        "24 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Signature Cafe Traditional Hot Salsa Fresca",
-      "brand": null,
-      "price": "$5.99",
+      "price": "$7.99",
       "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5ea9c257-7212-43c1-831b-23cc20dc4833.png",
-      "link": "https://www.instacart.com/products/7771-signature-cafe-salsa-fresca-hot-16-oz?retailerSlug=safeway",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_28327b1d-f1b8-4373-a217-ef986479f518.jpg",
+      "link": "https://www.instacart.com/products/78472-mrs-renfro-s-salsa-habanero-hot-16-oz?retailerSlug=safeway",
       "card_text": [
-        "Gluten-free",
-        "Current price: $5.99",
-        "$599",
-        "Signature Cafe Traditional Hot Salsa Fresca",
-        "16 oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "Modelo Especial Mexican Lager Import Beer Bottles",
-      "brand": null,
-      "price": "$19.99",
-      "size": "12 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a6dab914-83ad-4831-8798-420aaa72acb9.jpg",
-      "link": "https://www.instacart.com/products/16717384-modelo-especial-mexican-lager-beer-bottles-12-fl-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $19.99",
-        "$1999",
-        "Original Price: $27.99",
-        "$27.99",
-        "29% off",
-        "Modelo Especial Mexican Lager Import Beer Bottles",
-        "12 x 12 oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "Modelo Especial Mexican Lager Import Beer Bottles",
-      "brand": null,
-      "price": "$34.99",
-      "size": "12 fl oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_567630c2-39f6-4c65-81e5-6115b6d14a4e.jpg",
-      "link": "https://www.instacart.com/products/17526309-modelo-especial-mexican-lager-beer-bottles-12-fl-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $34.99",
-        "$3499",
-        "Original Price: $35.99",
-        "$35.99",
-        "Modelo Especial Mexican Lager Import Beer Bottles",
-        "18 x 12 fl oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "Modelo Especial Mexican Lager Import Beer Cans",
-      "brand": null,
-      "price": "$39.39",
-      "size": "12 fl oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1ceebb36-e0aa-4432-9ce4-6c5978fef43e.jpg",
-      "link": "https://www.instacart.com/products/16788156-modelo-especial-mexican-lager-beer-cans-12-fl-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $39.39",
-        "$3939",
-        "Original Price: $40.59",
-        "$40.59",
-        "Modelo Especial Mexican Lager Import Beer Cans",
-        "24 x 12 fl oz",
-        "• 4 sizes",
-        "Add"
-      ]
-    },
-    {
-      "name": "Modelo Especial Mexican Lager Import Beer Cans",
-      "brand": null,
-      "price": "$19.99",
-      "size": "12 fl oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_71381092-1b73-42b6-8c2d-762fa7b09564.jpg",
-      "link": "https://www.instacart.com/products/45053-modelo-especial-mexican-lager-beer-cans-12-fl-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $19.99",
-        "$1999",
-        "Original Price: $26.99",
-        "$26.99",
-        "26% off",
-        "Modelo Especial Mexican Lager Import Beer Cans",
-        "12 x 12 fl oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "Modelo Especial Mexican Lager Import Beer Bottles",
-      "brand": null,
-      "price": "$15.99",
-      "size": "12 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5f1f63fc-e5e0-47ed-a4ed-ab8deaf42d65.jpg",
-      "link": "https://www.instacart.com/products/45017-modelo-especial-mexican-lager-beer-bottles-12-fl-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $15.99",
-        "$1599",
-        "Original Price: $16.99",
-        "$16.99",
-        "6% off",
-        "Modelo Especial Mexican Lager Import Beer Bottles",
-        "6 x 12 oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "Herdez Guacamole Salsa Medium",
-      "brand": null,
-      "price": "$4.69",
-      "size": "15.7 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9ea286b6-b479-4f20-9531-8121f66df758.jpg",
-      "link": "https://www.instacart.com/products/3081343-herdez-medium-guacamole-salsa-15-7-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.69",
-        "$469",
-        "Original Price: $4.99",
-        "$4.99",
-        "6% off",
-        "Herdez Guacamole Salsa Medium",
-        "15.7 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "HERDEZ Salsa Verde Mild",
-      "brand": null,
-      "price": "$4.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_492df7d5-0a12-4ae1-8257-a811b34be253.jpg",
-      "link": "https://www.instacart.com/products/27302-herdez-mild-salsa-verde-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.99",
-        "$499",
-        "HERDEZ Salsa Verde Mild",
+        "Non-GMO",
+        "Current price: $7.99",
+        "$799",
+        "Mrs. Renfro's Habanero Salsa, Hot",
         "16 oz",
         "Sp",
         "onsored",
@@ -1491,122 +1017,30 @@
       ]
     },
     {
-      "name": "Chi-Chi's Salsa Medium",
+      "name": "Bitchin' Sauce Cilantro Chili",
       "brand": null,
-      "price": "$5.99",
-      "size": "15.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a32aef20-93ab-4bea-9cd3-64a1f7004b11.jpg",
-      "link": "https://www.instacart.com/products/72943-chichi-s-medium-thick-chunky-salsa-15-5-oz?retailerSlug=safeway",
+      "price": "$7.99",
+      "size": "8 oz",
+      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_21612537-91b9-43c1-b13c-af47d5a9de19.png",
+      "link": "https://www.instacart.com/products/179137-bitchin-sauce-cilantro-chili-8-oz?retailerSlug=safeway",
       "card_text": [
-        "Current price: $5.99",
-        "$599",
-        "Original Price: $6.99",
-        "$6.99",
-        "14% off",
-        "Chi-Chi's Salsa Medium",
-        "15.5 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "HERDEZ Roasted Salsa Verde Medium",
-      "brand": null,
-      "price": "$4.69",
-      "size": "15.7 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_afdd72bc-ee4e-4a88-9a9b-61ec556b59e4.jpg",
-      "link": "https://www.instacart.com/products/17309253-herdez-medium-roasted-salsa-verde-446-g?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.69",
-        "$469",
-        "Original Price: $4.99",
-        "$4.99",
-        "6% off",
-        "HERDEZ Roasted Salsa Verde Medium",
-        "15.7 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Siete Salsa, Roja, Casera Style, Mild",
-      "brand": null,
-      "price": "$6.99",
-      "size": "10.5 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dfea2297-03ad-4ee0-bd0f-b5f97b41a5f6.png",
-      "link": "https://www.instacart.com/products/32551759-siete-mild-salsa-roja-10-5-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $6.99",
-        "$699",
-        "Siete Salsa, Roja, Casera Style, Mild",
-        "10.5 oz",
-        "Many in stock",
-        "Sp",
-        "onsored"
-      ]
-    },
-    {
-      "name": "HERDEZ Salsa Casera Hot",
-      "brand": null,
-      "price": "$1.59",
-      "size": "7 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_da3812a1-f140-49b4-a28c-4b356d2f264d.jpg",
-      "link": "https://www.instacart.com/products/27305-herdez-casera-salsa-7-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $1.59",
-        "$159",
-        "Original Price: $1.99",
-        "$1.99",
-        "20% off",
-        "HERDEZ Salsa Casera Hot",
-        "7 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "HERDEZ Salsa Casera Hot",
-      "brand": null,
-      "price": "$1.59",
-      "size": "7 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_da3812a1-f140-49b4-a28c-4b356d2f264d.jpg",
-      "link": "https://www.instacart.com/products/27305-herdez-casera-salsa-7-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $1.59",
-        "$159",
-        "Original Price: $1.99",
-        "$1.99",
-        "20% off",
-        "HERDEZ Salsa Casera Hot",
-        "7 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Pace Chunky Hot Salsa",
-      "brand": null,
-      "price": "$4.69",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2027ac0-b578-4aa9-9cc2-0cf33232edc6.jpg",
-      "link": "https://www.instacart.com/products/123552-pace-thick-chunky-salsa-hot-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $4.69",
-        "$469",
-        "Pace Chunky Hot Salsa",
-        "16 oz",
-        "Many in stock",
+        "Current price: $7.99",
+        "$799",
+        "Bitchin' Sauce Cilantro Chili",
+        "8 oz",
         "Add"
       ]
     },
     {
       "name": "Bitchin' Sauce Spinach Artichoke",
       "brand": null,
-      "price": "$6.99",
+      "price": "$7.99",
       "size": "7 oz",
       "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4c8f213b-d409-4fb0-ba26-f2e80708174b.jpg",
       "link": "https://www.instacart.com/products/17691580-this-dip-is-nuts-organic-spinach-artichoke-7-oz?retailerSlug=safeway",
       "card_text": [
-        "Current price: $6.99",
-        "$699",
+        "Current price: $7.99",
+        "$799",
         "Bitchin' Sauce Spinach Artichoke",
         "7 oz",
         "Add"
@@ -1615,312 +1049,51 @@
     {
       "name": "Bitchin' Sauce Chipotle",
       "brand": null,
-      "price": "$6.99",
+      "price": "$7.99",
       "size": "8 oz",
       "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fdd1f2cc-b4b2-4f59-bd7f-d8960238fdc2.png",
       "link": "https://www.instacart.com/products/470749-bitchin-sauce-chipotle-sauce-8-oz?retailerSlug=safeway",
       "card_text": [
-        "Current price: $6.99",
-        "$699",
+        "Current price: $7.99",
+        "$799",
         "Bitchin' Sauce Chipotle",
         "8 oz",
         "Add"
       ]
     },
     {
-      "name": "Bitchin' Sauce Buffalo",
-      "brand": null,
-      "price": "$6.99",
-      "size": "7 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2bf864ef-8443-4aed-b9f8-d5d040614964.png",
-      "link": "https://www.instacart.com/products/17690873-this-dip-is-nuts-dip-buffalo-7-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $6.99",
-        "$699",
-        "Bitchin' Sauce Buffalo",
-        "7 oz",
-        "Add"
-      ]
-    },
-    {
       "name": "Bitchin' Sauce Original",
       "brand": null,
-      "price": "$6.99",
+      "price": "$7.99",
       "size": "8 oz",
       "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7447f8d0-2158-4c73-aaeb-8860a6304b43.png",
       "link": "https://www.instacart.com/products/178988-bitchin-sauce-dip-original-8-oz?retailerSlug=safeway",
       "card_text": [
-        "Current price: $6.99",
-        "$699",
+        "Current price: $7.99",
+        "$799",
         "Bitchin' Sauce Original",
         "8 oz",
         "Add"
       ]
-    },
-    {
-      "name": "Newman's Own Bold Flavor Chunky Mild Salsa",
-      "brand": null,
-      "price": "$4.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_22c69ed7-f06e-4ae0-a221-999abc3f7f3e.png",
-      "link": "https://www.instacart.com/products/78393-newman-s-own-salsa-mild-chunky-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $4.99",
-        "$499",
-        "Original Price: $5.29",
-        "$5.29",
-        "6% off",
-        "Newman's Own Bold Flavor Chunky Mild Salsa",
-        "16 oz"
-      ]
-    },
-    {
-      "name": "Newman's Own Bolder Flavor Medium Chunky Salsa",
-      "brand": null,
-      "price": "$4.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c38996c9-3e39-4747-ab64-72d70ee6b32e.png",
-      "link": "https://www.instacart.com/products/78396-newman-s-own-salsa-medium-medium-chunky-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $4.99",
-        "$499",
-        "Original Price: $5.29",
-        "$5.29",
-        "6% off",
-        "Newman's Own Bolder Flavor Medium Chunky Salsa",
-        "16 oz"
-      ]
-    },
-    {
-      "name": "La Mexicana Fire Roasted Salsa, Sweet & Smoky, Mild, Pasilla",
-      "brand": null,
-      "price": "$8.99",
-      "size": "14 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0b46ce28-0d45-4619-9ae7-a4384bd9f3d0.png",
-      "link": "https://www.instacart.com/products/60609420-la-mexicana-salsa-pasilla-fire-roasted-sweet-smoky-mild-14-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $8.99",
-        "$899",
-        "La Mexicana Fire Roasted Salsa, Sweet & Smoky, Mild, Pasilla",
-        "14 oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "Signature SELECT Salsa, Flavorful Southwest Style, Medium",
-      "brand": null,
-      "price": "$2.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96e5e8df-f283-410c-ad6b-005c65bf5171.png",
-      "link": "https://www.instacart.com/products/170682-signature-kitchens-salsa-flavorful-southwest-style-medium-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $2.99",
-        "$299",
-        "Signature SELECT Salsa, Flavorful Southwest Style, Medium",
-        "16 oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "Desert Pepper Trading Co. Salsa, Tequila, Medium Burn",
-      "brand": null,
-      "price": "$6.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e9322268-087a-4871-aa6e-a0429784a2a8.png",
-      "link": "https://www.instacart.com/products/130140-desert-pepper-tequila-salsa-medium-burn-16-0-oz?retailerSlug=safeway",
-      "card_text": [
-        "Gluten-free",
-        "Current price: $6.99",
-        "$699",
-        "Desert Pepper Trading Co. Salsa, Tequila, Medium Burn",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "La Mexicana Mango Peach Salsa",
-      "brand": null,
-      "price": "$8.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d6128ca7-c6a2-434f-8d44-7504f51d2e6d.png",
-      "link": "https://www.instacart.com/products/150720-la-mexicana-salsa-mango-peach-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Vegan",
-        "Current price: $8.99",
-        "$899",
-        "La Mexicana Mango Peach Salsa",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "HERDEZ Salsa Casera Hot",
-      "brand": null,
-      "price": "$4.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d87b621-4927-48ad-9f09-832328865764.jpg",
-      "link": "https://www.instacart.com/products/16912934-herdez-casera-hot-salsa-16-0-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.99",
-        "$499",
-        "HERDEZ Salsa Casera Hot",
-        "16 oz",
-        "Many in stock",
-        "Sp",
-        "onsored",
-        "Add"
-      ]
-    },
-    {
-      "name": "Pace Restaurant Style Salsa, Mild",
-      "brand": null,
-      "price": "$4.69",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7acc2485-f20a-4d72-9611-a129d6c67410.jpg",
-      "link": "https://www.instacart.com/products/19324034-pace-restaurant-style-mild-recipe-restaurant-style-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.69",
-        "$469",
-        "Pace Restaurant Style Salsa, Mild",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Desert Pepper Trading Co. Medium Corn Black Bean Red Pepper Salsa",
-      "brand": null,
-      "price": "$6.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_933d456d-adab-40b2-bbaf-3ba61f814079.jpeg",
-      "link": "https://www.instacart.com/products/3317639-desert-pepper-trading-company-authentic-corn-black-bean-red-pepper-salsa-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $6.99",
-        "$699",
-        "Desert Pepper Trading Co. Medium Corn Black Bean Red Pepper Salsa",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "HERDEZ Roasted Salsa Roja Medium",
-      "brand": null,
-      "price": "$4.69",
-      "size": "15.7 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5c4f949e-c153-4427-8bb7-68e40d9606b4.jpg",
-      "link": "https://www.instacart.com/products/17309260-herdez-medium-roasted-salsa-roja-446-g?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $4.69",
-        "$469",
-        "Original Price: $4.99",
-        "$4.99",
-        "6% off",
-        "HERDEZ Roasted Salsa Roja Medium",
-        "15.7 oz",
-        "Many in stock"
-      ]
-    },
-    {
-      "name": "Signature SELECT Salsa, Blended Peach-Pineapple, Medium",
-      "brand": null,
-      "price": "$3.99",
-      "size": "24 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d333a820-366c-4655-92f1-cd15ae1fb722.png",
-      "link": "https://www.instacart.com/products/170694-signature-kitchens-salsa-blended-peach-pineapple-medium-24-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $3.99",
-        "$399",
-        "Signature SELECT Salsa, Blended Peach-Pineapple, Medium",
-        "24 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Lancaster Mango Pineapple Salsa",
-      "brand": null,
-      "price": "$6.99",
-      "size": "12 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_aaa61319-389c-4bdd-92a1-a9e06b8f3ac5.jpeg",
-      "link": "https://www.instacart.com/products/21728129-signature-banner-mango-pineapple-salsa-10-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $6.99",
-        "$699",
-        "Lancaster Mango Pineapple Salsa",
-        "12 oz",
-        "Add"
-      ]
-    },
-    {
-      "name": "Casa Martinez Salsa Chipotle",
-      "brand": null,
-      "price": "$7.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9b8a2014-92a8-4271-9289-06bb66ab2655.png",
-      "link": "https://www.instacart.com/products/232765-casa-martinez-salsa-fire-roasted-chipotle-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $7.99",
-        "$799",
-        "Casa Martinez Salsa Chipotle",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Signature SELECT Salsa, Garlic Lover's, Medium",
-      "brand": null,
-      "price": "$3.99",
-      "size": "24 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_49130a96-f2a6-4bb5-9f8c-56892f91ac60.png",
-      "link": "https://www.instacart.com/products/245803-signature-kitchens-salsa-garlic-lover-s-medium-24-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $3.99",
-        "$399",
-        "Signature SELECT Salsa, Garlic Lover's, Medium",
-        "24 oz",
-        "Many in stock",
-        "Add"
-      ]
-    },
-    {
-      "name": "Casa Martinez Salsa Verde",
-      "brand": null,
-      "price": "$7.99",
-      "size": "16 oz",
-      "img": "https://www.instacart.com/image-server/257x257/filters:fill(FFFFFF,true):format(jpg)/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_76db9281-cfbf-4247-aa30-8a602ec9ff6f.png",
-      "link": "https://www.instacart.com/products/170699-casa-martinez-salsa-verde-fire-roasted-tatemada-medium-16-oz?retailerSlug=safeway",
-      "card_text": [
-        "Current price: $7.99",
-        "$799",
-        "Casa Martinez Salsa Verde",
-        "16 oz",
-        "Many in stock",
-        "Add"
-      ]
     }
   ],
-  "raw_text_chars": 13835,
+  "raw_text_chars": 9640,
   "steps": [
-    "12:25:37 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:25:37 connected to Bright Data Scraping Browser",
-    "12:27:12 goto https://www.instacart.com/store/safeway/s?k=salsa",
-    "12:27:21 captcha check passed",
-    "12:27:29 dismissed \"Continue\"",
-    "12:27:29 press Escape",
-    "12:27:29 dump landing: 250 controls",
-    "12:27:29 store_set: null",
-    "12:27:30 extracted 111 houses; raw text 13835 chars"
+    "12:33:26 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "12:33:26 connected to Bright Data Scraping Browser",
+    "12:33:34 goto https://www.instacart.com/store/safeway/s?k=salsa",
+    "12:33:42 captcha check passed",
+    "12:33:50 dismissed \"Continue\"",
+    "12:33:50 press Escape",
+    "12:33:50 click_re ^Pickup$ true",
+    "12:33:54 dump after-pickup: 250 controls",
+    "12:33:54 store_set: null",
+    "12:33:55 extracted 64 houses; raw text 9640 chars"
   ],
   "error": null,
   "controls": [
     {
-      "at": "landing",
+      "at": "after-pickup",
       "controls": [
         {
           "tag": "a",
@@ -1987,16 +1160,7 @@
         },
         {
           "tag": "button",
-          "text": "Delivery by 11:11-12:41pm",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "button",
-          "text": "22407",
+          "text": "17771",
           "aria": null,
           "ph": null,
           "tid": null,
@@ -2146,15 +1310,6 @@
           "tid": null,
           "id": null,
           "href": "/store/safeway/collections/3095-prepared-foods"
-        },
-        {
-          "tag": "a",
-          "text": "Alcohol",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/store/safeway/collections/37861-alcohol"
         },
         {
           "tag": "a",
@@ -2419,7 +1574,25 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $25.99\n$2599\nOriginal Price: $26.99\n\n$26.99\n\n",
+          "text": "Current price: $32.99\n$3299\nBounty Paper Towels Select-A-Siz",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/61345279-bounty-paper-towel-sas-white-mega-rl?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Bounty Paper Towels Select-A-Size",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $22.99\n$2299\nOriginal Price: $26.99\n\n$26.99\n\n",
           "aria": null,
           "ph": null,
           "tid": null,
@@ -2455,7 +1628,7 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $22.99\n$2299\nOriginal Price: $27.99\n\n$27.99\n\n",
+          "text": "Current price: $29.99\n$2999\nCascade Platinum Plus Dishwasher",
           "aria": null,
           "ph": null,
           "tid": null,
@@ -2473,30 +1646,12 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $7.99\n$799\nTostitos Medium Con Queso Salsa Di",
+          "text": "Current price: $8.99\n$899\nTostitos Medium Con Queso Salsa Di",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
           "href": "/products/40413-tostitos-salsa-con-queso-medium-23-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Ruffles Original Potato Chips, Party Size",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $6.99\n$699\nOriginal Price: $8.99\n\n$8.99\n\nRuff",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/23587559-ruffles-original-potato-chips-13-0-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
@@ -2522,25 +1677,25 @@
           "aria": null,
           "ph": null,
           "tid": null,
-          "id": "d55ca1c9-73a3-42ec-8ab0-d7422f86922d",
+          "id": "7fb66a34-3348-4e2e-8a03-21f494dbe329",
           "href": null
         },
         {
           "tag": "input",
-          "text": "656b81ea",
+          "text": "2dd0814f",
           "aria": null,
           "ph": null,
           "tid": null,
-          "id": "656b81ea",
+          "id": "2dd0814f",
           "href": null
         },
         {
           "tag": "input",
-          "text": "8410effe",
+          "text": "a5bc4f6d",
           "aria": null,
           "ph": null,
           "tid": null,
-          "id": "8410effe",
+          "id": "a5bc4f6d",
           "href": null
         },
         {
@@ -2563,6 +1718,15 @@
         },
         {
           "tag": "button",
+          "text": "SNAP Eligible",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
           "text": "Ingredient Preferences",
           "aria": null,
           "ph": null,
@@ -2572,11 +1736,20 @@
         },
         {
           "tag": "input",
+          "text": "2057",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "ff3e4c13",
+          "href": null
+        },
+        {
+          "tag": "input",
           "text": "77",
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "0283df25",
+          "id": "014ad4bc",
           "href": null
         },
         {
@@ -2621,7 +1794,7 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "164c95a0",
+          "id": "bb4d0190",
           "href": null
         },
         {
@@ -2630,16 +1803,7 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "0bd3382d",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "11204",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "7e895b51",
+          "id": "808cc5f4",
           "href": null
         },
         {
@@ -2648,232 +1812,25 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "2413dad9",
+          "id": "19005012",
           "href": null
         },
         {
           "tag": "input",
-          "text": "211408",
+          "text": "5071",
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "d8567075",
+          "id": "0355a859",
           "href": null
         },
         {
           "tag": "input",
-          "text": "20451",
+          "text": "508619",
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "6ed29cf3",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "53201",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "7178ecea",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "34391",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "2360ba00",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "733",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "13d8f337",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "26883",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "5198f107",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "21365",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "cc0e6a88",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "404244",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "06becefb",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "18542",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "e22781f4",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "11618",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "5b7c1990",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "1121680",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "d13289d3",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "1725",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "cc720143",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "82359",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "7752ad5f",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "5011",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "ae8204c5",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "33312",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "4b393a06",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "17541",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "f2e49700",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "18884",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "4bda970e",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "29768",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "72c29b0b",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "12546",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "75378e8d",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "137196",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "9f081a6b",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "19843",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "26402404",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "16163",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "7f550c5c",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "672647",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "e7438aa2",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "274394",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "d5157146",
-          "href": null
-        },
-        {
-          "tag": "input",
-          "text": "32609",
-          "aria": null,
-          "ph": null,
-          "tid": "checkbox-base-input",
-          "id": "f9e713c9",
+          "id": "87853501",
           "href": null
         },
         {
@@ -2882,7 +1839,277 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "7dd5146b",
+          "id": "1681e715",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "20451",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "ab52f01b",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "463341",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "ab44e2e4",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "211408",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "c071885e",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1577272",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "e6bf0cf6",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "34391",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "b233a551",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "137196",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "e3b3b196",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "26883",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "87bf7509",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1725",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "c04dec34",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "11618",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "123f7ad8",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "33312",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "94dfc734",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "6322",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "bbe52e47",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "869",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "64897427",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "733",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "9c025c0d",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "5011",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "775ec74c",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "55875",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "33bbca85",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "10847",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "34744c5c",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "45505",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "46166781",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1121680",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "303ee6d6",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "37236",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "b3bb5774",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "11204",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "76b0a6cf",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "474284",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "97de6f76",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "404231",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "47165fe5",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "201850",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "0d63e5cf",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1662482",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "5eb63043",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1260685",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "89eb3577",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "78915",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "38cece71",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "224710",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "8e7ca6b5",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "32609",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "26595b60",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "18884",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "6be73834",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "16163",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "cee48362",
           "href": null
         },
         {
@@ -2891,25 +2118,115 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "e4a4ed66",
+          "id": "fd793a9f",
           "href": null
         },
         {
           "tag": "input",
-          "text": "12956",
+          "text": "394559",
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "48baa2f2",
+          "id": "7c84fbb8",
           "href": null
         },
         {
           "tag": "input",
-          "text": "46890",
+          "text": "17541",
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "e5f40098",
+          "id": "7c2e833c",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "29768",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "3879a473",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "12546",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "499abc10",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "223298",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "f30a4596",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1924910",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "34b9772d",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "405012",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "f34e44db",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1512082",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "39d64024",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1522404",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "7e2c0ce6",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "24715",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "5278ef10",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "35388",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "1e762b68",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "59735",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "6fd124ca",
           "href": null
         },
         {
@@ -2945,7 +2262,7 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "46df0054",
+          "id": "6f815f54",
           "href": null
         },
         {
@@ -2954,7 +2271,16 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "95a795cb",
+          "id": "d6f151e5",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1721",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "2d873591",
           "href": null
         },
         {
@@ -2963,7 +2289,16 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "d9419d89",
+          "id": "daeae32a",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "1735",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "93106658",
           "href": null
         },
         {
@@ -2972,7 +2307,7 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "aa3e3608",
+          "id": "81a4be9a",
           "href": null
         },
         {
@@ -2981,7 +2316,16 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "60edab62",
+          "id": "b7d1b192",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "2095",
+          "aria": null,
+          "ph": null,
+          "tid": "checkbox-base-input",
+          "id": "d039051b",
           "href": null
         },
         {
@@ -2990,7 +2334,7 @@
           "aria": null,
           "ph": null,
           "tid": "checkbox-base-input",
-          "id": "e519c681",
+          "id": "af3bcc1e",
           "href": null
         },
         {
@@ -3012,27 +2356,18 @@
           "href": null
         },
         {
-          "tag": "button",
-          "text": "SNAP Eligible",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
           "tag": "a",
-          "text": "Current price: $5.99\n$599\nSalsa Pico De Gallo\n12 oz\nMany in ",
+          "text": "Best seller\nCurrent price: $8.99\n$899\nCasa Sanchez Salsa Roj",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/47228848-salsa-pico-de-gallo-12-oz?retailerSlug=safeway"
+          "href": "/products/29567-casa-sanchez-salsa-roja-medium-15-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Salsa Pico De Gallo",
+          "aria": "Add 1 ct Casa Sanchez Salsa Roja, Medium",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3040,17 +2375,17 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $5.99\n$599\nOriginal Price: $6.99\n\n$6.99\n\n14% ",
+          "text": "Best seller\nCurrent price: $8.99\n$899\nCasa Sanchez Salsa Roj",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/3080345-mateo-s-gourmet-salsa-medium-16-0-oz?retailerSlug=safeway"
+          "href": "/products/16292435-casa-sanchez-salsa-roja-mild-15-00-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Mateo's Gourmet Salsa, Medium",
+          "aria": "Add 1 ct Casa Sanchez Salsa Roja, Mild",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3058,79 +2393,7 @@
         },
         {
           "tag": "a",
-          "text": "Best seller\nCurrent price: $4.69\n$469\nPace Chunky Mild Salsa",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/35199-pace-mild-chunky-salsa-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Pace Chunky Mild Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $2.99\n$299\nOriginal Price: $3.99\n\n$3.99\n\n25% ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/72941-chi-chi-s-restaurant-style-mild-salsa-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Chi-Chi's Restaurant Style Salsa Mild",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $4.95\n$495\nBuy 3 for $10.34\nTostitos Chunky S",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/16848067-tostitos-medium-chunky-salsa-dip-15-5-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Tostitos Chunky Salsa, Medium",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Low calorie\nCurrent price: $8.99\n$899\nLa Mexicana Mild Salsa",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/39861-la-mexicana-salsa-mild-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct La Mexicana Mild Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Peanut-free\nCurrent price: $8.99\n$899\nLa Mexicana Medium Sal",
+          "text": "Peanut-free\nCurrent price: $7.99\n$799\nLa Mexicana Medium Sal",
           "aria": null,
           "ph": null,
           "tid": null,
@@ -3148,17 +2411,17 @@
         },
         {
           "tag": "a",
-          "text": "Vegan\nCurrent price: $8.99\n$899\nLa Mexicana Mango Peach Sals",
+          "text": "Current price: $6.99\n$699\nTostitos Chunky Salsa, Medium\n15.5",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/150720-la-mexicana-salsa-mango-peach-16-oz?retailerSlug=safeway"
+          "href": "/products/16848067-tostitos-medium-chunky-salsa-dip-15-5-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct La Mexicana Mango Peach Salsa",
+          "aria": "Add 1 ct Tostitos Chunky Salsa, Medium",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3166,17 +2429,17 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $2.99\n$299\nSignature SELECT Chunky Mild Class",
+          "text": "Current price: $8.99\n$899\nCasa Sanchez Salsa, Tomato & Roast",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/294980-signature-kitchens-salsa-chunky-classic-mild-16-oz?retailerSlug"
+          "href": "/products/47654-casa-sanchez-salsa-fresh-roasted-tomate-chile-asado-medium-15-oz"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Signature SELECT Chunky Mild Classic Salsa",
+          "aria": "Add 1 ct Casa Sanchez Salsa, Tomato & Roasted Pepper, Medium",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3184,403 +2447,7 @@
         },
         {
           "tag": "a",
-          "text": "Gluten-free\nCurrent price: $5.99\n$599\nOriginal Price: $6.99\n",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/19648179-mateo-s-cantina-style-gourmet-salsa-each?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Mateo's Gourmet Salsa, Cantina Style",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Gluten-free\nCurrent price: $8.99\n$899\nLa Mexicana Fire Roast",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/55168953-salsa-cv-fire-roasted-habanero-la-mexicana?retailerSlug=safew"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct La Mexicana Fire Roasted Salsa, Hot, Fiery Habanero",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $5.99\n$599\nOriginal Price: $6.99\n\n$6.99\n\n14% ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/3080345-mateo-s-gourmet-salsa-medium-16-0-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Mateo's Gourmet Salsa, Medium",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $8.99\n$899\nLa Mexicana Fire Roasted Salsa, Sw",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/60609420-la-mexicana-salsa-pasilla-fire-roasted-sweet-smoky-mild-14-oz"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct La Mexicana Fire Roasted Salsa, Sweet & Smoky, Mild, Pasilla",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Non-GMO\nCurrent price: $5.76\n$576\nOriginal Price: $6.91\n\n$6.",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/2907771-willy-s-salsa-original-mild-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Willy's Salsa, Fresh, Original, Mild",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $5.99\n$599\nOriginal Price: $6.99\n\n$6.99\n\n14% ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/3078643-mateo-s-gourmets-salsa-mild-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Mateo's Gourmet Salsa, Mild",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Fat-free\nCurrent price: $5.59\n$559\nOriginal Price: $5.99\n\n$5",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/3317752-on-the-border-mild-salsa-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct On The Border Mild Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Best seller\nCurrent price: $4.69\n$469\nPace Chunky Mild Salsa",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/35199-pace-mild-chunky-salsa-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Pace Chunky Mild Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Non-GMO\nCurrent price: $5.76\n$576\nOriginal Price: $6.91\n\n$6.",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/2890486-willy-s-salsa-original-medium-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Willy's Salsa, Fresh, Original, Medium",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $2.99\n$299\nOriginal Price: $3.99\n\n$3.99\n\n25% ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/16409486-chi-chi-s-sauces-mild-thick-chunky-salsa-16-oz?retailerSlug=s"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Chi-Chi's Thick & Chunky Salsa Mild",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $4.95\n$495\nBuy 3 for $10.34\nTostitos Chunky S",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/3414310-tostitos-mild-chunky-salsa-dip-15-5-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Tostitos Chunky Salsa, Mild",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Store choice\nCurrent price: $5.99\n$599\nSignature Cafe Fresca",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/32545946-signature-selects-medium-cafe-salsa-fresca-each?retailerSlug="
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Signature Cafe Fresca Medium Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $8.99\n$899\nLa Mexicana Fire Roasted Salsa, Me",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/55169071-salsa-cv-fire-roasted-chipotle-garlic-la-mexicana?retailerSlu"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct La Mexicana Fire Roasted Salsa, Medium, Bold Chipotle Garlic",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Low calorie\nCurrent price: $7.99\n$799\nHerdez Traditional Sal",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/27439833-herdez-medium-traditional-salsa-15-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Herdez Traditional Salsa Medium Cup",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Fat-free\nCurrent price: $5.59\n$559\nOriginal Price: $5.99\n\n$5",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/3317753-on-the-border-medium-salsa-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct On The Border Medium Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Gluten-free\nCurrent price: $7.99\n$799\nHerdez Avocado Tomatil",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/25537407-herdez-mild-avocado-tomatillo-salsa-each?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Herdez Avocado Tomatillo Salsa Cup",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Gluten-free\nCurrent price: $5.99\n$599\nOriginal Price: $6.99\n",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/19648179-mateo-s-cantina-style-gourmet-salsa-each?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Mateo's Gourmet Salsa, Cantina Style",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Best seller\nCurrent price: $4.69\n$469\nPace Chunky Medium Sal",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/35252-pace-chunky-salsa-medium-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Pace Chunky Medium Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Low calorie\nCurrent price: $7.99\n$799\nHerdez Traditional Sal",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/27439685-herdez-traditional-mild-salsa-15-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Herdez Traditional Salsa Mild Cup",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Gluten-free\nCurrent price: $5.99\n$599\nOriginal Price: $6.99\n",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/3078642-mateo-s-gourmet-salsa-uniquely-different-hot-16-oz?retailerSlu"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Mateo's Gourmet Salsa, Hot",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Gluten-free\nCurrent price: $5.59\n$559\nPace Chunky Medium Sal",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/78386-pace-chunky-salsa-medium-24-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Pace Chunky Medium Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $3.99\n$399\nSignature SELECT Salsa, Flavorful ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/170695-signature-kitchens-salsa-flavorful-southwest-style-mild-24-oz?r"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Signature SELECT Salsa, Flavorful Southwest Style, Mild",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $4.95\n$495\nBuy 3 for $10.34\nTostitos Restaura",
+          "text": "Current price: $6.99\n$699\nTostitos Restaurant Style Salsa, M",
           "aria": null,
           "ph": null,
           "tid": null,
@@ -3598,17 +2465,17 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $2.99\n$299\nOriginal Price: $3.99\n\n$3.99\n\n25% ",
+          "text": "Gluten-free\nCurrent price: $5.99\n$599\nPace Chunky Mild Salsa",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/72941-chi-chi-s-restaurant-style-mild-salsa-16-oz?retailerSlug=safeway"
+          "href": "/products/35199-pace-mild-chunky-salsa-16-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Chi-Chi's Restaurant Style Salsa Mild",
+          "aria": "Add 1 ct Pace Chunky Mild Salsa",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3616,17 +2483,17 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $5.99\n$599\nSignature Cafe Fresca Mild Salsa\n1",
+          "text": "Gluten-free\nCurrent price: $11.99\n$1199\nPace Chunky Medium S",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/32546475-signature-selects-mild-salsa-fresca-16-oz?retailerSlug=safewa"
+          "href": "/products/16965286-pace-chunky-salsa-medium-64-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Signature Cafe Fresca Mild Salsa",
+          "aria": "Add 1 ct Pace Chunky Medium Salsa",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3634,17 +2501,17 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $2.99\n$299\nOriginal Price: $3.99\n\n$3.99\n\n25% ",
+          "text": "Low calorie\nCurrent price: $7.99\n$799\nLa Mexicana Mild Salsa",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/72936-chi-chi-s-sauces-medium-thick-chunky-salsa-16-oz?retailerSlug=sa"
+          "href": "/products/39861-la-mexicana-salsa-mild-16-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct CHI-CHI'S Thick and Chunky Salsa Medium, 16 oz.",
+          "aria": "Add 1 ct La Mexicana Mild Salsa",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3652,17 +2519,17 @@
         },
         {
           "tag": "a",
-          "text": "Non-GMO\nCurrent price: $5.76\n$576\nOriginal Price: $6.91\n\n$6.",
+          "text": "Vegan\nCurrent price: $7.99\n$799\nLa Mexicana Mango Peach Sals",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/2890486-willy-s-salsa-original-medium-16-oz?retailerSlug=safeway"
+          "href": "/products/150720-la-mexicana-salsa-mango-peach-16-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Willy's Salsa, Fresh, Original, Medium",
+          "aria": "Add 1 ct La Mexicana Mango Peach Salsa",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3670,17 +2537,17 @@
         },
         {
           "tag": "a",
-          "text": "Fat-free\nCurrent price: $5.59\n$559\nOriginal Price: $5.99\n\n$5",
+          "text": "Gluten-free\nCurrent price: $5.99\n$599\nPace Chunky Mild Salsa",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/3317753-on-the-border-medium-salsa-16-oz?retailerSlug=safeway"
+          "href": "/products/35199-pace-mild-chunky-salsa-16-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct On The Border Medium Salsa",
+          "aria": "Add 1 ct Pace Chunky Mild Salsa",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3688,7 +2555,43 @@
         },
         {
           "tag": "a",
-          "text": "Best seller\nCurrent price: $4.69\n$469\nPace Chunky Medium Sal",
+          "text": "Low calorie\nCurrent price: $5.99\n$599\nOriginal Price: $7.99\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/27439833-herdez-medium-traditional-salsa-15-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Herdez Traditional Salsa Medium Cup",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $7.99\n$799\nLa Mexicana Fire Roasted Salsa, Me",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/55169174-salsa-cv-fire-roasted-serrano-la-mexicana?retailerSlug=safewa"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct La Mexicana Fire Roasted Salsa, Medium, Zesty Serrano",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free\nCurrent price: $5.99\n$599\nPace Chunky Medium Sal",
           "aria": null,
           "ph": null,
           "tid": null,
@@ -3706,17 +2609,17 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $4.69\n$469\nOriginal Price: $5.99\n\n$5.99\n\n22% ",
+          "text": "Current price: $5.99\n$599\nSignature SELECT Salsa, Flavorful ",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/34300-herdez-casera-medium-salsa-24-oz?retailerSlug=safeway"
+          "href": "/products/170695-signature-kitchens-salsa-flavorful-southwest-style-mild-24-oz?r"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct HERDEZ Salsa Casera Medium",
+          "aria": "Add 1 ct Signature SELECT Salsa, Flavorful Southwest Style, Mild",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3724,17 +2627,17 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $4.99\n$499\nCholula® Original - Medium Salsa\n1",
+          "text": "Current price: $6.99\n$699\nTostitos Chunky Salsa, Mild\n15.5 o",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/30039240-cholula-original-medium-salsa-12-oz?retailerSlug=safeway"
+          "href": "/products/3414310-tostitos-mild-chunky-salsa-dip-15-5-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Cholula® Original - Medium Salsa",
+          "aria": "Add 1 ct Tostitos Chunky Salsa, Mild",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3742,17 +2645,17 @@
         },
         {
           "tag": "a",
-          "text": "Gluten-free\nCurrent price: $4.99\n$499\nOriginal Price: $5.29\n",
+          "text": "Low calorie\nCurrent price: $5.99\n$599\nOriginal Price: $7.99\n",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/78395-newman-s-own-salsa-pineapple-medium-chunky-16-oz?retailerSlug=sa"
+          "href": "/products/27439685-herdez-traditional-mild-salsa-15-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Newman's Own Chunky Medium Pineapple Salsa",
+          "aria": "Add 1 ct Herdez Traditional Salsa Mild Cup",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3760,17 +2663,17 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $2.99\n$299\nSignature SELECT Chunky Classic Me",
+          "text": "Current price: $7.99\n$799\nLa Mexicana Fire Roasted Salsa, Sw",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/122402-signature-kitchens-salsa-chunky-classic-medium-16-oz?retailerSl"
+          "href": "/products/60609420-la-mexicana-salsa-pasilla-fire-roasted-sweet-smoky-mild-14-oz"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Signature SELECT Chunky Classic Medium Salsa",
+          "aria": "Add 1 ct La Mexicana Fire Roasted Salsa, Sweet & Smoky, Mild, Pasilla",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3778,17 +2681,17 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $8.99\n$899\nSignature SELECT Salsa, Chunky Cla",
+          "text": "Gluten-free\nCurrent price: $6.99\n$699\nPace Chunky Medium Sal",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/245784-signature-kitchens-salsa-chunky-classic-medium-1-98-kg?retailer"
+          "href": "/products/78386-pace-chunky-salsa-medium-24-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Signature SELECT Salsa, Chunky Classic, Medium",
+          "aria": "Add 1 ct Pace Chunky Medium Salsa",
           "ph": null,
           "tid": null,
           "id": null,
@@ -3796,25 +2699,7 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $5.99\n$599\nSouthwest Salsa\n12 oz\nMany in stoc",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/21728123-southwest-salsa-12-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Southwest Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $4.69\n$469\nPace Restaurant Style Salsa, Mild\n",
+          "text": "Current price: $5.99\n$599\nPace Restaurant Style Salsa, Mild\n",
           "aria": null,
           "ph": null,
           "tid": null,
@@ -3832,133 +2717,7 @@
         },
         {
           "tag": "a",
-          "text": "Gluten-free\nCurrent price: $5.59\n$559\nPace Chunky Mild Salsa",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/78387-pace-mild-chunky-salsa-24-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Pace Chunky Mild Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $2.99\n$299\nOriginal Price: $3.99\n\n$3.99\n\n25% ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/16409486-chi-chi-s-sauces-mild-thick-chunky-salsa-16-oz?retailerSlug=s"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Chi-Chi's Thick & Chunky Salsa Mild",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $4.99\n$499\nHERDEZ Salsa Casera Medium\n16 oz\nM",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/27303-herdez-casera-medium-salsa-16-fl-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct HERDEZ Salsa Casera Medium",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $2.99\n$299\nOriginal Price: $3.99\n\n$3.99\n\n25% ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/72936-chi-chi-s-sauces-medium-thick-chunky-salsa-16-oz?retailerSlug=sa"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct CHI-CHI'S Thick and Chunky Salsa Medium, 16 oz.",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $2.99\n$299\nOriginal Price: $3.99\n\n$3.99\n\n25% ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/72939-chi-chi-s-restaurant-style-medium-salsa-16-oz?retailerSlug=safew"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Chi-Chi's Restaurant Style Salsa Medium",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Gluten-free\nCurrent price: $4.69\n$469\nPace Chunky Hot Salsa\n",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/123552-pace-thick-chunky-salsa-hot-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Pace Chunky Hot Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $5.99\n$599\nOriginal Price: $6.99\n\n$6.99\n\n14% ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/142153-chi-chi-s-fiesta-mild-thick-chunky-salsa-15-5-oz?retailerSlug=s"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Chi-Chi's Thick & Chunky Salsa Mild",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Gluten-free\nCurrent price: $4.69\n$469\nPace Restaurant Style ",
+          "text": "Gluten-free\nCurrent price: $5.99\n$599\nPace Restaurant Style ",
           "aria": null,
           "ph": null,
           "tid": null,
@@ -3976,79 +2735,7 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $2.99\n$299\nOriginal Price: $3.99\n\n$3.99\n\n25% ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/72939-chi-chi-s-restaurant-style-medium-salsa-16-oz?retailerSlug=safew"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Chi-Chi's Restaurant Style Salsa Medium",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $5.99\n$599\nMild Salsa\n12 oz\nMany in stock",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/21728172-skip-s-salsa-mild-salsa-10-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Mild Salsa",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $5.99\n$599\nOriginal Price: $6.99\n\n$6.99\n\n14% ",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/3078643-mateo-s-gourmets-salsa-mild-16-oz?retailerSlug=safeway"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Mateo's Gourmet Salsa, Mild",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Gluten-free\nCurrent price: $5.99\n$599\nSignature SELECT Salsa",
-          "aria": null,
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": "/products/17829328-signature-cafe-salsa-roja-taqueria-style-medium-16-oz?retaile"
-        },
-        {
-          "tag": "button",
-          "text": "Add",
-          "aria": "Add 1 ct Signature SELECT Salsa Roja, Medium, Taqueria Style",
-          "ph": null,
-          "tid": null,
-          "id": null,
-          "href": null
-        },
-        {
-          "tag": "a",
-          "text": "Current price: $4.99\n$499\nHERDEZ Salsa Casera Medium\n16 oz\nM",
+          "text": "Current price: $3.46\n$346\nOriginal Price: $5.18\n\n$5.18\n\nBuy ",
           "aria": null,
           "ph": null,
           "tid": null,
@@ -4059,6 +2746,447 @@
           "tag": "button",
           "text": "Add",
           "aria": "Add 1 ct HERDEZ Salsa Casera Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.46\n$346\nOriginal Price: $5.18\n\n$5.18\n\nBuy ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/27303-herdez-casera-medium-salsa-16-fl-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct HERDEZ Salsa Casera Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.46\n$346\nOriginal Price: $5.75\n\n$5.75\n\nBuy ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/55117633-herdez-mild-chunky-salsa-15-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct HERDEZ Chunky Salsa Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free\nCurrent price: $6.99\n$699\nPace Chunky Mild Salsa",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/78387-pace-mild-chunky-salsa-24-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pace Chunky Mild Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Shop Maggi & Guerrero\nSp\nonsored\nView All",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/store/safeway/brands/maggi/maggi-x-guerrero"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Previous page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $6.99\n$699\nSpend $15, save $2.50\nMaggi Caldo ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/40858-maggi-granulated-chicken-flavor-bouillon-7-9-oz?retailerSlug=saf"
+        },
+        {
+          "tag": "button",
+          "text": "See eligible items",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Maggi Caldo Sabor A Pollo Chicken Flavored Bouillon Powder Granulated Chicken Soup Seasoning",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $6.99\n$699\nSpend $15, save $2.50\nMaggi Jugo S",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/120579-maggi-jugo-seasoning-sauce-3-38-fl-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "See eligible items",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Maggi Jugo Seasoning Sauce",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $5.99\n$599\nGuerrero Harina Caseras Fajita Flo",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/57060-guerrero-harina-caseras-fajita-flour-tortillas-20-ct?retailerSlu"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Guerrero Harina Caseras Fajita Flour Tortillas",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.69\n$469\nOriginal Price: $4.99\n\n$4.99\n\n6% o",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/203419-guerrero-tostadas-22-ct?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Guerrero Tostadas Caseras Amarillas",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $7.99\n$799\nGuerrero Caseras Flour Tortillas, ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/17026860-guerrero-tortillas-flour-soft-taco-20-ea?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Guerrero Caseras Flour Tortillas, Soft Taco Size, 20 Count",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Next page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Non-GMO\nCurrent price: $7.99\n$799\nMrs. Renfro's Mango Habane",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/27293-mrs-renfro-s-salsa-mango-habanero-medium-hot-16-oz?retailerSlug="
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Mrs. Renfro's Mango Habanero Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $7.99\n$799\nLa Mexicana Fire Roasted Salsa, Me",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/55169071-salsa-cv-fire-roasted-chipotle-garlic-la-mexicana?retailerSlu"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct La Mexicana Fire Roasted Salsa, Medium, Bold Chipotle Garlic",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $8.99\n$899\nCasa Sanchez Taqueria Style Avocad",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/305700-casa-sanchez-taqueria-style-avocado-salsa-15-oz?retailerSlug=sa"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Casa Sanchez Taqueria Style Avocado Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.46\n$346\nOriginal Price: $5.18\n\n$5.18\n\nBuy ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/34267-herdez-casera-mild-salsa-16-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct HERDEZ Salsa Casera Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free\nCurrent price: $5.99\n$599\nPace Chunky Hot Salsa\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/123552-pace-thick-chunky-salsa-hot-16-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pace Chunky Hot Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fat-free\nCurrent price: $5.99\n$599\nOn The Border Medium Sals",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/3317753-on-the-border-medium-salsa-16-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct On The Border Medium Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free\nCurrent price: $4.69\n$469\nNewman's Own Chunky Me",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/78395-newman-s-own-salsa-pineapple-medium-chunky-16-oz?retailerSlug=sa"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Newman's Own Chunky Medium Pineapple Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.04\n$404\nOriginal Price: $6.33\n\n$6.33\n\nBuy ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/3081343-herdez-medium-guacamole-salsa-15-7-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Herdez Guacamole Salsa Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Fat-free\nCurrent price: $5.99\n$599\nOn The Border Mild Salsa\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/3317752-on-the-border-mild-salsa-16-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct On The Border Mild Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.46\n$346\nOriginal Price: $5.18\n\n$5.18\n\nBuy ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/27302-herdez-mild-salsa-verde-16-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct HERDEZ Salsa Verde Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $4.04\n$404\nOriginal Price: $6.33\n\n$6.33\n\nBuy ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/17309253-herdez-medium-roasted-salsa-verde-446-g?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct HERDEZ Roasted Salsa Verde Medium",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free\nCurrent price: $11.99\n$1199\nPace Chunky Medium S",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/16965286-pace-chunky-salsa-medium-64-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pace Chunky Medium Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Gluten-free\nCurrent price: $4.99\n$499\nOriginal Price: $5.99\n",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/57070-pace-mild-chunky-salsa-15-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Pace Chunky Mild Salsa",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $3.46\n$346\nOriginal Price: $5.18\n\n$5.18\n\nBuy ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/34267-herdez-casera-mild-salsa-16-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct HERDEZ Salsa Casera Mild",
           "ph": null,
           "tid": null,
           "id": null,
@@ -4084,17 +3212,17 @@
         },
         {
           "tag": "a",
-          "text": "Gluten-free\nCurrent price: $5.99\n$599\nOriginal Price: $6.99\n",
+          "text": "Current price: $3.46\n$346\nOriginal Price: $5.75\n\n$5.75\n\nBuy ",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/3078642-mateo-s-gourmet-salsa-uniquely-different-hot-16-oz?retailerSlu"
+          "href": "/products/55117633-herdez-mild-chunky-salsa-15-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Mateo's Gourmet Salsa, Hot",
+          "aria": "Add 1 ct HERDEZ Chunky Salsa Mild",
           "ph": null,
           "tid": null,
           "id": null,
@@ -4102,17 +3230,17 @@
         },
         {
           "tag": "a",
-          "text": "Gluten-free\nCurrent price: $5.59\n$559\nPace Chunky Mild Salsa",
+          "text": "Current price: $3.46\n$346\nOriginal Price: $5.75\n\n$5.75\n\nBuy ",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/78387-pace-mild-chunky-salsa-24-oz?retailerSlug=safeway"
+          "href": "/products/55117769-herdez-medium-chunky-salsa-15-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Pace Chunky Mild Salsa",
+          "aria": "Add 1 ct HERDEZ Chunky Salsa Medium",
           "ph": null,
           "tid": null,
           "id": null,
@@ -4120,17 +3248,17 @@
         },
         {
           "tag": "a",
-          "text": "Gluten-free\nCurrent price: $5.59\n$559\nPace Chunky Medium Sal",
+          "text": "Gluten-free\nCurrent price: $7.99\n$799\nSiete Salsa, Roja, Cas",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/78386-pace-chunky-salsa-medium-24-oz?retailerSlug=safeway"
+          "href": "/products/32551759-siete-mild-salsa-roja-10-5-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Pace Chunky Medium Salsa",
+          "aria": "Add 1 ct Siete Salsa, Roja, Casera Style, Mild",
           "ph": null,
           "tid": null,
           "id": null,
@@ -4138,17 +3266,17 @@
         },
         {
           "tag": "a",
-          "text": "Current price: $5.99\n$599\nOriginal Price: $6.99\n\n$6.99\n\n14% ",
+          "text": "Gluten-free\nCurrent price: $4.99\n$499\nOriginal Price: $5.99\n",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/142153-chi-chi-s-fiesta-mild-thick-chunky-salsa-15-5-oz?retailerSlug=s"
+          "href": "/products/43298028-juantonio-s-salsa-medium-15-5-oz?retailerSlug=safeway"
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct Chi-Chi's Thick & Chunky Salsa Mild",
+          "aria": "Add 1 ct Juantonio's Salsa, Medium",
           "ph": null,
           "tid": null,
           "id": null,
@@ -4156,24 +3284,69 @@
         },
         {
           "tag": "a",
-          "text": "Fat-free\nCurrent price: $5.59\n$559\nOriginal Price: $5.99\n\n$5",
+          "text": "Store choice\nCurrent price: $5.99\n$599\nSignature Cafe Fresca",
           "aria": null,
           "ph": null,
           "tid": null,
           "id": null,
-          "href": "/products/3317752-on-the-border-mild-salsa-16-oz?retailerSlug=safeway"
+          "href": "/products/32545946-signature-selects-medium-cafe-salsa-fresca-each?retailerSlug="
         },
         {
           "tag": "button",
           "text": "Add",
-          "aria": "Add 1 ct On The Border Mild Salsa",
+          "aria": "Add 1 ct Signature Cafe Fresca Medium Salsa",
           "ph": null,
           "tid": null,
           "id": null,
           "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Siete Foods\nSp\nonsored\nView All",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/store/safeway/brands/siete/siete-family-foods"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Previous page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $7.99\n$799\nSiete Salsa, Roja, Casera Style, M",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/32551759-siete-mild-salsa-roja-10-5-oz?retailerSlug=safeway"
+        },
+        {
+          "tag": "button",
+          "text": "Add",
+          "aria": "Add 1 ct Siete Salsa, Roja, Casera Style, Mild",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Current price: $7.99\n$799\nSiete Salsa, Roja, Casera Style, S",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/products/32551268-siete-spicy-salsa-roja-10-5-oz?retailerSlug=safeway"
         }
       ]
     }
   ],
-  "houses_text": 31
+  "houses_text": 19
 }
