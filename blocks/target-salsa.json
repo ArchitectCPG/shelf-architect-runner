@@ -5,50 +5,12 @@
   "neighborhood": "salsa",
   "term": "salsa",
   "store_zip": "60615",
-  "store_js": "document.querySelector('#web-store-id-msg-btn')?.innerText.trim()",
+  "store_js": "(() => { const nav = document.querySelector('#web-store-id-msg-btn'); return nav ? 'UNPINNED default: ' + nav.innerText.trim() : null; })()",
   "steps": [
-    {
-      "goto": "https://www.target.com/s?searchTerm={{term}}"
-    },
-    {
-      "wait": 7000
-    },
-    {
-      "dismiss": [
-        "Close",
-        "No thanks",
-        "Not now",
-        "Continue",
-        "Got it"
-      ]
-    },
-    {
-      "js": "document.querySelector('#web-store-id-msg-btn').click()"
-    },
-    {
-      "wait": 3000
-    },
-    {
-      "type_sel": {
-        "sel": "#zip-code-city-or-state",
-        "value": "{{store_zip}}",
-        "enter": false
-      }
-    },
-    {
-      "click_re": "^Look up$"
-    },
-    {
-      "wait": 5000
-    },
-    {
-      "js": "for(let i=0;i<6;i++){ const r=document.querySelector('[data-test=\"@web/StoreMenu/SelectAStore\"] input[type=radio], input[type=radio][name*=store i]'); if(r){ r.click(); await new Promise(x=>setTimeout(x,1000)); const b=document.querySelector('[data-test=\"@web/StoreMenu/ShopThisStoreButton\"]')||[...document.querySelectorAll('button')].find(b=>/shop this store/i.test(b.innerText)); b.click(); return 'ok '+i;} await new Promise(x=>setTimeout(x,2500)); } throw new Error('no store radio: '+document.body.innerText.slice(0,200))"
-    },
-    {
-      "wait": 7000
-    },
-    {
-      "scroll": 4
-    }
+    { "goto": "https://www.target.com/s?searchTerm={{term}}" },
+    { "wait": 7000 },
+    { "dismiss": ["Close", "No thanks", "Not now", "Continue", "Got it"] },
+    { "wait": 2000 },
+    { "scroll": 4 }
   ]
 }
