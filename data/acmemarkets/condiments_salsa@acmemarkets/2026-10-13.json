@@ -3,22 +3,476 @@
   "retailer": "acmemarkets",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T13:51:53.814Z",
+  "pulled_at": "2026-10-13T14:04:11.544Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "19103",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "13:51:53 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:51:54 connected to Bright Data Scraping Browser",
-    "13:52:41 goto https://www.acmemarkets.com/shop/search-results.html?q=salsa",
-    "13:52:49 captcha check passed",
-    "13:53:02 dismiss: nothing to close",
-    "13:53:02 press Escape",
-    "13:53:15 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'querySelectorAll')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:88)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:457)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "store_set": "1001 South St",
+  "url_final": "https://www.acmemarkets.com/shop/search-results.html?q=salsa",
+  "houses": [
+    {
+      "name": "Pace Chunky Mild Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Restaurant Style Original Recipe Medium Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana Medium Salsa - 16 Oz",
+      "brand": null,
+      "price": "$7.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Salsa Pico De Gallo 12 Oz - 12 OZ",
+      "brand": null,
+      "price": "$4.99",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Chunky Mild - 15.5 Oz",
+      "brand": null,
+      "price": "$4.79",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Chunky Classic Mild Salsa Jar - 16 Oz",
+      "brand": null,
+      "price": "$2.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Chunky Medium - 15.5 Oz",
+      "brand": null,
+      "price": "$4.79",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa - 24 Oz",
+      "brand": null,
+      "price": "$4.79",
+      "size": "24 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Mild Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Gourmet Salsa Mild Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "O Organics Salsa Mild Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Chipotle Salsa Medium Jar - 24 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "24 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Sams Salsa Medium - 16 OZ",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Salsa Mild - 10 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "10 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Roasted Roja Medium Jar - 15.7 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "15.7 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Roasted Roja Medium Jar - 15.7 Oz",
+      "brand": null,
+      "price": "$5.29",
+      "size": "15.7 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Garlic Lovers Medium Salsa Jar - 24 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "24 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Verde Jar - 16 Oz",
+      "brand": null,
+      "price": "$4.79",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Go Salsa Cantina Style - 16 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateos Go Salsa Cantina Style - 16 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Restaurant Style Mild Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Hot Salsa - 16 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Sams Salsa Mild - 16 OZ",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Casera Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$4.79",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Salsa Southwest - 12 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Newman's Own Salsa Medium Chunky Pineapple Jar - 16 Oz",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Newman's Own Salsa Medium Chunky Pineapple Jar - 16 Oz",
+      "brand": null,
+      "price": "$4.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Guacamole Salsa Mild - 15.7 Fl. Oz.",
+      "brand": null,
+      "price": "$3.99",
+      "size": "15.7 Fl. Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Guacamole Salsa Mild - 15.7 Fl. Oz.",
+      "brand": null,
+      "price": "$5.29",
+      "size": "15.7 Fl. Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Chunky Classic Medium Salsa Jar - 24 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "24 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Roasted Verde Medium Jar - 15.7 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "15.7 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Herdez Salsa Roasted Verde Medium Jar - 15.7 Oz",
+      "brand": null,
+      "price": "$5.29",
+      "size": "15.7 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "CHI-CHIS Salsa Thick & Chunky Mild Jar - 16 Oz",
+      "brand": null,
+      "price": "$2.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "CHI-CHIS Salsa Thick & Chunky Mild Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Fresca Mild Salsa - 16 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Willys Sweet N Spicy Fresh Salsa - 16 OZ",
+      "brand": null,
+      "price": "$5.00",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Willys Sweet N Spicy Fresh Salsa - 16 OZ",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Desert Pepper Salsa Corn Black...r Medium Jar - 16 Oz",
+      "brand": null,
+      "price": "$5.79",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "O Organics Salsa Medium Chunky Jar - 16 Oz",
+      "brand": null,
+      "price": "$3.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Sam's Salsa Mango Pineapple - 12 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'querySelectorAll')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:88)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:457)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "raw_text_chars": 9208,
+  "steps": [
+    "14:04:11 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "14:04:12 connected to Bright Data Scraping Browser",
+    "14:04:25 goto https://www.acmemarkets.com/shop/search-results.html?q=salsa",
+    "14:04:33 captcha check passed",
+    "14:04:42 dismissed \"Continue with all\"",
+    "14:04:42 press Escape",
+    "14:04:51 js ok open 0",
+    "14:04:55 type_sel input[placeholder*='ZIP Code'] \"19103\"",
+    "14:05:01 js ok selected",
+    "14:05:15 scrolled x4",
+    "14:05:18 scrolled x2",
+    "14:05:22 scrolled x2",
+    "14:05:26 scrolled x2",
+    "14:05:28 store_set: 1001 South St",
+    "14:05:28 few houses, reloading once",
+    "14:05:44 text parser wins: 44 vs 4",
+    "14:05:44 extracted 44 houses; raw text 9208 chars"
+  ],
+  "error": null,
+  "reloaded": true,
+  "houses_text": 44,
+  "houses_dom": 4
 }
