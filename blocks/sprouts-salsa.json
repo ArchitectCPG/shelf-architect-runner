@@ -1,35 +1,54 @@
 {
-  "block_id": "condiments/salsa@sprouts",
-  "retailer": "sprouts",
-  "zip": "condiments",
-  "neighborhood": "salsa",
-  "store_zip": "60615",
-  "steps": [
-    {
-      "goto": "https://shop.sprouts.com/store/sprouts/s?k=salsa"
-    },
-    {
-      "wait": 6000
-    },
-    {
-      "dismiss": [
-        "Close",
-        "No thanks",
-        "Not now",
-        "Continue"
-      ]
-    },
-    {
-      "press": "Escape"
-    },
-    {
-      "scroll": 4
-    }
-  ],
-  "store_patterns": [
-    "Pickup at\\s*([^\\n|]{3,60})",
-    "Delivering to\\s*(\\d{5})",
-    "(\\d{3,5} [A-Z][A-Za-z .]+(?:Rd|St|Ave|Blvd|Dr|Hwy|Pkwy|Way)\\b[^\\n]{0,40})",
-    "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"
-  ]
+ "block_id": "condiments/salsa@sprouts",
+ "retailer": "sprouts",
+ "zip": "condiments",
+ "neighborhood": "salsa",
+ "term": "salsa",
+ "store_zip": "60563",
+ "store_js": "(()=>{const b=[...document.querySelectorAll('button')].find(b=>/Store #\\d+/.test(b.innerText)); return b?b.innerText.replace(/\\s+/g,' ').trim().slice(0,80):null})()",
+ "steps": [
+  {
+   "goto": "https://shop.sprouts.com/store/sprouts/s?k={{term}}"
+  },
+  {
+   "wait": 10000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it"
+   ]
+  },
+  {
+   "js": "const b=[...document.querySelectorAll('button')].find(b=>/^Change store$/.test(b.innerText.trim())&&b.offsetWidth)||[...document.querySelectorAll('button')].find(b=>/^Change store$/.test(b.innerText.trim())); b.click(); return 'ok'"
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "js": "const b=[...document.querySelectorAll('button,[role=button]')].find(b=>b.offsetWidth&&/^Edit$/i.test(b.innerText.trim())); if(b){b.click(); return 'edit'} return 'noedit'",
+   "optional": true
+  },
+  {
+   "wait": 2500
+  },
+  {
+   "js": "const i=[...document.querySelectorAll(\"input[type=text],input[type=search],input:not([type])\")].find(e=>e.offsetWidth); if(!i) throw new Error('no input'); i.focus(); i.select&&i.select(); document.execCommand('insertText',false,'{{store_zip}}'); i.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,800)); i.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); return 'typed'"
+  },
+  {
+   "wait": 5000
+  },
+  {
+   "js": "const b=[...document.querySelectorAll('button')].find(b=>b.offsetWidth&&/^Set as my store$/.test(b.innerText.trim())); if(!b) throw new Error('no store list'); b.click(); return 'set'"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "scroll": 4
+  }
+ ]
 }

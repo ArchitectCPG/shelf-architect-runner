@@ -1,49 +1,53 @@
 {
-  "block_id": "condiments/salsa@hyvee",
-  "retailer": "hyvee",
-  "zip": "condiments",
-  "neighborhood": "salsa",
-  "store_zip": "60615",
-  "steps": [
-    {
-      "goto": "https://www.hy-vee.com/aisles-online/search?q=salsa"
-    },
-    {
-      "wait": 6000
-    },
-    {
-      "dismiss": [
-        "Close",
-        "No thanks",
-        "Not now",
-        "Continue"
-      ]
-    },
-    {
-      "press": "Escape"
-    },
-    {
-      "scroll": 2
-    },
-    {
-      "wait": 2000
-    },
-    {
-      "scroll": 2
-    },
-    {
-      "wait": 2000
-    },
-    {
-      "scroll": 2
-    },
-    {
-      "wait": 2000
-    }
-  ],
-  "store_patterns": [
-    "Delivering to\\s*(\\d{5})",
-    "Pickup at\\s*([^\\n|]{3,60})",
-    "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"
-  ]
+ "block_id": "condiments/salsa@hyvee",
+ "retailer": "hyvee",
+ "zip": "condiments",
+ "neighborhood": "salsa",
+ "term": "salsa",
+ "store_zip": "60563",
+ "store_js": "document.querySelector('[data-testid=global-navigation-store-change-btn]')?.innerText.replace(/\\s+/g,' ').trim()",
+ "steps": [
+  {
+   "goto": "https://www.hy-vee.com/aisles-online/search?search={{term}}"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it"
+   ]
+  },
+  {
+   "click_sel": "[data-testid=global-navigation-store-change-btn]"
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "js": "const i=[...document.querySelectorAll(\"input[placeholder*='Zip']\")].find(e=>e.offsetWidth); if(!i) throw new Error('no input'); i.focus(); i.select&&i.select(); document.execCommand('insertText',false,'{{store_zip}}'); i.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,800)); i.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); return 'typed'"
+  },
+  {
+   "wait": 5000
+  },
+  {
+   "js": "const b=[...document.querySelectorAll('button,a,[role=button]')].find(b=>b.offsetWidth&&/^Select$/.test(b.innerText.trim())); if(!b) throw new Error('no Select'); b.click(); return 'selected'"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "goto": "https://www.hy-vee.com/aisles-online/search?search={{term}}"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "scroll": 4
+  }
+ ]
 }
