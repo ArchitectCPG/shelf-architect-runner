@@ -36,7 +36,7 @@
    "wait": 2500
   },
   {
-   "js": "const i=[...document.querySelectorAll(\"input[type=text],input[type=search],input:not([type])\")].filter(e=>e.offsetWidth&&e.id!=='search-bar-input'&&!/Search Sprouts/i.test(e.placeholder||'')).pop(); if(!i) throw new Error('no input'); i.focus(); i.select&&i.select(); document.execCommand('insertText',false,'{{store_zip}}'); i.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,800)); i.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); await new Promise(x=>setTimeout(x,300)); return 'typed:'+i.value"
+   "js": "const i=[...document.querySelectorAll(\"input[type=text],input[type=search],input:not([type])\")].filter(e=>e.offsetWidth&&e.id!=='search-bar-input'&&!/Search Sprouts/i.test(e.placeholder||'')).pop(); if(!i) throw new Error('no input'); i.focus(); i.select&&i.select(); document.execCommand('insertText',false,'{{store_zip}}'); i.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,800)); i.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); await new Promise(x=>setTimeout(x,300)); const f=i.closest('form'); let how='none'; if(f){ const sb=[...f.querySelectorAll('button')].find(b=>b.offsetWidth&&/search|submit|go|find|apply|update/i.test((b.innerText||'')+(b.getAttribute('aria-label')||'')+(b.type||''))); if(sb){sb.click(); how='btn:'+(sb.getAttribute('aria-label')||sb.innerText||sb.type)} else if(f.requestSubmit){f.requestSubmit(); how='requestSubmit'} } return 'typed:'+i.value+' '+how"
   },
   {
    "wait": 5000
