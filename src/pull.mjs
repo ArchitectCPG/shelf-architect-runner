@@ -13,6 +13,12 @@ const sub = (s) => String(s).replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? "");
 
 
 // ---- API lane: Bright Data prebuilt scrapers (dataset trigger), no browser ----
+if (block.api_get) {
+  const tok = process.env.BRD_API_TOKEN; if (!tok) { console.error("missing BRD_API_TOKEN"); process.exit(2); }
+  const res = {}; for (const pth of block.api_get) { const r = await fetch("https://api.brightdata.com/" + pth, { headers: { Authorization: `Bearer ${tok}` } }); res[pth] = { status: r.status, body: (await r.text()).slice(0, 60000) }; }
+  const dir = path.join("data", block.retailer, block.block_id.replace(/[^a-z0-9@_.-]/gi, "_")); fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, new Date().toISOString().slice(0,10) + ".json"), JSON.stringify(res)); console.log("api_get done"); process.exit(0);
+}
 if (block.api_list) {
   const tok = process.env.BRD_API_TOKEN; if (!tok) { console.error("missing BRD_API_TOKEN"); process.exit(2); }
   const r = await fetch("https://api.brightdata.com/datasets/list", { headers: { Authorization: `Bearer ${tok}` } });
