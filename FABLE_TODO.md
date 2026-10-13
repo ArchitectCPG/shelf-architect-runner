@@ -79,3 +79,15 @@ NEXT (Fable): store pinning recipes per family, in this order by banner count: I
 - Instacart (Safeway, Publix, Fresh Thyme, Sprouts): clicking the delivery/zip control opens a LOGIN modal; zip_code URL param ignored. Store pinning needs an Instacart account (attended lane) or the retailer's own site.
 - Bright Data: 502 no_peer outage ~12:54 UTC, cleared in 10 min; goto now retries on it. Rate limits still hit at parallel 2-3.
 - Recommendation: map Target, Walmart, Albertsons, Meijer pickers live in Steve's Chrome (one pass each), then encode. Cloud iteration is 6 min per guess.
+
+## 2026-10-13 LIVE MAPPING RESULT (Chrome session with Steve, 15 min) -> UNATTENDED STORE PINNING WORKS
+Recipes encoded in blocks/*.json, run in Bright Data via Actions, no human in the loop:
+- Kroger platform (kroger, marianos, fredmeyer, ralphs, smiths, harristeeter): close banner button[aria-label='close banner'] -> [data-testid=CurrentModality-button] -> type zip in [data-testid=PostalCodeSearchBox-input] -> click its sibling Search button -> first input[type=radio] in dialog -> [data-testid=Start-Shopping-PICKUP] -> "Keep Shopping Here" if redirect modal -> reload search. 7/7 pinned. Kroger.com redirects Chicago zips to marianos.com, so Chicago block = marianos, kroger block uses 45202.
+- Albertsons platform (jewel, safeway, vons, shaws, randalls, tomthumb, albertsons, acme): click the address text inside #fulFillMentAddressNav (loop until input[placeholder*='ZIP Code'] visible) -> type zip + Enter -> first .fulfillment-content a "Select" -> page reloads. 7/8 pinned (acme page did not load this run; albertsons Boise pinned but 0 houses, retry).
+- Meijer: [data-testid=store-flyout-button] -> input[placeholder*='Zip'] -> click .store-fly-out-search__search-icon (Enter does nothing) -> first radio -> "Continue shopping". Pinned Evergreen Park IL.
+- Target: #web-store-id-msg-btn -> #zip-code-city-or-state -> "Look up" -> first radio in [data-test="@web/StoreMenu/SelectAStore"] -> [data-test="@web/StoreMenu/ShopThisStoreButton"]. Works in Chrome (Hyde Park). In cloud the drawer opens but no store list yet; recipe now loops waiting for a radio. Retest.
+- Walmart: button "Pickup or delivery?" -> #intent-id1 (Pickup) -> store button -> #zip-code-or-city-state -> radio name=pickup-store -> Save. Not verified (Steve's Chrome was signed in). Prefer Bright Data Walmart scraper with zipcode.
+- Instacart banners: login wall, no unattended store pinning. Use retailer-owned sites (safeway.com, publix.com) instead.
+- Runner changes: js step (page.evaluate with retries), store_js per block, desktop viewport 1440x900 (fixes mobile layouts), click_sel/type_sel retries and visible waits.
+- Design rule confirmed: store_zip is per banner per market. Zips used: 60615 (Chicago banners), 45202 kroger, 97202 fredmeyer, 90024 ralphs, 84101 smiths, 28202 harristeeter, 83702 albertsons, 90210 vons, 94110 safeway, 19103 acme, 02116 shaws, 77005 randalls, 75205 tomthumb.
+NEXT: retest target + acme + albertsons; add publix.com, hyvee, giant eagle, food lion, stop & shop, wegmans, aldi recipes (map live in Chrome, 2-3 min each); then full rescore and widen.

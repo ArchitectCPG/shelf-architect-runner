@@ -42,7 +42,7 @@
       "wait": 5000
     },
     {
-      "js": "const d=document.querySelector('[data-test=\"@web/StoreMenu/SelectAStore\"]'); d.querySelector('input[type=radio]').click(); await new Promise(r=>setTimeout(r,800)); d.querySelector('[data-test=\"@web/StoreMenu/ShopThisStoreButton\"]').click(); return 'ok'"
+      "js": "for(let i=0;i<6;i++){ const r=document.querySelector('[data-test=\"@web/StoreMenu/SelectAStore\"] input[type=radio], input[type=radio][name*=store i]'); if(r){ r.click(); await new Promise(x=>setTimeout(x,1000)); const b=document.querySelector('[data-test=\"@web/StoreMenu/ShopThisStoreButton\"]')||[...document.querySelectorAll('button')].find(b=>/shop this store/i.test(b.innerText)); b.click(); return 'ok '+i;} await new Promise(x=>setTimeout(x,2500)); } throw new Error('no store radio: '+document.body.innerText.slice(0,200))"
     },
     {
       "wait": 7000
