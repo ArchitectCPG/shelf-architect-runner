@@ -1,0 +1,34 @@
+{
+ "block_id": "diag/giant-eagle@giant-eagle",
+ "retailer": "giant-eagle",
+ "zip": "diag",
+ "neighborhood": "giant-eagle",
+ "term": "salsa",
+ "store_zip": "15237",
+ "steps": [
+  {
+   "goto": "https://www.gianteagle.com/grocery/search?q=salsa"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it",
+    "Accept",
+    "Accept All Cookies",
+    "I Accept"
+   ]
+  },
+  {
+   "wait": 2000
+  },
+  {
+   "dump": "after-load"
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "block_id": "diag/aldi@aldi",
+ "retailer": "aldi",
+ "zip": "diag",
+ "neighborhood": "aldi",
+ "term": "salsa",
+ "store_zip": "60615",
+ "steps": [
+  {
+   "goto": "https://new.aldi.us/results?q=salsa"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it",
+    "Accept",
+    "Accept All Cookies",
+    "I Accept"
+   ]
+  },
+  {
+   "wait": 2000
+  },
+  {
+   "dump": "after-load"
+  }
+ ]
+}

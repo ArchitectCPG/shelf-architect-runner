@@ -1,0 +1,34 @@
+{
+ "block_id": "diag/sprouts@sprouts",
+ "retailer": "sprouts",
+ "zip": "diag",
+ "neighborhood": "sprouts",
+ "term": "salsa",
+ "store_zip": "60563",
+ "steps": [
+  {
+   "goto": "https://shop.sprouts.com/store/sprouts/s?k=salsa"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it",
+    "Accept",
+    "Accept All Cookies",
+    "I Accept"
+   ]
+  },
+  {
+   "wait": 2000
+  },
+  {
+   "dump": "after-load"
+  }
+ ]
+}
