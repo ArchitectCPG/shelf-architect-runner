@@ -3,502 +3,35 @@
   "retailer": "albertsons",
   "zip": "diag",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T12:42:52.589Z",
+  "pulled_at": "2026-10-13T12:48:48.575Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
   "store_set": null,
-  "url_final": "https://www.albertsons.com/shop/search-results.html?q=salsa",
-  "houses": [
-    {
-      "name": "Del Real Salsa Molcajete Roja - 16 Fl Oz",
-      "brand": null,
-      "price": "$5.49",
-      "size": "16 Fl Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Chunky Mild Salsa - 16 Oz",
-      "brand": null,
-      "price": "$3.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Chunky Mild Salsa - 16 Oz",
-      "brand": null,
-      "price": "$4.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Restaurant Style Original Recipe Medium Salsa - 16 Oz",
-      "brand": null,
-      "price": "$3.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Restaurant Style Original Recipe Medium Salsa - 16 Oz",
-      "brand": null,
-      "price": "$4.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Mateos Gourmet Salsa Medium Jar - 16 Oz",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Mateos Gourmet Salsa Medium Jar - 16 Oz",
-      "brand": null,
-      "price": "$6.49",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Fresh Cut Pico De Gallo - Each",
-      "brand": null,
-      "price": "$4.99",
-      "size": "",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Casa Sanchez Medium Roja Salsa - 15 Oz",
-      "brand": null,
-      "price": "$5.99",
-      "size": "15 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Del Real Salsa Molcajete Verde - 16 Fl. Oz.",
-      "brand": null,
-      "price": "$5.49",
-      "size": "16 Fl. Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Chunky Medium Salsa - 24 Oz",
-      "brand": null,
-      "price": "$5.49",
-      "size": "24 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "La Mexicana Medium Salsa - 16 Oz",
-      "brand": null,
-      "price": "$5.49",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Resers Salsa Baja Cafe Restaurant - 16 Oz",
-      "brand": null,
-      "price": "$4.99",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Casa Sanchez Mild Roja Salsa - 15 Oz",
-      "brand": null,
-      "price": "$5.99",
-      "size": "15 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "La Victoria Salsa Suprema Med - 15.5 OZ",
-      "brand": null,
-      "price": "$3.99",
-      "size": "15.5 OZ",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Chunky Hot Salsa - 16 Oz",
-      "brand": null,
-      "price": "$3.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Chunky Hot Salsa - 16 Oz",
-      "brand": null,
-      "price": "$4.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Silver Fork Gourmet Traditiona...e Mild Salsa - 12 Oz",
-      "brand": null,
-      "price": "$4.49",
-      "size": "12 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Silver Fork Gourmet Traditiona...e Mild Salsa - 12 Oz",
-      "brand": null,
-      "price": "$5.00",
-      "size": "12 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Signature SELECT Fresca Mild Salsa - 16 Oz",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Sadies Salsa Hot Jar - 16 Oz",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Chunky Mild Salsa - 64 Oz",
-      "brand": null,
-      "price": "$10.99",
-      "size": "64 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Mateos Gourmet Salsa Mild Jar - 16 Oz",
-      "brand": null,
-      "price": "$5.99",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Mateos Gourmet Salsa Mild Jar - 16 Oz",
-      "brand": null,
-      "price": "$6.49",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Chunky Medium Salsa - 16 Oz",
-      "brand": null,
-      "price": "$3.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Chunky Medium Salsa - 16 Oz",
-      "brand": null,
-      "price": "$4.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "La Mexicana Mild Salsa - 16 Oz",
-      "brand": null,
-      "price": "$5.49",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Herdez Guacamole Salsa Mild - 15.7 Fl. Oz.",
-      "brand": null,
-      "price": "$4.79",
-      "size": "15.7 Fl. Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Herdez Guacamole Salsa Mild - 15.7 Fl. Oz.",
-      "brand": null,
-      "price": "$5.49",
-      "size": "15.7 Fl. Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Signature SELECT Garlic Lovers Medium Salsa Jar - 24 Oz",
-      "brand": null,
-      "price": "$4.99",
-      "size": "24 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Herdez Salsa Verde Jar - 16 Oz",
-      "brand": null,
-      "price": "$4.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Herdez Salsa Roasted Verde Medium Jar - 15.7 Oz",
-      "brand": null,
-      "price": "$4.79",
-      "size": "15.7 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Herdez Salsa Roasted Verde Medium Jar - 15.7 Oz",
-      "brand": null,
-      "price": "$5.49",
-      "size": "15.7 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Signature SELECT Chunky Classic Mild Salsa Jar - 16 Oz",
-      "brand": null,
-      "price": "$3.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "TOSTITOS Salsa Con Queso Medium - 15 Oz",
-      "brand": null,
-      "price": "$5.49",
-      "size": "15 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Silver Fork Gourmet Traditiona...le Hot Salsa - 12 Oz",
-      "brand": null,
-      "price": "$4.49",
-      "size": "12 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Silver Fork Gourmet Traditiona...le Hot Salsa - 12 Oz",
-      "brand": null,
-      "price": "$5.00",
-      "size": "12 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Bomb Shel By Salsa Boss Fresh Hot Heat Salsa - 16 OZ",
-      "brand": null,
-      "price": "$6.99",
-      "size": "16 OZ",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Silver Fork Gourmet Hatch Chil...Medium Salsa - 12 Oz",
-      "brand": null,
-      "price": "$4.49",
-      "size": "12 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Silver Fork Gourmet Hatch Chil...Medium Salsa - 12 Oz",
-      "brand": null,
-      "price": "$5.00",
-      "size": "12 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Herdez Salsa Casera Medium Jar - 16 Oz",
-      "brand": null,
-      "price": "$4.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Picante Sauce - Medium - 16 Oz",
-      "brand": null,
-      "price": "$3.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Pace Picante Sauce - Medium - 16 Oz",
-      "brand": null,
-      "price": "$4.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Signature SELECT Chunky Classic Salsa Medium Jar - 16 Oz",
-      "brand": null,
-      "price": "$3.29",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Del Real Fire Roasted Mild Salsa - 15 Oz",
-      "brand": null,
-      "price": "$5.49",
-      "size": "15 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "Signature SELECT Medium Fresca Salsa - 16 Oz",
-      "brand": null,
-      "price": "$3.99",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    },
-    {
-      "name": "O Organics Salsa Mild Jar - 16 Oz",
-      "brand": null,
-      "price": "$3.79",
-      "size": "16 Oz",
-      "img": null,
-      "link": null,
-      "card_text": [],
-      "via": "text"
-    }
-  ],
-  "raw_text_chars": 8911,
+  "url_final": "https://local.albertsons.com/search.html?q=60615&storetype=5655&storetype=5655&l=en",
+  "houses": [],
+  "raw_text_chars": 1345,
   "steps": [
-    "12:42:52 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "12:42:54 connected to Bright Data Scraping Browser",
-    "12:43:06 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
-    "12:43:14 captcha check passed",
-    "12:43:23 dismissed \"Continue with all\"",
-    "12:43:23 press Escape",
-    "12:43:26 click_sel #fulFillMentAddressNav button, #fulFillMentAddressNav [role=button], #fulFillMentAddressNav a, #fulFillMentAddressNav",
-    "12:43:30 dump modal: 500 controls",
-    "12:43:31 store_set: null",
-    "12:43:33 text parser wins: 47 vs 0",
-    "12:43:33 extracted 47 houses; raw text 8911 chars"
+    "12:48:48 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "12:48:48 connected to Bright Data Scraping Browser",
+    "12:49:01 goto https://www.albertsons.com/shop/search-results.html?q=salsa",
+    "12:49:09 captcha check passed",
+    "12:50:21 dismissed \"Close\"",
+    "12:50:21 press Escape",
+    "12:50:26 goto https://www.albertsons.com/shop/search-results.html?q=salsa&zipcode=60615&storeId=",
+    "12:50:34 captcha check passed",
+    "12:50:45 dump zipparam: 500 controls",
+    "12:50:48 goto https://local.albertsons.com/search.html?q=60615",
+    "12:50:56 captcha check passed",
+    "12:51:03 dump locator: 168 controls",
+    "12:51:03 store_set: null",
+    "12:51:04 extracted 0 houses; raw text 1345 chars"
   ],
   "error": null,
   "controls": [
     {
-      "at": "modal",
+      "at": "zipparam",
+      "text": "Skip to search\nSkip to main content\nSkip to cookie settings\nSkip to chat\nGrocery\nHealth\nPharmacy\nFor Business\n4700 N Eagle Rd\nHours & info\nSign in\nFresh\nPantry\nBeverages\nFrozen\nHousehold\nRecipes\nShop more\nHalloween 🎃\nDeals forU\nWeekly Ad\nAlbertsons AI\nProducts\nRecipes\nFilters\nClear All\nDeals\nDeals\nDepartment\nSpice Level\nClear\nBrand\nClear\nCondition\nClear\nNutrition Content\nClear\nSalsa Type\nClear\nDietary Restriction\nClear\nPackage Size\nClear\nProduct Type\nClear\nFlavor\nClear\nDiet\nClear\nFruit Type\nClear\nSNAP\nClear\nPrice\nClear\nShowing 736 results for \"salsa\"\nSort by\n Best Match\nSign in to add\nYour Price $5.99 each\n$5.99\nOriginal Price $6.49\n$6.49\nprice per Ounce $0.37\n($0.37 / Ounce)\nMateos Gourmet Salsa Medium Jar - 16 Oz\n16 Ounce\n16 oz | \nsnap\nSNAP\nRated 4.8 out of 5, 4 reviews\n4\nSign in to add\nYour Price $5.49 each\n$5.49\nprice per Ounce $0.37\n($0.37 / Ounce)\nDel Real Salsa Molcajete Roja - 16 Fl Oz\nsnap\nSNAP\nRated 5.0 out of 5, 6 reviews\n6\nSign in to add\nYour Price $3.29 each\n$3.29\nOriginal Price $4.29\n$4.29\nprice per Ounce $0.21\n($0.21 / Ounce)\nPace Chunky Mild Salsa - 16 Oz\n16 Ounce\n16 oz | \nsnap\nSNAP\nRated 4.6 out of 5, 330 reviews\n330\nBestseller\nSign in to add\nYour Price $4.99 each\n$4.99\nprice per Each $4.99\n($4.99 / Each)\nFresh Cut Pico De Gallo - Each\nsnap\nSNAP\nRated 4.3 out of 5, 93 reviews\n93\nSign in to add\nYour Price $5.99 each\n$5.99\nprice per Ounce $0.40\n($0.40 / Ounce)\nCasa Sanchez Medium Roja Salsa - 15 Oz\nsnap\nSNAP\nRated 4.8 out of 5, 8 reviews\n8\nSign in to add\nYour Price $5.49 each\n$5.49\nprice per Ounce $0.34\n($0.34 / Ounce)\nDel Real Salsa Molcajete Verde - 16 Fl. Oz.\nsnap\nSNAP\nRated 4.8 out of 5, 5 reviews\n5\nSign in to add\nYour Price $5.49 each\n$5.49\nprice per Ounce $0.34\n($0.34 / Ounce)\nLa Mexicana Medium Salsa - 16 Oz\nsnap\nSNAP\nRated 4.6 out of 5, 19 reviews\n19\nSign in to add\nYour Price $4.99 each\n$4.99\nprice per Ounce $0.31\n($0.31 / Ounce)\nResers Salsa Baja Cafe Restaurant - 16 Oz\nsnap\nSNAP\nRated 5.0 out of 5, 2 reviews\n2\nSign in to add\nYour Price $5.99 each\n$5.99\nprice per Ounce $0.40\n($0.40 / Ounce)\nCasa Sanchez Mild Roja Salsa - 15 Oz\nsnap\nSNAP\nRated 4.5 out of 5, 13 reviews\n13\nSign in to add\nYour Price $3.99 each\n$3.99\nprice per Ounce $0.26\n($0.26 / Ounce)\nLa Victoria Salsa Suprema Med - 15.5 OZ\n15 Ounce\n15 oz | \nsnap\nSNAP\nRated 4.7 out of 5, 84 reviews\n84\nSign in to add\nYour Price $3.29 each\n$3.29\nOriginal Price $4.29\n$4.29\nprice per Ounce $0.21\n($0.21 / Ounce)\nPace Chunky Hot Salsa - 16 Oz\n16 Ounce\n16 oz | \nsnap\nSNAP\nRated 5.0 out of 5, 2 reviews\n2\nSign in to add\nYour Price $4.49 each\n$4.49\nOriginal Price $5.00\n$5.00\nprice per Ounce $0.37\n($0.37 / Ounce)\nSilver Fork Gourmet Traditiona...e Mild Salsa - 12 Oz\nsnap\nSNAP\nRated 4.3 out of 5, 19 reviews\n19\nSponsored 3rd party ad content\nSign in to add\nYour Price $3.99 each\n$3.99\nprice per Ounce $0.25\n($0.25 / Ounce)\nSignature SELECT Fresca Mild Salsa - 16 Oz\nsnap\nSNAP\nRated 4.7 out of 5, 396 reviews\n396\nSign in to add\nYour Price $5.99 each\n$5.99\nprice per Ounce $0.37\n($0.37 / Ounce)\nSadies Salsa Hot Jar - 16 Oz\n16 Ounce\n16 oz | \nsnap\nSNAP\nRated 5.0 out of 5, 2 reviews\n2\nSign in to add\nYour Price $4.79 each\n$4.79\nOriginal Price $5.49\n$5.49\nprice per Ounce $0.31\n($0.31 / Ounce)\nHerdez Guacamole Salsa Mild - 15.7 Fl. Oz.\n15 Ounce\n15 oz | \nsnap\nSNAP\nRated 4.4 out of 5, 171 reviews\n171\nSign in to add\nYour Price $4.99 each\n$4.99\nprice per Ounce $0.21\n($0.21 / Ounce)\nSignature SELECT Garlic Lovers Medium Salsa Jar - 24 Oz\n24 Ounce\n24 oz | \nsnap\nSNAP\nRated 4.8 out of 5, 5 reviews\n5\nSign in to add\nYour Price $4.29 each\n$4.29\nprice per Ounce $0.27\n($0.27 / Ounce)\nHerdez Salsa Verde Jar - 16 Oz\n16 Ounce\n16 oz | \nsnap\nSNAP\nRated 4.1 out of 5, 299 reviews\n299\nSign in to add\nYour Price $4.79 each\n$4.79\nOriginal Price $5.49\n$5.49\nprice per Ounce $0.31\n($0.31 / Ounce)\nHerdez Salsa Roasted Verde Medium Jar - 15.7 Oz\n15 Ounce\n15 oz | \nsnap\nSNAP\nRated 4.7 out of 5, 105 reviews\n105\nSign in to add\nYour Price $5.99 each\n$5.99\nOriginal Price $6.49\n$6.49\nprice per Ounce $0.37\n($0.37 / Ounce)\nMateos Gourmet Salsa Mild Jar - 16 Oz\n16 Ounce\n16 oz | \nsnap\nSNAP\nRated 5.0 out of 5, 2 reviews\n2\nSign in to add\nYour Price $3.29 each\n$3.29\nprice per Ounce $0.21\n($0.21 / Ounce)\nSignature SELECT Chunky Classic Mild Salsa Jar - 16 Oz\n16 Ounce\n16 oz | \nsnap\nSNAP\nRated 4.8 out of 5, 155 reviews\n155\nSign in to add\nYour Price $5.49 each\n$5.49\nprice per Ounce $0.37\n($0.37 / Ounce)\nTOSTITOS Salsa Con Queso Medium - 15 Oz\n15 Ounce\n15 oz | \nsnap\nSNAP\nRated 4.7 out of 5, 56 reviews\n56\n$2.99 each. When you buy 2.\nSign in to add\nYour Price $4.49 each\n$4.49\nOriginal Price $5.00\n$5.00\nprice per Ounce $0.37\n($0.37 / Ounce)\nSilver Fork Gourmet Traditiona...le Hot Salsa - 12 Oz\nsnap\nSNAP\nRated 4.6 out of 5, 17 reviews\n17\nSign in to add\nYour Price $6.99 each\n$6.99\nprice per Ounce $0.44\n($0.44 / Ounce)\nBomb Shel By Salsa Boss Fresh Hot Heat Salsa - 16 OZ\nsnap\nSNAP\nSign in to add\nYour Price $4.49 each\n$4.49\nOriginal Price $5.00\n$5.00\nprice per Ounce $0.37\n($0.37 / Ounce)\nSilver Fork Gourmet Hatch C",
       "controls": [
         {
           "tag": "a",
@@ -5001,8 +4534,1525 @@
           "href": "javascript:void(0)"
         }
       ]
+    },
+    {
+      "at": "locator",
+      "text": "Skip to content\nSkip to main content\nSkip to cookie settings\nSkip to chat\nGrocery\nHealth\nPharmacy\nFor Business\n4700 N Eagle Rd\nHours & info\nMember\nReturn to Nav\n© Mapbox © OpenStreetMap\nFind a Location\nSearch by Zip Code or City and State\nCity, State/Provice, Zip or City & Country\nSubmit a search.\nGeolocate.\nFilter By Store Type\nGrocery\nFuel\nPharmacy\nDisplay filters.\nAdditional Services \nApply\nSkip to Map\nSorry, there are no locations near \"Chicago, IL\" satisfying the selected filters. Please modify your search and try again or browse our directory.\nQuick Links\nContact Us\nFAQ\nOur Brands\nMobile Apps\nSweepstakes Rules\nGift and Prepaid Cards\nFind Your Local Albertsons\nAlbertsons Pharmacy\nAll Brands List\nCompany Info\nAbout Us\nAlbertsons Companies\nCareers\nSuppliers\nFor Employees\nFoundation\nProduct Recalls\nPolicies & Disclosures\nTerms of Use\nPrivacy Policy\nConsumer Health Data Privacy Policy\nYour Privacy Choices\nAccessibility Statement\nHIPAA Notice of Privacy Practices\nSupply Chain Transparency\nOther Policies & Disclosures\nCONNECT\n     \n\n© 2026 Albertsons Companies, Inc.  All rights reserved.\n\nWe and our partners use cookies and other technologies to operate and enhance our websites, analyze site usage, and assist with advertising. Choose an option or Customize. See our Privacy Policy for details.\nNecessary only Continue with all",
+      "controls": [
+        {
+          "tag": "a",
+          "text": "Skip to content",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "skip-nav",
+          "href": "#first-anchor"
+        },
+        {
+          "tag": "a",
+          "text": "Skip to main content",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "skipToMainContent",
+          "href": "#"
+        },
+        {
+          "tag": "a",
+          "text": "Skip to cookie settings",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "skipToCookieConsent",
+          "href": "#"
+        },
+        {
+          "tag": "a",
+          "text": "Skip to chat",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "skipToChat",
+          "href": "#"
+        },
+        {
+          "tag": "a",
+          "text": "Grocery",
+          "aria": "Grocery (opens in a new tab)",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com"
+        },
+        {
+          "tag": "a",
+          "text": "Health",
+          "aria": "Health (opens in a new tab)",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/health.html"
+        },
+        {
+          "tag": "a",
+          "text": "Pharmacy",
+          "aria": "Pharmacy (opens in a new tab)",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/pharmacy.html?utm_source=groceryIngress"
+        },
+        {
+          "tag": "a",
+          "text": "For Business",
+          "aria": "For Business (opens in a new tab)",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://business.albertsons.com"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Navigation menu",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "albertsons Homepage",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/"
+        },
+        {
+          "tag": "button",
+          "text": "Got it",
+          "aria": "Got it",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "div",
+          "text": "4700 N Eagle Rd",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "fulFillMentAddressNav",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Got it",
+          "aria": "Got it",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Hours & info",
+          "aria": "Store hours & info",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://local.albertsons.com/search.html"
+        },
+        {
+          "tag": "a",
+          "text": "Member",
+          "aria": "Account menu",
+          "ph": null,
+          "tid": null,
+          "id": "auth_signin_link",
+          "href": "https://www.albertsons.com/customer-account/account-settings"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Shopping Cart",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/erums/cart"
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "aria": "Close account menu",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "close account menu",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Sign In",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "sign-in-modal-link",
+          "href": "#"
+        },
+        {
+          "tag": "a",
+          "text": "Create Account",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "creat-account-modal-link",
+          "href": "#"
+        },
+        {
+          "tag": "a",
+          "text": "My account",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/customer-account/account-dashboard"
+        },
+        {
+          "tag": "a",
+          "text": "Buy It Again",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/shop/purchases/buy-it-again.html"
+        },
+        {
+          "tag": "a",
+          "text": "Purchases",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/order-account/orders"
+        },
+        {
+          "tag": "a",
+          "text": "Manage Schedule & Save",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/schedule-and-save/manage"
+        },
+        {
+          "tag": "a",
+          "text": "Profile & preferences",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/customer-account/account-settings"
+        },
+        {
+          "tag": "a",
+          "text": "Family members",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/customer-account/family-members"
+        },
+        {
+          "tag": "a",
+          "text": "Points & rewards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/customer-account/rewards"
+        },
+        {
+          "tag": "a",
+          "text": "Wallet",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/customer-account/payment"
+        },
+        {
+          "tag": "a",
+          "text": "FreshPass",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/lp/subscriptions-delivery.html"
+        },
+        {
+          "tag": "a",
+          "text": "My List",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/mylist.html"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/help/home"
+        },
+        {
+          "tag": "a",
+          "text": "Sign Out",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "javascript:;"
+        },
+        {
+          "tag": "div",
+          "text": "Close",
+          "aria": "Close menu",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "div",
+          "text": "4700 N Eagle Rd",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "fulFillMentAddressNavMobile",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Hours & info",
+          "aria": "Store hours & info",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://local.albertsons.com/search.html"
+        },
+        {
+          "tag": "input",
+          "text": "//images.albertsons-media.com/is/image/ABS/${product.id}?$ec",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "//images.albertsons-media.com/is/image/ABS/${product.id}?$ec",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "//images.albertsons-media.com/is/image/ABS/${product.id}?$ec",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "div",
+          "text": "",
+          "aria": "Close account menu",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Sign in",
+          "aria": "Sign in",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Create account",
+          "aria": "Create account",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "×",
+          "aria": "close",
+          "ph": null,
+          "tid": null,
+          "id": "past-order-modal-close",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Orders",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "/account/orders.html"
+        },
+        {
+          "tag": "a",
+          "text": "Return to Nav",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "first-anchor",
+          "href": "#skip-nav"
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Zoom In",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Zoom Out",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Reset North",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Mapbox logo",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.mapbox.com/"
+        },
+        {
+          "tag": "a",
+          "text": "© Mapbox",
+          "aria": "Mapbox",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.mapbox.com/about/maps"
+        },
+        {
+          "tag": "a",
+          "text": "© OpenStreetMap",
+          "aria": "OpenStreetMap",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.openstreetmap.org/copyright/"
+        },
+        {
+          "tag": "a",
+          "text": "Improve this map",
+          "aria": "Improve this map",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.mapbox.com/feedback/?owner=mapbox&id=streets-v9&access_token=pk.eyJ1"
+        },
+        {
+          "tag": "input",
+          "text": "",
+          "aria": null,
+          "ph": "e.g., Chicago, IL",
+          "tid": null,
+          "id": "q",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Submit a search.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Geolocate.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "5655",
+          "aria": "Grocery",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "5656",
+          "aria": "Fuel",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "5657",
+          "aria": "Pharmacy",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Display filters.\nAdditional Services",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "js-filters-open",
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Grocery Delivery",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Drive Up and Go",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Rush Delivery",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Door Dash",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "SNAP EBT at Drive Up and Go",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "SNAP EBT Online",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Starbucks Cafe",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "ATM",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Bank",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Coinstar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Bitcoin Sold in Coinstar",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Bakery and Deli Order-Ahead",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Redbox",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Amazon Locker",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Fed Ex Drop Off and Pick Up Location",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Western Union",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Rug Doctor",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "7618",
+          "aria": "Pharmacy",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "7163",
+          "aria": "Fresh Produce",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "7309",
+          "aria": "Fresh Meat",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "7305",
+          "aria": "Bakery",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "7307",
+          "aria": "Service Deli",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "7304",
+          "aria": "Beer/Wine",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "7306",
+          "aria": "Liquor",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "7619",
+          "aria": "Floral",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Vaccinations",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Transfer Prescription",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Blood Pressure",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Diabetes Consultations",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Medication Review",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Specialty Pharmacy",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Pharmacy Consultations",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Travel Health",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Workers Comp",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "input",
+          "text": "true",
+          "aria": "Medication Disposal Bin",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Apply",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Skip to Map",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "skip-map",
+          "href": "#js-locator"
+        },
+        {
+          "tag": "a",
+          "text": "browse our directory.",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "index.html"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": "Contact Us opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/help"
+        },
+        {
+          "tag": "a",
+          "text": "FAQ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/faq.html"
+        },
+        {
+          "tag": "a",
+          "text": "Our Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/about-us/our-brands.html"
+        },
+        {
+          "tag": "a",
+          "text": "Mobile Apps",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/about-us/mobile-apps.html"
+        },
+        {
+          "tag": "a",
+          "text": "Sweepstakes Rules",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/yourstore/sweepstakes-rules.html"
+        },
+        {
+          "tag": "a",
+          "text": "Gift and Prepaid Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/gifts-and-prepaid-cards.html"
+        },
+        {
+          "tag": "a",
+          "text": "Find Your Local Albertsons",
+          "aria": "Find Your Local Albertsons opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://local.albertsons.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Albertsons Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/pharmacy.html"
+        },
+        {
+          "tag": "a",
+          "text": "All Brands List",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/shop/brands/landing.html"
+        },
+        {
+          "tag": "a",
+          "text": "About Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/about-us.html"
+        },
+        {
+          "tag": "a",
+          "text": "Albertsons Companies",
+          "aria": "Albertsons Companies opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/home.html"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": "Careers opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/p"
+        },
+        {
+          "tag": "a",
+          "text": "Suppliers",
+          "aria": "Suppliers opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/suppliers.html"
+        },
+        {
+          "tag": "a",
+          "text": "For Employees",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/employee-resource-center.html"
+        },
+        {
+          "tag": "a",
+          "text": "Foundation",
+          "aria": "Foundation opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/about-aci/our-impact/Albertsons-Foundation/d"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": "Product Recalls opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/product-recalls.html"
+        },
+        {
+          "tag": "a",
+          "text": "Terms of Use",
+          "aria": "Terms of Use opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/about-us/our-policies/terms-of-use.html"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": "Privacy Policy opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/about-us/our-policies/privacy-policy.html"
+        },
+        {
+          "tag": "a",
+          "text": "Consumer Health Data Privacy Policy",
+          "aria": "Consumer Health Data Privacy Policy opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://www.albertsonscompanies.com/policies-and-disclosures/Consumer-Health-Data"
+        },
+        {
+          "tag": "a",
+          "text": "Your Privacy Choices",
+          "aria": "Your Privacy Choices opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/policies-and-disclosures/privacy-policy/Priv"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility Statement",
+          "aria": "Accessibility Statement opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/policies-and-disclosures/digital-accessibili"
+        },
+        {
+          "tag": "a",
+          "text": "HIPAA Notice of Privacy Practices",
+          "aria": "HIPAA Notice of Privacy Practices opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/about-us/our-policies/hipaa-notice-of-privac"
+        },
+        {
+          "tag": "a",
+          "text": "Supply Chain Transparency",
+          "aria": "Supply Chain Transparency opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/policies-and-disclosures/supply-chain-transp"
+        },
+        {
+          "tag": "a",
+          "text": "Other Policies & Disclosures",
+          "aria": "Other Policies & Disclosures opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/about-us/our-policies.html"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons Facebook page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.facebook.com/Albertsons"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons Twitter Page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.twitter.com/Albertsons"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons Pinterest Page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.pinterest.com/Albertsons/"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons Pinterest Page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.instagram.com/albertsons/"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons YouTube Page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.youtube.com/user/albertsons"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons TikTok page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.tiktok.com/@albertsons"
+        },
+        {
+          "tag": "button",
+          "text": "Quick Links\n                                        \n       ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Quick Links",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Company Info\n                                        \n      ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Company Info",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Policies & Disclosures\n                                     ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "Policies & Disclosures",
+          "href": null
+        },
+        {
+          "tag": "a",
+          "text": "Back",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#"
+        },
+        {
+          "tag": "a",
+          "text": "Contact Us",
+          "aria": "Contact Us opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/help"
+        },
+        {
+          "tag": "a",
+          "text": "FAQ",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/faq.html"
+        },
+        {
+          "tag": "a",
+          "text": "Our Brands",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/about-us/our-brands.html"
+        },
+        {
+          "tag": "a",
+          "text": "Mobile Apps",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/about-us/mobile-apps.html"
+        },
+        {
+          "tag": "a",
+          "text": "Sweepstakes Rules",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/yourstore/sweepstakes-rules.html"
+        },
+        {
+          "tag": "a",
+          "text": "Gift and Prepaid Cards",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/gifts-and-prepaid-cards.html"
+        },
+        {
+          "tag": "a",
+          "text": "Find Your Local Albertsons",
+          "aria": "Find Your Local Albertsons opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://local.albertsons.com/"
+        },
+        {
+          "tag": "a",
+          "text": "Albertsons Pharmacy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/pharmacy.html"
+        },
+        {
+          "tag": "a",
+          "text": "All Brands List",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/shop/brands/landing.html"
+        },
+        {
+          "tag": "a",
+          "text": "Back",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#"
+        },
+        {
+          "tag": "a",
+          "text": "About Us",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/about-us.html"
+        },
+        {
+          "tag": "a",
+          "text": "Albertsons Companies",
+          "aria": "Albertsons Companies opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/home.html"
+        },
+        {
+          "tag": "a",
+          "text": "Careers",
+          "aria": "Careers opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://eofd.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/p"
+        },
+        {
+          "tag": "a",
+          "text": "Suppliers",
+          "aria": "Suppliers opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/suppliers.html"
+        },
+        {
+          "tag": "a",
+          "text": "For Employees",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsons.com/employee-resource-center.html"
+        },
+        {
+          "tag": "a",
+          "text": "Foundation",
+          "aria": "Foundation opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/about-aci/our-impact/Albertsons-Foundation/d"
+        },
+        {
+          "tag": "a",
+          "text": "Product Recalls",
+          "aria": "Product Recalls opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/product-recalls.html"
+        },
+        {
+          "tag": "a",
+          "text": "Back",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#"
+        },
+        {
+          "tag": "a",
+          "text": "Terms of Use",
+          "aria": "Terms of Use opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/about-us/our-policies/terms-of-use.html"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": "Privacy Policy opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/about-us/our-policies/privacy-policy.html"
+        },
+        {
+          "tag": "a",
+          "text": "Consumer Health Data Privacy Policy",
+          "aria": "Consumer Health Data Privacy Policy opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "http://www.albertsonscompanies.com/policies-and-disclosures/Consumer-Health-Data"
+        },
+        {
+          "tag": "a",
+          "text": "Your Privacy Choices",
+          "aria": "Your Privacy Choices opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/policies-and-disclosures/privacy-policy/Priv"
+        },
+        {
+          "tag": "a",
+          "text": "Accessibility Statement",
+          "aria": "Accessibility Statement opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/policies-and-disclosures/digital-accessibili"
+        },
+        {
+          "tag": "a",
+          "text": "HIPAA Notice of Privacy Practices",
+          "aria": "HIPAA Notice of Privacy Practices opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/about-us/our-policies/hipaa-notice-of-privac"
+        },
+        {
+          "tag": "a",
+          "text": "Supply Chain Transparency",
+          "aria": "Supply Chain Transparency opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/policies-and-disclosures/supply-chain-transp"
+        },
+        {
+          "tag": "a",
+          "text": "Other Policies & Disclosures",
+          "aria": "Other Policies & Disclosures opens in a new tab",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/about-us/our-policies.html"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons Facebook page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.facebook.com/Albertsons"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons Twitter Page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.twitter.com/Albertsons"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons Pinterest Page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.pinterest.com/Albertsons/"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons Pinterest Page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.instagram.com/albertsons/"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons YouTube Page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.youtube.com/user/albertsons"
+        },
+        {
+          "tag": "a",
+          "text": "",
+          "aria": "Albertsons TikTok page",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.tiktok.com/@albertsons"
+        },
+        {
+          "tag": "a",
+          "text": "Customize",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "#"
+        },
+        {
+          "tag": "a",
+          "text": "Privacy Policy",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": "https://www.albertsonscompanies.com/policies-and-disclosures/privacy-policy/defa"
+        },
+        {
+          "tag": "button",
+          "text": "Necessary only",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "onetrust-reject-all-handler",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "Continue with all",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": "onetrust-accept-btn-handler",
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Open Preferences",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        },
+        {
+          "tag": "button",
+          "text": "",
+          "aria": "Close Preferences",
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "href": null
+        }
+      ]
     }
   ],
-  "houses_text": 47,
-  "houses_dom": 0
+  "houses_text": 0
 }
