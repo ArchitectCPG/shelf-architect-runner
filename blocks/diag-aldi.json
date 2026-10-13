@@ -21,23 +21,16 @@
    ]
   },
   {
-   "click_re": "^Change store$"
+   "js": "const bs=[...document.querySelectorAll('button')].filter(b=>/^Change store$/.test(b.innerText.trim())); for(const b of bs){ b.click(); await new Promise(x=>setTimeout(x,2500)); } return 'clicked '+bs.length"
   },
   {
-   "wait": 4000
+   "wait": 2000
   },
   {
-   "dump": "picker"
+   "js": "const d=[...document.querySelectorAll('[role=dialog],[aria-modal=true],[class*=modal i],[class*=Modal],[class*=drawer i],[class*=flyout i],[class*=popover i]')].filter(e=>e.offsetWidth).pop(); return (d?('DLG['+(d.className||'').slice(0,60)+']: '+d.innerText.slice(0,1500)):'NODLG: '+document.body.innerText.slice(0,600))"
   },
   {
-   "js": "const inp=[...document.querySelectorAll('input')].filter(i=>i.offsetWidth&&/zip|city|postal|address|location|search/i.test((i.placeholder||'')+(i.name||'')+(i.id||'')+(i.getAttribute('aria-label')||''))).pop()||[...document.querySelectorAll('[role=dialog] input, [aria-modal=true] input')].pop(); if(!inp) throw new Error('no zip input'); inp.focus(); inp.value=''; document.execCommand('insertText',false,'{{store_zip}}'); inp.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,800)); inp.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); return 'typed into '+(inp.placeholder||inp.id||inp.name)",
-   "optional": true
-  },
-  {
-   "wait": 6000
-  },
-  {
-   "dump": "results"
+   "js": "return [...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>(e.placeholder||e.getAttribute('aria-label')||e.id||'').slice(0,50)).join(' || ')"
   }
  ]
 }

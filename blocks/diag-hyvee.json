@@ -21,26 +21,25 @@
    ]
   },
   {
-   "dump": "load"
-  },
-  {
    "click_sel": "[data-testid=global-navigation-store-change-btn]"
   },
   {
-   "wait": 4000
+   "wait": 3000
   },
   {
-   "dump": "picker"
+   "js": "const d=[...document.querySelectorAll('[role=dialog],[aria-modal=true],[class*=modal i],[class*=Modal],[class*=drawer i],[class*=flyout i],[class*=popover i]')].filter(e=>e.offsetWidth).pop(); return (d?('DLG['+(d.className||'').slice(0,60)+']: '+d.innerText.slice(0,1500)):'NODLG: '+document.body.innerText.slice(0,600))"
   },
   {
-   "js": "const inp=[...document.querySelectorAll('input')].filter(i=>i.offsetWidth&&/zip|city|postal|address|location|search/i.test((i.placeholder||'')+(i.name||'')+(i.id||'')+(i.getAttribute('aria-label')||''))).pop()||[...document.querySelectorAll('[role=dialog] input, [aria-modal=true] input')].pop(); if(!inp) throw new Error('no zip input'); inp.focus(); inp.value=''; document.execCommand('insertText',false,'{{store_zip}}'); inp.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,800)); inp.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); return 'typed into '+(inp.placeholder||inp.id||inp.name)",
-   "optional": true
+   "js": "const i=document.querySelector(\"input[placeholder*='Zip']\"); if(!i) throw new Error('no input'); i.focus(); i.value=''; document.execCommand('insertText',false,'{{store_zip}}'); i.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,600)); i.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); return 'typed'"
   },
   {
-   "wait": 6000
+   "wait": 5000
   },
   {
-   "dump": "results"
+   "js": "const d=[...document.querySelectorAll('[role=dialog],[aria-modal=true],[class*=modal i],[class*=Modal],[class*=drawer i],[class*=flyout i],[class*=popover i]')].filter(e=>e.offsetWidth).pop(); return (d?('DLG['+(d.className||'').slice(0,60)+']: '+d.innerText.slice(0,1500)):'NODLG: '+document.body.innerText.slice(0,600))"
+  },
+  {
+   "js": "const bs=[...document.querySelectorAll('button,a,[role=button]')].filter(b=>b.offsetWidth&&/shop|select|choose|make.*store|set.*store/i.test(b.innerText.trim())); return bs.map(b=>(b.getAttribute('data-testid')||'')+':'+b.innerText.trim().slice(0,60).replace(/\\n/g,' / ')).slice(0,10).join(' || ')"
   }
  ]
 }
