@@ -27,22 +27,19 @@
    "wait": 3000
   },
   {
-   "js": "const i=document.querySelector(\"input[placeholder='Enter City or Zip']\"); if(!i) throw new Error('no input'); i.focus(); i.value=''; document.execCommand('insertText',false,'{{store_zip}}'); i.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,600)); i.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); return 'typed'"
+   "js": "const d=[...document.querySelectorAll('[role=dialog],[aria-modal=true],[class*=drawer i],[class*=Drawer],[class*=modal i],[class*=Modal]')].filter(e=>e.offsetWidth).pop()||document.body; return [...d.querySelectorAll('input,button,[role=button],[role=radio]')].filter(e=>e.offsetWidth).map(e=>e.tagName[0]+':'+(e.type||'')+':'+(e.placeholder||e.getAttribute('aria-label')||e.innerText||e.id||'').trim().slice(0,45).replace(/\\n/g,' / ')).slice(0,40).join(' || ')"
   },
   {
-   "wait": 1000
+   "js": "const i=[...document.querySelectorAll(\"input[placeholder='Enter City or Zip']\")].find(e=>e.offsetWidth); if(!i) throw new Error('no input'); i.focus(); i.select&&i.select(); document.execCommand('insertText',false,'{{store_zip}}'); i.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,800)); i.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); return 'typed into '+(i.placeholder||i.id||i.name||i.getAttribute('aria-label'))"
   },
   {
-   "js": "const b=[...document.querySelectorAll('button')].find(b=>/^Select$/.test(b.innerText.trim())&&b.offsetWidth); if(b) b.click(); return b?'clicked Select':'no Select'"
+   "wait": 4000
   },
   {
-   "wait": 5000
+   "js": "const d=[...document.querySelectorAll('[role=dialog],[aria-modal=true],[class*=drawer i],[class*=Drawer],[class*=modal i],[class*=Modal]')].filter(e=>e.offsetWidth).pop()||document.body; return [...d.querySelectorAll('input,button,[role=button],[role=radio]')].filter(e=>e.offsetWidth).map(e=>e.tagName[0]+':'+(e.type||'')+':'+(e.placeholder||e.getAttribute('aria-label')||e.innerText||e.id||'').trim().slice(0,45).replace(/\\n/g,' / ')).slice(0,40).join(' || ')"
   },
   {
-   "js": "const d=[...document.querySelectorAll('[role=dialog],[aria-modal=true],[class*=modal i],[class*=Modal],[class*=drawer i],[class*=flyout i],[class*=popover i]')].filter(e=>e.offsetWidth).pop(); return (d?('DLG['+(d.className||'').slice(0,60)+']: '+d.innerText.slice(0,1500)):'NODLG: '+document.body.innerText.slice(0,600))"
-  },
-  {
-   "js": "const bs=[...document.querySelectorAll('button')].filter(b=>b.offsetWidth&&/^(Select|Shop here|Shop this store|Choose|Make my store)/i.test(b.innerText.trim())); return bs.map(b=>b.innerText.trim()+'@'+(b.closest('li,div')?.innerText||'').slice(0,80).replace(/\\n/g,' / ')).slice(0,8).join(' || ')"
+   "js": "const a=[...document.querySelectorAll('input[type=radio],li,[role=option]')].filter(e=>e.offsetWidth).map(e=>(e.tagName+':'+(e.innerText||e.value||'')).slice(0,70).replace(/\\n/g,' / ')).slice(0,15); return a.join(' || ')"
   }
  ]
 }

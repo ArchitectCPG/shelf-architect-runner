@@ -9,7 +9,7 @@
    "goto": "https://shop.aldi.us/store/aldi/s?k=salsa"
   },
   {
-   "wait": 8000
+   "wait": 10000
   },
   {
    "dismiss": [
@@ -21,16 +21,33 @@
    ]
   },
   {
-   "js": "const bs=[...document.querySelectorAll('button')].filter(b=>/^Change store$/.test(b.innerText.trim())); for(const b of bs){ b.click(); await new Promise(x=>setTimeout(x,2500)); } return 'clicked '+bs.length"
+   "js": "const b=[...document.querySelectorAll('button')].find(b=>/^Change store$/.test(b.innerText.trim())&&b.offsetWidth)||[...document.querySelectorAll('button')].find(b=>/^Change store$/.test(b.innerText.trim())); b.click(); return 'ok'"
   },
   {
-   "wait": 2000
+   "wait": 3000
   },
   {
-   "js": "const d=[...document.querySelectorAll('[role=dialog],[aria-modal=true],[class*=modal i],[class*=Modal],[class*=drawer i],[class*=flyout i],[class*=popover i]')].filter(e=>e.offsetWidth).pop(); return (d?('DLG['+(d.className||'').slice(0,60)+']: '+d.innerText.slice(0,1500)):'NODLG: '+document.body.innerText.slice(0,600))"
+   "js": "const d=[...document.querySelectorAll('[role=dialog],[aria-modal=true],[class*=drawer i],[class*=Drawer],[class*=modal i],[class*=Modal]')].filter(e=>e.offsetWidth).pop()||document.body; return [...d.querySelectorAll('input,button,[role=button],[role=radio]')].filter(e=>e.offsetWidth).map(e=>e.tagName[0]+':'+(e.type||'')+':'+(e.placeholder||e.getAttribute('aria-label')||e.innerText||e.id||'').trim().slice(0,45).replace(/\\n/g,' / ')).slice(0,40).join(' || ')"
   },
   {
-   "js": "return [...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>(e.placeholder||e.getAttribute('aria-label')||e.id||'').slice(0,50)).join(' || ')"
+   "js": "const b=[...document.querySelectorAll('button,[role=button]')].find(b=>b.offsetWidth&&/^Near \\d{5}|^Edit$|Change.*(address|location)/i.test(b.innerText.trim())); if(b){b.click(); return 'clicked '+b.innerText.trim().slice(0,30)} return 'none'",
+   "optional": true
+  },
+  {
+   "wait": 2500
+  },
+  {
+   "js": "const d=[...document.querySelectorAll('[role=dialog],[aria-modal=true],[class*=drawer i],[class*=Drawer],[class*=modal i],[class*=Modal]')].filter(e=>e.offsetWidth).pop()||document.body; return [...d.querySelectorAll('input,button,[role=button],[role=radio]')].filter(e=>e.offsetWidth).map(e=>e.tagName[0]+':'+(e.type||'')+':'+(e.placeholder||e.getAttribute('aria-label')||e.innerText||e.id||'').trim().slice(0,45).replace(/\\n/g,' / ')).slice(0,40).join(' || ')"
+  },
+  {
+   "js": "const i=[...document.querySelectorAll(\"input[placeholder*='zip' i],input[placeholder*='address' i],input[placeholder*='city' i],input[type=search],input[type=text]\")].find(e=>e.offsetWidth); if(!i) throw new Error('no input'); i.focus(); i.select&&i.select(); document.execCommand('insertText',false,'{{store_zip}}'); i.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,800)); i.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); return 'typed into '+(i.placeholder||i.id||i.name||i.getAttribute('aria-label'))",
+   "optional": true
+  },
+  {
+   "wait": 4000
+  },
+  {
+   "js": "const d=[...document.querySelectorAll('[role=dialog],[aria-modal=true],[class*=drawer i],[class*=Drawer],[class*=modal i],[class*=Modal]')].filter(e=>e.offsetWidth).pop()||document.body; return [...d.querySelectorAll('input,button,[role=button],[role=radio]')].filter(e=>e.offsetWidth).map(e=>e.tagName[0]+':'+(e.type||'')+':'+(e.placeholder||e.getAttribute('aria-label')||e.innerText||e.id||'').trim().slice(0,45).replace(/\\n/g,' / ')).slice(0,40).join(' || ')"
   }
  ]
 }
