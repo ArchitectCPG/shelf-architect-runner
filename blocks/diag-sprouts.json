@@ -2,7 +2,7 @@
  "block_id": "diag/sprouts@pin",
  "retailer": "sprouts",
  "zip": "diag",
- "neighborhood": "sprouts",
+ "neighborhood": "salsa",
  "term": "salsa",
  "store_zip": "60563",
  "store_js": "(()=>{const b=[...document.querySelectorAll('button,a,[role=button]')].find(b=>/Store #\\d+|shopping at|change store/i.test(b.innerText)); return b?b.innerText.replace(/\\s+/g,' ').trim().slice(0,90):null})()",
@@ -35,6 +35,10 @@
    "dump": "dialog1"
   },
   {
+   "js": "return JSON.stringify([...document.querySelectorAll('input,[role=textbox],[role=combobox]')].filter(e=>e.offsetWidth||e.offsetHeight).map(e=>{const r=e.getBoundingClientRect();return {ph:e.placeholder,aria:e.getAttribute('aria-label'),tid:e.getAttribute('data-testid'),id:e.id,ti:e.tabIndex,x:Math.round(r.x),y:Math.round(r.y),w:Math.round(r.width),val:e.value}}))",
+   "optional": true
+  },
+  {
    "js": "const b=[...document.querySelectorAll('button,[role=button],a')].find(b=>b.offsetWidth&&/^(Edit|Change|Enter zip|Use a different)/i.test(b.innerText.trim())); if(b){b.click(); return 'edit: '+b.innerText.trim()} const d=document.querySelector('[role=dialog],[aria-modal=true]'); return 'noedit; dialog='+(d?d.innerText.replace(/\\s+/g,' ').slice(0,600):'none')",
    "optional": true
   },
@@ -43,6 +47,10 @@
   },
   {
    "dump": "dialog2"
+  },
+  {
+   "js": "return JSON.stringify([...document.querySelectorAll('input,[role=textbox],[role=combobox]')].filter(e=>e.offsetWidth||e.offsetHeight).map(e=>{const r=e.getBoundingClientRect();return {ph:e.placeholder,aria:e.getAttribute('aria-label'),tid:e.getAttribute('data-testid'),id:e.id,ti:e.tabIndex,x:Math.round(r.x),y:Math.round(r.y),w:Math.round(r.width),val:e.value}}))",
+   "optional": true
   },
   {
    "type_dialog": {
