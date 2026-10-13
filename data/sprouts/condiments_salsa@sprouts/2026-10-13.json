@@ -3,7 +3,7 @@
   "retailer": "sprouts",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T18:37:46.373Z",
+  "pulled_at": "2026-10-13T18:39:43.370Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60563",
@@ -12,20 +12,20 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "18:37:46 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "18:37:47 connected to Bright Data Scraping Browser",
-    "18:38:12 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
-    "18:38:20 captcha check passed",
-    "18:38:35 dismiss: nothing to close",
-    "18:38:35 js ok ok",
-    "18:38:39 js ok edit",
-    "18:38:41 js ok tagged",
-    "18:38:42 ERROR Error: locator.click: Element is outside of the viewport\nCall log:\n  - waiting for locator('[data-zipbox=\\'1\\']').first()\n    - locator resolved to <input tabindex=\"-1\" data-zipbox=\"1\" class=\"e-1oh9uda\" aria-hidden=\"true\" data-testid=\"hidden-input-for-ios-virtual-keyboard\"/>\n  - attempting click action\n    - scrolling into view if needed\n    - done scrolling\n"
+    "18:39:43 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:39:44 connected to Bright Data Scraping Browser",
+    "18:40:18 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
+    "18:40:26 captcha check passed",
+    "18:40:41 dismiss: nothing to close",
+    "18:40:42 js ok ok",
+    "18:40:45 js ok edit",
+    "18:40:48 js ok tagged 0 text  ",
+    "18:41:13 ERROR TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('[data-zipbox=\\'1\\']').first() to be visible\n"
   ],
-  "error": "Error: locator.click: Element is outside of the viewport\nCall log:\n  - waiting for locator('[data-zipbox=\\'1\\']').first()\n    - locator resolved to <input tabindex=\"-1\" data-zipbox=\"1\" class=\"e-1oh9uda\" aria-hidden=\"true\" data-testid=\"hidden-input-for-ios-virtual-keyboard\"/>\n  - attempting click action\n    - scrolling into view if needed\n    - done scrolling\n",
+  "error": "TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('[data-zipbox=\\'1\\']').first() to be visible\n",
   "js_results": [
     "ok",
     "edit",
-    "tagged"
+    "tagged 0 text  "
   ]
 }
