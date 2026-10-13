@@ -24,13 +24,27 @@
       "press": "Escape"
     },
     {
-      "click_re": "^Store: "
+      "click_sel": "#zip-code-id-btn",
+      "optional": true
     },
     {
-      "wait": 6000
+      "wait": 5000
     },
     {
-      "dump": "modal"
+      "dump": "zipmodal"
+    },
+    {
+      "fill": {
+        "placeholder": "zip|ZIP",
+        "value": "{{store_zip}}"
+      },
+      "optional": true
+    },
+    {
+      "wait": 5000
+    },
+    {
+      "dump": "after"
     }
   ]
 }

@@ -30,6 +30,9 @@
       "wait": 4000
     },
     {
+      "dump": "flyout"
+    },
+    {
       "fill": {
         "placeholder": "Search by Zip",
         "value": "{{store_zip}}"
