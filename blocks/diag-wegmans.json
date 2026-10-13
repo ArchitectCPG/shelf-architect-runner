@@ -2,12 +2,11 @@
  "block_id": "diag/wegmans@wegmans",
  "retailer": "wegmans",
  "zip": "diag",
- "neighborhood": "wegmans",
- "term": "salsa",
+ "neighborhood": "salsa",
  "store_zip": "14618",
  "steps": [
   {
-   "goto": "https://www.wegmans.com/"
+   "goto": "https://www.wegmans.com/shop/search?query=salsa"
   },
   {
    "wait": 8000
@@ -22,25 +21,23 @@
    ]
   },
   {
-   "search": {
-    "value": "salsa"
-   }
+   "js": "const b=[...document.querySelectorAll(\"button[class*='selector-']\")].filter(b=>!/In Store|Pickup|Delivery/i.test(b.innerText))[0]; if(!b) throw new Error('no store btn'); b.click(); return b.innerText"
   },
   {
-   "wait": 7000
-  },
-  {
-   "dump": "search"
-  },
-  {
-   "click_re": "^Ballantyne$|^In Store$",
-   "optional": true
-  },
-  {
-   "wait": 3000
+   "wait": 4000
   },
   {
    "dump": "picker"
+  },
+  {
+   "js": "const inp=[...document.querySelectorAll('input')].filter(i=>i.offsetWidth&&/zip|city|postal|address|location|search/i.test((i.placeholder||'')+(i.name||'')+(i.id||'')+(i.getAttribute('aria-label')||''))).pop()||[...document.querySelectorAll('[role=dialog] input, [aria-modal=true] input')].pop(); if(!inp) throw new Error('no zip input'); inp.focus(); inp.value=''; document.execCommand('insertText',false,'{{store_zip}}'); inp.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,800)); inp.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); return 'typed into '+(inp.placeholder||inp.id||inp.name)",
+   "optional": true
+  },
+  {
+   "wait": 6000
+  },
+  {
+   "dump": "results"
   }
  ]
 }

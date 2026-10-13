@@ -2,8 +2,7 @@
  "block_id": "diag/aldi@aldi",
  "retailer": "aldi",
  "zip": "diag",
- "neighborhood": "aldi",
- "term": "salsa",
+ "neighborhood": "salsa",
  "store_zip": "60615",
  "steps": [
   {
@@ -22,17 +21,23 @@
    ]
   },
   {
-   "dump": "load"
+   "click_re": "^Change store$"
   },
   {
-   "click_re": "^Change store$|Change location|^Pickup$",
-   "optional": true
-  },
-  {
-   "wait": 3000
+   "wait": 4000
   },
   {
    "dump": "picker"
+  },
+  {
+   "js": "const inp=[...document.querySelectorAll('input')].filter(i=>i.offsetWidth&&/zip|city|postal|address|location|search/i.test((i.placeholder||'')+(i.name||'')+(i.id||'')+(i.getAttribute('aria-label')||''))).pop()||[...document.querySelectorAll('[role=dialog] input, [aria-modal=true] input')].pop(); if(!inp) throw new Error('no zip input'); inp.focus(); inp.value=''; document.execCommand('insertText',false,'{{store_zip}}'); inp.dispatchEvent(new Event('input',{bubbles:true})); await new Promise(x=>setTimeout(x,800)); inp.dispatchEvent(new KeyboardEvent('keydown',{key:'Enter',code:'Enter',keyCode:13,bubbles:true})); return 'typed into '+(inp.placeholder||inp.id||inp.name)",
+   "optional": true
+  },
+  {
+   "wait": 6000
+  },
+  {
+   "dump": "results"
   }
  ]
 }
