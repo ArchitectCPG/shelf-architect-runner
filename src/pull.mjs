@@ -11,6 +11,64 @@ const block = JSON.parse(fs.readFileSync(blockFile, "utf8"));
 const vars = { store_zip: block.store_zip || "", term: block.neighborhood || block.search_term || "", ...(block.vars || {}) };
 const sub = (s) => String(s).replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? "");
 
+
+// ---- API lane: Bright Data prebuilt scrapers (dataset trigger), no browser ----
+if (block.api) {
+  const tok = process.env.BRD_API_TOKEN;
+  if (!tok) { console.error("missing BRD_API_TOKEN"); process.exit(2); }
+  const stamp2 = new Date().toISOString(); const day2 = stamp2.slice(0, 10);
+  const outDir2 = path.join("data", block.retailer, block.block_id.replace(/[^a-z0-9@_.-]/gi, "_"));
+  fs.mkdirSync(outDir2, { recursive: true });
+  const o = { block_id: block.block_id, retailer: block.retailer, zip: block.zip || null,
+    neighborhood: block.neighborhood || null, pulled_at: stamp2, runner: "github-actions+brightdata-dataset-api",
+    store_requested_zip: block.store_zip || null, store_set: null, houses: [], steps: [], error: null };
+  const lg = (m) => { console.log(m); o.steps.push(`${new Date().toISOString().slice(11,19)} ${m}`); };
+  try {
+    const a = block.api;
+    const input = JSON.parse(sub(JSON.stringify(a.input)));
+    const qs = new URLSearchParams({ dataset_id: a.dataset_id, include_errors: "true",
+      type: "discover_new", discover_by: a.discover_by, limit_per_input: String(a.limit || 48) });
+    const trig = await fetch(`https://api.brightdata.com/datasets/v3/trigger?${qs}`, {
+      method: "POST", headers: { Authorization: `Bearer ${tok}`, "Content-Type": "application/json" },
+      body: JSON.stringify([input]) });
+    const tj = await trig.json();
+    if (!tj.snapshot_id) throw new Error(`trigger failed: ${JSON.stringify(tj).slice(0,300)}`);
+    lg(`snapshot ${tj.snapshot_id}`);
+    let recs = null;
+    for (let i = 0; i < 90; i++) {
+      await new Promise(r => setTimeout(r, 20000));
+      const pr = await fetch(`https://api.brightdata.com/datasets/v3/progress/${tj.snapshot_id}`, { headers: { Authorization: `Bearer ${tok}` } });
+      const pj = await pr.json();
+      if (i % 3 === 0) lg(`poll ${i}: ${pj.status}`);
+      if (pj.status === "ready") {
+        const dl = await fetch(`https://api.brightdata.com/datasets/v3/snapshot/${tj.snapshot_id}?format=json`, { headers: { Authorization: `Bearer ${tok}` } });
+        recs = await dl.json(); break;
+      }
+      if (pj.status === "failed") throw new Error(`snapshot failed: ${JSON.stringify(pj).slice(0,300)}`);
+    }
+    if (!recs) throw new Error("timed out waiting for snapshot (30 min)");
+    if (!Array.isArray(recs)) throw new Error(`unexpected snapshot shape: ${JSON.stringify(recs).slice(0,200)}`);
+    o.houses = recs.filter(r => !r.error).map(r => ({
+      name: r.title || r.product_name || r.name || null,
+      brand: r.product_brand || r.brand || null,
+      price: (r.final_price ?? r.price) != null ? `$${r.final_price ?? r.price}` : null,
+      size: r.unit || r.size || "",
+      img: r.image_url || (Array.isArray(r.images) ? r.images[0] : null) || null,
+      link: r.url || null,
+      upc: r.item_number || r.upc || null,
+      availability: r.availability || r.availability_text || null,
+      initial_price: r.initial_price ?? null, rating: r.rating ?? null, reviews: r.reviews_count ?? null,
+    })).filter(h => h.name && h.price);
+    const errs = recs.filter(r => r.error); if (errs.length) lg(`${errs.length} errored inputs: ${String(errs[0].error).slice(0,120)}`);
+    const sid = recs.find(r => r.store_id)?.store_id;
+    o.store_set = `API zip ${block.store_zip}${sid ? ` store_id ${sid}` : ""} (dataset ${a.dataset_id})`;
+    lg(`extracted ${o.houses.length} houses from ${recs.length} records`);
+  } catch (e) { o.error = String(e).slice(0, 500); lg(`ERROR ${o.error}`); }
+  fs.writeFileSync(path.join(outDir2, `${day2}.json`), JSON.stringify(o, null, 2));
+  console.log(`\nRESULT block=${o.block_id} store=${o.store_set} houses=${o.houses.length} error=${o.error}`);
+  process.exit(o.error ? 1 : 0);
+}
+
 const baseUser = process.env.BRD_BROWSER_USER;
 const pass = process.env.BRD_BROWSER_PASSWORD;
 if (!baseUser || !pass) { console.error("missing BRD_BROWSER_USER / BRD_BROWSER_PASSWORD"); process.exit(2); }

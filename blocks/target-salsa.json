@@ -1,16 +1,17 @@
 {
-  "block_id": "condiments/salsa@target",
-  "retailer": "target",
-  "zip": "condiments",
-  "neighborhood": "salsa",
-  "term": "salsa",
-  "store_zip": "60615",
-  "store_js": "(() => { const nav = document.querySelector('#web-store-id-msg-btn'); return nav ? 'UNPINNED default: ' + nav.innerText.trim() : null; })()",
-  "steps": [
-    { "goto": "https://www.target.com/s?searchTerm={{term}}" },
-    { "wait": 7000 },
-    { "dismiss": ["Close", "No thanks", "Not now", "Continue", "Got it"] },
-    { "wait": 2000 },
-    { "scroll": 4 }
-  ]
+ "block_id": "condiments/salsa@target",
+ "retailer": "target",
+ "zip": "condiments",
+ "neighborhood": "salsa",
+ "term": "salsa",
+ "store_zip": "60615",
+ "api": {
+  "dataset_id": "gd_ltppk5mx2lp0v1k0vo",
+  "discover_by": "keywords",
+  "input": {
+   "keywords": "{{term}}",
+   "zipcode": "{{store_zip}}"
+  },
+  "limit": 48
+ }
 }
