@@ -3,26 +3,646 @@
   "retailer": "hyvee",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-13T18:20:20.260Z",
+  "pulled_at": "2026-10-13T18:23:06.054Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60563",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "18:20:20 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "18:20:20 connected to Bright Data Scraping Browser",
-    "18:20:37 goto https://www.hy-vee.com/aisles-online/search?search=salsa",
-    "18:20:45 captcha check passed",
-    "18:20:58 dismiss: nothing to close",
-    "18:20:59 click_sel [data-testid=global-navigation-store-change-btn]",
-    "18:21:03 js ok typed",
-    "18:21:20 ERROR Error: page.evaluate: Error: no Select\n    at eval (eval at evaluate (:370:30), <anonymous>:1:152)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:207)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "store_set": "Shopping Sycamore, IL",
+  "url_final": "https://www.hy-vee.com/aisles-online/search?search=salsa",
+  "houses": [
+    {
+      "name": "1 - 60 of 179 Results for 'salsa'",
+      "brand": null,
+      "price": "$2.97",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa, 16 oz Jar",
+      "brand": null,
+      "price": "$3.98",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Cholula Salsa Verde - Mild Salsa",
+      "brand": null,
+      "price": "$2.55",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "That's Smart! Medium Salsa 15.5 oz",
+      "brand": null,
+      "price": "$2.55",
+      "size": "15.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Mild Wild Mild Salsa 16 oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Mild Salsa - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$2.97",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Restaurant Style Mild Salsa, 16 oz Jar",
+      "brand": null,
+      "price": "$4.49",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "On The Border Mild Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa, 16 oz Jar",
+      "brand": null,
+      "price": "$2.97",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "CHI-CHI'S Restaurant Style Salsa Mild, 16 OZ",
+      "brand": null,
+      "price": "$3.79",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Restaurant Style Original Recipe Medium Salsa, 16 oz Jar",
+      "brand": null,
+      "price": "$2.97",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Restaurant Style Original Recipe Medium Salsa, 16 oz Jar",
+      "brand": null,
+      "price": "$1.59",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Costena Homestyle Mexican Salsa 7.7 oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "7.7 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Costena Homestyle Mexican Salsa 7.7 oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "7.7 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa Verde in Medium Heat - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa Verde in Medium Heat - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$5.99",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Black Bean & Corn Salsa - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Medium Cantina Salsa - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Willy's Original Mild Fresh Salsa",
+      "brand": null,
+      "price": "$4.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce, 24 oz Jar",
+      "brand": null,
+      "price": "$3.99",
+      "size": "24 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Mild Jack's Special Salsa 16 oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Medium Jack's Special Salsa 16 oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Medium Jack's Special Salsa 16 oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Mateo's Gourmet Medium Cantina Salsa - That Farmers Market Fresh Taste™ 16 Ounce",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hy-Vee Mild Thick & Chunky Salsa",
+      "brand": null,
+      "price": "$2.69",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Medium Black Bean & Corn Salsa 16 oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Garden Fresh Gourmet Medium Black Bean & Corn Salsa 16 oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fiesta Fresh Salsa Hot",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hy-Vee Mild Restaurant Style Salsa",
+      "brand": null,
+      "price": "$8.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hy-Vee Mild Restaurant Style Salsa",
+      "brand": null,
+      "price": "$3.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce, 64 oz Bottle",
+      "brand": null,
+      "price": "$6.99",
+      "size": "64 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce, 64 oz Bottle",
+      "brand": null,
+      "price": "$8.99",
+      "size": "64 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce, 64 oz Bottle",
+      "brand": null,
+      "price": "$2.97",
+      "size": "64 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Nothing But The Truth Organic Mild Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Nothing But The Truth Organic Mild Salsa",
+      "brand": null,
+      "price": "$2.69",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "CHI-CHI'S Restaurant Style Salsa Medium, 16 OZ",
+      "brand": null,
+      "price": "$3.79",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "CHI-CHI'S Restaurant Style Salsa Medium, 16 OZ",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "The Grove Salsa, Mild Salsa",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "The Grove Salsa, Mild Salsa",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Balsamic Strawberry Jalapeno Salsa, 16 Oz Jar",
+      "brand": null,
+      "price": "$2.97",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Balsamic Strawberry Jalapeno Salsa, 16 Oz Jar",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Willy's Fresh Salsa Sweet 'N Spicy",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Willy's Fresh Salsa Sweet 'N Spicy",
+      "brand": null,
+      "price": "$4.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce, 16 oz Jar",
+      "brand": null,
+      "price": "$2.97",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Picante Sauce, 16 oz Jar",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce, 16 oz Jar",
+      "brand": null,
+      "price": "$2.97",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce, 16 oz Jar",
+      "brand": null,
+      "price": "$3.99",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa, 24 oz Jar",
+      "brand": null,
+      "price": "$3.99",
+      "size": "24 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Mild Picante Sauce, 24 oz Jar",
+      "brand": null,
+      "price": "$3.99",
+      "size": "24 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Newman's Own Chunky Medium Peach Salsa, 16 oz",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Newman's Own Chunky Medium Peach Salsa, 16 oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "HERDEZ SERRANO SALSA - PUEBLA STYLE, 10.8 OZ",
+      "brand": null,
+      "price": "$5.99",
+      "size": "10.8 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Nothing But The Truth Organic Medium Salsa",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa, 24 oz Jar",
+      "brand": null,
+      "price": "$5.99",
+      "size": "24 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "CHI-CHI'S Thick & Chunky Salsa Mild, 16 OZ",
+      "brand": null,
+      "price": "$3.79",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "CHI-CHI'S Thick & Chunky Salsa Mild, 16 OZ",
+      "brand": null,
+      "price": "$4.29",
+      "size": "16 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Newman's Own Chunky Mild Salsa, 16 oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "HERDEZ Chipotle Salsa - Sonora Style, 10.8 OZ",
+      "brand": null,
+      "price": "$4.99",
+      "size": "10.8 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "HERDEZ Chipotle Salsa - Sonora Style, 10.8 OZ",
+      "brand": null,
+      "price": "$3.99",
+      "size": "10.8 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "The Mad Butcher's Mild Salsa",
+      "brand": null,
+      "price": "$2.69",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": "Error: page.evaluate: Error: no Select\n    at eval (eval at evaluate (:370:30), <anonymous>:1:152)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:207)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+  "raw_text_chars": 7153,
+  "steps": [
+    "18:23:06 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:23:06 connected to Bright Data Scraping Browser",
+    "18:23:11 goto https://www.hy-vee.com/aisles-online/search?search=salsa",
+    "18:23:20 captcha check passed",
+    "18:23:29 dismissed \"Continue to Site\"",
+    "18:23:30 click_sel [data-testid=global-navigation-store-change-btn]",
+    "18:23:34 js ok typed",
+    "18:23:39 js ok selected",
+    "18:23:50 goto https://www.hy-vee.com/aisles-online/search?search=salsa",
+    "18:23:58 captcha check passed",
+    "18:24:10 scrolled x4",
+    "18:24:10 store_set: Shopping Sycamore, IL",
+    "18:24:10 text parser wins: 61 vs 58",
+    "18:24:11 extracted 61 houses; raw text 7153 chars"
+  ],
+  "error": null,
   "js_results": [
-    "typed"
-  ]
+    "typed",
+    "selected"
+  ],
+  "houses_text": 61,
+  "houses_dom": 58
 }
