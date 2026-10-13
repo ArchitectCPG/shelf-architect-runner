@@ -10,7 +10,13 @@ Order of work now:
 4. Hybrid lanes decision and cost/time estimate, then draft the pull_process change for Steve's OK with a backup zip. Not before.
 5. Steve's loose ends (bottom of file), walk him through them.
 
-## 2026-10-13 TARGET: root-caused, deprioritized
+## 2026-10-13 PM: API LANE LIVE (Target solved properly)
+Steve rotated the Bright Data API key (twice; both old keys die 20-10) and put the new one in GitHub as BRD_API_TOKEN. Loose end 1 DONE. The runner now has an API lane: a block with an "api" field calls Bright Data's prebuilt scraper (dataset trigger -> poll -> download) instead of the browser. Job timeout raised 15->45 min (scrapers run 10-25 min).
+- Target: API lane VERIFIED. 48 houses at zip 60615, with brand, UPC (item_number), stock status. Richer than any browser pull. blocks/target-salsa.json is now api-lane.
+- Walmart: blocks/walmart-salsa.json api-lane (dataset gd_m693oc1r1gebnayxq, keyword + zip_code), first full run in flight.
+- This is the lane for any banner with a prebuilt scraper where the site blocks the browser (search_scrapers tool or dashboard lists 1,200+ sites; check Publix/H-E-B/Walgreens there too before waiting on the robots.txt unblock).
+
+## Target browser recipe (superseded by API lane, kept for reference)
 Confirmed (not a timing/selector bug): Target's zip-lookup inside the store-picker drawer returns a persistent server-side error in Bright Data's cloud browser - "We're sorry, something went wrong. Please try again." - reproduced 4x in a row on a fresh page load, retries do not clear it. Same flow works instantly in Steve's real Chrome, so this reads as anti-bot/proxy-IP blocking on that one endpoint, not something a wait or selector fix solves.
 Fix applied: target-salsa.json no longer tries to pin a store (was throwing and failing the whole block after a 6-loop timeout). It now pulls Target's IP-default store unpinned, flags it plainly in store_set, and does not fail. Verified: 47 clean salsa houses, no error.
 Net: Target is back to producing data, just not Chicago-pinned. Leave as-is unless Steve wants to spend more on it - options if revisited: Bright Data's prebuilt Target scraper, or Target's separate store-locator page instead of the drawer.
@@ -45,12 +51,12 @@ Safeway, Publix, Fresh Thyme, Sprouts (via Instacart) hit a login wall setting a
 store_zip is per banner per market, not one universal zip. Zips in use: 60615 (Chicago banners), 45202 kroger, 97202 fredmeyer, 90024 ralphs, 84101 smiths, 28202 harristeeter, 83702 albertsons, 90210 vons, 94110 safeway, 19103 acme, 02116 shaws, 77005 randalls, 75205 tomthumb.
 
 ## STEVE'S LOOSE ENDS (Steve needs hand-holding on these; walk him through one at a time, plain steps, exactly what to click and paste, no jargon)
-1. Rotate the Bright Data API token that appeared in chat (Bright Data dashboard, account settings, API tokens: create new, delete old). Check nothing in the repo or connector uses the old one.
+1. DONE 2026-10-13: Bright Data API key rotated, new key lives only in GitHub secret BRD_API_TOKEN, old keys expire 20-10-2026.
 2. Delete the redundant Bright Data zone scraping_browser1 (keep mcp_unlocker and mcp_browser).
 3. Costco: complete Bright Data identity verification (KYC) so Costco can be scraped. Steve does the ID step himself; Claude only guides and never enters IDs or documents.
 4. Send the Ed Lavery email (store-location data ask plus how Steve will use the Placer file). Draft was composed earlier, not sent. Re-draft in Steve's voice (steve-voice skill, no em dashes), show it, and send only after his yes.
 5. Clean-up check: Bright Data balance (about $54), $5 consumed alert on, auto-recharge off. Confirm nothing is spending unattended.
-6. Ask Bright Data (account manager or support chat in the dashboard) to allow these sites that are currently blocked by robots.txt in the Scraping Browser: publix.com, stopandshop.com, heb.com, bjs.com, walgreens.com. Error text to paste: "Requested URL is restricted in accordance with robots.txt. Ask your account manager to get full access for targeting this site (brob)". Until then those 5 banners are attended-only (Publix also pulls via the Instacart storefront, unpinned).
+6. (Optional now; check prebuilt scrapers first.) Ask Bright Data to allow these sites that are currently blocked by robots.txt in the Scraping Browser: publix.com, stopandshop.com, heb.com, bjs.com, walgreens.com. Error text to paste: "Requested URL is restricted in accordance with robots.txt. Ask your account manager to get full access for targeting this site (brob)". Until then those 5 banners are attended-only (Publix also pulls via the Instacart storefront, unpinned).
 
 ## 2026-10-13 PM (Sonnet 5.5): banner mapping via cloud diagnostics, no Chrome needed
 Method: the runner dumps each site's picker (dump/js steps) and I read the committed JSON. No live browser sessions needed.
