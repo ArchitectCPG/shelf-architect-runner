@@ -25,6 +25,16 @@
     },
     {
       "dump": "landing"
+    },
+    {
+      "click_re": "pickup or delivery|How do you want your items|Add (an )?address|Sacramento|Store",
+      "optional": true
+    },
+    {
+      "wait": 4000
+    },
+    {
+      "dump": "after-click"
     }
   ]
 }

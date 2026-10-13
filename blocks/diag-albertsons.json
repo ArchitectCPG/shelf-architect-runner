@@ -25,6 +25,16 @@
     },
     {
       "dump": "landing"
+    },
+    {
+      "click_re": "select store|choose store|change store|store locator|^store$",
+      "optional": true
+    },
+    {
+      "wait": 4000
+    },
+    {
+      "dump": "after-click"
     }
   ]
 }

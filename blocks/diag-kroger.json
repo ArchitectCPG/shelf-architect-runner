@@ -25,6 +25,16 @@
     },
     {
       "dump": "landing"
+    },
+    {
+      "click_re": "^Pickup at|Change store|Select store|Find a store",
+      "optional": true
+    },
+    {
+      "wait": 4000
+    },
+    {
+      "dump": "after-click"
     }
   ]
 }

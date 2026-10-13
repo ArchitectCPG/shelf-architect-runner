@@ -25,6 +25,16 @@
     },
     {
       "dump": "landing"
+    },
+    {
+      "click_re": "^Pickup$|store|Alpine",
+      "optional": true
+    },
+    {
+      "wait": 4000
+    },
+    {
+      "dump": "after-click"
     }
   ]
 }

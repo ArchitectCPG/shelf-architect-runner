@@ -24,7 +24,14 @@
       "press": "Escape"
     },
     {
-      "dump": "landing"
+      "click_sel": "#web-store-id-msg-btn",
+      "optional": true
+    },
+    {
+      "wait": 4000
+    },
+    {
+      "dump": "store-modal"
     }
   ]
 }

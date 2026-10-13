@@ -24,7 +24,14 @@
       "press": "Escape"
     },
     {
-      "dump": "landing"
+      "click_re": "^Pickup$",
+      "optional": true
+    },
+    {
+      "wait": 4000
+    },
+    {
+      "dump": "after-pickup"
     }
   ]
 }
