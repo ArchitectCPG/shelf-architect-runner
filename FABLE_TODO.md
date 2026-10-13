@@ -16,6 +16,12 @@ Steve rotated the Bright Data API key (twice; both old keys die 20-10) and put t
 - Walmart: blocks/walmart-salsa.json api-lane (dataset gd_m693oc1r1gebnayxq, keyword + zip_code), first full run in flight.
 - This is the lane for any banner with a prebuilt scraper where the site blocks the browser (search_scrapers tool or dashboard lists 1,200+ sites; check Publix/H-E-B/Walgreens there too before waiting on the robots.txt unblock).
 
+## 2026-10-13 late PM: Bright Data catalog checked (1,859 datasets, listed via runner api_list/api_get modes)
+- Prebuilt scrapers exist for Sprouts, Instacart, H-E-B, Stop & Shop, Walgreens, BJ's, Costco, CVS, Sam's, Dollar General, Meijer, Safeway, Albertsons, Whole Foods, Kroger.
+- BUT all of those (except Target gd_ltppk5mx2lp0v1k0vo and Walmart gd_m693oc1r1gebnayxq, already live) take a PRODUCT URL as input, no keyword and no zip. Kroger.com has a zip_code output field only. So they do NOT solve store pinning or search discovery. Usable only as a detail lane once product URLs are known (they bypass the robots.txt block for H-E-B, Stop & Shop, Walgreens, BJ's, Costco).
+- Runner modes added: block.api_list (catalog) and block.api_get (list of API paths). Diag blocks removed.
+- Sprouts/Aldi (Instacart whitelabel) pinning still open; next idea: capture the whitelabel's own graphql call for set-postal-code and replay it via page fetch.
+
 ## Target browser recipe (superseded by API lane, kept for reference)
 Confirmed (not a timing/selector bug): Target's zip-lookup inside the store-picker drawer returns a persistent server-side error in Bright Data's cloud browser - "We're sorry, something went wrong. Please try again." - reproduced 4x in a row on a fresh page load, retries do not clear it. Same flow works instantly in Steve's real Chrome, so this reads as anti-bot/proxy-IP blocking on that one endpoint, not something a wait or selector fix solves.
 Fix applied: target-salsa.json no longer tries to pin a store (was throwing and failing the whole block after a 6-loop timeout). It now pulls Target's IP-default store unpinned, flags it plainly in store_set, and does not fail. Verified: 47 clean salsa houses, no error.
