@@ -1,0 +1,25 @@
+{
+  "block_id": "stinkin-good/tamales@walmart-denver",
+  "retailer": "walmart",
+  "zip": "refrigerated",
+  "neighborhood": "tamales",
+  "pulled_at": "2026-10-14T00:53:39.036Z",
+  "runner": "github-actions+brightdata-dataset-api",
+  "store_requested_zip": "80202",
+  "store_set": "API zip 80202 (dataset gd_m693oc1r1gebnayxq)",
+  "houses": [],
+  "steps": [
+    "00:53:39 snapshot sd_mv7eceri1mnuqbnk1x",
+    "00:53:59 poll 0: running",
+    "00:54:59 poll 3: running",
+    "00:56:00 poll 6: running",
+    "00:57:00 poll 9: running",
+    "00:58:01 poll 12: running",
+    "00:59:01 poll 15: running",
+    "01:00:02 poll 18: running",
+    "01:01:02 poll 21: ready",
+    "01:01:02 1 errored inputs: Crawler error: Timeout waiting for field 'store_data' value",
+    "01:01:02 extracted 0 houses from 1 records"
+  ],
+  "error": null
+}
