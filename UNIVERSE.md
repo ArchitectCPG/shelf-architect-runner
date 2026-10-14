@@ -177,3 +177,9 @@ Source: retailers collection in the Shelf Architect DB, 241 docs. Nothing writte
 
 For each independent, the runner tries candidate search URLs in order and keeps the first that yields product cards: (1) https://shop.<domain>/search?search_term=salsa (Freshop/Mercatus), (2) https://www.instacart.com/store/<slug>/s?k=salsa (Instacart storefront, pulls without store pinning), (3) https://shop.<domain>/store/<slug>/s?k=salsa (Instacart whitelabel), (4) the banner's own site search. Result recorded per banner as pull_routes-style notes in the runner README, not in the DB, until Steve OKs.
 Instacart routes cannot pin a store unattended (login wall). For independents that is acceptable for a first pass: assortment and price at the default store, flagged 'unpinned'.
+## MULO list from Steve's sales lead (2026-10-14): 94 retailers, ~42,000 doors. File: clients/mulo_retailers.tsv
+This is the CLIENT RUN list. The 241 universe stays the catalog. Status overlay (runner, 2026-10-14):
+- READY (store-pinned or API): Walmart, Target, Kroger (API lane, creds pending; covers Harris Teeter + 14 more), Albertsons/Safeway family (Shaw's, Haggen, ACME), Publix (Instacart), Sprouts, Whole Foods, Meijer, Hy-Vee, Costco (online pricing only). ~15,400 doors = 62% of the non-drug doors on the list.
+- KYC-GATED (one Bright Data form unlocks all): CVS, Walgreens, H-E-B, BJ's, Stop & Shop. ~18,100 doors, mostly drug.
+- OPEN: Sam's Club, Wegmans, Giant Eagle, Food Lion (site down), Wakefern/ShopRite, Smart & Final, Hannaford, Giant Co, Giant Food, Harmons. ~3,200 doors.
+- PROBE (independents, Instacart method likely): the other ~65 names, ~5,300 doors. Probe in door order when a client needs them.
