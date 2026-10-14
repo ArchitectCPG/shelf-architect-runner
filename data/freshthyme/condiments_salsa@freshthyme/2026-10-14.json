@@ -1,0 +1,31 @@
+{
+  "block_id": "condiments/salsa@freshthyme",
+  "retailer": "freshthyme",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-14T00:32:19.915Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60563",
+  "store_set": null,
+  "url_final": "https://www.instacart.com/store/fresh-thyme-market/s?k=salsa",
+  "houses": [],
+  "raw_text_chars": 214,
+  "steps": [
+    "00:32:19 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "00:32:20 connected to Bright Data Scraping Browser",
+    "00:32:42 goto https://www.instacart.com/store/fresh-thyme-market/s?k=salsa",
+    "00:32:50 captcha check passed",
+    "00:33:07 dismiss: nothing to close",
+    "00:33:08 js_houses 0 store null",
+    "00:33:10 store_set: null",
+    "00:33:10 few houses, reloading once",
+    "00:33:29 extracted 0 houses; raw text 214 chars"
+  ],
+  "error": null,
+  "js_houses": [],
+  "js_store": null,
+  "js_debug": "DefaultShop 200 1641|ShopCollectionScoped 200 282|collection shops 0 noshop {\"data\":{\"defaultShop\":{\"id\":\"21023\",\"retailer\":{\"id\":\"7\",\"categories\":[\"grocery\",\"readymeals\",\"gifts\"],\"homeCategories\":[\"grocery\"],\"slug\":\"marianos\",\"name\":\"Mariano's\",\"retailerType\":\"Grocery - Traditional\",\"backgroundColorHex\":\"#7e553d\",\"refreshHeaderBackgroundColorHex\":\"#FFFFFF\",\"logoBackgroundColorHex\":\"#ffffff\",\"viewSection\":{\"id\":\"retailers_response_backed:ae0eb1c0:retailer:7\",\"nameString\":\"Mariano's\",\"retailerCardCategories\":[],\"logoImage\":{\"id\":\"c83464f2\",\"altText\":\"Mariano's logo\",\"tem",
+  "reloaded": true,
+  "houses_text": 0
+}

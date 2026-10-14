@@ -3,7 +3,7 @@
   "retailer": "aldi",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-14T00:27:10.291Z",
+  "pulled_at": "2026-10-14T00:34:42.240Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -631,14 +631,14 @@
       "availability": "inStock"
     },
     {
-      "name": "Velveeta/Kraft Original Cheese",
-      "size": "32 oz",
-      "brand": "velveeta",
-      "price": "$8.25",
-      "item_id": "items_12268-16657768",
-      "product_id": "16657768",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_69750c69-0eb2-47e7-bb6a-28a9f83ec6e2.jpg",
-      "availability": "inStock"
+      "name": "Simply Nature Shredded Organic Mexican Cheese Blend",
+      "size": "6 oz",
+      "brand": "simply nature",
+      "price": "$3.09",
+      "item_id": "items_12268-19283301",
+      "product_id": "19283301",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_648330e8-4d9f-48f7-8421-2fb2c1ba1d41.jpg",
+      "availability": "lowStock"
     },
     {
       "name": "Cheez-It Original Baked Snack Crackers",
@@ -651,14 +651,14 @@
       "availability": "highlyInStock"
     },
     {
-      "name": "Reggano Grated Parmesan Cheese",
-      "size": "8 oz",
-      "brand": "reggano",
-      "price": "$3.09",
-      "item_id": "items_12268-19977312",
-      "product_id": "19977312",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_02423bf3-cd28-406b-90a5-7a891f58a5dc.jpg",
-      "availability": "highlyInStock"
+      "name": "Velveeta/Kraft Original Cheese",
+      "size": "32 oz",
+      "brand": "velveeta",
+      "price": "$8.25",
+      "item_id": "items_12268-16657768",
+      "product_id": "16657768",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_69750c69-0eb2-47e7-bb6a-28a9f83ec6e2.jpg",
+      "availability": "inStock"
     },
     {
       "name": "Nabisco Nabisco Snak Sak, Barnum Animal Crackers",
@@ -671,13 +671,13 @@
       "availability": "lowStock"
     },
     {
-      "name": "Happy Farms Shredded Taco Style Cheese",
-      "size": "12 oz",
-      "brand": "happy farms",
-      "price": "$2.79",
-      "item_id": "items_12268-19283319",
-      "product_id": "19283319",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_005c66b1-478c-4115-8703-32254622a84d.jpg",
+      "name": "Reggano Grated Parmesan Cheese",
+      "size": "8 oz",
+      "brand": "reggano",
+      "price": "$3.09",
+      "item_id": "items_12268-19977312",
+      "product_id": "19977312",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_02423bf3-cd28-406b-90a5-7a891f58a5dc.jpg",
       "availability": "highlyInStock"
     },
     {
@@ -981,6 +981,16 @@
       "availability": "highlyInStock"
     },
     {
+      "name": "Clancy's Mexican-Style Street Corn Flavored Corn Chip Dippers",
+      "size": "9.25 oz",
+      "brand": "clancy's",
+      "price": "$2.09",
+      "item_id": "items_12268-63085489",
+      "product_id": "63085489",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_34d385f3-1ef6-4001-a5d2-175fce9349ff.jpg",
+      "availability": "lowStock"
+    },
+    {
       "name": "Happy Harvest Tomato Sauce",
       "size": "8 oz",
       "brand": "happy harvest",
@@ -991,13 +1001,13 @@
       "availability": "highlyInStock"
     },
     {
-      "name": "Clancy's Mexican-Style Street Corn Flavored Corn Chip Dippers",
-      "size": "9.25 oz",
-      "brand": "clancy's",
-      "price": "$2.09",
-      "item_id": "items_12268-63085489",
-      "product_id": "63085489",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_34d385f3-1ef6-4001-a5d2-175fce9349ff.jpg",
+      "name": "Burman's Spicy Garlic Hot Sauce",
+      "size": "9 oz",
+      "brand": "burman's",
+      "price": "$2.59",
+      "item_id": "items_12268-27242880",
+      "product_id": "27242880",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_605a1850-1f41-444d-aa0b-4457df23fa2c.jpg",
       "availability": "lowStock"
     },
     {
@@ -1199,29 +1209,19 @@
       "product_id": "25022774",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0d933115-4905-485c-90fb-5749e7c53b27.jpg",
       "availability": "highlyInStock"
-    },
-    {
-      "name": "Park Street Deli Roasted Garlic Hummus",
-      "size": "10 oz",
-      "brand": "park street deli",
-      "price": "$2.85",
-      "item_id": "items_12268-19546421",
-      "product_id": "19546421",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_89aad6d1-ca7d-4601-9a7b-5d6498de974f.jpg",
-      "availability": "highlyInStock"
     }
   ],
-  "raw_text_chars": 7441,
+  "raw_text_chars": 7321,
   "steps": [
-    "00:27:10 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "00:27:11 connected to Bright Data Scraping Browser",
-    "00:27:16 goto https://shop.aldi.us/store/aldi/s?k=salsa",
-    "00:27:24 captcha check passed",
-    "00:27:40 dismiss: nothing to close",
-    "00:27:45 js_houses 120 store API zip 60615 shop 273531 location 12268",
-    "00:27:46 store_set: ALDI - BAT 18 - Geneva, IL",
-    "00:27:46 js_houses override: 120",
-    "00:27:47 extracted 120 houses; raw text 7441 chars"
+    "00:34:42 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "00:34:43 connected to Bright Data Scraping Browser",
+    "00:34:55 goto https://shop.aldi.us/store/aldi/s?k=salsa",
+    "00:35:03 captcha check passed",
+    "00:35:18 dismiss: nothing to close",
+    "00:35:24 js_houses 120 store API zip 60615 shop 273531 location 12268",
+    "00:35:25 store_set: ALDI - DEN 38 - Paris",
+    "00:35:25 js_houses override: 120",
+    "00:35:26 extracted 120 houses; raw text 7321 chars"
   ],
   "error": null,
   "js_houses": [
@@ -1846,14 +1846,14 @@
       "availability": "inStock"
     },
     {
-      "name": "Velveeta/Kraft Original Cheese",
-      "size": "32 oz",
-      "brand": "velveeta",
-      "price": "$8.25",
-      "item_id": "items_12268-16657768",
-      "product_id": "16657768",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_69750c69-0eb2-47e7-bb6a-28a9f83ec6e2.jpg",
-      "availability": "inStock"
+      "name": "Simply Nature Shredded Organic Mexican Cheese Blend",
+      "size": "6 oz",
+      "brand": "simply nature",
+      "price": "$3.09",
+      "item_id": "items_12268-19283301",
+      "product_id": "19283301",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_648330e8-4d9f-48f7-8421-2fb2c1ba1d41.jpg",
+      "availability": "lowStock"
     },
     {
       "name": "Cheez-It Original Baked Snack Crackers",
@@ -1866,14 +1866,14 @@
       "availability": "highlyInStock"
     },
     {
-      "name": "Reggano Grated Parmesan Cheese",
-      "size": "8 oz",
-      "brand": "reggano",
-      "price": "$3.09",
-      "item_id": "items_12268-19977312",
-      "product_id": "19977312",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_02423bf3-cd28-406b-90a5-7a891f58a5dc.jpg",
-      "availability": "highlyInStock"
+      "name": "Velveeta/Kraft Original Cheese",
+      "size": "32 oz",
+      "brand": "velveeta",
+      "price": "$8.25",
+      "item_id": "items_12268-16657768",
+      "product_id": "16657768",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_69750c69-0eb2-47e7-bb6a-28a9f83ec6e2.jpg",
+      "availability": "inStock"
     },
     {
       "name": "Nabisco Nabisco Snak Sak, Barnum Animal Crackers",
@@ -1886,13 +1886,13 @@
       "availability": "lowStock"
     },
     {
-      "name": "Happy Farms Shredded Taco Style Cheese",
-      "size": "12 oz",
-      "brand": "happy farms",
-      "price": "$2.79",
-      "item_id": "items_12268-19283319",
-      "product_id": "19283319",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_005c66b1-478c-4115-8703-32254622a84d.jpg",
+      "name": "Reggano Grated Parmesan Cheese",
+      "size": "8 oz",
+      "brand": "reggano",
+      "price": "$3.09",
+      "item_id": "items_12268-19977312",
+      "product_id": "19977312",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_02423bf3-cd28-406b-90a5-7a891f58a5dc.jpg",
       "availability": "highlyInStock"
     },
     {
@@ -2196,6 +2196,16 @@
       "availability": "highlyInStock"
     },
     {
+      "name": "Clancy's Mexican-Style Street Corn Flavored Corn Chip Dippers",
+      "size": "9.25 oz",
+      "brand": "clancy's",
+      "price": "$2.09",
+      "item_id": "items_12268-63085489",
+      "product_id": "63085489",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_34d385f3-1ef6-4001-a5d2-175fce9349ff.jpg",
+      "availability": "lowStock"
+    },
+    {
       "name": "Happy Harvest Tomato Sauce",
       "size": "8 oz",
       "brand": "happy harvest",
@@ -2206,13 +2216,13 @@
       "availability": "highlyInStock"
     },
     {
-      "name": "Clancy's Mexican-Style Street Corn Flavored Corn Chip Dippers",
-      "size": "9.25 oz",
-      "brand": "clancy's",
-      "price": "$2.09",
-      "item_id": "items_12268-63085489",
-      "product_id": "63085489",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_34d385f3-1ef6-4001-a5d2-175fce9349ff.jpg",
+      "name": "Burman's Spicy Garlic Hot Sauce",
+      "size": "9 oz",
+      "brand": "burman's",
+      "price": "$2.59",
+      "item_id": "items_12268-27242880",
+      "product_id": "27242880",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_605a1850-1f41-444d-aa0b-4457df23fa2c.jpg",
       "availability": "lowStock"
     },
     {
@@ -2414,20 +2424,10 @@
       "product_id": "25022774",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0d933115-4905-485c-90fb-5749e7c53b27.jpg",
       "availability": "highlyInStock"
-    },
-    {
-      "name": "Park Street Deli Roasted Garlic Hummus",
-      "size": "10 oz",
-      "brand": "park street deli",
-      "price": "$2.85",
-      "item_id": "items_12268-19546421",
-      "product_id": "19546421",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_89aad6d1-ca7d-4601-9a7b-5d6498de974f.jpg",
-      "availability": "highlyInStock"
     }
   ],
   "js_store": "API zip 60615 shop 273531 location 12268",
-  "js_debug": "DefaultShop 200 1613 | SearchResultsPlacements 200 156029 | shop 273531 loc 12268 zone 384 ids 155 | Items 200 257111 | Items 200 264578 | Items 200 259638 | Items 200 254839",
+  "js_debug": "DefaultShop 200 1613 | SearchResultsPlacements 200 155880 | shop 273531 loc 12268 zone 1463 ids 155 | Items 200 257081 | Items 200 264547 | Items 200 259570 | Items 200 255186",
   "houses_text": 1,
-  "houses_page": 49
+  "houses_page": 48
 }
