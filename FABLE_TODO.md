@@ -16,6 +16,13 @@ Steve rotated the Bright Data API key (twice; both old keys die 20-10) and put t
 - Walmart: blocks/walmart-salsa.json api-lane (dataset gd_m693oc1r1gebnayxq, keyword + zip_code), first full run in flight.
 - This is the lane for any banner with a prebuilt scraper where the site blocks the browser (search_scrapers tool or dashboard lists 1,200+ sites; check Publix/H-E-B/Walgreens there too before waiting on the robots.txt unblock).
 
+## 2026-10-13 evening: INSTACART WHITELABEL SOLVED (Sprouts + Aldi pinned, unattended)
+Method: skip the store-picker UI. Load the site, then (js_houses step, src/instacart_api.js) call Instacart's own graphql from inside the page: DefaultShop(zip, lat/lng) -> shop id, SearchResultsPlacements(term, shop) -> item ids, Items(ids) -> name/brand/size/price/stock. Runner overrides page houses with these.
+- Sprouts zip 60563: shop 4117, location 11199, 120 houses with brand + stock. Aldi zip 60615: shop 273531, location 12268, 120 houses.
+- Same 3 persisted query hashes work on any Instacart whitelabel domain, so this should cover most of the 146 independents: per banner only the domain/slug, zip and lat/lng change.
+- Known gaps: (1) zoneId is taken from the page's IP-default calls, not the target zip (looks like it only affects ads; verify prices vs a manual check once). (2) Results include adjacent items (chips, guac); filter at scoring. (3) Human store name not yet resolved from location id (GetRetailerLocationAddress query, hash not captured yet). (4) Hashes can rotate when Instacart deploys; if DefaultShop/Items start returning errors, recapture with the netlog step.
+NEXT: probe independents with this method (Fresh Thyme first), Wegmans + Giant Eagle capture, full rescore.
+
 ## 2026-10-13 late PM: Bright Data catalog checked (1,859 datasets, listed via runner api_list/api_get modes)
 - Prebuilt scrapers exist for Sprouts, Instacart, H-E-B, Stop & Shop, Walgreens, BJ's, Costco, CVS, Sam's, Dollar General, Meijer, Safeway, Albertsons, Whole Foods, Kroger.
 - BUT all of those (except Target gd_ltppk5mx2lp0v1k0vo and Walmart gd_m693oc1r1gebnayxq, already live) take a PRODUCT URL as input, no keyword and no zip. Kroger.com has a zip_code output field only. So they do NOT solve store pinning or search discovery. Usable only as a detail lane once product URLs are known (they bypass the robots.txt block for H-E-B, Stop & Shop, Walgreens, BJ's, Costco).
