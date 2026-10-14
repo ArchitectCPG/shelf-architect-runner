@@ -3,8 +3,10 @@ const H={DefaultShop:'d389a8d33d63801f1ce5c4929fb181dd10c57b49c3a2dcb6a6baa44212
 const dbg=[];
 const gq=async(op,vars,hash)=>{const u='/graphql?operationName='+op+'&variables='+encodeURIComponent(JSON.stringify(vars))+'&extensions='+encodeURIComponent(JSON.stringify({persistedQuery:{version:1,sha256Hash:hash}}));const r=await fetch(u,{credentials:'include',headers:{'content-type':'application/json'}});const t=await r.text();dbg.push(op+' '+r.status+' '+t.length);return JSON.parse(t);};
 const coords={latitude:LAT,longitude:LNG};
-const ds=await gq('DefaultShop',{postalCode:ZIP,coordinates:coords,addressId:null},H.DefaultShop);
-const shop=ds.data&&ds.data.defaultShop; if(!shop) return JSON.stringify({houses:[],debug:dbg.join('|')+' noshop '+JSON.stringify(ds).slice(0,500)});
+let ds=await gq('DefaultShop',{postalCode:ZIP,coordinates:coords,addressId:null},H.DefaultShop);
+let shop=ds.data&&ds.data.defaultShop;
+if(!shop||!shop.retailer||shop.retailer.slug!==SLUG){ const sc=await gq('ShopCollectionScoped',{retailerSlug:SLUG,postalCode:ZIP,coordinates:coords,addressId:null,allowCanonicalFallback:true},'f20693c3c551f0e0fbdcac9b2ca7aa6db50f9224a39967ba5ac767bb2b598f85'); const shops=(sc.data&&sc.data.shopCollection&&sc.data.shopCollection.shops)||[]; shop=shops.find(s=>s.retailer&&s.retailer.slug===SLUG)||shops[0]||null; dbg.push('collection shops '+shops.length); }
+ if(!shop) return JSON.stringify({houses:[],debug:dbg.join('|')+' noshop '+JSON.stringify(ds).slice(0,500)});
 const shopId=shop.id; const sj=JSON.stringify(shop);
 let zoneId=(sj.match(/"zoneId":"?(\d+)/)||[])[1]||null;
 const locId=shop.retailerLocationId;
