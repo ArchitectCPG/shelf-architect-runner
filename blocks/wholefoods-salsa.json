@@ -23,28 +23,29 @@
    ]
   },
   {
-   "click_re": "Update Location",
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;} const vis=e=>e.offsetWidth||e.offsetHeight; const b=await waitFor(()=>[...document.querySelectorAll('button,a,[role=button],span,div')].find(e=>vis(e)&&/update location/i.test(e.innerText||'')&&(e.innerText||'').length<60),15); if(!b) return 'no update location'; b.click(); const z=await waitFor(()=>document.querySelector('#zipCode'),10); return z?'zip box ready':'clicked but no zip box'",
    "optional": true
   },
   {
-   "wait": 2500
+   "wait": 1500
   },
   {
    "type_sel": {
     "sel": "#zipCode",
     "value": "{{store_zip}}",
-    "enter": true
+    "enter": false
    },
    "optional": true
   },
   {
-   "wait": 6000
-  },
-  {
-   "press": "Escape"
-  },
-  {
    "wait": 1000
+  },
+  {
+   "js": "const z=document.querySelector('#zipCode'); if(!z) return 'no zip'; const f=z.closest('form'); const btn=(f&&f.querySelector('button[type=submit],button'))||[...document.querySelectorAll('button')].find(b=>/apply|update|save|continue/i.test(b.innerText)&&b.offsetWidth); if(btn){btn.click(); return 'submit '+btn.innerText.trim().slice(0,30)} return 'no submit'",
+   "optional": true
+  },
+  {
+   "wait": 7000
   },
   {
    "goto": "https://www.wholefoodsmarket.com/search?text={{term}}"
