@@ -16,6 +16,11 @@ Steve rotated the Bright Data API key (twice; both old keys die 20-10) and put t
 - Walmart: blocks/walmart-salsa.json api-lane (dataset gd_m693oc1r1gebnayxq, keyword + zip_code), first full run in flight.
 - This is the lane for any banner with a prebuilt scraper where the site blocks the browser (search_scrapers tool or dashboard lists 1,200+ sites; check Publix/H-E-B/Walgreens there too before waiting on the robots.txt unblock).
 
+## 2026-10-13 night: STINKIN' GOOD CLIENT TEST (see CLIENTS.md)
+Client = one config file (clients/stinkin-good.json). tools/gen_client_blocks.py builds blocks, tools/client_report.py scores. 24 blocks: King Soopers (native + Instacart), City Market, Walmart, Target, Sprouts, Safeway, Whole Foods x green chile / queso / tamales, Denver 80202 and Grand Junction 81501.
+Result: 22 of 24 usable. SG found at City Market (Schlereth's Stinkin' Good Green Chile Sauce $6.99 and $6.49) and King Soopers via Instacart ($7.99 vs $6.99 SRP, Instacart markup). Not seen on native King Soopers search page 1 (verify). Competitors (505, Del Real, Santiago's, Hatch) all appear; matcher is loose, tighten before using the numbers.
+Open: Walmart 0 houses at 80202 (works at 60615; try another Denver zip or store_id), Whole Foods green chile store drift (Montrose), Fresh Thyme not on Instacart at 60563 (ShopCollection empty), Costco blocked (KYC), SG tamales not found anywhere.
+
 ## 2026-10-13 evening: INSTACART WHITELABEL SOLVED (Sprouts + Aldi pinned, unattended)
 Method: skip the store-picker UI. Load the site, then (js_houses step, src/instacart_api.js) call Instacart's own graphql from inside the page: DefaultShop(zip, lat/lng) -> shop id, SearchResultsPlacements(term, shop) -> item ids, Items(ids) -> name/brand/size/price/stock. Runner overrides page houses with these.
 - Sprouts zip 60563: shop 4117, location 11199, 120 houses with brand + stock. Aldi zip 60615: shop 273531, location 12268, 120 houses.

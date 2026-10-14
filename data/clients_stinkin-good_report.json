@@ -92,13 +92,13 @@
   {
    "banner": "kingsoopers",
    "term": "tamales",
-   "status": "WEAK",
-   "houses": 0,
-   "store": "",
+   "status": "OK",
+   "houses": 35,
+   "store": "Pickup at Union Station",
    "sg": 0,
-   "comp": 0,
-   "pmed": null,
-   "err": "Error: page.evaluate: TypeError: Cannot read properties of n"
+   "comp": 7,
+   "pmed": 6.99,
+   "err": ""
   },
   {
    "banner": "safeway",
@@ -236,11 +236,11 @@
    "banner": "wholefoods",
    "term": "green chile",
    "status": "OK",
-   "houses": 10,
-   "store": "Midtown Tampa",
+   "houses": 15,
+   "store": "Montrose",
    "sg": 0,
-   "comp": 5,
-   "pmed": 6.84,
+   "comp": 4,
+   "pmed": 6.99,
    "err": ""
   },
   {
@@ -984,6 +984,76 @@
    ]
   },
   {
+   "name": "Del Real Foods\u00ae Gluten Free Pork Tamales",
+   "price": "$9.49",
+   "size": "",
+   "_banner": "kingsoopers",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real Foods Chicken and Cheese Tamales",
+   "price": "$9.49",
+   "size": "",
+   "_banner": "kingsoopers",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
+   "price": "$6.99",
+   "size": "",
+   "_banner": "kingsoopers",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
+   "price": "$9.49",
+   "size": "",
+   "_banner": "kingsoopers",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real\u00ae Foods Beef Tamales 6 Count",
+   "price": "$9.49",
+   "size": "6 Count",
+   "_banner": "kingsoopers",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real\u2122 Foods Pollo Deshebrado Shredded Chicken",
+   "price": "$11.99",
+   "size": "",
+   "_banner": "kingsoopers",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real\u2122 Foods Pollo Deshebrado Shredded Chicken",
+   "price": "$4.29",
+   "size": "",
+   "_banner": "kingsoopers",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
    "name": "Santiagos Authentic Mild Green Chili - 28 Oz",
    "price": "$9.49",
    "size": "28 Oz",
@@ -1346,38 +1416,8 @@
    ]
   },
   {
-   "name": "Hatch Chili Company Mild Diced Chiles, 4 OZ",
-   "price": "$2.19",
-   "size": "4 OZ",
-   "_banner": "wholefoods",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch Chili Hot Diced Green Chiles, 4 oz",
-   "price": "$2.19",
-   "size": "4 oz",
-   "_banner": "wholefoods",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Zia Green Chile Company, Hatch Roasted Medium, 16 Ounce",
-   "price": "$9.09",
-   "size": "16 Ounce",
-   "_banner": "wholefoods",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
    "name": "Zia Green Chile Company Roasted Hatch Green Chile - Hot, 16 OZ",
-   "price": "$9.09",
+   "price": "$2.19",
    "size": "16 OZ",
    "_banner": "wholefoods",
    "_term": "green chile",
@@ -1386,9 +1426,29 @@
    ]
   },
   {
-   "name": "Hatch Chili Company Medium Green Enchilada Sauce, 15 OZ",
-   "price": "$4.69",
-   "size": "15 OZ",
+   "name": "Zia Green Chile Company Roasted Hatch Green Chile - Hot, 16 OZ",
+   "price": "$7.79",
+   "size": "16 OZ",
+   "_banner": "wholefoods",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Zia Green Chile Company Roasted Hatch Green Chile - Hot, 16 OZ",
+   "price": "$4.19",
+   "size": "16 OZ",
+   "_banner": "wholefoods",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Niman Ranch Hatch Green Chile Bratwurst, 12 OZ",
+   "price": "$5.69",
+   "size": "12 OZ",
    "_banner": "wholefoods",
    "_term": "green chile",
    "_comp": [
