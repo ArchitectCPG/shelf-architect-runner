@@ -149,6 +149,7 @@ async function runStep(page, step) {
         await picked.click({ timeout: 10000 }); await picked.pressSequentially(sub(v.value), { delay: 80 }); if (v.enter !== false) await picked.press("Enter"); log(`type_dialog "${sub(v.value)}"`); break; }
       case "type_marked": { // {sel, value, enter}: Playwright-native typing into a locator (real key events)
         const l = page.locator(sub(v.sel)).first(); try { await l.waitFor({ state: "visible", timeout: 15000 }); await l.scrollIntoViewIfNeeded(); await l.click({ timeout: 10000 }); await l.pressSequentially(sub(v.value), { delay: 90 }); if (v.enter) await l.press("Enter"); log(`type_marked ${v.sel}`); } catch (e) { if (!step.optional) throw e; log(`type_marked miss ${String(e).slice(0, 80)}`); } break; }
+      case "js_houses": { try { const r = await page.evaluate(`(async()=>{ ${sub(v)} })()`); const j = typeof r === "string" ? JSON.parse(r) : r; out.js_houses = j.houses || []; out.js_store = j.store || null; out.js_debug = String(j.debug || "").slice(0, 3000); log(`js_houses ${out.js_houses.length} store ${out.js_store}`); } catch (e) { out.js_debug = String(e).slice(0, 500); if (!step.optional) throw e; log(`js_houses miss ${String(e).slice(0, 80)}`); } break; }
       case "press": await page.keyboard.press(v); log(`press ${v}`); break;
       default: log(`unknown step ${kind}`);
     }
@@ -222,6 +223,7 @@ try {
   if (out.houses.length < 5 && !block.no_reload) { log("few houses, reloading once"); await page.reload({ waitUntil: "domcontentloaded", timeout: 120000 }).catch(() => {}); await page.waitForTimeout(8000); for (let i = 0; i < 3; i++) { await page.mouse.wheel(0, 1500); await page.waitForTimeout(1500); } out.houses = await extractProducts(page, block.card_selector); text = await page.evaluate(() => document.body.innerText); out.raw_text_chars = text.length; out.reloaded = true; }
   const fromText = extractFromText(text); out.houses_text = fromText.length;
   if (fromText.length > out.houses.length) { log(`text parser wins: ${fromText.length} vs ${out.houses.length}`); out.houses_dom = out.houses.length; out.houses = fromText; }
+  if (out.js_houses && out.js_houses.length) { out.houses_page = out.houses.length; out.houses = out.js_houses; if (out.js_store) out.store_set = out.js_store; log(`js_houses override: ${out.houses.length}`); }
   fs.writeFileSync(path.join(outDir, `${day}.txt`), text);
   await page.screenshot({ path: path.join(outDir, `${day}.png`) });
   log(`extracted ${out.houses.length} houses; raw text ${text.length} chars`);

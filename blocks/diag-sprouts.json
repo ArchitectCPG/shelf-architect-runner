@@ -1,15 +1,12 @@
 {
- "block_id": "diag/sprouts@pin",
+ "block_id": "condiments/salsa@sprouts",
  "retailer": "sprouts",
- "zip": "diag",
+ "zip": "condiments",
  "neighborhood": "salsa",
  "term": "salsa",
  "store_zip": "60563",
- "store_js": "(()=>{const b=[...document.querySelectorAll('button,a,[role=button]')].find(b=>/Store #\\d+|shopping at|change store/i.test(b.innerText)); return b?b.innerText.replace(/\\s+/g,' ').trim().slice(0,90):null})()",
+ "store_js": "(()=>{const b=[...document.querySelectorAll('button')].find(b=>/Store #\\d+/.test(b.innerText)); return b?'UNPINNED default: '+b.innerText.replace(/\\s+/g,' ').trim().slice(0,70):null})()",
  "steps": [
-  {
-   "netlog": "on"
-  },
   {
    "goto": "https://shop.sprouts.com/store/sprouts/s?k={{term}}"
   },
@@ -26,20 +23,11 @@
    ]
   },
   {
-   "js": "\nconst ZIP='{{store_zip}}', LAT=41.7508, LNG=-88.1535;\nconst ents=performance.getEntriesByType('resource').map(e=>e.name).filter(u=>/graphql/.test(u));\nconst find=op=>ents.find(u=>u.includes('operationName='+op));\nconst swap=(u,fn)=>{const x=new URL(u); const v=JSON.parse(x.searchParams.get('variables')); fn(v); x.searchParams.set('variables',JSON.stringify(v)); return x.toString();};\nconst out={};\nconst ds=find('DefaultShop'); if(!ds) return 'no DefaultShop url; ops='+ents.map(u=>new URL(u).searchParams.get('operationName')).slice(0,60).join(',');\nconst r1=await fetch(swap(ds,v=>{v.postalCode=ZIP; v.coordinates={latitude:LAT,longitude:LNG}; v.addressId=null;}),{credentials:'include'}); out.defaultShop=(await r1.text()).slice(0,1200);\nconst sc=find('ShopCollectionScoped'); if(sc){const r2=await fetch(swap(sc,v=>{v.postalCode=ZIP; v.coordinates={latitude:LAT,longitude:LNG};}),{credentials:'include'}); out.shopCollection=(await r2.text()).slice(0,1500);}\nlet shopId=null; try{const j=JSON.parse(out.defaultShop); const s=JSON.stringify(j); const m=s.match(/\"shopId\":\"(\\d+)\"|\"id\":\"(\\d+)\",\"__typename\":\"RetailersShop/); shopId=m&&(m[1]||m[2]);}catch{}\nout.shopId=shopId;\nif(shopId){const r3=await fetch('/graphql?operationName=VisitShop',{method:'POST',credentials:'include',headers:{'content-type':'application/json'},body:JSON.stringify({operationName:'VisitShop',variables:{shopId,postalCode:ZIP,addressId:null},extensions:{persistedQuery:{version:1,sha256Hash:'d2845e5f0022f6d080bf14cd78dbcce9be2a277f12c468e7c43ff0d99a78e77a'}}})}); out.visit=(await r3.text()).slice(0,400);}\nreturn JSON.stringify(out);\n",
+   "js_houses": "const SLUG='sprouts',ZIP='{{store_zip}}',LAT=41.7508,LNG=-88.1535,TERM='{{term}}';\n// In-page Instacart whitelabel search pinned to a zip. Vars: SLUG, ZIP, LAT, LNG, TERM. Uses the site's own persisted graphql queries.\nconst H={DefaultShop:'d389a8d33d63801f1ce5c4929fb181dd10c57b49c3a2dcb6a6baa44212e8e069',SRP:'57508d039f29d674f1ce4f68f268bb9c5be5814e27d17c2a83a5500dc9270b1c',Items:'8fe60a2c4c74b994076e8fc97883141aec582e7f6e2402d82c9902772432f183'};\nconst dbg=[];\nconst gq=async(op,vars,hash)=>{const u='/graphql?operationName='+op+'&variables='+encodeURIComponent(JSON.stringify(vars))+'&extensions='+encodeURIComponent(JSON.stringify({persistedQuery:{version:1,sha256Hash:hash}}));const r=await fetch(u,{credentials:'include',headers:{'content-type':'application/json'}});const t=await r.text();dbg.push(op+' '+r.status+' '+t.length);return JSON.parse(t);};\nconst coords={latitude:LAT,longitude:LNG};\nconst ds=await gq('DefaultShop',{postalCode:ZIP,coordinates:coords,addressId:null},H.DefaultShop);\nconst shop=ds.data&&ds.data.defaultShop; if(!shop) return JSON.stringify({houses:[],debug:dbg.join('|')+' noshop '+JSON.stringify(ds).slice(0,500)});\nconst shopId=shop.id; const sj=JSON.stringify(shop);\nlet zoneId=(sj.match(/\"zoneId\":\"?(\\d+)/)||[])[1]||null;\nconst locId=shop.retailerLocationId;\n// zone from IP-default page calls if not in DefaultShop\nif(!zoneId){const m=performance.getEntriesByType('resource').map(e=>decodeURIComponent(e.name)).join(' ').match(/\"zoneId\":\"(\\d+)\"/); zoneId=m?m[1]:null;}\nconst vars={action:null,query:TERM,pageViewId:crypto.randomUUID(),elevatedProductId:null,searchSource:'search',filters:[],disableReformulation:false,disableLlm:false,forceInspiration:false,orderBy:'bestMatch',clusterId:null,includeDebugInfo:false,clusteringStrategy:null,contentManagementSearchParams:{itemGridColumnCount:5},shopId,postalCode:ZIP,zoneId:zoneId||'0',first:60};\nconst sr=await gq('SearchResultsPlacements',vars,H.SRP);\nconst ids=[...new Set((JSON.stringify(sr).match(/items_\\d+-\\d+/g)||[]))];\ndbg.push('shop '+shopId+' loc '+locId+' zone '+zoneId+' ids '+ids.length);\nconst houses=[];\nfor(let i=0;i<ids.length&&i<120;i+=30){const it=await gq('Items',{ids:ids.slice(i,i+30),shopId,zoneId:zoneId||'0',postalCode:ZIP},H.Items);\n for(const x of ((it.data&&it.data.items)||[])){const pr=x.price&&x.price.viewSection; houses.push({name:x.name,size:x.size||null,brand:x.brandName||null,price:(pr&&(pr.itemCard&&pr.itemCard.priceString||pr.priceString))||null,item_id:x.id,product_id:x.productId||null,img:(x.viewSection&&x.viewSection.itemImage&&x.viewSection.itemImage.url)||null,availability:(x.availability&&x.availability.stockLevel)||null});}}\nif(!houses.length) dbg.push('items0 '+JSON.stringify(sr).slice(0,600));\nreturn JSON.stringify({store:'API zip '+ZIP+' shop '+shopId+' location '+locId,houses,debug:dbg.join(' | ')});\n",
    "optional": true
   },
   {
-   "wait": 3000
-  },
-  {
-   "goto": "https://shop.sprouts.com/store/sprouts/s?k={{term}}"
-  },
-  {
-   "wait": 8000
-  },
-  {
-   "scroll": 3
+   "wait": 1000
   }
  ]
 }
