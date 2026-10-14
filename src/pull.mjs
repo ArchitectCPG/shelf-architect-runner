@@ -241,6 +241,9 @@ try {
   browser = await chromium.connectOverCDP(wsEndpoint, { timeout: 120000 }); log("connected to Bright Data Scraping Browser");
   page = await browser.newPage(); page.setDefaultTimeout(60000); await page.setViewportSize({ width: 1440, height: 900 }).catch(() => {});
   const steps = block.steps || [{ goto: block.home_url }, { wait: 3000 }, { search: {} }, { wait: 5000 }, { scroll: 4 }];
+  const attempts = block.attempts || 1; // re-run the whole recipe in a fresh page when the store does not pin
+  for (let att = 1; att <= attempts; att++) {
+    if (att > 1) { log(`attempt ${att}: store not pinned, fresh page`); try { await page.close(); } catch {} page = await browser.newPage(); page.setDefaultTimeout(60000); await page.setViewportSize({ width: 1440, height: 900 }).catch(() => {}); }
   for (const step of steps) {
     await runStep(page, step);
     if (step.goto) { try { const cdp = await page.context().newCDPSession(page); await cdp.send("Captcha.waitForSolve", { detectTimeout: 8000 }); log("captcha check passed"); } catch (e) { log(`captcha hook: ${String(e).slice(0, 60)}`); } }
@@ -249,6 +252,9 @@ try {
   if (block.store_js) { try { out.store_set = await page.evaluate(block.store_js); } catch (e) { log(`store_js failed ${String(e).slice(0,60)}`); } }
   if (!out.store_set) out.store_set = await captureStore(page, block.store_patterns || ["Delivering to\\s*(\\d{5})", "Pickup at\\s*([^\\n|]{3,60})", "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"]);
   log(`store_set: ${out.store_set}`);
+  if (out.store_set && !/UNPINNED|^null$/i.test(String(out.store_set)) && (!block.store_expect || new RegExp(block.store_expect).test(String(out.store_set)))) break;
+  if (att < attempts) { out.store_set = null; continue; }
+  }
   out.houses = await extractProducts(page, block.card_selector);
   let text = await page.evaluate(() => document.body.innerText); out.raw_text_chars = text.length;
   if (out.houses.length < 5 && !block.no_reload) { log("few houses, reloading once"); await page.reload({ waitUntil: "domcontentloaded", timeout: 120000 }).catch(() => {}); await page.waitForTimeout(8000); for (let i = 0; i < 3; i++) { await page.mouse.wheel(0, 1500); await page.waitForTimeout(1500); } out.houses = await extractProducts(page, block.card_selector); text = await page.evaluate(() => document.body.innerText); out.raw_text_chars = text.length; out.reloaded = true; }

@@ -63,5 +63,7 @@
   {
    "scroll": 4
   }
- ]
+ ],
+ "attempts": 3,
+ "store_expect": "^\\d{5}$"
 }
