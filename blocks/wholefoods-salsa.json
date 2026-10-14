@@ -1,81 +1,59 @@
 {
-  "block_id": "condiments/salsa@whole-foods",
-  "retailer": "whole-foods",
-  "zip": "condiments",
-  "neighborhood": "salsa",
-  "store_zip": "60615",
-  "steps": [
-    {
-      "goto": "https://www.wholefoodsmarket.com/products"
-    },
-    {
-      "wait": 4000
-    },
-    {
-      "dismiss": [
-        "Close",
-        "No thanks",
-        "Not now"
-      ]
-    },
-    {
-      "click": "Update Location",
-      "optional": true
-    },
-    {
-      "wait": 2000
-    },
-    {
-      "fill": {
-        "placeholder": "zip|postal|code",
-        "value": "{{store_zip}}"
-      },
-      "optional": true
-    },
-    {
-      "wait": 4000
-    },
-    {
-      "click_any": [
-        "Apply",
-        "Done",
-        "Update location",
-        "Confirm"
-      ],
-      "optional": true,
-      "timeout": 4000
-    },
-    {
-      "wait": 3000
-    },
-    {
-      "press": "Escape"
-    },
-    {
-      "dismiss": [
-        "Close",
-        "No thanks",
-        "Not now"
-      ]
-    },
-    {
-      "search": {
-        "placeholder": "Search Grocery"
-      }
-    },
-    {
-      "wait": 7000
-    },
-    {
-      "press": "Escape"
-    },
-    {
-      "scroll": 4
-    }
-  ],
-  "store_patterns": [
-    "Delivering to\\s*(\\d{5})",
-    "Pickup at\\s*([^\\n|]{3,60})"
-  ],
-  "notes": "WFM is an Amazon storefront. Location via header 'Update Location'. Prime modal and promo panels overlay the page; Escape clears them."
+ "block_id": "condiments/salsa@whole-foods",
+ "retailer": "wholefoods",
+ "zip": "condiments",
+ "neighborhood": "salsa",
+ "term": "salsa",
+ "store_zip": "60615",
+ "store_patterns": [
+  "Delivering to\\s*(\\d{5})"
+ ],
+ "steps": [
+  {
+   "goto": "https://www.wholefoodsmarket.com/search?text={{term}}"
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now"
+   ]
+  },
+  {
+   "click_re": "Update Location",
+   "optional": true
+  },
+  {
+   "wait": 2500
+  },
+  {
+   "type_sel": {
+    "sel": "#zipCode",
+    "value": "{{store_zip}}",
+    "enter": true
+   },
+   "optional": true
+  },
+  {
+   "wait": 6000
+  },
+  {
+   "press": "Escape"
+  },
+  {
+   "wait": 1000
+  },
+  {
+   "goto": "https://www.wholefoodsmarket.com/search?text={{term}}"
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "scroll": 4
+  }
+ ]
 }

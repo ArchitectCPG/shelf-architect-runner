@@ -1,0 +1,29 @@
+{
+ "block_id": "condiments/salsa@costco-online",
+ "retailer": "costco",
+ "zip": "condiments",
+ "neighborhood": "salsa",
+ "term": "salsa",
+ "store_zip": "60615",
+ "store_js": "'costco.com online (national, 2-day delivery pricing)'",
+ "steps": [
+  {
+   "goto": "https://www.costco.com/s?keyword={{term}}"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it"
+   ]
+  },
+  {
+   "scroll": 4
+  }
+ ]
+}

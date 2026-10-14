@@ -8,7 +8,7 @@ import path from "node:path";
 const blockFile = process.argv[2];
 if (!blockFile) { console.error("usage: node src/pull.mjs blocks/<block>.json"); process.exit(2); }
 const block = JSON.parse(fs.readFileSync(blockFile, "utf8"));
-const vars = { store_zip: block.store_zip || "", term: block.neighborhood || block.search_term || "", ...(block.vars || {}) };
+const vars = { store_zip: block.store_zip || "", term: block.term || block.search_term || block.neighborhood || "", ...(block.vars || {}) };
 const sub = (s) => String(s).replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? "");
 
 
