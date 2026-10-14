@@ -1,0 +1,19 @@
+{
+ "block_id": "stinkin-good/tamales@walmart-denver",
+ "retailer": "walmart",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "term": "tamales",
+ "store_zip": "80202",
+ "client_id": "stinkin-good",
+ "api": {
+  "dataset_id": "gd_m693oc1r1gebnayxq",
+  "discover_by": "keyword",
+  "input": {
+   "keyword": "{{term}}",
+   "store_id": "",
+   "zip_code": "{{store_zip}}"
+  },
+  "limit": 48
+ }
+}

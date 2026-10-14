@@ -1,0 +1,18 @@
+{
+ "block_id": "stinkin-good/queso@target-denver",
+ "retailer": "target",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "term": "queso",
+ "store_zip": "80202",
+ "client_id": "stinkin-good",
+ "api": {
+  "dataset_id": "gd_ltppk5mx2lp0v1k0vo",
+  "discover_by": "keywords",
+  "input": {
+   "keywords": "{{term}}",
+   "zipcode": "{{store_zip}}"
+  },
+  "limit": 48
+ }
+}

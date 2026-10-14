@@ -1,0 +1,27 @@
+{
+ "client_id": "stinkin-good",
+ "name": "Stinkin' Good",
+ "sandbox_note": "Test client for the unattended runner. Nothing here writes to the Shelf Architect DB.",
+ "brand_terms": ["stinkin", "stinkin'"],
+ "competitor_terms": {"505 Southwestern": ["505 southwestern", "505 "], "Del Real": ["del real"], "Santiago's": ["santiago"], "Hatch/other green chile": ["hatch"]},
+ "markets": {
+  "denver": {"zip": "80202", "lat": 39.7527, "lng": -104.9996},
+  "grand-junction": {"zip": "81501", "lat": 39.0639, "lng": -108.5506}
+ },
+ "department": "refrigerated",
+ "neighborhoods": [
+  {"id": "green-chile", "term": "green chile"},
+  {"id": "queso", "term": "queso"},
+  {"id": "tamales", "term": "tamales"}
+ ],
+ "retailers": [
+  {"banner": "kingsoopers", "lane": "kroger", "host": "www.kingsoopers.com", "market": "denver"},
+  {"banner": "citymarket", "lane": "kroger", "host": "www.citymarket.com", "market": "grand-junction"},
+  {"banner": "kingsoopers-ic", "lane": "instacart", "slug": "king-soopers", "market": "denver"},
+  {"banner": "walmart", "lane": "api", "template": "walmart", "market": "denver"},
+  {"banner": "target", "lane": "api", "template": "target", "market": "denver"},
+  {"banner": "sprouts", "lane": "instacart", "slug": "sprouts", "url": "https://shop.sprouts.com/store/sprouts/s?k={{term}}", "market": "denver"},
+  {"banner": "safeway", "lane": "recipe", "template": "safeway", "market": "denver"},
+  {"banner": "wholefoods", "lane": "recipe", "template": "wholefoods", "market": "denver"}
+ ]
+}

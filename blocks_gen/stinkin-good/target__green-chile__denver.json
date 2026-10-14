@@ -1,0 +1,18 @@
+{
+ "block_id": "stinkin-good/green-chile@target-denver",
+ "retailer": "target",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "term": "green chile",
+ "store_zip": "80202",
+ "client_id": "stinkin-good",
+ "api": {
+  "dataset_id": "gd_ltppk5mx2lp0v1k0vo",
+  "discover_by": "keywords",
+  "input": {
+   "keywords": "{{term}}",
+   "zipcode": "{{store_zip}}"
+  },
+  "limit": 48
+ }
+}

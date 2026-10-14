@@ -1,0 +1,82 @@
+{
+ "block_id": "stinkin-good/queso@wholefoods-denver",
+ "retailer": "wholefoods",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "term": "queso",
+ "store_zip": "80202",
+ "client_id": "stinkin-good",
+ "steps": [
+  {
+   "goto": "https://www.wholefoodsmarket.com/products"
+  },
+  {
+   "wait": 4000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now"
+   ]
+  },
+  {
+   "click": "Update Location",
+   "optional": true
+  },
+  {
+   "wait": 2000
+  },
+  {
+   "fill": {
+    "placeholder": "zip|postal|code",
+    "value": "{{store_zip}}"
+   },
+   "optional": true
+  },
+  {
+   "wait": 4000
+  },
+  {
+   "click_any": [
+    "Apply",
+    "Done",
+    "Update location",
+    "Confirm"
+   ],
+   "optional": true,
+   "timeout": 4000
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "press": "Escape"
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now"
+   ]
+  },
+  {
+   "search": {
+    "placeholder": "Search Grocery"
+   }
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "press": "Escape"
+  },
+  {
+   "scroll": 4
+  }
+ ],
+ "store_patterns": [
+  "Delivering to\\s*(\\d{5})",
+  "Pickup at\\s*([^\\n|]{3,60})"
+ ]
+}
