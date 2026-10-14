@@ -3,27 +3,388 @@
   "retailer": "kingsoopers",
   "zip": "refrigerated",
   "neighborhood": "tamales",
-  "pulled_at": "2026-10-14T00:39:12.035Z",
+  "pulled_at": "2026-10-14T01:42:36.209Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "80202",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "00:39:12 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "00:39:14 connected to Bright Data Scraping Browser",
-    "00:39:26 goto https://www.kingsoopers.com/search?query=tamales",
-    "00:39:34 captcha check passed",
-    "00:40:20 click_sel miss button[aria-label='close banner']",
-    "00:40:40 click_sel [data-testid=CurrentModality-button]",
-    "00:40:55 type_sel [data-testid=PostalCodeSearchBox-input] \"80202\"",
-    "00:40:56 js ok search",
-    "00:41:15 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "store_set": "Pickup at Union Station",
+  "url_final": "https://www.kingsoopers.com/search?query=tamales",
+  "houses": [
+    {
+      "name": "Del Real Foods® Gluten Free Pork Tamales",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Del Real Foods Chicken and Cheese Tamales",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Del Real™ Foods Arroz Con Vegetales Rice with Vegetables",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Del Real™ Foods Arroz Con Vegetales Rice with Vegetables",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Del Real® Foods Beef Tamales 6 Count",
+      "brand": null,
+      "price": "$9.49",
+      "size": "6 Count",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Del Real™ Foods Pollo Deshebrado Shredded Chicken",
+      "brand": null,
+      "price": "$11.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Del Real™ Foods Pollo Deshebrado Shredded Chicken",
+      "brand": null,
+      "price": "$4.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tucson Tamale Green Chile & Cheese Tamale",
+      "brand": null,
+      "price": "$11.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Marie Callender's Country Fried Chicken and Gravy, Frozen Meal",
+      "brand": null,
+      "price": "$4.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "El Monterey® Family Size Bean and Cheese Frozen Burritos",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "El Monterey® Family Size Bean and Cheese Frozen Burritos",
+      "brand": null,
+      "price": "$4.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Terra Fina® Classic Lorraine Quiche with Bacon and Swiss Cheese",
+      "brand": null,
+      "price": "$11.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Marie Callender’s Salisbury Steak, Frozen Meal",
+      "brand": null,
+      "price": "$4.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Beef & Cheese Chimichanga, 5 oz, 1 Count (Frozen)",
+      "brand": null,
+      "price": "$1.50",
+      "size": "5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Beef & Cheese Chimichanga, 5 oz, 1 Count (Frozen)",
+      "brand": null,
+      "price": "$5.99",
+      "size": "5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "El Monterey® Family Size Beef & Bean Frozen Burritos",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "El Monterey® Family Size Beef & Bean Green Chili Frozen Burritos",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "El Monterey® Family Size Beef & Bean Green Chili Frozen Burritos",
+      "brand": null,
+      "price": "$1.50",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "HOT TAMALES 4.25OZ TROPICAL HEAT BOX",
+      "brand": null,
+      "price": "$1.50",
+      "size": "4.25OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "El Monterey® Chicken & Cheese Frozen Flour Taquitos",
+      "brand": null,
+      "price": "$7.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "El Monterey® Chicken & Cheese Frozen Flour Taquitos",
+      "brand": null,
+      "price": "$7.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Chicken & Cheese Flour Taquitos, 22.5 oz, 15 Count (Frozen)",
+      "brand": null,
+      "price": "$6.99",
+      "size": "22.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Chicken & Cheese Flour Taquitos, 22.5 oz, 15 Count (Frozen)",
+      "brand": null,
+      "price": "$7.79",
+      "size": "22.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "El Monterey® Family Size Beef & Bean Frozen Chimichangas",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "El Monterey® Family Size Beef & Bean Frozen Chimichangas",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Beef & Cheese Flour Frozen Taquitos",
+      "brand": null,
+      "price": "$7.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Beef Corn Taquitos 20 oz, 20 Count (Frozen)",
+      "brand": null,
+      "price": "$6.99",
+      "size": "20 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Beef Corn Taquitos 20 oz, 20 Count (Frozen)",
+      "brand": null,
+      "price": "$7.79",
+      "size": "20 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "HOT TAMALES 4.25OZ FIERCE CINNAMON BOX",
+      "brand": null,
+      "price": "$1.50",
+      "size": "4.25OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Beef & Cheese Mini Tacos, 16.2 oz, 25 Count (Frozen)",
+      "brand": null,
+      "price": "$6.99",
+      "size": "16.2 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Beef & Cheese Mini Tacos, 16.2 oz, 25 Count (Frozen)",
+      "brand": null,
+      "price": "$7.79",
+      "size": "16.2 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Chicken & Cheese Chimichanga, 5 oz, 1 Count (Frozen)",
+      "brand": null,
+      "price": "$1.50",
+      "size": "5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Jose Ole Chicken & Cheese Chimichanga, 5 oz, 1 Count (Frozen)",
+      "brand": null,
+      "price": "$6.79",
+      "size": "5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Delimex Beef & Cheese Taquitos Frozen Snacks, Box",
+      "brand": null,
+      "price": "$6.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Delimex Beef Taquitos Frozen Snacks, Box",
+      "brand": null,
+      "price": "$7.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+  "raw_text_chars": 5101,
+  "steps": [
+    "01:42:36 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "01:42:37 connected to Bright Data Scraping Browser",
+    "01:42:40 goto https://www.kingsoopers.com/search?query=tamales",
+    "01:42:48 captcha check passed",
+    "01:43:02 click_sel button[aria-label='close banner']",
+    "01:43:04 click_sel [data-testid=CurrentModality-button]",
+    "01:43:08 type_sel [data-testid=PostalCodeSearchBox-input] \"80202\"",
+    "01:43:08 js ok search",
+    "01:43:15 js ok 62000115",
+    "01:43:23 click_re ^Keep Shopping Here$ false",
+    "01:43:31 goto https://www.kingsoopers.com/search?query=tamales",
+    "01:43:39 captcha check passed",
+    "01:43:51 scrolled x4",
+    "01:43:51 store_set: Pickup at Union Station",
+    "01:43:51 text parser wins: 35 vs 21",
+    "01:43:51 extracted 35 houses; raw text 5101 chars"
+  ],
+  "error": null,
   "js_results": [
-    "search"
-  ]
+    "search",
+    "62000115"
+  ],
+  "houses_text": 35,
+  "houses_dom": 21
 }
