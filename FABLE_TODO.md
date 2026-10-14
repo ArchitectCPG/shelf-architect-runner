@@ -16,6 +16,14 @@ Steve rotated the Bright Data API key (twice; both old keys die 20-10) and put t
 - Walmart: blocks/walmart-salsa.json api-lane (dataset gd_m693oc1r1gebnayxq, keyword + zip_code), first full run in flight.
 - This is the lane for any banner with a prebuilt scraper where the site blocks the browser (search_scrapers tool or dashboard lists 1,200+ sites; check Publix/H-E-B/Walgreens there too before waiting on the robots.txt unblock).
 
+## 2026-10-14 AM: Costco / H-E-B / Whole Foods / Kroger
+- Cadence rule from Steve: one run per prospect, monthly max on retainer. No cron. Prospect run is the default.
+- Costco: costco.com search works in the browser lane with no KYC (22 houses, national online pricing, flagged as such in store_set). Warehouse-local pricing only via sameday.costco.com (Instacart) which requires a member login -> skip. Bright Data KYC is NOT needed for costco.com browser pulls.
+- H-E-B: blocked in BOTH browser and unlocker lanes until Bright Data KYC ("not available for immediate residential (no KYC) access"). KYC is the one action that unlocks H-E-B, Publix.com, Stop & Shop, BJ's, Walgreens. Steve does the KYC form himself.
+- Whole Foods: search?text= page, click "Update Location" button, #zipCode, Apply. The location bar only renders on some loads, so the block uses attempts=3 (new runner feature: rerun recipe in a fresh page until store_set matches store_expect). Verified 60615 pinned.
+- Kroger: new kroger_api lane (developer API: token -> locations near zip -> products at locationId, price/promo/stock/UPC). Needs GitHub secrets KROGER_CLIENT_ID + KROGER_CLIENT_SECRET (asked Steve). Blocks: kroger-api-salsa.json, kingsoopers-api-greenchile.json. SG config now uses kroger_api for King Soopers and City Market.
+- BUG FIXED: {{term}} substituted block.neighborhood instead of block.term (SG searches ran as "green-chile"). Now block.term first.
+
 ## 2026-10-13 night: STINKIN' GOOD CLIENT TEST (see CLIENTS.md)
 Client = one config file (clients/stinkin-good.json). tools/gen_client_blocks.py builds blocks, tools/client_report.py scores. 24 blocks: King Soopers (native + Instacart), City Market, Walmart, Target, Sprouts, Safeway, Whole Foods x green chile / queso / tamales, Denver 80202 and Grand Junction 81501.
 Result: 22 of 24 usable. SG found at City Market (Schlereth's Stinkin' Good Green Chile Sauce $6.99 and $6.49) and King Soopers via Instacart ($7.99 vs $6.99 SRP, Instacart markup). Not seen on native King Soopers search page 1 (verify). Competitors (505, Del Real, Santiago's, Hatch) all appear; matcher is loose, tighten before using the numbers.

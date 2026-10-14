@@ -18,11 +18,13 @@ for r in C['retailers']:
             url=r.get('url') or f"https://www.instacart.com/store/{r['slug']}/s?k={{{{term}}}}"
             pre=f"const SLUG='{r['slug']}',ZIP='{m['zip']}',LAT={m['lat']},LNG={m['lng']},TERM='{term}';\n"
             base['store_js']="(()=>null)()"; base['steps']=[{"goto":url},{"wait":10000},{"dismiss":["Close","No thanks","Not now","Continue","Got it"]},{"js_houses":pre+ic_js,"optional":True},{"wait":1000}]
+        elif r['lane']=='kroger_api':
+            base['kroger_api']={"chain":r['chain'],"max":150}
         elif r['lane']=='api':
             t=load(r['template']); base['api']=json.loads(json.dumps(t['api']))
         elif r['lane']=='recipe':
             t=load(r['template']); base['steps']=t['steps']; base['store_js']=t.get('store_js'); 
-            for k in ('card_selector','store_patterns','no_reload'):
+            for k in ('card_selector','store_patterns','no_reload','attempts','store_expect'):
                 if k in t: base[k]=t[k]
             if not base.get('store_js'): base.pop('store_js')
         fn=f"{out}/{r['banner']}__{n['id']}__{r['market']}.json"; json.dump(base,open(fn,'w'),indent=1); made.append(fn)
