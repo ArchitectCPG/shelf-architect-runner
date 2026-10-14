@@ -18,8 +18,6 @@ for r in C['retailers']:
             url=r.get('url') or f"https://www.instacart.com/store/{r['slug']}/s?k={{{{term}}}}"
             pre=f"const SLUG='{r['slug']}',ZIP='{m['zip']}',LAT={m['lat']},LNG={m['lng']},TERM='{term}';\n"
             base['store_js']="(()=>null)()"; base['steps']=[{"goto":url},{"wait":10000},{"dismiss":["Close","No thanks","Not now","Continue","Got it"]},{"js_houses":pre+ic_js,"optional":True},{"wait":1000}]
-        elif r['lane']=='kroger_api':
-            base['kroger_api']={"chain":r['chain'],"max":150}
         elif r['lane']=='api':
             t=load(r['template']); base['api']=json.loads(json.dumps(t['api']))
         elif r['lane']=='recipe':

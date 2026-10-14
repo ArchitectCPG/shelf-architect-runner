@@ -36,8 +36,6 @@ jobs:
       BRD_BROWSER_USER: brd-customer-hl_517ded2d-zone-mcp_browser
       BRD_BROWSER_PASSWORD: ${{ secrets.BRD_BROWSER_PASSWORD }}
       BRD_API_TOKEN: ${{ secrets.BRD_API_TOKEN }}
-      KROGER_CLIENT_ID: ${{ secrets.KROGER_CLIENT_ID }}
-      KROGER_CLIENT_SECRET: ${{ secrets.KROGER_CLIENT_SECRET }}
       BRD_COUNTRY: us
     steps:
       - uses: actions/checkout@v4
