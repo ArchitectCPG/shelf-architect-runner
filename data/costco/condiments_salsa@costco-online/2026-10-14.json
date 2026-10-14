@@ -1,0 +1,423 @@
+{
+  "block_id": "condiments/salsa@costco-online",
+  "retailer": "costco",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-14T13:12:19.823Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": "costco.com online (national, 2-day delivery pricing)",
+  "url_final": "https://www.costco.com/s?keyword=salsa",
+  "houses": [
+    {
+      "name": "Pace Original Picante Sauce, Medium Heat, 38 oz, 2-count",
+      "brand": null,
+      "price": "$8.49",
+      "size": "38 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:678c0894-12b6-4e65-95a3-d2f40b7e6108/as/502863-847__1.avif",
+      "link": "https://www.costco.com/pace-original-picante-sauce-medium-heat-38-oz-2-count.product.4000198432.html",
+      "card_text": [
+        "Pace Original Picante Sauce, Medium Heat, 38 oz, 2-count",
+        "2-Day Delivery",
+        "Online Price",
+        "$8.49",
+        "Pace Original Picante Sauce, Medium Heat, 38 oz, 2-count",
+        "(11)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Cholula, Hot Sauce Original, 12 fl oz, 2-Count",
+      "brand": null,
+      "price": "$11.99",
+      "size": "12 fl oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:22160e0a-f620-42f7-ae8b-b151b15ad864/as/262838-847__1.avif",
+      "link": "https://www.costco.com/cholula-hot-sauce-original-12-fl-oz-2-count.product.100441814.html",
+      "card_text": [
+        "Cholula, Hot Sauce Original, 12 fl oz, 2-Count",
+        "2-Day Delivery",
+        "Online Price",
+        "$11.99",
+        "Cholula, Hot Sauce Original, 12 fl oz, 2-Count",
+        "(380)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "SunChips Whole Grain, Variety, 1.5 oz, 30-count",
+      "brand": null,
+      "price": "$16.99",
+      "size": "1.5 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:823ff9c2-505d-4483-a906-2078cf2a0039/as/1481558-847__1.avif",
+      "link": "https://www.costco.com/sunchips-whole-grain-variety-15-oz-30-count.product.100688266.html",
+      "card_text": [
+        "SunChips Whole Grain, Variety, 1.5 oz, 30-count",
+        "Instant Savings",
+        "2-Day Delivery",
+        "Online Price",
+        "$16.99",
+        "After $5 OFF",
+        "SunChips Whole Grain, Variety, 1.5 oz, 30-count",
+        "(542)"
+      ]
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Medium, 32 oz",
+      "brand": null,
+      "price": "$6.99",
+      "size": "32 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:76ec929a-8094-414f-babe-92f4667d5d7e/as/559608-847__1.avif",
+      "link": "https://www.costco.com/mateos-gourmet-salsa-medium-32-oz.product.100445380.html",
+      "card_text": [
+        "Mateo's Gourmet Salsa, Medium, 32 oz",
+        "Warehouse Only",
+        "Warehouse Price",
+        "$6.99",
+        "Mateo's Gourmet Salsa, Medium, 32 oz",
+        "(39)",
+        "Delivery",
+        "via Instacart"
+      ]
+    },
+    {
+      "name": "Frito Lay Tostitos Salsa Con Queso Dip, 23 oz, 2-count",
+      "brand": null,
+      "price": "$8.99",
+      "size": "23 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:171eb6f7-5b8c-4a25-9e47-efd343560bf6/as/409627-inc__1.avif",
+      "link": "https://www.costco.com/frito-lay-tostitos-salsa-con-queso-dip-23-oz-2-count.product.100578882.html",
+      "card_text": [
+        "Frito Lay Tostitos Salsa Con Queso Dip, 23 oz, 2-count",
+        "Warehouse Only",
+        "Warehouse Price",
+        "$8.99",
+        "Frito Lay Tostitos Salsa Con Queso Dip, 23 oz, 2-count",
+        "(1)",
+        "Out of Stock",
+        "at Syracuse"
+      ]
+    },
+    {
+      "name": "Kirkland Signature, Organic Tomato Sauce, 15 oz, 12-Count",
+      "brand": null,
+      "price": "$13.49",
+      "size": "15 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:2dd7057a-452d-4211-9905-7514556e037b/as/633563-847__1.avif",
+      "link": "https://www.costco.com/kirkland-signature-organic-tomato-sauce-15-oz-12-count.product.100334877.html",
+      "card_text": [
+        "Kirkland Signature, Organic Tomato Sauce, 15 oz, 12-Count",
+        "2-Day Delivery",
+        "Online Price",
+        "$13.49",
+        "Kirkland Signature, Organic Tomato Sauce, 15 oz, 12-Count",
+        "(767)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Yo Mama's Low Sodium Mild Buffalo Sauce, 3-pack",
+      "brand": null,
+      "price": "$19.99",
+      "size": "",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:ca1711a0-967b-49ba-a168-c1cbae4ff430/as/1942709-847__1.avif",
+      "link": "https://www.costco.com/yo-mamas-low-sodium-mild-buffalo-sauce-3-pack.product.4000363447.html",
+      "card_text": [
+        "Yo Mama's Low Sodium Mild Buffalo Sauce, 3-pack",
+        "Online Only",
+        "Online Price",
+        "$19.99",
+        "Yo Mama's Low Sodium Mild Buffalo Sauce, 3-pack",
+        "(24)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Bachan's Japanese Barbecue Sauce, 34 oz",
+      "brand": null,
+      "price": "$12.89",
+      "size": "34 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:1a426dcc-3e34-42fe-ba82-2a09228e1d87/as/100778116-847__1.avif",
+      "link": "https://www.costco.com/bachans-japanese-barbecue-sauce-34-oz.product.100778116.html",
+      "card_text": [
+        "Bachan's Japanese Barbecue Sauce, 34 oz",
+        "2-Day Delivery",
+        "Online Price",
+        "$12.89",
+        "Bachan's Japanese Barbecue Sauce, 34 oz",
+        "(10)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Lea & Perrins, Worcestershire Sauce, 20 fl oz, 2-Count",
+      "brand": null,
+      "price": "$10.49",
+      "size": "20 fl oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:cc559eec-c71e-44bf-a93d-5b8f8fedbb54/as/100381443-847__1.avif",
+      "link": "https://www.costco.com/lea--perrins-worcestershire-sauce-20-fl-oz-2-count.product.100381443.html",
+      "card_text": [
+        "Lea & Perrins, Worcestershire Sauce, 20 fl oz, 2-Count",
+        "2-Day Delivery",
+        "Online Price",
+        "$10.49",
+        "Lea & Perrins, Worcestershire Sauce, 20 fl oz, 2-Count",
+        "(1,380)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Kirkland Signature, Organic Tomato Paste, 6 oz, 12-Count",
+      "brand": null,
+      "price": "$11.49",
+      "size": "6 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:c245bc01-903b-43f7-b9ac-02dd9736e140/as/633564-847__1.avif",
+      "link": "https://www.costco.com/kirkland-signature-organic-tomato-paste-6-oz-12-count.product.100334932.html",
+      "card_text": [
+        "Kirkland Signature, Organic Tomato Paste, 6 oz, 12-Count",
+        "2-Day Delivery",
+        "Online Price",
+        "$11.49",
+        "Kirkland Signature, Organic Tomato Paste, 6 oz, 12-Count",
+        "(695)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Sweet Baby Ray's, Barbecue Sauce, 40 oz, 2-Count",
+      "brand": null,
+      "price": "$7.99",
+      "size": "40 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:261938f8-ec09-4513-bce8-bc1d3360575c/as/383456-847__1.avif",
+      "link": "https://www.costco.com/sweet-baby-rays-barbecue-sauce-40-oz-2-count.product.100381551.html",
+      "card_text": [
+        "Sweet Baby Ray's, Barbecue Sauce, 40 oz, 2-Count",
+        "2-Day Delivery",
+        "Online Price",
+        "$7.99",
+        "Sweet Baby Ray's, Barbecue Sauce, 40 oz, 2-Count",
+        "(472)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "McCormick, Premium Taco Seasoning, 24 oz",
+      "brand": null,
+      "price": "$8.99",
+      "size": "24 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:647f068f-5866-459f-93ce-9a65c4ddc390/as/265595-847__1.avif",
+      "link": "https://www.costco.com/mccormick-premium-taco-seasoning-24-oz.product.100441577.html",
+      "card_text": [
+        "McCormick, Premium Taco Seasoning, 24 oz",
+        "2-Day Delivery",
+        "Online Price",
+        "$8.99",
+        "McCormick, Premium Taco Seasoning, 24 oz",
+        "(147)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Yo Mama's Low-Sodium Variety Pasta Sauce, 3-pack",
+      "brand": null,
+      "price": "$21.99",
+      "size": "",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:a701d6e3-a67e-4e6c-85e5-19789735172e/as/1871048-847__1.avif",
+      "link": "https://www.costco.com/yo-mamas-low-sodium-variety-pasta-sauce-3-pack.product.4000303456.html",
+      "card_text": [
+        "Yo Mama's Low-Sodium Variety Pasta Sauce, 3-pack",
+        "Online Only",
+        "Online Price",
+        "$21.99",
+        "Yo Mama's Low-Sodium Variety Pasta Sauce, 3-pack",
+        "(305)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Heinz, Tomato Ketchup, 44 oz, 3-Count",
+      "brand": null,
+      "price": "$13.99",
+      "size": "44 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:71f08757-8af7-43c0-854d-bbc5bf7999b3/as/130176-847__1.avif",
+      "link": "https://www.costco.com/heinz-tomato-ketchup-44-oz-3-count.product.100381574.html",
+      "card_text": [
+        "Heinz, Tomato Ketchup, 44 oz, 3-Count",
+        "2-Day Delivery",
+        "Online Price",
+        "$13.99",
+        "Heinz, Tomato Ketchup, 44 oz, 3-Count",
+        "(1,478)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Hidden Valley Original Ranch Homestyle Dressing, 40 fl oz, 2-count",
+      "brand": null,
+      "price": "$14.99",
+      "size": "40 fl oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:d8414319-6889-4dbf-a961-03e0a138bfa8/as/100371278-847__1.avif",
+      "link": "https://www.costco.com/hidden-valley-original-ranch-homestyle-dressing-40-fl-oz-2-count.product.100371278.html",
+      "card_text": [
+        "Hidden Valley Original Ranch Homestyle Dressing, 40 fl oz, 2-count",
+        "2-Day Delivery",
+        "Online Price",
+        "$14.99",
+        "Hidden Valley Original Ranch Homestyle Dressing, 40 fl oz, 2-count",
+        "(819)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Prego, Pasta Sauce Low Sodium 45 oz, 3-Count",
+      "brand": null,
+      "price": "$10.99",
+      "size": "45 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:8a2acee9-b03b-42f2-88cb-0eb6b3cd3b0d/as/1406434-847__1.avif",
+      "link": "https://www.costco.com/prego-pasta-sauce-low-sodium-45-oz-3-count.product.100542084.html",
+      "card_text": [
+        "Prego, Pasta Sauce Low Sodium 45 oz, 3-Count",
+        "2-Day Delivery",
+        "Online Price",
+        "$10.99",
+        "Prego, Pasta Sauce Low Sodium 45 oz, 3-Count",
+        "(731)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Doritos Tortilla Chips, Nacho Cheese, 1 oz, 50-count",
+      "brand": null,
+      "price": "$22.99",
+      "size": "1 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:469cb935-8202-4455-bdc0-9009999fab71/as/874504-847__1.avif",
+      "link": "https://www.costco.com/doritos-tortilla-chips-nacho-cheese-1-oz-50-count.product.100451669.html",
+      "card_text": [
+        "Doritos Tortilla Chips, Nacho Cheese, 1 oz, 50-count",
+        "2-Day Delivery",
+        "Online Price",
+        "$22.99",
+        "Doritos Tortilla Chips, Nacho Cheese, 1 oz, 50-count",
+        "(248)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Kirkland Signature, Organic Diced Tomatoes, 14.5 oz, 8-Count",
+      "brand": null,
+      "price": "$9.99",
+      "size": "14.5 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:1da75c9c-3b96-4bef-a71f-5a73e3d0ec0c/as/633561-847__1.avif",
+      "link": "https://www.costco.com/kirkland-signature-organic-diced-tomatoes-145-oz-8-count.product.100334857.html",
+      "card_text": [
+        "Kirkland Signature, Organic Diced Tomatoes, 14.5 oz, 8-Count",
+        "2-Day Delivery",
+        "Online Price",
+        "$9.99",
+        "Kirkland Signature, Organic Diced Tomatoes, 14.5 oz, 8-Count",
+        "(1,836)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Kirkland Signature, Pure Sea Salt, 30 oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "30 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:cf3665a9-b67d-42c1-8a0a-57db8226b021/as/384732-847__1.avif",
+      "link": "https://www.costco.com/kirkland-signature-pure-sea-salt-30-oz.product.100334839.html",
+      "card_text": [
+        "Kirkland Signature, Pure Sea Salt, 30 oz",
+        "2-Day Delivery",
+        "Online Price",
+        "$3.99",
+        "Kirkland Signature, Pure Sea Salt, 30 oz",
+        "(1,334)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Kirkland Signature, Organic Fruit and Vegetable Pouches, Variety Pack, 3.17 oz, 24-count",
+      "brand": null,
+      "price": "$14.99",
+      "size": "3.17 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:c4aad21d-ffa2-49a8-b123-3e817093d515/as/100805475-847__1.avif",
+      "link": "https://www.costco.com/kirkland-signature-organic-fruit-and-vegetable-pouches-variety-pack-317-oz-24-count.product.100805475.html",
+      "card_text": [
+        "Kirkland Signature, Organic Fruit and Vegetable Pouches, Variety Pack, 3.17 oz, 24-count",
+        "2-Day Delivery",
+        "Online Price",
+        "$14.99",
+        "Kirkland Signature, Organic Fruit and Vegetable Pouches, Variety Pack, 3.17 oz, 24-count",
+        "Delivery",
+        "Available",
+        "Buy in Warehouse"
+      ]
+    },
+    {
+      "name": "Garofalo, Organic Pasta, Variety Pack, 17.6 oz, 6-Count",
+      "brand": null,
+      "price": "$11.99",
+      "size": "17.6 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:cc5d46ac-6d27-4e9b-bd28-447adec56058/as/993449-847__1.avif",
+      "link": "https://www.costco.com/garofalo-organic-pasta-variety-pack-176-oz-6-count.product.100381417.html",
+      "card_text": [
+        "Garofalo, Organic Pasta, Variety Pack, 17.6 oz, 6-Count",
+        "2-Day Delivery",
+        "Online Price",
+        "$11.99",
+        "Garofalo, Organic Pasta, Variety Pack, 17.6 oz, 6-Count",
+        "(1,575)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "French's, Classic Yellow Mustard, 30 oz, 2-count",
+      "brand": null,
+      "price": "$6.49",
+      "size": "30 oz",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:efd4e7c8-4bf1-4411-86b5-52690bafaa7e/as/676704-847__1.avif",
+      "link": "https://www.costco.com/frenchs-classic-yellow-mustard-30-oz-2-count.product.100381506.html",
+      "card_text": [
+        "French's, Classic Yellow Mustard, 30 oz, 2-count",
+        "2-Day Delivery",
+        "Online Price",
+        "$6.49",
+        "French's, Classic Yellow Mustard, 30 oz, 2-count",
+        "(634)",
+        "Delivery",
+        "Available"
+      ]
+    }
+  ],
+  "raw_text_chars": 8684,
+  "steps": [
+    "13:12:19 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:12:21 connected to Bright Data Scraping Browser",
+    "13:12:32 goto https://www.costco.com/s?keyword=salsa",
+    "13:12:40 captcha check passed",
+    "13:12:53 dismiss: nothing to close",
+    "13:12:59 scrolled x4",
+    "13:12:59 store_set: costco.com online (national, 2-day delivery pricing)",
+    "13:12:59 extracted 22 houses; raw text 8684 chars"
+  ],
+  "error": null,
+  "houses_text": 22
+}

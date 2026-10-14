@@ -1,0 +1,31 @@
+{
+  "block_id": "condiments/salsa@costco-sameday",
+  "retailer": "costco",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-14T13:11:11.585Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://sameday.costco.com/?next=%2Fstore%2Fcostco%2Fs%3Fk%3Dsalsa",
+  "houses": [],
+  "raw_text_chars": 631,
+  "steps": [
+    "13:11:11 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:11:12 connected to Bright Data Scraping Browser",
+    "13:11:22 goto https://sameday.costco.com/store/costco/s?k=salsa",
+    "13:11:30 captcha check passed",
+    "13:11:46 dismiss: nothing to close",
+    "13:11:47 js_houses 0 store API zip 60615 shop 83 location 111",
+    "13:11:49 store_set: null",
+    "13:11:49 few houses, reloading once",
+    "13:12:03 extracted 0 houses; raw text 631 chars"
+  ],
+  "error": null,
+  "js_houses": [],
+  "js_store": "API zip 60615 shop 83 location 111",
+  "js_debug": "DefaultShop 200 1641 | SearchResultsPlacements 401 127 | shop 83 loc 111 zone null ids 0 | items0 {\"errors\":[{\"message\":\"Not Authenticated\",\"locations\":[{\"line\":2,\"column\":3}],\"path\":[\"searchResultsPlacements\"]}],\"data\":null}",
+  "reloaded": true,
+  "houses_text": 0
+}
