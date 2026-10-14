@@ -1,0 +1,12 @@
+{
+ "block_id": "diag/costco@unlock",
+ "retailer": "costco",
+ "zip": "diag",
+ "neighborhood": "costco",
+ "term": "salsa",
+ "api_unlock": {
+  "urls": [
+   "https://www.costco.com/s?keyword={{term}}"
+  ]
+ }
+}
