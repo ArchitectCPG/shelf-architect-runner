@@ -3,7 +3,7 @@
   "retailer": "sprouts",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-14T00:24:39.693Z",
+  "pulled_at": "2026-10-14T00:27:09.332Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60563",
@@ -11,33 +11,33 @@
   "url_final": "https://shop.sprouts.com/store/sprouts/s?k=salsa",
   "houses": [
     {
-      "name": "Margarita's Amigos Restaurant Style Medium Salsa",
-      "size": "16 oz",
-      "brand": "margarita's amigos",
-      "price": "$4.99",
-      "item_id": "items_11199-17616163",
-      "product_id": "17616163",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a892b09a-0736-4890-95be-5cda9a5e4bc0.png",
+      "name": "Fody Marinara Pasta Sauce",
+      "size": "19.4 oz",
+      "brand": "fody",
+      "price": "$9.99",
+      "item_id": "items_11199-19044640",
+      "product_id": "19044640",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_801dbafe-0f73-4409-ae2e-ceb677e6b53f.png",
       "availability": "inStock"
     },
     {
-      "name": "Margarita Sensation Restaurant Style Mild Salsa",
+      "name": "Mateo's Mild Salsa",
       "size": "16 oz",
-      "brand": "margarita sensation",
-      "price": "$4.99",
-      "item_id": "items_11199-17616180",
-      "product_id": "17616180",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c4f3b163-e4e0-4940-b952-0db3b5a4dc75.png",
+      "brand": "mateo's",
+      "price": "$5.99",
+      "item_id": "items_11199-3078643",
+      "product_id": "3078643",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bcab4905-622d-4fa8-a70f-3c5ad1b73579.png",
       "availability": "inStock"
     },
     {
-      "name": "Margarita's Amigos Restaurant Style Hot Salsa",
-      "size": "16 oz",
-      "brand": "margarita's amigos",
-      "price": "$4.99",
-      "item_id": "items_11199-17616166",
-      "product_id": "17616166",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bcb94982-b90d-43af-b52f-ac00f0bdeb88.png",
+      "name": "Good Foods Chunky Traditional Guacamole",
+      "size": "13 oz",
+      "brand": "good foods",
+      "price": "$6.99",
+      "item_id": "items_11199-18421269",
+      "product_id": "18421269",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d3608cce-53fb-4876-a39e-69fd7a8e3334.png",
       "availability": "inStock"
     },
     {
@@ -161,23 +161,33 @@
       "availability": "inStock"
     },
     {
-      "name": "Mateo's Mild Salsa",
+      "name": "Margarita's Amigos Restaurant Style Medium Salsa",
       "size": "16 oz",
-      "brand": "mateo's",
-      "price": "$5.99",
-      "item_id": "items_11199-3078643",
-      "product_id": "3078643",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bcab4905-622d-4fa8-a70f-3c5ad1b73579.png",
+      "brand": "margarita's amigos",
+      "price": "$4.99",
+      "item_id": "items_11199-17616163",
+      "product_id": "17616163",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a892b09a-0736-4890-95be-5cda9a5e4bc0.png",
       "availability": "inStock"
     },
     {
-      "name": "Mateo's Medium Cantina Style Salsa",
+      "name": "Good Foods Spicy Tzatziki Dip & Spread",
+      "size": "8 oz",
+      "brand": "good foods",
+      "price": "$4.99",
+      "item_id": "items_11199-100580890",
+      "product_id": "100580890",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_89f9c6b8-c915-414d-98f1-d1b35a8f1a0c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Mild Cantina Style Salsa",
       "size": "16 oz",
       "brand": "mateo's",
       "price": "$5.99",
-      "item_id": "items_11199-19648179",
-      "product_id": "19648179",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b303a5b7-8a46-4d6b-9354-cedbad0e17c1.png",
+      "item_id": "items_11199-110768534",
+      "product_id": "110768534",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d8aad5f-c4cc-400c-b8a7-3036061f6859.png",
       "availability": "inStock"
     },
     {
@@ -188,6 +198,16 @@
       "item_id": "items_11199-39801298",
       "product_id": "39801298",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_63bf1471-d852-4a5e-8b21-63020f53a190.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Margarita Sensation Restaurant Style Mild Salsa",
+      "size": "16 oz",
+      "brand": "margarita sensation",
+      "price": "$4.99",
+      "item_id": "items_11199-17616180",
+      "product_id": "17616180",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c4f3b163-e4e0-4940-b952-0db3b5a4dc75.png",
       "availability": "inStock"
     },
     {
@@ -211,6 +231,16 @@
       "availability": "inStock"
     },
     {
+      "name": "Mateo's Medium Cantina Style Salsa",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.99",
+      "item_id": "items_11199-19648179",
+      "product_id": "19648179",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b303a5b7-8a46-4d6b-9354-cedbad0e17c1.png",
+      "availability": "inStock"
+    },
+    {
       "name": "Bitchin' Sauce Chipotle Almond Dip",
       "size": "8 oz",
       "brand": "bitchin' sauce",
@@ -231,23 +261,23 @@
       "availability": "inStock"
     },
     {
-      "name": "Good Foods Avocado Tomatillo Salsa",
-      "size": "12 oz",
-      "brand": "good foods",
-      "price": "$5.99",
-      "item_id": "items_11199-17860874",
-      "product_id": "17860874",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2ea2409-1c67-4d58-996e-585ac179d341.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Mateo's Mild Cantina Style Salsa",
+      "name": "Mateo's Medium Gourmet Hatch Chile Salsa",
       "size": "16 oz",
       "brand": "mateo's",
       "price": "$5.99",
-      "item_id": "items_11199-110768534",
-      "product_id": "110768534",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d8aad5f-c4cc-400c-b8a7-3036061f6859.png",
+      "item_id": "items_11199-3080344",
+      "product_id": "3080344",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_80fc9837-eb67-4d6c-aa2a-cd2f7c297ccb.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fody Sensitive Recipe Salsa Verde",
+      "size": "16 oz",
+      "brand": "fody",
+      "price": "$6.99",
+      "item_id": "items_11199-24170072",
+      "product_id": "24170072",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0ea7e971-4b4c-4aa2-8c20-314ee3a24b50.png",
       "availability": "inStock"
     },
     {
@@ -311,33 +341,23 @@
       "availability": "inStock"
     },
     {
-      "name": "Mateo's Medium Gourmet Hatch Chile Salsa",
-      "size": "16 oz",
-      "brand": "mateo's",
-      "price": "$5.99",
-      "item_id": "items_11199-3080344",
-      "product_id": "3080344",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_80fc9837-eb67-4d6c-aa2a-cd2f7c297ccb.png",
+      "name": "Taste Flavor Co Buffalo Blue Cheese Everything Sauce",
+      "size": "9 oz",
+      "brand": "taste flavor co",
+      "price": "$6.99",
+      "item_id": "items_11199-109370199",
+      "product_id": "109370199",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7fc7921e-3a05-4800-bc3c-d37ba08189e0.png",
       "availability": "inStock"
     },
     {
-      "name": "Mateo's Extra Hot Habanero Salsa",
-      "size": "16 oz",
-      "brand": "mateo's",
+      "name": "Good Foods Avocado Tomatillo Salsa",
+      "size": "12 oz",
+      "brand": "good foods",
       "price": "$5.99",
-      "item_id": "items_11199-20573070",
-      "product_id": "20573070",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_45ca304b-10c2-488e-82e9-e628f0030895.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Mateo's Mild Black Bean & Corn Gourmet Salsa",
-      "size": "16 oz",
-      "brand": "mateo's",
-      "price": "$5.99",
-      "item_id": "items_11199-58911043",
-      "product_id": "58911043",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3bd5a1f6-12ac-4022-8218-170e3475b956.png",
+      "item_id": "items_11199-17860874",
+      "product_id": "17860874",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2ea2409-1c67-4d58-996e-585ac179d341.png",
       "availability": "inStock"
     },
     {
@@ -461,33 +481,23 @@
       "availability": "inStock"
     },
     {
-      "name": "Fody Medium Salsa",
-      "size": "16 oz",
-      "brand": "fody",
-      "price": "$5.99",
-      "item_id": "items_11199-19103597",
-      "product_id": "19103597",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d195e556-9280-42d4-8933-40caa3bd175b.png",
+      "name": "Good Foods Feta Cucumber Dip",
+      "size": "8 oz",
+      "brand": "good foods",
+      "price": "$4.99",
+      "item_id": "items_11199-2758359",
+      "product_id": "2758359",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_98d0912f-7259-4e35-bc0b-35f6d63fdf3b.png",
       "availability": "inStock"
     },
     {
-      "name": "Fody Sensitive Recipe Salsa Verde",
+      "name": "Margarita's Amigos Chunky Style Mild Salsa",
       "size": "16 oz",
-      "brand": "fody",
-      "price": "$6.99",
-      "item_id": "items_11199-24170072",
-      "product_id": "24170072",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0ea7e971-4b4c-4aa2-8c20-314ee3a24b50.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Taste Flavor Co Buffalo Blue Cheese Everything Sauce",
-      "size": "9 oz",
-      "brand": "taste flavor co",
-      "price": "$6.99",
-      "item_id": "items_11199-109370199",
-      "product_id": "109370199",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7fc7921e-3a05-4800-bc3c-d37ba08189e0.png",
+      "brand": "margarita's amigos",
+      "price": "$4.99",
+      "item_id": "items_11199-17616157",
+      "product_id": "17616157",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f6b1b773-d108-4c98-91ff-99e5a414ac3b.png",
       "availability": "inStock"
     },
     {
@@ -508,6 +518,26 @@
       "item_id": "items_11199-17856876",
       "product_id": "17856876",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2e6e0f1f-140d-4d37-9d5a-d5d54445fd70.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Nopalli Lime Cactus Tortilla Chips",
+      "size": "4.5 oz",
+      "brand": "nopalli",
+      "price": "$4.99",
+      "item_id": "items_11199-54963454",
+      "product_id": "54963454",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1b990c23-7b5e-487e-9818-bad5f6241c68.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Nopalli Chile Limon Cactus Tortilla Chips",
+      "size": "4.5 oz",
+      "brand": "nopalli",
+      "price": "$4.99",
+      "item_id": "items_11199-54963607",
+      "product_id": "54963607",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b5762a08-6d3d-42e8-ab02-30287f88265b.png",
       "availability": "inStock"
     },
     {
@@ -548,6 +578,26 @@
       "item_id": "items_11199-26857727",
       "product_id": "26857727",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_55c5ae4a-218d-4867-96be-ed65d662a222.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Coyotas Organic Tortillas Organic Sea Salt Grain Free Tortilla Chips Made With Organic Avocado Oil",
+      "size": "5 oz",
+      "brand": "coyotas organic tortillas",
+      "price": "$8.99",
+      "item_id": "items_11199-120229195",
+      "product_id": "120229195",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cce44146-e97e-41ae-acaf-9ee490dff498.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Nopalli Sea Salt Cactus Tortilla Chips",
+      "size": "4.5 oz",
+      "brand": "nopalli",
+      "price": "$4.99",
+      "item_id": "items_11199-54963665",
+      "product_id": "54963665",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f765e69a-c8fd-45c6-a312-7833207d2d74.png",
       "availability": "inStock"
     },
     {
@@ -631,26 +681,6 @@
       "availability": "inStock"
     },
     {
-      "name": "Xochitl Organic White Corn Chips Made With Avocado Oil",
-      "size": "7.5 oz",
-      "brand": "xochitl",
-      "price": "$4.79",
-      "item_id": "items_11199-106404163",
-      "product_id": "106404163",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dd37fb1f-e32f-40ab-a2e5-138a119fda78.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Xochitl Spicy Lime Tortilla Chips Made With Avocado Oil",
-      "size": "7.5 oz",
-      "brand": "xochitl",
-      "price": "$4.79",
-      "item_id": "items_11199-106404234",
-      "product_id": "106404234",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a7746170-c572-43a7-88af-1076f72fbd0f.png",
-      "availability": "inStock"
-    },
-    {
       "name": "Sprouts Cinnamon & Sugar Flavored Churro Twists",
       "size": "4.5 oz",
       "brand": "sprouts",
@@ -691,26 +721,6 @@
       "availability": "inStock"
     },
     {
-      "name": "Xochitl Organic Blue Corn Tortilla Chips Made With Avocado Oil",
-      "size": "7.5 oz",
-      "brand": "xochitl",
-      "price": "$4.79",
-      "item_id": "items_11199-101566815",
-      "product_id": "101566815",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_79f6f42b-1f3f-4f6c-8b4b-21f104b9f42d.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Coyotas Organic Tortillas Organic Sea Salt Grain Free Tortilla Chips Made With Organic Avocado Oil",
-      "size": "5 oz",
-      "brand": "coyotas organic tortillas",
-      "price": "$8.99",
-      "item_id": "items_11199-120229195",
-      "product_id": "120229195",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cce44146-e97e-41ae-acaf-9ee490dff498.png",
-      "availability": "inStock"
-    },
-    {
       "name": "Boulder Canyon Blue Corn Tortilla Chips With Avocado Oil",
       "size": "8 oz",
       "brand": "boulder canyon",
@@ -738,26 +748,6 @@
       "item_id": "items_11199-25746266",
       "product_id": "25746266",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b5529205-f66a-4da8-95e5-838fe0ea1991.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Nopalli Sea Salt Cactus Tortilla Chips",
-      "size": "4.5 oz",
-      "brand": "nopalli",
-      "price": "$4.99",
-      "item_id": "items_11199-54963665",
-      "product_id": "54963665",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f765e69a-c8fd-45c6-a312-7833207d2d74.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Nopalli Chile Limon Cactus Tortilla Chips",
-      "size": "4.5 oz",
-      "brand": "nopalli",
-      "price": "$4.99",
-      "item_id": "items_11199-54963607",
-      "product_id": "54963607",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b5762a08-6d3d-42e8-ab02-30287f88265b.png",
       "availability": "inStock"
     },
     {
@@ -801,26 +791,6 @@
       "availability": "inStock"
     },
     {
-      "name": "Wilde Spicy Queso Chicken Protein Chips 4 Pack",
-      "size": "1.34 oz",
-      "brand": "wilde",
-      "price": "$7.99",
-      "item_id": "items_11199-33235696",
-      "product_id": "33235696",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e6527d6f-3101-428d-af61-bd33dad87b6f.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Nopalli Lime Cactus Tortilla Chips",
-      "size": "4.5 oz",
-      "brand": "nopalli",
-      "price": "$4.99",
-      "item_id": "items_11199-54963454",
-      "product_id": "54963454",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1b990c23-7b5e-487e-9818-bad5f6241c68.png",
-      "availability": "inStock"
-    },
-    {
       "name": "Late July Jalapeno Lime Tortilla Chips",
       "size": "2 oz",
       "brand": "late july",
@@ -838,6 +808,16 @@
       "item_id": "items_11199-54090373",
       "product_id": "54090373",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_85a35309-64c6-4060-a87c-641d2ea5ed44.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Extra Hot Habanero Salsa",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.99",
+      "item_id": "items_11199-20573070",
+      "product_id": "20573070",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_45ca304b-10c2-488e-82e9-e628f0030895.png",
       "availability": "inStock"
     },
     {
@@ -868,6 +848,26 @@
       "item_id": "items_11199-17856150",
       "product_id": "17856150",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7e4c405b-8650-41e9-afdc-e8ab235a9609.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Good Foods Avocado Mash With Sea Salt & Black Pepper 8 Pack",
+      "size": "8 ct",
+      "brand": "good foods",
+      "price": "$9.49",
+      "item_id": "items_11199-52077015",
+      "product_id": "52077015",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ddb72285-b633-4def-8e04-df6bc632d478.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Good Foods Chunky Traditional Guacamole 4 Pack",
+      "size": "2 oz",
+      "brand": "good foods",
+      "price": "$4.99",
+      "item_id": "items_11199-19547427",
+      "product_id": "19547427",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c4ddb784-5075-4aa0-a6a2-ad5375ac4637.png",
       "availability": "inStock"
     },
     {
@@ -911,13 +911,43 @@
       "availability": "inStock"
     },
     {
-      "name": "Margarita's Amigos Chunky Style Mild Salsa",
+      "name": "Mateo's Mild Black Bean & Corn Gourmet Salsa",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.99",
+      "item_id": "items_11199-58911043",
+      "product_id": "58911043",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3bd5a1f6-12ac-4022-8218-170e3475b956.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Margarita's Amigos Restaurant Style Hot Salsa",
       "size": "16 oz",
       "brand": "margarita's amigos",
       "price": "$4.99",
-      "item_id": "items_11199-17616157",
-      "product_id": "17616157",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f6b1b773-d108-4c98-91ff-99e5a414ac3b.png",
+      "item_id": "items_11199-17616166",
+      "product_id": "17616166",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bcb94982-b90d-43af-b52f-ac00f0bdeb88.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Margarita Sensation Chunky Style Medium Salsa",
+      "size": "16 oz",
+      "brand": "margarita sensation",
+      "price": "$4.99",
+      "item_id": "items_11199-17616158",
+      "product_id": "17616158",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_72b32942-5ce1-4eab-9cf2-dbfae2b6b71f.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fody Medium Salsa",
+      "size": "16 oz",
+      "brand": "fody",
+      "price": "$5.99",
+      "item_id": "items_11199-19103597",
+      "product_id": "19103597",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d195e556-9280-42d4-8933-40caa3bd175b.png",
       "availability": "inStock"
     },
     {
@@ -938,66 +968,6 @@
       "item_id": "items_11199-18265467",
       "product_id": "18265467",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2e4225ab-ed62-4e7c-a744-9c8c8e76d004.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Tatemada Jalapeno Salsa",
-      "size": "16 oz",
-      "brand": "tatemada",
-      "price": "$6.99",
-      "item_id": "items_11199-25020829",
-      "product_id": "25020829",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f5cd3b26-7147-4a03-a05f-92f8d3f689b8.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "505 Southwest Medium Southwest Style Salsa",
-      "size": "15 oz",
-      "brand": "505 southwestern",
-      "price": "$5.79",
-      "item_id": "items_11199-33201548",
-      "product_id": "33201548",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96266b22-038d-4b50-80ae-4a6fcd5b76c2.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Tatemada Habanero Salsa",
-      "size": "16 oz",
-      "brand": "tatemada",
-      "price": "$6.99",
-      "item_id": "items_11199-28117833",
-      "product_id": "28117833",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_098b0119-76b1-4497-9dc4-a3d05da4f642.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Siete Taqueria Style Salsa Soleada",
-      "size": "10.5 oz",
-      "brand": "siete",
-      "price": "$4.86",
-      "item_id": "items_11199-32551370",
-      "product_id": "32551370",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0db9d3b8-03df-4ea4-b3a0-b5116906093b.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Xochitl Asada Verde Medium Salsa",
-      "size": "15 oz",
-      "brand": "xochitl",
-      "price": "$7.49",
-      "item_id": "items_11199-56584",
-      "product_id": "56584",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f83f2182-eb2e-4633-9d68-4a812fa83cf4.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Sadie's Not As Hot Salsa",
-      "size": "16 oz",
-      "brand": "sadie's",
-      "price": "$5.49",
-      "item_id": "items_11199-221623",
-      "product_id": "221623",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e7b66474-fec7-46be-8840-676d7eb7d2ec.png",
       "availability": "inStock"
     },
     {
@@ -1038,16 +1008,6 @@
       "item_id": "items_11199-46740866",
       "product_id": "46740866",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_30cffb8a-a487-4b1c-8133-8131a6bcb682.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Good Foods Chunky Traditional Guacamole",
-      "size": "13 oz",
-      "brand": "good foods",
-      "price": "$6.99",
-      "item_id": "items_11199-18421269",
-      "product_id": "18421269",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d3608cce-53fb-4876-a39e-69fd7a8e3334.png",
       "availability": "inStock"
     },
     {
@@ -1098,26 +1058,6 @@
       "item_id": "items_11199-40088",
       "product_id": "40088",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8cd9910b-b373-46eb-a7df-c4f2888856c5.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Good Foods Chunky Traditional Guacamole 4 Pack",
-      "size": "2 oz",
-      "brand": "good foods",
-      "price": "$4.99",
-      "item_id": "items_11199-19547427",
-      "product_id": "19547427",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c4ddb784-5075-4aa0-a6a2-ad5375ac4637.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Good Foods Avocado Mash With Sea Salt & Black Pepper 8 Pack",
-      "size": "8 ct",
-      "brand": "good foods",
-      "price": "$9.49",
-      "item_id": "items_11199-52077015",
-      "product_id": "52077015",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ddb72285-b633-4def-8e04-df6bc632d478.png",
       "availability": "inStock"
     },
     {
@@ -1209,50 +1149,110 @@
       "product_id": "16643002",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ead5c176-3ba4-4511-ac3e-8b5d3ccbc8ef.png",
       "availability": "inStock"
+    },
+    {
+      "name": "Vista Hermosa 10 Inch Flour Tortillas 6 Count",
+      "size": "6 ct",
+      "brand": "vista hermosa",
+      "price": "$8.99",
+      "item_id": "items_11199-51500479",
+      "product_id": "51500479",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0036c05d-43b5-47c0-87c8-20a102d417af.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Siete Spicy Taco Seasoning",
+      "size": "1.31 oz",
+      "brand": "siete",
+      "price": "$2.25",
+      "item_id": "items_11199-21220661",
+      "product_id": "21220661",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7872a7e3-4ddd-4c3b-9272-5d71cc6d9e40.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Sprouts Colby Jack Shredded Cheese Value Pack",
+      "size": "32 oz",
+      "brand": "sprouts",
+      "price": "$11.49",
+      "item_id": "items_11199-19489469",
+      "product_id": "19489469",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_13ecaafa-a8aa-4f00-a060-9ef0463c693a.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Gotham Greens Greenhouse Crunch Lettuce",
+      "size": "4.5 oz",
+      "brand": "gotham greens",
+      "price": "$3.99",
+      "item_id": "items_11199-248214",
+      "product_id": "248214",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_82071d0b-98b7-498c-8df7-75600b624d55.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Gotham Greens Butterhead Lettuce",
+      "size": "4.5 oz",
+      "brand": "gotham greens",
+      "price": "$3.99",
+      "item_id": "items_11199-335849",
+      "product_id": "335849",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de5602b0-b48f-4ecd-9e33-86e45e8468fc.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mission 10 Inch Burrito Tortillas",
+      "size": "8 ct",
+      "brand": "mission",
+      "price": "$4.99",
+      "item_id": "items_11199-43297",
+      "product_id": "43297",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ff4cbb3e-19e3-4846-b858-cfc02c91a824.png",
+      "availability": "inStock"
     }
   ],
-  "raw_text_chars": 9441,
+  "raw_text_chars": 9383,
   "steps": [
-    "00:24:39 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "00:24:40 connected to Bright Data Scraping Browser",
-    "00:25:09 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
-    "00:25:17 captcha check passed",
-    "00:25:33 dismiss: nothing to close",
-    "00:25:44 js_houses 120 store API zip 60563 shop 4117 location 11199",
-    "00:25:45 store_set: UNPINNED default: In-Store · open 7am - 10pm Lancaster (Store #459)",
-    "00:25:45 js_houses override: 120",
-    "00:25:46 extracted 120 houses; raw text 9441 chars"
+    "00:27:09 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "00:27:11 connected to Bright Data Scraping Browser",
+    "00:27:32 goto https://shop.sprouts.com/store/sprouts/s?k=salsa",
+    "00:27:40 captcha check passed",
+    "00:27:57 dismiss: nothing to close",
+    "00:28:05 js_houses 120 store API zip 60563 shop 4117 location 11199",
+    "00:28:06 store_set: Ballantyne (Store #541)",
+    "00:28:06 js_houses override: 120",
+    "00:28:08 extracted 120 houses; raw text 9383 chars"
   ],
   "error": null,
   "js_houses": [
     {
-      "name": "Margarita's Amigos Restaurant Style Medium Salsa",
-      "size": "16 oz",
-      "brand": "margarita's amigos",
-      "price": "$4.99",
-      "item_id": "items_11199-17616163",
-      "product_id": "17616163",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a892b09a-0736-4890-95be-5cda9a5e4bc0.png",
+      "name": "Fody Marinara Pasta Sauce",
+      "size": "19.4 oz",
+      "brand": "fody",
+      "price": "$9.99",
+      "item_id": "items_11199-19044640",
+      "product_id": "19044640",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_801dbafe-0f73-4409-ae2e-ceb677e6b53f.png",
       "availability": "inStock"
     },
     {
-      "name": "Margarita Sensation Restaurant Style Mild Salsa",
+      "name": "Mateo's Mild Salsa",
       "size": "16 oz",
-      "brand": "margarita sensation",
-      "price": "$4.99",
-      "item_id": "items_11199-17616180",
-      "product_id": "17616180",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c4f3b163-e4e0-4940-b952-0db3b5a4dc75.png",
+      "brand": "mateo's",
+      "price": "$5.99",
+      "item_id": "items_11199-3078643",
+      "product_id": "3078643",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bcab4905-622d-4fa8-a70f-3c5ad1b73579.png",
       "availability": "inStock"
     },
     {
-      "name": "Margarita's Amigos Restaurant Style Hot Salsa",
-      "size": "16 oz",
-      "brand": "margarita's amigos",
-      "price": "$4.99",
-      "item_id": "items_11199-17616166",
-      "product_id": "17616166",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bcb94982-b90d-43af-b52f-ac00f0bdeb88.png",
+      "name": "Good Foods Chunky Traditional Guacamole",
+      "size": "13 oz",
+      "brand": "good foods",
+      "price": "$6.99",
+      "item_id": "items_11199-18421269",
+      "product_id": "18421269",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d3608cce-53fb-4876-a39e-69fd7a8e3334.png",
       "availability": "inStock"
     },
     {
@@ -1376,23 +1376,33 @@
       "availability": "inStock"
     },
     {
-      "name": "Mateo's Mild Salsa",
+      "name": "Margarita's Amigos Restaurant Style Medium Salsa",
       "size": "16 oz",
-      "brand": "mateo's",
-      "price": "$5.99",
-      "item_id": "items_11199-3078643",
-      "product_id": "3078643",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bcab4905-622d-4fa8-a70f-3c5ad1b73579.png",
+      "brand": "margarita's amigos",
+      "price": "$4.99",
+      "item_id": "items_11199-17616163",
+      "product_id": "17616163",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a892b09a-0736-4890-95be-5cda9a5e4bc0.png",
       "availability": "inStock"
     },
     {
-      "name": "Mateo's Medium Cantina Style Salsa",
+      "name": "Good Foods Spicy Tzatziki Dip & Spread",
+      "size": "8 oz",
+      "brand": "good foods",
+      "price": "$4.99",
+      "item_id": "items_11199-100580890",
+      "product_id": "100580890",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_89f9c6b8-c915-414d-98f1-d1b35a8f1a0c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Mild Cantina Style Salsa",
       "size": "16 oz",
       "brand": "mateo's",
       "price": "$5.99",
-      "item_id": "items_11199-19648179",
-      "product_id": "19648179",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b303a5b7-8a46-4d6b-9354-cedbad0e17c1.png",
+      "item_id": "items_11199-110768534",
+      "product_id": "110768534",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d8aad5f-c4cc-400c-b8a7-3036061f6859.png",
       "availability": "inStock"
     },
     {
@@ -1403,6 +1413,16 @@
       "item_id": "items_11199-39801298",
       "product_id": "39801298",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_63bf1471-d852-4a5e-8b21-63020f53a190.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Margarita Sensation Restaurant Style Mild Salsa",
+      "size": "16 oz",
+      "brand": "margarita sensation",
+      "price": "$4.99",
+      "item_id": "items_11199-17616180",
+      "product_id": "17616180",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c4f3b163-e4e0-4940-b952-0db3b5a4dc75.png",
       "availability": "inStock"
     },
     {
@@ -1426,6 +1446,16 @@
       "availability": "inStock"
     },
     {
+      "name": "Mateo's Medium Cantina Style Salsa",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.99",
+      "item_id": "items_11199-19648179",
+      "product_id": "19648179",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b303a5b7-8a46-4d6b-9354-cedbad0e17c1.png",
+      "availability": "inStock"
+    },
+    {
       "name": "Bitchin' Sauce Chipotle Almond Dip",
       "size": "8 oz",
       "brand": "bitchin' sauce",
@@ -1446,23 +1476,23 @@
       "availability": "inStock"
     },
     {
-      "name": "Good Foods Avocado Tomatillo Salsa",
-      "size": "12 oz",
-      "brand": "good foods",
-      "price": "$5.99",
-      "item_id": "items_11199-17860874",
-      "product_id": "17860874",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2ea2409-1c67-4d58-996e-585ac179d341.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Mateo's Mild Cantina Style Salsa",
+      "name": "Mateo's Medium Gourmet Hatch Chile Salsa",
       "size": "16 oz",
       "brand": "mateo's",
       "price": "$5.99",
-      "item_id": "items_11199-110768534",
-      "product_id": "110768534",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d8aad5f-c4cc-400c-b8a7-3036061f6859.png",
+      "item_id": "items_11199-3080344",
+      "product_id": "3080344",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_80fc9837-eb67-4d6c-aa2a-cd2f7c297ccb.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fody Sensitive Recipe Salsa Verde",
+      "size": "16 oz",
+      "brand": "fody",
+      "price": "$6.99",
+      "item_id": "items_11199-24170072",
+      "product_id": "24170072",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0ea7e971-4b4c-4aa2-8c20-314ee3a24b50.png",
       "availability": "inStock"
     },
     {
@@ -1526,33 +1556,23 @@
       "availability": "inStock"
     },
     {
-      "name": "Mateo's Medium Gourmet Hatch Chile Salsa",
-      "size": "16 oz",
-      "brand": "mateo's",
-      "price": "$5.99",
-      "item_id": "items_11199-3080344",
-      "product_id": "3080344",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_80fc9837-eb67-4d6c-aa2a-cd2f7c297ccb.png",
+      "name": "Taste Flavor Co Buffalo Blue Cheese Everything Sauce",
+      "size": "9 oz",
+      "brand": "taste flavor co",
+      "price": "$6.99",
+      "item_id": "items_11199-109370199",
+      "product_id": "109370199",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7fc7921e-3a05-4800-bc3c-d37ba08189e0.png",
       "availability": "inStock"
     },
     {
-      "name": "Mateo's Extra Hot Habanero Salsa",
-      "size": "16 oz",
-      "brand": "mateo's",
+      "name": "Good Foods Avocado Tomatillo Salsa",
+      "size": "12 oz",
+      "brand": "good foods",
       "price": "$5.99",
-      "item_id": "items_11199-20573070",
-      "product_id": "20573070",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_45ca304b-10c2-488e-82e9-e628f0030895.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Mateo's Mild Black Bean & Corn Gourmet Salsa",
-      "size": "16 oz",
-      "brand": "mateo's",
-      "price": "$5.99",
-      "item_id": "items_11199-58911043",
-      "product_id": "58911043",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3bd5a1f6-12ac-4022-8218-170e3475b956.png",
+      "item_id": "items_11199-17860874",
+      "product_id": "17860874",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2ea2409-1c67-4d58-996e-585ac179d341.png",
       "availability": "inStock"
     },
     {
@@ -1676,33 +1696,23 @@
       "availability": "inStock"
     },
     {
-      "name": "Fody Medium Salsa",
-      "size": "16 oz",
-      "brand": "fody",
-      "price": "$5.99",
-      "item_id": "items_11199-19103597",
-      "product_id": "19103597",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d195e556-9280-42d4-8933-40caa3bd175b.png",
+      "name": "Good Foods Feta Cucumber Dip",
+      "size": "8 oz",
+      "brand": "good foods",
+      "price": "$4.99",
+      "item_id": "items_11199-2758359",
+      "product_id": "2758359",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_98d0912f-7259-4e35-bc0b-35f6d63fdf3b.png",
       "availability": "inStock"
     },
     {
-      "name": "Fody Sensitive Recipe Salsa Verde",
+      "name": "Margarita's Amigos Chunky Style Mild Salsa",
       "size": "16 oz",
-      "brand": "fody",
-      "price": "$6.99",
-      "item_id": "items_11199-24170072",
-      "product_id": "24170072",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0ea7e971-4b4c-4aa2-8c20-314ee3a24b50.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Taste Flavor Co Buffalo Blue Cheese Everything Sauce",
-      "size": "9 oz",
-      "brand": "taste flavor co",
-      "price": "$6.99",
-      "item_id": "items_11199-109370199",
-      "product_id": "109370199",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7fc7921e-3a05-4800-bc3c-d37ba08189e0.png",
+      "brand": "margarita's amigos",
+      "price": "$4.99",
+      "item_id": "items_11199-17616157",
+      "product_id": "17616157",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f6b1b773-d108-4c98-91ff-99e5a414ac3b.png",
       "availability": "inStock"
     },
     {
@@ -1723,6 +1733,26 @@
       "item_id": "items_11199-17856876",
       "product_id": "17856876",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2e6e0f1f-140d-4d37-9d5a-d5d54445fd70.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Nopalli Lime Cactus Tortilla Chips",
+      "size": "4.5 oz",
+      "brand": "nopalli",
+      "price": "$4.99",
+      "item_id": "items_11199-54963454",
+      "product_id": "54963454",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1b990c23-7b5e-487e-9818-bad5f6241c68.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Nopalli Chile Limon Cactus Tortilla Chips",
+      "size": "4.5 oz",
+      "brand": "nopalli",
+      "price": "$4.99",
+      "item_id": "items_11199-54963607",
+      "product_id": "54963607",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b5762a08-6d3d-42e8-ab02-30287f88265b.png",
       "availability": "inStock"
     },
     {
@@ -1763,6 +1793,26 @@
       "item_id": "items_11199-26857727",
       "product_id": "26857727",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_55c5ae4a-218d-4867-96be-ed65d662a222.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Coyotas Organic Tortillas Organic Sea Salt Grain Free Tortilla Chips Made With Organic Avocado Oil",
+      "size": "5 oz",
+      "brand": "coyotas organic tortillas",
+      "price": "$8.99",
+      "item_id": "items_11199-120229195",
+      "product_id": "120229195",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cce44146-e97e-41ae-acaf-9ee490dff498.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Nopalli Sea Salt Cactus Tortilla Chips",
+      "size": "4.5 oz",
+      "brand": "nopalli",
+      "price": "$4.99",
+      "item_id": "items_11199-54963665",
+      "product_id": "54963665",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f765e69a-c8fd-45c6-a312-7833207d2d74.png",
       "availability": "inStock"
     },
     {
@@ -1846,26 +1896,6 @@
       "availability": "inStock"
     },
     {
-      "name": "Xochitl Organic White Corn Chips Made With Avocado Oil",
-      "size": "7.5 oz",
-      "brand": "xochitl",
-      "price": "$4.79",
-      "item_id": "items_11199-106404163",
-      "product_id": "106404163",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dd37fb1f-e32f-40ab-a2e5-138a119fda78.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Xochitl Spicy Lime Tortilla Chips Made With Avocado Oil",
-      "size": "7.5 oz",
-      "brand": "xochitl",
-      "price": "$4.79",
-      "item_id": "items_11199-106404234",
-      "product_id": "106404234",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a7746170-c572-43a7-88af-1076f72fbd0f.png",
-      "availability": "inStock"
-    },
-    {
       "name": "Sprouts Cinnamon & Sugar Flavored Churro Twists",
       "size": "4.5 oz",
       "brand": "sprouts",
@@ -1906,26 +1936,6 @@
       "availability": "inStock"
     },
     {
-      "name": "Xochitl Organic Blue Corn Tortilla Chips Made With Avocado Oil",
-      "size": "7.5 oz",
-      "brand": "xochitl",
-      "price": "$4.79",
-      "item_id": "items_11199-101566815",
-      "product_id": "101566815",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_79f6f42b-1f3f-4f6c-8b4b-21f104b9f42d.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Coyotas Organic Tortillas Organic Sea Salt Grain Free Tortilla Chips Made With Organic Avocado Oil",
-      "size": "5 oz",
-      "brand": "coyotas organic tortillas",
-      "price": "$8.99",
-      "item_id": "items_11199-120229195",
-      "product_id": "120229195",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cce44146-e97e-41ae-acaf-9ee490dff498.png",
-      "availability": "inStock"
-    },
-    {
       "name": "Boulder Canyon Blue Corn Tortilla Chips With Avocado Oil",
       "size": "8 oz",
       "brand": "boulder canyon",
@@ -1953,26 +1963,6 @@
       "item_id": "items_11199-25746266",
       "product_id": "25746266",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b5529205-f66a-4da8-95e5-838fe0ea1991.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Nopalli Sea Salt Cactus Tortilla Chips",
-      "size": "4.5 oz",
-      "brand": "nopalli",
-      "price": "$4.99",
-      "item_id": "items_11199-54963665",
-      "product_id": "54963665",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f765e69a-c8fd-45c6-a312-7833207d2d74.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Nopalli Chile Limon Cactus Tortilla Chips",
-      "size": "4.5 oz",
-      "brand": "nopalli",
-      "price": "$4.99",
-      "item_id": "items_11199-54963607",
-      "product_id": "54963607",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b5762a08-6d3d-42e8-ab02-30287f88265b.png",
       "availability": "inStock"
     },
     {
@@ -2016,26 +2006,6 @@
       "availability": "inStock"
     },
     {
-      "name": "Wilde Spicy Queso Chicken Protein Chips 4 Pack",
-      "size": "1.34 oz",
-      "brand": "wilde",
-      "price": "$7.99",
-      "item_id": "items_11199-33235696",
-      "product_id": "33235696",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e6527d6f-3101-428d-af61-bd33dad87b6f.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Nopalli Lime Cactus Tortilla Chips",
-      "size": "4.5 oz",
-      "brand": "nopalli",
-      "price": "$4.99",
-      "item_id": "items_11199-54963454",
-      "product_id": "54963454",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1b990c23-7b5e-487e-9818-bad5f6241c68.png",
-      "availability": "inStock"
-    },
-    {
       "name": "Late July Jalapeno Lime Tortilla Chips",
       "size": "2 oz",
       "brand": "late july",
@@ -2053,6 +2023,16 @@
       "item_id": "items_11199-54090373",
       "product_id": "54090373",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_85a35309-64c6-4060-a87c-641d2ea5ed44.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Extra Hot Habanero Salsa",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.99",
+      "item_id": "items_11199-20573070",
+      "product_id": "20573070",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_45ca304b-10c2-488e-82e9-e628f0030895.png",
       "availability": "inStock"
     },
     {
@@ -2083,6 +2063,26 @@
       "item_id": "items_11199-17856150",
       "product_id": "17856150",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7e4c405b-8650-41e9-afdc-e8ab235a9609.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Good Foods Avocado Mash With Sea Salt & Black Pepper 8 Pack",
+      "size": "8 ct",
+      "brand": "good foods",
+      "price": "$9.49",
+      "item_id": "items_11199-52077015",
+      "product_id": "52077015",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ddb72285-b633-4def-8e04-df6bc632d478.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Good Foods Chunky Traditional Guacamole 4 Pack",
+      "size": "2 oz",
+      "brand": "good foods",
+      "price": "$4.99",
+      "item_id": "items_11199-19547427",
+      "product_id": "19547427",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c4ddb784-5075-4aa0-a6a2-ad5375ac4637.png",
       "availability": "inStock"
     },
     {
@@ -2126,13 +2126,43 @@
       "availability": "inStock"
     },
     {
-      "name": "Margarita's Amigos Chunky Style Mild Salsa",
+      "name": "Mateo's Mild Black Bean & Corn Gourmet Salsa",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.99",
+      "item_id": "items_11199-58911043",
+      "product_id": "58911043",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3bd5a1f6-12ac-4022-8218-170e3475b956.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Margarita's Amigos Restaurant Style Hot Salsa",
       "size": "16 oz",
       "brand": "margarita's amigos",
       "price": "$4.99",
-      "item_id": "items_11199-17616157",
-      "product_id": "17616157",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f6b1b773-d108-4c98-91ff-99e5a414ac3b.png",
+      "item_id": "items_11199-17616166",
+      "product_id": "17616166",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bcb94982-b90d-43af-b52f-ac00f0bdeb88.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Margarita Sensation Chunky Style Medium Salsa",
+      "size": "16 oz",
+      "brand": "margarita sensation",
+      "price": "$4.99",
+      "item_id": "items_11199-17616158",
+      "product_id": "17616158",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_72b32942-5ce1-4eab-9cf2-dbfae2b6b71f.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fody Medium Salsa",
+      "size": "16 oz",
+      "brand": "fody",
+      "price": "$5.99",
+      "item_id": "items_11199-19103597",
+      "product_id": "19103597",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d195e556-9280-42d4-8933-40caa3bd175b.png",
       "availability": "inStock"
     },
     {
@@ -2153,66 +2183,6 @@
       "item_id": "items_11199-18265467",
       "product_id": "18265467",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2e4225ab-ed62-4e7c-a744-9c8c8e76d004.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Tatemada Jalapeno Salsa",
-      "size": "16 oz",
-      "brand": "tatemada",
-      "price": "$6.99",
-      "item_id": "items_11199-25020829",
-      "product_id": "25020829",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f5cd3b26-7147-4a03-a05f-92f8d3f689b8.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "505 Southwest Medium Southwest Style Salsa",
-      "size": "15 oz",
-      "brand": "505 southwestern",
-      "price": "$5.79",
-      "item_id": "items_11199-33201548",
-      "product_id": "33201548",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96266b22-038d-4b50-80ae-4a6fcd5b76c2.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Tatemada Habanero Salsa",
-      "size": "16 oz",
-      "brand": "tatemada",
-      "price": "$6.99",
-      "item_id": "items_11199-28117833",
-      "product_id": "28117833",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_098b0119-76b1-4497-9dc4-a3d05da4f642.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Siete Taqueria Style Salsa Soleada",
-      "size": "10.5 oz",
-      "brand": "siete",
-      "price": "$4.86",
-      "item_id": "items_11199-32551370",
-      "product_id": "32551370",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0db9d3b8-03df-4ea4-b3a0-b5116906093b.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Xochitl Asada Verde Medium Salsa",
-      "size": "15 oz",
-      "brand": "xochitl",
-      "price": "$7.49",
-      "item_id": "items_11199-56584",
-      "product_id": "56584",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f83f2182-eb2e-4633-9d68-4a812fa83cf4.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Sadie's Not As Hot Salsa",
-      "size": "16 oz",
-      "brand": "sadie's",
-      "price": "$5.49",
-      "item_id": "items_11199-221623",
-      "product_id": "221623",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e7b66474-fec7-46be-8840-676d7eb7d2ec.png",
       "availability": "inStock"
     },
     {
@@ -2253,16 +2223,6 @@
       "item_id": "items_11199-46740866",
       "product_id": "46740866",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_30cffb8a-a487-4b1c-8133-8131a6bcb682.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Good Foods Chunky Traditional Guacamole",
-      "size": "13 oz",
-      "brand": "good foods",
-      "price": "$6.99",
-      "item_id": "items_11199-18421269",
-      "product_id": "18421269",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d3608cce-53fb-4876-a39e-69fd7a8e3334.png",
       "availability": "inStock"
     },
     {
@@ -2313,26 +2273,6 @@
       "item_id": "items_11199-40088",
       "product_id": "40088",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8cd9910b-b373-46eb-a7df-c4f2888856c5.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Good Foods Chunky Traditional Guacamole 4 Pack",
-      "size": "2 oz",
-      "brand": "good foods",
-      "price": "$4.99",
-      "item_id": "items_11199-19547427",
-      "product_id": "19547427",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c4ddb784-5075-4aa0-a6a2-ad5375ac4637.png",
-      "availability": "inStock"
-    },
-    {
-      "name": "Good Foods Avocado Mash With Sea Salt & Black Pepper 8 Pack",
-      "size": "8 ct",
-      "brand": "good foods",
-      "price": "$9.49",
-      "item_id": "items_11199-52077015",
-      "product_id": "52077015",
-      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ddb72285-b633-4def-8e04-df6bc632d478.png",
       "availability": "inStock"
     },
     {
@@ -2424,10 +2364,70 @@
       "product_id": "16643002",
       "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ead5c176-3ba4-4511-ac3e-8b5d3ccbc8ef.png",
       "availability": "inStock"
+    },
+    {
+      "name": "Vista Hermosa 10 Inch Flour Tortillas 6 Count",
+      "size": "6 ct",
+      "brand": "vista hermosa",
+      "price": "$8.99",
+      "item_id": "items_11199-51500479",
+      "product_id": "51500479",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0036c05d-43b5-47c0-87c8-20a102d417af.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Siete Spicy Taco Seasoning",
+      "size": "1.31 oz",
+      "brand": "siete",
+      "price": "$2.25",
+      "item_id": "items_11199-21220661",
+      "product_id": "21220661",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7872a7e3-4ddd-4c3b-9272-5d71cc6d9e40.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Sprouts Colby Jack Shredded Cheese Value Pack",
+      "size": "32 oz",
+      "brand": "sprouts",
+      "price": "$11.49",
+      "item_id": "items_11199-19489469",
+      "product_id": "19489469",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_13ecaafa-a8aa-4f00-a060-9ef0463c693a.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Gotham Greens Greenhouse Crunch Lettuce",
+      "size": "4.5 oz",
+      "brand": "gotham greens",
+      "price": "$3.99",
+      "item_id": "items_11199-248214",
+      "product_id": "248214",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_82071d0b-98b7-498c-8df7-75600b624d55.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Gotham Greens Butterhead Lettuce",
+      "size": "4.5 oz",
+      "brand": "gotham greens",
+      "price": "$3.99",
+      "item_id": "items_11199-335849",
+      "product_id": "335849",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de5602b0-b48f-4ecd-9e33-86e45e8468fc.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mission 10 Inch Burrito Tortillas",
+      "size": "8 ct",
+      "brand": "mission",
+      "price": "$4.99",
+      "item_id": "items_11199-43297",
+      "product_id": "43297",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ff4cbb3e-19e3-4846-b858-cfc02c91a824.png",
+      "availability": "inStock"
     }
   ],
   "js_store": "API zip 60563 shop 4117 location 11199",
-  "js_debug": "DefaultShop 200 1729 | SearchResultsPlacements 200 479821 | shop 4117 loc 11199 zone 618 ids 251 | Items 200 351720 | Items 200 346059 | Items 200 349740 | Items 200 324057",
-  "houses_text": 23,
-  "houses_page": 60
+  "js_debug": "DefaultShop 200 1729 | SearchResultsPlacements 200 506111 | shop 4117 loc 11199 zone 786 ids 256 | Items 200 354066 | Items 200 344304 | Items 200 337623 | Items 200 318140",
+  "houses_text": 21,
+  "houses_page": 63
 }
