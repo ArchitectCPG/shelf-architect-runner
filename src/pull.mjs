@@ -202,7 +202,10 @@ function extractFromText(text) {
     const win = []; for (let j = Math.max(0, i - 5); j <= Math.min(lines.length - 1, i + 5); j++) if (j !== i) win.push(lines[j]);
     const cands = win.filter(l => l.length > 8 && l.length < 120 && /[a-z]/i.test(l) && !anyPrice.test(l) && !junk.test(l));
     if (!cands.length) continue;
-    const name = cands.reduce((a, b) => (b.length > a.length ? b : a), ""); const key = name + "|" + lines[i];
+    const promo = /^(coupon|earn|points|clip|save \$|buy \d|get \d|limit \d|\d+ for \$|when you|with card|member|sponsored|rated|★)/i; const sizeOnly = /^\d+(\.\d+)?\s?(fl oz|fl\. oz|oz|ounce|lb|lbs|ct|count|g|ml|pk|pack)\b/i;
+    const after = []; for (let j = i + 1; j <= Math.min(lines.length - 1, i + 5); j++) { const l = lines[j]; if (priceRe.test(l)) break; if (l.length > 8 && l.length < 120 && /[a-z]/i.test(l) && !anyPrice.test(l) && !junk.test(l) && !promo.test(l) && !sizeOnly.test(l)) after.push(l); }
+    const clean = cands.filter(l => !promo.test(l) && !sizeOnly.test(l));
+    const name = after[0] || (clean.length ? clean : cands).reduce((a, b) => (b.length > a.length ? b : a), ""); const key = name + "|" + lines[i];
     if (seen.has(key)) continue; seen.add(key);
     const size = (name.match(/\b\d+(\.\d+)?\s?(fl oz|fl\. oz|oz|ounce|lb|lbs|ct|count|g|ml)\b/i) || [""])[0];
     items.push({ name, brand: null, price: lines[i].replace(/\s/g, ""), size, img: null, link: null, card_text: [], via: "text" });

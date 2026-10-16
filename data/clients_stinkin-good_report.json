@@ -4,30 +4,30 @@
   {
    "banner": "citymarket",
    "term": "green chile",
-   "status": "OK",
-   "houses": 41,
-   "store": "Pickup at 12th Street Grand Junction",
-   "sg": 2,
-   "comp": 16,
-   "pmed": 4.49,
-   "err": ""
+   "status": "WEAK",
+   "houses": 0,
+   "store": "",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": "Error: page.evaluate: TypeError: Cannot read properties of n"
   },
   {
    "banner": "citymarket",
    "term": "queso",
    "status": "OK",
-   "houses": 43,
+   "houses": 38,
    "store": "Pickup at 12th Street Grand Junction",
    "sg": 0,
-   "comp": 3,
-   "pmed": 4.29,
+   "comp": 4,
+   "pmed": 4.19,
    "err": ""
   },
   {
    "banner": "citymarket",
    "term": "tamales",
    "status": "OK",
-   "houses": 34,
+   "houses": 60,
    "store": "Pickup at 12th Street Grand Junction",
    "sg": 0,
    "comp": 6,
@@ -35,47 +35,80 @@
    "err": ""
   },
   {
-   "banner": "kingsoopers-ic",
+   "banner": "costco-online",
    "term": "green chile",
    "status": "OK",
-   "houses": 120,
-   "store": "API zip 80202 shop 3651 location 2386",
-   "sg": 1,
-   "comp": 11,
-   "pmed": 3.19,
-   "err": ""
-  },
-  {
-   "banner": "kingsoopers-ic",
-   "term": "queso",
-   "status": "OK",
-   "houses": 120,
-   "store": "API zip 80202 shop 3651 location 2386",
+   "houses": 24,
+   "store": "costco.com online (national, 2-day delivery pricing)",
    "sg": 0,
    "comp": 2,
-   "pmed": 4.99,
+   "pmed": 14.99,
    "err": ""
   },
   {
-   "banner": "kingsoopers-ic",
+   "banner": "costco-online",
+   "term": "queso",
+   "status": "WEAK",
+   "houses": 0,
+   "store": "costco.com online (national, 2-day delivery pricing)",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": ""
+  },
+  {
+   "banner": "costco-online",
    "term": "tamales",
    "status": "OK",
-   "houses": 120,
-   "store": "API zip 80202 shop 3651 location 2386",
+   "houses": 5,
+   "store": "costco.com online (national, 2-day delivery pricing)",
    "sg": 0,
-   "comp": 7,
-   "pmed": 4.99,
+   "comp": 1,
+   "pmed": 99.99,
+   "err": ""
+  },
+  {
+   "banner": "heb",
+   "term": "green chile",
+   "status": "OK",
+   "houses": 60,
+   "store": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+   "sg": 0,
+   "comp": 32,
+   "pmed": 4.33,
+   "err": ""
+  },
+  {
+   "banner": "heb",
+   "term": "queso",
+   "status": "OK",
+   "houses": 62,
+   "store": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+   "sg": 0,
+   "comp": 2,
+   "pmed": 4.21,
+   "err": ""
+  },
+  {
+   "banner": "heb",
+   "term": "tamales",
+   "status": "OK",
+   "houses": 20,
+   "store": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+   "sg": 0,
+   "comp": 0,
+   "pmed": 9.74,
    "err": ""
   },
   {
    "banner": "kingsoopers",
    "term": "green chile",
    "status": "OK",
-   "houses": 42,
+   "houses": 81,
    "store": "Pickup at Union Station",
    "sg": 0,
-   "comp": 18,
-   "pmed": 3.99,
+   "comp": 15,
+   "pmed": 2.49,
    "err": ""
   },
   {
@@ -93,10 +126,10 @@
    "banner": "kingsoopers",
    "term": "tamales",
    "status": "OK",
-   "houses": 35,
+   "houses": 28,
    "store": "Pickup at Union Station",
    "sg": 0,
-   "comp": 7,
+   "comp": 6,
    "pmed": 6.99,
    "err": ""
   },
@@ -104,33 +137,33 @@
    "banner": "safeway",
    "term": "green chile",
    "status": "OK",
-   "houses": 32,
+   "houses": 37,
    "store": "757 E 20th Ave",
    "sg": 0,
-   "comp": 12,
-   "pmed": 6.24,
+   "comp": 15,
+   "pmed": 5.49,
    "err": ""
   },
   {
    "banner": "safeway",
    "term": "queso",
-   "status": "OK",
-   "houses": 43,
+   "status": "WEAK",
+   "houses": 0,
    "store": "757 E 20th Ave",
    "sg": 0,
-   "comp": 2,
-   "pmed": 4.99,
+   "comp": 0,
+   "pmed": null,
    "err": ""
   },
   {
    "banner": "safeway",
    "term": "tamales",
-   "status": "OK",
-   "houses": 45,
+   "status": "WEAK",
+   "houses": 0,
    "store": "757 E 20th Ave",
    "sg": 0,
-   "comp": 2,
-   "pmed": 6.99,
+   "comp": 0,
+   "pmed": null,
    "err": ""
   },
   {
@@ -140,7 +173,7 @@
    "houses": 120,
    "store": "API zip 80202 shop 514311 location 21118",
    "sg": 0,
-   "comp": 15,
+   "comp": 12,
    "pmed": 4.99,
    "err": ""
   },
@@ -152,17 +185,17 @@
    "store": "API zip 80202 shop 514311 location 21118",
    "sg": 0,
    "comp": 1,
-   "pmed": 6.49,
+   "pmed": 5.99,
    "err": ""
   },
   {
    "banner": "sprouts",
    "term": "tamales",
    "status": "OK",
-   "houses": 120,
+   "houses": 118,
    "store": "API zip 80202 shop 514311 location 21118",
    "sg": 0,
-   "comp": 4,
+   "comp": 3,
    "pmed": 5.99,
    "err": ""
   },
@@ -173,8 +206,8 @@
    "houses": 47,
    "store": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
    "sg": 0,
-   "comp": 0,
-   "pmed": 13.99,
+   "comp": 6,
+   "pmed": 2.99,
    "err": ""
   },
   {
@@ -185,7 +218,7 @@
    "store": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
    "sg": 0,
    "comp": 0,
-   "pmed": 5.49,
+   "pmed": 5.34,
    "err": ""
   },
   {
@@ -196,69 +229,69 @@
    "store": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
    "sg": 0,
    "comp": 0,
-   "pmed": 5.44,
+   "pmed": 4.69,
    "err": ""
   },
   {
    "banner": "walmart",
    "term": "green chile",
-   "status": "WEAK",
-   "houses": 0,
-   "store": "API zip 80202 (dataset gd_m693oc1r1gebnayxq)",
+   "status": "OK",
+   "houses": 37,
+   "store": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
    "sg": 0,
-   "comp": 0,
-   "pmed": null,
+   "comp": 9,
+   "pmed": 11.99,
    "err": ""
   },
   {
    "banner": "walmart",
    "term": "queso",
-   "status": "WEAK",
-   "houses": 0,
-   "store": "API zip 80202 (dataset gd_m693oc1r1gebnayxq)",
+   "status": "OK",
+   "houses": 43,
+   "store": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
    "sg": 0,
    "comp": 0,
-   "pmed": null,
+   "pmed": 4.34,
    "err": ""
   },
   {
    "banner": "walmart",
    "term": "tamales",
-   "status": "WEAK",
-   "houses": 0,
-   "store": "API zip 80202 (dataset gd_m693oc1r1gebnayxq)",
+   "status": "OK",
+   "houses": 26,
+   "store": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
    "sg": 0,
    "comp": 0,
-   "pmed": null,
+   "pmed": 15.49,
    "err": ""
   },
   {
    "banner": "wholefoods",
    "term": "green chile",
    "status": "OK",
-   "houses": 15,
-   "store": "Montrose",
+   "houses": 24,
+   "store": "",
    "sg": 0,
    "comp": 4,
-   "pmed": 6.99,
+   "pmed": 4.99,
    "err": ""
   },
   {
    "banner": "wholefoods",
    "term": "queso",
    "status": "OK",
-   "houses": 32,
+   "houses": 35,
    "store": "80202",
    "sg": 0,
    "comp": 0,
-   "pmed": 6.24,
+   "pmed": 5.99,
    "err": ""
   },
   {
    "banner": "wholefoods",
    "term": "tamales",
    "status": "OK",
-   "houses": 21,
+   "houses": 16,
    "store": "80202",
    "sg": 0,
    "comp": 0,
@@ -266,197 +299,9 @@
    "err": ""
   }
  ],
- "sg_items": [
-  {
-   "name": "Schlereth's Stinkin' Good Green Chile Sauce",
-   "price": "$6.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile"
-  },
-  {
-   "name": "Schlereth's Stinkin' Good Green Chile Sauce",
-   "price": "$6.49",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile"
-  },
-  {
-   "name": "Stinkin Good Green Chili",
-   "size": "15 oz",
-   "price": "$7.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "green chile"
-  }
- ],
+ "sg_items": [],
  "comp_items": [
   {
-   "name": "Hatch Valley Flame Roasted Medium Green Chile",
-   "price": "$6.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch Valley Flame Roasted Extra Hot Green Chile",
-   "price": "$6.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch Valley Flame Roasted Extra Hot Green Chile",
-   "price": "$3.90",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch Valley Flame Roasted Extra Hot Green Chile",
-   "price": "$4.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch\u00ae Mild Green Chile Enchilada Sauce",
-   "price": "$4.49",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Mild Hatch Valley Green Chile Sauce",
-   "price": "$3.90",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Mild Hatch Valley Green Chile Sauce",
-   "price": "$4.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Mild Hatch Valley Green Chile Sauce",
-   "price": "$3.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Mild Hatch Valley Green Chile Sauce",
-   "price": "$4.49",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
-   "price": "$3.90",
-   "size": "16 oz",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
-   "price": "$4.99",
-   "size": "16 oz",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Medium Green Chile Salsa",
-   "price": "$3.90",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Medium Green Chile Salsa",
-   "price": "$4.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Medium Green Chile Salsa",
-   "price": "$6.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern"
-   ]
-  },
-  {
-   "name": "Del Real\u2122 Foods Fire Roasted Green Salsa",
-   "price": "$4.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
-   "name": "Del Real\u2122 Foods Fire Roasted Green Salsa",
-   "price": "$3.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "green chile",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
    "name": "505 Southwestern\u00ae Green Chile Blanco Queso",
    "price": "$3.90",
    "size": "",
@@ -487,13 +332,13 @@
    ]
   },
   {
-   "name": "Del Real Foods\u00ae Gluten Free Pork Tamales",
-   "price": "$9.49",
+   "name": "505 Southwestern\u00ae Green Chile Blanco Queso",
+   "price": "$4.19",
    "size": "",
    "_banner": "citymarket",
-   "_term": "tamales",
+   "_term": "queso",
    "_comp": [
-    "Del Real"
+    "505 Southwestern"
    ]
   },
   {
@@ -507,7 +352,47 @@
    ]
   },
   {
-   "name": "Del Real\u2122 Foods Pollo Deshebrado Shredded Chicken",
+   "name": "Del Real Foods\u00ae Gluten Free Pork Tamales",
+   "price": "$9.49",
+   "size": "",
+   "_banner": "citymarket",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real Foods\u00ae Gluten Free Pork Tamales",
+   "price": "$10.99",
+   "size": "",
+   "_banner": "citymarket",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
+   "price": "$6.99",
+   "size": "",
+   "_banner": "citymarket",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
+   "price": "$7.79",
+   "size": "",
+   "_banner": "citymarket",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
    "price": "$11.99",
    "size": "",
    "_banner": "citymarket",
@@ -517,50 +402,382 @@
    ]
   },
   {
-   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
-   "price": "$6.99",
+   "name": "Texas Tamale Co. Hatch Chile Tamales 6pk of 12 Each, 72-count",
+   "price": "$99.99",
    "size": "",
-   "_banner": "citymarket",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
-   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
-   "price": "$10.99",
-   "size": "",
-   "_banner": "citymarket",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
-   "name": "Del Real\u00ae Foods Beef Tamales 6 Count",
-   "price": "$9.49",
-   "size": "6 Count",
-   "_banner": "citymarket",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
-   "name": "Hatch\u00ae Select Hot Diced Green Chiles",
-   "size": "4 oz",
-   "price": "$2.69",
-   "_banner": "kingsoopers-ic",
+   "_banner": "costco-online",
    "_term": "green chile",
    "_comp": [
     "Hatch/other green chile"
    ]
   },
   {
-   "name": "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile Sauce",
-   "size": "40 oz",
-   "price": "$13.99",
-   "_banner": "kingsoopers-ic",
+   "name": "Beemster Smoked Hatch Pepper Cheese, Full Wheel, Approximately 5 lbs.",
+   "price": "$129.99",
+   "size": "5 lbs",
+   "_banner": "costco-online",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Texas Tamale Co. Hatch Chile Tamales 6pk of 12 Each, 72-count",
+   "price": "$99.99",
+   "size": "",
+   "_banner": "costco-online",
+   "_term": "tamales",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile, 16 oz",
+   "price": "$4.00",
+   "size": "16 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern",
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile, 16 oz",
+   "price": "$1.87",
+   "size": "16 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern",
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Antone's Hatch Green Chile Chicken & Cheddar Po'Boy Sandwich, 9.9 oz",
+   "price": "$7.99",
+   "size": "9.9 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Antone's Hatch Green Chile Chicken & Cheddar Po'Boy Sandwich, 9.9 oz",
+   "price": "$4.66",
+   "size": "9.9 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Central Market Hatch Green Chile Roja Medium Salsa, 16 oz",
+   "price": "$1.34",
+   "size": "16 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "WisePies Pizza Hatch Green Chile Uncured Pepperoni Mega Bites, 8 oz",
+   "price": "$6.98",
+   "size": "8 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "H-E-B Simply Seasoned Hatch Green Chile Seasoned Chicken Leg Quarters, Avg. 4.3 lbs",
+   "price": "$6.32",
+   "size": "4.3 lbs",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "H-E-B Simply Seasoned Hatch Green Chile Seasoned Chicken Leg Quarters, Avg. 4.3 lbs",
+   "price": "$2.28",
+   "size": "4.3 lbs",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Olde Thompson Hatch Green Chili Powder, 1.9 oz",
+   "price": "$4.97",
+   "size": "1.9 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Burleson's Hatch Chile Hot Honey Spread, 12 oz",
+   "price": "$6.48",
+   "size": "12 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Ro-Tel Hatch Diced Tomatoes & Fire-Roasted Hatch Chilies, 10 oz",
+   "price": "$1.53",
+   "size": "10 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Ro-Tel Hatch Diced Tomatoes & Fire-Roasted Hatch Chilies, 10 oz",
+   "price": "$4.98",
+   "size": "10 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Delallo Hatch Chile Pepper & Olive Salad, 7 oz",
+   "price": "$5.98",
+   "size": "7 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Delallo Hatch Chile Pepper & Olive Salad, 7 oz",
+   "price": "$3.45",
+   "size": "7 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Delallo Hatch Chile Pepper & Olive Salad, 7 oz",
+   "price": "$3.16",
+   "size": "7 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Archer Grass-Fed Beef Jerky - Hatch Chile, 2.5 oz",
+   "price": "$6.98",
+   "size": "2.5 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Central Market Hatch Chile Dark Chocolate Bar, 3 oz",
+   "price": "$4.39",
+   "size": "3 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Macarooz Chocolate Hatch Chile\u00a0Macaron Cake Mac Pops, 3 ct",
+   "price": "$9.98",
+   "size": "3 ct",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Macarooz Chocolate Hatch Chile\u00a0Macaron Cake Mac Pops, 3 ct",
+   "price": "$8.49",
+   "size": "3 ct",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Yancey's Fancy Zesty Hatch Chile Cheddar Cheese, Avg. 0.57 lb",
+   "price": "$6.83",
+   "size": "0.57 lb",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Yancey's Fancy Zesty Hatch Chile Cheddar Cheese, Avg. 0.57 lb",
+   "price": "$8.98",
+   "size": "0.57 lb",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "H-E-B Premium Smoked Sausage Links - Hatch Chile Pepper, 5 ct",
+   "price": "$7.49",
+   "size": "5 ct",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Meal Simple by H-E-B Hatch Chile Jalape\u00f1o Queso Blanco Dip, 12 oz",
+   "price": "$6.75",
+   "size": "12 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "MightyCrust by H-E-B Hatch Chile & Pepperoni Cauliflower Crust Gluten Free Frozen Pizza, 9.7 oz",
+   "price": "$6.98",
+   "size": "9.7 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "MightyCrust by H-E-B Hatch Chile & Pepperoni Cauliflower Crust Gluten Free Frozen Pizza, 9.7 oz",
+   "price": "$5.97",
+   "size": "9.7 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "MightyCrust by H-E-B Hatch Chile & Pepperoni Cauliflower Crust Gluten Free Frozen Pizza, 9.7 oz",
+   "price": "$7.99",
+   "size": "9.7 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "H-E-B Natural In-House Roasted Hatch Chile-Seasoned Turkey Breast, Custom Sliced, lb",
+   "price": "$12.99",
+   "size": "",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "H-E-B Natural In-House Roasted Hatch Chile-Seasoned Turkey Breast, Custom Sliced, lb",
+   "price": "$3.48",
+   "size": "",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "H-E-B Natural In-House Roasted Hatch Chile Turkey Breast, Sandwich Sliced, Avg. 0.75 lb",
+   "price": "$9.74",
+   "size": "0.75 lb",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "H-E-B Natural In-House Roasted Hatch Chile Turkey Breast, Sandwich Sliced, Avg. 0.75 lb",
+   "price": "$5.97",
+   "size": "0.75 lb",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "38 Pecans Southwest Hatch Chili Texas Pecan Coating Mix, 8 oz",
+   "price": "$3.98",
+   "size": "8 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Hampton Farms Hatch Chili Flavored In-Shell Hot Nuts, 18 oz",
+   "price": "$2.99",
+   "size": "18 oz",
+   "_banner": "heb",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Central Market Hatch Green Chile Queso - Medium, 16 oz",
+   "price": "$4.66",
+   "size": "16 oz",
+   "_banner": "heb",
+   "_term": "queso",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Central Market Hatch Green Chile Queso - Medium, 16 oz",
+   "price": "$6.99",
+   "size": "16 oz",
+   "_banner": "heb",
+   "_term": "queso",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern\u00ae Medium Flame Roasted Hatch Valley Green Chile",
+   "price": "$3.90",
+   "size": "",
+   "_banner": "kingsoopers",
    "_term": "green chile",
    "_comp": [
     "505 Southwestern",
@@ -569,40 +786,9 @@
   },
   {
    "name": "505 Southwestern\u00ae Medium Flame Roasted Hatch Valley Green Chile",
-   "size": "16 oz",
-   "price": "$3.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch Mild Chopped Green Chiles",
-   "size": "27 oz",
-   "price": "$7.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch\u00ae Mild Diced Green Chiles",
-   "size": "4 oz",
-   "price": "$2.69",
-   "_banner": "kingsoopers-ic",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Mild Hatch Valley Green Chile Sauce",
-   "size": "16 oz",
-   "price": "$3.99",
-   "_banner": "kingsoopers-ic",
+   "price": "$4.99",
+   "size": "",
+   "_banner": "kingsoopers",
    "_term": "green chile",
    "_comp": [
     "505 Southwestern",
@@ -611,145 +797,22 @@
   },
   {
    "name": "505 Southwestern\u00ae Medium Green Chile Sauce",
-   "size": "16 oz",
-   "price": "$3.99",
-   "_banner": "kingsoopers-ic",
+   "price": "$2.39",
+   "size": "",
+   "_banner": "kingsoopers",
    "_term": "green chile",
    "_comp": [
     "505 Southwestern"
    ]
   },
   {
-   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
-   "size": "16 oz",
-   "price": "$3.99",
-   "_banner": "kingsoopers-ic",
+   "name": "505 Southwestern\u00ae Medium Green Chile Sauce",
+   "price": "$2.49",
+   "size": "",
+   "_banner": "kingsoopers",
    "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Hot Hatch Valley Green Chile Sauce",
-   "size": "16 oz",
-   "price": "$3.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch\u00ae Mild Green Chile Enchilada Sauce",
-   "size": "15 oz",
-   "price": "$3.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Rotel Diced Tomatoes & Fire Roasted Hatch Chilies",
-   "size": "10 oz",
-   "price": "$1.79",
-   "_banner": "kingsoopers-ic",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Green Chile Queso Dip",
-   "size": "15 oz",
-   "price": "$3.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "queso",
    "_comp": [
     "505 Southwestern"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Green Chile Blanco Queso",
-   "size": "15 oz",
-   "price": "$3.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "queso",
-   "_comp": [
-    "505 Southwestern"
-   ]
-  },
-  {
-   "name": "Del Real Foods\u00ae Gluten Free Pork Tamales",
-   "size": "24 oz",
-   "price": "$10.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
-   "name": "Del Real Foods Chicken and Cheese Tamales",
-   "size": "24 oz",
-   "price": "$10.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
-   "name": "Del Real\u00ae Foods Beef Tamales 6 Count",
-   "size": "6 each",
-   "price": "$10.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
-   "name": "Del Real Foods\u00a0Birria and Cheese Mini Pupusas",
-   "size": "16.8 oz",
-   "price": "$9.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
-   "name": "Pork Carnitas",
-   "size": "15 oz",
-   "price": "$12.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
-   "name": "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile Sauce",
-   "size": "40 oz",
-   "price": "$13.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "tamales",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
-   "size": "13 oz",
-   "price": "$7.99",
-   "_banner": "kingsoopers-ic",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
    ]
   },
   {
@@ -776,122 +839,27 @@
   },
   {
    "name": "505 Southwestern\u00ae Mild Hatch Valley Green Chile Sauce",
-   "price": "$3.99",
-   "size": "",
-   "_banner": "kingsoopers",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Mild Hatch Valley Green Chile Sauce",
-   "price": "$4.49",
-   "size": "",
-   "_banner": "kingsoopers",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
-   "price": "$3.90",
-   "size": "16 oz",
-   "_banner": "kingsoopers",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
-   "price": "$4.99",
-   "size": "16 oz",
-   "_banner": "kingsoopers",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Medium Green Chile Salsa",
-   "price": "$3.90",
-   "size": "",
-   "_banner": "kingsoopers",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Medium Green Chile Salsa",
-   "price": "$4.99",
-   "size": "",
-   "_banner": "kingsoopers",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Medium Green Chile Salsa",
    "price": "$6.99",
    "size": "",
    "_banner": "kingsoopers",
    "_term": "green chile",
    "_comp": [
-    "505 Southwestern"
-   ]
-  },
-  {
-   "name": "505 Southwestern Hot Green Chile Salsa",
-   "price": "$3.90",
-   "size": "",
-   "_banner": "kingsoopers",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern"
-   ]
-  },
-  {
-   "name": "505 Southwestern Hot Green Chile Salsa",
-   "price": "$4.99",
-   "size": "",
-   "_banner": "kingsoopers",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern"
-   ]
-  },
-  {
-   "name": "505 Southwestern\u00ae Medium Flame Roasted Hatch Valley Green Chile",
-   "price": "$3.90",
-   "size": "",
-   "_banner": "kingsoopers",
-   "_term": "green chile",
-   "_comp": [
     "505 Southwestern",
     "Hatch/other green chile"
    ]
   },
   {
-   "name": "505 Southwestern\u00ae Medium Flame Roasted Hatch Valley Green Chile",
-   "price": "$4.99",
+   "name": "Santiago's Authentic Green Chile Sauce With Pork",
+   "price": "$9.49",
    "size": "",
    "_banner": "kingsoopers",
    "_term": "green chile",
    "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
+    "Santiago's"
    ]
   },
   {
-   "name": "505 Hatch Green Chile Tortilla Chips 7.5 oz",
+   "name": "505 Whole Grain Hatch Red Chile Tortilla Chips 7.5 oz",
    "price": "$3.50",
    "size": "7.5 oz",
    "_banner": "kingsoopers",
@@ -902,7 +870,7 @@
    ]
   },
   {
-   "name": "505 Hatch Green Chile Tortilla Chips 7.5 oz",
+   "name": "505 Whole Grain Hatch Red Chile Tortilla Chips 7.5 oz",
    "price": "$4.99",
    "size": "7.5 oz",
    "_banner": "kingsoopers",
@@ -913,13 +881,36 @@
    ]
   },
   {
-   "name": "505 Southwestern\u00ae Green Chile Blanco Queso",
-   "price": "$3.99",
-   "size": "",
+   "name": "505 Whole Grain Hatch Red Chile Tortilla Chips 7.5 oz",
+   "price": "$6.29",
+   "size": "7.5 oz",
    "_banner": "kingsoopers",
    "_term": "green chile",
    "_comp": [
-    "505 Southwestern"
+    "505 Southwestern",
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
+   "price": "$3.90",
+   "size": "16 oz",
+   "_banner": "kingsoopers",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern",
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
+   "price": "$4.99",
+   "size": "16 oz",
+   "_banner": "kingsoopers",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern",
+    "Hatch/other green chile"
    ]
   },
   {
@@ -934,13 +925,14 @@
    ]
   },
   {
-   "name": "Del Real\u2122 Foods Fire Roasted Green Salsa",
-   "price": "$4.99",
+   "name": "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile Sauce",
+   "price": "$6.29",
    "size": "",
    "_banner": "kingsoopers",
    "_term": "green chile",
    "_comp": [
-    "Del Real"
+    "505 Southwestern",
+    "Hatch/other green chile"
    ]
   },
   {
@@ -1004,26 +996,6 @@
    ]
   },
   {
-   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
-   "price": "$6.99",
-   "size": "",
-   "_banner": "kingsoopers",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
-   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
-   "price": "$9.49",
-   "size": "",
-   "_banner": "kingsoopers",
-   "_term": "tamales",
-   "_comp": [
-    "Del Real"
-   ]
-  },
-  {
    "name": "Del Real\u00ae Foods Beef Tamales 6 Count",
    "price": "$9.49",
    "size": "6 Count",
@@ -1045,7 +1017,7 @@
   },
   {
    "name": "Del Real\u2122 Foods Pollo Deshebrado Shredded Chicken",
-   "price": "$4.29",
+   "price": "$1.50",
    "size": "",
    "_banner": "kingsoopers",
    "_term": "tamales",
@@ -1054,24 +1026,13 @@
    ]
   },
   {
-   "name": "Santiagos Authentic Mild Green Chili - 28 Oz",
-   "price": "$9.49",
-   "size": "28 Oz",
-   "_banner": "safeway",
-   "_term": "green chile",
+   "name": "Del Real\u2122 Foods Arroz Con Vegetales Rice with Vegetables",
+   "price": "$6.99",
+   "size": "",
+   "_banner": "kingsoopers",
+   "_term": "tamales",
    "_comp": [
-    "Santiago's"
-   ]
-  },
-  {
-   "name": "505 Southwestern Hatch Valley ... Roasted Jar - 16 Oz",
-   "price": "$4.29",
-   "size": "16 Oz",
-   "_banner": "safeway",
-   "_term": "green chile",
-   "_comp": [
-    "505 Southwestern",
-    "Hatch/other green chile"
+    "Del Real"
    ]
   },
   {
@@ -1082,16 +1043,6 @@
    "_term": "green chile",
    "_comp": [
     "505 Southwestern",
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch Valley Flame Roasted Green Chile Medium - 24 OZ",
-   "price": "$8.49",
-   "size": "24 OZ",
-   "_banner": "safeway",
-   "_term": "green chile",
-   "_comp": [
     "Hatch/other green chile"
    ]
   },
@@ -1113,6 +1064,36 @@
    "_term": "green chile",
    "_comp": [
     "505 Southwestern"
+   ]
+  },
+  {
+   "name": "Zia Hatch Chile Hatch Rsted Green Chile - 16 OZ",
+   "price": "$8.49",
+   "size": "16 OZ",
+   "_banner": "safeway",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Hatch Valley Flame Roasted Green Chile Medium - 24 OZ",
+   "price": "$8.49",
+   "size": "24 OZ",
+   "_banner": "safeway",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Zia Hatch Chile Company Chile Diced Green Hot - 16 Oz.",
+   "price": "$8.49",
+   "size": "16 Oz",
+   "_banner": "safeway",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
    ]
   },
   {
@@ -1136,9 +1117,9 @@
    ]
   },
   {
-   "name": "Hatch Chile Powder Green Mild - 3 Oz",
-   "price": "$5.99",
-   "size": "3 Oz",
+   "name": "HATCH Select Green Chiles Gluten Free Diced Hot Can - 4 Oz",
+   "price": "$1.99",
+   "size": "4 Oz",
    "_banner": "safeway",
    "_term": "green chile",
    "_comp": [
@@ -1146,63 +1127,55 @@
    ]
   },
   {
-   "name": "Santiagos Authentic Hot Green Chili - 28 Oz",
+   "name": "HATCH Select Green Chiles Gluten Free Diced Hot Can - 4 Oz",
+   "price": "$2.49",
+   "size": "4 Oz",
+   "_banner": "safeway",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Hatch Valley ...e Medium Jar - 40 Oz",
+   "price": "$8.99",
+   "size": "40 Oz",
+   "_banner": "safeway",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern",
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Hatch Valley ...e Medium Jar - 40 Oz",
    "price": "$9.49",
-   "size": "28 Oz",
+   "size": "40 Oz",
    "_banner": "safeway",
    "_term": "green chile",
    "_comp": [
-    "Santiago's"
-   ]
-  },
-  {
-   "name": "Santiagos Authentic Medium Green Chili - 28 Oz",
-   "price": "$9.49",
-   "size": "28 Oz",
-   "_banner": "safeway",
-   "_term": "green chile",
-   "_comp": [
-    "Santiago's"
-   ]
-  },
-  {
-   "name": "Hatch Valley Flame Roasted Green Chile Hot - 24 OZ",
-   "price": "$8.49",
-   "size": "24 OZ",
-   "_banner": "safeway",
-   "_term": "green chile",
-   "_comp": [
+    "505 Southwestern",
     "Hatch/other green chile"
    ]
   },
   {
-   "name": "On The Border Hatch Green Queso - 15.5 Oz.",
-   "price": "$4.49",
-   "size": "15.5 Oz",
-   "_banner": "safeway",
-   "_term": "queso",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "On The Border Hatch Green Queso - 15.5 Oz.",
-   "price": "$4.99",
-   "size": "15.5 Oz",
-   "_banner": "safeway",
-   "_term": "queso",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Del Real Beef Barbacoa - 16 Oz",
-   "price": "$13.99",
+   "name": "505 Southwestern Sauce Organic Green Chile Mild Jar - 16 Oz",
+   "price": "$5.49",
    "size": "16 Oz",
    "_banner": "safeway",
-   "_term": "tamales",
+   "_term": "green chile",
    "_comp": [
-    "Del Real"
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern Sauce Organic...e Medium Jar - 16 Oz",
+   "price": "$5.49",
+   "size": "16 Oz",
+   "_banner": "safeway",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern"
    ]
   },
   {
@@ -1210,9 +1183,19 @@
    "price": "$9.49",
    "size": "28 Oz",
    "_banner": "safeway",
-   "_term": "tamales",
+   "_term": "green chile",
    "_comp": [
     "Santiago's"
+   ]
+  },
+  {
+   "name": "Hatch Mild Diced Green Chiles",
+   "size": "4 oz",
+   "price": "$2.29",
+   "_banner": "sprouts",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
    ]
   },
   {
@@ -1236,16 +1219,6 @@
    ]
   },
   {
-   "name": "Zia Hatch Chile Company Hot Hatch Green Chile",
-   "size": "16 oz",
-   "price": "$7.99",
-   "_banner": "sprouts",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
    "name": "Zia Hatch Chile Company Medium Hatch Green Chile",
    "size": "16 oz",
    "price": "$7.99",
@@ -1259,6 +1232,16 @@
    "name": "Hatch Mild Whole Green Chiles",
    "size": "27 oz",
    "price": "$8.99",
+   "_banner": "sprouts",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Zia Hatch Chile Company Hot Hatch Green Chile",
+   "size": "16 oz",
+   "price": "$7.99",
    "_banner": "sprouts",
    "_term": "green chile",
    "_comp": [
@@ -1306,36 +1289,6 @@
    ]
   },
   {
-   "name": "Texas Tamale Company Gourmet Hatch Green Chile Tamales 12 Count",
-   "size": "18 oz",
-   "price": "$9.99",
-   "_banner": "sprouts",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch Mild Green Chile Enchilada Sauce",
-   "size": "15 oz",
-   "price": "$4.99",
-   "_banner": "sprouts",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Mateo's Medium Gourmet Hatch Chile Salsa",
-   "size": "16 oz",
-   "price": "$5.99",
-   "_banner": "sprouts",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
    "name": "505 Southwest Medium Southwest Style Salsa",
    "size": "15 oz",
    "price": "$5.79",
@@ -1346,19 +1299,9 @@
    ]
   },
   {
-   "name": "Hatch Diced Tomatoes & Green Chilies",
-   "size": "10 oz",
-   "price": "$1.99",
-   "_banner": "sprouts",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Hatch Green Enchilada Sauce With Garlic",
-   "size": "15 oz",
-   "price": "$4.99",
+   "name": "Mateo's Medium Gourmet Hatch Chile Salsa",
+   "size": "16 oz",
+   "price": "$5.99",
    "_banner": "sprouts",
    "_term": "green chile",
    "_comp": [
@@ -1386,16 +1329,6 @@
    ]
   },
   {
-   "name": "Mateo's Medium Gourmet Hatch Chile Salsa",
-   "size": "16 oz",
-   "price": "$5.99",
-   "_banner": "sprouts",
-   "_term": "tamales",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
    "name": "505 Southwest Mild Southwest Style Salsa",
    "size": "15 oz",
    "price": "$5.79",
@@ -1416,9 +1349,174 @@
    ]
   },
   {
-   "name": "Zia Green Chile Company Roasted Hatch Green Chile - Hot, 16 OZ",
-   "price": "$2.19",
-   "size": "16 OZ",
+   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile - 16oz",
+   "price": "$5.59",
+   "size": "",
+   "_banner": "target",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern",
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Mild Roasted Green Chile - 4oz",
+   "price": "$1.99",
+   "size": "",
+   "_banner": "target",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern Medium Roasted Green Chile - 4oz",
+   "price": "$1.99",
+   "size": "",
+   "_banner": "target",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "Hatch Mild Green Chile Enchilada Sauce 15oz",
+   "price": "$5.59",
+   "size": "",
+   "_banner": "target",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Hatch Diced Green Chiles Mild - 4oz: Gluten-Free",
+   "price": "$2.79",
+   "size": "",
+   "_banner": "target",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Hatch Valley Flame Roasted Medium Heat Green Chile - 16oz",
+   "price": "$5.59",
+   "size": "",
+   "_banner": "target",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern",
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Hatch Valley Diced Green Chile, Mild, 4 oz Can \u2013 Green Chiles for Cooking",
+   "price": "$1.83",
+   "size": "oz",
+   "_banner": "walmart",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern",
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "HATCH Select Whole Green Chiles, Mild, 27 oz",
+   "price": "$7.12",
+   "size": "oz",
+   "_banner": "walmart",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Hatch Chili Hatch Diced Hot green Chilies - Diced Green Chiles - Case of 24 - 4 oz.",
+   "price": "$55.99",
+   "size": "",
+   "_banner": "walmart",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "H-HATCH Select Chopped Green Chiles Mild, 4oz",
+   "price": "$9",
+   "size": "",
+   "_banner": "walmart",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Hatch Diced Hot Green Chilies, 4-Ounce (Pack of 8)",
+   "price": "$25.98",
+   "size": "",
+   "_banner": "walmart",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame-Roasted Hatch Green Chiles, 16 oz, Gluten-Free",
+   "price": "$19.5",
+   "size": "",
+   "_banner": "walmart",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern",
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Zia Green Chile Company - Hatch Green Chile - Hot , 16 Oz",
+   "price": "$13.63",
+   "size": "oz",
+   "_banner": "walmart",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "HATCH Select Diced Green Chiles, Hot, 4oz, Kosher, Gluten Free Certified, Non-GMO Certified, Whole30",
+   "price": "$10.85",
+   "size": "oz",
+   "_banner": "walmart",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Hatch Valley Diced Green Chile, Medium, 4 oz Can \u2013 Green Chiles for Cooking",
+   "price": "$1.83",
+   "size": "oz",
+   "_banner": "walmart",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern",
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Hatch Chili Company Mild Diced Chiles, 4 OZ",
+   "price": "$2.29",
+   "size": "4 OZ",
+   "_banner": "wholefoods",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch/other green chile"
+   ]
+  },
+  {
+   "name": "Zia Green Chile Company, Hatch Roasted Medium, 16 Ounce",
+   "price": "$9.19",
+   "size": "16 Ounce",
    "_banner": "wholefoods",
    "_term": "green chile",
    "_comp": [
@@ -1427,7 +1525,7 @@
   },
   {
    "name": "Zia Green Chile Company Roasted Hatch Green Chile - Hot, 16 OZ",
-   "price": "$7.79",
+   "price": "$9.19",
    "size": "16 OZ",
    "_banner": "wholefoods",
    "_term": "green chile",
@@ -1436,19 +1534,9 @@
    ]
   },
   {
-   "name": "Zia Green Chile Company Roasted Hatch Green Chile - Hot, 16 OZ",
-   "price": "$4.19",
-   "size": "16 OZ",
-   "_banner": "wholefoods",
-   "_term": "green chile",
-   "_comp": [
-    "Hatch/other green chile"
-   ]
-  },
-  {
-   "name": "Niman Ranch Hatch Green Chile Bratwurst, 12 OZ",
-   "price": "$5.69",
-   "size": "12 OZ",
+   "name": "Hatch Chili Company Medium Green Enchilada Sauce, 15 OZ",
+   "price": "$4.99",
+   "size": "15 OZ",
    "_banner": "wholefoods",
    "_term": "green chile",
    "_comp": [
