@@ -1,0 +1,38 @@
+{
+ "block_id": "diag/stopandshop@home",
+ "retailer": "stopandshop",
+ "zip": "diag",
+ "neighborhood": "home",
+ "term": "salsa",
+ "store_zip": "60615",
+ "no_reload": true,
+ "steps": [
+  {
+   "goto": "https://stopandshop.com/"
+  },
+  {
+   "wait": 12000
+  },
+  {
+   "dump": "home"
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it",
+    "Accept",
+    "Accept All Cookies",
+    "OK"
+   ]
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "dump": "after_dismiss"
+  }
+ ]
+}
