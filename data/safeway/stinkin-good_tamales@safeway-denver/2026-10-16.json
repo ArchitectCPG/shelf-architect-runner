@@ -3,37 +3,520 @@
   "retailer": "safeway",
   "zip": "refrigerated",
   "neighborhood": "tamales",
-  "pulled_at": "2026-10-16T19:27:11.633Z",
+  "pulled_at": "2026-10-16T22:28:49.824Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "80202",
   "store_set": "757 E 20th Ave",
   "url_final": "https://www.safeway.com/shop/search-results.html?q=tamales",
-  "houses": [],
-  "raw_text_chars": 1022,
+  "houses": [
+    {
+      "name": "Chaparros Beef Tamales - 30 OZ",
+      "brand": "price per",
+      "price": "$12.99",
+      "size": "30 OZ",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970499246?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/chaparros-beef-tamales-30-oz/970499246",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $12.99 each",
+        "$12.99",
+        "price per",
+        "( / )",
+        "Chaparros Beef Tamales - 30 OZ"
+      ]
+    },
+    {
+      "name": "Bueno Pork Hot Tamales 12 Pk - 36 Oz",
+      "brand": "price per",
+      "price": "$16.99",
+      "size": "36 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960216345?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/bueno-pork-hot-tamales-12-pack-36-oz/960216345",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $16.99 each",
+        "$16.99",
+        "price per",
+        "( / )",
+        "Bueno Pork Hot Tamales 12 Pk - 36 Oz",
+        "Rated 3.0 out of 5, 2 reviews",
+        "2"
+      ]
+    },
+    {
+      "name": "Hormel Tamales Beef in Chili Sauce - 15 Oz",
+      "brand": "price per",
+      "price": "$3.29",
+      "size": "15 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/127102375?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/hormel-tamales-beef-in-chili-sauce-15-oz/127102375",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.29 each",
+        "$3.29",
+        "price per",
+        "( / )",
+        "Hormel Tamales Beef in Chili Sauce - 15 Oz",
+        "Rated 3.4 out of 5, 46 reviews",
+        "46"
+      ]
+    },
+    {
+      "name": "Chaparros Tamales Jalapeno And Cheese - 30 OZ",
+      "brand": "price per",
+      "price": "$12.99",
+      "size": "30 OZ",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970103173?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/chaparros-tamales-jalapeno-and-cheese-30-oz/970103173",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $12.99 each",
+        "$12.99",
+        "price per",
+        "( / )",
+        "Chaparros Tamales Jalapeno And Cheese - 30 OZ"
+      ]
+    },
+    {
+      "name": "MASECA Specialty Food Masa Tamale - 4 Lb",
+      "brand": "price per",
+      "price": "$4.99",
+      "size": "4 Lb",
+      "img": "https://images.albertsons-media.com/is/image/ABS/127106096?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/maseca-specialty-food-masa-tamale-4-lb/127106096",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per",
+        "( / )",
+        "MASECA Specialty Food Masa Tamale - 4 Lb"
+      ]
+    },
+    {
+      "name": "Tuscon Tamale Green Chile & Cheese Cold",
+      "brand": "price per",
+      "price": "$3.00",
+      "size": "",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960529369?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/tuscon-tamale-green-chile-and-cheese-cold/960529369",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.00 each",
+        "$3.00",
+        "price per",
+        "( / )",
+        "Tuscon Tamale Green Chile & Cheese Cold"
+      ]
+    },
+    {
+      "name": "Hot Tamales Fierce Cinnamon Chewy Candy Stand Up Bag - 10 Oz",
+      "brand": "price per",
+      "price": "$4.49",
+      "size": "10 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960090721?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/hot-tamales-fierce-cinnamon-chewy-candy-stand-up-bag-10-oz/960090721",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.49 each",
+        "$4.49",
+        "price per",
+        "( / )",
+        "Hot Tamales Fierce Cinnamon Chewy Candy Stand Up Bag - 10 Oz",
+        "Rated 5.0 out of 5, 2 reviews",
+        "2"
+      ]
+    },
+    {
+      "name": "Badia Corn Husks - 6 Oz",
+      "brand": "price per",
+      "price": "$6.49",
+      "size": "6 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960176036?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/badia-corn-husks-6-oz/960176036",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.49 each",
+        "$6.49",
+        "price per",
+        "( / )",
+        "Badia Corn Husks - 6 Oz"
+      ]
+    },
+    {
+      "name": "El Monterey Beef & Bean Chimic...ze 8 Count - 30.4 Oz",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "8 Count",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960018293?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/el-monterey-beef-and-bean-chimichangas-family-size-8-ct-30-4-oz/960018293",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "El Monterey Beef & Bean Chimic...ze 8 Count - 30.4 Oz",
+        "Rated 4.3 out of 5, 74 reviews",
+        "74"
+      ]
+    },
+    {
+      "name": "Del Real Beef Barbacoa - 16 Oz",
+      "brand": "price per",
+      "price": "$13.99",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960076450?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/del-real-beef-barbacoa-16-oz/960076450",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $13.99 each",
+        "$13.99",
+        "price per",
+        "( / )",
+        "Del Real Beef Barbacoa - 16 Oz",
+        "Rated 3.8 out of 5, 12 reviews",
+        "12"
+      ]
+    },
+    {
+      "name": "El Monterey Beef & Bean Green ...itos 8 Count - 32 Oz",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "8 Count",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960018295?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/el-monterey-beef-and-bean-green-chili-frozen-burritos-8-ct-32-oz/960018295",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "El Monterey Beef & Bean Green ...itos 8 Count - 32 Oz",
+        "Rated 4.4 out of 5, 33 reviews",
+        "33"
+      ]
+    },
+    {
+      "name": "El Monterey Beef & Bean Frozen Burritos 8 Count - 32 Oz",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "8 Count",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960018294?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/el-monterey-beef-and-bean-frozen-burritos-8-ct-32-oz/960018294",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "El Monterey Beef & Bean Frozen Burritos 8 Count - 32 Oz",
+        "Rated 4.7 out of 5, 37 reviews",
+        "37"
+      ]
+    },
+    {
+      "name": "El Monterey Bean & Cheese Frozen Burritos 8 Count - 32 Oz",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "8 Count",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/el-monterey-bean-and-cheese-frozen-burritos-8-ct-32-oz/960018296",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "El Monterey Bean & Cheese Frozen Burritos 8 Count - 32 Oz",
+        "Rated 4.5 out of 5, 64 reviews",
+        "64"
+      ]
+    },
+    {
+      "name": "El Monterey Beef Bean & Cheese...ze 8 Count - 30.4 Oz",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "8 Count",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/el-monterey-beef-bean-and-cheese-chimichangas-family-size-8-ct-30-4-oz/960326248",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "El Monterey Beef Bean & Cheese...ze 8 Count - 30.4 Oz",
+        "Rated 4.6 out of 5, 55 reviews",
+        "55"
+      ]
+    },
+    {
+      "name": "Delimex Beef Taquitos Frozen Snacks - 20 Count",
+      "brand": "price per",
+      "price": "$8.49",
+      "size": "20 Count",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/delimex-beef-taquitos-frozen-snacks-20-ct/971059991",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $8.49 each",
+        "$8.49",
+        "price per",
+        "( / )",
+        "Delimex Beef Taquitos Frozen Snacks - 20 Count",
+        "Rated 4.8 out of 5, 11 reviews",
+        "11"
+      ]
+    },
+    {
+      "name": "El Monterey Steak & Cheese Flo...tos 20 Count - 20 Oz",
+      "brand": "price per",
+      "price": "$8.99",
+      "size": "20 Count",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/el-monterey-steak-and-cheese-flour-frozen-taquitos-20-ct-20-oz/960140747",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $8.99 each",
+        "$8.99",
+        "price per",
+        "( / )",
+        "El Monterey Steak & Cheese Flo...tos 20 Count - 20 Oz",
+        "Rated 4.6 out of 5, 19 reviews",
+        "19"
+      ]
+    },
+    {
+      "name": "Signature Select Chicken Tortilla Soup Gluten Free - 24 Oz",
+      "brand": "price per",
+      "price": "$8.49",
+      "size": "24 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/signature-select-chicken-tortilla-soup-gluten-free-24-oz/960013492",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $8.49 each",
+        "$8.49",
+        "price per",
+        "( / )",
+        "Signature Select Chicken Tortilla Soup Gluten Free - 24 Oz",
+        "Rated 4.7 out of 5, 449 reviews",
+        "449"
+      ]
+    },
+    {
+      "name": "Stouffer's Family Beef Enchila... Box - 30 Oz - 30 OZ",
+      "brand": "price per",
+      "price": "$11.99",
+      "size": "30 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/stouffers-family-beef-enchilada-frozen-family-size-entree-box-30-oz-30-oz/971375474",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $11.99 each",
+        "$11.99",
+        "price per",
+        "( / )",
+        "Stouffer's Family Beef Enchila... Box - 30 Oz - 30 OZ",
+        "Rated 5.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Jose Ole Chicken & Cheese Large Flour Taquitos - 22.5 Oz",
+      "brand": "price per",
+      "price": "$8.49",
+      "size": "22.5 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/jose-ole-chicken-and-cheese-large-flour-taquitos-22-5-oz/148300235",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $8.49 each",
+        "$8.49",
+        "price per",
+        "( / )",
+        "Jose Ole Chicken & Cheese Large Flour Taquitos - 22.5 Oz",
+        "Rated 4.6 out of 5, 22 reviews",
+        "22"
+      ]
+    },
+    {
+      "name": "Jose Ole Frozen Mexican Food T...Tortillas - 15 Count",
+      "brand": "price per",
+      "price": "$8.49",
+      "size": "15 Count",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/jose-ole-frozen-mexican-food-taquitos-steak-and-cheese-flour-tortillas-15-ct/148300236",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $8.49 each",
+        "$8.49",
+        "price per",
+        "( / )",
+        "Jose Ole Frozen Mexican Food T...Tortillas - 15 Count",
+        "Rated 4.5 out of 5, 11 reviews",
+        "11"
+      ]
+    },
+    {
+      "name": "Chaparros Tamales Pork - 30 OZ",
+      "brand": "price per",
+      "price": "$12.99",
+      "size": "30 OZ",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/chaparros-tamales-pork-30-oz/970103271",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $12.99 each",
+        "$12.99",
+        "price per",
+        "( / )",
+        "Chaparros Tamales Pork - 30 OZ"
+      ]
+    },
+    {
+      "name": "Melissas Tamale Kit Prepacked - 16 Oz",
+      "brand": "price per",
+      "price": "$7.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/melissas-tamale-kit-prepacked-16-oz/184380029",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $7.99 each",
+        "$7.99",
+        "price per",
+        "( / )",
+        "Melissas Tamale Kit Prepacked - 16 Oz",
+        "Rated 5.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Tuscon Tamale Pork Green Chile...ount Self Serve Cold",
+      "brand": "price per",
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/tuscon-tamale-pork-green-chile-and-cheese-2-ct-self-serve-cold/960529368",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per",
+        "( / )",
+        "Tuscon Tamale Pork Green Chile...ount Self Serve Cold",
+        "Rated 1.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Tuscon Tamale Green Chile & Cheese 2 Count Self Serve Cold",
+      "brand": "price per",
+      "price": "$5.99",
+      "size": "2 Count",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/tuscon-tamale-green-chile-and-cheese-2-ct-self-serve-cold/960529370",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per",
+        "( / )",
+        "Tuscon Tamale Green Chile & Cheese 2 Count Self Serve Cold",
+        "Rated 5.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Pork Tamales 12 Count Hot - EA",
+      "brand": "price per",
+      "price": "$0.79",
+      "size": "12 Count",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970092036?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/pork-tamales-12-ct-hot-ea/970092036",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $0.79 each",
+        "$0.79",
+        "price per",
+        "( / )",
+        "Pork Tamales 12 Count Hot - EA"
+      ]
+    },
+    {
+      "name": "Tucson Tamale Pork Green Chile & Cheese Cold - Each",
+      "brand": "price per",
+      "price": "$3.00",
+      "size": "",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960529367?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/tucson-tamale-pork-green-chile-and-cheese-cold-each/960529367",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.00 each",
+        "$3.00",
+        "price per",
+        "( / )",
+        "Tucson Tamale Pork Green Chile & Cheese Cold - Each"
+      ]
+    },
+    {
+      "name": "El Guapo Whole Corn Husks (Hoj...Para Tamales) - 8 Oz",
+      "brand": "price per",
+      "price": "$9.99",
+      "size": "8 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/184770872?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/el-guapo-whole-corn-husks-hoja-enconchada-para-tamales-8-oz/184770872",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $9.99 each",
+        "$9.99",
+        "price per",
+        "( / )",
+        "El Guapo Whole Corn Husks (Hoj...Para Tamales) - 8 Oz"
+      ]
+    },
+    {
+      "name": "Mi Dulce Tamalito Peg - 4.23 OZ",
+      "brand": "price per",
+      "price": "$2.99",
+      "size": "4.23 OZ",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970949932?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/mi-dulce-tamalito-peg-4-23-oz/970949932",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.99 each",
+        "$2.99",
+        "price per",
+        "( / )",
+        "Mi Dulce Tamalito Peg - 4.23 OZ"
+      ]
+    }
+  ],
+  "raw_text_chars": 4859,
   "steps": [
-    "19:27:11 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "19:27:11 connected to Bright Data Scraping Browser",
-    "19:27:20 goto https://www.safeway.com/shop/search-results.html?q=tamales",
-    "19:27:28 captcha check passed",
-    "19:27:37 dismissed \"Continue with all\"",
-    "19:27:37 press Escape",
-    "19:27:44 js ok open 0",
-    "19:27:51 type_sel input[placeholder*='ZIP Code'] \"80202\"",
-    "19:27:57 js ok selected",
-    "19:28:13 scrolled x4",
-    "19:28:15 scrolled x2",
-    "19:28:19 scrolled x2",
-    "19:28:23 scrolled x2",
-    "19:28:25 store_set: 757 E 20th Ave",
-    "19:28:25 few houses, reloading once",
-    "19:28:40 extracted 0 houses; raw text 1022 chars"
+    "22:28:49 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "22:28:50 connected to Bright Data Scraping Browser",
+    "22:29:06 goto https://www.safeway.com/shop/search-results.html?q=tamales",
+    "22:29:14 captcha check passed",
+    "22:29:23 dismissed \"Continue with all\"",
+    "22:29:23 press Escape",
+    "22:29:31 js ok open 0",
+    "22:29:35 type_sel input[placeholder*='ZIP Code'] \"80202\"",
+    "22:29:42 js ok selected",
+    "22:29:56 scrolled x4",
+    "22:29:58 scrolled x2",
+    "22:30:02 scrolled x2",
+    "22:30:06 scrolled x2",
+    "22:30:08 store_set: 757 E 20th Ave",
+    "22:30:08 extracted 28 houses; raw text 4859 chars"
   ],
   "error": null,
   "js_results": [
     "open 0",
     "selected"
   ],
-  "reloaded": true,
-  "houses_text": 0
+  "houses_text": 28
 }

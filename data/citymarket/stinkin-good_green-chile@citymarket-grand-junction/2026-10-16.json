@@ -3,27 +3,538 @@
   "retailer": "citymarket",
   "zip": "refrigerated",
   "neighborhood": "green-chile",
-  "pulled_at": "2026-10-16T18:44:16.438Z",
+  "pulled_at": "2026-10-16T22:25:06.767Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "81501",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "18:44:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "18:44:17 connected to Bright Data Scraping Browser",
-    "18:44:23 goto https://www.citymarket.com/search?query=green chile",
-    "18:44:31 captcha check passed",
-    "18:44:38 click_sel button[aria-label='close banner']",
-    "18:44:39 click_sel [data-testid=CurrentModality-button]",
-    "18:44:43 type_sel [data-testid=PostalCodeSearchBox-input] \"81501\"",
-    "18:44:43 js ok search",
-    "18:45:01 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "store_set": "Pickup at 12th Street Grand Junction",
+  "url_final": "https://www.citymarket.com/search?query=green%20chile",
+  "houses": [
+    {
+      "name": "Kroger® Diced Green Chile Peppers",
+      "brand": null,
+      "price": "$0.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "McCormick Original Taco Seasoning Mix",
+      "brand": null,
+      "price": "$0.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "McCormick Original Taco Seasoning Mix",
+      "brand": null,
+      "price": "$1.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Medium Flame Roasted Hatch Valley Green Chile",
+      "brand": null,
+      "price": "$3.90",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Medium Flame Roasted Hatch Valley Green Chile",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "La Mexicana® Queso Blanco Mild 12oz Cheese Dip",
+      "brand": null,
+      "price": "$4.99",
+      "size": "12oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Diced Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Diced Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Diced Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "New Mexico Select Mild Green Chile Peppers",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Select New Mexico Hot Green Chile Peppers",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Perrona Hot Sauce Chiltepin Original",
+      "brand": null,
+      "price": "$1.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Perrona Hot Sauce Chiltepin Original",
+      "brand": null,
+      "price": "$1.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Las Palmas® Medium Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Las Palmas® Medium Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Bueno Green Chile Hot",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Medium Green Chile Sauce",
+      "brand": null,
+      "price": "$3.90",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Medium Green Chile Sauce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "McCormick Mild Taco Seasoning Mix",
+      "brand": null,
+      "price": "$0.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "McCormick Mild Taco Seasoning Mix",
+      "brand": null,
+      "price": "$1.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile Sauce",
+      "brand": null,
+      "price": "$12.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile Sauce",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hatch® Mild Diced Green Chiles",
+      "brand": null,
+      "price": "$2.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hatch® Mild Diced Green Chiles",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Macayo Diced Green Chiles",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Hot Picante Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Pace Hot Picante Sauce",
+      "brand": null,
+      "price": "$3.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Macayo Diced Green Chiles",
+      "brand": null,
+      "price": "$1.50",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Macayo Diced Green Chiles",
+      "brand": null,
+      "price": "$1.59",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hatch® Select Hot Diced Green Chiles",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hatch® Select Hot Diced Green Chiles",
+      "brand": null,
+      "price": "$2.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hatch® Select Hot Diced Green Chiles",
+      "brand": null,
+      "price": "$6.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Stokes Green Chile Sauce With Pork",
+      "brand": null,
+      "price": "$6.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Mexican Inspired Green Chile Chicken",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Stokes Green Chile Sauce with Pork",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Old El Paso™ Mild Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Old El Paso™ Mild Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$3.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Las Palmas Medium Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$3.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Las Palmas Medium Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Las Palmas® Mild Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$3.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Whole Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$8.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Whole Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Whole Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$6.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Nanita's Finest Mild Green Chile Hot Sauce",
+      "brand": null,
+      "price": "$6.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Nanita's Finest Mild Green Chile Hot Sauce",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Stokes Green Chile Sauce with Chicken",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Stokes Green Chile Sauce with Chicken",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Bueno Mild Chopped Green Chile",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Stokes Green Chile Sauce with Pork & Jalapeno",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Hatch® Mild Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$4.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
   ],
-  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+  "raw_text_chars": 5792,
+  "steps": [
+    "22:25:06 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "22:25:07 connected to Bright Data Scraping Browser",
+    "22:25:10 goto https://www.citymarket.com/search?query=green chile",
+    "22:25:18 captcha check passed",
+    "22:26:04 click_sel miss button[aria-label='close banner']",
+    "22:26:05 click_sel [data-testid=CurrentModality-button]",
+    "22:26:10 type_sel [data-testid=PostalCodeSearchBox-input] \"81501\"",
+    "22:26:10 js ok search",
+    "22:26:17 js ok 62000444",
+    "22:26:25 click_re ^Keep Shopping Here$ false",
+    "22:26:32 goto https://www.citymarket.com/search?query=green chile",
+    "22:26:40 captcha check passed",
+    "22:26:51 scrolled x4",
+    "22:26:51 store_set: Pickup at 12th Street Grand Junction",
+    "22:26:51 text parser wins: 50 vs 20",
+    "22:26:52 extracted 50 houses; raw text 5792 chars"
+  ],
+  "error": null,
   "js_results": [
-    "search"
-  ]
+    "search",
+    "62000444"
+  ],
+  "houses_text": 50,
+  "houses_dom": 20
 }

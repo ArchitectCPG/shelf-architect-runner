@@ -3,26 +3,21 @@
   "retailer": "costco-online",
   "zip": "refrigerated",
   "neighborhood": "queso",
-  "pulled_at": "2026-10-16T19:34:22.560Z",
+  "pulled_at": "2026-10-16T22:25:08.133Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "80202",
-  "store_set": "costco.com online (national, 2-day delivery pricing)",
-  "url_final": "https://www.costco.com/s?keyword=queso",
+  "store_set": null,
+  "url_final": null,
   "houses": [],
-  "raw_text_chars": 2556,
+  "raw_text_chars": 0,
   "steps": [
-    "19:34:22 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "19:34:28 connected to Bright Data Scraping Browser",
-    "19:35:39 goto https://www.costco.com/s?keyword=queso",
-    "19:35:48 captcha check passed",
-    "19:36:26 dismiss: nothing to close",
-    "19:36:55 scrolled x4",
-    "19:37:04 store_set: costco.com online (national, 2-day delivery pricing)",
-    "19:37:12 few houses, reloading once",
-    "19:38:14 extracted 0 houses; raw text 2556 chars"
+    "22:25:08 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "22:25:09 connected to Bright Data Scraping Browser",
+    "22:25:21 goto https://www.costco.com/s?keyword=queso",
+    "22:25:29 captcha check passed",
+    "22:30:07 dismiss: nothing to close",
+    "22:34:37 ERROR Error: mouse.wheel: Protocol error (Input.dispatchMouseEvent): Command execution has timed out: Input.dispatchMouseEvent (cdp_cmd_timeout). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#browser-and-target-site"
   ],
-  "error": null,
-  "reloaded": true,
-  "houses_text": 0
+  "error": "Error: mouse.wheel: Protocol error (Input.dispatchMouseEvent): Command execution has timed out: Input.dispatchMouseEvent (cdp_cmd_timeout). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#browser-and-target-site"
 }

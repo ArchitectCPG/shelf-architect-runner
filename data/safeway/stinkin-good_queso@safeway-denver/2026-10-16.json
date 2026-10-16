@@ -3,37 +3,537 @@
   "retailer": "safeway",
   "zip": "refrigerated",
   "neighborhood": "queso",
-  "pulled_at": "2026-10-16T19:25:52.497Z",
+  "pulled_at": "2026-10-16T22:27:08.615Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "80202",
   "store_set": "757 E 20th Ave",
   "url_final": "https://www.safeway.com/shop/search-results.html?q=queso",
-  "houses": [],
-  "raw_text_chars": 907,
+  "houses": [
+    {
+      "name": "Fresh Innovations White Queso 12oz - 12 OZ",
+      "brand": "price per",
+      "price": "$5.99",
+      "size": "12oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/971280571?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/fresh-innovations-white-queso-12oz-12-oz/971280571",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per",
+        "( / )",
+        "Fresh Innovations White Queso 12oz - 12 OZ",
+        "Rated 5.0 out of 5, 2 reviews",
+        "2"
+      ]
+    },
+    {
+      "name": "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+      "brand": "price per",
+      "price": "$5.49",
+      "size": "15 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960013438?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/tostitos-salsa-con-queso-medium-15-oz/960013438",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.49 each",
+        "$5.49",
+        "price per",
+        "( / )",
+        "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+        "Rated 4.7 out of 5, 57 reviews",
+        "57"
+      ]
+    },
+    {
+      "name": "TOSTITOS Dip Queso Blanco Medium - 15 Oz",
+      "brand": "price per",
+      "price": "$5.49",
+      "size": "15 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960099413?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/tostitos-dip-queso-blanco-medium-15-oz/960099413",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.49 each",
+        "$5.49",
+        "price per",
+        "( / )",
+        "TOSTITOS Dip Queso Blanco Medium - 15 Oz",
+        "Rated 4.4 out of 5, 16 reviews",
+        "16"
+      ]
+    },
+    {
+      "name": "Herdez Dip Queso Con Jalapenos Jar - 15 Oz",
+      "brand": "price per",
+      "price": "$4.79",
+      "size": "15 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960109517?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/herdez-dip-queso-con-jalapenos-jar-15-oz/960109517",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.79 each",
+        "$4.79",
+        "price per",
+        "( / )",
+        "Herdez Dip Queso Con Jalapenos Jar - 15 Oz",
+        "Rated 5.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Fresh Innovations Yellow Queso 12oz - 12 OZ",
+      "brand": "price per",
+      "price": "$5.99",
+      "size": "12oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/971280572?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/fresh-innovations-yellow-queso-12oz-12-oz/971280572",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per",
+        "( / )",
+        "Fresh Innovations Yellow Queso 12oz - 12 OZ",
+        "Rated 4.7 out of 5, 7 reviews",
+        "7"
+      ]
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded... Cheese Blend - 8 Oz",
+      "brand": "price per",
+      "price": "$2.69",
+      "size": "8 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/137050358?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/lucerne-cheese-finely-shredded-mexican-style-4-cheese-blend-8-oz/137050358",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.69 each",
+        "$2.69",
+        "price per",
+        "( / )",
+        "Lucerne Cheese Finely Shredded... Cheese Blend - 8 Oz",
+        "Rated 4.8 out of 5, 1189 reviews",
+        "1189"
+      ]
+    },
+    {
+      "name": "Signature SELECT Queso Blanco Medium Salsa Con - 15.5 Oz",
+      "brand": "price per",
+      "price": "$3.99",
+      "size": "15.5 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970575535?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/signature-select-queso-blanco-medium-salsa-con-15-5-oz/970575535",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per",
+        "( / )",
+        "Signature SELECT Queso Blanco Medium Salsa Con - 15.5 Oz",
+        "Rated 3.8 out of 5, 11 reviews",
+        "11"
+      ]
+    },
+    {
+      "name": "Signature SELECT Queso Medium Salsa Con - 15.5 Oz",
+      "brand": "price per",
+      "price": "$3.99",
+      "size": "15.5 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970576020?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/signature-select-queso-medium-salsa-con-15-5-oz/970576020",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per",
+        "( / )",
+        "Signature SELECT Queso Medium Salsa Con - 15.5 Oz",
+        "Rated 3.9 out of 5, 23 reviews",
+        "23"
+      ]
+    },
+    {
+      "name": "Gordos Dip Homestyle Queso - 16 OZ",
+      "brand": "price per",
+      "price": "$7.99",
+      "size": "16 OZ",
+      "img": "https://images.albertsons-media.com/is/image/ABS/971006196?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/gordos-dip-homestyle-queso-16-oz/971006196",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $7.99 each",
+        "$7.99",
+        "price per",
+        "( / )",
+        "Gordos Dip Homestyle Queso - 16 OZ"
+      ]
+    },
+    {
+      "name": "Cacique Ranchero Queso Fresco Part Skim Milk Cheese - 10 Oz",
+      "brand": "price per",
+      "price": "$3.99",
+      "size": "10 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/137050866?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/cacique-ranchero-queso-fresco-part-skim-milk-cheese-10-oz/137050866",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per",
+        "( / )",
+        "Cacique Ranchero Queso Fresco Part Skim Milk Cheese - 10 Oz",
+        "Rated 4.9 out of 5, 17 reviews",
+        "17"
+      ]
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded...Cheese Blend - 32 Oz",
+      "brand": "price per",
+      "price": "$7.99",
+      "size": "32 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/137050452?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/lucerne-cheese-finely-shredded-mexican-style-4-cheese-blend-32-oz/137050452",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $7.99 each",
+        "$7.99",
+        "price per",
+        "( / )",
+        "Lucerne Cheese Finely Shredded...Cheese Blend - 32 Oz",
+        "Rated 4.9 out of 5, 1490 reviews",
+        "1490"
+      ]
+    },
+    {
+      "name": "On The Border Queso Creamy Monterrey Jack Jar - 15.5 Oz",
+      "brand": "price per",
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960237623?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/on-border-queso-creamy-monterrey-jack-jar-15-5-oz/960237623",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per",
+        "( / )",
+        "On The Border Queso Creamy Monterrey Jack Jar - 15.5 Oz",
+        "Rated 5.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Tostitos Dip Spicy Queso Hot - 15 Oz",
+      "brand": "price per",
+      "price": "$5.49",
+      "size": "15 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/tostitos-dip-spicy-queso-hot-15-oz/970517945",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.49 each",
+        "$5.49",
+        "price per",
+        "( / )",
+        "Tostitos Dip Spicy Queso Hot - 15 Oz",
+        "Rated 4.6 out of 5, 14 reviews",
+        "14"
+      ]
+    },
+    {
+      "name": "TOSTITOS Salsa Con Queso Medium - 23 Oz",
+      "brand": "price per",
+      "price": "$6.49",
+      "size": "23 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/tostitos-salsa-con-queso-medium-23-oz/960019549",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.49 each",
+        "$6.49",
+        "price per",
+        "( / )",
+        "TOSTITOS Salsa Con Queso Medium - 23 Oz",
+        "Rated 4.8 out of 5, 14 reviews",
+        "14"
+      ]
+    },
+    {
+      "name": "Herdez Salsa Con Queso Dip Medium - 15 OZ",
+      "brand": "price per",
+      "price": "$4.79",
+      "size": "15 OZ",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/herdez-salsa-con-queso-dip-medium-15-oz/971311053",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.79 each",
+        "$4.79",
+        "price per",
+        "( / )",
+        "Herdez Salsa Con Queso Dip Medium - 15 OZ",
+        "Rated 4.7 out of 5, 177 reviews",
+        "177"
+      ]
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded Queso Quesadilla - 8 Oz",
+      "brand": "price per",
+      "price": "$2.69",
+      "size": "8 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/lucerne-cheese-finely-shredded-queso-quesadilla-8-oz/960226621",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.69 each",
+        "$2.69",
+        "price per",
+        "( / )",
+        "Lucerne Cheese Finely Shredded Queso Quesadilla - 8 Oz",
+        "Rated 4.8 out of 5, 408 reviews",
+        "408"
+      ]
+    },
+    {
+      "name": "Cacique Queso Fresco Cheese - 10 Oz",
+      "brand": "price per",
+      "price": "$4.49",
+      "size": "10 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/cacique-queso-fresco-cheese-10-oz/960023364",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.49 each",
+        "$4.49",
+        "price per",
+        "( / )",
+        "Cacique Queso Fresco Cheese - 10 Oz",
+        "Rated 4.8 out of 5, 13 reviews",
+        "13"
+      ]
+    },
+    {
+      "name": "El Mexicano Cotija Queso Cheese - 10 Oz",
+      "brand": "price per",
+      "price": "$6.49",
+      "size": "10 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/el-mexicano-cotija-queso-cheese-10-oz/960041042",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.49 each",
+        "$6.49",
+        "price per",
+        "( / )",
+        "El Mexicano Cotija Queso Cheese - 10 Oz",
+        "Rated 4.8 out of 5, 4 reviews",
+        "4"
+      ]
+    },
+    {
+      "name": "Lucerne Cheese Mexican Blend T... Family Pack - 32 Oz",
+      "brand": "price per",
+      "price": "$7.99",
+      "size": "32 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/lucerne-cheese-mexican-blend-thickcut-shredded-family-pack-32-oz/960371120",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $7.99 each",
+        "$7.99",
+        "price per",
+        "( / )",
+        "Lucerne Cheese Mexican Blend T... Family Pack - 32 Oz",
+        "Rated 4.8 out of 5, 738 reviews",
+        "738"
+      ]
+    },
+    {
+      "name": "On The Border Salsa Con Quezo Jar - 15.5 Oz",
+      "brand": "price per",
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": "https://www.safeway.com/shop/pd/on-border-salsa-con-quezo-jar-15-5-oz/960217678",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per",
+        "( / )",
+        "On The Border Salsa Con Quezo Jar - 15.5 Oz",
+        "Rated 4.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded...d Reduced Fat - 8 Oz",
+      "brand": "price per",
+      "price": "$2.69",
+      "size": "8 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960010235?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/lucerne-cheese-finely-shredded-mexican-style-4-cheese-blend-reduced-fat-8-oz/960010235",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.69 each",
+        "$2.69",
+        "price per",
+        "( / )",
+        "Lucerne Cheese Finely Shredded...d Reduced Fat - 8 Oz",
+        "Rated 4.8 out of 5, 928 reviews",
+        "928"
+      ]
+    },
+    {
+      "name": "V&V Supremo Chihuahua Shredded Cheese - 32 Oz",
+      "brand": "price per",
+      "price": "$15.99",
+      "size": "32 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960422872?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/v-and-v-supremo-chihuahua-shredded-cheese-32-oz/960422872",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $15.99 each",
+        "$15.99",
+        "price per",
+        "( / )",
+        "V&V Supremo Chihuahua Shredded Cheese - 32 Oz",
+        "Rated 5.0 out of 5, 17 reviews",
+        "17"
+      ]
+    },
+    {
+      "name": "V&V Supremo Chihuahua Quesadilla Shredded Cheese - 16 Oz",
+      "brand": "price per",
+      "price": "$8.99",
+      "size": "16 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960422881?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/v-and-v-supremo-chihuahua-quesadilla-shredded-cheese-16-oz/960422881",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $8.99 each",
+        "$8.99",
+        "price per",
+        "( / )",
+        "V&V Supremo Chihuahua Quesadilla Shredded Cheese - 16 Oz",
+        "Rated 4.9 out of 5, 8 reviews",
+        "8"
+      ]
+    },
+    {
+      "name": "On The Border Hatch Green Queso - 15.5 Oz.",
+      "brand": "price per",
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970777752?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/on-border-hatch-green-queso-15-5-oz/970777752",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per",
+        "( / )",
+        "On The Border Hatch Green Queso - 15.5 Oz.",
+        "Rated 4.0 out of 5, 2 reviews",
+        "2"
+      ]
+    },
+    {
+      "name": "On The Border Queso Jalapeno Tray Pack - 15.25 OZ",
+      "brand": "price per",
+      "price": "$4.99",
+      "size": "15.25 OZ",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970023193?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/on-border-queso-jalapeno-tray-pack-15-25-oz/970023193",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per",
+        "( / )",
+        "On The Border Queso Jalapeno Tray Pack - 15.25 OZ"
+      ]
+    },
+    {
+      "name": "Velveeta Queso Blanco Pasteuri...eese Product - 32 Oz",
+      "brand": "price per",
+      "price": "$9.49",
+      "size": "32 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960174296?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/velveeta-queso-blanco-pasteurized-recipe-cheese-product-32-oz/960174296",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $9.49 each",
+        "$9.49",
+        "price per",
+        "( / )",
+        "Velveeta Queso Blanco Pasteuri...eese Product - 32 Oz",
+        "Rated 4.7 out of 5, 6244 reviews",
+        "6244"
+      ]
+    },
+    {
+      "name": "Ricos Gourmet Nacho Sauce Cheese - 15 OZ",
+      "brand": "price per",
+      "price": "$3.99",
+      "size": "15 OZ",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970506516?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/ricos-gourmet-nacho-sauce-cheese-15-oz/970506516",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per",
+        "( / )",
+        "Ricos Gourmet Nacho Sauce Cheese - 15 OZ",
+        "Rated 4.5 out of 5, 8 reviews",
+        "8"
+      ]
+    },
+    {
+      "name": "Ricos Sauce Cheese Gourmet Nacho Cheddar Medium Can - 107 Oz",
+      "brand": "price per",
+      "price": "$14.99",
+      "size": "107 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960251429?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.safeway.com/shop/pd/ricos-sauce-cheese-gourmet-nacho-cheddar-medium-can-107-oz/960251429",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $14.99 each",
+        "$14.99",
+        "price per",
+        "( / )",
+        "Ricos Sauce Cheese Gourmet Nacho Cheddar Medium Can - 107 Oz",
+        "Rated 5.0 out of 5, 1 reviews",
+        "1"
+      ]
+    }
+  ],
+  "raw_text_chars": 5059,
   "steps": [
-    "19:25:52 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "19:26:26 connected to Bright Data Scraping Browser",
-    "19:26:35 goto https://www.safeway.com/shop/search-results.html?q=queso",
-    "19:26:43 captcha check passed",
-    "19:26:53 dismissed \"Continue with all\"",
-    "19:26:53 press Escape",
-    "19:27:45 js ok open 0",
-    "19:27:50 type_sel input[placeholder*='ZIP Code'] \"80202\"",
-    "19:27:56 js ok selected",
-    "19:28:10 scrolled x4",
-    "19:28:12 scrolled x2",
-    "19:28:17 scrolled x2",
-    "19:28:21 scrolled x2",
-    "19:28:23 store_set: 757 E 20th Ave",
-    "19:28:23 few houses, reloading once",
-    "19:28:39 extracted 0 houses; raw text 907 chars"
+    "22:27:08 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "22:27:09 connected to Bright Data Scraping Browser",
+    "22:27:11 rate limited, retry 1",
+    "22:27:32 goto https://www.safeway.com/shop/search-results.html?q=queso",
+    "22:27:40 captcha check passed",
+    "22:27:48 dismissed \"Continue with all\"",
+    "22:27:48 press Escape",
+    "22:27:55 js ok open 0",
+    "22:27:59 type_sel input[placeholder*='ZIP Code'] \"80202\"",
+    "22:28:06 js ok selected",
+    "22:28:20 scrolled x4",
+    "22:28:22 scrolled x2",
+    "22:28:26 scrolled x2",
+    "22:28:30 scrolled x2",
+    "22:28:32 store_set: 757 E 20th Ave",
+    "22:28:32 extracted 28 houses; raw text 5059 chars"
   ],
   "error": null,
   "js_results": [
     "open 0",
     "selected"
   ],
-  "reloaded": true,
-  "houses_text": 0
+  "houses_text": 28
 }
