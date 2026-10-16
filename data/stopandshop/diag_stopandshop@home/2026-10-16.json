@@ -1,0 +1,119 @@
+{
+  "block_id": "diag/stopandshop@home",
+  "retailer": "stopandshop",
+  "zip": "diag",
+  "neighborhood": "home",
+  "pulled_at": "2026-10-16T18:10:30.700Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://stopandshop.com/",
+  "houses": [],
+  "raw_text_chars": 666,
+  "steps": [
+    "18:10:30 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:10:31 connected to Bright Data Scraping Browser",
+    "18:10:34 goto https://stopandshop.com/",
+    "18:10:42 captcha check passed",
+    "18:10:54 dump home: 3 controls",
+    "18:10:55 dismissed \"In the meantime, you can conti\"",
+    "18:10:58 dump after_dismiss: 3 controls",
+    "18:10:58 store_set: null",
+    "18:10:59 extracted 0 houses; raw text 666 chars"
+  ],
+  "error": null,
+  "controls": [
+    {
+      "at": "home",
+      "text": "DIALOG: \nBODY: Thank you for your patience and understanding.\n\nOur Stop & Shop website and app are currently unavailable, and we’re working to restore service as quickly as possible.\n\nWe know you count on us to make shopping easy and convenient, and we’re sorry for the disruption.\n\nIn the meantime, you can continue to shop Stop & Shop through DoorDash, Instacart, or Uber Eats.\n\nStop & Shop stores, pharmacies, and fuel stations remain open during normal business hours.\n\nThank you for being a Stop & Shop customer. We truly appreciate your patience and understanding while we work to get things back up and running.\n\nShop us on DoorDash\nShop us on Instacart\nShop us on Uber Eats",
+      "controls": [
+        {
+          "tag": "a",
+          "type": null,
+          "name": null,
+          "vis": true,
+          "text": "Shop us on DoorDash",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "n-button",
+          "href": "https://www.doordash.com/business/stop-&-shop-11846814/"
+        },
+        {
+          "tag": "a",
+          "type": null,
+          "name": null,
+          "vis": true,
+          "text": "Shop us on Instacart",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "n-button",
+          "href": "https://www.instacart.com/store/stop-shop/storefront"
+        },
+        {
+          "tag": "a",
+          "type": null,
+          "name": null,
+          "vis": true,
+          "text": "Shop us on Uber Eats",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "n-button",
+          "href": "https://www.ubereats.com/brand/stop-and-shop"
+        }
+      ]
+    },
+    {
+      "at": "after_dismiss",
+      "text": "DIALOG: \nBODY: Thank you for your patience and understanding.\n\nOur Stop & Shop website and app are currently unavailable, and we’re working to restore service as quickly as possible.\n\nWe know you count on us to make shopping easy and convenient, and we’re sorry for the disruption.\n\nIn the meantime, you can continue to shop Stop & Shop through DoorDash, Instacart, or Uber Eats.\n\nStop & Shop stores, pharmacies, and fuel stations remain open during normal business hours.\n\nThank you for being a Stop & Shop customer. We truly appreciate your patience and understanding while we work to get things back up and running.\n\nShop us on DoorDash\nShop us on Instacart\nShop us on Uber Eats",
+      "controls": [
+        {
+          "tag": "a",
+          "type": null,
+          "name": null,
+          "vis": true,
+          "text": "Shop us on DoorDash",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "n-button",
+          "href": "https://www.doordash.com/business/stop-&-shop-11846814/"
+        },
+        {
+          "tag": "a",
+          "type": null,
+          "name": null,
+          "vis": true,
+          "text": "Shop us on Instacart",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "n-button",
+          "href": "https://www.instacart.com/store/stop-shop/storefront"
+        },
+        {
+          "tag": "a",
+          "type": null,
+          "name": null,
+          "vis": true,
+          "text": "Shop us on Uber Eats",
+          "aria": null,
+          "ph": null,
+          "tid": null,
+          "id": null,
+          "cls": "n-button",
+          "href": "https://www.ubereats.com/brand/stop-and-shop"
+        }
+      ]
+    }
+  ],
+  "houses_text": 0
+}
