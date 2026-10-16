@@ -3,18 +3,403 @@
   "retailer": "cvs",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-16T18:00:54.394Z",
+  "pulled_at": "2026-10-16T18:17:33.607Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
   "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "18:00:54 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "18:00:55 connected to Bright Data Scraping Browser",
-    "18:02:57 ERROR TimeoutError: page.goto: Timeout 120000ms exceeded.\nCall log:\n  - navigating to \"https://www.cvs.com/search?searchTerm=salsa\", waiting until \"domcontentloaded\"\n"
+  "url_final": "https://www.cvs.com/search?searchTerm=salsa",
+  "houses": [
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "34 colors",
+      "price": "$10.29",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/74170471977.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-color-therapy-nail-polish-prodid-1260254",
+      "card_text": [
+        "34 colors",
+        "Sally Hansen Color Therapy, Wine Not",
+        "Sally Hansen",
+        "2428",
+        "$10.29",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "22 colors",
+      "price": "$9.99",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/361630632740.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-perfect-press-on-nails-prodid-7200444",
+      "card_text": [
+        "22 colors",
+        "Sally Hansen Perfect Press-On Nails, A La Mode",
+        "Sally Hansen",
+        "640",
+        "$9.99",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "5 colors",
+      "price": "$15.79",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/7417039837.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-airbrush-legs-lotion-prodid-1017003",
+      "card_text": [
+        "5 colors",
+        "Sally Hansen Airbrush Legs Lotion, Tan",
+        "Sally Hansen",
+        "371",
+        "$15.79",
+        "$3.95/oz.",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave..."
+      ]
+    },
+    {
+      "name": "Sally Hansen Good.Kind.Pure, Frosted Amethyst",
+      "brand": "3 colors",
+      "price": "$5.25",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/74170472080.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-good-kind-pure-nail-polish-prodid-7201366",
+      "card_text": [
+        "3 colors",
+        "Sally Hansen Good.Kind.Pure, Frosted Amethyst",
+        "Sally Hansen",
+        "1155",
+        "$5.25",
+        "Was",
+        "$10.49",
+        "50% Off"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "8 colors",
+      "price": "$10.49",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/74170457711.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-good-kind-pure-nail-polish-prodid-2520034",
+      "card_text": [
+        "8 colors",
+        "Sally Hansen Good.Kind.Pure Nail Polish, Pink Cloud (Sheer)",
+        "Sally Hansen",
+        "1170",
+        "$10.49",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "29 colors",
+      "price": "$12.79",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/74170471069.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-miracle-gel-nail-color-prodid-7200158",
+      "card_text": [
+        "29 colors",
+        "Sally Hansen Miracle Gel Nail Polish Rainbow Lights Collection, Once a Chiffon",
+        "Sally Hansen",
+        "19306",
+        "$12.79",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "Sally Hansen Color Therapy Top Coat",
+      "price": "$10.29",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/74170444230.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-color-therapy-nail-top-coat-prodid-1260212",
+      "card_text": [
+        "Add",
+        "Sally Hansen Color Therapy Top Coat",
+        "Sally Hansen",
+        "253",
+        "$10.29",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "5 colors",
+      "price": "$14.99",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/7417040162.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-salon-pro-gel-nail-polish-prodid-1013848",
+      "card_text": [
+        "5 colors",
+        "Sally Hansen Salon Pro Gel, Pink Pong",
+        "Sally Hansen",
+        "1119",
+        "$14.99",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "3 colors",
+      "price": "$12.79",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/361630570676.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-miracle-gel-pearls-prodid-7200353",
+      "card_text": [
+        "3 colors",
+        "Sally Hansen Miracle Gel Pearls, One of a Kind",
+        "Sally Hansen",
+        "18918",
+        "$12.79",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "11 colors",
+      "price": "$12.79",
+      "size": "0.5 fl oz",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/3616303914707.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-miracle-gel-special-effects-top-coats-prodid-4170012",
+      "card_text": [
+        "11 colors",
+        "Sally Hansen Miracle Gel Nail Polish - Sugar Top Coat - 0.5 fl oz",
+        "Sally Hansen",
+        "1146",
+        "$12.79",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "Sally Hansen Airbrush Legs Spray, Medium Glow",
+      "brand": "4 colors",
+      "price": "$7.89",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/7417030599.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-airbrush-legs-spray-prodid-1016993",
+      "card_text": [
+        "4 colors",
+        "Sally Hansen Airbrush Legs Spray, Medium Glow",
+        "Sally Hansen",
+        "731",
+        "$7.89",
+        "Was",
+        "$15.79",
+        "$1.79/oz."
+      ]
+    },
+    {
+      "name": "Sally Hansen Perfect Press-On Nails, Viva-Vanilla",
+      "brand": "2 colors",
+      "price": "$5.00",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/361630632745.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-perfect-press-on-nails-prodid-7201380",
+      "card_text": [
+        "2 colors",
+        "Sally Hansen Perfect Press-On Nails, Viva-Vanilla",
+        "Sally Hansen",
+        "639",
+        "Sale",
+        "$5.00",
+        "Was",
+        "$9.99"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "8 colors",
+      "price": "$7.99",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/361630681484.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-insta-dri-nail-polish-chrome-effects-prodid-7200570",
+      "card_text": [
+        "8 colors",
+        "Sally Hansen Insta-Dri Nail Polish, Chrome & Effects, Bejewel Top Coat",
+        "Sally Hansen",
+        "10081",
+        "$7.99",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "8 colors",
+      "price": "$7.99",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/361630724207.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-insta-dri-colorshift-nail-polish-prodid-7201099",
+      "card_text": [
+        "NEW",
+        "8 colors",
+        "Sally Hansen Insta-Dri Colorshift Nail Polish, Maxima-lit",
+        "Sally Hansen",
+        "0",
+        "$7.99",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave..."
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "Sally Hansen No Chip Acrylic Top Coat",
+      "price": "$6.49",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/74170451153.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-no-chip-acrylic-top-coat-prodid-1760081",
+      "card_text": [
+        "Add",
+        "Sally Hansen No Chip Acrylic Top Coat",
+        "Sally Hansen",
+        "351",
+        "$6.49",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "Sally Hansen Dries Instantly Top Coat",
+      "price": "$6.49",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/74170451146.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-dries-instantly-top-coat-prodid-1760058",
+      "card_text": [
+        "Add",
+        "Sally Hansen Dries Instantly Top Coat",
+        "Sally Hansen",
+        "572",
+        "$6.49",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "Sally Hansen",
+      "price": "$10.29",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/74170444247.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-color-therapy-nail-and-cuticle-oil-prodid-1260196",
+      "card_text": [
+        "Add",
+        "Sally Hansen Color Therapy Nail and Cuticle Oil",
+        "Sally Hansen",
+        "264",
+        "$10.29",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "Sally Hansen Treatment Hard as Nails Vitamin Strength Serum",
+      "brand": "Sally Hansen",
+      "price": "$3.25",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/74170458374.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-treatment-hard-as-nails-vitamin-strength-serum-prodid-2230004",
+      "card_text": [
+        "Add",
+        "Sally Hansen Treatment Hard as Nails Vitamin Strength Serum",
+        "Sally Hansen",
+        "65",
+        "Sale",
+        "$3.25",
+        "Was",
+        "$6.49"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "Sally Hansen",
+      "price": "$13.99",
+      "size": "0.3 OZ",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/74170453164.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-cuticle-rehab-treatment-0-3-oz-prodid-1760089",
+      "card_text": [
+        "Add",
+        "Sally Hansen Cuticle Rehab Treatment, 0.3 OZ",
+        "Sally Hansen",
+        "383",
+        "$13.99",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave...",
+        "Pickup -"
+      ]
+    },
+    {
+      "name": "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+      "brand": "8 colors",
+      "price": "$12.79",
+      "size": "",
+      "img": "https://www.cvs.com/bizcontent/merchandising/productimages/high_res/361630767261.jpg?im=Resize=(205,205)",
+      "link": "https://www.cvs.com/shop/sally-hansen-miracle-gel-nail-polish-super-charged-glam-collection-prodid-7201100",
+      "card_text": [
+        "NEW",
+        "8 colors",
+        "Sally Hansen Miracle Gel Super-Charged Glam Collection, Purhue Your Dreams",
+        "Sally Hansen",
+        "0",
+        "$12.79",
+        "$3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools",
+        "Out of stock at 2255 14th Ave..."
+      ]
+    }
   ],
-  "error": "TimeoutError: page.goto: Timeout 120000ms exceeded.\nCall log:\n  - navigating to \"https://www.cvs.com/search?searchTerm=salsa\", waiting until \"domcontentloaded\"\n"
+  "raw_text_chars": 5813,
+  "steps": [
+    "18:17:33 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:17:34 connected to Bright Data Scraping Browser",
+    "18:18:26 goto https://www.cvs.com/search?searchTerm=salsa",
+    "18:18:34 captcha check passed",
+    "18:18:41 dismissed \"Close\"",
+    "18:18:41 press Escape",
+    "18:18:43 scrolled x2",
+    "18:18:47 scrolled x2",
+    "18:18:51 scrolled x2",
+    "18:18:53 js ok {\"url\":\"https://www.cvs.com/search?searchTerm=salsa\",\"title\":\"Shop Beauty, Vitam",
+    "18:18:53 store_set: null",
+    "18:18:53 attempt 2: store not pinned, fresh page",
+    "18:19:02 goto https://www.cvs.com/search?searchTerm=salsa",
+    "18:19:10 captcha check passed",
+    "18:19:18 dismissed \"2255 14TH AVE SE\"",
+    "18:19:18 press Escape",
+    "18:19:21 scrolled x2",
+    "18:19:25 scrolled x2",
+    "18:19:29 scrolled x2",
+    "18:19:32 js ok {\"url\":\"https://www.cvs.com/search?searchTerm=salsa\",\"title\":\"Shop Beauty, Vitam",
+    "18:19:32 store_set: null",
+    "18:19:32 extracted 20 houses; raw text 5813 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "{\"url\":\"https://www.cvs.com/search?searchTerm=salsa\",\"title\":\"Shop Beauty, Vitamins, Medicine & Everyday Essentials | CVS.com\",\"n_links\":154,\"prices\":26,\"inputs\":[\"Find a Brand\",\"34 colors Sally Hansen Color Therapy Nail Polish\",\"22 colors Sally Hansen Perfect Press-On Nails\",\"5 colors Sally Hansen Airbrush Legs Lotion\",\"3 colors Sally Hansen Good.Kind.Pure Nail Polish\",\"8 colors Sally Hansen Good.Kind.Pure Nail Polish\",\"29 colors Sally Hansen Miracle Gel Nail Color\",\"5 colors Sally Hansen Salon Pro Gel Nail Polish\"],\"body\":\"Skip to main content Showing shop results Shop Pharmacy salsa Sponsored How to get it Pickup not available Change Store Same-Day Delivery Check Address Shipping 109 products Sort by Relevance Price Low to High Price High to Low Top Rated Most Reviewed Name A-Z Name Z-A Filters Category Beauty (108) Health Benefits (2) Personal Care (5) Seasonal Shops (7) Brand Find a brand Sally Hansen (109) Product Type Size Quantity Price Under $5 (8) $5 - $10 (53) $10 - $15 (44) $15 - $20 (2) $20 - $25 (2) $25 and over (1) On Sale All Deals (15) 50% Off (15) Reviews 1 star & more (104) 2 stars & more (104) See More HSA/FSA Eligible Off New Arrival Off Top Rated Benefit Concern Gender Key Ingredient Material Form Color Makeup Finish OTC Eligible Off Sponsored 34 colors Sally Hansen Color Therapy, Wine Not Sally Hansen 2428 $10.29 $3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools Out of stock at 2255 14th Ave... Pickup - Check more stores Same-Day Delivery Shipping 22 colors Sally Hansen Perfect Press-On Nails, A La Mode Sally Hansen 640 $9.99 $3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools Out of stock at 2255 14th Ave... Pickup - Ch\"}",
+    "{\"url\":\"https://www.cvs.com/search?searchTerm=salsa\",\"title\":\"Shop Beauty, Vitamins, Medicine & Everyday Essentials | CVS.com\",\"n_links\":154,\"prices\":26,\"inputs\":[\"Find a Brand\",\"34 colors Sally Hansen Color Therapy Nail Polish\",\"22 colors Sally Hansen Perfect Press-On Nails\",\"5 colors Sally Hansen Airbrush Legs Lotion\",\"3 colors Sally Hansen Good.Kind.Pure Nail Polish\",\"8 colors Sally Hansen Good.Kind.Pure Nail Polish\",\"29 colors Sally Hansen Miracle Gel Nail Color\",\"5 colors Sally Hansen Salon Pro Gel Nail Polish\"],\"body\":\"Skip to main content Showing shop results Shop Pharmacy salsa Sponsored How to get it Pickup not available Change Store Same-Day Delivery Check Address Shipping 109 products Sort by Relevance Price Low to High Price High to Low Top Rated Most Reviewed Name A-Z Name Z-A Filters Category Beauty (108) Health Benefits (2) Personal Care (5) Seasonal Shops (7) Brand Find a brand Sally Hansen (109) Product Type Size Quantity Price Under $5 (8) $5 - $10 (53) $10 - $15 (44) $15 - $20 (2) $20 - $25 (2) $25 and over (1) On Sale All Deals (15) 50% Off (15) Reviews 1 star & more (104) 2 stars & more (104) See More HSA/FSA Eligible Off New Arrival Off Top Rated Benefit Concern Gender Key Ingredient Material Form Color Makeup Finish OTC Eligible Off Sponsored 34 colors Sally Hansen Color Therapy, Wine Not Sally Hansen 2428 $10.29 $3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools Out of stock at 2255 14th Ave... Pickup - Check more stores Same-Day Delivery Shipping 22 colors Sally Hansen Perfect Press-On Nails, A La Mode Sally Hansen 640 $9.99 $3 ExtraBucks Rewards for spending $10 on Sally Hansen cosmetics or beauty tools Out of stock at 2255 14th Ave... Pickup - Ch\"}"
+  ],
+  "houses_text": 17
 }

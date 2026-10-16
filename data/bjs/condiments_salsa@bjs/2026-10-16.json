@@ -3,7 +3,7 @@
   "retailer": "bjs",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-16T18:04:13.477Z",
+  "pulled_at": "2026-10-16T18:16:02.276Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -12,12 +12,15 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "18:04:13 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "18:04:14 connected to Bright Data Scraping Browser",
-    "18:04:24 goto https://www.bjs.com/",
-    "18:04:32 captcha check passed",
-    "18:09:11 dismiss: nothing to close",
-    "18:09:11 ERROR Error: page.waitForTimeout: Target page, context or browser has been closed"
+    "18:16:02 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:16:03 connected to Bright Data Scraping Browser",
+    "18:16:05 goto https://www.bjs.com/",
+    "18:17:56 captcha check passed",
+    "18:18:06 js ok {\"url\":\"https://www.bjs.com/\",\"prices\":0,\"inputs\":[],\"dlg\":null,\"body\":\"Access D",
+    "18:18:43 ERROR Error: page.goto: net::ERR_TIMED_OUT at https://www.bjs.com/search/salsa\nCall log:\n  - navigating to \"https://www.bjs.com/search/salsa\", waiting until \"domcontentloaded\"\n"
   ],
-  "error": "Error: page.waitForTimeout: Target page, context or browser has been closed"
+  "error": "Error: page.goto: net::ERR_TIMED_OUT at https://www.bjs.com/search/salsa\nCall log:\n  - navigating to \"https://www.bjs.com/search/salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.bjs.com/\",\"prices\":0,\"inputs\":[],\"dlg\":null,\"body\":\"Access Denied You don't have permission to access \\\"http://www.bjs.com/\\\" on this server. Reference #18.b559c817.1792174669.4c497c3 https://errors.edgesuite.net/18.b559c817.1792174669.4c497c3\"}"
+  ]
 }

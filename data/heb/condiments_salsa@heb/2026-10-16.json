@@ -3,21 +3,1065 @@
   "retailer": "heb",
   "zip": "condiments",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-16T18:00:53.975Z",
+  "pulled_at": "2026-10-16T18:14:25.501Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "77005",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "18:00:53 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "18:00:54 connected to Bright Data Scraping Browser",
-    "18:01:03 goto https://www.heb.com/",
-    "18:01:11 captcha check passed",
-    "18:02:23 dismissed \"Close\"",
-    "18:02:37 ERROR Error: search: no search box"
+  "store_set": "Victoria H‑E‑B plus!",
+  "url_final": "https://www.heb.com/search?q=salsa",
+  "houses": [
+    {
+      "name": "H-E-B Fresh Salsa - Mild, 16 oz",
+      "brand": "Coupon",
+      "price": "$4.26",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/003463050-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-fresh-salsa-mild-16-oz/3463050",
+      "card_text": [
+        "Coupon",
+        "$4.26",
+        "each",
+        "($0.27 / oz)",
+        "H-E-B Fresh Salsa - Mild, 16 oz",
+        "SNAP EBT",
+        "In Produce on the Front Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Julio's Fresh Home Style Mild Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.97",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000253857-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/julio-s-fresh-home-style-mild-salsa-16-oz/253857",
+      "card_text": [
+        "$3.97",
+        "each",
+        "($0.25 / oz)",
+        "Julio's Fresh Home Style Mild Salsa, 16 oz",
+        "SNAP EBT",
+        "In Dairy on the Back Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Fresh Salsa - Medium Spicy, 16 oz",
+      "brand": "Coupon",
+      "price": "$4.26",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001655218-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-fresh-salsa-medium-spicy-16-oz/1655218",
+      "card_text": [
+        "Coupon",
+        "$4.26",
+        "each",
+        "($0.27 / oz)",
+        "H-E-B Fresh Salsa - Medium Spicy, 16 oz",
+        "SNAP EBT",
+        "In Produce on the Front Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Fresh Guacamole & Salsa Combo - Mild, 20 oz",
+      "brand": "Add to cart",
+      "price": "$8.98",
+      "size": "20 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/012414511-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-fresh-guacamole-salsa-combo-mild-20-oz/12414511",
+      "card_text": [
+        "$8.98",
+        "each",
+        "($0.45 / oz)",
+        "H-E-B Fresh Guacamole & Salsa Combo - Mild, 20 oz",
+        "SNAP EBT",
+        "In Produce on the Front Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Mark's Good Stuff Lone Star Certified Restaurant Salsa - Medium, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.98",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001687881-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/mark-s-good-stuff-lone-star-certified-restaurant-salsa-medium-16-oz/1687881",
+      "card_text": [
+        "$3.98",
+        "each",
+        "($0.25 / oz)",
+        "Mark's Good Stuff Lone Star Certified Restaurant Salsa - Medium, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Mi Tienda Salsa Tradicional – Mild, 16 oz",
+      "brand": "Coupon",
+      "price": "$5.98",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/011034517-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-mi-tienda-salsa-tradicional-mild-16-oz/11034517",
+      "card_text": [
+        "Coupon",
+        "$5.98",
+        "each",
+        "($0.37 / oz)",
+        "H-E-B Mi Tienda Salsa Tradicional – Mild, 16 oz",
+        "SNAP EBT",
+        "In Produce on the Front Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Thick 'n Chunky Mild Salsa, 24 oz",
+      "brand": "Add to cart",
+      "price": "$2.98",
+      "size": "24 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000126816-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-thick-n-chunky-mild-salsa-24-oz/126816",
+      "card_text": [
+        "$2.98",
+        "each",
+        "($0.12 / oz)",
+        "H-E-B Thick 'n Chunky Mild Salsa, 24 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Mateo's Medium Gourmet Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$4.62",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001884990-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/mateo-s-medium-gourmet-salsa-16-oz/1884990",
+      "card_text": [
+        "$4.62",
+        "each",
+        "($0.29 / oz)",
+        "Mateo's Medium Gourmet Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Julio's Fresh Hot Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.97",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001044812-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/julio-s-fresh-hot-salsa-16-oz/1044812",
+      "card_text": [
+        "$3.97",
+        "each",
+        "($0.25 / oz)",
+        "Julio's Fresh Hot Salsa, 16 oz",
+        "SNAP EBT",
+        "In Dairy on the Back Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Salsa El Gallo Mexican Restaurant-Style Taquera - Jalapeño, 11.7 oz",
+      "brand": "Add to cart",
+      "price": "$5.57",
+      "size": "11.7 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001857446-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/salsa-el-gallo-mexican-restaurant-style-taquera-jalape-o-11-7-oz/1857446",
+      "card_text": [
+        "$5.57",
+        "each",
+        "($0.51 / fl oz)",
+        "Salsa El Gallo Mexican Restaurant-Style Taquera - Jalapeño, 11.7 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Mi Tienda Creamy Salsa Verde - Hot, 16 oz",
+      "brand": "Coupon",
+      "price": "$5.98",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/011034516-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-mi-tienda-creamy-salsa-verde-hot-16-oz/11034516",
+      "card_text": [
+        "Coupon",
+        "$5.98",
+        "each",
+        "($0.37 / oz)",
+        "H-E-B Mi Tienda Creamy Salsa Verde - Hot, 16 oz",
+        "SNAP EBT",
+        "In Produce on the Front Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Mi Tienda Salsa Roja - Medium, 16 oz",
+      "brand": "Coupon",
+      "price": "$3.20",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/012017018-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-mi-tienda-salsa-roja-medium-16-oz/12017018",
+      "card_text": [
+        "Coupon",
+        "$3.20",
+        "each",
+        "($0.20 / oz)",
+        "H-E-B Mi Tienda Salsa Roja - Medium, 16 oz",
+        "SNAP EBT",
+        "In Dairy on the Back Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Mi Tienda Salsa Verde con Aguacate - Mild, 16 oz",
+      "brand": "Coupon",
+      "price": "$3.20",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/012015541-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-mi-tienda-salsa-verde-con-aguacate-mild-16-oz/12015541",
+      "card_text": [
+        "Coupon",
+        "$3.20",
+        "each",
+        "($0.20 / oz)",
+        "H-E-B Mi Tienda Salsa Verde con Aguacate - Mild, 16 oz",
+        "SNAP EBT",
+        "In Dairy on the Back Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Medium Chunky Restaurant Style Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.48",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000536004-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-medium-chunky-restaurant-style-salsa-16-oz/536004",
+      "card_text": [
+        "$3.48",
+        "each",
+        "($0.22 / oz)",
+        "H-E-B Medium Chunky Restaurant Style Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 11",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Mateo's Mild Gourmet Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$4.62",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001884995-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/mateo-s-mild-gourmet-salsa-16-oz/1884995",
+      "card_text": [
+        "$4.62",
+        "each",
+        "($0.29 / oz)",
+        "Mateo's Mild Gourmet Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Medium Picante Salsa, 24 oz",
+      "brand": "Add to cart",
+      "price": "$2.63",
+      "size": "24 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000125146-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-medium-picante-salsa-24-oz/125146",
+      "card_text": [
+        "$2.63",
+        "each",
+        "($0.11 / oz)",
+        "H-E-B Medium Picante Salsa, 24 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Fresh Salsa - Hot, 16 oz",
+      "brand": "Coupon",
+      "price": "$4.26",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001655217-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-fresh-salsa-hot-16-oz/1655217",
+      "card_text": [
+        "Coupon",
+        "$4.26",
+        "each",
+        "($0.27 / oz)",
+        "H-E-B Fresh Salsa - Hot, 16 oz",
+        "SNAP EBT",
+        "In Produce on the Front Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Pace Chunky Mild Salsa, 24 oz",
+      "brand": "Add to cart",
+      "price": "$3.76",
+      "size": "24 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000132331-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/pace-chunky-mild-salsa-24-oz/132331",
+      "card_text": [
+        "$3.76",
+        "each",
+        "($0.16 / oz)",
+        "Pace Chunky Mild Salsa, 24 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Mark's Good Stuff Lone Star Certified Roasted Salsa - Medium, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.98",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001687879-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/mark-s-good-stuff-lone-star-certified-roasted-salsa-medium-16-oz/1687879",
+      "card_text": [
+        "$3.98",
+        "each",
+        "($0.25 / oz)",
+        "Mark's Good Stuff Lone Star Certified Roasted Salsa - Medium, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Specialty Series Mild Salsa - Cilantro, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.78",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001579531-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-specialty-series-mild-salsa-cilantro-16-oz/1579531",
+      "card_text": [
+        "$3.78",
+        "each",
+        "($0.24 / oz)",
+        "H-E-B Specialty Series Mild Salsa - Cilantro, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Cholula Original - Medium Salsa, 12 oz",
+      "brand": "Add to cart",
+      "price": "$3.28",
+      "size": "12 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/009355530-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/cholula-original-medium-salsa-12-oz/9355530",
+      "card_text": [
+        "$3.28",
+        "each",
+        "($0.27 / oz)",
+        "Cholula Original - Medium Salsa, 12 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Tostitos Medium Chunky Salsa, 15.5 oz",
+      "brand": "Add to cart",
+      "price": "$3.98",
+      "size": "15.5 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/002006196-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/tostitos-medium-chunky-salsa-15-5-oz/2006196",
+      "card_text": [
+        "$3.98",
+        "each",
+        "($0.26 / oz)",
+        "Tostitos Medium Chunky Salsa, 15.5 oz",
+        "SNAP EBT",
+        "Aisle 11",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Thick 'n Chunky Medium Salsa, 24 oz",
+      "brand": "Add to cart",
+      "price": "$2.98",
+      "size": "24 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000126815-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-thick-n-chunky-medium-salsa-24-oz/126815",
+      "card_text": [
+        "$2.98",
+        "each",
+        "($0.12 / oz)",
+        "H-E-B Thick 'n Chunky Medium Salsa, 24 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Herdez Medium Guacamole Salsa, 15.7 oz",
+      "brand": "Add to cart",
+      "price": "$3.57",
+      "size": "15.7 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001978366-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/herdez-medium-guacamole-salsa-15-7-oz/1978366",
+      "card_text": [
+        "$3.57",
+        "each",
+        "($0.23 / oz)",
+        "Herdez Medium Guacamole Salsa, 15.7 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Mark's Good Stuff Lone Star Certified Salsa - Mild, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.98",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001687872-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/mark-s-good-stuff-lone-star-certified-salsa-mild-16-oz/1687872",
+      "card_text": [
+        "$3.98",
+        "each",
+        "($0.25 / oz)",
+        "Mark's Good Stuff Lone Star Certified Salsa - Mild, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Organics Thick N' Chunky Salsa - Mild, 16 oz",
+      "brand": "Add to cart",
+      "price": "$4.28",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/004217516-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-organics-thick-n-chunky-salsa-mild-16-oz/4217516",
+      "card_text": [
+        "$4.28",
+        "each",
+        "($0.27 / oz)",
+        "H-E-B Organics Thick N' Chunky Salsa - Mild, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Mi Tienda Molcajete-Style Salsa Roja – Mild/Medium, 16 oz",
+      "brand": "Coupon",
+      "price": "$5.98",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/011035011-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-mi-tienda-molcajete-style-salsa-roja-mild-medium-16-oz/11035011",
+      "card_text": [
+        "Coupon",
+        "$5.98",
+        "each",
+        "($0.37 / oz)",
+        "H-E-B Mi Tienda Molcajete-Style Salsa Roja – Mild/Medium, 16 oz",
+        "SNAP EBT",
+        "In Produce on the Front Wall",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "On The Border Mild Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.24",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000282421-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/on-the-border-mild-salsa-16-oz/282421",
+      "card_text": [
+        "$3.24",
+        "each",
+        "($0.20 / oz)",
+        "On The Border Mild Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Medium Picante Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$2.18",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000125439-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-medium-picante-salsa-16-oz/125439",
+      "card_text": [
+        "$2.18",
+        "each",
+        "($0.14 / oz)",
+        "H-E-B Medium Picante Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Mild Picante Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$2.18",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000125602-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-mild-picante-salsa-16-oz/125602",
+      "card_text": [
+        "$2.18",
+        "each",
+        "($0.14 / oz)",
+        "H-E-B Mild Picante Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Clint's Texas Salsa - Medium, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.97",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000245293-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/clint-s-texas-salsa-medium-16-oz/245293",
+      "card_text": [
+        "$3.97",
+        "each",
+        "($0.25 / oz)",
+        "Clint's Texas Salsa - Medium, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Joe T. Garcia's Medium Salsa Picante, 16 oz",
+      "brand": "Add to cart",
+      "price": "$2.78",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000093641-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/joe-t-garcia-s-medium-salsa-picante-16-oz/93641",
+      "card_text": [
+        "$2.78",
+        "each",
+        "($0.17 / oz)",
+        "Joe T. Garcia's Medium Salsa Picante, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Pace Hot Picante Sauce, 16 oz",
+      "brand": "Add to cart",
+      "price": "$2.97",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000132313-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/pace-hot-picante-sauce-16-oz/132313",
+      "card_text": [
+        "$2.97",
+        "each",
+        "($0.19 / oz)",
+        "Pace Hot Picante Sauce, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Pace Chunky Medium Salsa, 24 oz",
+      "brand": "Add to cart",
+      "price": "$3.76",
+      "size": "24 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000132335-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/pace-chunky-medium-salsa-24-oz/132335",
+      "card_text": [
+        "$3.76",
+        "each",
+        "($0.16 / oz)",
+        "Pace Chunky Medium Salsa, 24 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Central Market Mild Peach Salsa, 16 oz",
+      "brand": "Coupon",
+      "price": "$4.23",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001644727-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/central-market-mild-peach-salsa-16-oz/1644727",
+      "card_text": [
+        "Coupon",
+        "$4.23",
+        "each",
+        "($0.26 / oz)",
+        "Central Market Mild Peach Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Cholula Salsa Verde - Mild Salsa, 12 oz",
+      "brand": "Add to cart",
+      "price": "$3.28",
+      "size": "12 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/009355532-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/cholula-salsa-verde-mild-salsa-12-oz/9355532",
+      "card_text": [
+        "$3.28",
+        "each",
+        "($0.27 / oz)",
+        "Cholula Salsa Verde - Mild Salsa, 12 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Herdez Mild Salsa Verde, 16 oz",
+      "brand": "Add to cart",
+      "price": "$2.84",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000175826-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/herdez-mild-salsa-verde-16-oz/175826",
+      "card_text": [
+        "$2.84",
+        "each",
+        "($0.18 / oz)",
+        "Herdez Mild Salsa Verde, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Mild Picante Salsa, 24 oz",
+      "brand": "Add to cart",
+      "price": "$2.63",
+      "size": "24 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000126524-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-mild-picante-salsa-24-oz/126524",
+      "card_text": [
+        "$2.63",
+        "each",
+        "($0.11 / oz)",
+        "H-E-B Mild Picante Salsa, 24 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Salsa De Leon Salsa - Texas Mild, 16 oz",
+      "brand": "Add to cart",
+      "price": "$5.98",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/002853098-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/salsa-de-leon-salsa-texas-mild-16-oz/2853098",
+      "card_text": [
+        "$5.98",
+        "each",
+        "($0.37 / oz)",
+        "Salsa De Leon Salsa - Texas Mild, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Salsa De Leon Roasted Salsa - Hot, 16 oz",
+      "brand": "Add to cart",
+      "price": "$5.98",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/002853093-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/salsa-de-leon-roasted-salsa-hot-16-oz/2853093",
+      "card_text": [
+        "$5.98",
+        "each",
+        "($0.37 / oz)",
+        "Salsa De Leon Roasted Salsa - Hot, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Salsa De Leon Salsa Mexicana - Medium, 16 oz",
+      "brand": "Add to cart",
+      "price": "$5.98",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/015754039-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/salsa-de-leon-salsa-mexicana-medium-16-oz/15754039",
+      "card_text": [
+        "$5.98",
+        "each",
+        "($0.37 / oz)",
+        "Salsa De Leon Salsa Mexicana - Medium, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Salsa De Leon Roasted Salsa - Habanero Hot, 16 oz",
+      "brand": "Add to cart",
+      "price": "$5.98",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/002853087-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/salsa-de-leon-roasted-salsa-habanero-hot-16-oz/2853087",
+      "card_text": [
+        "$5.98",
+        "each",
+        "($0.37 / oz)",
+        "Salsa De Leon Roasted Salsa - Habanero Hot, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Salsa El Gallo Mexican Restaurant-Style Taquera - Habanero, 11.7 oz",
+      "brand": "Add to cart",
+      "price": "$5.57",
+      "size": "11.7 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001857449-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/salsa-el-gallo-mexican-restaurant-style-taquera-habanero-11-7-oz/1857449",
+      "card_text": [
+        "$5.57",
+        "each",
+        "($0.51 / oz)",
+        "Salsa El Gallo Mexican Restaurant-Style Taquera - Habanero, 11.7 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B That's Salsa Bout Texas Medium Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.68",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001835989-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-that-s-salsa-bout-texas-medium-salsa-16-oz/1835989",
+      "card_text": [
+        "$3.68",
+        "each",
+        "($0.23 / oz)",
+        "H-E-B That's Salsa Bout Texas Medium Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "H-E-B Specialty Series Mild Salsa - Salsa Ranchero, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.78",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001174942-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/h-e-b-specialty-series-mild-salsa-salsa-ranchero-16-oz/1174942",
+      "card_text": [
+        "$3.78",
+        "each",
+        "($0.24 / oz)",
+        "H-E-B Specialty Series Mild Salsa - Salsa Ranchero, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Zaaschila Cremosa Salsa de Aguacate Natural (Avocado Salsa Spread), 9.35 oz",
+      "brand": "Add to cart",
+      "price": "$1.94",
+      "size": "9.35 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001063393-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/zaaschila-cremosa-salsa-de-aguacate-natural-avocado-salsa-spread-9-35-oz/1063393",
+      "card_text": [
+        "$1.94",
+        "each",
+        "($0.21 / oz)",
+        "Zaaschila Cremosa Salsa de Aguacate Natural (Avocado Salsa Spread), 9.35 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "La Costeña Medium Salsa Mexicana Casero (Home Style Mexican Salsa), 16.7 oz",
+      "brand": "Add to cart",
+      "price": "$2.44",
+      "size": "16.7 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000193673-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/la-coste-a-medium-salsa-mexicana-casero-home-style-mexican-salsa-16-7-oz/193673",
+      "card_text": [
+        "$2.44",
+        "each",
+        "($0.15 / oz)",
+        "La Costeña Medium Salsa Mexicana Casero (Home Style Mexican Salsa), 16.7 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Tostitos Avocado Salsa, 15 oz",
+      "brand": "Out of stock",
+      "price": "$3.98",
+      "size": "15 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/003714001-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/tostitos-avocado-salsa-15-oz/3714001",
+      "card_text": [
+        "$3.98",
+        "each",
+        "($0.27 / oz)",
+        "Tostitos Avocado Salsa, 15 oz",
+        "SNAP EBT",
+        "Aisle 11",
+        "Out of stock",
+        "Find similar items"
+      ]
+    },
+    {
+      "name": "On The Border Medium Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$3.24",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000282418-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/on-the-border-medium-salsa-16-oz/282418",
+      "card_text": [
+        "$3.24",
+        "each",
+        "($0.20 / oz)",
+        "On The Border Medium Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Ancira Green Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$6.49",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/009301508-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/ancira-green-salsa-16-oz/9301508",
+      "card_text": [
+        "$6.49",
+        "each",
+        "($0.41 / oz)",
+        "Ancira Green Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Ancira Mild Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$6.49",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/009299530-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/ancira-mild-salsa-16-oz/9299530",
+      "card_text": [
+        "$6.49",
+        "each",
+        "($0.41 / oz)",
+        "Ancira Mild Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Zaaschila Hot! Cremosa Salsa de Aguacate y Habanero (Avocado and Habanero Salsa Spread), 9.35 oz",
+      "brand": "Add to cart",
+      "price": "$1.94",
+      "size": "9.35 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001179938-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/zaaschila-hot-cremosa-salsa-de-aguacate-y-habanero-avocado-and-habanero-salsa-spread-9-35-oz/1179938",
+      "card_text": [
+        "$1.94",
+        "each",
+        "($0.21 / oz)",
+        "Zaaschila Hot! Cremosa Salsa de Aguacate y Habanero (Avocado and Habanero Salsa Spread), 9.35 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Goya Medium Verde Salsa, 17.6 oz",
+      "brand": "Add to cart",
+      "price": "$3.28",
+      "size": "17.6 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000519624-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/goya-medium-verde-salsa-17-6-oz/519624",
+      "card_text": [
+        "$3.28",
+        "each",
+        "($0.19 / oz)",
+        "Goya Medium Verde Salsa, 17.6 oz",
+        "SNAP EBT",
+        "Aisle 2",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Herdez Casera Hot Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$2.84",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000175824-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/herdez-casera-hot-salsa-16-oz/175824",
+      "card_text": [
+        "$2.84",
+        "each",
+        "($0.18 / oz)",
+        "Herdez Casera Hot Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Tostitos Mild Chunky Salsa, 15.5 oz",
+      "brand": "Add to cart",
+      "price": "$3.98",
+      "size": "15.5 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/002006197-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/tostitos-mild-chunky-salsa-15-5-oz/2006197",
+      "card_text": [
+        "$3.98",
+        "each",
+        "($0.26 / oz)",
+        "Tostitos Mild Chunky Salsa, 15.5 oz",
+        "SNAP EBT",
+        "Aisle 11",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "On The Border Salsa Con Queso, 15.5 oz",
+      "brand": "Add to cart",
+      "price": "$3.82",
+      "size": "15.5 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000820448-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/on-the-border-salsa-con-queso-15-5-oz/820448",
+      "card_text": [
+        "$3.82",
+        "each",
+        "($0.25 / oz)",
+        "On The Border Salsa Con Queso, 15.5 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Herdez Mild Guacamole Salsa, 15.7 oz",
+      "brand": "Add to cart",
+      "price": "$3.57",
+      "size": "15.7 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/002184421-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/herdez-mild-guacamole-salsa-15-7-oz/2184421",
+      "card_text": [
+        "$3.57",
+        "each",
+        "($0.23 / oz)",
+        "Herdez Mild Guacamole Salsa, 15.7 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Mateo's Hot Gourmet Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$4.62",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/001885020-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/mateo-s-hot-gourmet-salsa-16-oz/1885020",
+      "card_text": [
+        "$4.62",
+        "each",
+        "($0.29 / oz)",
+        "Mateo's Hot Gourmet Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Herdez Casera Medium Salsa, 16 oz",
+      "brand": "Add to cart",
+      "price": "$2.84",
+      "size": "16 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000175822-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/herdez-casera-medium-salsa-16-oz/175822",
+      "card_text": [
+        "$2.84",
+        "each",
+        "($0.18 / oz)",
+        "Herdez Casera Medium Salsa, 16 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    },
+    {
+      "name": "Herdez Hot Salsa Casera, 7 oz",
+      "brand": "Add to cart",
+      "price": "$1.13",
+      "size": "7 oz",
+      "img": "https://images.heb.com/is/image/HEBGrocery/000175814-1?hei=360&wid=360",
+      "link": "https://www.heb.com/product-detail/herdez-hot-salsa-casera-7-oz/175814",
+      "card_text": [
+        "$1.13",
+        "each",
+        "($0.16 / oz)",
+        "Herdez Hot Salsa Casera, 7 oz",
+        "SNAP EBT",
+        "Aisle 3",
+        "Add to cart"
+      ]
+    }
   ],
-  "error": "Error: search: no search box"
+  "raw_text_chars": 7940,
+  "steps": [
+    "18:14:25 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:14:26 connected to Bright Data Scraping Browser",
+    "18:14:28 goto https://www.heb.com/",
+    "18:14:37 captcha check passed",
+    "18:14:50 js ok clicked In-store at | inputs=[\"Search\"] | dlg=You're shopping Victoria H‑E‑B plu",
+    "18:15:15 type_sel miss input[placeholder*='zip' i], input[aria-label*='zip' i], input[placeholder*='city' i]",
+    "18:15:21 js ok {\"url\":\"https://www.heb.com/\",\"prices\":301,\"inputs\":[\"Search\"],\"dlg\":\"You're sho",
+    "18:15:22 press Escape",
+    "18:15:25 search \"salsa\"",
+    "18:15:41 scrolled x4",
+    "18:15:43 js ok {\"url\":\"https://www.heb.com/search?q=salsa\",\"prices\":124,\"inputs\":[\"Search\",\"sav",
+    "18:15:43 store_set: Victoria H‑E‑B plus!",
+    "18:15:44 extracted 60 houses; raw text 7940 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "clicked In-store at | inputs=[\"Search\"] | dlg=You're shopping Victoria H‑E‑B plus! Not your H-E-B? Select your preferred location.",
+    "{\"url\":\"https://www.heb.com/\",\"prices\":301,\"inputs\":[\"Search\"],\"dlg\":\"You're shopping Victoria H‑E‑B plus! Not your H-E-B? Select your preferred location.\",\"body\":\"Skip To Content Search H E B.com In-store at Victoria H‑E‑B plus! Shop Recipes & meals Savings Pharmacy Wellness More H-E-B Sign up or log in Lists Help & FAQs H-E-B | Curbside Pickup & Grocery Delivery | HEB.com Skip banner carousel Make it a chili night All you need for a satisfying meal Shop now Give 'em something good to eat Shop now Promoted Delivery in 1 hour with H‑E‑B Now Shop now Save on essentials Laundry, pet, and cleaning Shop now $5 off $25+ select laundry & cleaning essentials** Save now Promoted Skip Satisfy your sweet tooth carousel Satisfy your sweet tooth $4.98 each H-E-B Bakery Two-Bite Brownies, 12 oz Add to cart Coupon $3.98 each Swoon by H-E-B Pumpkin Cheesecake Ice Cream, 1 pt Add to cart $7.98 each H-E-B Bakery Banana Crème Cold Half Pie with Biscoff Cookie Pieces, Each Add to cart $4.98 each H-E-B Bakery Pumpkin Muffins, 4 ct Add to cart Coupon $3.98 each Swoon b\"}",
+    "{\"url\":\"https://www.heb.com/search?q=salsa\",\"prices\":124,\"inputs\":[\"Search\",\"savings-allsave\",\"savings-coupon\",\"savings-sale\",\"brand-HEBOB\",\"brand-H-E-B\",\"brand-Central%20Market\",\"brand-Hill%20Country%20Fare\"],\"dlg\":null,\"body\":\"Skip To Content Search H E B.com In-store at Victoria H‑E‑B plus! Shop Recipes & meals Savings Pharmacy Wellness More H-E-B Sign up or log in Lists Help & FAQs “salsa” Filter by Skip to product grid Category Deli & prepared food Home & outdoor Pantry Savings All savings All savings 29 Has coupon Has coupon 28 Sale Sale 2 Brand All H-E-B brands All H-E-B brands 81 H-E-B H-E-B 36 Central Market Central Market 8 Hill Country Fare Hill Country Fare 4 505 Southwestern 505 Southwestern 5 Show all Brand filters Ways to shop SNAP EBT eligible SNAP EBT eligible 268 Low carb lifestyle Low carb lifestyle 124 Go local Go local 98 Gluten free verified Gluten free verified 69 Select Ingredients Select Ingredients 63 Show all Ways to shop filters Price $0 - $9.99 $0 - $9.99 268 $10 - $19.99 $10 - $19.99 2 270 results Sort by Best match Price low to high Price high to low A-Z Z-A Coupon $4.26 each ($0.2\"}"
+  ],
+  "houses_text": 59
 }
