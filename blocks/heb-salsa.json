@@ -5,7 +5,7 @@
  "neighborhood": "salsa",
  "term": "salsa",
  "store_zip": "77005",
- "attempts": 1,
+ "attempts": 2,
  "store_patterns": [
   "In-store at\\s*\\n?\\s*([^\\n]{3,60})"
  ],
@@ -17,29 +17,29 @@
    "wait": 10000
   },
   {
-   "js": "const b=[...document.querySelectorAll('button,a,[role=button]')].find(e=>e.offsetWidth&&/In-store at|Victoria|change store|my store/i.test(e.innerText||e.getAttribute('aria-label')||'')); if(!b) return 'no store btn'; b.click(); await new Promise(x=>setTimeout(x,3000)); const d=document.querySelector('[role=dialog],[aria-modal=true]'); return 'clicked '+b.innerText.replace(/\\s+/g,' ').slice(0,40)+' | inputs='+JSON.stringify([...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id))+' | dlg='+(d?d.innerText.replace(/\\s+/g,' ').slice(0,700):'none')",
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;} const vis=e=>e.offsetWidth||e.offsetHeight; let b=[...document.querySelectorAll('button,a,[role=button]')].find(e=>vis(e)&&/In-store at/i.test(e.innerText||'')); if(!b) return 'no store btn'; b.click(); await new Promise(x=>setTimeout(x,2500)); let l=[...document.querySelectorAll('button,a,[role=button]')].find(e=>vis(e)&&/Select your preferred location|change|select/i.test(e.innerText||'')&&(e.innerText||'').length<60); const out=['opened']; if(l){l.click(); out.push('clicked '+l.innerText.trim().slice(0,40)); await new Promise(x=>setTimeout(x,3000));} const inp=await waitFor(()=>[...document.querySelectorAll('input')].find(e=>vis(e)&&/zip|city|search.*store|location|address/i.test((e.placeholder||'')+(e.getAttribute('aria-label')||''))),8); out.push('inputs='+JSON.stringify([...document.querySelectorAll('input')].filter(vis).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id))); if(inp){inp.setAttribute('data-zipbox','1'); out.push('zipbox ok');} const d=document.querySelector('[role=dialog],[aria-modal=true]'); out.push('dlg='+(d?d.innerText.replace(/\\s+/g,' ').slice(0,600):'none')); return out.join(' | ')",
    "optional": true
   },
   {
-   "type_sel": {
-    "sel": "input[placeholder*='zip' i], input[aria-label*='zip' i], input[placeholder*='city' i]",
+   "type_marked": {
+    "sel": "[data-zipbox='1']",
     "value": "{{store_zip}}",
     "enter": true
    },
    "optional": true
   },
   {
-   "wait": 6000
+   "js": "await new Promise(x=>setTimeout(x,5000)); const vis=e=>e.offsetWidth||e.offsetHeight; const d=document.querySelector('[role=dialog],[aria-modal=true]')||document; const b=[...d.querySelectorAll('button,a,[role=button]')].find(e=>vis(e)&&/^(Select|Shop here|Make my store|Set as my store|Choose)/i.test(e.innerText.trim())); const txt=(d.innerText||'').replace(/\\s+/g,' ').slice(0,900); if(b){b.click(); return 'picked '+b.innerText.trim().slice(0,30)+' | '+txt} return 'nopick | '+txt",
+   "optional": true
   },
   {
-   "js": "return JSON.stringify({url:location.href,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,inputs:[...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id).slice(0,8),dlg:(document.querySelector('[role=dialog],[aria-modal=true]')||{}).innerText?.replace(/\\s+/g,' ').slice(0,500)||null,body:document.body.innerText.replace(/\\s+/g,' ').slice(0,900)})",
-   "optional": true
+   "wait": 6000
   },
   {
    "press": "Escape"
   },
   {
-   "wait": 1000
+   "wait": 1500
   },
   {
    "search": {
@@ -54,10 +54,7 @@
   },
   {
    "wait": 2000
-  },
-  {
-   "js": "return JSON.stringify({url:location.href,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,inputs:[...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id).slice(0,8),dlg:(document.querySelector('[role=dialog],[aria-modal=true]')||{}).innerText?.replace(/\\s+/g,' ').slice(0,500)||null,body:document.body.innerText.replace(/\\s+/g,' ').slice(0,900)})",
-   "optional": true
   }
- ]
+ ],
+ "store_expect": "Houston|Bellaire|West U|Rice|77005|Buffalo|Kirby"
 }
