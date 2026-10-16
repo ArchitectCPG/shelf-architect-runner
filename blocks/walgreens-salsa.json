@@ -5,50 +5,60 @@
  "neighborhood": "salsa",
  "term": "salsa",
  "store_zip": "60615",
- "attempts": 2,
+ "attempts": 1,
+ "store_patterns": [
+  "Nearest store\\s*\\n?\\s*([^\\n]{5,60})"
+ ],
  "steps": [
   {
-   "goto": "https://www.walgreens.com/search/results.jsp?Ntt={{term}}"
+   "goto": "https://www.walgreens.com/"
   },
   {
-   "wait": 9000
+   "wait": 10000
   },
   {
    "dismiss": [
     "Close",
-    "No thanks",
-    "Not now",
-    "Continue",
-    "Got it",
-    "Accept",
-    "Accept All Cookies",
-    "OK"
+    "No thanks"
    ]
   },
   {
-   "wait": 15000
-  },
-  {
-   "scroll": 3
-  },
-  {
-   "wait": 6000
+   "type_sel": {
+    "sel": "input[placeholder*='city, state or ZIP' i]",
+    "value": "{{store_zip}}",
+    "enter": true
+   },
+   "optional": true
   },
   {
    "wait": 8000
   },
   {
-   "scroll": 5
+   "js": "return JSON.stringify({url:location.href,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,inputs:[...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id).slice(0,8),dlg:(document.querySelector('[role=dialog],[aria-modal=true]')||{}).innerText?.replace(/\\s+/g,' ').slice(0,500)||null,body:document.body.innerText.replace(/\\s+/g,' ').slice(0,900)})",
+   "optional": true
+  },
+  {
+   "click_re": "^(Select|Set as my store|Make this my store|Choose this store)",
+   "optional": true
+  },
+  {
+   "wait": 4000
+  },
+  {
+   "goto": "https://www.walgreens.com/search/results.jsp?Ntt={{term}}"
+  },
+  {
+   "wait": 15000
+  },
+  {
+   "scroll": 4
   },
   {
    "wait": 3000
   },
   {
-   "js": "return JSON.stringify({url:location.href,title:document.title,n_links:document.querySelectorAll('a').length,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,inputs:[...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id).slice(0,8),body:document.body.innerText.replace(/\\s+/g,' ').slice(0,1200)})",
+   "js": "return JSON.stringify({url:location.href,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,inputs:[...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id).slice(0,8),dlg:(document.querySelector('[role=dialog],[aria-modal=true]')||{}).innerText?.replace(/\\s+/g,' ').slice(0,500)||null,body:document.body.innerText.replace(/\\s+/g,' ').slice(0,900)})",
    "optional": true
   }
- ],
- "store_patterns": [
-  "Nearest store\\s*\\n?\\s*([^\\n]{5,60})"
  ]
 }
