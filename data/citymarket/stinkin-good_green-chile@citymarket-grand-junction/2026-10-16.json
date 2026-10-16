@@ -1,0 +1,29 @@
+{
+  "block_id": "stinkin-good/green-chile@citymarket-grand-junction",
+  "retailer": "citymarket",
+  "zip": "refrigerated",
+  "neighborhood": "green-chile",
+  "pulled_at": "2026-10-16T18:44:16.438Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "81501",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "18:44:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "18:44:17 connected to Bright Data Scraping Browser",
+    "18:44:23 goto https://www.citymarket.com/search?query=green chile",
+    "18:44:31 captcha check passed",
+    "18:44:38 click_sel button[aria-label='close banner']",
+    "18:44:39 click_sel [data-testid=CurrentModality-button]",
+    "18:44:43 type_sel [data-testid=PostalCodeSearchBox-input] \"81501\"",
+    "18:44:43 js ok search",
+    "18:45:01 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  ],
+  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+  "js_results": [
+    "search"
+  ]
+}

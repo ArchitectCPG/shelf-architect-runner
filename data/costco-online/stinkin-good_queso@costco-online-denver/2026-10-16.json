@@ -1,0 +1,28 @@
+{
+  "block_id": "stinkin-good/queso@costco-online-denver",
+  "retailer": "costco-online",
+  "zip": "refrigerated",
+  "neighborhood": "queso",
+  "pulled_at": "2026-10-16T19:34:22.560Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "80202",
+  "store_set": "costco.com online (national, 2-day delivery pricing)",
+  "url_final": "https://www.costco.com/s?keyword=queso",
+  "houses": [],
+  "raw_text_chars": 2556,
+  "steps": [
+    "19:34:22 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "19:34:28 connected to Bright Data Scraping Browser",
+    "19:35:39 goto https://www.costco.com/s?keyword=queso",
+    "19:35:48 captcha check passed",
+    "19:36:26 dismiss: nothing to close",
+    "19:36:55 scrolled x4",
+    "19:37:04 store_set: costco.com online (national, 2-day delivery pricing)",
+    "19:37:12 few houses, reloading once",
+    "19:38:14 extracted 0 houses; raw text 2556 chars"
+  ],
+  "error": null,
+  "reloaded": true,
+  "houses_text": 0
+}

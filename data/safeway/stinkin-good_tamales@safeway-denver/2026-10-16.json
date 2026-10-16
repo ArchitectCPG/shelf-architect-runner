@@ -1,0 +1,39 @@
+{
+  "block_id": "stinkin-good/tamales@safeway-denver",
+  "retailer": "safeway",
+  "zip": "refrigerated",
+  "neighborhood": "tamales",
+  "pulled_at": "2026-10-16T19:27:11.633Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "80202",
+  "store_set": "757 E 20th Ave",
+  "url_final": "https://www.safeway.com/shop/search-results.html?q=tamales",
+  "houses": [],
+  "raw_text_chars": 1022,
+  "steps": [
+    "19:27:11 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "19:27:11 connected to Bright Data Scraping Browser",
+    "19:27:20 goto https://www.safeway.com/shop/search-results.html?q=tamales",
+    "19:27:28 captcha check passed",
+    "19:27:37 dismissed \"Continue with all\"",
+    "19:27:37 press Escape",
+    "19:27:44 js ok open 0",
+    "19:27:51 type_sel input[placeholder*='ZIP Code'] \"80202\"",
+    "19:27:57 js ok selected",
+    "19:28:13 scrolled x4",
+    "19:28:15 scrolled x2",
+    "19:28:19 scrolled x2",
+    "19:28:23 scrolled x2",
+    "19:28:25 store_set: 757 E 20th Ave",
+    "19:28:25 few houses, reloading once",
+    "19:28:40 extracted 0 houses; raw text 1022 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "open 0",
+    "selected"
+  ],
+  "reloaded": true,
+  "houses_text": 0
+}

@@ -1,0 +1,200 @@
+{
+  "block_id": "stinkin-good/tamales@wholefoods-denver",
+  "retailer": "wholefoods",
+  "zip": "refrigerated",
+  "neighborhood": "tamales",
+  "pulled_at": "2026-10-16T19:31:20.863Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "80202",
+  "store_set": "80202",
+  "url_final": "https://www.wholefoodsmarket.com/grocery/search?k=tamales",
+  "houses": [
+    {
+      "name": "Tucson Tamale Company, Green Chile & Chicken Tamales, 10 Oz (Frozen)",
+      "brand": null,
+      "price": "$7.99",
+      "size": "10 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tucson Tamale Company, Green Chile & Chicken Tamales, 10 Oz (Frozen)",
+      "brand": null,
+      "price": "$5.99",
+      "size": "10 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tucson Tamale Company, Green Chile Cheese Tamale, 10 Ounce",
+      "brand": null,
+      "price": "$7.99",
+      "size": "10 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Tucson Tamale Company, Green Chile Cheese Tamale, 10 Ounce",
+      "brand": null,
+      "price": "$5.99",
+      "size": "10 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Organic Tamale Vegan Red Chile Fresh Pack 2 Count, 6 Ounce",
+      "brand": null,
+      "price": "$2.69",
+      "size": "2 Count",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Fillos Bean Salsa Habanero Walking Tamales, 4 OZ",
+      "brand": null,
+      "price": "$2.69",
+      "size": "4 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Amy's Frozen Meals, Black Bean Tamale Verde, 10.3 oz | Gluten Free, Dairy Free",
+      "brand": null,
+      "price": "$2.69",
+      "size": "10.3 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Amy's Frozen Meals, Black Bean Tamale Verde, 10.3 oz | Gluten Free, Dairy Free",
+      "brand": null,
+      "price": "$5.41",
+      "size": "10.3 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Amy's Frozen Meals, Black Bean Tamale Verde, 10.3 oz | Gluten Free, Dairy Free",
+      "brand": null,
+      "price": "$6.49",
+      "size": "10.3 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Amy's Burrito, Bean, Cheese & Rice, (4 Pack) 6.0 Ounce, Made with Organic",
+      "brand": null,
+      "price": "$4.89",
+      "size": "6.0 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Amy's Burrito, Bean, Cheese & Rice, (4 Pack) 6.0 Ounce, Made with Organic",
+      "brand": null,
+      "price": "$13.99",
+      "size": "6.0 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Amy's Frozen Meals, Roasted Poblano Enchilada Entree, 9.1 oz, Gluten Free",
+      "brand": null,
+      "price": "$5.41",
+      "size": "9.1 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Amy's Frozen Meals, Roasted Poblano Enchilada Entree, 9.1 oz, Gluten Free",
+      "brand": null,
+      "price": "$6.49",
+      "size": "9.1 oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Heyday, Chili Potato Sweet Fire Roasted, 15 Ounce",
+      "brand": null,
+      "price": "$5.81",
+      "size": "15 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Heyday, Chili Potato Sweet Fire Roasted, 15 Ounce",
+      "brand": null,
+      "price": "$6.99",
+      "size": "15 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    },
+    {
+      "name": "Bob's Red Mill Organic Masa Harina Flour, 24oz",
+      "brand": null,
+      "price": "$6.89",
+      "size": "24oz",
+      "img": null,
+      "link": null,
+      "card_text": [],
+      "via": "text"
+    }
+  ],
+  "raw_text_chars": 4048,
+  "steps": [
+    "19:31:20 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "19:31:21 connected to Bright Data Scraping Browser",
+    "19:31:33 goto https://www.wholefoodsmarket.com/search?text=tamales",
+    "19:31:41 captcha check passed",
+    "19:31:53 dismiss: nothing to close",
+    "19:31:55 js ok zip box ready BUTTON Delivering to 10001\nUpdate Location | inputs=search,filter-",
+    "19:32:04 js ok zip box ready BUTTON Delivering to 10001\nUpdate Location | inputs=search,filter-",
+    "19:32:07 type_sel #zipCode, input[name=zipCode], input[placeholder*='zip' i] \"80202\"",
+    "19:32:08 js ok submit Apply",
+    "19:32:17 goto https://www.wholefoodsmarket.com/search?text=tamales",
+    "19:32:25 captcha check passed",
+    "19:32:36 scrolled x4",
+    "19:32:37 store_set: 80202",
+    "19:32:37 text parser wins: 16 vs 13",
+    "19:32:37 extracted 16 houses; raw text 4048 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "zip box ready BUTTON Delivering to 10001\nUpdate Location | inputs=search,filter-checkbox-359048,filter-checkbox-363960,filter-checkbox-437677,filter-checkbox-398514,filter-checkbox-613378,filter-checkbox-499985,filter-checkbox-190340,filter-checkbox-10434594011,filter-checkbox-10434595011,filter-checkbox-10434596011,filter-checkbox-10434597011,filter-checkbox-10434598011,filter-checkbox-383551011,filter-checkbox-1248897011,filter-checkbox-23566065011,filter-checkbox-23598027011,filter-checkbox-24677333011,filter-checkbox-16208706011,filter-checkbox-114320011,filter-checkbox-5712560011,filter-checkbox-2288328011,filter-checkbox-2288329011,filter-checkbox-10434599011,filter-checkbox-11139484011,filter-checkbox-11139485011,filter-checkbox-2288330011,filter-checkbox-2288331011,filter-checkbox-11139487011,filter-checkbox-2288334011,filter-checkbox-10434601011,filter-checkbox-10434600011,filter-checkbox-204376014011,filter-checkbox--1000,filter-checkbox-1000-,filter-checkbox-17428820011,filter-checkbox-121136630011,filter-checkbox-116845684011,filter-checkbox-119653281011,zipCode",
+    "zip box ready BUTTON Delivering to 10001\nUpdate Location | inputs=search,filter-checkbox-359048,filter-checkbox-363960,filter-checkbox-437677,filter-checkbox-398514,filter-checkbox-613378,filter-checkbox-499985,filter-checkbox-190340,filter-checkbox-10434594011,filter-checkbox-10434595011,filter-checkbox-10434596011,filter-checkbox-10434597011,filter-checkbox-10434598011,filter-checkbox-383551011,filter-checkbox-1248897011,filter-checkbox-23566065011,filter-checkbox-23598027011,filter-checkbox-24677333011,filter-checkbox-16208706011,filter-checkbox-114320011,filter-checkbox-5712560011,filter-checkbox-2288328011,filter-checkbox-2288329011,filter-checkbox-10434599011,filter-checkbox-11139484011,filter-checkbox-11139485011,filter-checkbox-2288330011,filter-checkbox-2288331011,filter-checkbox-11139487011,filter-checkbox-2288334011,filter-checkbox-10434601011,filter-checkbox-10434600011,filter-checkbox-204376014011,filter-checkbox--1000,filter-checkbox-1000-,filter-checkbox-17428820011,filter-checkbox-121136630011,filter-checkbox-116845684011,filter-checkbox-119653281011,zipCode",
+    "submit Apply"
+  ],
+  "houses_text": 16,
+  "houses_dom": 13
+}

@@ -1,0 +1,117 @@
+{
+  "block_id": "stinkin-good/tamales@costco-online-denver",
+  "retailer": "costco-online",
+  "zip": "refrigerated",
+  "neighborhood": "tamales",
+  "pulled_at": "2026-10-16T19:35:47.209Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "80202",
+  "store_set": "costco.com online (national, 2-day delivery pricing)",
+  "url_final": "https://www.costco.com/s?keyword=tamales",
+  "houses": [
+    {
+      "name": "Texas Tamale Co. Beef Tamales 6pk of 12 Each, 72-count",
+      "brand": null,
+      "price": "$89.99",
+      "size": "",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:2495ede1-ec53-43ab-9260-13a5fc8838c2/as/1609544-847__1.avif",
+      "link": "https://www.costco.com/texas-tamale-co-beef-tamales-6pk-of-12-each-72-count.product.100815427.html",
+      "card_text": [
+        "Texas Tamale Co. Beef Tamales 6pk of 12 Each, 72-count",
+        "Online Only",
+        "Online Price",
+        "$89.99",
+        "Texas Tamale Co. Beef Tamales 6pk of 12 Each, 72-count",
+        "(175)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Texas Tamale Co. Pork Tamales 6pk of 12 Each, 72-count",
+      "brand": null,
+      "price": "$99.99",
+      "size": "",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:d44ef040-24f4-46de-93c6-f02647c1df77/as/1609551-847__1.avif",
+      "link": "https://www.costco.com/texas-tamale-co-pork-tamales-6pk-of-12-each-72-count.product.100815462.html",
+      "card_text": [
+        "Texas Tamale Co. Pork Tamales 6pk of 12 Each, 72-count",
+        "Online Only",
+        "Online Price",
+        "$99.99",
+        "Texas Tamale Co. Pork Tamales 6pk of 12 Each, 72-count",
+        "(240)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Texas Tamale Co. Chicken Tamales 6-pack of 12 each, 72-count",
+      "brand": null,
+      "price": "$99.99",
+      "size": "",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:b1bde59e-6771-4fab-833a-e74a02cfdee4/as/1609548-847__1.avif",
+      "link": "https://www.costco.com/texas-tamale-co-chicken-tamales-6-pack-of-12-each-72-count.product.100815444.html",
+      "card_text": [
+        "Texas Tamale Co. Chicken Tamales 6-pack of 12 each, 72-count",
+        "Online Only",
+        "Online Price",
+        "$99.99",
+        "Texas Tamale Co. Chicken Tamales 6-pack of 12 each, 72-count",
+        "(92)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Texas Tamale Co. Hatch Chile Tamales 6pk of 12 Each, 72-count",
+      "brand": null,
+      "price": "$99.99",
+      "size": "",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:86123d79-2841-4ce8-ae04-52f58fb5cd11/as/1609550-847__1.avif",
+      "link": "https://www.costco.com/texas-tamale-co-hatch-chile-tamales-6pk-of-12-each-72-count.product.100815379.html",
+      "card_text": [
+        "Texas Tamale Co. Hatch Chile Tamales 6pk of 12 Each, 72-count",
+        "Online Only",
+        "Online Price",
+        "$99.99",
+        "Texas Tamale Co. Hatch Chile Tamales 6pk of 12 Each, 72-count",
+        "(113)",
+        "Delivery",
+        "Available"
+      ]
+    },
+    {
+      "name": "Dixie Ultra 8-1/2\" Paper Plate, 240-count",
+      "brand": null,
+      "price": "$21.99",
+      "size": "",
+      "img": "https://gdx-assets.costco.com/adobe/assets/urn:aaid:aem:813986b4-4c96-4d22-9f17-5c46dcd12756/as/4000053321-847__1.avif",
+      "link": "https://www.costco.com/dixie-ultra-8-12-paper-plate-240-count.product.4000053321.html",
+      "card_text": [
+        "Dixie Ultra 8-1/2\" Paper Plate, 240-count",
+        "2-Day Delivery",
+        "Online Price",
+        "$21.99",
+        "Dixie Ultra 8-1/2\" Paper Plate, 240-count",
+        "(1,608)",
+        "Delivery",
+        "Available"
+      ]
+    }
+  ],
+  "raw_text_chars": 3470,
+  "steps": [
+    "19:35:47 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "19:35:48 connected to Bright Data Scraping Browser",
+    "19:35:57 goto https://www.costco.com/s?keyword=tamales",
+    "19:36:05 captcha check passed",
+    "19:36:18 dismiss: nothing to close",
+    "19:36:23 scrolled x4",
+    "19:36:23 store_set: costco.com online (national, 2-day delivery pricing)",
+    "19:36:23 extracted 5 houses; raw text 3470 chars"
+  ],
+  "error": null,
+  "houses_text": 5
+}
