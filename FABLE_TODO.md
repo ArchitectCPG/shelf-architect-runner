@@ -16,6 +16,14 @@ Steve rotated the Bright Data API key (twice; both old keys die 20-10) and put t
 - Walmart: blocks/walmart-salsa.json api-lane (dataset gd_m693oc1r1gebnayxq, keyword + zip_code), first full run in flight.
 - This is the lane for any banner with a prebuilt scraper where the site blocks the browser (search_scrapers tool or dashboard lists 1,200+ sites; check Publix/H-E-B/Walgreens there too before waiting on the robots.txt unblock).
 
+## 2026-10-16: KYC APPROVED (Bright Data residential/robots gate lifted; +$5 credit)
+- H-E-B: WORKS via homepage -> search box (direct search URL trips H-E-B's own bot page). 60 salsa houses, clean. Store = IP default (Victoria); picker dialog "Not your H-E-B? Select your preferred location" not yet mapped -> pin to 77005 next.
+- CVS: search page loads (Chicago store), parser grabs promo badge "$3 ExtraBucks" as name and results mix in unrelated items; needs CVS card_selector/parser.
+- Walgreens: homepage + store finder load, search results page renders empty (second-layer block). Zip typed into store finder did not change store. Parked.
+- BJ's: Akamai "Access Denied" on homepage intermittently (loaded once, denied next). Parked.
+- Stop & Shop: site down (Ahold outage, same as Food Lion). Retry later.
+- Loose end 6 (robots unblock request) is DONE via KYC. Compliance call that was scheduled for Friday did not block approval.
+
 ## 2026-10-14 AM: Costco / H-E-B / Whole Foods / Kroger
 - Cadence rule from Steve: one run per prospect, monthly max on retainer. No cron. Prospect run is the default.
 - Costco: costco.com search works in the browser lane with no KYC (22 houses, national online pricing, flagged as such in store_set). Warehouse-local pricing only via sameday.costco.com (Instacart) which requires a member login -> skip. Bright Data KYC is NOT needed for costco.com browser pulls.
