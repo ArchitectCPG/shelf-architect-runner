@@ -31,6 +31,11 @@
    "zip": "81501",
    "lat": 39.0639,
    "lng": -108.5506
+  },
+  "houston": {
+   "zip": "77005",
+   "lat": 29.7174,
+   "lng": -95.4018
   }
  },
  "department": "refrigerated",
@@ -97,6 +102,12 @@
    "lane": "recipe",
    "template": "costco-online",
    "market": "denver"
+  },
+  {
+   "banner": "heb",
+   "lane": "recipe",
+   "template": "heb",
+   "market": "houston"
   }
  ]
 }

@@ -17,7 +17,7 @@ Steve rotated the Bright Data API key (twice; both old keys die 20-10) and put t
 - This is the lane for any banner with a prebuilt scraper where the site blocks the browser (search_scrapers tool or dashboard lists 1,200+ sites; check Publix/H-E-B/Walgreens there too before waiting on the robots.txt unblock).
 
 ## 2026-10-16: KYC APPROVED (Bright Data residential/robots gate lifted; +$5 credit)
-- H-E-B: WORKS via homepage -> search box (direct search URL trips H-E-B's own bot page). 60 salsa houses, clean. Store = IP default (Victoria); picker dialog "Not your H-E-B? Select your preferred location" not yet mapped -> pin to 77005 next.
+- H-E-B: WORKS via homepage -> search box (direct search URL trips H-E-B's own bot page). 60 salsa houses, clean. PINNED unattended: In-store at -> Change store -> #address-input zip -> first 'Select Store'. 77005 = Buffalo Market H-E-B, 65 houses. Added to SG config (houston market).
 - CVS: search page loads (Chicago store), parser grabs promo badge "$3 ExtraBucks" as name and results mix in unrelated items; needs CVS card_selector/parser.
 - Walgreens: homepage + store finder load, search results page renders empty (second-layer block). Zip typed into store finder did not change store. Parked.
 - BJ's: Akamai "Access Denied" on homepage intermittently (loaded once, denied next). Parked.
