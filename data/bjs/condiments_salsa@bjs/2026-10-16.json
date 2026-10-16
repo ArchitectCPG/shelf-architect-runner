@@ -1,0 +1,23 @@
+{
+  "block_id": "condiments/salsa@bjs",
+  "retailer": "bjs",
+  "zip": "condiments",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-16T17:54:07.233Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "17:54:07 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "17:54:07 connected to Bright Data Scraping Browser",
+    "17:54:29 goto https://www.bjs.com/search/salsa",
+    "17:54:37 captcha check passed",
+    "17:59:02 dismiss: nothing to close",
+    "17:59:02 ERROR Error: keyboard.press: Target page, context or browser has been closed"
+  ],
+  "error": "Error: keyboard.press: Target page, context or browser has been closed"
+}
