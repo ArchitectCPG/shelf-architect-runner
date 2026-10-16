@@ -3,47 +3,51 @@
  "retailer": "stopandshop",
  "zip": "condiments",
  "neighborhood": "salsa",
+ "term": "salsa",
  "store_zip": "02116",
+ "attempts": 2,
  "steps": [
   {
-   "goto": "https://stopandshop.com/product-search/{{term}}"
+   "goto": "https://stopandshop.com/"
   },
   {
-   "wait": 6000
+   "wait": 9000
   },
   {
    "dismiss": [
     "Close",
     "No thanks",
     "Not now",
-    "Continue"
+    "Continue",
+    "Got it",
+    "Accept",
+    "Accept All Cookies",
+    "OK"
    ]
   },
   {
-   "press": "Escape"
+   "wait": 6000
   },
   {
-   "scroll": 2
+   "search": {
+    "placeholder": "Search"
+   }
   },
   {
-   "wait": 2000
+   "wait": 15000
   },
   {
-   "scroll": 2
+   "wait": 8000
   },
   {
-   "wait": 2000
+   "scroll": 5
   },
   {
-   "scroll": 2
+   "wait": 3000
   },
   {
-   "wait": 2000
+   "js": "return JSON.stringify({url:location.href,title:document.title,n_links:document.querySelectorAll('a').length,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,inputs:[...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id).slice(0,8),body:document.body.innerText.replace(/\\s+/g,' ').slice(0,1200)})",
+   "optional": true
   }
- ],
- "store_patterns": [
-  "Delivering to\\s*(\\d{5})",
-  "Pickup at\\s*([^\\n|]{3,60})",
-  "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"
  ]
 }
