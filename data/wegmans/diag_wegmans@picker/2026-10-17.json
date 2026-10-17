@@ -1,0 +1,24 @@
+{
+  "block_id": "diag/wegmans@picker",
+  "retailer": "wegmans",
+  "zip": "diag",
+  "neighborhood": "picker",
+  "pulled_at": "2026-10-17T22:05:01.404Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "15222",
+  "store_set": null,
+  "url_final": "https://www.wegmans.com/",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "22:05:01 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "22:05:01 connected to Bright Data Scraping Browser",
+    "22:05:03 goto https://www.wegmans.com/",
+    "22:05:11 captcha check passed",
+    "22:09:52 dismiss: nothing to close",
+    "22:14:34 js miss Error: page.evaluate: Execution context was destroyed, most likely because of a ",
+    "22:14:34 ERROR Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+  ],
+  "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+}
