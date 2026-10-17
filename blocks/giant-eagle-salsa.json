@@ -1,49 +1,73 @@
 {
-  "block_id": "condiments/salsa@giant-eagle",
-  "retailer": "giant-eagle",
-  "zip": "condiments",
-  "neighborhood": "salsa",
-  "store_zip": "60615",
-  "steps": [
-    {
-      "goto": "https://www.gianteagle.com/grocery/search?q=salsa"
-    },
-    {
-      "wait": 6000
-    },
-    {
-      "dismiss": [
-        "Close",
-        "No thanks",
-        "Not now",
-        "Continue"
-      ]
-    },
-    {
-      "press": "Escape"
-    },
-    {
-      "scroll": 2
-    },
-    {
-      "wait": 2000
-    },
-    {
-      "scroll": 2
-    },
-    {
-      "wait": 2000
-    },
-    {
-      "scroll": 2
-    },
-    {
-      "wait": 2000
-    }
-  ],
-  "store_patterns": [
-    "Delivering to\\s*(\\d{5})",
-    "Pickup at\\s*([^\\n|]{3,60})",
-    "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"
-  ]
+ "block_id": "condiments/salsa@giant-eagle",
+ "retailer": "giant-eagle",
+ "zip": "condiments",
+ "neighborhood": "salsa",
+ "term": "salsa",
+ "store_zip": "15222",
+ "attempts": 2,
+ "store_patterns": [
+  "(?:My Store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,60})"
+ ],
+ "steps": [
+  {
+   "goto": "https://www.gianteagle.com/"
+  },
+  {
+   "wait": 10000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "Accept",
+    "I Agree",
+    "Got it"
+   ]
+  },
+  {
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;} const vis=e=>e.offsetWidth||e.offsetHeight; const b=[...document.querySelectorAll('button,a,[role=button]')].find(e=>vis(e)&&/Select a Store|change store|my store/i.test(e.innerText||e.getAttribute('aria-label')||'')); if(!b) return 'no open btn'; b.click(); const inp=await waitFor(()=>[...document.querySelectorAll('input')].find(e=>vis(e)&&/zip|city|store|find/i.test((e.placeholder||'')+(e.getAttribute('aria-label')||'')+e.id+e.name)),10); if(!inp) return 'no input | inputs='+JSON.stringify([...document.querySelectorAll('input')].filter(vis).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id||e.name)); inp.setAttribute('data-zipbox','1'); return 'zipbox ok '+(inp.placeholder||inp.id)",
+   "optional": true
+  },
+  {
+   "type_marked": {
+    "sel": "[data-zipbox='1']",
+    "value": "{{store_zip}}",
+    "enter": true
+   },
+   "optional": true
+  },
+  {
+   "js": "await new Promise(x=>setTimeout(x,7000)); const vis=e=>e.offsetWidth||e.offsetHeight; const btns=[...document.querySelectorAll('button,a,[role=button]')].filter(e=>vis(e)&&/^(Select|Make this my store|Shop this store|Select store|Choose)/i.test(e.innerText.trim())); const t=document.body.innerText.replace(/\\s+/g,' ').slice(0,700); if(btns.length){btns[0].click(); return 'picked '+btns[0].innerText.trim().slice(0,30)+' of '+btns.length+' | '+t} return 'nopick | '+t",
+   "optional": true
+  },
+  {
+   "wait": 5000
+  },
+  {
+   "dump": "after_pick"
+  },
+  {
+   "goto": "https://www.gianteagle.com/grocery/search?q={{term}}"
+  },
+  {
+   "wait": 15000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "Accept",
+    "I Agree"
+   ]
+  },
+  {
+   "scroll": 4
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "js": "return JSON.stringify({url:location.href,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,body:document.body.innerText.replace(/\\s+/g,' ').slice(0,500)})",
+   "optional": true
+  }
+ ]
 }

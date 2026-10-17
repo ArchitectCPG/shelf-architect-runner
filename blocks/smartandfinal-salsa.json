@@ -1,0 +1,45 @@
+{
+ "block_id": "condiments/salsa@smartandfinal",
+ "retailer": "smartandfinal",
+ "zip": "condiments",
+ "neighborhood": "salsa",
+ "term": "salsa",
+ "store_zip": "90640",
+ "attempts": 2,
+ "store_patterns": [
+  "Reserve Pickup Time at\\s*([^\\n]{3,40})"
+ ],
+ "steps": [
+  {
+   "goto": "https://www.smartandfinal.com/"
+  },
+  {
+   "wait": 10000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "Close modal",
+    "Accept"
+   ]
+  },
+  {
+   "search": {
+    "placeholder": "Search by keyword"
+   }
+  },
+  {
+   "wait": 12000
+  },
+  {
+   "scroll": 4
+  },
+  {
+   "wait": 2000
+  },
+  {
+   "js": "return JSON.stringify({url:location.href,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,body:document.body.innerText.replace(/\\s+/g,' ').slice(0,500)})",
+   "optional": true
+  }
+ ]
+}
