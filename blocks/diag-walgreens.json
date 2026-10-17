@@ -1,0 +1,45 @@
+{
+ "block_id": "diag/walgreens@search",
+ "retailer": "walgreens",
+ "zip": "diag",
+ "neighborhood": "search",
+ "term": "salsa",
+ "store_zip": "60615",
+ "no_reload": true,
+ "steps": [
+  {
+   "netlog": "search|product|results|api|graphql"
+  },
+  {
+   "goto": "https://www.walgreens.com/"
+  },
+  {
+   "wait": 10000
+  },
+  {
+   "search": {
+    "placeholder": "Search"
+   }
+  },
+  {
+   "wait": 20000
+  },
+  {
+   "js": "return JSON.stringify({url:location.href,title:document.title,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,links:document.querySelectorAll('a').length,body:document.body.innerText.replace(/\\s+/g,' ').slice(0,1500)})",
+   "optional": true
+  },
+  {
+   "dump": "after_search"
+  },
+  {
+   "scroll": 3
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "js": "return JSON.stringify({url:location.href,title:document.title,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,links:document.querySelectorAll('a').length,body:document.body.innerText.replace(/\\s+/g,' ').slice(0,1500)})",
+   "optional": true
+  }
+ ]
+}
