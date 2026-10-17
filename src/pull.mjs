@@ -13,6 +13,12 @@ const sub = (s) => String(s).replace(/\{\{(\w+)\}\}/g, (_, k) => vars[k] ?? "");
 
 
 // ---- API lane: Bright Data prebuilt scrapers (dataset trigger), no browser ----
+if (block.api_call) { // generic Bright Data API call(s): [{method, path, body?}]
+  const tok = process.env.BRD_API_TOKEN; if (!tok) { console.error("missing BRD_API_TOKEN"); process.exit(2); }
+  const dir = path.join("data", block.retailer, block.block_id.replace(/[^a-z0-9@_.-]/gi, "_")); fs.mkdirSync(dir, { recursive: true }); const res = [];
+  for (const c of block.api_call) { const r = await fetch("https://api.brightdata.com/" + c.path, { method: c.method || "GET", headers: { Authorization: `Bearer ${tok}`, "content-type": "application/json" }, body: c.body ? JSON.stringify(c.body) : undefined }); const t = await r.text(); res.push({ method: c.method, path: c.path, status: r.status, body: t.slice(0, 20000) }); console.log(c.method, c.path, r.status); }
+  fs.writeFileSync(path.join(dir, new Date().toISOString().slice(0, 10) + ".json"), JSON.stringify(res)); process.exit(0);
+}
 if (block.api_unlock) { // Bright Data Web Unlocker: fetch a URL through the unlocker zone (no browser), save body
   const tok = process.env.BRD_API_TOKEN; if (!tok) { console.error("missing BRD_API_TOKEN"); process.exit(2); }
   const u = block.api_unlock; const dir = path.join("data", block.retailer, block.block_id.replace(/[^a-z0-9@_.-]/gi, "_")); fs.mkdirSync(dir, { recursive: true }); const res = {};

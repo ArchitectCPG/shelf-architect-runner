@@ -1,0 +1,20 @@
+{
+ "block_id": "diag/zones@list",
+ "retailer": "diag",
+ "zip": "diag",
+ "neighborhood": "zones",
+ "api_call": [
+  {
+   "method": "GET",
+   "path": "zone/get_active_zones"
+  },
+  {
+   "method": "GET",
+   "path": "zone?zone=scraping_browser1"
+  },
+  {
+   "method": "GET",
+   "path": "zone/status?zone=scraping_browser1"
+  }
+ ]
+}
