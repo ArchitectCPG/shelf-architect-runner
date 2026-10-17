@@ -16,6 +16,14 @@ Steve rotated the Bright Data API key (twice; both old keys die 20-10) and put t
 - Walmart: blocks/walmart-salsa.json api-lane (dataset gd_m693oc1r1gebnayxq, keyword + zip_code), first full run in flight.
 - This is the lane for any banner with a prebuilt scraper where the site blocks the browser (search_scrapers tool or dashboard lists 1,200+ sites; check Publix/H-E-B/Walgreens there too before waiting on the robots.txt unblock).
 
+## 2026-10-17 PM: open-ten pass
+- Wegmans: WORKS unpinned (search?query=, 91 houses, store = IP default). wegmans.com/stores has NO zip box, it is a state/city list of store-name links. Pin = click store by name (add store_name to client config for wegmans). Parser: strip leading "Quantity of " from names.
+- Smart & Final: WORKS unpinned (Mi9 platform; store id in URL /sm/pickup/rsid/<id>; 522 Montebello default). Pin = rsid lookup by zip. 31 houses.
+- Giant Eagle: PARKED. Driving the "Select a Store" modal (type zip into input[name=zipcode]) closes the browser context both times; bot defense. Attended-only if a client needs it.
+- Ahold (Stop & Shop, Food Lion, Giant Food, Hannaford): still on "Maintenance" page 10/17. Recheck weekly; one recipe for all four when back.
+- scraping_browser1 zone: API key lacks delete permission (403, correct scope). Steve deletes in dashboard or leaves it. Runner gained api_call step (generic Bright Data API).
+- Count vs MULO 94: 27 pulling (added Walgreens, Wegmans, Smart & Final today).
+
 ## 2026-10-16: KYC APPROVED (Bright Data residential/robots gate lifted; +$5 credit)
 - H-E-B: WORKS via homepage -> search box (direct search URL trips H-E-B's own bot page). 60 salsa houses, clean. PINNED unattended: In-store at -> Change store -> #address-input zip -> first 'Select Store'. 77005 = Buffalo Market H-E-B, 65 houses. Added to SG config (houston market).
 - CVS: search page loads (Chicago store). Parser now skips ExtraBucks/stock lines. Remaining issue: cvs.com 'salsa' search leads with sponsored beauty items and lazy-loads the rest (109 products, ~20 captured); needs scroll/pagination work. Low priority unless a drug-channel client.
