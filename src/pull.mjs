@@ -214,7 +214,7 @@ function extractFromText(text) {
     const name = after[0] || (clean.length ? clean : cands).reduce((a, b) => (b.length > a.length ? b : a), ""); const key = name + "|" + lines[i];
     if (seen.has(key)) continue; seen.add(key);
     const size = (name.match(/\b\d+(\.\d+)?\s?(fl oz|fl\. oz|oz|ounce|lb|lbs|ct|count|g|ml)\b/i) || [""])[0];
-    items.push({ name, brand: null, price: lines[i].replace(/\s/g, ""), size, img: null, link: null, card_text: [], via: "text" });
+    items.push({ name, brand: null, price: lines[i].replace(/\s/g, ""), size, img: null, link: null, card_text: lines.slice(Math.max(0, i - 2), i + 4), via: "text" });
   }
   return items;
 }

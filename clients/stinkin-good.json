@@ -43,15 +43,18 @@
  "neighborhoods": [
   {
    "id": "green-chile",
-   "term": "green chile"
+   "term": "green chile",
+   "relevance": "chil[ei]|hatch|salsa verde|poblano"
   },
   {
    "id": "queso",
-   "term": "queso"
+   "term": "queso",
+   "relevance": "queso|cheese dip"
   },
   {
    "id": "tamales",
-   "term": "tamales"
+   "term": "tamales",
+   "relevance": "tamal"
   }
  ],
  "retailers": [
@@ -110,5 +113,12 @@
    "template": "heb",
    "market": "houston"
   }
- ]
+ ],
+ "brand_hints": {
+  "La Preferida": "\\bla preferida",
+  "Hormel": "\\bhormel",
+  "Texas Tamale Co": "\\btexas tamale",
+  "Rosarita": "\\brosarita",
+  "Old El Paso": "\\bold el paso"
+ }
 }
