@@ -128,3 +128,9 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 
 ### HANDOFF 2026-10-13 noon CT (Fable -> Sonnet)
 15 of 16 store-pinning blocks confirmed working unattended at handoff; Target was the one holdout, now resolved per the top of this file (deprioritized, not failing).
+
+## 2026-10-17 eve: independents probe (Instacart lane, zip 60615)
+- Pull clean (120 houses): Brookshire's, Ingles, Key Food, Market Basket, Schnucks, ShopRite, The Fresh Market, Weis, WinCo, Winn-Dixie (10 of 20).
+- Zero or failed: Cub (own Instacart storefront at cub.com, wrong slug), Fareway, Lowes Foods, Save Mart (Swiftly), Tops, Food City, Price Chopper, Natural Grocers, Raley's, Stater Bros (timeouts or not on Instacart at that zip). Recheck slugs or use own platform recipes.
+- Lesson: Bright Data allows one domain per browser session (navigate_domains_limit). One goto domain per block.
+- Built: tools/normalize.py (brand, regular+promo price, relevance filter) wired into client_report.py. Next: collection route, then DB wiring (needs Fable + backup + Steve's OK).
