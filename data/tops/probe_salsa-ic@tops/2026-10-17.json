@@ -1,0 +1,29 @@
+{
+  "block_id": "probe/salsa-ic@tops",
+  "retailer": "tops",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:25:07.222Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.instacart.com/store/tops/s?k=salsa",
+  "houses": [],
+  "raw_text_chars": 214,
+  "steps": [
+    "23:25:07 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:25:08 connected to Bright Data Scraping Browser",
+    "23:25:26 goto https://www.instacart.com/store/tops/s?k=salsa",
+    "23:25:35 captcha check passed",
+    "23:25:52 dismiss: nothing to close",
+    "23:25:54 js_houses 0 store null",
+    "23:25:54 store_set: null",
+    "23:25:56 extracted 0 houses; raw text 214 chars"
+  ],
+  "error": null,
+  "js_houses": [],
+  "js_store": null,
+  "js_debug": "DefaultShop 200 1704|ShopCollectionScoped 200 282|collection shops 0 noshop {\"data\":{\"defaultShop\":{\"id\":\"8438\",\"retailer\":{\"id\":\"167\",\"categories\":[\"grocery\",\"gifts\"],\"homeCategories\":[\"grocery\"],\"slug\":\"strack-van-til\",\"name\":\"Strack & Van Til\",\"retailerType\":\"Grocery - Traditional\",\"backgroundColorHex\":\"#df3131\",\"refreshHeaderBackgroundColorHex\":\"#FFFFFF\",\"logoBackgroundColorHex\":\"#ffffff\",\"viewSection\":{\"id\":\"retailers_response_backed:c861b7ad:retailer:167\",\"nameString\":\"Strack & Van Til\",\"retailerCardCategories\":[],\"logoImage\":{\"id\":\"82e4be1a\",\"altText\":\"Strack & V",
+  "houses_text": 0
+}

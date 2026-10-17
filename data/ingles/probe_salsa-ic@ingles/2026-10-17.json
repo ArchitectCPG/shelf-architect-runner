@@ -1,0 +1,2433 @@
+{
+  "block_id": "probe/salsa-ic@ingles",
+  "retailer": "ingles",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:20:15.425Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": "API zip 60615 shop 342623 location 164501",
+  "url_final": "https://www.instacart.com/store/ingles/s?k=salsa",
+  "houses": [
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35199",
+      "product_id": "35199",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de5c2145-b19b-4cb7-930c-31c5330bec96.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Medium",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.39",
+      "item_id": "items_164501-3080345",
+      "product_id": "3080345",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5c3b622c-7914-4fc7-9196-25d91b98bb9e.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Pace Restaurant Style Salsa, Medium",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35277",
+      "product_id": "35277",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_59516cce-78d0-494c-9dbc-419aa507220e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Cantina Style",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.39",
+      "item_id": "items_164501-19648179",
+      "product_id": "19648179",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ff014913-a2af-448c-8b0a-39888a080095.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tostitos Chunky Salsa, Medium",
+      "size": "15.5 oz",
+      "brand": "tostitos",
+      "price": "$4.69",
+      "item_id": "items_164501-16848067",
+      "product_id": "16848067",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_75b35699-5a1c-40e2-b782-5407f4484229.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "HERDEZ Salsa Casera Mild",
+      "size": "16 oz",
+      "brand": "herdez",
+      "price": "$4.09",
+      "item_id": "items_164501-34267",
+      "product_id": "34267",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ab29cf59-18a2-4136-aac5-3c31398ac0ec.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "HERDEZ Salsa Casera Medium",
+      "size": "16 oz",
+      "brand": "herdez",
+      "price": "$4.09",
+      "item_id": "items_164501-27303",
+      "product_id": "27303",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ad2aa886-a9d3-4cb1-a667-8195fa52da31.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Herdez Salsa Verde Mild",
+      "size": "16 oz",
+      "brand": "herdez",
+      "price": "$4.09",
+      "item_id": "items_164501-27302",
+      "product_id": "27302",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f7a81af9-dd3d-4f87-be99-c0a7f629e481.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "HERDEZ Roasted Salsa Verde Medium",
+      "size": "15.7 oz",
+      "brand": "herdez",
+      "price": "$4.69",
+      "item_id": "items_164501-17309253",
+      "product_id": "17309253",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_afdd72bc-ee4e-4a88-9a9b-61ec556b59e4.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "HERDEZ Salsa Casera Hot",
+      "size": "16 oz",
+      "brand": "herdez",
+      "price": "$4.09",
+      "item_id": "items_164501-16912934",
+      "product_id": "16912934",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d87b621-4927-48ad-9f09-832328865764.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "size": "24 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-78386",
+      "product_id": "78386",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cc199e60-4bc0-460f-ad1d-29a3c31bee5d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Newman's Own Bolder Flavor Medium Chunky Salsa",
+      "size": "16 oz",
+      "brand": "newman's own",
+      "price": "$4.09",
+      "item_id": "items_164501-78396",
+      "product_id": "78396",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c38996c9-3e39-4747-ab64-72d70ee6b32e.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tostitos Chunky Salsa, Mild",
+      "size": "15.5 oz",
+      "brand": "tostitos",
+      "price": "$4.69",
+      "item_id": "items_164501-3414310",
+      "product_id": "3414310",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_63344470-dfe7-48c1-805b-9362009f06dd.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Mild",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.39",
+      "item_id": "items_164501-3078643",
+      "product_id": "3078643",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2f27c75-a761-458e-93f6-40c6f3a3e49a.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Cacique Mild Homestyle Salsa",
+      "size": "16 oz",
+      "brand": "cacique",
+      "price": "$3.79",
+      "item_id": "items_164501-20274490",
+      "product_id": "20274490",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_08c56c3f-3c46-4152-b16f-f36733bb2ee9.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tostitos Medium Chunky Salsa Dip",
+      "size": "24 oz",
+      "brand": "tostitos",
+      "price": "$5.99",
+      "item_id": "items_164501-40226",
+      "product_id": "40226",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_24570cad-437f-4206-a0da-7e1371664d89.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tostitos Restaurant Style Salsa, Medium",
+      "size": "15.5 oz",
+      "brand": "tostitos",
+      "price": "$4.69",
+      "item_id": "items_164501-76436",
+      "product_id": "76436",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c470120b-a473-44d8-836f-eca269812a90.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Picante Sauce, Mild",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35925",
+      "product_id": "35925",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_114cf335-08f3-4d9b-9591-c32bb8cd15e9.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+      "size": "16 oz",
+      "brand": "garden fresh gourmet",
+      "price": "$4.29",
+      "item_id": "items_164501-74678",
+      "product_id": "74678",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_49f8db7b-2e0a-48b8-982d-81f6b260f54e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Hot",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.39",
+      "item_id": "items_164501-3078642",
+      "product_id": "3078642",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_177317a4-97d4-427f-b74e-a7d8d46370ef.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "size": "24 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-78387",
+      "product_id": "78387",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de40faab-90fb-4476-8725-417b7b2ce76e.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Willy's Salsa, Fresh, Original, Hot",
+      "size": "16 oz",
+      "brand": "willy's",
+      "price": "$4.29",
+      "item_id": "items_164501-2890492",
+      "product_id": "2890492",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f601544f-a3e4-46ac-9306-398d61ae27d8.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Mild Chunky Salsa",
+      "size": "64 oz",
+      "brand": "pace",
+      "price": "$9.69",
+      "item_id": "items_164501-191414",
+      "product_id": "191414",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_42eb273b-5948-43d0-a1c6-78e407faf909.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tabasco Green Pepper Sauce, Hot Sauce",
+      "size": "5 fl oz",
+      "brand": "tabasco",
+      "price": "$4.89",
+      "item_id": "items_164501-25337",
+      "product_id": "25337",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3b34e567-96a7-422c-bfd4-73ed7ecd45a4.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tabasco Chipotle Pepper Sauce, Hot Sauce",
+      "size": "5 fl oz",
+      "brand": "tabasco",
+      "price": "$4.89",
+      "item_id": "items_164501-71558",
+      "product_id": "71558",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_94f8e709-28e2-42fa-8d6f-436cde2454ba.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tabasco Original Red Pepper Sauce, Hot Sauce",
+      "size": "5 fl oz",
+      "brand": "tabasco",
+      "price": "$4.89",
+      "item_id": "items_164501-2679711",
+      "product_id": "2679711",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06135314-7a5b-4f43-80c6-0b55989a98b5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tabasco Original Red Pepper Sauce",
+      "size": "2 fl oz",
+      "brand": "tabasco",
+      "price": "$2.59",
+      "item_id": "items_164501-25339",
+      "product_id": "25339",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_185bfc9d-0946-4bde-919c-bf7f98b4ce61.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Hot Picante Sauce",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35924",
+      "product_id": "35924",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c605fb45-66f5-4ea4-b96c-7df416bccfff.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "La Mexicana Cantina Salsa",
+      "size": "14 oz",
+      "brand": "la mexicana",
+      "price": "$5.29",
+      "item_id": "items_164501-3183902",
+      "product_id": "3183902",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a0a04a30-9cca-4e50-af0d-0e5169b55f9a.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Lower Sodium Chunky Medium Salsa",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-38636292",
+      "product_id": "38636292",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ab2ceef8-e730-4692-8866-3605bac00829.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Newman's Own Chunky Medium Mango Salsa",
+      "size": "16 oz",
+      "brand": "newman's own",
+      "price": "$4.09",
+      "item_id": "items_164501-78394",
+      "product_id": "78394",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_da89a97c-a6c2-4492-8165-3c58c7ad9b07.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mi Nina Medium Tomato Salsa",
+      "size": "13.5 oz",
+      "brand": "mi nina",
+      "price": "$7.19",
+      "item_id": "items_164501-63720370",
+      "product_id": "63720370",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dc9928ac-da92-4a99-b2e4-6d3848d0f304.JPG",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Mexicana Mild Salsa",
+      "size": "16 oz",
+      "brand": "la mexicana",
+      "price": "$5.29",
+      "item_id": "items_164501-39861",
+      "product_id": "39861",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_357971c7-aecd-4251-afd8-c363ed481817.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Costeña Medium Mexican Salsa Tomato Sauce",
+      "size": "16.7 oz",
+      "brand": "la costeña",
+      "price": "$3.59",
+      "item_id": "items_164501-37014",
+      "product_id": "37014",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bbcb4d7c-354b-47b8-80ae-bf8708f43cab.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Mild Salsa Square Jar",
+      "size": "16 oz",
+      "brand": "laura lynn",
+      "price": "$3.59",
+      "item_id": "items_164501-30776046",
+      "product_id": "30776046",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tostitos Mild Chunky Salsa Dip",
+      "size": "24 oz",
+      "brand": "tostitos",
+      "price": "$5.99",
+      "item_id": "items_164501-3317724",
+      "product_id": "3317724",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0c8acbf8-b804-45e1-babc-b2fbaef8a729.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Restaurant Style Salsa, Mild",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-19324034",
+      "product_id": "19324034",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7acc2485-f20a-4d72-9611-a129d6c67410.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Cacique Medium Homestyle Salsa",
+      "size": "16 oz",
+      "brand": "cacique",
+      "price": "$3.79",
+      "item_id": "items_164501-20274478",
+      "product_id": "20274478",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6df3d021-35ba-4264-81d4-1a44795445c2.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Newman's Own Bold Flavor Chunky Mild Salsa",
+      "size": "16 oz",
+      "brand": "newman's own",
+      "price": "$4.09",
+      "item_id": "items_164501-78393",
+      "product_id": "78393",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_22c69ed7-f06e-4ae0-a221-999abc3f7f3e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Newman's Own Chunky Medium Pineapple Salsa",
+      "size": "16 oz",
+      "brand": "newman's own",
+      "price": "$4.09",
+      "item_id": "items_164501-78395",
+      "product_id": "78395",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_09e5320f-6cff-44c0-b14f-7813fd60cf29.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Preferida MEDIUM Salsa Verde, Authentic Mexican Salsa",
+      "size": "16 oz",
+      "brand": "la preferida",
+      "price": "$4.09",
+      "item_id": "items_164501-78516",
+      "product_id": "78516",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e4197462-746a-4231-af78-8fd1d24b7ad6.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Salsa, Pineapple, Medium",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$6.49",
+      "item_id": "items_164501-123563",
+      "product_id": "123563",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e225d92a-136c-441d-8360-5085fe11fd4f.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Square Jar Medium Salsa",
+      "size": "16 oz",
+      "brand": "laura lynn",
+      "price": "$3.59",
+      "item_id": "items_164501-31832009",
+      "product_id": "31832009",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Medium Cantina Salsa",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$5.39",
+      "item_id": "items_164501-17330812",
+      "product_id": "17330812",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_757c0de6-af0c-4e79-a3c6-515c969fa028.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Medium Peach Mango Salsa",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$6.49",
+      "item_id": "items_164501-27284",
+      "product_id": "27284",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9e51c08e-0cd2-4cc0-a94c-87c6359bb0b3.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Medium Corn Black Bean Red Pepper Salsa",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$6.49",
+      "item_id": "items_164501-3317639",
+      "product_id": "3317639",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c6b16716-4b0d-46a3-8906-bae295cc5bda.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn White Salsa Con Queso",
+      "size": "15 oz",
+      "brand": "laura lynn",
+      "price": "$3.59",
+      "item_id": "items_164501-30775988",
+      "product_id": "30775988",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "On The Border Hot Salsa",
+      "size": "16 oz",
+      "brand": "on the border",
+      "price": "$4.89",
+      "item_id": "items_164501-221625",
+      "product_id": "221625",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2f064a84-c261-459b-8e6c-5c204542bda4.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Cantina Mild Salsa",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$5.39",
+      "item_id": "items_164501-17330818",
+      "product_id": "17330818",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0e587163-fbe5-4638-b020-c4012f5f906a.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tostitos Hot Chunky Habanero Salsa Dip",
+      "size": "15.5 oz",
+      "brand": "tostitos",
+      "price": "$4.69",
+      "item_id": "items_164501-3137951",
+      "product_id": "3137951",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fd01d272-13da-4ac1-9d2e-70be885c8842.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Newman's Own Chunky Medium Black Bean & Corn Salsa",
+      "size": "16 oz",
+      "brand": "newman's own",
+      "price": "$4.09",
+      "item_id": "items_164501-100989",
+      "product_id": "100989",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8d704045-1223-4ba5-9fc4-4c20c660a6f5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Arriba! Fire-Roasted Salsa with Tomato & Garlic, Roasted Chipotle, Medium",
+      "size": "16 oz",
+      "brand": "arriba!",
+      "price": "$6.19",
+      "item_id": "items_164501-101001",
+      "product_id": "101001",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f063f437-ef83-4f89-b241-e20ba089a054.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Arriba! Fire Roasted Salsa with Jalapeno & Cilantro, Medium",
+      "size": "16 oz",
+      "brand": "arriba!",
+      "price": "$6.19",
+      "item_id": "items_164501-101000",
+      "product_id": "101000",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cfa25753-c01d-4328-9552-101922983886.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Reser's Fine Foods Medium Original Salsa",
+      "size": "1 lb",
+      "brand": "reser's fine foods",
+      "price": "$6.19",
+      "item_id": "items_164501-2797125",
+      "product_id": "2797125",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a90fac5f-1b83-4400-8489-82093bfac0dc.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Costeña Medium Green Salsa Tomatillo Sauce",
+      "size": "16.7 oz",
+      "brand": "la costeña",
+      "price": "$3.59",
+      "item_id": "items_164501-34304",
+      "product_id": "34304",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_74a25b66-4466-4a0e-9cc6-252934ca5d4d.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Hatch Chile",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.39",
+      "item_id": "items_164501-3080344",
+      "product_id": "3080344",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2471bf89-ac08-44ea-9f1a-11a475b9ff19.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Goya Pico de Gallo, Mild Authentic Mexican Salsa",
+      "size": "17.6 oz",
+      "brand": "goya",
+      "price": "$5.79",
+      "item_id": "items_164501-35543",
+      "product_id": "35543",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_db96828b-7526-4908-9143-bf9fb7231b2b.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Medium Chunky Salsa",
+      "size": "24 oz",
+      "brand": "laura lynn",
+      "price": "$3.99",
+      "item_id": "items_164501-30776055",
+      "product_id": "30776055",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Reser's Fine Foods Medium Pico De Gallo Salsa",
+      "size": "1 lb",
+      "brand": "reser's fine foods",
+      "price": "$6.19",
+      "item_id": "items_164501-122927",
+      "product_id": "122927",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b1775659-98e2-4bb9-ab82-034d3db55c89.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Chunky Hot Salsa",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-123552",
+      "product_id": "123552",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2027ac0-b578-4aa9-9cc2-0cf33232edc6.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Harvest Farms Organic Mild Salsa",
+      "size": "16 oz",
+      "brand": "harvest farms",
+      "price": "$3.99",
+      "item_id": "items_164501-30776296",
+      "product_id": "30776296",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Clint's Salsa, Texas, Mild",
+      "size": "16 oz",
+      "brand": "clint's",
+      "price": "$6.29",
+      "item_id": "items_164501-123562",
+      "product_id": "123562",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a17a55b8-86b0-425b-b543-af3ef68dc14b.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Salsa, Tequila, Medium Burn",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$6.49",
+      "item_id": "items_164501-130140",
+      "product_id": "130140",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e9322268-087a-4871-aa6e-a0429784a2a8.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Clint's Salsa, Texas, Hot",
+      "size": "16 oz",
+      "brand": "clint's",
+      "price": "$6.29",
+      "item_id": "items_164501-142154",
+      "product_id": "142154",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0f80fc4f-ec13-4693-a3ac-807307bb4e0a.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Preferida Salsa, Chipotle, Hot Picante",
+      "size": "7 oz",
+      "brand": "la preferida",
+      "price": "$1.09",
+      "item_id": "items_164501-137694",
+      "product_id": "137694",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bfc7efba-2b90-40d5-a235-75b85bae49d8.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Goya Medium Salsa Verde, Authentic Mexican Tangy Green Salsa",
+      "size": "17.6 oz",
+      "brand": "goya",
+      "price": "$5.79",
+      "item_id": "items_164501-36958",
+      "product_id": "36958",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_91b866c6-9db4-456a-a72c-9766cbbd14f0.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Mild Chunky Salsa",
+      "size": "24 oz",
+      "brand": "laura lynn",
+      "price": "$3.99",
+      "item_id": "items_164501-30776541",
+      "product_id": "30776541",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Clint's Salsa, Texas, Black Bean & Corn",
+      "size": "16 oz",
+      "brand": "clint's",
+      "price": "$6.29",
+      "item_id": "items_164501-335138",
+      "product_id": "335138",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0427f284-136a-4632-a6fe-9d12d9370794.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Abby J's Gourmet Blackhawk Black Bean & Jalapeno Salsa",
+      "size": "16 oz",
+      "brand": "abby j's gourmet",
+      "price": "$9.49",
+      "item_id": "items_164501-19153874",
+      "product_id": "19153874",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_734a83c0-5c2c-4200-a5a8-c47b8865c690.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Harvest Farms Organic Medium Salsa",
+      "size": "16 oz",
+      "brand": "harvest farms",
+      "price": "$3.99",
+      "item_id": "items_164501-30776700",
+      "product_id": "30776700",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "size": "64 oz",
+      "brand": "pace",
+      "price": "$9.69",
+      "item_id": "items_164501-44052",
+      "product_id": "44052",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_464126cc-35a1-4695-b3a3-0feee675c7ad.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Picante Sauce, Medium",
+      "size": "24 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-40759",
+      "product_id": "40759",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9a0725e0-55b6-40ef-a9ba-9fb7d6d1345d.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Picante Sauce, Medium",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35178",
+      "product_id": "35178",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5d3af415-a1d9-4eaf-a844-19a52dec3225.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Picante Sauce, Mild",
+      "size": "24 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-35363",
+      "product_id": "35363",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_746e91fd-d6ac-4dda-a5ff-2175bc19adc3.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35252",
+      "product_id": "35252",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0bead836-eee7-4da8-8f07-a8493453eb6e.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "On The Border Mild Salsa",
+      "size": "16 oz",
+      "brand": "on the border",
+      "price": "$4.89",
+      "item_id": "items_164501-3317752",
+      "product_id": "3317752",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06cc45d4-8fee-4ac1-bff3-c4f86586f9ce.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Picante Sauce, Mild",
+      "size": "64 oz",
+      "brand": "pace",
+      "price": "$9.69",
+      "item_id": "items_164501-151849",
+      "product_id": "151849",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_900478ed-b54e-42a7-b294-21cb83c5d9e6.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Hot Picante Sauce",
+      "size": "24 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-16788786",
+      "product_id": "16788786",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3f595e1d-b5db-41d8-aed5-585d9f54b63c.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mrs. Wages Salsa, Medium",
+      "size": "4 oz",
+      "brand": "mrs. wages",
+      "price": "$3.89",
+      "item_id": "items_164501-1360590",
+      "product_id": "1360590",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b1087f10-7673-4fab-b7d4-684d88696040.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Willy's Salsa, Fresh, Original, Medium",
+      "size": "16 oz",
+      "brand": "willy's",
+      "price": "$4.29",
+      "item_id": "items_164501-2890486",
+      "product_id": "2890486",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bf2f3d5a-a64a-408b-a414-dd4346aa8292.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pico De Gallo",
+      "size": "1 each",
+      "brand": null,
+      "price": "$6.49 /lb",
+      "item_id": "items_164501-31577795",
+      "product_id": "31577795",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Medium Salsa Con Queso Dip",
+      "size": "15 oz",
+      "brand": "laura lynn",
+      "price": "$3.59",
+      "item_id": "items_164501-30775915",
+      "product_id": "30775915",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "On The Border Medium Salsa",
+      "size": "16 oz",
+      "brand": "on the border",
+      "price": "$4.89",
+      "item_id": "items_164501-3317753",
+      "product_id": "3317753",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ca48425e-de5e-49be-b198-ac90928584e6.png",
+      "availability": "lowStock"
+    },
+    {
+      "name": "Pace Medium Salsa con Queso Dip",
+      "size": "15 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-78418",
+      "product_id": "78418",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bacb11c0-9f05-4a61-9fc3-672792d7d625.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tapatio Salsa Picante Hot Sauce",
+      "size": "10 fl oz",
+      "brand": "tapatio",
+      "price": "$4.29",
+      "item_id": "items_164501-44561",
+      "product_id": "44561",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2c077d51-915a-4a9d-8903-ac6ae98edff6.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Willy's Black Bean 'N Corn",
+      "size": "16 oz",
+      "brand": "willy's",
+      "price": "$4.29",
+      "item_id": "items_164501-2890488",
+      "product_id": "2890488",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c0a52c48-b34f-43e7-a490-cad3e0439a72.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tostitos Salsa Con Queso, Medium",
+      "size": "15 oz",
+      "brand": "tostitos",
+      "price": "$5.99",
+      "item_id": "items_164501-43124",
+      "product_id": "43124",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a705b863-7e59-4477-a4ac-050c591357ae.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Chick-Fil-A Dressing, Creamy Salsa",
+      "size": "12 fl oz",
+      "brand": "chick-fil-a",
+      "price": "$5.99",
+      "item_id": "items_164501-28114372",
+      "product_id": "28114372",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_24f668fc-81da-4b92-9f07-71819bfa198c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "SANTITAS Tortilla Chips White Corn 11 Oz",
+      "size": "11 oz",
+      "brand": "santitas",
+      "price": "$3.29",
+      "item_id": "items_164501-27452902",
+      "product_id": "27452902",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_575311cb-b7a0-45a0-be57-2b26092de0cd.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "La Preferida Refried Beans, with Zesty Salsa",
+      "size": "16 oz",
+      "brand": "la preferida",
+      "price": "$2.19",
+      "item_id": "items_164501-78538",
+      "product_id": "78538",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7ca7b1a2-74e9-4273-9cfc-c174b9848de3.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Yo Quiero! Mild Original Guacamole",
+      "size": "2 oz",
+      "brand": "yo quiero!",
+      "price": "$5.39",
+      "item_id": "items_164501-21514179",
+      "product_id": "21514179",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e448e110-14eb-45b5-aa40-faa3e72aa855.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Yo Quiero! Chunky Medium Guacamole",
+      "size": "2 oz",
+      "brand": "yo quiero!",
+      "price": "$5.39",
+      "item_id": "items_164501-21514202",
+      "product_id": "21514202",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_80e56f46-3c98-4375-92ac-9a7f5f75cf69.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Yo Quiero! Mild Original Guacamole",
+      "size": "8 oz",
+      "brand": "yo quiero!",
+      "price": "$4.29",
+      "item_id": "items_164501-21514164",
+      "product_id": "21514164",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6d19d743-e9d1-41c2-8c15-960e35d6a785.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Ortega Original Thick and Smooth Mild Taco Sauce, Kosher",
+      "size": "8 oz",
+      "brand": "ortega",
+      "price": "$3.29",
+      "item_id": "items_164501-78401",
+      "product_id": "78401",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7fa9a14c-2947-4555-8598-876e8774df7e.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Calidad Yellow Corn Tortilla Chips, 11 Ounce Bag",
+      "size": "11 oz",
+      "brand": "calidad",
+      "price": "$2.89",
+      "item_id": "items_164501-27518926",
+      "product_id": "27518926",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ad2b8846-58cd-4c70-87b2-2727d94441f6.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fresh Guacamole",
+      "size": "16 oz",
+      "brand": null,
+      "price": "$7.59",
+      "item_id": "items_164501-32646940",
+      "product_id": "32646940",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Yo Quiero! Chunky Guacamole",
+      "size": "8 oz",
+      "brand": "yo quiero!",
+      "price": "$4.29",
+      "item_id": "items_164501-21514223",
+      "product_id": "21514223",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_49f4c238-0ff3-46e0-a818-5cf8a93f411e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Beefsteak Tomato",
+      "size": "1 each",
+      "brand": null,
+      "price": "$1.60 each (est.)",
+      "item_id": "items_164501-3287524",
+      "product_id": "3287524",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ad37918d-3544-479b-be26-c68177a79b4e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Fresh Cravings 5 Layer Dip",
+      "size": "16 oz",
+      "brand": "fresh cravings",
+      "price": "$6.09",
+      "item_id": "items_164501-2623678",
+      "product_id": "2623678",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3ccbaafd-395b-4942-829d-d8a9fdd7b743.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fritos Hot Bean Dip with Jalapeño Peppers",
+      "size": "9 oz",
+      "brand": "fritos",
+      "price": "$4.29",
+      "item_id": "items_164501-42962",
+      "product_id": "42962",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fcc0d327-81ce-4412-a944-2d306c36418f.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "ORTEGA Original Thick and Smooth Medium Taco Sauce, Kosher",
+      "size": "8 oz",
+      "brand": "ortega",
+      "price": "$3.29",
+      "item_id": "items_164501-78400",
+      "product_id": "78400",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_05726454-1a25-465c-8887-fe1161c4e8aa.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Cabo Fresh Classic Guacamole",
+      "size": "12 oz",
+      "brand": "cabo fresh",
+      "price": "$5.99",
+      "item_id": "items_164501-2789961",
+      "product_id": "2789961",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a5c00629-5b0e-47f0-a4f0-30d809b1c07b.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "LATE JULY Snacks Restaurant Style Sea Salt Tortilla Chips",
+      "size": "10.1 oz",
+      "brand": "late july snacks restaurant style",
+      "price": "$6.49",
+      "item_id": "items_164501-25689056",
+      "product_id": "25689056",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_696ede64-ea42-47ad-a803-902a617cebd8.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Cantina Style Tortilla Chips",
+      "size": "13 oz",
+      "brand": "laura lynn",
+      "price": "$3.59",
+      "item_id": "items_164501-31832034",
+      "product_id": "31832034",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Sun Chips Flavored Whole Grain Snacks, Garden Salsa",
+      "size": "7 oz",
+      "brand": "sun chips",
+      "price": "$5.39",
+      "item_id": "items_164501-76445",
+      "product_id": "76445",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e06b35f8-2dcc-42ec-aa22-c84d049b1311.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Ingles Fresh Tortilla Chips",
+      "size": "1 each",
+      "brand": "ingles",
+      "price": "$3.29",
+      "item_id": "items_164501-31854599",
+      "product_id": "31854599",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Nacho Cheese Sauce, Medium",
+      "size": "10.5 oz",
+      "brand": "pace",
+      "price": "$2.19",
+      "item_id": "items_164501-27264398",
+      "product_id": "27264398",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_75230063-1ac2-40ad-a6c6-b4d203343010.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Xochitl Organic Blue Corn Tortilla Chips",
+      "size": "7.5 oz",
+      "brand": "xochitl",
+      "price": "$5.09",
+      "item_id": "items_164501-101566815",
+      "product_id": "101566815",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e37bd5f4-4a0b-44ce-a4c5-dcd89d91b2e5.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "LATE JULY Snacks Sea Salt Tortilla Chips",
+      "size": "7.4 oz",
+      "brand": "late july snacks",
+      "price": "$6.49",
+      "item_id": "items_164501-25689055",
+      "product_id": "25689055",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b0beecb2-f786-4eee-8efb-a30c54b44c1c.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Mexicana Queso Blanco Mild",
+      "size": "12 oz",
+      "brand": "la mexicana",
+      "price": "$5.99",
+      "item_id": "items_164501-18079595",
+      "product_id": "18079595",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4fbed680-d08b-446a-abf5-1bf93fd5698e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Medium Queso Blanco Cheese Dip",
+      "size": "15 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-16526178",
+      "product_id": "16526178",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d2510382-2330-4b7e-bf77-749e3cd747eb.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Old El Paso Mild Taco Seasoning Mix",
+      "size": "1 oz",
+      "brand": "old el paso",
+      "price": "$1.79",
+      "item_id": "items_164501-78443",
+      "product_id": "78443",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e0cf083a-3d63-4669-a09c-3ef87e7e1f7e.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Laura Lynn Corn Chip Dippers",
+      "size": "10 oz",
+      "brand": "laura lynn",
+      "price": "$3.19",
+      "item_id": "items_164501-30777198",
+      "product_id": "30777198",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "El Preferido Cheese Dip, Jalapeno, Restaurant Style",
+      "size": "10 oz",
+      "brand": "el preferido",
+      "price": "$7.39",
+      "item_id": "items_164501-17665418",
+      "product_id": "17665418",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_183776e9-f461-461b-a74b-38115eb2b7b3.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fritos Bean Dip Original Flavor",
+      "size": "9 oz",
+      "brand": "fritos",
+      "price": "$4.29",
+      "item_id": "items_164501-42973",
+      "product_id": "42973",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c7f92b98-7622-4966-89c4-e4240acddd79.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Ritz Fiesta Salsa Sandwich Crackers, Snacks For Kids And Adults, Lunch Snacks 8.8 oz",
+      "size": "8.8 oz",
+      "brand": "ritz",
+      "price": "$6.49",
+      "item_id": "items_164501-76166536",
+      "product_id": "76166536",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_66c892b3-d9fc-4e2e-b142-cfa50d4adf91.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Rojo's Street Corn Dip, Mexican Style, Mild",
+      "size": "11 oz",
+      "brand": "rojo's",
+      "price": "$5.99",
+      "item_id": "items_164501-23767426",
+      "product_id": "23767426",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_55954d83-5594-4fe1-8751-e59df50f9aad.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "On The Border Monterey Jack Queso",
+      "size": "15.5 oz",
+      "brand": "on the border",
+      "price": "$5.99",
+      "item_id": "items_164501-221514",
+      "product_id": "221514",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2dc4354e-e484-4092-a12f-2da07df78953.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Gordo’s Foodservice Original Queso Cheese Dip",
+      "size": "16 oz",
+      "brand": "gordo’s foodservice",
+      "price": "$6.89",
+      "item_id": "items_164501-277057",
+      "product_id": "277057",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8584c063-24fa-4833-a6a1-808085d70221.jpeg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Medium Taco Seasoning Mix",
+      "size": "1 oz",
+      "brand": "mateo's",
+      "price": "$1.99",
+      "item_id": "items_164501-40177624",
+      "product_id": "40177624",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1d4a0c1d-594f-4ff0-9968-45a03370ace3.png",
+      "availability": "inStock"
+    }
+  ],
+  "raw_text_chars": 6522,
+  "steps": [
+    "23:20:15 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:20:16 connected to Bright Data Scraping Browser",
+    "23:20:23 goto https://www.instacart.com/store/ingles/s?k=salsa",
+    "23:20:31 captcha check passed",
+    "23:20:42 dismissed \"Continue\"",
+    "23:20:51 js_houses 120 store API zip 60615 shop 342623 location 164501",
+    "23:20:51 store_set: null",
+    "23:20:51 js_houses override: 120",
+    "23:20:52 extracted 120 houses; raw text 6522 chars"
+  ],
+  "error": null,
+  "js_houses": [
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35199",
+      "product_id": "35199",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de5c2145-b19b-4cb7-930c-31c5330bec96.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Medium",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.39",
+      "item_id": "items_164501-3080345",
+      "product_id": "3080345",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5c3b622c-7914-4fc7-9196-25d91b98bb9e.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Pace Restaurant Style Salsa, Medium",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35277",
+      "product_id": "35277",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_59516cce-78d0-494c-9dbc-419aa507220e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Cantina Style",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.39",
+      "item_id": "items_164501-19648179",
+      "product_id": "19648179",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ff014913-a2af-448c-8b0a-39888a080095.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tostitos Chunky Salsa, Medium",
+      "size": "15.5 oz",
+      "brand": "tostitos",
+      "price": "$4.69",
+      "item_id": "items_164501-16848067",
+      "product_id": "16848067",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_75b35699-5a1c-40e2-b782-5407f4484229.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "HERDEZ Salsa Casera Mild",
+      "size": "16 oz",
+      "brand": "herdez",
+      "price": "$4.09",
+      "item_id": "items_164501-34267",
+      "product_id": "34267",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ab29cf59-18a2-4136-aac5-3c31398ac0ec.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "HERDEZ Salsa Casera Medium",
+      "size": "16 oz",
+      "brand": "herdez",
+      "price": "$4.09",
+      "item_id": "items_164501-27303",
+      "product_id": "27303",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ad2aa886-a9d3-4cb1-a667-8195fa52da31.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Herdez Salsa Verde Mild",
+      "size": "16 oz",
+      "brand": "herdez",
+      "price": "$4.09",
+      "item_id": "items_164501-27302",
+      "product_id": "27302",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f7a81af9-dd3d-4f87-be99-c0a7f629e481.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "HERDEZ Roasted Salsa Verde Medium",
+      "size": "15.7 oz",
+      "brand": "herdez",
+      "price": "$4.69",
+      "item_id": "items_164501-17309253",
+      "product_id": "17309253",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_afdd72bc-ee4e-4a88-9a9b-61ec556b59e4.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "HERDEZ Salsa Casera Hot",
+      "size": "16 oz",
+      "brand": "herdez",
+      "price": "$4.09",
+      "item_id": "items_164501-16912934",
+      "product_id": "16912934",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2d87b621-4927-48ad-9f09-832328865764.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "size": "24 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-78386",
+      "product_id": "78386",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cc199e60-4bc0-460f-ad1d-29a3c31bee5d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Newman's Own Bolder Flavor Medium Chunky Salsa",
+      "size": "16 oz",
+      "brand": "newman's own",
+      "price": "$4.09",
+      "item_id": "items_164501-78396",
+      "product_id": "78396",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c38996c9-3e39-4747-ab64-72d70ee6b32e.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tostitos Chunky Salsa, Mild",
+      "size": "15.5 oz",
+      "brand": "tostitos",
+      "price": "$4.69",
+      "item_id": "items_164501-3414310",
+      "product_id": "3414310",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_63344470-dfe7-48c1-805b-9362009f06dd.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Mild",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.39",
+      "item_id": "items_164501-3078643",
+      "product_id": "3078643",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2f27c75-a761-458e-93f6-40c6f3a3e49a.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Cacique Mild Homestyle Salsa",
+      "size": "16 oz",
+      "brand": "cacique",
+      "price": "$3.79",
+      "item_id": "items_164501-20274490",
+      "product_id": "20274490",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_08c56c3f-3c46-4152-b16f-f36733bb2ee9.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tostitos Medium Chunky Salsa Dip",
+      "size": "24 oz",
+      "brand": "tostitos",
+      "price": "$5.99",
+      "item_id": "items_164501-40226",
+      "product_id": "40226",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_24570cad-437f-4206-a0da-7e1371664d89.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tostitos Restaurant Style Salsa, Medium",
+      "size": "15.5 oz",
+      "brand": "tostitos",
+      "price": "$4.69",
+      "item_id": "items_164501-76436",
+      "product_id": "76436",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c470120b-a473-44d8-836f-eca269812a90.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Picante Sauce, Mild",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35925",
+      "product_id": "35925",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_114cf335-08f3-4d9b-9591-c32bb8cd15e9.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Garden Fresh Gourmet Jack's Special Mild Salsa",
+      "size": "16 oz",
+      "brand": "garden fresh gourmet",
+      "price": "$4.29",
+      "item_id": "items_164501-74678",
+      "product_id": "74678",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_49f8db7b-2e0a-48b8-982d-81f6b260f54e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Hot",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.39",
+      "item_id": "items_164501-3078642",
+      "product_id": "3078642",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_177317a4-97d4-427f-b74e-a7d8d46370ef.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Chunky Mild Salsa",
+      "size": "24 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-78387",
+      "product_id": "78387",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_de40faab-90fb-4476-8725-417b7b2ce76e.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Willy's Salsa, Fresh, Original, Hot",
+      "size": "16 oz",
+      "brand": "willy's",
+      "price": "$4.29",
+      "item_id": "items_164501-2890492",
+      "product_id": "2890492",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f601544f-a3e4-46ac-9306-398d61ae27d8.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Mild Chunky Salsa",
+      "size": "64 oz",
+      "brand": "pace",
+      "price": "$9.69",
+      "item_id": "items_164501-191414",
+      "product_id": "191414",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_42eb273b-5948-43d0-a1c6-78e407faf909.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tabasco Green Pepper Sauce, Hot Sauce",
+      "size": "5 fl oz",
+      "brand": "tabasco",
+      "price": "$4.89",
+      "item_id": "items_164501-25337",
+      "product_id": "25337",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3b34e567-96a7-422c-bfd4-73ed7ecd45a4.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tabasco Chipotle Pepper Sauce, Hot Sauce",
+      "size": "5 fl oz",
+      "brand": "tabasco",
+      "price": "$4.89",
+      "item_id": "items_164501-71558",
+      "product_id": "71558",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_94f8e709-28e2-42fa-8d6f-436cde2454ba.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tabasco Original Red Pepper Sauce, Hot Sauce",
+      "size": "5 fl oz",
+      "brand": "tabasco",
+      "price": "$4.89",
+      "item_id": "items_164501-2679711",
+      "product_id": "2679711",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06135314-7a5b-4f43-80c6-0b55989a98b5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tabasco Original Red Pepper Sauce",
+      "size": "2 fl oz",
+      "brand": "tabasco",
+      "price": "$2.59",
+      "item_id": "items_164501-25339",
+      "product_id": "25339",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_185bfc9d-0946-4bde-919c-bf7f98b4ce61.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Hot Picante Sauce",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35924",
+      "product_id": "35924",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c605fb45-66f5-4ea4-b96c-7df416bccfff.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "La Mexicana Cantina Salsa",
+      "size": "14 oz",
+      "brand": "la mexicana",
+      "price": "$5.29",
+      "item_id": "items_164501-3183902",
+      "product_id": "3183902",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a0a04a30-9cca-4e50-af0d-0e5169b55f9a.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Lower Sodium Chunky Medium Salsa",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-38636292",
+      "product_id": "38636292",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ab2ceef8-e730-4692-8866-3605bac00829.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Newman's Own Chunky Medium Mango Salsa",
+      "size": "16 oz",
+      "brand": "newman's own",
+      "price": "$4.09",
+      "item_id": "items_164501-78394",
+      "product_id": "78394",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_da89a97c-a6c2-4492-8165-3c58c7ad9b07.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mi Nina Medium Tomato Salsa",
+      "size": "13.5 oz",
+      "brand": "mi nina",
+      "price": "$7.19",
+      "item_id": "items_164501-63720370",
+      "product_id": "63720370",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dc9928ac-da92-4a99-b2e4-6d3848d0f304.JPG",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Mexicana Mild Salsa",
+      "size": "16 oz",
+      "brand": "la mexicana",
+      "price": "$5.29",
+      "item_id": "items_164501-39861",
+      "product_id": "39861",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_357971c7-aecd-4251-afd8-c363ed481817.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Costeña Medium Mexican Salsa Tomato Sauce",
+      "size": "16.7 oz",
+      "brand": "la costeña",
+      "price": "$3.59",
+      "item_id": "items_164501-37014",
+      "product_id": "37014",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bbcb4d7c-354b-47b8-80ae-bf8708f43cab.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Mild Salsa Square Jar",
+      "size": "16 oz",
+      "brand": "laura lynn",
+      "price": "$3.59",
+      "item_id": "items_164501-30776046",
+      "product_id": "30776046",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tostitos Mild Chunky Salsa Dip",
+      "size": "24 oz",
+      "brand": "tostitos",
+      "price": "$5.99",
+      "item_id": "items_164501-3317724",
+      "product_id": "3317724",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0c8acbf8-b804-45e1-babc-b2fbaef8a729.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Restaurant Style Salsa, Mild",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-19324034",
+      "product_id": "19324034",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7acc2485-f20a-4d72-9611-a129d6c67410.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Cacique Medium Homestyle Salsa",
+      "size": "16 oz",
+      "brand": "cacique",
+      "price": "$3.79",
+      "item_id": "items_164501-20274478",
+      "product_id": "20274478",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6df3d021-35ba-4264-81d4-1a44795445c2.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Newman's Own Bold Flavor Chunky Mild Salsa",
+      "size": "16 oz",
+      "brand": "newman's own",
+      "price": "$4.09",
+      "item_id": "items_164501-78393",
+      "product_id": "78393",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_22c69ed7-f06e-4ae0-a221-999abc3f7f3e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Newman's Own Chunky Medium Pineapple Salsa",
+      "size": "16 oz",
+      "brand": "newman's own",
+      "price": "$4.09",
+      "item_id": "items_164501-78395",
+      "product_id": "78395",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_09e5320f-6cff-44c0-b14f-7813fd60cf29.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Preferida MEDIUM Salsa Verde, Authentic Mexican Salsa",
+      "size": "16 oz",
+      "brand": "la preferida",
+      "price": "$4.09",
+      "item_id": "items_164501-78516",
+      "product_id": "78516",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e4197462-746a-4231-af78-8fd1d24b7ad6.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Salsa, Pineapple, Medium",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$6.49",
+      "item_id": "items_164501-123563",
+      "product_id": "123563",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e225d92a-136c-441d-8360-5085fe11fd4f.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Square Jar Medium Salsa",
+      "size": "16 oz",
+      "brand": "laura lynn",
+      "price": "$3.59",
+      "item_id": "items_164501-31832009",
+      "product_id": "31832009",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Medium Cantina Salsa",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$5.39",
+      "item_id": "items_164501-17330812",
+      "product_id": "17330812",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_757c0de6-af0c-4e79-a3c6-515c969fa028.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Medium Peach Mango Salsa",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$6.49",
+      "item_id": "items_164501-27284",
+      "product_id": "27284",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9e51c08e-0cd2-4cc0-a94c-87c6359bb0b3.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Medium Corn Black Bean Red Pepper Salsa",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$6.49",
+      "item_id": "items_164501-3317639",
+      "product_id": "3317639",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c6b16716-4b0d-46a3-8906-bae295cc5bda.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn White Salsa Con Queso",
+      "size": "15 oz",
+      "brand": "laura lynn",
+      "price": "$3.59",
+      "item_id": "items_164501-30775988",
+      "product_id": "30775988",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "On The Border Hot Salsa",
+      "size": "16 oz",
+      "brand": "on the border",
+      "price": "$4.89",
+      "item_id": "items_164501-221625",
+      "product_id": "221625",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2f064a84-c261-459b-8e6c-5c204542bda4.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Cantina Mild Salsa",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$5.39",
+      "item_id": "items_164501-17330818",
+      "product_id": "17330818",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0e587163-fbe5-4638-b020-c4012f5f906a.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tostitos Hot Chunky Habanero Salsa Dip",
+      "size": "15.5 oz",
+      "brand": "tostitos",
+      "price": "$4.69",
+      "item_id": "items_164501-3137951",
+      "product_id": "3137951",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fd01d272-13da-4ac1-9d2e-70be885c8842.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Newman's Own Chunky Medium Black Bean & Corn Salsa",
+      "size": "16 oz",
+      "brand": "newman's own",
+      "price": "$4.09",
+      "item_id": "items_164501-100989",
+      "product_id": "100989",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8d704045-1223-4ba5-9fc4-4c20c660a6f5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Arriba! Fire-Roasted Salsa with Tomato & Garlic, Roasted Chipotle, Medium",
+      "size": "16 oz",
+      "brand": "arriba!",
+      "price": "$6.19",
+      "item_id": "items_164501-101001",
+      "product_id": "101001",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f063f437-ef83-4f89-b241-e20ba089a054.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Arriba! Fire Roasted Salsa with Jalapeno & Cilantro, Medium",
+      "size": "16 oz",
+      "brand": "arriba!",
+      "price": "$6.19",
+      "item_id": "items_164501-101000",
+      "product_id": "101000",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cfa25753-c01d-4328-9552-101922983886.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Reser's Fine Foods Medium Original Salsa",
+      "size": "1 lb",
+      "brand": "reser's fine foods",
+      "price": "$6.19",
+      "item_id": "items_164501-2797125",
+      "product_id": "2797125",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a90fac5f-1b83-4400-8489-82093bfac0dc.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Costeña Medium Green Salsa Tomatillo Sauce",
+      "size": "16.7 oz",
+      "brand": "la costeña",
+      "price": "$3.59",
+      "item_id": "items_164501-34304",
+      "product_id": "34304",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_74a25b66-4466-4a0e-9cc6-252934ca5d4d.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Gourmet Salsa, Hatch Chile",
+      "size": "16 oz",
+      "brand": "mateo's",
+      "price": "$5.39",
+      "item_id": "items_164501-3080344",
+      "product_id": "3080344",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2471bf89-ac08-44ea-9f1a-11a475b9ff19.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Goya Pico de Gallo, Mild Authentic Mexican Salsa",
+      "size": "17.6 oz",
+      "brand": "goya",
+      "price": "$5.79",
+      "item_id": "items_164501-35543",
+      "product_id": "35543",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_db96828b-7526-4908-9143-bf9fb7231b2b.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Medium Chunky Salsa",
+      "size": "24 oz",
+      "brand": "laura lynn",
+      "price": "$3.99",
+      "item_id": "items_164501-30776055",
+      "product_id": "30776055",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Reser's Fine Foods Medium Pico De Gallo Salsa",
+      "size": "1 lb",
+      "brand": "reser's fine foods",
+      "price": "$6.19",
+      "item_id": "items_164501-122927",
+      "product_id": "122927",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b1775659-98e2-4bb9-ab82-034d3db55c89.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Chunky Hot Salsa",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-123552",
+      "product_id": "123552",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2027ac0-b578-4aa9-9cc2-0cf33232edc6.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Harvest Farms Organic Mild Salsa",
+      "size": "16 oz",
+      "brand": "harvest farms",
+      "price": "$3.99",
+      "item_id": "items_164501-30776296",
+      "product_id": "30776296",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Clint's Salsa, Texas, Mild",
+      "size": "16 oz",
+      "brand": "clint's",
+      "price": "$6.29",
+      "item_id": "items_164501-123562",
+      "product_id": "123562",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a17a55b8-86b0-425b-b543-af3ef68dc14b.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Desert Pepper Trading Co. Salsa, Tequila, Medium Burn",
+      "size": "16 oz",
+      "brand": "desert pepper trading co.",
+      "price": "$6.49",
+      "item_id": "items_164501-130140",
+      "product_id": "130140",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e9322268-087a-4871-aa6e-a0429784a2a8.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Clint's Salsa, Texas, Hot",
+      "size": "16 oz",
+      "brand": "clint's",
+      "price": "$6.29",
+      "item_id": "items_164501-142154",
+      "product_id": "142154",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0f80fc4f-ec13-4693-a3ac-807307bb4e0a.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Preferida Salsa, Chipotle, Hot Picante",
+      "size": "7 oz",
+      "brand": "la preferida",
+      "price": "$1.09",
+      "item_id": "items_164501-137694",
+      "product_id": "137694",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bfc7efba-2b90-40d5-a235-75b85bae49d8.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Goya Medium Salsa Verde, Authentic Mexican Tangy Green Salsa",
+      "size": "17.6 oz",
+      "brand": "goya",
+      "price": "$5.79",
+      "item_id": "items_164501-36958",
+      "product_id": "36958",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_91b866c6-9db4-456a-a72c-9766cbbd14f0.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Mild Chunky Salsa",
+      "size": "24 oz",
+      "brand": "laura lynn",
+      "price": "$3.99",
+      "item_id": "items_164501-30776541",
+      "product_id": "30776541",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Clint's Salsa, Texas, Black Bean & Corn",
+      "size": "16 oz",
+      "brand": "clint's",
+      "price": "$6.29",
+      "item_id": "items_164501-335138",
+      "product_id": "335138",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0427f284-136a-4632-a6fe-9d12d9370794.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Abby J's Gourmet Blackhawk Black Bean & Jalapeno Salsa",
+      "size": "16 oz",
+      "brand": "abby j's gourmet",
+      "price": "$9.49",
+      "item_id": "items_164501-19153874",
+      "product_id": "19153874",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_734a83c0-5c2c-4200-a5a8-c47b8865c690.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Harvest Farms Organic Medium Salsa",
+      "size": "16 oz",
+      "brand": "harvest farms",
+      "price": "$3.99",
+      "item_id": "items_164501-30776700",
+      "product_id": "30776700",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Medium Picante Sauce",
+      "size": "64 oz",
+      "brand": "pace",
+      "price": "$9.69",
+      "item_id": "items_164501-44052",
+      "product_id": "44052",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_464126cc-35a1-4695-b3a3-0feee675c7ad.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Picante Sauce, Medium",
+      "size": "24 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-40759",
+      "product_id": "40759",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9a0725e0-55b6-40ef-a9ba-9fb7d6d1345d.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Picante Sauce, Medium",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35178",
+      "product_id": "35178",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5d3af415-a1d9-4eaf-a844-19a52dec3225.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Picante Sauce, Mild",
+      "size": "24 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-35363",
+      "product_id": "35363",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_746e91fd-d6ac-4dda-a5ff-2175bc19adc3.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Chunky Medium Salsa",
+      "size": "16 oz",
+      "brand": "pace",
+      "price": "$3.89",
+      "item_id": "items_164501-35252",
+      "product_id": "35252",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0bead836-eee7-4da8-8f07-a8493453eb6e.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "On The Border Mild Salsa",
+      "size": "16 oz",
+      "brand": "on the border",
+      "price": "$4.89",
+      "item_id": "items_164501-3317752",
+      "product_id": "3317752",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_06cc45d4-8fee-4ac1-bff3-c4f86586f9ce.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Picante Sauce, Mild",
+      "size": "64 oz",
+      "brand": "pace",
+      "price": "$9.69",
+      "item_id": "items_164501-151849",
+      "product_id": "151849",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_900478ed-b54e-42a7-b294-21cb83c5d9e6.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Hot Picante Sauce",
+      "size": "24 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-16788786",
+      "product_id": "16788786",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3f595e1d-b5db-41d8-aed5-585d9f54b63c.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mrs. Wages Salsa, Medium",
+      "size": "4 oz",
+      "brand": "mrs. wages",
+      "price": "$3.89",
+      "item_id": "items_164501-1360590",
+      "product_id": "1360590",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b1087f10-7673-4fab-b7d4-684d88696040.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Willy's Salsa, Fresh, Original, Medium",
+      "size": "16 oz",
+      "brand": "willy's",
+      "price": "$4.29",
+      "item_id": "items_164501-2890486",
+      "product_id": "2890486",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bf2f3d5a-a64a-408b-a414-dd4346aa8292.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pico De Gallo",
+      "size": "1 each",
+      "brand": null,
+      "price": "$6.49 /lb",
+      "item_id": "items_164501-31577795",
+      "product_id": "31577795",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Medium Salsa Con Queso Dip",
+      "size": "15 oz",
+      "brand": "laura lynn",
+      "price": "$3.59",
+      "item_id": "items_164501-30775915",
+      "product_id": "30775915",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "On The Border Medium Salsa",
+      "size": "16 oz",
+      "brand": "on the border",
+      "price": "$4.89",
+      "item_id": "items_164501-3317753",
+      "product_id": "3317753",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ca48425e-de5e-49be-b198-ac90928584e6.png",
+      "availability": "lowStock"
+    },
+    {
+      "name": "Pace Medium Salsa con Queso Dip",
+      "size": "15 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-78418",
+      "product_id": "78418",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bacb11c0-9f05-4a61-9fc3-672792d7d625.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tapatio Salsa Picante Hot Sauce",
+      "size": "10 fl oz",
+      "brand": "tapatio",
+      "price": "$4.29",
+      "item_id": "items_164501-44561",
+      "product_id": "44561",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2c077d51-915a-4a9d-8903-ac6ae98edff6.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Willy's Black Bean 'N Corn",
+      "size": "16 oz",
+      "brand": "willy's",
+      "price": "$4.29",
+      "item_id": "items_164501-2890488",
+      "product_id": "2890488",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c0a52c48-b34f-43e7-a490-cad3e0439a72.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Tostitos Salsa Con Queso, Medium",
+      "size": "15 oz",
+      "brand": "tostitos",
+      "price": "$5.99",
+      "item_id": "items_164501-43124",
+      "product_id": "43124",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a705b863-7e59-4477-a4ac-050c591357ae.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Chick-Fil-A Dressing, Creamy Salsa",
+      "size": "12 fl oz",
+      "brand": "chick-fil-a",
+      "price": "$5.99",
+      "item_id": "items_164501-28114372",
+      "product_id": "28114372",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_24f668fc-81da-4b92-9f07-71819bfa198c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "SANTITAS Tortilla Chips White Corn 11 Oz",
+      "size": "11 oz",
+      "brand": "santitas",
+      "price": "$3.29",
+      "item_id": "items_164501-27452902",
+      "product_id": "27452902",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_575311cb-b7a0-45a0-be57-2b26092de0cd.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "La Preferida Refried Beans, with Zesty Salsa",
+      "size": "16 oz",
+      "brand": "la preferida",
+      "price": "$2.19",
+      "item_id": "items_164501-78538",
+      "product_id": "78538",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7ca7b1a2-74e9-4273-9cfc-c174b9848de3.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Yo Quiero! Mild Original Guacamole",
+      "size": "2 oz",
+      "brand": "yo quiero!",
+      "price": "$5.39",
+      "item_id": "items_164501-21514179",
+      "product_id": "21514179",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e448e110-14eb-45b5-aa40-faa3e72aa855.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Yo Quiero! Chunky Medium Guacamole",
+      "size": "2 oz",
+      "brand": "yo quiero!",
+      "price": "$5.39",
+      "item_id": "items_164501-21514202",
+      "product_id": "21514202",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_80e56f46-3c98-4375-92ac-9a7f5f75cf69.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Yo Quiero! Mild Original Guacamole",
+      "size": "8 oz",
+      "brand": "yo quiero!",
+      "price": "$4.29",
+      "item_id": "items_164501-21514164",
+      "product_id": "21514164",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6d19d743-e9d1-41c2-8c15-960e35d6a785.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Ortega Original Thick and Smooth Mild Taco Sauce, Kosher",
+      "size": "8 oz",
+      "brand": "ortega",
+      "price": "$3.29",
+      "item_id": "items_164501-78401",
+      "product_id": "78401",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7fa9a14c-2947-4555-8598-876e8774df7e.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Calidad Yellow Corn Tortilla Chips, 11 Ounce Bag",
+      "size": "11 oz",
+      "brand": "calidad",
+      "price": "$2.89",
+      "item_id": "items_164501-27518926",
+      "product_id": "27518926",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ad2b8846-58cd-4c70-87b2-2727d94441f6.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fresh Guacamole",
+      "size": "16 oz",
+      "brand": null,
+      "price": "$7.59",
+      "item_id": "items_164501-32646940",
+      "product_id": "32646940",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Yo Quiero! Chunky Guacamole",
+      "size": "8 oz",
+      "brand": "yo quiero!",
+      "price": "$4.29",
+      "item_id": "items_164501-21514223",
+      "product_id": "21514223",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_49f4c238-0ff3-46e0-a818-5cf8a93f411e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Beefsteak Tomato",
+      "size": "1 each",
+      "brand": null,
+      "price": "$1.60 each (est.)",
+      "item_id": "items_164501-3287524",
+      "product_id": "3287524",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ad37918d-3544-479b-be26-c68177a79b4e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Fresh Cravings 5 Layer Dip",
+      "size": "16 oz",
+      "brand": "fresh cravings",
+      "price": "$6.09",
+      "item_id": "items_164501-2623678",
+      "product_id": "2623678",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3ccbaafd-395b-4942-829d-d8a9fdd7b743.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fritos Hot Bean Dip with Jalapeño Peppers",
+      "size": "9 oz",
+      "brand": "fritos",
+      "price": "$4.29",
+      "item_id": "items_164501-42962",
+      "product_id": "42962",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fcc0d327-81ce-4412-a944-2d306c36418f.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "ORTEGA Original Thick and Smooth Medium Taco Sauce, Kosher",
+      "size": "8 oz",
+      "brand": "ortega",
+      "price": "$3.29",
+      "item_id": "items_164501-78400",
+      "product_id": "78400",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_05726454-1a25-465c-8887-fe1161c4e8aa.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Cabo Fresh Classic Guacamole",
+      "size": "12 oz",
+      "brand": "cabo fresh",
+      "price": "$5.99",
+      "item_id": "items_164501-2789961",
+      "product_id": "2789961",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a5c00629-5b0e-47f0-a4f0-30d809b1c07b.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "LATE JULY Snacks Restaurant Style Sea Salt Tortilla Chips",
+      "size": "10.1 oz",
+      "brand": "late july snacks restaurant style",
+      "price": "$6.49",
+      "item_id": "items_164501-25689056",
+      "product_id": "25689056",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_696ede64-ea42-47ad-a803-902a617cebd8.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Laura Lynn Cantina Style Tortilla Chips",
+      "size": "13 oz",
+      "brand": "laura lynn",
+      "price": "$3.59",
+      "item_id": "items_164501-31832034",
+      "product_id": "31832034",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Sun Chips Flavored Whole Grain Snacks, Garden Salsa",
+      "size": "7 oz",
+      "brand": "sun chips",
+      "price": "$5.39",
+      "item_id": "items_164501-76445",
+      "product_id": "76445",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e06b35f8-2dcc-42ec-aa22-c84d049b1311.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Ingles Fresh Tortilla Chips",
+      "size": "1 each",
+      "brand": "ingles",
+      "price": "$3.29",
+      "item_id": "items_164501-31854599",
+      "product_id": "31854599",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Nacho Cheese Sauce, Medium",
+      "size": "10.5 oz",
+      "brand": "pace",
+      "price": "$2.19",
+      "item_id": "items_164501-27264398",
+      "product_id": "27264398",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_75230063-1ac2-40ad-a6c6-b4d203343010.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Xochitl Organic Blue Corn Tortilla Chips",
+      "size": "7.5 oz",
+      "brand": "xochitl",
+      "price": "$5.09",
+      "item_id": "items_164501-101566815",
+      "product_id": "101566815",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e37bd5f4-4a0b-44ce-a4c5-dcd89d91b2e5.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "LATE JULY Snacks Sea Salt Tortilla Chips",
+      "size": "7.4 oz",
+      "brand": "late july snacks",
+      "price": "$6.49",
+      "item_id": "items_164501-25689055",
+      "product_id": "25689055",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b0beecb2-f786-4eee-8efb-a30c54b44c1c.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "La Mexicana Queso Blanco Mild",
+      "size": "12 oz",
+      "brand": "la mexicana",
+      "price": "$5.99",
+      "item_id": "items_164501-18079595",
+      "product_id": "18079595",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4fbed680-d08b-446a-abf5-1bf93fd5698e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pace Medium Queso Blanco Cheese Dip",
+      "size": "15 oz",
+      "brand": "pace",
+      "price": "$4.79",
+      "item_id": "items_164501-16526178",
+      "product_id": "16526178",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d2510382-2330-4b7e-bf77-749e3cd747eb.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Old El Paso Mild Taco Seasoning Mix",
+      "size": "1 oz",
+      "brand": "old el paso",
+      "price": "$1.79",
+      "item_id": "items_164501-78443",
+      "product_id": "78443",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e0cf083a-3d63-4669-a09c-3ef87e7e1f7e.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Laura Lynn Corn Chip Dippers",
+      "size": "10 oz",
+      "brand": "laura lynn",
+      "price": "$3.19",
+      "item_id": "items_164501-30777198",
+      "product_id": "30777198",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "El Preferido Cheese Dip, Jalapeno, Restaurant Style",
+      "size": "10 oz",
+      "brand": "el preferido",
+      "price": "$7.39",
+      "item_id": "items_164501-17665418",
+      "product_id": "17665418",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_183776e9-f461-461b-a74b-38115eb2b7b3.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fritos Bean Dip Original Flavor",
+      "size": "9 oz",
+      "brand": "fritos",
+      "price": "$4.29",
+      "item_id": "items_164501-42973",
+      "product_id": "42973",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c7f92b98-7622-4966-89c4-e4240acddd79.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Ritz Fiesta Salsa Sandwich Crackers, Snacks For Kids And Adults, Lunch Snacks 8.8 oz",
+      "size": "8.8 oz",
+      "brand": "ritz",
+      "price": "$6.49",
+      "item_id": "items_164501-76166536",
+      "product_id": "76166536",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_66c892b3-d9fc-4e2e-b142-cfa50d4adf91.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Rojo's Street Corn Dip, Mexican Style, Mild",
+      "size": "11 oz",
+      "brand": "rojo's",
+      "price": "$5.99",
+      "item_id": "items_164501-23767426",
+      "product_id": "23767426",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_55954d83-5594-4fe1-8751-e59df50f9aad.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "On The Border Monterey Jack Queso",
+      "size": "15.5 oz",
+      "brand": "on the border",
+      "price": "$5.99",
+      "item_id": "items_164501-221514",
+      "product_id": "221514",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2dc4354e-e484-4092-a12f-2da07df78953.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Gordo’s Foodservice Original Queso Cheese Dip",
+      "size": "16 oz",
+      "brand": "gordo’s foodservice",
+      "price": "$6.89",
+      "item_id": "items_164501-277057",
+      "product_id": "277057",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8584c063-24fa-4833-a6a1-808085d70221.jpeg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Mateo's Medium Taco Seasoning Mix",
+      "size": "1 oz",
+      "brand": "mateo's",
+      "price": "$1.99",
+      "item_id": "items_164501-40177624",
+      "product_id": "40177624",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1d4a0c1d-594f-4ff0-9968-45a03370ace3.png",
+      "availability": "inStock"
+    }
+  ],
+  "js_store": "API zip 60615 shop 342623 location 164501",
+  "js_debug": "DefaultShop 200 1704 | ShopCollectionScoped 200 1885 | collection shops 1 | SearchResultsPlacements 200 501115 | shop 342623 loc 164501 zone 144 ids 281 | Items 200 295768 | Items 200 288112 | Items 200 289108 | Items 200 297191",
+  "houses_text": 0,
+  "houses_page": 60
+}

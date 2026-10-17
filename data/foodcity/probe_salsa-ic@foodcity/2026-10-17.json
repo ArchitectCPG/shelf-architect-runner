@@ -1,0 +1,26 @@
+{
+  "block_id": "probe/salsa-ic@foodcity",
+  "retailer": "foodcity",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:26:11.754Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.instacart.com/store/food-city/s?k=salsa",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:26:11 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:26:12 connected to Bright Data Scraping Browser",
+    "23:26:29 goto https://www.instacart.com/store/food-city/s?k=salsa",
+    "23:26:57 captcha check passed",
+    "23:31:39 dismiss: nothing to close",
+    "23:36:08 js_houses miss Error: page.evaluate: Target page, context or browser has been closed",
+    "23:36:08 store_js failed Error: page.evaluate: Target page, context or browser has be",
+    "23:36:08 ERROR Error: page.evaluate: Target page, context or browser has been closed"
+  ],
+  "error": "Error: page.evaluate: Target page, context or browser has been closed",
+  "js_debug": "Error: page.evaluate: Target page, context or browser has been closed"
+}
