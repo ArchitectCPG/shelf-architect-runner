@@ -5,10 +5,11 @@
  "neighborhood": "salsa",
  "term": "salsa",
  "store_zip": "60615",
- "attempts": 1,
+ "attempts": 2,
  "store_patterns": [
   "Nearest store\\s*\\n?\\s*([^\\n]{5,60})"
  ],
+ "store_expect": "Chicago|, IL",
  "steps": [
   {
    "goto": "https://www.walgreens.com/"
@@ -17,48 +18,43 @@
    "wait": 10000
   },
   {
-   "dismiss": [
-    "Close",
-    "No thanks"
-   ]
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;} const vis=e=>e.offsetWidth||e.offsetHeight; const b=[...document.querySelectorAll('button,a,[role=button]')].find(e=>vis(e)&&/Nearest store|Susan Leslie|Ashburn|Find a store|store locator/i.test(e.innerText||e.getAttribute('aria-label')||'')); if(!b) return 'no store btn'; b.click(); const inp=await waitFor(()=>[...document.querySelectorAll('input')].find(e=>vis(e)&&/city, state or zip|zip/i.test((e.placeholder||'')+(e.getAttribute('aria-label')||''))),8); if(inp) inp.setAttribute('data-zipbox','1'); const d=document.querySelector('[role=dialog],[aria-modal=true]'); return 'clicked '+(b.innerText||'').replace(/\\s+/g,' ').slice(0,40)+' | zipbox='+!!inp+' | dlg='+(d?d.innerText.replace(/\\s+/g,' ').slice(0,500):'none')+' | url='+location.href",
+   "optional": true
   },
   {
-   "type_sel": {
-    "sel": "input[placeholder*='city, state or ZIP' i]",
+   "type_marked": {
+    "sel": "[data-zipbox='1']",
     "value": "{{store_zip}}",
     "enter": true
    },
    "optional": true
   },
   {
+   "js": "await new Promise(x=>setTimeout(x,7000)); const vis=e=>e.offsetWidth||e.offsetHeight; const btns=[...document.querySelectorAll('button,a,[role=button]')].filter(e=>vis(e)&&/^(Select|Set as my store|Make this my store|Choose|Shop this store|Set as store)/i.test(e.innerText.trim())); const t=document.body.innerText.replace(/\\s+/g,' ').slice(0,900); if(btns.length){btns[0].click(); return 'picked '+btns[0].innerText.trim().slice(0,30)+' of '+btns.length+' | '+t} return 'nopick | '+t",
+   "optional": true
+  },
+  {
+   "wait": 5000
+  },
+  {
+   "goto": "https://www.walgreens.com/"
+  },
+  {
    "wait": 8000
   },
   {
-   "js": "return JSON.stringify({url:location.href,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,inputs:[...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id).slice(0,8),dlg:(document.querySelector('[role=dialog],[aria-modal=true]')||{}).innerText?.replace(/\\s+/g,' ').slice(0,500)||null,body:document.body.innerText.replace(/\\s+/g,' ').slice(0,900)})",
-   "optional": true
+   "search": {
+    "placeholder": "Search"
+   }
   },
   {
-   "click_re": "^(Select|Set as my store|Make this my store|Choose this store)",
-   "optional": true
+   "wait": 20000
   },
   {
-   "wait": 4000
+   "scroll": 3
   },
   {
-   "goto": "https://www.walgreens.com/search/results.jsp?Ntt={{term}}"
-  },
-  {
-   "wait": 15000
-  },
-  {
-   "scroll": 4
-  },
-  {
-   "wait": 3000
-  },
-  {
-   "js": "return JSON.stringify({url:location.href,prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,inputs:[...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id).slice(0,8),dlg:(document.querySelector('[role=dialog],[aria-modal=true]')||{}).innerText?.replace(/\\s+/g,' ').slice(0,500)||null,body:document.body.innerText.replace(/\\s+/g,' ').slice(0,900)})",
-   "optional": true
+   "wait": 6000
   }
  ]
 }
