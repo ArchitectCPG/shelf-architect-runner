@@ -18,8 +18,8 @@ Steve rotated the Bright Data API key (twice; both old keys die 20-10) and put t
 
 ## 2026-10-16: KYC APPROVED (Bright Data residential/robots gate lifted; +$5 credit)
 - H-E-B: WORKS via homepage -> search box (direct search URL trips H-E-B's own bot page). 60 salsa houses, clean. PINNED unattended: In-store at -> Change store -> #address-input zip -> first 'Select Store'. 77005 = Buffalo Market H-E-B, 65 houses. Added to SG config (houston market).
-- CVS: search page loads (Chicago store), parser grabs promo badge "$3 ExtraBucks" as name and results mix in unrelated items; needs CVS card_selector/parser.
-- Walgreens: homepage + store finder load, search results page renders empty (second-layer block). Zip typed into store finder did not change store. Parked.
+- CVS: search page loads (Chicago store). Parser now skips ExtraBucks/stock lines. Remaining issue: cvs.com 'salsa' search leads with sponsored beauty items and lazy-loads the rest (109 products, ~20 captured); needs scroll/pagination work. Low priority unless a drug-channel client.
+- Walgreens: SOLVED 2026-10-17. Direct results URL is refused from the cloud browser; typing into the homepage search box works (38 houses). Store pin: 'Nearest store' -> zip box -> first 'Shop this store' -> 5036 S Cottage Grove Chicago. Unattended, attempts=2.
 - BJ's: Akamai "Access Denied" on homepage intermittently (loaded once, denied next). Parked.
 - Stop & Shop: site down (Ahold outage, same as Food Lion). Retry later.
 - Loose end 6 (robots unblock request) is DONE via KYC. Compliance call that was scheduled for Friday did not block approval.
