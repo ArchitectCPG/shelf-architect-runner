@@ -222,14 +222,16 @@ try {
   const attempts = block.attempts || 1; // re-run the whole recipe in a fresh page when the store does not pin
   for (let att = 1; att <= attempts; att++) {
     if (att > 1) { log(`attempt ${att}: store not pinned, fresh page`); try { await page.close(); } catch {} page = await browser.newPage(); page.setDefaultTimeout(60000); await page.setViewportSize({ width: 1440, height: 900 }).catch(() => {}); }
+  let stepErr = null;
   for (const step of steps) {
-    await runStep(page, step);
+    try { await runStep(page, step); } catch (e) { if (att < attempts) { stepErr = e; log(`step failed (${String(e).slice(0, 80)}), will retry recipe`); break; } throw e; }
     if (step.goto) { try { const cdp = await page.context().newCDPSession(page); await cdp.send("Captcha.waitForSolve", { detectTimeout: 8000 }); log("captcha check passed"); } catch (e) { log(`captcha hook: ${String(e).slice(0, 60)}`); } }
   }
   out.url_final = page.url();
   if (block.store_js) { try { out.store_set = await page.evaluate(block.store_js); } catch (e) { log(`store_js failed ${String(e).slice(0,60)}`); } }
   if (!out.store_set) out.store_set = await captureStore(page, block.store_patterns || ["Delivering to\\s*(\\d{5})", "Pickup at\\s*([^\\n|]{3,60})", "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"]);
   log(`store_set: ${out.store_set}`);
+  if (stepErr) { out.store_set = null; continue; }
   if (out.store_set && !/UNPINNED|^null$/i.test(String(out.store_set)) && (!block.store_expect || new RegExp(block.store_expect).test(String(out.store_set)))) break;
   if (att < attempts) { out.store_set = null; continue; }
   }

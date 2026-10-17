@@ -69,5 +69,6 @@
    "wait": 2000
   }
  ],
- "store_js": "document.querySelector('#fulFillMentAddressNav')?.innerText.replace(/\\s+/g,' ').trim()"
+ "store_js": "document.querySelector('#fulFillMentAddressNav')?.innerText.replace(/\\s+/g,' ').trim()",
+ "attempts": 2
 }

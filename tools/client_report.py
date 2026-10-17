@@ -12,8 +12,8 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
     d=json.load(open(fs[-1])); h=d.get('houses',[])
     for x in h:
         nm=(x.get('name') or '')+' '+(x.get('brand') or '')
-        x['_banner']=b['retailer']; x['_term']=b['term']; x['_sg']=any(t in nm.lower() for t in C['brand_terms'])
-        x['_comp']=[k for k,ts in C['competitor_terms'].items() if any(t in nm.lower() for t in ts)]
+        x['_banner']=b['retailer']; x['_term']=b['term']; x['_sg']=any(re.search(t,nm,re.I) for t in C['brand_terms'])
+        x['_comp']=[k for k,ts in C['competitor_terms'].items() if any(re.search(t,nm,re.I) for t in ts)]
         allh.append(x)
     ps=[price(x.get('price')) for x in h if price(x.get('price'))]
     rows.append(dict(banner=b['retailer'],term=b['term'],status='OK' if len(h)>=5 and not d.get('error') else 'WEAK',houses=len(h),store=str(d.get('store_set') or '')[:60],

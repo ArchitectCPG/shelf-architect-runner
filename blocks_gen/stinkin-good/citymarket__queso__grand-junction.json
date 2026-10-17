@@ -62,5 +62,6 @@
    "scroll": 4
   }
  ],
- "store_js": "document.querySelector('[data-testid=CurrentModality-button]')?.innerText.replace(/\\s+/g,' ').trim()"
+ "store_js": "document.querySelector('[data-testid=CurrentModality-button]')?.innerText.replace(/\\s+/g,' ').trim()",
+ "attempts": 2
 }

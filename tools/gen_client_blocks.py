@@ -25,5 +25,6 @@ for r in C['retailers']:
             for k in ('card_selector','store_patterns','no_reload','attempts','store_expect'):
                 if k in t: base[k]=t[k]
             if not base.get('store_js'): base.pop('store_js')
+        if 'steps' in base and 'attempts' not in base: base['attempts']=2
         fn=f"{out}/{r['banner']}__{n['id']}__{r['market']}.json"; json.dump(base,open(fn,'w'),indent=1); made.append(fn)
 print(','.join(made)); print(len(made),'blocks',file=sys.stderr)

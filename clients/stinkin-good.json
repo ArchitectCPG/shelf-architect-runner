@@ -3,22 +3,23 @@
  "name": "Stinkin' Good",
  "sandbox_note": "Test client for the unattended runner. Nothing here writes to the Shelf Architect DB.",
  "brand_terms": [
-  "stinkin",
-  "stinkin'"
+  "\\bstinkin"
  ],
  "competitor_terms": {
   "505 Southwestern": [
-   "505 southwestern",
-   "505 "
+   "\\b505\\b"
   ],
   "Del Real": [
-   "del real"
+   "\\bdel real\\b"
   ],
   "Santiago's": [
-   "santiago"
+   "\\bsantiago"
   ],
-  "Hatch/other green chile": [
-   "hatch"
+  "Hatch (brand)": [
+   "\\bhatch (select|chile co|red|green)\\b|^hatch\\b"
+  ],
+  "Mi Tienda (H-E-B)": [
+   "\\bmi tienda\\b"
   ]
  },
  "markets": {
