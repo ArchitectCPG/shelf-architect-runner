@@ -1,16 +1,19 @@
 {
- "block_id": "diag/zones@list",
+ "block_id": "diag/zones@delete",
  "retailer": "diag",
  "zip": "diag",
  "neighborhood": "zones",
  "api_call": [
   {
-   "method": "GET",
-   "path": "zone/get_active_zones"
+   "method": "DELETE",
+   "path": "zone",
+   "body": {
+    "zone": "scraping_browser1"
+   }
   },
   {
    "method": "GET",
-   "path": "zone?zone=scraping_browser1"
+   "path": "zone/get_active_zones"
   }
  ]
 }
