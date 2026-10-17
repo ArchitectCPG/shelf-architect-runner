@@ -1,0 +1,27 @@
+{
+  "block_id": "probe/salsa@marketbasket",
+  "retailer": "marketbasket",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:13:47.830Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:13:47 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:13:48 connected to Bright Data Scraping Browser",
+    "23:13:52 goto https://www.shopmarketbasket.com/",
+    "23:14:00 captcha check passed",
+    "23:14:15 dismiss: nothing to close",
+    "23:14:16 js ok {\"url\":\"https://www.shopmarketbasket.com/\",\"title\":\"Home - Market Basket\",\"price",
+    "23:14:16 ERROR Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/market-basket/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/market-basket/s?k=salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.shopmarketbasket.com/\",\"title\":\"Home - Market Basket\",\"prices\":0,\"ic\":false,\"platform\":\"?\",\"inputs\":[\"Add an Item\",\"\",\"City and State, or Zip\",\"\",\"Email address\",\"City and State, or Zip\"],\"body\":\"Skip to content CONNECT WITH MARKET BASKET FIND A STORE MY SHOPPING LIST WEEKLY FLYER JOIN OUR TEAM GIFT CARDS ABOUT US NOW HIRING SCARBOROUGH, ME OPEN INTERVIEWS MON-SAT 8AM-4PM NEXT DOOR TO ALLAGASH BUNGALOW APPLY TODAY! 'TIS TIME FOR THE HALLOWEEN COLORING CONTEST KIDS COULD WIN A $50 BARNES & NOBLE GIFT CARD! 8 WINNERS IN EVERY STORE LEARN MORE VIEW FLYER FIND STORE DISCOVER NEW FAVORITES EVER\"}"
+  ]
+}

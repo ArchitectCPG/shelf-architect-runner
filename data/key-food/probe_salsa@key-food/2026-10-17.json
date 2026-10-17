@@ -1,0 +1,27 @@
+{
+  "block_id": "probe/salsa@key-food",
+  "retailer": "key-food",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:03:00.838Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:03:00 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:03:01 connected to Bright Data Scraping Browser",
+    "23:03:06 goto https://www.keyfood.com/",
+    "23:03:14 captcha check passed",
+    "23:03:25 dismissed \"Select a Store\"",
+    "23:03:25 js ok {\"url\":\"https://www.keyfood.com/\",\"title\":\"Key Food | Neighborhood Grocery Store",
+    "23:03:25 ERROR Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/key-food/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/key-food/s?k=salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.keyfood.com/\",\"title\":\"Key Food | Neighborhood Grocery Store for Deals, Digital Cou\",\"prices\":0,\"ic\":true,\"platform\":\"SWIFTLY\",\"inputs\":[\"Search\"],\"body\":\"Skip to main content Skip to footer Products Coupons Shop Now Log In / Sign Up My Store: Select a Store Weekly Ad Gift Cards Shopping List Recipes Homepage Key to Savings Unlock 🔓 BIG Savings! Click for details and to track your progress. Top Grocery Categories Snacks Dairy Condiments & Dressings Frozen Breakfast & Cereal Coffee & Tea Meat & Seafood Boxed Dinners View All Everyday Coupons View Al\"}"
+  ]
+}

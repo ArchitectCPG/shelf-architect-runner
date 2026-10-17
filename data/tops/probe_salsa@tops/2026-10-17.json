@@ -1,0 +1,27 @@
+{
+  "block_id": "probe/salsa@tops",
+  "retailer": "tops",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:07:55.503Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:07:55 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:07:56 connected to Bright Data Scraping Browser",
+    "23:08:00 goto https://www.topsmarkets.com/",
+    "23:08:08 captcha check passed",
+    "23:08:21 dismissed \"×\"",
+    "23:08:21 js ok {\"url\":\"https://www.topsmarkets.com/\",\"title\":\"Tops Friendly Markets - Your Neig",
+    "23:08:21 ERROR Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/tops/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/tops/s?k=salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.topsmarkets.com/\",\"title\":\"Tops Friendly Markets - Your Neighborhood Store With More\",\"prices\":3,\"ic\":true,\"platform\":\"Instacart\",\"inputs\":[\"Search Tops Markets\"],\"body\":\"Skip to content Tops Home Shop Now Weekly Ad Weekly Ad eCoupons eCoupons Gift Cards Gift Cards Rx Refills Rx Refills Careers Careers Store Locator Store Locator Contact Us Contact Us Log-In Log-In | Register Register Search Tops Markets Submit Search Tops Home Savings • Wellness • Entertaining • Recipes • Sustainability • Tops Loves Local • Shop Online • My BonusPlus® Want FREE Grocery Pickup? Add\"}"
+  ]
+}

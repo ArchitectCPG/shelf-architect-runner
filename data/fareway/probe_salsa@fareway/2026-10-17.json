@@ -1,0 +1,27 @@
+{
+  "block_id": "probe/salsa@fareway",
+  "retailer": "fareway",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:10:26.284Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:10:26 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:10:26 connected to Bright Data Scraping Browser",
+    "23:10:31 goto https://www.fareway.com/",
+    "23:10:39 captcha check passed",
+    "23:10:52 dismissed \"Close\"",
+    "23:10:52 js ok {\"url\":\"https://www.fareway.com/\",\"title\":\"Fareway Stores - Full Service Grocery",
+    "23:10:52 ERROR Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/fareway/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/fareway/s?k=salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.fareway.com/\",\"title\":\"Fareway Stores - Full Service Grocery Stores | Fareway\",\"prices\":0,\"ic\":false,\"platform\":\"?\",\"inputs\":[\"Search...\",\"\"],\"body\":\"Skip to main content Enter term to search for: SHOP Check Gift Card Balance Purchase a Gift Card Heartland Steak Co About Online Shopping Shop Online SAVE Fareway Email About Digital Coupons Digital Coupons STORES & ADS Monthly Ads Weekly Ad Locator SERVICES Bakery Party Trays Catering Concessions Dietitian Services Virtual Meat Counter RECIPES KITCHEN Culinary Confidence Magazines Videos Meet the\"}"
+  ]
+}

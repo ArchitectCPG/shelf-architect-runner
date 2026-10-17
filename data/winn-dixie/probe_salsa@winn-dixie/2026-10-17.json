@@ -1,0 +1,27 @@
+{
+  "block_id": "probe/salsa@winn-dixie",
+  "retailer": "winn-dixie",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:02:58.589Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:02:58 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:02:59 connected to Bright Data Scraping Browser",
+    "23:03:05 goto https://www.winndixie.com/",
+    "23:03:13 captcha check passed",
+    "23:04:24 dismissed \"Close\"",
+    "23:04:24 js ok {\"url\":\"https://www.winndixie.com/\",\"title\":\"Winn-Dixie | Fresh Groceries, Weekl",
+    "23:04:24 ERROR Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/winn-dixie/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/winn-dixie/s?k=salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.winndixie.com/\",\"title\":\"Winn-Dixie | Fresh Groceries, Weekly Deals & Rewards\",\"prices\":10,\"ic\":false,\"platform\":\"Mi9\",\"inputs\":[],\"body\":\"Skip directly to content Shop Weekly Ad Digital Coupons Rewards Point Meadows Shopping Center Log In / Sign Up GET $5 OFF When you spend $25 or more on participating items. View offer BUY $25 IN CANDY, GET $5 OFF IN POINTS. No tricks here. Stock up on Halloween candy and treat yo’ self to points back. Activate offer TIDE EVO: 6 LAYERS. ONE EASY CLEAN. Tide’s best clean, now in one tile. View offer\"}"
+  ]
+}

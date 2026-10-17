@@ -1,0 +1,27 @@
+{
+  "block_id": "probe/salsa@foodcity",
+  "retailer": "foodcity",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:09:44.257Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:09:44 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:09:44 connected to Bright Data Scraping Browser",
+    "23:09:48 goto https://www.foodcity.com/",
+    "23:09:56 captcha check passed",
+    "23:10:12 dismiss: nothing to close",
+    "23:10:12 js ok {\"url\":\"https://www.foodcity.com/\",\"title\":\"Food City\",\"prices\":19,\"ic\":false,\"p",
+    "23:10:12 ERROR Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/food-city/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/food-city/s?k=salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.foodcity.com/\",\"title\":\"Food City\",\"prices\":19,\"ic\":false,\"platform\":\"?\",\"inputs\":[\"What can we help you find today?\",\"Enter Your Email Address\",\"Enter Your Phone Number\"],\"body\":\"Accessibility Screen-Reader Guide, Feedback, and Issue Reporting | New window Skip to content Login | Register | Weekly Ad Join Our Team No Store Selected Select a store to reserve a pickup time. Selected Search Type: All List Cart Shop Savings & Rewards Coupons Recipes & Planning Pharmacy & Wellness Community Go to slide 1 Go to slide 2 Go to slide 3 Go to slide 4 Go to slide 5 Go to slide 6 Pump\"}"
+  ]
+}

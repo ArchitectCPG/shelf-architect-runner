@@ -1,0 +1,27 @@
+{
+  "block_id": "probe/salsa@brookshires",
+  "retailer": "brookshires",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:04:17.018Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:04:17 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:04:17 connected to Bright Data Scraping Browser",
+    "23:04:23 goto https://www.brookshires.com/",
+    "23:04:31 captcha check passed",
+    "23:05:47 dismissed \"Close\"",
+    "23:05:47 js ok {\"url\":\"https://www.brookshires.com/sm/pickup/rsid/1928\",\"title\":\"Brookshire's |",
+    "23:05:47 ERROR Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/brookshires/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/brookshires/s?k=salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.brookshires.com/sm/pickup/rsid/1928\",\"title\":\"Brookshire's | Order Groceries Online for Pickup or Delivery\",\"prices\":305,\"ic\":true,\"platform\":\"mi9\",\"inputs\":[\"Search\"],\"body\":\"Skip header to page content Join Our Team Contact Us Help & FAQ . Search in Products The following text field is used to search for items. Type your search term to find items. Submit search query Select Store & Shopping Mode In-Store, Curbside Pickup & Delivery! Hi Guest Sign In or Register Departments Weekly Ad YourPoints Ways To Save Entertaining Pharmacy eCoupon Gallery Buy It Again Favorites C\"}"
+  ]
+}

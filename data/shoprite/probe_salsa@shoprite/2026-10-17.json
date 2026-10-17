@@ -1,0 +1,27 @@
+{
+  "block_id": "probe/salsa@shoprite",
+  "retailer": "shoprite",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:03:40.112Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:03:40 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:03:41 connected to Bright Data Scraping Browser",
+    "23:03:44 goto https://www.shoprite.com/",
+    "23:03:52 captcha check passed",
+    "23:04:03 dismissed \"\"",
+    "23:04:03 js ok {\"url\":\"https://www.shoprite.com/sm/pickup/rsid/3000\",\"title\":\"ShopRite | Your L",
+    "23:04:03 ERROR Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/shoprite/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/shoprite/s?k=salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.shoprite.com/sm/pickup/rsid/3000\",\"title\":\"ShopRite | Your Local Grocery Store and Supermarket\",\"prices\":0,\"ic\":false,\"platform\":\"mi9\",\"inputs\":[],\"body\":\"We and third parties use cookies to collect personal data (e.g., IP address, usage data) for analytics/advertising purposes. Some of this activity may constitute a sale/sharing of personal data or targeted advertising under state privacy laws. To opt out, click “Reject All Cookies.” See ourPrivacy Notice here. Cookie Preference Center Reject All Cookies Accept All Cookies\"}"
+  ]
+}

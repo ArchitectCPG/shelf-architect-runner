@@ -1,0 +1,27 @@
+{
+  "block_id": "probe/salsa@ingles",
+  "retailer": "ingles",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:05:36.295Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:05:36 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:05:37 connected to Bright Data Scraping Browser",
+    "23:05:41 goto https://www.ingles-markets.com/",
+    "23:05:49 captcha check passed",
+    "23:06:02 dismissed \"\"",
+    "23:06:02 js ok {\"url\":\"https://www.ingles-markets.com/\",\"title\":\"Ingles Markets\",\"prices\":0,\"ic",
+    "23:06:02 ERROR Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/ingles/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/ingles/s?k=salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.ingles-markets.com/\",\"title\":\"Ingles Markets\",\"prices\":0,\"ic\":false,\"platform\":\"?\",\"inputs\":[\"Search Ingles\"],\"body\":\"Skip to main content Enable accessibility for low vision Open the accessibility menu Skip to main content Show menu skip to main content Choose or Change Homestore Show menu Ingles Markets Prd - Grocery Stores, Supermarkets, Pharmacies Total Donated Since 1998: $18,611,614 Search Search Savings Weekly Ads Pharmacy Wellness Inside Ingles Talk To Us Corporate Careers Close × Keep up-to-date with you\"}"
+  ]
+}

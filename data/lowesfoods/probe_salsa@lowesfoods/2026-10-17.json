@@ -1,0 +1,27 @@
+{
+  "block_id": "probe/salsa@lowesfoods",
+  "retailer": "lowesfoods",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-17T23:14:22.013Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "23:14:22 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "23:14:22 connected to Bright Data Scraping Browser",
+    "23:14:28 goto https://www.lowesfoods.com/",
+    "23:14:36 captcha check passed",
+    "23:14:52 dismiss: nothing to close",
+    "23:14:52 js ok {\"url\":\"https://www.lowesfoods.com/\",\"title\":\"Welcome to Lowes Foods | Your True",
+    "23:14:52 ERROR Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/lowes-foods/s?k=salsa\", waiting until \"domcontentloaded\"\n"
+  ],
+  "error": "Error: page.goto: Protocol error (Page.navigate): Page.navigate domain limit reached (navigate_domains_limit). Learn more: https://docs.brightdata.com/products/scraping-browser/error-codes#session-limits\nCall log:\n  - navigating to \"https://www.instacart.com/store/lowes-foods/s?k=salsa\", waiting until \"domcontentloaded\"\n",
+  "js_results": [
+    "{\"url\":\"https://www.lowesfoods.com/\",\"title\":\"Welcome to Lowes Foods | Your True Homegrown Grocery Store |\",\"prices\":0,\"ic\":false,\"platform\":\"?\",\"inputs\":[],\"body\":\"STORE LOCATOR STORE LOCATOR LOWES FOODS TO GO LOWES FOODS TO GO WEEKLY AD WEEKLY AD CAREERS CAREERS DIGITAL COUPONS DIGITAL COUPONS GIFT CARDS GIFT CARDS SHOP ONLINE SAVINGS & REWARDS INSPIRATION & EVENTS LOWES FOODS ORIGINALS FRESH REWARDS Enjoy a simpler, more rewarding way to shop—online or in the app—and start saving today. SIGN UP FIND YOUR STORE Come shop with us! Locate your nearest Lowes F\"}"
+  ]
+}
