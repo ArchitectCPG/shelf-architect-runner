@@ -1,0 +1,50 @@
+{
+ "block_id": "probe/salsa@pricechopper",
+ "retailer": "pricechopper",
+ "zip": "probe",
+ "neighborhood": "salsa",
+ "term": "salsa",
+ "store_zip": "60615",
+ "no_reload": true,
+ "store_js": "(()=>null)()",
+ "steps": [
+  {
+   "goto": "https://www.pricechopper.com/"
+  },
+  {
+   "wait": 10000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "Accept",
+    "I Agree",
+    "Got it",
+    "No thanks"
+   ]
+  },
+  {
+   "js": "return JSON.stringify({url:location.href,title:document.title.slice(0,60),prices:(document.body.innerText.match(/\\$\\d+\\.\\d\\d/g)||[]).length,ic:!!(document.querySelector('[data-testid*=instacart i]')||/instacart/i.test(document.documentElement.outerHTML.slice(0,200000))),platform:(document.documentElement.outerHTML.match(/freshop|mi9|mercatus|instacart|storefront\\.com|rosie|ecrs|unata|locai|swiftly|grocerkey|relationshop/i)||['?'])[0],inputs:[...document.querySelectorAll('input')].filter(e=>e.offsetWidth).map(e=>e.placeholder||e.getAttribute('aria-label')||e.name||e.id).slice(0,6),body:document.body.innerText.replace(/\\s+/g,' ').slice(0,400)})",
+   "optional": true
+  },
+  {
+   "goto": "https://www.instacart.com/store/price-chopper/s?k=salsa"
+  },
+  {
+   "wait": 9000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it"
+   ]
+  },
+  {
+   "js_houses": "const SLUG='price-chopper',ZIP='60615',LAT=41.8017,LNG=-87.5957,TERM='salsa';\n// In-page Instacart whitelabel search pinned to a zip. Vars: SLUG, ZIP, LAT, LNG, TERM. Uses the site's own persisted graphql queries.\nconst H={DefaultShop:'d389a8d33d63801f1ce5c4929fb181dd10c57b49c3a2dcb6a6baa44212e8e069',SRP:'57508d039f29d674f1ce4f68f268bb9c5be5814e27d17c2a83a5500dc9270b1c',Items:'8fe60a2c4c74b994076e8fc97883141aec582e7f6e2402d82c9902772432f183'};\nconst dbg=[];\nconst gq=async(op,vars,hash)=>{const u='/graphql?operationName='+op+'&variables='+encodeURIComponent(JSON.stringify(vars))+'&extensions='+encodeURIComponent(JSON.stringify({persistedQuery:{version:1,sha256Hash:hash}}));const r=await fetch(u,{credentials:'include',headers:{'content-type':'application/json'}});const t=await r.text();dbg.push(op+' '+r.status+' '+t.length);return JSON.parse(t);};\nconst coords={latitude:LAT,longitude:LNG};\nlet ds=await gq('DefaultShop',{postalCode:ZIP,coordinates:coords,addressId:null},H.DefaultShop);\nlet shop=ds.data&&ds.data.defaultShop;\nif(!shop||!shop.retailer||shop.retailer.slug!==SLUG){ const sc=await gq('ShopCollectionScoped',{retailerSlug:SLUG,postalCode:ZIP,coordinates:coords,addressId:null,allowCanonicalFallback:true},'f20693c3c551f0e0fbdcac9b2ca7aa6db50f9224a39967ba5ac767bb2b598f85'); const shops=(sc.data&&sc.data.shopCollection&&sc.data.shopCollection.shops)||[]; shop=shops.find(s=>s.retailer&&s.retailer.slug===SLUG)||shops[0]||null; dbg.push('collection shops '+shops.length); }\n if(!shop) return JSON.stringify({houses:[],debug:dbg.join('|')+' noshop '+JSON.stringify(ds).slice(0,500)});\nconst shopId=shop.id; const sj=JSON.stringify(shop);\nlet zoneId=(sj.match(/\"zoneId\":\"?(\\d+)/)||[])[1]||null;\nconst locId=shop.retailerLocationId;\n// zone from IP-default page calls if not in DefaultShop\nif(!zoneId){const m=performance.getEntriesByType('resource').map(e=>decodeURIComponent(e.name)).join(' ').match(/\"zoneId\":\"(\\d+)\"/); zoneId=m?m[1]:null;}\nconst vars={action:null,query:TERM,pageViewId:crypto.randomUUID(),elevatedProductId:null,searchSource:'search',filters:[],disableReformulation:false,disableLlm:false,forceInspiration:false,orderBy:'bestMatch',clusterId:null,includeDebugInfo:false,clusteringStrategy:null,contentManagementSearchParams:{itemGridColumnCount:5},shopId,postalCode:ZIP,zoneId:zoneId||'0',first:60};\nconst sr=await gq('SearchResultsPlacements',vars,H.SRP);\nconst ids=[...new Set((JSON.stringify(sr).match(/items_\\d+-\\d+/g)||[]))];\ndbg.push('shop '+shopId+' loc '+locId+' zone '+zoneId+' ids '+ids.length);\nconst houses=[];\nfor(let i=0;i<ids.length&&i<120;i+=30){const it=await gq('Items',{ids:ids.slice(i,i+30),shopId,zoneId:zoneId||'0',postalCode:ZIP},H.Items);\n for(const x of ((it.data&&it.data.items)||[])){const pr=x.price&&x.price.viewSection; houses.push({name:x.name,size:x.size||null,brand:x.brandName||null,price:(pr&&(pr.itemCard&&pr.itemCard.priceString||pr.priceString))||null,item_id:x.id,product_id:x.productId||null,img:(x.viewSection&&x.viewSection.itemImage&&x.viewSection.itemImage.url)||null,availability:(x.availability&&x.availability.stockLevel)||null});}}\nif(!houses.length) dbg.push('items0 '+JSON.stringify(sr).slice(0,600));\nreturn JSON.stringify({store:'API zip '+ZIP+' shop '+shopId+' location '+locId,houses,debug:dbg.join(' | ')});\n",
+   "optional": true
+  }
+ ]
+}
