@@ -1,0 +1,78 @@
+{
+  "block_id": "diag/smartandfinal@home",
+  "retailer": "smartandfinal",
+  "zip": "diag",
+  "neighborhood": "home",
+  "pulled_at": "2026-10-17T20:28:27.872Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.smartandfinal.com/sm/pickup/rsid/522",
+  "houses": [
+    {
+      "name": "Sweet strawberries make a colorful pick for breakfast, lunchboxes, desserts and easy snacking.",
+      "brand": "LEAN FALL DINNER FAVORITE",
+      "price": "$3.99",
+      "size": "16 oz",
+      "img": null,
+      "link": "https://www.smartandfinal.com/sm/planning/rsid/522/product/jennieo-fresh-937-ground-turkey-id-00042222302005?utm_source=homepage&utm_medium=slider1&utm_campaign=hispanic",
+      "card_text": [
+        "LEAN FALL DINNER FAVORITE",
+        "$3.99 ea Jennie▪O Turkey 16 oz",
+        "Fresh 93% lean ground turkey makes weeknight meals easy. Choose lean or seasoned varieties.",
+        "Shop Now",
+        "SWEET FALL SNACKING",
+        "$4.99 ea Strawberries 2 lb",
+        "Sweet strawberries make a colorful pick for breakfast, lunchboxes, desserts and easy snacking.",
+        "Clip & Save"
+      ]
+    },
+    {
+      "name": "Ripe, flavorful mangos add a tropical touch to smoothies, snacks, salads and fall entertaining.",
+      "brand": "4 for $5 Mangos",
+      "price": "$2.99",
+      "size": "2.99 lb",
+      "img": "https://dam.cdn.smartandfinal.com/Images/WEB_Wk42_WebsiteAssetsFeatureIOTW_740x444-mangos.jpg",
+      "link": "https://www.smartandfinal.com/sm/planning/rsid/522/product/mangos-id-00000000004051",
+      "card_text": [
+        "4 for $5 Mangos",
+        "A Sweet Tropical Pick",
+        "Ripe, flavorful mangos add a tropical touch to smoothies, snacks, salads and fall entertaining.",
+        "Shop Now",
+        "$2.99 lb First Street Pork Chops",
+        "Fall Dinner Made Easy",
+        "Fresh bone-in assorted pork loin chops bring hearty flavor to family dinners. Family pack.",
+        "Shop Now"
+      ]
+    },
+    {
+      "name": "Individually wrapped muffins make breakfast and snacking simple.",
+      "brand": null,
+      "price": "$14.99",
+      "size": "12 ct",
+      "img": null,
+      "link": "https://www.smartandfinal.com/sm/planning/rsid/522/product/first-street-muffins-assorted-id-00041512176388",
+      "card_text": [
+        "$14.99 ea First Street Muffins 12 ct",
+        "Individually wrapped muffins make breakfast and snacking simple.",
+        "Shop Now"
+      ]
+    }
+  ],
+  "raw_text_chars": 4818,
+  "steps": [
+    "20:28:27 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "20:28:28 connected to Bright Data Scraping Browser",
+    "20:28:34 goto https://www.smartandfinal.com/",
+    "20:28:42 captcha check passed",
+    "20:28:54 js ok {\"url\":\"https://www.smartandfinal.com/sm/pickup/rsid/522\",\"title\":\"Smart & Final",
+    "20:28:54 store_set: null",
+    "20:28:55 extracted 3 houses; raw text 4818 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "{\"url\":\"https://www.smartandfinal.com/sm/pickup/rsid/522\",\"title\":\"Smart & Final | Produce ▪ Meat ▪ Groceries\",\"prices\":4,\"inputs\":[\"Search by keyword, UPC or item #\"],\"btns\":[\"Skip header to page content\",\"See All Notifications\",\"home\",\"Products\",\"Submit search query\",\"Reserve Pickup Time at 522 - Montebello\",\"Hi Guest Sign In or Register\",\"Shop Departments\",\"Shop Business\",\"Business Services\",\"Weekly Ad\",\"Find A Store\",\"Recipes\",\"Coupon Gallery\",\"Past Purchases\",\"Favorites\",\"Cart .\",\"Sign In\",\"Register\",\"Close modal\"],\"body\":\"Skip header to page content 2 New See All Notifications . Search in Products The following text field is used to search for items. Type your search term to find items. Submit search query Reserve Pickup Time at 522 - Montebello Hi Guest Sign In or Register Shop Departments Shop Business Business Services Weekly Ad Find A Store Recipes Coupon Gallery Past Purchases Favorites Cart . Welcome Sign In or Register to reserve a timeslot and start shopping Sign In Register FREE DELIVERY UP TO 3X Use promo code FIRSTSTREET26 with a $35 minimum delivery order. Valid 9/30–10/27. Past Purchases Easy reorder and add to cart Buy It Again Order History Track and reorder easily View Orders Favorite Items Quick access to your favorites Favorites LEAN FALL DINNER FAVORITE $3.99 ea Jennie▪O Turkey 16 oz Fres\"}"
+  ],
+  "houses_text": 0
+}
