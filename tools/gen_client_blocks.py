@@ -8,6 +8,7 @@ ic_js=open('src/instacart_api.js').read()
 def load(name): return json.load(open(f'blocks/{name}-salsa.json'))
 made=[]
 for r in C['retailers']:
+    if r.get('fallback'): continue  # plan-B lane kept in config, not generated
     m=C['markets'][r['market']]
     for n in C['neighborhoods']:
         if n.get('brand_only') and not r.get('brand_check'): continue

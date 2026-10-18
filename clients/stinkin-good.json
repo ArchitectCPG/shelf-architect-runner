@@ -85,14 +85,16 @@
    "lane": "kroger",
    "host": "www.kingsoopers.com",
    "market": "denver",
-   "brand_check": true
+   "brand_check": true,
+   "fallback": true
   },
   {
    "banner": "citymarket",
    "lane": "kroger",
    "host": "www.citymarket.com",
    "market": "grand-junction",
-   "brand_check": true
+   "brand_check": true,
+   "fallback": true
   },
   {
    "banner": "walmart",
