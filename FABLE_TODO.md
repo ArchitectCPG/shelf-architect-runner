@@ -140,3 +140,8 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - Transient (execution context destroyed / tunnel errors, retry): price-chopper, raleys, stater-bros, tops-markets. No Instacart hit: fareway, lowes-foods.
 - Collection route built (src/instacart_api.js, COLLECTION const, generator key retailers[].collections {neighborhood_id: slug}). Uses data.collectionProducts.itemIds = full aisle (837 ids at Sprouts condiments-sauces). Hash 374c333a... can rotate. Verified at Sprouts Denver. Full aisles are big: relevance filter does the narrowing.
 - Next: retry the 4 transients, then DB mapping design (Fable) and SOP text (Fable).
+
+## 2026-10-17 night: Costco via Instacart (slug costco) WORKS
+- SG Denver 80202: green chile 57 houses, queso 123, tamales 74. Finds Stinkin Good Green Chili Pork Sauce 30 oz at $11.49 (warehouse tag $9.99, so Instacart markup ~15%), 505, Hatch, Del Real tamales $20.69.
+- Added as retailer banner "costco-ic" in clients/stinkin-good.json. Label price as Instacart quote in any client output. costco.com stays as assortment cross-check; attended member Chrome stays plan B for true warehouse price.
+- Retry of Price Chopper, Raley's, Stater Bros, Tops failed again (parked; check their own Instacart storefront domains).
