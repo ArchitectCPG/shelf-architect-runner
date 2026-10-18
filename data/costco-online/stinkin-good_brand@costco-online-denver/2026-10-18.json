@@ -1,0 +1,25 @@
+{
+  "block_id": "stinkin-good/brand@costco-online-denver",
+  "retailer": "costco-online",
+  "zip": "refrigerated",
+  "neighborhood": "brand",
+  "pulled_at": "2026-10-18T01:40:25.083Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "80202",
+  "store_set": null,
+  "url_final": "https://www.costco.com/s?keyword=stinkin%20good",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "01:40:25 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "01:40:51 connected to Bright Data Scraping Browser",
+    "01:41:25 goto https://www.costco.com/s?keyword=stinkin good",
+    "01:41:43 captcha check passed",
+    "01:46:27 dismiss: nothing to close",
+    "01:50:43 step failed (Error: mouse.wheel: Target page, context or browser has been closed), will retry recipe",
+    "01:50:43 store_js failed Error: page.evaluate: Target page, context or browser has be",
+    "01:50:43 ERROR Error: page.evaluate: Target page, context or browser has been closed"
+  ],
+  "error": "Error: page.evaluate: Target page, context or browser has been closed"
+}
