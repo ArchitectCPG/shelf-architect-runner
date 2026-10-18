@@ -3,6 +3,18 @@
  "rows": [
   {
    "banner": "citymarket",
+   "term": "stinkin good",
+   "status": "OK",
+   "houses": 212,
+   "relevant": 5,
+   "store": "Pickup at 12th Street Grand Junction",
+   "sg": 4,
+   "comp": 16,
+   "pmed": 6.99,
+   "err": ""
+  },
+  {
+   "banner": "citymarket",
    "term": "green chile",
    "status": "OK",
    "houses": 50,
@@ -35,6 +47,18 @@
    "sg": 0,
    "comp": 6,
    "pmed": 6.89,
+   "err": ""
+  },
+  {
+   "banner": "costco-ic",
+   "term": "stinkin good",
+   "status": "OK",
+   "houses": 157,
+   "relevant": 1,
+   "store": "API zip 80202 shop 2043 location 439",
+   "sg": 1,
+   "comp": 4,
+   "pmed": 12.43,
    "err": ""
   },
   {
@@ -72,6 +96,18 @@
    "comp": 5,
    "pmed": 20.69,
    "err": ""
+  },
+  {
+   "banner": "costco-online",
+   "term": "stinkin good",
+   "status": "WEAK",
+   "houses": 0,
+   "relevant": 0,
+   "store": "",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": "Error: page.evaluate: Target page, context or browser has be"
   },
   {
    "banner": "costco-online",
@@ -143,6 +179,18 @@
    "sg": 0,
    "comp": 11,
    "pmed": 9.74,
+   "err": ""
+  },
+  {
+   "banner": "kingsoopers",
+   "term": "stinkin good",
+   "status": "OK",
+   "houses": 41,
+   "relevant": 1,
+   "store": "Pickup at Union Station",
+   "sg": 1,
+   "comp": 4,
+   "pmed": 6.99,
    "err": ""
   },
   {
@@ -364,6 +412,61 @@
  ],
  "sg_items": [
   {
+   "name": "Stinkin Good Green Chili",
+   "price": "$6.99",
+   "size": "",
+   "brand_norm": "Stinkin' Good",
+   "price_regular": 6.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "citymarket",
+   "_term": "stinkin good"
+  },
+  {
+   "name": "Schlereth's Stinkin Good Green Chili Sauce",
+   "price": "$6.99",
+   "size": "",
+   "brand_norm": "Stinkin' Good",
+   "price_regular": 6.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "citymarket",
+   "_term": "stinkin good"
+  },
+  {
+   "name": "Schlereth's Stinkin' Good Green Chile Sauce",
+   "price": "$6.99",
+   "size": "",
+   "brand_norm": "Stinkin' Good",
+   "price_regular": 6.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "citymarket",
+   "_term": "stinkin good"
+  },
+  {
+   "name": "Stinkin Good Blanco Queso Medium",
+   "price": "$8.99",
+   "size": "",
+   "brand_norm": "Stinkin' Good",
+   "price_regular": 8.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "citymarket",
+   "_term": "stinkin good"
+  },
+  {
+   "name": "Stinkin Good Green Chili Pork Sauce, 1 lb 14 oz",
+   "size": "each",
+   "price": "$12.43",
+   "brand_norm": "Stinkin' Good",
+   "price_regular": 12.43,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "costco-ic",
+   "_term": "stinkin good"
+  },
+  {
    "name": "Stinkin Good Green Chili Pork Sauce, 1 lb 14 oz",
    "size": "each",
    "price": "$11.49",
@@ -394,10 +497,245 @@
    "price_promo": null,
    "relevant": true,
    "_banner": "kingsoopers",
+   "_term": "stinkin good"
+  },
+  {
+   "name": "Stinkin Good Green Chili",
+   "price": "$6.99",
+   "size": "",
+   "brand_norm": "Stinkin' Good",
+   "price_regular": 6.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "kingsoopers",
    "_term": "green chile"
   }
  ],
  "comp_items": [
+  {
+   "name": "Santiago's Mild Green Chile Sauce With Pork",
+   "price": "$9.29",
+   "size": "",
+   "brand_norm": "Santiago's",
+   "price_regular": 9.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "Santiago's"
+   ]
+  },
+  {
+   "name": "Santiago's Authentic Green Chile Sauce With Pork",
+   "price": "$9.29",
+   "size": "",
+   "brand_norm": "Santiago's",
+   "price_regular": 9.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "Santiago's"
+   ]
+  },
+  {
+   "name": "Santiago's Medium Green Chile Sauce with Pork",
+   "price": "$9.29",
+   "size": "",
+   "brand_norm": "Santiago's",
+   "price_regular": 9.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "Santiago's"
+   ]
+  },
+  {
+   "name": "Duke's Hatch Green Chile Smoked Shorty Sausages, Keto Friendly, Gluten Free",
+   "price": "$9.29",
+   "size": "",
+   "brand_norm": "Hatch (brand)",
+   "price_regular": 9.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "Hatch (brand)"
+   ]
+  },
+  {
+   "name": "Duke's Hatch Green Chile Smoked Shorty Sausages, Keto Friendly, Gluten Free",
+   "price": "$3.69",
+   "size": "",
+   "brand_norm": "Hatch (brand)",
+   "price_regular": 3.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "Hatch (brand)"
+   ]
+  },
+  {
+   "name": "505 Southwestern\u00ae Medium Green Chile Sauce",
+   "price": "$3.90",
+   "size": "",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 4.99,
+   "price_promo": 3.9,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern\u00ae Medium Green Chile Sauce",
+   "price": "$4.99",
+   "size": "",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 4.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern\u00ae Medium Green Chile Sauce",
+   "price": "$0.99",
+   "size": "",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 0.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern\u00ae Mild Hatch Valley Green Chile Sauce",
+   "price": "$3.90",
+   "size": "",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 4.99,
+   "price_promo": 3.9,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern\u00ae Mild Hatch Valley Green Chile Sauce",
+   "price": "$4.99",
+   "size": "",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 4.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
+   "price": "$3.90",
+   "size": "16 oz",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 4.99,
+   "price_promo": 3.9,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
+   "price": "$4.99",
+   "size": "16 oz",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 4.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
+   "price": "$3.99",
+   "size": "16 oz",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 3.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern\u00ae Medium Flame Roasted Hatch Valley Green Chile",
+   "price": "$4.99",
+   "size": "",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 4.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "Hatch\u00ae Mild Diced Green Chiles",
+   "price": "$2.29",
+   "size": "",
+   "brand_norm": "Hatch (brand)",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "Hatch (brand)"
+   ]
+  },
+  {
+   "name": "Hatch\u00ae Mild Diced Green Chiles",
+   "price": "$3.00",
+   "size": "",
+   "brand_norm": "Hatch (brand)",
+   "price_regular": 3.99,
+   "price_promo": 3.0,
+   "relevant": false,
+   "_banner": "citymarket",
+   "_term": "stinkin good",
+   "_comp": [
+    "Hatch (brand)"
+   ]
+  },
   {
    "name": "505 Southwestern\u00ae Medium Flame Roasted Hatch Valley Green Chile",
    "price": "$3.90",
@@ -716,6 +1054,62 @@
    "relevant": false,
    "_banner": "citymarket",
    "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Green Chile, 40 oz",
+   "size": "each",
+   "price": "$10.93",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 10.93,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "505 Southwestern Green Chile Sauce, Medium, 40 oz",
+   "size": "each",
+   "price": "$7.33",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 7.33,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "stinkin good",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "Hatch Diced Green Chiles, 4 oz, 12 count",
+   "size": "each",
+   "price": "$15.91",
+   "brand_norm": "Hatch (brand)",
+   "price_regular": 15.91,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "stinkin good",
+   "_comp": [
+    "Hatch (brand)"
+   ]
+  },
+  {
+   "name": "Del Real Foods Chicken with Red Sauce Tamales, 15-count",
+   "size": "each",
+   "price": "$22.38",
+   "brand_norm": "Del Real",
+   "price_regular": 22.38,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "stinkin good",
    "_comp": [
     "Del Real"
    ]
@@ -1250,6 +1644,62 @@
    "_term": "tamales",
    "_comp": [
     "Mi Tienda (H-E-B)"
+   ]
+  },
+  {
+   "name": "Santiago's Authentic Green Chile Sauce With Pork",
+   "price": "$9.49",
+   "size": "",
+   "brand_norm": "Santiago's",
+   "price_regular": 9.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "kingsoopers",
+   "_term": "stinkin good",
+   "_comp": [
+    "Santiago's"
+   ]
+  },
+  {
+   "name": "Santiago's Medium Green Chile Sauce with Pork",
+   "price": "$9.49",
+   "size": "",
+   "brand_norm": "Santiago's",
+   "price_regular": 9.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "kingsoopers",
+   "_term": "stinkin good",
+   "_comp": [
+    "Santiago's"
+   ]
+  },
+  {
+   "name": "Duke's Hatch Green Chile Smoked Shorty Sausages, Keto Friendly, Gluten Free",
+   "price": "$9.29",
+   "size": "",
+   "brand_norm": "Hatch (brand)",
+   "price_regular": 9.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "kingsoopers",
+   "_term": "stinkin good",
+   "_comp": [
+    "Hatch (brand)"
+   ]
+  },
+  {
+   "name": "Duke's Hatch Green Chile Smoked Shorty Sausages, Keto Friendly, Gluten Free",
+   "price": "$3.79",
+   "size": "",
+   "brand_norm": "Hatch (brand)",
+   "price_regular": 3.79,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "kingsoopers",
+   "_term": "stinkin good",
+   "_comp": [
+    "Hatch (brand)"
    ]
   },
   {

@@ -145,3 +145,7 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - SG Denver 80202: green chile 57 houses, queso 123, tamales 74. Finds Stinkin Good Green Chili Pork Sauce 30 oz at $11.49 (warehouse tag $9.99, so Instacart markup ~15%), 505, Hatch, Del Real tamales $20.69.
 - Added as retailer banner "costco-ic" in clients/stinkin-good.json. Label price as Instacart quote in any client output. costco.com stays as assortment cross-check; attended member Chrome stays plan B for true warehouse price.
 - Retry of Price Chopper, Raley's, Stater Bros, Tops failed again (parked; check their own Instacart storefront domains).
+
+## 2026-10-17 night: brand-check blocks (SG)
+- Category searches only load ~50 products, so the client brand can drop out between runs (City Market had it Oct 14, not Oct 16). Fix: neighborhood "brand_only" + retailers[].brand_check in the client config runs a search of the brand name at expected doors. SG result: City Market 4 listings (Green Chili $6.99 x3 incl. Schlereth's naming, Blanco Queso Medium $8.99); King Soopers Green Chili $6.99; Costco-IC Green Chili Pork Sauce $11.49 to $12.43 (Instacart price moves between pulls).
+- Rule for DB wiring: SG presence at a door = union of category and brand-check pulls, never one category run alone.
