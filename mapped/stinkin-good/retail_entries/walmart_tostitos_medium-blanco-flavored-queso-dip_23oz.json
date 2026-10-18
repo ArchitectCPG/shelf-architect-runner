@@ -1,0 +1,39 @@
+{
+ "brand": "Tostitos",
+ "product_name": "Medium Blanco Flavored Queso Dip",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.74,
+ "price_regular": 5.74,
+ "price_basis": "shelf",
+ "size_oz": 23.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.2496,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 5.74
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "028400754392",
+ "block": "refrigerated/queso@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Tostitos-Medium-Dip-Queso-Blanco-Naturally-And-Artificially-Flavored-23-0-Ounce-Jar/14609912126?classType=VARIANT",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

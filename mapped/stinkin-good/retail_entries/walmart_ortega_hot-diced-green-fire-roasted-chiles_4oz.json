@@ -1,0 +1,39 @@
+{
+ "brand": "Ortega",
+ "product_name": "Hot Diced Green Fire Roasted Chiles",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 17.56,
+ "price_regular": 17.56,
+ "price_basis": "shelf",
+ "size_oz": 4.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 4.39,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 17.56
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "723522240241",
+ "block": "refrigerated/green-chile@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Ortega-Hot-Diced-Green-Fire-Roasted-Chiles-4oz-Pack-of-2/5250918952?classType=REGULAR",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

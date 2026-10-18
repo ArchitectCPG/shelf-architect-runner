@@ -1,0 +1,40 @@
+{
+ "brand": "Market Pantry",
+ "product_name": "Mild Diced Green Chiles",
+ "retailer": "Target",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": true,
+ "source_type": "scrape",
+ "price": 0.99,
+ "price_regular": 1.49,
+ "price_basis": "shelf",
+ "size_oz": 4.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.2475,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 0.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "085239260173",
+ "block": "refrigerated/green-chile@target",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@target"
+ ],
+ "pull_url": "https://www.target.com/p/diced-green-chiles-mild-4oz-market-pantry-8482/-/A-12921529",
+ "notes": "Runner pull 2026-10-18, lane target, store: API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "refrigerated",
+ "sale_price": 0.99
+}

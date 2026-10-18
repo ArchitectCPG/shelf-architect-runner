@@ -1,0 +1,39 @@
+{
+ "brand": "Old El Paso",
+ "product_name": "Mild Chopped Green Chiles",
+ "retailer": "City Market",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 2.49,
+ "price_regular": 2.49,
+ "price_basis": "shelf",
+ "size_oz": 4.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.6225,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 2.49
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+ "route": "runner-kroger-api",
+ "upc": "0004600013581",
+ "block": "refrigerated/green-chile@citymarket",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@citymarket"
+ ],
+ "pull_url": "https://www.kroger.com/p/old-el-paso-mild-chopped-green-chiles/0004600013581?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-10-18, lane citymarket-api, store: CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501.",
+ "category": "refrigerated"
+}

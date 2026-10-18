@@ -1,0 +1,40 @@
+{
+ "brand": "HATCH",
+ "product_name": "Diced Hot Green Chilies, 4-Ounce (Pack of 8)",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 25.98,
+ "price_regular": 25.98,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 25.98
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": null,
+ "block": "refrigerated/green-chile@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Hatch-Diced-Hot-Green-Chilies-4-Ounce-Pack-of-8/5230893268?classType=REGULAR",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated",
+ "hold_reason": "no size parsed"
+}

@@ -1,0 +1,43 @@
+{
+ "brand": "Stinkin' Good",
+ "product_name": "Stinkin Good Green Chili Pork Sauce",
+ "retailer": "Costco",
+ "client_id": "stinkin-good",
+ "is_own_brand": true,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 12.43,
+ "price_regular": 12.43,
+ "price_basis": "instacart_quote",
+ "size_oz": 16.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.7769,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 12.43
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 shop 2043 location 439",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "refrigerated/brand@costco-ic",
+ "zip": "refrigerated",
+ "neighborhood": "brand",
+ "neighborhoods": [
+  "brand",
+  "green-chile",
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/brand@costco-ic",
+  "refrigerated/green-chile@costco-ic",
+  "refrigerated/tamales@costco-ic"
+ ],
+ "pull_url": "https://www.instacart.com/store/costco/s?k=stinkin%20good",
+ "notes": "Runner pull 2026-10-18, lane costco-ic, store: API zip 80202 shop 2043 location 439. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "refrigerated"
+}

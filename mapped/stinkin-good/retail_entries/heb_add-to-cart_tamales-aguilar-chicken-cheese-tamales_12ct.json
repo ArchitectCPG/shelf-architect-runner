@@ -1,0 +1,39 @@
+{
+ "brand": "Add to cart",
+ "product_name": "Tamales Aguilar Chicken & Cheese Tamales",
+ "retailer": "H-E-B",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 8.99,
+ "price_regular": 8.99,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": 12,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 8.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/tamales@heb",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@heb"
+ ],
+ "pull_url": "https://www.heb.com/product-detail/tamales-aguilar-chicken-cheese-tamales-12-ct/1739708",
+ "notes": "Runner pull 2026-10-18, lane heb, store: Buffalo Market H\u2011E\u2011B On Buffalo Speedway.",
+ "category": "refrigerated"
+}

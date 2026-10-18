@@ -1,0 +1,39 @@
+{
+ "brand": "hatch chili company",
+ "product_name": "Medium Green Enchilada Sauce",
+ "retailer": "Whole Foods Market",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.99,
+ "price_regular": 4.99,
+ "price_basis": "shelf",
+ "size_oz": 15.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.3327,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 4.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/green-chile@wholefoods",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@wholefoods"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/product/hatch-farms-hatch-chili-company-medium-green-enchilada-sauce-15-oz-b0078dsh8e?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+ "notes": "Runner pull 2026-10-18, lane wholefoods, store: None.",
+ "category": "refrigerated"
+}

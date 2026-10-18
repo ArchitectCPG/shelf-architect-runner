@@ -1,0 +1,71 @@
+{
+ "runner_lane": {
+  "version": 78,
+  "set_by": "Steve, 2026-10-18",
+  "summary": "Bright Data + GitHub Actions runner is the primary pull route; attended Chrome is plan B. Kroger developer API primary for Kroger banners (Steve 2026-10-18). Rules below are the v78 one-page SOP as approved.",
+  "rules": [
+   {
+    "rule": "Primary route is the runner.",
+    "text": "Bright Data plus GitHub Actions, unattended, one domain per browser session. Attended Chrome is plan B only: mapping a new banner, bot-walled sites, the Costco warehouse tag, a broken recipe."
+   },
+   {
+    "rule": "Cadence.",
+    "text": "One run per new prospect. Monthly at most on retainer. No scheduled or daily pulls. The runner never writes to the database on its own; every landing goes through the mapper, a backup zip, and Steve's OK."
+   },
+   {
+    "rule": "Kroger developer API is the primary route for Kroger banners",
+    "text": "(Steve, 2026-10-18, reversing 2026-10-14). The reading on record: Shelf Architect is a category-wide view across banners, and Kroger is one column in it. Kroger-specific cuts are made only when building a pitch to a Kroger buyer, which serves Kroger. Terms 4a (analysis targeting Kroger) is read as not applying to that use. Stored rows (Terms 5e) are a known exposure, accepted for small per-client datasets. If the key is ever revoked, the browser recipe is the fallback and nothing else in the process changes. Rows from this route carry the UPC and route runner-kroger-api."
+   },
+   {
+    "rule": "Row identity.",
+    "text": "One retailer table in the runner (slug, display name, id prefix) is the only source for retailer names and id prefixes, matched to what already exists in the database. Price history appends on an exact id match only. Anything looser is a merge plan that a person reviews; code never merges on a guess."
+   },
+   {
+    "rule": "No size, no landing.",
+    "text": "A row the runner cannot size is held, counted in the report, and never lands under a size-less id."
+   },
+   {
+    "rule": "A card must name its product.",
+    "text": "On text-scraped banners a card is kept only if its own text contains the product name. Cards that fail are dropped and counted, because they were pairing one product's name with its neighbor's price."
+   },
+   {
+    "rule": "Absence is not a delist.",
+    "text": "Rows the runner did not see keep their last_pulled date and age. A run never deletes a row. Hand-pulled items outside the search terms stay as they are."
+   },
+   {
+    "rule": "Curated fields stay curated.",
+    "text": "flavor, format, protein, priority and channel are never written by the runner: blank on new rows, untouched on existing rows. Category comes from the client department."
+   },
+   {
+    "rule": "Coverage marker",
+    "text": "(Steve, 2026-10-17). Every Stage 2 report ends with one coverage line: in-scope banners pulled, not found, attended pending; doors and ACV share covered; the biggest uncovered ACV named. Then one question: search more banners, or move on to the read. The run is not done until Steve answers. Never auto-expand."
+   },
+   {
+    "rule": "Costco via Instacart.",
+    "text": "Warehouse-local assortment, price_basis instacart_quote, roughly 15 percent over the warehouse tag. Pricing intel, not shelf price, and labeled that way on the row."
+   },
+   {
+    "rule": "Instacart under the runner.",
+    "text": "The v77 Instacart exception covered Steve's signed-in attended account. The runner uses no login: zip-pinned public storefront, lightest touch, no same-run retries, a verification wall ends that retailer for the run."
+   },
+   {
+    "rule": "Landing order.",
+    "text": "Backup zip to archives first, then one approval from Steve, then the SOP update and the rows land in the same sitting. The SOP will keep growing; a new rule is added here with a date and who set it. Coverage benchmark on record: 72 Chocolate's attended process, 25 retailers, 135 blocks walked. Coverage is measured in ACV, doors as the proxy until the per-banner ACV field exists, not in banner count."
+   }
+  ],
+  "benchmark": "72 Chocolate attended process: 25 retailers, 135 blocks walked. Coverage measured in ACV (doors as proxy), not banner count."
+ },
+ "refresh_cadence": {
+  "caveat": "Written for the browser route. Superseded for runner-lane banners by runner_lane (v78, Steve 2026-10-18): one run per new prospect, monthly at most on retainer, no scheduled pulls. Browser-route cadence below still applies to attended plan-B pulls.",
+  "checkpoints_and_push": "A refresh checkpoint is appended per phase when every non-attended block of the phase has been walked inside the cycle, with cycle <YYYY-MM> and rows_not_seen added to the usual counters, all derived at write time. One push per cycle, when the last due block is written, with re-walked blocks, rows refreshed, rows not seen, client presence, up to three price moves and the attended blocks due for Steve's sitting. The empty-list step-down is silent in monthly mode; in initial mode it pushes once to say the first pull is done and the matrix is ready for monthly.",
+  "houses_on_refresh": "A refreshed block's last_result starts 'refresh <YYYY-MM>:' and counts only rows carrying its block string whose last_pulled is the refresh date, so houses still equal rows. Rows the page no longer shows are kept untouched and named as 'K rows on file not seen this walk'; their old last_pulled is the record. Nothing is deleted on a refresh.",
+  "no_overwrite_exception": "The one exception to the no-overwrite rule. A refresh block is written only if its last_walked at write time equals the value the run read when it built the work list; otherwise another run refreshed it and this run logs skipped_overwrite. Before writing, the old last_result moves to prior_result_<old last_walked as YYYY_MM_DD> on the same block (never overwriting an existing prior_result_* key) and the old last_walked to prior_walked, so no result is ever lost.",
+  "rule": "After a client's first pull is complete and its phase checkpoints are critiqued, the walking task moves from daily to a monthly burst. The matrix carries refresh {mode, window_days, min_age_days}: mode initial (or absent) walks null blocks only; mode monthly also re-walks, on window days only, every non-attended block whose last_walked is at least min_age_days old, oldest first, inside run_caps. Platform default window_days 26, 27, 28 and 29 (America/Chicago) and min_age_days 14, so a block walked late one cycle is still due the next and a block reset and walked mid-month waits a cycle. The task cron for a monthly matrix fires daily on the window days only. Mid-month resets are walked by firing the task on demand, never by changing the schedule. Attended sittings pick up stale attended blocks on the same min_age_days test. Only a session with Steve sets mode; jobs read it and never edit it.",
+  "set": "Steve, 2026-10-14, pc-2026-10-14-01",
+  "status": "provisional",
+  "why": "72Chocolate, 2026-10-14: the daily task had stood down every day since 2026-10-08 on an empty work list against a 30 day freshness window, and as written nothing would ever become walkable again, because STEP 2 took only null blocks and the no-overwrite rule forbade replacing a result. One fire a month would also not clear a grid of about 160 unattended blocks under a 100 block cap, hence a four day window."
+ },
+ "updated": "2026-10-18",
+ "version": 78,
+ "version_note": "v78 2026-10-18: runner_lane added (12 rules), Kroger API decision recorded, refresh_cadence caveat superseded for runner banners."
+}

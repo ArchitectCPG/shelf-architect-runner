@@ -1,0 +1,39 @@
+{
+ "brand": "Marketside",
+ "product_name": "Mild Queso Blanco Cheese Dip",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.96,
+ "price_regular": 4.96,
+ "price_basis": "shelf",
+ "size_oz": 16.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.31,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 4.96
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "681131286367",
+ "block": "refrigerated/queso@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Marketside-Mild-Queso-Blanco-Cheese-Dip-16-oz-Tub-Refrigerated/123008789?classType=REGULAR",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

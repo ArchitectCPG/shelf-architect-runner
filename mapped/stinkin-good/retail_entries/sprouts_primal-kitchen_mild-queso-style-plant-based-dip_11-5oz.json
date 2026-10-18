@@ -1,0 +1,39 @@
+{
+ "brand": "Primal Kitchen",
+ "product_name": "Mild Queso Style Plant Based Dip",
+ "retailer": "Sprouts Farmers Market",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 8.49,
+ "price_regular": 8.49,
+ "price_basis": "instacart_quote",
+ "size_oz": 11.5,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.7383,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 8.49
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 shop 514311 location 21118",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "refrigerated/queso@sprouts",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@sprouts"
+ ],
+ "pull_url": "https://shop.sprouts.com/store/sprouts/s?k=queso",
+ "notes": "Runner pull 2026-10-18, lane sprouts, store: API zip 80202 shop 514311 location 21118. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "refrigerated"
+}

@@ -1,0 +1,39 @@
+{
+ "brand": "Texas Tamale Co",
+ "product_name": "Texas Tamale Co. Pork Tamales 6pk of 12 Each, 72-count",
+ "retailer": "Costco",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 99.99,
+ "price_regular": 99.99,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": 6,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 99.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "costco.com online (national, 2-day delivery pricing)",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/tamales@costco-online",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@costco-online"
+ ],
+ "pull_url": "https://www.costco.com/texas-tamale-co-pork-tamales-6pk-of-12-each-72-count.product.100815462.html",
+ "notes": "Runner pull 2026-10-18, lane costco-online, store: costco.com online (national, 2-day delivery pricing).",
+ "category": "refrigerated"
+}

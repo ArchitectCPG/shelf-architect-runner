@@ -1,0 +1,39 @@
+{
+ "brand": "Stinkin' Good",
+ "product_name": "Stinkin Good Green Chili",
+ "retailer": "King Soopers",
+ "client_id": "stinkin-good",
+ "is_own_brand": true,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.99,
+ "price_regular": 6.99,
+ "price_basis": "shelf",
+ "size_oz": 15.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.466,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 6.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0089351100269",
+ "block": "refrigerated/brand@kingsoopers",
+ "zip": "refrigerated",
+ "neighborhood": "brand",
+ "neighborhoods": [
+  "brand"
+ ],
+ "blocks": [
+  "refrigerated/brand@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/stinkin-good-green-chili/0089351100269?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-10-18, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "refrigerated"
+}

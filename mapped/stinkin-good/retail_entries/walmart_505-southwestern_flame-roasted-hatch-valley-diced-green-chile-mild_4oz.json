@@ -1,0 +1,39 @@
+{
+ "brand": "505 Southwestern",
+ "product_name": "Flame Roasted Hatch Valley Diced Green Chile, Mild",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 1.83,
+ "price_regular": 1.83,
+ "price_basis": "shelf",
+ "size_oz": 4.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.4575,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 1.83
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "602050015050",
+ "block": "refrigerated/green-chile@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/505-Roasted-Green-Chile-Mild-4oz/19144554304?classType=VARIANT",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

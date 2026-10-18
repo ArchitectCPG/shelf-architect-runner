@@ -1,0 +1,39 @@
+{
+ "brand": "505 Southwestern",
+ "product_name": "Medium Flame Roasted Hatch Valley Green Chile Sauce",
+ "retailer": "King Soopers",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 12.49,
+ "price_regular": 12.49,
+ "price_basis": "shelf",
+ "size_oz": 40.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.3123,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 12.49
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0060205010387",
+ "block": "refrigerated/green-chile@kingsoopers",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/505-southwestern-medium-flame-roasted-hatch-valley-green-chile-sauce/0060205010387?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-10-18, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "refrigerated"
+}

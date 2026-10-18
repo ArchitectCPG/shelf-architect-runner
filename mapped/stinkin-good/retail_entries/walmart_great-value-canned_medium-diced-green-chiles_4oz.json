@@ -1,0 +1,39 @@
+{
+ "brand": "Great Value Canned",
+ "product_name": "Medium Diced Green Chiles",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": true,
+ "source_type": "scrape",
+ "price": 0.93,
+ "price_regular": 0.93,
+ "price_basis": "shelf",
+ "size_oz": 4.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.2325,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 0.93
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "078742433943",
+ "block": "refrigerated/green-chile@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Great-Value-Canned-Medium-Diced-Green-Chiles-4-Oz/10415222?classType=VARIANT&athbdg=L1200",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

@@ -1,0 +1,39 @@
+{
+ "brand": "Del Real",
+ "product_name": "Foods Beef Tamales",
+ "retailer": "City Market",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.49,
+ "price_regular": 9.49,
+ "price_basis": "shelf",
+ "size_oz": 24.0,
+ "size_source": "label",
+ "count": 6,
+ "price_per_oz": 0.3954,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 9.49
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+ "route": "runner-kroger-api",
+ "upc": "0082979300194",
+ "block": "refrigerated/tamales@citymarket",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@citymarket"
+ ],
+ "pull_url": "https://www.kroger.com/p/del-real-foods-beef-tamales-6-count/0082979300194?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-10-18, lane citymarket-api, store: CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501.",
+ "category": "refrigerated"
+}

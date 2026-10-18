@@ -1,0 +1,40 @@
+{
+ "brand": "Rio Luna",
+ "product_name": "(Price/Case)Rio Luna 100000055346 Diced Green Chiles, 100 Ounces",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 169.99,
+ "price_regular": 169.99,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 169.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": null,
+ "block": "refrigerated/green-chile@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Price-Case-Rio-Luna-100000055346-Diced-Green-Chiles-100-Ounces/1246284791?classType=REGULAR",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated",
+ "hold_reason": "no size parsed"
+}

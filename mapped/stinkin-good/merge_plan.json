@@ -1,0 +1,2451 @@
+[
+{
+"action": "match",
+"existing": "city-market_505-southwestern_flame-roasted-hatch-valley-green-chile-medium_16oz",
+"runner": "city-market_505-southwestern_medium-flame-roasted-hatch-valley-green-chile_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_505-southwestern_flame-roasted-hatch-valley-green-chile-mild_16oz",
+"runner": "city-market_505-southwestern_flame-roasted-hatch-valley-mild-green-chile_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_505-southwestern_green-chile-sauce-medium_16oz",
+"runner": "city-market_505-southwestern_medium-green-chile-sauce_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "city-market_505-southwestern_southwest-style-salsa-mild_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "city-market_bueno_chopped-green-chile-hot_13oz"
+},
+{
+"action": "match",
+"existing": "city-market_bueno_chopped-green-chile-mild_13oz",
+"runner": "city-market_bueno_mild-chopped-green-chile_13oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "city-market_del-real_fire-roasted-green-salsa_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "city-market_gordos_hot-mexican-restaurant-style-queso-cheese-dip_16oz"
+},
+{
+"action": "exact",
+"existing": "city-market_gordos_mild-mexican-restaurant-style-queso-cheese-dip_16oz",
+"runner": "city-market_gordos_mild-mexican-restaurant-style-queso-cheese-dip_16oz",
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "city-market_gordos_original-mexican-restaurant-style-queso-cheese-dip_16oz",
+"runner": "city-market_gordos_original-mexican-restaurant-style-queso-cheese-dip_16oz",
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_hatch_diced-green-chiles-mild_4oz",
+"runner": "city-market_hatch_mild-diced-green-chiles_4oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_hatch_green-chile-enchilada-sauce-mild_15oz",
+"runner": "city-market_hatch_mild-green-chile-enchilada-sauce_15oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_hatch_select-diced-green-chiles-hot_4oz",
+"runner": "city-market_hatch_select-hot-diced-green-chiles_4oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "city-market_kroger_diced-green-chile-peppers_4oz",
+"runner": "city-market_kroger_diced-green-chile-peppers_4oz",
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_kroger_medium-queso-amarillo-cheese-dip_12oz",
+"runner": "city-market_kroger_queso-amarillo-kroger_12oz",
+"score": 0.8,
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "city-market_kroger_medium-queso-blanco-cheese-dip_15oz",
+"runner": "city-market_kroger_medium-queso-blanco-cheese-dip_15oz",
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "city-market_kroger_medium-salsa-con-queso-cheese-dip_15oz",
+"runner": "city-market_kroger_medium-salsa-con-queso-cheese-dip_15oz",
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "city-market_kroger_mild-queso-blanco-cheese-dip_12oz",
+"runner": "city-market_kroger_mild-queso-blanco-cheese-dip_12oz",
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_las-palmas_green-chile-enchilada-sauce-medium_28oz",
+"runner": "city-market_las-palmas_medium-green-chile-enchilada-sauce_28oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "city-market_macayo_diced-green-chiles_4oz",
+"runner": "city-market_macayo_diced-green-chiles_4oz",
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "city-market_macayo_diced-green-chiles_7oz",
+"runner": "city-market_macayo_diced-green-chiles_7oz",
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_nanitas-finest_green-chile-hot-sauce-mild_16oz",
+"runner": "city-market_nanitas-finest_mild-green-chile-hot-sauce_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_ortega_diced-fire-roasted-green-chiles-mild_4oz",
+"runner": "city-market_ortega_diced-mild-fire-roasted-green-chiles-kosher_4oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_ortega_diced-fire-roasted-green-chiles-mild_7oz",
+"runner": "city-market_ortega_mild-diced-fire-roasted-green-chiles-kosher_7oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "city-market_private-selection_mexican-inspired-green-chile-chicken_16oz"
+},
+{
+"action": "match",
+"existing": "city-market_santiagos_green-chile-sauce-with-pork-medium_28oz",
+"runner": "city-market_santiagos_medium-green-chile-sauce-with-pork_28oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_select-new-mexico_green-chile-peppers-hot_24oz",
+"runner": "city-market_select-new-mexico_hot-green-chile-peppers_24oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_select-new-mexico_green-chile-peppers-mild_24oz",
+"runner": "city-market_select-new-mexico_new-mexico-select-mild-green-chile-peppers_24oz",
+"score": 0.8,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_stinkin-good_green-chili-sauce-listed-under-schlereths_15oz",
+"runner": "city-market_stinkin-good_schlereths-stinkin-good-green-chili-sauce_15oz",
+"reviewed": true,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "city-market_stokes_green-chile-sauce-with-pork-and-jalapeno_15oz",
+"runner": "city-market_stokes_green-chile-sauce-with-pork-jalapeno_15oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "citymarket_505sw_blanco-queso_15oz",
+"runner": "city-market_505-southwestern_green-chile-blanco-queso_15oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "citymarket_bueno_hot-chopped_13oz"
+},
+{
+"action": "match",
+"existing": "citymarket_hatchvalley_flame-roasted-hot_24oz",
+"runner": "city-market_hatch-valley_flame-roasted-hot-green-chile_24oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "citymarket_laspalmas_medium-enchilada_28oz",
+"runner": "city-market_las-palmas_medium-green-chile-enchilada-sauce_28oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "citymarket_stinkingood_green-chili_15oz",
+"runner": "city-market_stinkin-good_stinkin-good-green-chili_15oz",
+"reviewed": true,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "citymarket_stokes_chicken_15oz",
+"runner": "city-market_stokes_green-chile-sauce-with-pork_15oz",
+"score": 0.5,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "costco_delreal_carnitas_80oz"
+},
+{
+"action": "keep_existing",
+"existing": "costco_quesomama_white-queso-green-chiles_32oz"
+},
+{
+"action": "match",
+"existing": "heb_505sw_medium_16oz",
+"runner": "heb_505-southwestern_medium-flame-roasted-hatch-valley-green-chile_16oz",
+"score": 1.0,
+"canonical": "existing"
+},
+{
+"action": "keep_existing",
+"existing": "heb_bueno_roasted-chopped-hatch_13oz"
+},
+{
+"action": "keep_existing",
+"existing": "heb_centralmarket_hatch-queso-medium_16oz"
+},
+{
+"action": "keep_existing",
+"existing": "heb_mealsimple_green-chile-chicken-soup_16oz"
+},
+{
+"action": "match",
+"existing": "king-soopers_505-southwestern_flame-roasted-hatch-valley-green-chile-medium_16oz",
+"runner": "king-soopers_505-southwestern_medium-flame-roasted-hatch-valley-green-chile_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_505-southwestern_flame-roasted-hatch-valley-green-chile-sauce-medium_40oz",
+"runner": "king-soopers_505-southwestern_medium-flame-roasted-hatch-valley-green-chile-sauce_40oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "king-soopers_505-southwestern_green-chile-blanco-queso_15oz",
+"runner": "king-soopers_505-southwestern_green-chile-blanco-queso_15oz",
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_505-southwestern_green-chile-sauce-medium_16oz",
+"runner": "king-soopers_505-southwestern_medium-green-chile-sauce_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_505-southwestern_hatch-valley-green-chile-sauce-mild_16oz",
+"runner": "king-soopers_505-southwestern_mild-hatch-valley-green-chile-sauce_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_505southwestern_green-chile-blanco-queso_15oz",
+"runner": "king-soopers_505-southwestern_green-chile-blanco-queso_15oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_505southwestern_medium-flame-roasted-hatch-valley-green-chile-sauce_16oz",
+"runner": "king-soopers_505-southwestern_medium-flame-roasted-hatch-valley-green-chile_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "king-soopers_bueno_chopped-green-chile-hot_13oz"
+},
+{
+"action": "match",
+"existing": "king-soopers_bueno_chopped-green-chile-mild_13oz",
+"runner": "king-soopers_bueno_mild-chopped-green-chile_13oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "king-soopers_bueno_hot-chopped-green-chile_13oz"
+},
+{
+"action": "exact",
+"existing": "king-soopers_bueno_mild-chopped-green-chile_13oz",
+"runner": "king-soopers_bueno_mild-chopped-green-chile_13oz",
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "king-soopers_cacique_queso-fresco_10oz"
+},
+{
+"action": "match",
+"existing": "king-soopers_delrealfoods_beef-tamales_24oz",
+"runner": "king-soopers_del-real_foods-beef-tamales_24oz",
+"score": 0.8,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_delrealfoods_gluten-free-pork-tamales_24oz",
+"runner": "king-soopers_del-real_foods-gluten-free-pork-tamales_24oz",
+"score": 0.8,
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "king-soopers_fillos_bean-salsa-roja-corn-bar-walking-tamales_4oz",
+"runner": "king-soopers_fillos_bean-salsa-roja-corn-bar-walking-tamales_4oz",
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "king-soopers_freshcravings_mild-restaurant-style-salsa_16oz"
+},
+{
+"action": "match",
+"existing": "king-soopers_gordos_mexican-restaurant-style-queso-cheese-dip-mild_16oz",
+"runner": "king-soopers_gordos_mild-mexican-restaurant-style-queso-cheese-dip_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_gordos_mexican-restaurant-style-queso-cheese-dip-original_16oz",
+"runner": "king-soopers_gordos_original-mexican-restaurant-style-queso-cheese-dip_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "king-soopers_gordos_mild-mexican-restaurant-style-queso-cheese-dip_16oz",
+"runner": "king-soopers_gordos_mild-mexican-restaurant-style-queso-cheese-dip_16oz",
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "king-soopers_gordos_original-mexican-restaurant-style-queso-cheese-dip_16oz",
+"runner": "king-soopers_gordos_original-mexican-restaurant-style-queso-cheese-dip_16oz",
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_hatch_diced-green-chiles-mild_4oz",
+"runner": "king-soopers_hatch_mild-diced-green-chiles_4oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_hatch_select-diced-green-chiles-hot_4oz",
+"runner": "king-soopers_hatch_select-hot-diced-green-chiles_4oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "king-soopers_herdez_queso-blanco-cheese-dip-with-jalapenos_15oz",
+"runner": "king-soopers_herdez_queso-blanco-cheese-dip-with-jalapenos_15oz",
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "king-soopers_herdez_queso-con-salsa-medium_15oz",
+"runner": "king-soopers_herdez_queso-con-salsa-medium_15oz",
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "king-soopers_kingsoopersdeli_pico-de-gallo-fresh-made-in-store-mild_14oz"
+},
+{
+"action": "keep_existing",
+"existing": "king-soopers_kingsoopersdeli_salsa-fresh-made-in-store-mild_16oz"
+},
+{
+"action": "exact",
+"existing": "king-soopers_kroger_diced-green-chile-peppers_4oz",
+"runner": "king-soopers_kroger_diced-green-chile-peppers_4oz",
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "king-soopers_kroger_mild-queso-blanco-cheese-dip_12oz",
+"runner": "king-soopers_kroger_mild-queso-blanco-cheese-dip_12oz",
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_kroger_queso-amarillo-cheese-dip-medium_12oz",
+"runner": "king-soopers_kroger_queso-amarillo-kroger_12oz",
+"score": 0.8,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_kroger_queso-blanco-cheese-dip-medium_15oz",
+"runner": "king-soopers_kroger_medium-queso-blanco-cheese-dip_15oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_kroger_queso-blanco-cheese-dip-mild_12oz",
+"runner": "king-soopers_kroger_mild-queso-blanco-cheese-dip_12oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_kroger_salsa-con-queso-cheese-dip-medium_15oz",
+"runner": "king-soopers_kroger_medium-salsa-con-queso-cheese-dip_15oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_la-mexicana_queso-blanco-cheese-dip-medium_12oz",
+"runner": "king-soopers_la-mexicana_queso-blanco-medium-cheese-dip_12oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_lafavorita_vegetarian-chile-cheese-tamales_18oz",
+"runner": "king-soopers_la-favorita_vegetarian-chile-cheese-tamalestamales_18oz",
+"score": 0.5,
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "king-soopers_macayo_diced-green-chiles_7oz",
+"runner": "king-soopers_macayo_diced-green-chiles_7oz",
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_nanitas-finest_green-chile-hot-sauce-mild_16oz",
+"runner": "king-soopers_nanitas-finest_mild-green-chile-hot-sauce_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_nanitas-finest_new-mexico-style-green-chile-hot-sauce-medium_16oz",
+"runner": "king-soopers_nanitas-finest_medium-new-mexico-style-green-chile-hot-sauce_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_on-the-border_green-chili-queso_15p5oz",
+"runner": "king-soopers_on-the-border_green-chili-queso_15-5oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_on-the-border_monterey-jack-queso_15p5oz",
+"runner": "king-soopers_on-the-border_monterey-jack-queso_15-5oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_on-the-border_salsa-con-queso_15p5oz",
+"runner": "king-soopers_on-the-border_salsa-con-queso_15-5oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_on-the-border_spicy-jalapeno-queso_15p25oz",
+"runner": "king-soopers_on-the-border_spicy-jalape-o-queso_15-25oz",
+"reviewed": true,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_ortega_fire-roasted-diced-green-chiles-mild_4oz",
+"runner": "king-soopers_ortega_diced-mild-fire-roasted-green-chiles-kosher_4oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_pace_queso-blanco-cheese-dip-medium_15oz",
+"runner": "king-soopers_pace_medium-queso-blanco-cheese-dip_15oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "king-soopers_private-selection_mexican-inspired-green-chile-chicken_16oz"
+},
+{
+"action": "exact",
+"existing": "king-soopers_private-selection_queso-blanco_12oz",
+"runner": "king-soopers_private-selection_queso-blanco_12oz",
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_privateselection_queso-blanco_12oz",
+"runner": "king-soopers_private-selection_queso-blanco_12oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "king-soopers_privateselection_restaurant-style-medium-salsa_14oz"
+},
+{
+"action": "keep_existing",
+"existing": "king-soopers_rojosbylamexicana_creamy-jalapeno-dip_11oz"
+},
+{
+"action": "match",
+"existing": "king-soopers_santiagos_green-chile-sauce-with-pork-medium_28oz",
+"runner": "king-soopers_santiagos_medium-green-chile-sauce-with-pork_28oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_santiagos_green-chile-sauce-with-pork-mild_28oz",
+"runner": "king-soopers_santiagos_mild-green-chile-sauce-with-pork_28oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_select-new-mexico_green-chile-peppers-hot_24oz",
+"runner": "king-soopers_select-new-mexico_hot-green-chile-peppers_24oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_select-new-mexico_green-chile-peppers-mild_24oz",
+"runner": "king-soopers_select-new-mexico_new-mexico-select-mild-green-chile-peppers_24oz",
+"score": 0.8,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_stinkin-good_green-chili-sauce-listed-under-schlereths_15oz",
+"runner": "king-soopers_stinkin-good_schlereths-stinkin-good-green-chili-sauce_15oz",
+"reviewed": true,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_stinkin-good_green-chili_15oz",
+"runner": "king-soopers_stinkin-good_stinkin-good-green-chili_15oz",
+"score": 0.8,
+"canonical": "runner"
+},
+{
+"action": "exact",
+"existing": "king-soopers_stokes_green-chile-sauce-with-pork_15oz",
+"runner": "king-soopers_stokes_green-chile-sauce-with-pork_15oz",
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_tostitos_con-queso-salsa-dip-medium_15oz",
+"runner": "king-soopers_tostitos_medium-con-queso-salsa-dip_15oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "king-soopers_tostitos_queso-blanco-dip-medium_15oz",
+"runner": "king-soopers_tostitos_medium-queso-blanco-dip_15oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "king-soopers_whollyguacamole_chunky-medium-guacamole_7.5oz"
+},
+{
+"action": "match",
+"existing": "kingsoopers_505sw_medium-sauce_16oz",
+"runner": "king-soopers_505-southwestern_medium-green-chile-sauce_16oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "kingsoopers_bueno_mild-chopped_13oz",
+"runner": "king-soopers_bueno_mild-chopped-green-chile_13oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "kingsoopers_hatchvalley_flame-roasted-medium_24oz",
+"runner": "king-soopers_hatch-valley_flame-roasted-medium-green-chile_24oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "kingsoopers_laspalmas_medium-enchilada_28oz",
+"runner": "king-soopers_las-palmas_medium-green-chile-enchilada-sauce_28oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "kingsoopers_privateselection_chicken-soup_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "kingsoopers_privateselection_green-chile-chicken_16oz"
+},
+{
+"action": "match",
+"existing": "kingsoopers_santiagos_pork-green-chile-sauce_28oz",
+"runner": "king-soopers_santiagos_authentic-green-chile-sauce-with-pork_28oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "kingsoopers_stinkin-good_green-chili_15oz",
+"runner": "king-soopers_stinkin-good_stinkin-good-green-chili_15oz",
+"reviewed": true,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "kingsoopers_stinkingood_quesoblanco-medium_15oz"
+},
+{
+"action": "match",
+"existing": "kingsoopers_stokes_chicken_15oz",
+"runner": "king-soopers_stokes_green-chile-sauce-with-pork_15oz",
+"score": 0.5,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "kingsoopers_stokes_pork-jalapeno_15oz",
+"runner": "king-soopers_stokes_green-chile-sauce-with-pork-jalapeno_15oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "match",
+"existing": "safeway_505sw_flame-roasted-medium_16oz",
+"runner": "safeway_505-southwestern_hatch-valley-roasted-jar_16oz",
+"score": 0.8,
+"canonical": "existing"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_bobby-salazars_salsa-medium_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_casa-sanchez_chunky-pico-de-gallo_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_casa-sanchez_cremosa-salsa_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_casa-sanchez_salsa-roja-hot_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_casa-sanchez_salsa-roja-medium_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_casa-sanchez_salsa-roja-mild_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_casa-sanchez_salsa-tomato-and-roasted-pepper-medium_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_casa-sanchez_salsa-verde-roasted-medium_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_casa-sanchez_taqueria-style-avocado-salsa_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_delreal_carnitas_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_delreal_pork-in-green-sauce_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_fresh-innovations_avocado-salsa-verde-medium_14oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_herdez_queso-blanco-dip-medium_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_herdez_traditional-salsa-cup-medium_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_juanitas_queso-blanco-spicy-poblano_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_la-mexicana_salsa-medium_16oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_la-mexicana_salsa-mild_16oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_oaxaca-mama_salsa-medium_12oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_ortega_whole-green-chiles-mild_7oz",
+"reviewed": true
+},
+{
+"action": "keep_existing",
+"existing": "safeway_signature-cafe_fresca-salsa-mild_16oz"
+},
+{
+"action": "match",
+"existing": "safeway_signatureselect_diced-fire-roasted-mild-green-chiles_4oz",
+"runner": "safeway_signature-select_green-chiles-iced-mild-can_4oz",
+"reviewed": true,
+"canonical": "existing"
+},
+{
+"action": "match",
+"existing": "safeway_signatureselect_salsa-con-queso-blanco-medium_15.5oz",
+"runner": "safeway_signature-select_queso-blanco-medium-salsa-con_15-5oz",
+"score": 1.0,
+"canonical": "existing"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_taylor-farms_mango-pico_7oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_taylor-farms_pico-de-gallo_10oz"
+},
+{
+"action": "keep_existing",
+"existing": "safeway_taylor-farms_pico-de-gallo_6oz"
+},
+{
+"action": "keep_existing",
+"existing": "sprouts_coppercreek_seasoned-pork-carnitas_14oz"
+},
+{
+"action": "keep_existing",
+"existing": "sprouts_ownbrand_diced-green-chiles_4oz"
+},
+{
+"action": "match",
+"existing": "sprouts_zia_medium-hatch_16oz",
+"runner": "sprouts_zia-hatch-chile-company_medium-hatch-green-chile_16oz",
+"score": 1.0,
+"canonical": "existing"
+},
+{
+"action": "keep_existing",
+"existing": "target_cacique_pork-chorizo_9oz"
+},
+{
+"action": "keep_existing",
+"existing": "target_goodgather_chicken-sausage_12oz"
+},
+{
+"action": "keep_existing",
+"existing": "target_goodgather_pulled-pork-bbq_16oz"
+},
+{
+"action": "keep_existing",
+"existing": "target_goodgather_queso-blanco_15oz"
+},
+{
+"action": "match",
+"existing": "target_marketpantry_mild-diced_4oz",
+"runner": "target_market-pantry_mild-diced-green-chiles_4oz",
+"score": 1.0,
+"canonical": "runner"
+},
+{
+"action": "keep_existing",
+"existing": "walmart_505sw_medium-3pk_16oz"
+},
+{
+"action": "keep_existing",
+"existing": "walmart_isadora_pork-green-salsa_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "walmart_juanitas_pork-chile-verde_25oz"
+},
+{
+"action": "keep_existing",
+"existing": "wholefoods_hatchfarms_medium-enchilada_15oz"
+},
+{
+"action": "keep_existing",
+"existing": "wholefoods_melindas_mild-chile-verde_12oz"
+},
+{
+"action": "keep_existing",
+"existing": "wholefoods_zia_hatch-roasted-medium_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_hormel_beef-tamales-in-chili-sauce-shelf-stable_15oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_unbranded_organic-tamale-vegan-red-chile-fresh-pack_6oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_stinkin-good_schlereths-stinkin-good-green-chile-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "costco_hatch_diced-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_queso-campesino_crema-menonita_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_hatch-select_whole-green-chiles-mild_27oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_tucson-tamale_company-green-chile-cheese-tamale-10-ounce_10oz"
+},
+{
+"action": "new",
+"runner": "sprouts_primal-kitchen_spicy-queso-style-plant-based-dip_11-5oz"
+},
+{
+"action": "new",
+"runner": "city-market_tucson-tamale_green-chile-cheese-tamale_5oz"
+},
+{
+"action": "new",
+"runner": "sprouts_nanitas-finest_mild-green-chile-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_del-real_foods-beef-tamales_24oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_colorado-green-chili_medium-green-chili-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_velveeta_queso-blanco-pasteurized-recipe-cheese-product_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_hatch_hot-diced-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_velveeta_queso-blanco-cheese_32oz"
+},
+{
+"action": "new",
+"runner": "sprouts_texas-tamale-co_texas-tamale-company-gourmet-pork-tamales_12ct"
+},
+{
+"action": "new",
+"runner": "heb_meal-simple-by-h-e-b_tex-mex-brisket-queso-dip-avg_23-2oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_505-southwestern_flame-roasted-hatch-valley-mild-green-chile_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_ya-oaxaca-mexican-cuisine_chile-de-agua-salsa_12oz"
+},
+{
+"action": "new",
+"runner": "walmart_ortega_hot-diced-green-fire-roasted-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "sprouts_primal-kitchen_mild-queso-style-plant-based-dip_11-5oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_ortega_hot-fire-roasted-diced-green-chiles-kosher_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_custom-made-meals_brisket-con-queso-dip_20oz"
+},
+{
+"action": "new",
+"runner": "safeway_zia-hatch-chile-company_chile-diced-green-hot_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_505-southwestern_flame-roasted-hatch-valley-diced-green-chile-medium_4oz"
+},
+{
+"action": "new",
+"runner": "target_505-southwestern_medium-roasted-green-chile_4oz"
+},
+{
+"action": "new",
+"runner": "walmart_zia-green-chile-company_hatch-green-chile-hot_16oz"
+},
+{
+"action": "new",
+"runner": "heb_h-e-b-easy-melt_queso-blanco-cheese-spread_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_ortega_mild-diced-fire-roasted-green-chiles-kosher_7oz"
+},
+{
+"action": "new",
+"runner": "walmart_marketside_mild-queso-blanco-cheese-dip_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_las-palmas_diced-green-chiles_27oz"
+},
+{
+"action": "new",
+"runner": "target_old-el-paso_chopped-green-chiles-can_4oz"
+},
+{
+"action": "new",
+"runner": "walmart_on-the-border_mexican-grill-cantina-monterey-jack-queso_15-5oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_el-pinto_green-chile-sauce-medium_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_del-real_foods-chicken-and-cheese-tamales_24oz"
+},
+{
+"action": "new",
+"runner": "safeway_signature-select_green-chiles-iced-mild-can_7oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_505-southwestern_hot-green-chile-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_robertos_mild-green-chile-salsa_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_505-southwestern_hatch-valley-e-medium-jar_40oz"
+},
+{
+"action": "new",
+"runner": "walmart_hatch_chili-hatch-diced-hot-green-chilies-diced-green-chiles-case-of-24_4oz"
+},
+{
+"action": "new",
+"runner": "safeway_ortega_green-chiles-diced-fire-roasted-mild-can_7oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_505-southwestern_roadhouse-tomatillo-and-medium-roasted-green-chile-salsa_15oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_bueno_extra-hot-chopped-green-chile_13oz"
+},
+{
+"action": "new",
+"runner": "walmart_great-value_queso-blanco-cheese-dip-gluten-free-ready-to-eat_15oz"
+},
+{
+"action": "new",
+"runner": "sprouts_nanitas-finest_hot-green-chile-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_sprouts_organic-diced-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_la-preferida_diced-green-chiles-mild_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_la-victoria_fire-roasted-diced-green-chiles-mild_7oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_ortega_whole-mild-fire-roasted-green-chiles-kosher_27oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_kroger_queso-blanco-white-cheese-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_los-roast_nm-green-chile-med_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_boulder-organic_foods-gluten-free-green-chile-corn-chowder_24oz"
+},
+{
+"action": "new",
+"runner": "target_fillos_walking-tamales-bean-salsa-roja_4oz"
+},
+{
+"action": "new",
+"runner": "walmart_chaparros_tamales-gluten-free-8-pack_5oz"
+},
+{
+"action": "new",
+"runner": "city-market_johnsonville_queso-sausage-links_19oz"
+},
+{
+"action": "new",
+"runner": "walmart_ortega_fire-roasted-diced-green-chiles-26-ounce-can-12-per-case_26oz"
+},
+{
+"action": "new",
+"runner": "city-market_505-southwestern_hot-hatch-valley-green-chile-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_ya-oaxaca-mexican-cuisine_chile-de-arbol-salsa_12oz"
+},
+{
+"action": "new",
+"runner": "city-market_del-real_foods-chicken-and-cheese-tamales_24oz"
+},
+{
+"action": "new",
+"runner": "sprouts_tucson-tamale_green-chile-pork-cheese-tamale_5oz"
+},
+{
+"action": "new",
+"runner": "walmart_old-el-paso_mild-chopped-green-chiles-meal-prep_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_bueno_hand-made-red-chile-stone-ground-corn-pork-tamales_36oz"
+},
+{
+"action": "new",
+"runner": "city-market_kroger_mild-pulled-pork-queso_12oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_las-palmas_hot-green-chile-enchilada-sauce_28oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_bueno_mild-chopped-green-chile_28oz"
+},
+{
+"action": "new",
+"runner": "walmart_tostitos_con-queso-cheese-no-artificial-colors-no-artificial-flavors_15oz"
+},
+{
+"action": "new",
+"runner": "walmart_la-victoria_3-pack-la-victoria-fire-roasted-diced-green-chiles-mild-shelf-stable_4oz"
+},
+{
+"action": "new",
+"runner": "walmart_ortega_8-pack-ortega-fire-roasted-mild-diced-green-chiles-kosher_4oz"
+},
+{
+"action": "new",
+"runner": "safeway_hatch-valley_flame-roasted-green-chile-medium_24oz"
+},
+{
+"action": "new",
+"runner": "city-market_stinkin-good_stinkin-good-blanco-queso-medium_15oz"
+},
+{
+"action": "new",
+"runner": "walmart_505-southwestern_flame-roasted-hatch-green-chiles_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_grandmas_bueno-green-chile-hot_13oz"
+},
+{
+"action": "new",
+"runner": "target_san-miguel-family-foods_san-miguel-mexican-street-corn-tamale_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_hot-tamales_hot-tamales_4-25oz"
+},
+{
+"action": "new",
+"runner": "heb_hill-country-fare_diced-mild-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "sprouts_505-southwestern_505-southwest-medium-green-chile-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_sprouts_chicken-tomatillo-tamales_4ct"
+},
+{
+"action": "new",
+"runner": "king-soopers_bueno_hand-made-red-chile-stone-ground-corn-pork-tamales_36oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_505-southwestern_hot-hatch-valley-green-chile-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_old-el-paso_creamy-queso-dip-taco-sauce_9oz"
+},
+{
+"action": "new",
+"runner": "heb_mi-tienda-h-e-b_h-e-b-mi-tienda-tamales-grandes-pollo-con-salsa-verde-chicken-green-salsa_6ct"
+},
+{
+"action": "new",
+"runner": "sprouts_fody_sensitive-recipe-salsa-verde_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_la-preferida_beef-tamales_15oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_primal-kitchen_no-dairy-spicy-queso-style-plant-based-dip_11-5oz"
+},
+{
+"action": "new",
+"runner": "city-market_hot-tamales_hot-tamales_4-25oz"
+},
+{
+"action": "new",
+"runner": "walmart_gordos_original-queso-cheese-dip_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_texas_chili-company-chili-premium-chile-con-queso_14oz"
+},
+{
+"action": "new",
+"runner": "heb_meal-simple-by-h-e-b_hatch-chile-jalape-o-queso-blanco-dip_12oz"
+},
+{
+"action": "new",
+"runner": "walmart_fillos_7-pack-fillos-walking-tamales-bean-salsa-roja-tamale_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_hatch_medium-green-chile-enchilada-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "target_old-el-paso_sauce-creamy-queso_9oz"
+},
+{
+"action": "new",
+"runner": "heb_tacodeli_queso-blanco-with-diced-jalapenos_12oz"
+},
+{
+"action": "new",
+"runner": "sprouts_505-southwestern_505-southwest-mild-fire-roasted-green-chile-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "heb_olde-thompson_hatch-green-chili-powder_1-9oz"
+},
+{
+"action": "new",
+"runner": "walmart_great-value_queso-blanco-meltn-dip-easy-melt-cheese_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_hatch-valley_flame-roasted-medium-green-chile_24oz"
+},
+{
+"action": "new",
+"runner": "sprouts_tucson-tamale_green-chile-cheese-tamale_5oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_robertos_hot-green-chile-salsa_15oz"
+},
+{
+"action": "new",
+"runner": "sprouts_queso-mama_white-queso-with-diced-green-chiles_12oz"
+},
+{
+"action": "new",
+"runner": "city-market_el-pinto_chopped-green-chile_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_hatch-valley_flame-roasted-mild-green-chile_24oz"
+},
+{
+"action": "new",
+"runner": "sprouts_fillos_bean-salsa-roja-corn-bar-walking-tamales_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_ortega_hot-fire-roasted-diced-green-chiles-kosher_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_private-selection_queso-blanco_12oz"
+},
+{
+"action": "new",
+"runner": "walmart_ortega_mild-fire-roasted-diced-green-chiles-kosher_7oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_hatch-chili-company_mild-diced-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_las-palmas_mild-green-chile-enchilada-sauce_28oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_old-el-paso_mild-green-chile-enchilada-sauce_10oz"
+},
+{
+"action": "new",
+"runner": "safeway_tostitos_salsa-con-queso-medium_15oz"
+},
+{
+"action": "new",
+"runner": "walmart_hormel_4-pack-hormel-chicken-tamales-shelf-stable_15oz"
+},
+{
+"action": "new",
+"runner": "city-market_stokes_green-chile-sauce-with-pork_25oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_hatch-chili-company_medium-green-enchilada-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "city-market_la-preferida_diced-green-chiles-mild_4oz"
+},
+{
+"action": "new",
+"runner": "safeway_chaparros_tamales-pork_30oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_hatch-valley_flame-roasted-extra-hot-green-chile_24oz"
+},
+{
+"action": "new",
+"runner": "heb_add-to-cart_amys-gluten-free-black-bean-tamale-verde_10-3oz"
+},
+{
+"action": "new",
+"runner": "heb_mateos_mild-queso-blanco_15oz"
+},
+{
+"action": "new",
+"runner": "city-market_on-the-border_green-chili-queso_15-5oz"
+},
+{
+"action": "new",
+"runner": "city-market_hatch-valley_flame-roasted-extra-hot-green-chile_24oz"
+},
+{
+"action": "new",
+"runner": "city-market_old-el-paso_mild-green-chile-enchilada-sauce_10oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_la-estrellita_green-vegetarian-chile_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_serrano_chile-pepper_1ct"
+},
+{
+"action": "new",
+"runner": "king-soopers_old-el-paso_mild-chopped-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "heb_meal-simple-by-h-e-b_small-tex-mex-brisket-queso-dip-avg_14-4oz"
+},
+{
+"action": "new",
+"runner": "city-market_old-el-paso_creamy-queso-dip-taco-sauce_9oz"
+},
+{
+"action": "new",
+"runner": "safeway_santiagos_santiagos-authentic-hot-green-chili_28oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_custom-made-meals_brisket-con-queso-dip_20oz"
+},
+{
+"action": "new",
+"runner": "costco_stinkin-good_stinkin-good-green-chili-pork-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "heb_mi-tienda-h-e-b_h-e-b-mi-tienda-tamales-grandes-puerco-picosito-spicy-pork-in-red-sauce_6ct"
+},
+{
+"action": "new",
+"runner": "walmart_pack-of_1-diced-green-chiles-mild_7oz"
+},
+{
+"action": "new",
+"runner": "city-market_on-the-border_salsa-con-queso_15-5oz"
+},
+{
+"action": "new",
+"runner": "walmart_hatch-select_h-hatch-select-chopped-green-chiles-mild_4oz"
+},
+{
+"action": "new",
+"runner": "sprouts_sadies_roasted-green-chile-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_505-southwestern_505-southwest-flame-roasted-green-chile-medium_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_robertos_hot-green-chile-salsa_15oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_la-favorita_pork-tamales_18oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_tostitos_medium-queso-blanco-dip_23oz"
+},
+{
+"action": "new",
+"runner": "city-market_nanitas-finest_medium-new-mexico-style-green-chile-hot-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_fillos_2-pack-fillos-walking-tamales-bean-salsa-verde-tamale_4oz"
+},
+{
+"action": "new",
+"runner": "walmart_paisa_queso-blanco-block_10oz"
+},
+{
+"action": "new",
+"runner": "sprouts_zia-hatch-chile-company_hot-hatch-green-chile_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_el-pinto_chopped-green-chile_4oz"
+},
+{
+"action": "new",
+"runner": "safeway_hormel_tamales-beef-in-chili-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_bueno_chile-green-premium-roas-autumn-roast_13oz"
+},
+{
+"action": "new",
+"runner": "heb_hatch_central-market-hatch-green-chile-roja-medium-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_texas-tamale-company_gourmet-hatch-green-chile-tamales_18oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_smart-way_queso-blanco-with-jalape-os-nicen-cheesy_32oz"
+},
+{
+"action": "new",
+"runner": "walmart_unbranded_fresh-poblano-peppers_16oz"
+},
+{
+"action": "new",
+"runner": "target_fillos_walking-tamales-bean-salsa-habanero_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_mateos_gourmet-queso-blanco-in-mild-heat_15oz"
+},
+{
+"action": "new",
+"runner": "heb_velveeta_queso-blanco-dip_15oz"
+},
+{
+"action": "new",
+"runner": "walmart_fillos_walking-tamales-bean-salsa-roja-tamale_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_las-palmas_hot-green-chile-enchilada-sauce_28oz"
+},
+{
+"action": "new",
+"runner": "city-market_505-southwestern_green-chile-queso-dip_15oz"
+},
+{
+"action": "new",
+"runner": "sprouts_sprouts_salsa-con-queso_16oz"
+},
+{
+"action": "new",
+"runner": "safeway_zia_hatch-chile-hatch-rsted-green-chile_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_la-estrellita_green-vegetarian-chile_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_hatch_mild-chopped-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_navarro_queso-menonita-cheese_14oz"
+},
+{
+"action": "new",
+"runner": "city-market_ortega_whole-mild-fire-roasted-green-chiles-kosher_27oz"
+},
+{
+"action": "new",
+"runner": "city-market_queso-campesino_crema-mexicana_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_private-selection_chipotle-peppers-medium-salsa-con-queso-cheese-dip_12oz"
+},
+{
+"action": "new",
+"runner": "city-market_cacique_four-quesos-blend_32oz"
+},
+{
+"action": "new",
+"runner": "heb_mi-tienda-h-e-b_h-e-b-mi-tienda-tamales-grandes-pollo-en-mole-chicken-mole_6ct"
+},
+{
+"action": "new",
+"runner": "safeway_tuscon_tamale-green-chile-cheese_2ct"
+},
+{
+"action": "new",
+"runner": "sprouts_desert-pepper-trading-co_desert-pepper-trading-co-medium-chili-con-queso_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_la-mexicana_queso-blanco-medium-cheese-dip_12oz"
+},
+{
+"action": "new",
+"runner": "walmart_la-preferida_3-pack-la-preferida-beef-pork-tamales-in-savory-tomato-sauce_3ct"
+},
+{
+"action": "new",
+"runner": "safeway_velveeta_queso-blanco-pasteuri-eese-product_32oz"
+},
+{
+"action": "new",
+"runner": "walmart_la-coste-a_fire-roasted-green-chile-serrano-peppers_12oz"
+},
+{
+"action": "new",
+"runner": "heb_hill-country-fare_diced-mild-green-chiles_7oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_pace_medium-salsa-con-queso-dip_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_signature-select_queso-medium-salsa-con_15-5oz"
+},
+{
+"action": "new",
+"runner": "sprouts_sprouts_beef-tamales_4ct"
+},
+{
+"action": "new",
+"runner": "king-soopers_johnsonville_queso-sausage-links_19oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_old-el-paso_mexican-pizza-kit-with-queso-sauce-easy-meal-prep_1-78oz"
+},
+{
+"action": "new",
+"runner": "heb_old-el-paso_mild-green-chile-enchilada-sauce_10oz"
+},
+{
+"action": "new",
+"runner": "safeway_chaparros_tamales-jalapeno-and-cheese_30oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_hatch-valley_flame-roasted-hot-green-chile_24oz"
+},
+{
+"action": "new",
+"runner": "heb_mi-tienda-h-e-b_h-e-b-mi-tienda-beef-tamales-de-res_12ct"
+},
+{
+"action": "new",
+"runner": "city-market_santiagos_mild-green-chile-sauce-with-pork_28oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_zia_green-chile-hot-sauce_5oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_nanitas-finest_green-chile-hot-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_ortega_fire-roasted-whole-green-mild-chiles_7oz"
+},
+{
+"action": "new",
+"runner": "city-market_hatch-valley_flame-roasted-mild-green-chile_24oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_la-victoria_fire-roasted-diced-green-chiles-mild_7oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_505-southwestern_medium-green-chile-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_las-palmas_mild-green-chile-enchilada-sauce_28oz"
+},
+{
+"action": "new",
+"runner": "heb_hatch_38-pecans-southwest-hatch-chili-texas-pecan-coating-mix_8oz"
+},
+{
+"action": "new",
+"runner": "costco_texas-tamale-co_texas-tamale-co-hatch-chile-tamales-6pk-of-12-each-72-count_6ct"
+},
+{
+"action": "new",
+"runner": "walmart_texas_chili-company-premium-queso_14oz"
+},
+{
+"action": "new",
+"runner": "costco_del-real_foods-chicken-with-red-sauce-tamales-15-count_15ct"
+},
+{
+"action": "new",
+"runner": "city-market_505-southwestern_roadhouse-tomatillo-and-medium-roasted-green-chile-salsa_15oz"
+},
+{
+"action": "new",
+"runner": "sprouts_nanitas-finest_hot-grn-chile-sc_16oz"
+},
+{
+"action": "new",
+"runner": "heb_add-to-cart_meal-simple-by-h-e-b-queso-pork-tamales-mexican-rice-refried-beans-avg_15-84oz"
+},
+{
+"action": "new",
+"runner": "costco_505-southwestern_green-chile-sauce-medium_40oz"
+},
+{
+"action": "new",
+"runner": "walmart_great-value_medium-diced-green-chiles_7oz"
+},
+{
+"action": "new",
+"runner": "city-market_grandmas_bueno-green-chile-hot_13oz"
+},
+{
+"action": "new",
+"runner": "city-market_bueno_mild-chopped-green-chile_28oz"
+},
+{
+"action": "new",
+"runner": "walmart_panchos_white-queso-cheese-dip_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_505-southwestern_flame-roasted-hatch-valley-diced-green-chile-mild_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_yucatan_medium-chunky-hatch-green-chile-guacamole_7-5oz"
+},
+{
+"action": "new",
+"runner": "safeway_los-roast_green-hot-nm-chile_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_las-palmas_medium-green-chile-enchilada-sauce_19oz"
+},
+{
+"action": "new",
+"runner": "safeway_peppers_chile-thai_4oz"
+},
+{
+"action": "new",
+"runner": "target_market-pantry_mild-diced-green-chiles_7oz"
+},
+{
+"action": "new",
+"runner": "heb_add-to-cart_goya-sweet-corn-tamales_6ct"
+},
+{
+"action": "new",
+"runner": "costco_505-southwestern_flame-roasted-green-chile_40oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_kroger_mild-pulled-pork-queso_12oz"
+},
+{
+"action": "new",
+"runner": "sprouts_fillos_bean-salsa-verde-corn-bar-walking-tamales_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_macayo_diced-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_el-pinto_green-chile-sauce-medium_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_505-southwestern_medium-flame-roasted-hatch-valley-green-chile-sauce_40oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_cacique_four-quesos-blend_32oz"
+},
+{
+"action": "new",
+"runner": "heb_tacodeli_queso-dip-mild_12oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_macayo_green-chile-enchilada-sauce_28oz"
+},
+{
+"action": "new",
+"runner": "sprouts_texas-tamale-co_texas-tamale-company-gourmet-chicken-tamales_12ct"
+},
+{
+"action": "new",
+"runner": "walmart_ricos_queso-blanco-white-cheese-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "heb_mi-tienda-h-e-b_h-e-b-mi-tienda-jalapeno-oaxaca-cheese-tamales-de-jalapeno-y-queso_12ct"
+},
+{
+"action": "new",
+"runner": "walmart_hormel_beef-tamales-in-chili-sauce-shelf-stable_28oz"
+},
+{
+"action": "new",
+"runner": "walmart_tostitos_medium-blanco-flavored-queso-dip_23oz"
+},
+{
+"action": "new",
+"runner": "safeway_tostitos_salsa-con-queso-medium_23oz"
+},
+{
+"action": "new",
+"runner": "sprouts_jeffs-garden_fresno-chili-peppers_12oz"
+},
+{
+"action": "new",
+"runner": "city-market_505-southwestern_medium-green-chile-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_herdez_queso-blanco-cheese-dip-with-jalapenos_15oz"
+},
+{
+"action": "new",
+"runner": "walmart_velveeta_queso-blanco-cheese-dip_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_505-southwestern_sauce-organic-green-chile-mild-jar_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_hatch-select_diced-green-chiles-hot_4oz"
+},
+{
+"action": "new",
+"runner": "walmart_fillos_7-pack-fillos-walking-tamales-bean-salsa-verde-tamale_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_tostitos_jalapeno-popper-queso-dip_15oz"
+},
+{
+"action": "new",
+"runner": "sprouts_fillos_mexican-chocolate-almond-corn-bar-walking-tamales_4oz"
+},
+{
+"action": "new",
+"runner": "walmart_la-preferida_beef-pork-canned-tamales-with-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "city-market_queso-campesino_crema-menonita_16oz"
+},
+{
+"action": "new",
+"runner": "heb_add-to-cart_tamales-aguilar-chicken-cheese-tamales_12ct"
+},
+{
+"action": "new",
+"runner": "king-soopers_queso-melt_original-premium-melting-cheese_10oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_gilbertos-gourmet-goodness_smokin-hot-green-chile-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_murrays_young-queso-manchego-wedge_5-3oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_la-favorita_chicken-chili-tamales_18oz"
+},
+{
+"action": "new",
+"runner": "target_ortega_fire-roasted-diced-green-chiles_7oz"
+},
+{
+"action": "new",
+"runner": "city-market_hatch_mild-chopped-green-chiles_27oz"
+},
+{
+"action": "new",
+"runner": "target_fillos_walking-tamales-bean-salsa-verde_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_on-the-border_monterey-jack-queso_15-5oz"
+},
+{
+"action": "new",
+"runner": "city-market_la-estrellita_vegetarian-medium-green-chile_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_colorado-green-chili_hot-green-chili-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "target_505-southwestern_flame-roasted-hatch-valley-mild-green-chile_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_herdez_queso-con-salsa-medium_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_fresh-innovations_white-queso_12oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_fillos_bean-salsa-verde-corn-bar-walking-tamales_4oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_jeffs-garden_fresno-chili-peppers-12-ounce_12oz"
+},
+{
+"action": "new",
+"runner": "costco_tostitos_queso-variety-pack_23oz"
+},
+{
+"action": "new",
+"runner": "safeway_o-organics_green-chiles-diced_4oz"
+},
+{
+"action": "new",
+"runner": "target_hatch_diced-green-chiles-mild_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_old-el-paso_mild-chopped-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_mateos_medium-salsa-con-queso-gourmet-queso_15oz"
+},
+{
+"action": "new",
+"runner": "target_la-victoria_thick-n-chunky-medium-salsa-verde_15-5oz"
+},
+{
+"action": "new",
+"runner": "safeway_tostitos_dip-queso-blanco-medium_15oz"
+},
+{
+"action": "new",
+"runner": "heb_add-to-cart_tamales-aguilar-pork-tamales_12ct"
+},
+{
+"action": "new",
+"runner": "walmart_la-preferida_2-pack-la-preferida-tamales-beef-pork-with-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_ortega_green-chiles-diced-fire-roasted-mild-can_4oz"
+},
+{
+"action": "new",
+"runner": "walmart_tostitos_con-queso-cheese-no-artificial-colors-no-artificial-flavors_23oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_la-preferida_organic-green-chiles-mild-diced_4oz"
+},
+{
+"action": "new",
+"runner": "safeway_bueno_chile-green-chopped-mild_28oz"
+},
+{
+"action": "new",
+"runner": "city-market_boulder-organic_foods-gluten-free-green-chile-corn-chowder_24oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_stokes_green-chile-sauce-with-pork_25oz"
+},
+{
+"action": "new",
+"runner": "target_hatch_mild-green-chile-enchilada-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "city-market_el-pinto_fire-roasted-hot-green-chile-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_unbranded_pack-of-21-fillos-walking-tamales-corn-poblano-rajas_4oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_muir-glen_organic-chili-starter-with-jalapenos_28oz"
+},
+{
+"action": "new",
+"runner": "heb_h-e-b_classic-queso-dip-mild_12oz"
+},
+{
+"action": "new",
+"runner": "city-market_505-southwestern_mild-hatch-valley-green-chile-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "heb_mi-tienda-h-e-b_h-e-b-mi-tienda-chicken-tamales-de-pollo_12ct"
+},
+{
+"action": "new",
+"runner": "target_san-miguel-family-foods_san-miguel-green-salsa-tamale_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_rojos_la-mexicana-queso-blanco-mild_12oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_rojos_la-mexicana-queso-blanco-mild_12oz"
+},
+{
+"action": "new",
+"runner": "heb_mi-tienda-h-e-b_h-e-b-mi-tienda-spicy-pork-tamales-de-puerco-picante_12ct"
+},
+{
+"action": "new",
+"runner": "walmart_pace_medium-queso-blanco-cheese-dip_15oz"
+},
+{
+"action": "new",
+"runner": "city-market_tostitos_medium-con-queso-salsa-dip_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_las-palmas_sauce-enchilada-green-chile-mild-can_28oz"
+},
+{
+"action": "new",
+"runner": "heb_hatch_h-e-b-natural-in-house-roasted-hatch-chile-turkey-breast-sandwich-sliced-avg_12oz"
+},
+{
+"action": "new",
+"runner": "city-market_tostitos_smooth-cheesy-queso-dip_15oz"
+},
+{
+"action": "new",
+"runner": "heb_tostitos_medium-salsa-con-queso-flavored-dip_15oz"
+},
+{
+"action": "new",
+"runner": "heb_hormel_beef-tamales-in-chili-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "target_old-el-paso_enchilada-sauce-mild-green-chili_10oz"
+},
+{
+"action": "new",
+"runner": "heb_mam-lycha_queso-duroblando-cheese_12oz"
+},
+{
+"action": "new",
+"runner": "safeway_gordos_dip-homestyle-queso_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_chaparros_tamales-shredded-beef-red-chili-frozen-8-pack_40oz"
+},
+{
+"action": "new",
+"runner": "walmart_velveeta_queso-blanco-pasteurized-recipe-cheese-product_32oz"
+},
+{
+"action": "new",
+"runner": "city-market_burns-mccoy_hatch-green-chile-mild-heat-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "heb_mi-tienda-h-e-b_h-e-b-mi-tienda-pork-tamales-de-puerco_12ct"
+},
+{
+"action": "new",
+"runner": "wholefoods_fillos-bean_salsa-habanero-walking-tamales_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_stinkin-good_schlereths-stinkin-good-green-chile-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_hatch-select_green-chiles-gluten-free-diced-hot-can_4oz"
+},
+{
+"action": "new",
+"runner": "heb_h-e-b_queso-blanco-dip-mild_12oz"
+},
+{
+"action": "new",
+"runner": "city-market_del-real_foods-gluten-free-pork-tamales_24oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_tostitos_hot-spicy-queso-dip_15oz"
+},
+{
+"action": "new",
+"runner": "city-market_santiagos_authentic-green-chile-sauce-with-pork_28oz"
+},
+{
+"action": "new",
+"runner": "walmart_fillos_7-pack-fillos-walking-tamales-bean-salsa-habanero-tamale_4oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_365-by-whole-foods-market_queso_12oz"
+},
+{
+"action": "new",
+"runner": "sprouts_hatch_mild-diced-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "safeway_bueno_pork-hot-tamales-12-pk_36oz"
+},
+{
+"action": "new",
+"runner": "target_lets-dish_crunchy-chicken-queso-bake_35-5oz"
+},
+{
+"action": "new",
+"runner": "safeway_hatch-select_green-chiles-glut-sted-mild-can_4oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_zia-green-chile-company_roasted-hatch-green-chile-hot_16oz"
+},
+{
+"action": "new",
+"runner": "heb_h-e-b_hot-pepper-queso-dip-spicy_12oz"
+},
+{
+"action": "new",
+"runner": "heb_meal-simple-by-h-e-b_chorizo-queso-dip-avg_14-08oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_tucson-tamale_green-chile-pork-cheese-tamale_5oz"
+},
+{
+"action": "new",
+"runner": "city-market_las-palmas_medium-green-chile-enchilada-sauce_19oz"
+},
+{
+"action": "new",
+"runner": "city-market_yucatan_mild-chunky-hatch-green-chile-guacamole_7-5oz"
+},
+{
+"action": "new",
+"runner": "sprouts_hatch_mild-whole-green-chiles_27oz"
+},
+{
+"action": "new",
+"runner": "target_505-southwestern_hatch-valley-flame-roasted-medium-heat-green-chile_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_hormel_beef-tamales-in-chili-sauce-canned-tamales-shelf-stable_15oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_505-southwestern_green-chile-queso-dip_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_herdez_dip-queso-con-jalapenos-jar_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_unbranded_pork-tamales_12ct"
+},
+{
+"action": "new",
+"runner": "king-soopers_hatch_mild-chopped-green-chiles_27oz"
+},
+{
+"action": "new",
+"runner": "target_las-palmas_green-chile-enchilada-sauce_10oz"
+},
+{
+"action": "new",
+"runner": "city-market_queso-melt_original-premium-melting-cheese_10oz"
+},
+{
+"action": "new",
+"runner": "costco_texas-tamale-co_texas-tamale-co-pork-tamales-6pk-of-12-each-72-count_6ct"
+},
+{
+"action": "new",
+"runner": "target_505-southwestern_mild-roasted-green-chile_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_tostitos_medium-con-queso-salsa-dip_23oz"
+},
+{
+"action": "new",
+"runner": "sprouts_fillos_sweet-corn-elotes-walking-tamales_4oz"
+},
+{
+"action": "new",
+"runner": "walmart_los-roast_green-chile-new-mexico-hot_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_taco-bell_mild-salsa-con-queso-cheese-dip_15oz"
+},
+{
+"action": "new",
+"runner": "walmart_velveeta_queso-con-salsa-cheese-dip_15oz"
+},
+{
+"action": "new",
+"runner": "sprouts_fillos_corn-poblano-rajas-walking-tamales_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_505-southwestern_hot-green-chile-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "target_market-pantry_hot-diced-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "walmart_unbranded_2-pack-derby-beef-and-pork-tamales-with-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "costco_frito-lay_tostitos-salsa-con-queso-dip_23oz"
+},
+{
+"action": "new",
+"runner": "walmart_fillos_instant-walking-tamales-variety-5-pack-bean-salsa-roja-bean-salsa-verde-bean-salsa-habanero-corn-poblano-roja-sweet-corn-elote-merlinsmart-zine-shawhan-farms-parmesan_5ct"
+},
+{
+"action": "new",
+"runner": "walmart_fillos_walking-tamales-corn-poblano-rajas-tamale_4oz"
+},
+{
+"action": "new",
+"runner": "sprouts_melissas_thai-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_queso-campesino_crema-mexicana_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_nanitas-finest_green-chile-sc_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_el-pinto_fire-roasted-hot-green-chile-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_tostitos_medium-queso-blanco-cheese-no-artificial-colors-no-artificial-flavors_15oz"
+},
+{
+"action": "new",
+"runner": "sprouts_nanitas-finest_medium-green-chile-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "walmart_ortega_fire-roasted-mild-diced-green-chiles-kosher_4oz"
+},
+{
+"action": "new",
+"runner": "city-market_nanitas-finest_green-chile-hot-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_bueno_pork-tamale-hot_18oz"
+},
+{
+"action": "new",
+"runner": "city-market_tostitos_jalapeno-popper-queso-dip_15oz"
+},
+{
+"action": "new",
+"runner": "city-market_tostitos_hot-spicy-queso-dip_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_stokes_green-chile-sauce-with-pork-mild-can_15oz"
+},
+{
+"action": "new",
+"runner": "target_tia-lupita-foods_tia-lupita-salsa-verde_8oz"
+},
+{
+"action": "new",
+"runner": "walmart_great-value-canned_medium-diced-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "safeway_nanitas-finest_sauce-green-chile-mild-jar_16oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_zia-hatch-chile-company_zia-green-chile-company-hatch-roasted-medium-16-ounce_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_hatch_mild-green-chile-enchilada-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_chaparros_beef-tamales_30oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_amys_frozen-meals-black-bean-tamale-verde_10-3oz"
+},
+{
+"action": "new",
+"runner": "safeway_on-the-border_queso-jalapeno-tray-pack_15-25oz"
+},
+{
+"action": "new",
+"runner": "walmart_la-preferida_6-pack-la-preferida-diced-green-chiles_4oz"
+},
+{
+"action": "new",
+"runner": "heb_hatch_central-market-hatch-green-chile-queso-medium_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_tostitos_smooth-cheesy-queso-dip_15oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_stinkin-good_stinkin-good-blanco-queso-medium_15oz"
+},
+{
+"action": "new",
+"runner": "heb_mi-tienda-h-e-b_h-e-b-mi-tienda-chicken-cream-cheese-tamales-de-pollo-y-queso-crema_12ct"
+},
+{
+"action": "new",
+"runner": "city-market_tostitos_medium-queso-blanco-dip_15oz"
+},
+{
+"action": "new",
+"runner": "walmart_6-pack-ricos_queso-pronto-mild-cheese-dip-spread-with-green-chiles_15oz"
+},
+{
+"action": "new",
+"runner": "safeway_fresh-innovations_yellow-queso_12oz"
+},
+{
+"action": "new",
+"runner": "city-market_smart-way_queso-blanco-with-jalape-os-nicen-cheesy_32oz"
+},
+{
+"action": "new",
+"runner": "sprouts_mateos_medium-gourmet-hatch-chile-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_la-estrellita_vegetarian-medium-green-chile_16oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_queso-campesino_asadero-cheese_12oz"
+},
+{
+"action": "new",
+"runner": "heb_h-e-b-specialty-series_medium-salsa-green-chile-tomatillo_16oz"
+},
+{
+"action": "new",
+"runner": "target_arriba_arriba-original-pineapple-red-chile-inspired-by-al-pastor-barbecue-sauce_14oz"
+},
+{
+"action": "new",
+"runner": "heb_h-e-b_queso-with-smoked-brisket_12oz"
+},
+{
+"action": "new",
+"runner": "safeway_hot-tamales_fierce-cinnamon-chewy-candy-stand-up-bag_10oz"
+},
+{
+"action": "new",
+"runner": "safeway_las-palmas_sauce-enchilada-green-chile-medium-can_28oz"
+},
+{
+"action": "new",
+"runner": "city-market_la-favorita_pork-tamales_18oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_credo-foods_medium-oatmilk-queso_11oz"
+},
+{
+"action": "new",
+"runner": "city-market_robertos_mild-green-chile-salsa_15oz"
+},
+{
+"action": "new",
+"runner": "heb_culinary-cowgirls_lone-star-queso-dip_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_gilbertos-gourmet-goodness_smokin-hot-green-chile-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "heb_add-to-cart_hot-tamales-fierce-cinnamon-chewy-candy-theater-box_4-25oz"
+},
+{
+"action": "new",
+"runner": "city-market_on-the-border_spicy-jalape-o-queso_15-25oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_burns-mccoy_hatch-green-chile-mild-heat-salsa_16oz"
+},
+{
+"action": "new",
+"runner": "city-market_hatch_medium-green-chile-enchilada-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_tucson-tamale_company-green-chile-chicken-tamales_10oz"
+},
+{
+"action": "new",
+"runner": "costco_texas-tamale-co_texas-tamale-co-beef-tamales-6pk-of-12-each-72-count_6ct"
+},
+{
+"action": "new",
+"runner": "safeway_on-the-border_queso-creamy-monterrey-jack-jar_15-5oz"
+},
+{
+"action": "new",
+"runner": "safeway_on-the-border_hatch-green-queso_15-5oz"
+},
+{
+"action": "new",
+"runner": "costco_texas-tamale-co_texas-tamale-co-chicken-tamales-6-pack-of-12-each-72-count_6ct"
+},
+{
+"action": "new",
+"runner": "king-soopers_private-selection_chipotle-peppers-medium-salsa-con-queso-cheese-dip_12oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_tucson-tamale_green-chile-cheese-tamale_5oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_primal-kitchen_no-dairy-queso-style-plant-based-dip_11-5oz"
+},
+{
+"action": "new",
+"runner": "city-market_kroger_queso-blanco-white-cheese-sauce_15oz"
+},
+{
+"action": "new",
+"runner": "city-market_colorado-green-chili_medium-green-chili-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "wholefoods_tacodeli_queso-blanco-with-jalapenos-12-ounce_12oz"
+},
+{
+"action": "new",
+"runner": "safeway_tostitos_dip-spicy-queso-hot_15oz"
+},
+{
+"action": "new",
+"runner": "city-market_tucson-tamale_green-chile-pork-cheese-tamale_5oz"
+},
+{
+"action": "new",
+"runner": "target_counter_beefy-queso-burrito_7-2oz"
+},
+{
+"action": "new",
+"runner": "heb_h-e-b_pork-sausage-queso-dip-medium-spicy_12oz"
+},
+{
+"action": "new",
+"runner": "king-soopers_colorado-green-chili_hot-green-chili-sauce_16oz"
+},
+{
+"action": "new",
+"runner": "sprouts_texas-tamale-co_texas-tamale-company-gourmet-black-bean-tamales_12ct"
+},
+{
+"action": "new",
+"runner": "safeway_herdez_salsa-con-queso-dip-medium_15oz"
+},
+{
+"action": "new",
+"runner": "costco_nutty-fruity_spicy-chili-tamarind-bites_24oz"
+},
+{
+"action": "new",
+"runner": "heb_add-to-cart_tamales-aguilar-chicken-tamales_12ct"
+}
+]

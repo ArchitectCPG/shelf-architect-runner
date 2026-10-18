@@ -1,0 +1,39 @@
+{
+ "brand": "Fresh Innovations",
+ "product_name": "White Queso",
+ "retailer": "Safeway",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.99,
+ "price_regular": 5.99,
+ "price_basis": "shelf",
+ "size_oz": 12.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.4992,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 5.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "757 E 20th Ave",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/queso@safeway",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@safeway"
+ ],
+ "pull_url": "https://www.safeway.com/shop/pd/fresh-innovations-white-queso-12oz-12-oz/971280571",
+ "notes": "Runner pull 2026-10-18, lane safeway, store: 757 E 20th Ave.",
+ "category": "refrigerated"
+}

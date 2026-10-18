@@ -1,0 +1,40 @@
+{
+ "brand": "La Preferida",
+ "product_name": "Tamales Beef & Pork, 15-Ounce Can (Pack Of 1)",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 7.49,
+ "price_regular": 7.49,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 7.49
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "100088954162",
+ "block": "refrigerated/tamales@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/La-Preferida-Tamales-Beef-Pork-15-Ounce-Can-Pack-Of-1/785575605?classType=REGULAR",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated",
+ "hold_reason": "no size parsed"
+}

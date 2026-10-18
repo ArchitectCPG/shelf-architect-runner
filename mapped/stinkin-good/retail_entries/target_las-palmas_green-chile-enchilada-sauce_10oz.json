@@ -1,0 +1,39 @@
+{
+ "brand": "Las Palmas",
+ "product_name": "Green Chile Enchilada Sauce",
+ "retailer": "Target",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 2.49,
+ "price_regular": 2.49,
+ "price_basis": "shelf",
+ "size_oz": 10.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.249,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 2.49
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "041501111086",
+ "block": "refrigerated/green-chile@target",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@target"
+ ],
+ "pull_url": "https://www.target.com/p/las-palmas-green-chile-enchilada-sauce-10-fl-oz/-/A-16482549",
+ "notes": "Runner pull 2026-10-18, lane target, store: API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "refrigerated"
+}

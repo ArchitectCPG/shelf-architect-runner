@@ -1,0 +1,40 @@
+{
+ "brand": "HATCH",
+ "product_name": "H-E-B Natural In-House Roasted Hatch Chile-Seasoned Turkey Breast, Custom Sliced, lb",
+ "retailer": "H-E-B",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 12.99,
+ "price_regular": 12.99,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 12.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/green-chile@heb",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@heb"
+ ],
+ "pull_url": "https://www.heb.com/search?q=green%20chile",
+ "notes": "Runner pull 2026-10-18, lane heb, store: Buffalo Market H\u2011E\u2011B On Buffalo Speedway.",
+ "category": "refrigerated",
+ "hold_reason": "no size parsed"
+}

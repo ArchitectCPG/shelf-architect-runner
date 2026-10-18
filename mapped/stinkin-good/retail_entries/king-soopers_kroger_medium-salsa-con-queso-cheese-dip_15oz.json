@@ -1,0 +1,39 @@
+{
+ "brand": "Kroger",
+ "product_name": "Medium Salsa Con Queso Cheese Dip",
+ "retailer": "King Soopers",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": true,
+ "source_type": "scrape",
+ "price": 3.49,
+ "price_regular": 3.49,
+ "price_basis": "shelf",
+ "size_oz": 15.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.2327,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 3.49
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0001111085373",
+ "block": "refrigerated/queso@kingsoopers",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/kroger-medium-salsa-con-queso-cheese-dip/0001111085373?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-10-18, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "refrigerated"
+}

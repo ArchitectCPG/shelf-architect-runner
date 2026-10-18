@@ -1,0 +1,39 @@
+{
+ "brand": "Pancho's",
+ "product_name": "White Queso Cheese Dip",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.97,
+ "price_regular": 4.97,
+ "price_basis": "shelf",
+ "size_oz": 16.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.3106,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 4.97
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "032812070049",
+ "block": "refrigerated/queso@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Pancho-s-White-Queso-Cheese-Dip-16-oz-Tub/19399801?classType=REGULAR&athbdg=L1600",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

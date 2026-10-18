@@ -1,0 +1,713 @@
+{
+ "blocks": [
+  {
+   "block": "3092-olives-dips-spreads/salsa@albertsons",
+   "last_result": "walked: 8 houses, client house absent (GROWTH neighborhood, no client house expected), store context not shown on Instacart",
+   "last_walked": "2026-09-26",
+   "neighborhood": "salsa-refrigerated",
+   "retailer": "albertsons",
+   "route": "instacart-collection",
+   "url": "https://www.instacart.com/store/albertsons/collections/3092-olives-dips-spreads",
+   "zip": "3092-olives-dips-spreads"
+  },
+  {
+   "block": "3092-olives-dips-spreads/guacamole@albertsons",
+   "last_result": "walked: 5 houses, client house absent (SCOUT neighborhood), store context not shown on Instacart",
+   "last_walked": "2026-09-26",
+   "neighborhood": "guacamole",
+   "retailer": "albertsons",
+   "route": "instacart-collection",
+   "url": "https://www.instacart.com/store/albertsons/collections/3092-olives-dips-spreads",
+   "zip": "3092-olives-dips-spreads"
+  },
+  {
+   "block": "condiments-sauces/salsa@albertsons",
+   "last_result": "walked: 19 houses, client house absent (SCOUT neighborhood), store context not shown on Instacart",
+   "last_walked": "2026-09-26",
+   "neighborhood": "salsa-jarred",
+   "retailer": "albertsons",
+   "route": "instacart-collection",
+   "url": "https://www.instacart.com/store/albertsons/collections/salsa",
+   "zip": "condiments-sauces"
+  },
+  {
+   "block": "green chile@albertsons",
+   "last_result": "walked: 12 houses, client house absent (page 1 of 518, 4700 N Eagle Rd Boise store)",
+   "last_walked": "2026-09-26",
+   "neighborhood": "greenchile",
+   "retailer": "albertsons",
+   "route": "chrome-search",
+   "url": "https://www.albertsons.com/shop/search-results.html?q=green%20chile",
+   "zip": null
+  },
+  {
+   "block": "queso@albertsons",
+   "last_result": "walked: 11 houses, client house absent (page 1, 4700 N Eagle Rd Boise store)",
+   "last_walked": "2026-09-26",
+   "neighborhood": "queso",
+   "retailer": "albertsons",
+   "route": "chrome-search",
+   "url": "https://www.albertsons.com/shop/search-results.html?q=queso",
+   "zip": null
+  },
+  {
+   "block": "green chile@king-soopers",
+   "last_result": "walked: 16 houses, client house present (Stinkin Good Green Chili 15 oz at 6.99, position 15 of page 1, Bennett CO store)",
+   "last_walked": "2026-09-26",
+   "neighborhood": "greenchile",
+   "retailer": "king-soopers",
+   "route": "webfetch-search",
+   "url": "https://www.kingsoopers.com/search?query=green%20chile",
+   "zip": null
+  },
+  {
+   "block": "queso@king-soopers",
+   "last_result": "walked: 17 houses, client queso absent from page 1 of 584 (Bennett CO store)",
+   "last_walked": "2026-09-26",
+   "neighborhood": "queso",
+   "retailer": "king-soopers",
+   "route": "webfetch-search",
+   "url": "https://www.kingsoopers.com/search?query=queso",
+   "zip": null
+  },
+  {
+   "block": "green chile@city-market",
+   "last_result": "walked: 19 houses, client house absent from page 1 of 264 but Stinkin Good and Mark Schlereths both listed in the brands filter (Woodland Park CO store)",
+   "last_walked": "2026-09-26",
+   "neighborhood": "greenchile",
+   "retailer": "city-market",
+   "route": "webfetch-search",
+   "url": "https://www.citymarket.com/search?query=green%20chile",
+   "zip": null
+  },
+  {
+   "block": "green chile@kroger",
+   "last_result": "walked: 13 houses, client house absent (page 1 of 162, LaPorte IN store)",
+   "last_walked": "2026-09-26",
+   "neighborhood": "greenchile",
+   "retailer": "kroger",
+   "route": "chrome-search",
+   "url": "https://www.kroger.com/search?query=green%20chile",
+   "zip": null
+  },
+  {
+   "block": "green chile@jewel-osco",
+   "last_result": "walked: 10 houses, client house absent (page 1 of 559, 2940 N Ashland Ave Chicago store)",
+   "last_walked": "2026-09-26",
+   "neighborhood": "greenchile",
+   "retailer": "jewel-osco",
+   "route": "chrome-search",
+   "url": "https://www.jewelosco.com/shop/search-results.html?q=green%20chile",
+   "zip": null
+  },
+  {
+   "block": "3092-olives-dips-spreads/salsa@safeway",
+   "last_result": "walked: 18 houses, client house absent (GROWTH neighborhood), store context not shown on Instacart",
+   "last_walked": "2026-09-26",
+   "neighborhood": "salsa-refrigerated",
+   "note": "slug assumed shared across Albertsons Companies banners, verify on first walk",
+   "retailer": "safeway",
+   "route": "instacart-collection",
+   "url": "https://www.instacart.com/store/safeway/collections/3092-olives-dips-spreads",
+   "zip": "3092-olives-dips-spreads"
+  },
+  {
+   "block": "81501/brand@citymarket",
+   "retailer": "citymarket",
+   "neighborhood": "brand",
+   "zip": "81501",
+   "route": "runner-kroger-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 4 houses across 1 brands",
+   "store": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+   "runner_block": "stinkin-good/brand@citymarket-api-grand-junction"
+  },
+  {
+   "block": "81501/green-chile@citymarket",
+   "retailer": "citymarket",
+   "neighborhood": "green-chile",
+   "zip": "81501",
+   "route": "runner-kroger-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 87 houses across 37 brands",
+   "store": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+   "runner_block": "stinkin-good/green-chile@citymarket-api-grand-junction"
+  },
+  {
+   "block": "81501/queso@citymarket",
+   "retailer": "citymarket",
+   "neighborhood": "queso",
+   "zip": "81501",
+   "route": "runner-kroger-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 35 houses across 18 brands",
+   "store": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+   "runner_block": "stinkin-good/queso@citymarket-api-grand-junction"
+  },
+  {
+   "block": "81501/tamales@citymarket",
+   "retailer": "citymarket",
+   "neighborhood": "tamales",
+   "zip": "81501",
+   "route": "runner-kroger-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 9 houses across 5 brands",
+   "store": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+   "runner_block": "stinkin-good/tamales@citymarket-api-grand-junction"
+  },
+  {
+   "block": "80202/brand@costco",
+   "retailer": "costco",
+   "neighborhood": "brand",
+   "zip": "80202",
+   "route": "runner-instacart",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 1 houses across 1 brands",
+   "store": "API zip 80202 shop 2043 location 439",
+   "runner_block": "stinkin-good/brand@costco-ic-denver"
+  },
+  {
+   "block": "80202/green-chile@costco",
+   "retailer": "costco",
+   "neighborhood": "green-chile",
+   "zip": "80202",
+   "route": "runner-instacart",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 10 houses across 9 brands",
+   "store": "API zip 80202 shop 2043 location 439",
+   "runner_block": "stinkin-good/green-chile@costco-ic-denver"
+  },
+  {
+   "block": "80202/queso@costco",
+   "retailer": "costco",
+   "neighborhood": "queso",
+   "zip": "80202",
+   "route": "runner-instacart",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 0 houses across 0 brands",
+   "store": "API zip 80202 shop 2043 location 439",
+   "runner_block": "stinkin-good/queso@costco-ic-denver"
+  },
+  {
+   "block": "80202/tamales@costco",
+   "retailer": "costco",
+   "neighborhood": "tamales",
+   "zip": "80202",
+   "route": "runner-instacart",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 2 houses across 2 brands",
+   "store": "API zip 80202 shop 2043 location 439",
+   "runner_block": "stinkin-good/tamales@costco-ic-denver"
+  },
+  {
+   "block": "80202/brand@costco-online",
+   "retailer": "costco-online",
+   "neighborhood": "brand",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": null,
+   "last_result": "no data",
+   "store": null,
+   "runner_block": "stinkin-good/brand@costco-online-denver"
+  },
+  {
+   "block": "80202/green-chile@costco-online",
+   "retailer": "costco-online",
+   "neighborhood": "green-chile",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 2 houses across 2 brands",
+   "store": "costco.com online (national, 2-day delivery pricing)",
+   "runner_block": "stinkin-good/green-chile@costco-online-denver"
+  },
+  {
+   "block": "80202/queso@costco-online",
+   "retailer": "costco-online",
+   "neighborhood": "queso",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 2 houses across 2 brands",
+   "store": "costco.com online (national, 2-day delivery pricing)",
+   "runner_block": "stinkin-good/queso@costco-online-denver"
+  },
+  {
+   "block": "80202/tamales@costco-online",
+   "retailer": "costco-online",
+   "neighborhood": "tamales",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 4 houses across 1 brands",
+   "store": "costco.com online (national, 2-day delivery pricing)",
+   "runner_block": "stinkin-good/tamales@costco-online-denver"
+  },
+  {
+   "block": "77005/green-chile@heb",
+   "retailer": "heb",
+   "neighborhood": "green-chile",
+   "zip": "77005",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 59 houses across 16 brands",
+   "store": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+   "runner_block": "stinkin-good/green-chile@heb-houston"
+  },
+  {
+   "block": "77005/queso@heb",
+   "retailer": "heb",
+   "neighborhood": "queso",
+   "zip": "77005",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 25 houses across 10 brands",
+   "store": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+   "runner_block": "stinkin-good/queso@heb-houston"
+  },
+  {
+   "block": "77005/tamales@heb",
+   "retailer": "heb",
+   "neighborhood": "tamales",
+   "zip": "77005",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 20 houses across 3 brands",
+   "store": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+   "runner_block": "stinkin-good/tamales@heb-houston"
+  },
+  {
+   "block": "80202/brand@kingsoopers",
+   "retailer": "kingsoopers",
+   "neighborhood": "brand",
+   "zip": "80202",
+   "route": "runner-kroger-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 4 houses across 1 brands",
+   "store": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+   "runner_block": "stinkin-good/brand@kingsoopers-api-denver"
+  },
+  {
+   "block": "80202/green-chile@kingsoopers",
+   "retailer": "kingsoopers",
+   "neighborhood": "green-chile",
+   "zip": "80202",
+   "route": "runner-kroger-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 86 houses across 36 brands",
+   "store": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+   "runner_block": "stinkin-good/green-chile@kingsoopers-api-denver"
+  },
+  {
+   "block": "80202/queso@kingsoopers",
+   "retailer": "kingsoopers",
+   "neighborhood": "queso",
+   "zip": "80202",
+   "route": "runner-kroger-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 46 houses across 22 brands",
+   "store": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+   "runner_block": "stinkin-good/queso@kingsoopers-api-denver"
+  },
+  {
+   "block": "80202/tamales@kingsoopers",
+   "retailer": "kingsoopers",
+   "neighborhood": "tamales",
+   "zip": "80202",
+   "route": "runner-kroger-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 14 houses across 6 brands",
+   "store": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+   "runner_block": "stinkin-good/tamales@kingsoopers-api-denver"
+  },
+  {
+   "block": "80202/green-chile@safeway",
+   "retailer": "safeway",
+   "neighborhood": "green-chile",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 28 houses across 15 brands",
+   "store": "757 E 20th Ave",
+   "runner_block": "stinkin-good/green-chile@safeway-denver"
+  },
+  {
+   "block": "80202/queso@safeway",
+   "retailer": "safeway",
+   "neighborhood": "queso",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 15 houses across 7 brands",
+   "store": "757 E 20th Ave",
+   "runner_block": "stinkin-good/queso@safeway-denver"
+  },
+  {
+   "block": "80202/tamales@safeway",
+   "retailer": "safeway",
+   "neighborhood": "tamales",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 15 houses across 11 brands",
+   "store": "757 E 20th Ave",
+   "runner_block": "stinkin-good/tamales@safeway-denver"
+  },
+  {
+   "block": "80202/green-chile@sprouts",
+   "retailer": "sprouts",
+   "neighborhood": "green-chile",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 28 houses across 17 brands",
+   "store": "API zip 80202 shop 514311 location 21118",
+   "runner_block": "stinkin-good/green-chile@sprouts-denver"
+  },
+  {
+   "block": "80202/queso@sprouts",
+   "retailer": "sprouts",
+   "neighborhood": "queso",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 5 houses across 4 brands",
+   "store": "API zip 80202 shop 514311 location 21118",
+   "runner_block": "stinkin-good/queso@sprouts-denver"
+  },
+  {
+   "block": "80202/tamales@sprouts",
+   "retailer": "sprouts",
+   "neighborhood": "tamales",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 13 houses across 5 brands",
+   "store": "API zip 80202 shop 514311 location 21118",
+   "runner_block": "stinkin-good/tamales@sprouts-denver"
+  },
+  {
+   "block": "80202/green-chile@target",
+   "retailer": "target",
+   "neighborhood": "green-chile",
+   "zip": "80202",
+   "route": "runner-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 26 houses across 16 brands",
+   "store": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
+   "runner_block": "stinkin-good/green-chile@target-denver"
+  },
+  {
+   "block": "80202/queso@target",
+   "retailer": "target",
+   "neighborhood": "queso",
+   "zip": "80202",
+   "route": "runner-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 3 houses across 3 brands",
+   "store": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
+   "runner_block": "stinkin-good/queso@target-denver"
+  },
+  {
+   "block": "80202/tamales@target",
+   "retailer": "target",
+   "neighborhood": "tamales",
+   "zip": "80202",
+   "route": "runner-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 7 houses across 4 brands",
+   "store": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
+   "runner_block": "stinkin-good/tamales@target-denver"
+  },
+  {
+   "block": "80202/green-chile@walmart",
+   "retailer": "walmart",
+   "neighborhood": "green-chile",
+   "zip": "80202",
+   "route": "runner-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 33 houses across 18 brands",
+   "store": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+   "runner_block": "stinkin-good/green-chile@walmart-denver"
+  },
+  {
+   "block": "80202/queso@walmart",
+   "retailer": "walmart",
+   "neighborhood": "queso",
+   "zip": "80202",
+   "route": "runner-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 28 houses across 14 brands",
+   "store": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+   "runner_block": "stinkin-good/queso@walmart-denver"
+  },
+  {
+   "block": "80202/tamales@walmart",
+   "retailer": "walmart",
+   "neighborhood": "tamales",
+   "zip": "80202",
+   "route": "runner-api",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 26 houses across 6 brands",
+   "store": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+   "runner_block": "stinkin-good/tamales@walmart-denver"
+  },
+  {
+   "block": "80202/green-chile@wholefoods",
+   "retailer": "wholefoods",
+   "neighborhood": "green-chile",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 12 houses across 10 brands",
+   "store": null,
+   "runner_block": "stinkin-good/green-chile@wholefoods-denver"
+  },
+  {
+   "block": "80202/queso@wholefoods",
+   "retailer": "wholefoods",
+   "neighborhood": "queso",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 11 houses across 4 brands",
+   "store": "80202",
+   "runner_block": "stinkin-good/queso@wholefoods-denver"
+  },
+  {
+   "block": "80202/tamales@wholefoods",
+   "retailer": "wholefoods",
+   "neighborhood": "tamales",
+   "zip": "80202",
+   "route": "runner-recipe",
+   "last_walked": "2026-10-17",
+   "last_result": "walked: 9 houses across 4 brands",
+   "store": "80202",
+   "runner_block": "stinkin-good/tamales@wholefoods-denver"
+  }
+ ],
+ "category": "Colorado green chile, queso, refrigerated Mexican prepared",
+ "client_id": "stinkin-good",
+ "created_by": "fable, stage 1 pilot 2026-09-12",
+ "dma_zips": [
+  {
+   "slug": "los-angeles-ca",
+   "zip": "90066"
+  },
+  {
+   "slug": "denver-co",
+   "zip": "80206"
+  },
+  {
+   "slug": "phoenix-az",
+   "zip": "85016"
+  },
+  {
+   "slug": "dallas-tx",
+   "zip": "75206"
+  }
+ ],
+ "freshness_days": 14,
+ "houses": {
+  "client": [
+   {
+    "brand": "Stinkin' Good",
+    "format": "Refrigerated",
+    "product_name": "Pork Green Chile",
+    "size": "15 oz",
+    "srp": 6.99
+   },
+   {
+    "brand": "Stinkin' Good",
+    "format": "Refrigerated",
+    "product_name": "Queso Blanco Mild",
+    "size": "15 oz",
+    "srp": 6.99
+   }
+  ],
+  "competitors": [
+   {
+    "brand": "505 Southwestern",
+    "kind": "real"
+   },
+   {
+    "brand": "Del Real",
+    "kind": "real"
+   },
+   {
+    "brand": "Santiago's",
+    "kind": "real"
+   },
+   {
+    "brand": "Queso Mama",
+    "kind": "real"
+   },
+   {
+    "brand": "Private Selection",
+    "kind": "real"
+   },
+   {
+    "brand": "Herdez",
+    "kind": "perceived"
+   }
+  ]
+ },
+ "neighborhoods": [
+  {
+   "id": "greenchile",
+   "kind": "HOME",
+   "label": "Green chile / deli (refrigerated)",
+   "search_terms": [
+    "green chile",
+    "chile verde",
+    "pork green chile"
+   ]
+  },
+  {
+   "id": "queso",
+   "kind": "HOME",
+   "label": "Queso / dips (refrigerated)",
+   "search_terms": [
+    "queso",
+    "queso dip",
+    "queso blanco"
+   ]
+  },
+  {
+   "id": "salsa-refrigerated",
+   "kind": "GROWTH",
+   "label": "Refrigerated salsa (deli case)",
+   "search_terms": [
+    "fresh salsa",
+    "salsa verde"
+   ]
+  },
+  {
+   "id": "salsa-jarred",
+   "kind": "SCOUT",
+   "label": "Jarred salsa (aisle)",
+   "search_terms": [
+    "salsa"
+   ]
+  },
+  {
+   "id": "guacamole",
+   "kind": "SCOUT",
+   "label": "Guacamole",
+   "search_terms": [
+    "guacamole"
+   ]
+  }
+ ],
+ "note": "Activated 2026-09-12 14:02 UTC as the end-to-end test of the daily pull job (first unattended run fires 14:06 UTC). Green chile and queso blocks still need their Instacart sub-collection found; direct-search blocks cover them meanwhile. | 2026-10-18: runner lane blocks added (route runner-*), first runner landing; hand-pulled blocks kept, they age.",
+ "paused": {
+  "by": "Steve, in session",
+  "date": "2026-10-02",
+  "note": "Ok to stop at this point. No walker is scheduled; rows on file stay as the last read (2026-09-26)."
+ },
+ "proposed_changes": [
+  {
+   "applied": "2026-10-02 in session: Steve said Stinkin Good is ok to stop at this point. Matrix status set to paused, no instance or pull task created.",
+   "date": "2026-10-02",
+   "id": "pc-2026-10-02-01",
+   "proposal": "Decide where this client lives. Either give it its own instance per new_client_setup, register it in app_meta/instances, run Stage 0 and create its pull task, or set the matrix to paused until the engagement needs a fresh read.",
+   "proposed_by": "fable, stage 3, Friday iteration thesis (scheduled)",
+   "reason": "The daily block pull that walked this matrix was retired 9/27 and deleted 9/28. The instance registry says a client not registered there is not pulled by any scheduled job. The matrix is still active at 14 day freshness, so all 11 blocks go stale 10/10 with nothing scheduled to walk them.",
+   "status": "applied",
+   "target": "pull_matrix/stinkin-good, app_meta/instances, task map",
+   "type": "sop"
+  },
+  {
+   "date": "2026-10-02",
+   "id": "pc-2026-10-02-02",
+   "parked": "2026-10-02: matrix paused per Steve, not approved or rejected. Revisit if the pull restarts.",
+   "proposal": "Split into greenchile-refrigerated (HOME: Santiago's, Private Selection, Del Real, 505 refrigerated tubs) and green-chile-canned (SCOUT, context only: Hatch, Ortega, Las Palmas, 505 jars). Retag the 70 rows on file by format, no re-walk needed for the split itself.",
+   "proposed_by": "fable, stage 3, Friday iteration thesis (scheduled)",
+   "reason": "59 of 70 green chile rows are shelf stable and 2 are frozen. Discovery says the pricing benchmark is refrigerated only. One shelf is hiding two competitive sets and the canned one is drowning the real one.",
+   "status": "parked",
+   "target": "greenchile",
+   "type": "split_neighborhood"
+  },
+  {
+   "date": "2026-10-02",
+   "id": "pc-2026-10-02-03",
+   "parked": "2026-10-02: matrix paused per Steve, not approved or rejected. Revisit if the pull restarts.",
+   "proposal": "Add 'green chili' (the spelling King Soopers lists the client SKU under) and put 'pork green chile' and 'queso blanco' on the block URLs, which today use the first term only. Add expectations.client_present (king-soopers, city-market) and run the brand search at those doors per pull_process.brand_search_at_expected_doors.",
+   "proposed_by": "fable, stage 3, Friday iteration thesis (scheduled)",
+   "reason": "The client SKU sits at position 15 on 'green chile' at King Soopers and is off page 1 at City Market while the brand is in the filter. The matrix lists three terms per neighborhood but every block walks one.",
+   "status": "parked",
+   "target": "greenchile, queso",
+   "type": "add_search_term"
+  },
+  {
+   "date": "2026-10-02",
+   "id": "pc-2026-10-02-04",
+   "parked": "2026-10-02: matrix paused per Steve, not approved or rejected. Revisit if the pull restarts.",
+   "proposal": "Build the 29 missing blocks so every neighborhood is walked at every retailer in scope: queso at city-market, kroger, jewel-osco, safeway; green chile at safeway; and all five neighborhoods at sprouts and costco.",
+   "proposed_by": "fable, stage 3, Friday iteration thesis (scheduled)",
+   "reason": "coverage_policy is full depth and breadth for every client. Queso is a HOME neighborhood walked at 2 of 8 banners. Sprouts and Costco are on the retailer list with no blocks.",
+   "status": "parked",
+   "target": "queso, salsa-refrigerated, salsa-jarred, guacamole, greenchile",
+   "type": "add_block"
+  },
+  {
+   "date": "2026-10-02",
+   "id": "pc-2026-10-02-05",
+   "parked": "2026-10-02: matrix paused per Steve, not approved or rejected. Revisit if the pull restarts.",
+   "proposal": "Add Target, all five neighborhoods.",
+   "proposed_by": "fable, stage 3, Friday iteration thesis (scheduled)",
+   "reason": "Good and Gather is a named real competitor in discovery on both green chile and queso and has zero rows. Target is Mass, in the client's channels, and its pull status is working in the profile.",
+   "status": "parked",
+   "target": "target",
+   "type": "add_retailer"
+  },
+  {
+   "date": "2026-10-02",
+   "id": "pc-2026-10-02-06",
+   "parked": "2026-10-02: matrix paused per Steve, not approved or rejected. Revisit if the pull restarts.",
+   "proposal": "Move the three Kroger family banners to api-kroger once the key is registered, browser route as fallback. Until then move King Soopers and City Market off webfetch-search onto the verified chrome-search recipe.",
+   "proposed_by": "fable, stage 3, Friday iteration thesis (scheduled)",
+   "reason": "access_posture puts the sanctioned route first and the Kroger API covers all three banners. The WebFetch route was never verified under Stage 0 and reads page 1 only.",
+   "status": "parked",
+   "target": "king-soopers, city-market, kroger",
+   "type": "change_route"
+  },
+  {
+   "date": "2026-10-02",
+   "id": "pc-2026-10-02-07",
+   "parked": "2026-10-02: matrix paused per Steve, not approved or rejected. Revisit if the pull restarts.",
+   "proposal": "Row identity cleanup: merge the old slug spellings onto the current doc id rule (king-soopers_, kingsoopers_ and citymarket_ rows for the same SKU) and stamp block, neighborhood and pulled_at on rows that lack them.",
+   "proposed_by": "fable, stage 3, Friday iteration thesis (scheduled)",
+   "reason": "The client's own green chile SKU has three doc ids across two banners. 214 of 385 rows carry no pulled_at and 211 carry no block string, so a last 7 days read depends on last_pulled.",
+   "status": "parked",
+   "target": "retail_entries (client lane)",
+   "type": "sop"
+  }
+ ],
+ "retailers": [
+  "albertsons",
+  "king-soopers",
+  "city-market",
+  "kroger",
+  "safeway",
+  "jewel-osco",
+  "sprouts",
+  "costco"
+ ],
+ "status": "paused",
+ "thesis": {
+  "date": "2026-10-02",
+  "findings": [
+   "Green chile, refrigerated, per oz: client 0.47 (King Soopers, 6.99 for 15 oz, position 15 on page 1). Private Selection green chile chicken 0.44 (6.99 for 16 oz) at King Soopers, City Market and Kroger. Santiago's 0.34 (9.49 for 28 oz) at King Soopers. Del Real chile verde 0.62 (9.99 for 16 oz) at Albertsons. We are 7 percent over private label per oz and 37 percent over Santiago's.",
+   "Green chile, shelf stable context: national median 0.37 per oz on 50 rows, private label 0.36 on 9. Hatch and Ortega cans are at all 5 banners walked, 505 Southwestern and Las Palmas at 4. That is a different aisle and it is 84 percent of what the term returns.",
+   "Queso, per oz: refrigerated national median 0.44 on 7 rows, refrigerated private label 0.46 on 3, shelf stable jars 0.28. Client queso at 6.99 for 15 oz would be 0.47, and it did not show on page 1 of 584 at King Soopers. Queso was walked at only 2 banners.",
+   "Refrigerated salsa (GROWTH) runs 0.60 per oz national median on 24 rows at Albertsons and Safeway, the richest per oz shelf in the grid. Guacamole 0.70 national, 0.59 private label, 5 rows.",
+   "Client presence: King Soopers only. City Market shows the brand in the filter but not on page 1. Absent at Kroger, Albertsons and Jewel-Osco, which is expected outside Colorado.",
+   "Named houses the grid cannot see: Queso Mama and Good and Gather have zero rows because there is no Costco, Target or Sprouts block. Santiago's shows at King Soopers only.",
+   "What changed: nothing to compare. One walk date, no prior week.",
+   "Grid: 11 blocks built out of 40 possible (8 retailers by 5 neighborhoods). Sprouts and Costco are in scope with zero blocks. No dead blocks, no blocks under 5 houses. The gap is coverage and the walker, not the routes.",
+   "Process: this matrix went active 9/12, before the Stage 0 gate existed. King Soopers, City Market and Safeway have no verified pull status in the profile, and two blocks still ride a WebFetch route."
+  ],
+  "summary": "148 rows this week, all from the 9/26 walk of 11 blocks. Green chile is reading the canned aisle, not our shelf: 59 of 70 rows are shelf stable, 9 are refrigerated. On the refrigerated set we are on the shelf at King Soopers only, 6.99 for 15 oz, 0.47 per oz, top of the band. Nothing has walked since 9/26 and nothing will: the daily pull was retired 9/27 and this matrix has no walker. Every block goes stale 10/10."
+ }
+}

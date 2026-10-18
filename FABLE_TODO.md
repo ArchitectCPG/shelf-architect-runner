@@ -195,3 +195,10 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - Lands next: merge plan vs the 69 Albertsons and 17 Jewel hand-pulled SG rows (text lane, no UPC, only 7 exact-id matches, expect 30 to 50 review items), then Steve reviews, then backup + OK + land.
 - QUALITY NOTES: propagated flags can disagree within a family (Santiago's mild 28oz Frozen from Kroger category, Santiago's authentic 28oz Refrigerated same-product-elsewhere); Hatch Valley flame-roasted 24oz propagated Refrigerated; both worth a Fable eyeball. Fillo's Walking Tamales is Shelf-stable at Walmart (listing says so) and Frozen at Kroger/Sprouts: a product can differ by retailer, so propagation is a hint, not a fact.
 - Not done: thesis re-cut by storage class (needs Fable read), is_own_brand cleanup on store-brand rows.
+
+## 2026-10-18 10:35 CT: ALBERTSONS (Boise) + JEWEL-OSCO (Chicago) PARTIAL LANDING
+- Landed with Steve's OK, 37 writes in 2 atomic batches: 7 price/history updates on exact id matches, 30 new rows (5 Albertsons, 25 Jewel-Osco). Backups: _4-full (before), _5-full (after), both in Mac archives.
+- Held (28 rows): truncated names (iced, c-ada, glut-sted, sadaro, chese, teamable, pasteuri-eese), unbranded tamales, Hatch peppers 400 oz size error, Hot Tamales candy, Tamal De truncated. Need name/brand cleanup or Steve's call.
+- Pending Steve's picks: 24 fuzzy pairs (17 Albertsons, 7 Jewel). La Victoria vs Hatch Select 4 oz and Ortega vs Signature Select 4 oz are wrong pairs, treat as new rows.
+- Fix upstream: runner recipe truncates product names; clean in mapper before next landing.
+- Albertsons runner store 1650 W State St (Boise); older hand pulls were 4700 N Eagle Rd.

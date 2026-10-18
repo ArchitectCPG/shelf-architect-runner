@@ -1,0 +1,39 @@
+{
+ "brand": "Queso Campesino",
+ "product_name": "Crema Mexicana",
+ "retailer": "City Market",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.99,
+ "price_regular": 5.99,
+ "price_basis": "shelf",
+ "size_oz": 16.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.3744,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 5.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+ "route": "runner-kroger-api",
+ "upc": "0064440413799",
+ "block": "refrigerated/queso@citymarket",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@citymarket"
+ ],
+ "pull_url": "https://www.kroger.com/p/queso-campesino-crema-mexicana/0064440413799?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-10-18, lane citymarket-api, store: CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501.",
+ "category": "refrigerated"
+}

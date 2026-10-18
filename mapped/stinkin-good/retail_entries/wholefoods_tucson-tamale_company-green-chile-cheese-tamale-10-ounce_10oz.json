@@ -1,0 +1,39 @@
+{
+ "brand": "Tucson Tamale",
+ "product_name": "Company, Green Chile Cheese Tamale, 10 Ounce",
+ "retailer": "Whole Foods Market",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 7.99,
+ "price_regular": 7.99,
+ "price_basis": "shelf",
+ "size_oz": 10.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.799,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 7.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "80202",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/tamales@wholefoods",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@wholefoods"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=tamales",
+ "notes": "Runner pull 2026-10-18, lane wholefoods, store: 80202.",
+ "category": "refrigerated"
+}

@@ -1,0 +1,39 @@
+{
+ "brand": "Stokes",
+ "product_name": "Green Chile Sauce with Pork & Jalapeno",
+ "retailer": "King Soopers",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 3.99,
+ "price_regular": 3.99,
+ "price_basis": "shelf",
+ "size_oz": 15.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.266,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 3.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0004161200533",
+ "block": "refrigerated/green-chile@kingsoopers",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/stokes-green-chile-sauce-with-pork-jalapeno/0004161200533?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-10-18, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "refrigerated"
+}

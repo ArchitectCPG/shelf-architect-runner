@@ -1,0 +1,39 @@
+{
+ "brand": "Zia Hatch Chile Company",
+ "product_name": "Zia Green Chile Company, Hatch Roasted Medium, 16 Ounce",
+ "retailer": "Whole Foods Market",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.19,
+ "price_regular": 9.19,
+ "price_basis": "shelf",
+ "size_oz": 16.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.5744,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 9.19
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/green-chile@wholefoods",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@wholefoods"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/product/zia-hatch-chile-company-zia-green-chile-company-hatch-roasted-medium-16-ounce-b0732k6rj7?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+ "notes": "Runner pull 2026-10-18, lane wholefoods, store: None.",
+ "category": "refrigerated"
+}

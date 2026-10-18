@@ -1,0 +1,39 @@
+{
+ "brand": "Unbranded",
+ "product_name": "(Pack of 21) Fillos Walking Tamales Corn Poblano Rajas",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 84.99,
+ "price_regular": 84.99,
+ "price_basis": "shelf",
+ "size_oz": 4.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 21.2475,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 84.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "691194124148",
+ "block": "refrigerated/tamales@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Pack-of-21-Fillos-Walking-Tamales-Corn-Poblano-Rajas-4-Oz/20592521497?classType=VARIANT",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

@@ -1,0 +1,39 @@
+{
+ "brand": "Velveeta",
+ "product_name": "Queso Blanco Cheese Dip",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 3.68,
+ "price_regular": 3.68,
+ "price_basis": "shelf",
+ "size_oz": 15.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.2453,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 3.68
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "021000083411",
+ "block": "refrigerated/queso@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Velveeta-Queso-Blanco-Cheese-Dip-15-oz-Jar/5342660978?classType=REGULAR",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

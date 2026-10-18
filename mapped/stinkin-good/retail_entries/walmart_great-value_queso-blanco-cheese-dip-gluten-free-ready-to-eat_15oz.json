@@ -1,0 +1,39 @@
+{
+ "brand": "Great Value",
+ "product_name": "Queso Blanco Cheese Dip, Gluten-Free, Ready-To-Eat",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": true,
+ "source_type": "scrape",
+ "price": 2.87,
+ "price_regular": 2.87,
+ "price_basis": "shelf",
+ "size_oz": 15.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.1913,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 2.87
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "078742189451",
+ "block": "refrigerated/queso@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Great-Value-Queso-Blanco-Cheese-Dip-15-oz/166847455?classType=VARIANT&athbdg=L1600",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

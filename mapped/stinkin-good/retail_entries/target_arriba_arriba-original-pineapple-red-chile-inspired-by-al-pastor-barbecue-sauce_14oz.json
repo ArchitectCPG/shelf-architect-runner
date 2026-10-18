@@ -1,0 +1,39 @@
+{
+ "brand": "Arriba!",
+ "product_name": "Arriba Original Pineapple & Red Chile Inspired by Al Pastor Barbecue Sauce",
+ "retailer": "Target",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 8.79,
+ "price_regular": 8.79,
+ "price_basis": "shelf",
+ "size_oz": 14.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.6279,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 8.79
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "033907206022",
+ "block": "refrigerated/green-chile@target",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@target"
+ ],
+ "pull_url": "https://www.target.com/p/arriba-original-pineapple-38-red-chile-inspired-by-al-pastor-barbecue-sauce-14oz/-/A-1010679514",
+ "notes": "Runner pull 2026-10-18, lane target, store: API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "refrigerated"
+}

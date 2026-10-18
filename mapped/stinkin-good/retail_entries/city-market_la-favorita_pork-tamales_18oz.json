@@ -1,0 +1,39 @@
+{
+ "brand": "La Favorita",
+ "product_name": "Pork Tamales",
+ "retailer": "City Market",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 10.99,
+ "price_regular": 10.99,
+ "price_basis": "shelf",
+ "size_oz": 18.0,
+ "size_source": "label",
+ "count": 6,
+ "price_per_oz": 0.6106,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 10.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+ "route": "runner-kroger-api",
+ "upc": "0072556430050",
+ "block": "refrigerated/tamales@citymarket",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@citymarket"
+ ],
+ "pull_url": "https://www.kroger.com/p/la-favorita-pork-tamales-6-count/0072556430050?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-10-18, lane citymarket-api, store: CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501.",
+ "category": "refrigerated"
+}

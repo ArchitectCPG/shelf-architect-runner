@@ -1,0 +1,39 @@
+{
+ "brand": "On The Border",
+ "product_name": "Queso Jalapeno Tray Pack",
+ "retailer": "Safeway",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.99,
+ "price_regular": 4.99,
+ "price_basis": "shelf",
+ "size_oz": 15.25,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.3272,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 4.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "757 E 20th Ave",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/queso@safeway",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@safeway"
+ ],
+ "pull_url": "https://www.safeway.com/shop/pd/on-border-queso-jalapeno-tray-pack-15-25-oz/970023193",
+ "notes": "Runner pull 2026-10-18, lane safeway, store: 757 E 20th Ave.",
+ "category": "refrigerated"
+}

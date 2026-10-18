@@ -1,0 +1,39 @@
+{
+ "brand": "Herdez",
+ "product_name": " Queso Blanco Cheese Dip with Jalapenos",
+ "retailer": "King Soopers",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.19,
+ "price_regular": 4.19,
+ "price_basis": "shelf",
+ "size_oz": 15.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.2793,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 4.19
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0007287807151",
+ "block": "refrigerated/queso@kingsoopers",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/herdez-queso-blanco-cheese-dip-with-jalapenos-15-oz-/0007287807151?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-10-18, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "refrigerated"
+}

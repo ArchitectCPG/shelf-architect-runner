@@ -1,0 +1,41 @@
+{
+ "brand": "ROVSUN",
+ "product_name": "52QT Stainless Steel Tamale Steamer Pot, Ideal for Seafood Crab Vegetables lobster",
+ "retailer": "Target",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 87.99,
+ "price_regular": 179.98,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 87.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "840323532112",
+ "block": "refrigerated/tamales@target",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@target"
+ ],
+ "pull_url": "https://www.target.com/p/rovsun-52qt-stainless-steel-tamale-steamer-pot-ideal-for-seafood-crab-vegetables-lobster/-/A-1006053023",
+ "notes": "Runner pull 2026-10-18, lane target, store: API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "refrigerated",
+ "sale_price": 87.99,
+ "hold_reason": "no size parsed"
+}

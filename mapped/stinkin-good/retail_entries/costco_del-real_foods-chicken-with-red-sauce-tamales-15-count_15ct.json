@@ -1,0 +1,39 @@
+{
+ "brand": "Del Real",
+ "product_name": "Foods Chicken with Red Sauce Tamales, 15-count",
+ "retailer": "Costco",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 20.69,
+ "price_regular": 20.69,
+ "price_basis": "instacart_quote",
+ "size_oz": null,
+ "size_source": "label",
+ "count": 15,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 20.69
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 shop 2043 location 439",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "refrigerated/tamales@costco-ic",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@costco-ic"
+ ],
+ "pull_url": "https://www.instacart.com/store/costco/s?k=tamales",
+ "notes": "Runner pull 2026-10-18, lane costco-ic, store: API zip 80202 shop 2043 location 439. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "refrigerated"
+}

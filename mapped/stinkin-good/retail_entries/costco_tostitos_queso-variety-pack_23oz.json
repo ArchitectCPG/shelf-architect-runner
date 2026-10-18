@@ -1,0 +1,39 @@
+{
+ "brand": "Tostitos",
+ "product_name": "Queso Variety Pack",
+ "retailer": "Costco",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 8.99,
+ "price_regular": 8.99,
+ "price_basis": "shelf",
+ "size_oz": 23.0,
+ "size_source": "label",
+ "count": 2,
+ "price_per_oz": 0.3909,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 8.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "costco.com online (national, 2-day delivery pricing)",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/queso@costco-online",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@costco-online"
+ ],
+ "pull_url": "https://www.costco.com/tostitos-queso-variety-pack-23-oz-2-pack.product.4000318157.html",
+ "notes": "Runner pull 2026-10-18, lane costco-online, store: costco.com online (national, 2-day delivery pricing).",
+ "category": "refrigerated"
+}

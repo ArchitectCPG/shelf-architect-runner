@@ -1,0 +1,39 @@
+{
+ "brand": "505 Southwestern",
+ "product_name": "Flame Roasted Hatch Valley Mild Green Chile",
+ "retailer": "Target",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.59,
+ "price_regular": 5.59,
+ "price_basis": "shelf",
+ "size_oz": 16.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.3494,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 5.59
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "602050013247",
+ "block": "refrigerated/green-chile@target",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "neighborhoods": [
+  "green-chile"
+ ],
+ "blocks": [
+  "refrigerated/green-chile@target"
+ ],
+ "pull_url": "https://www.target.com/p/505-southwestern-flame-roasted-hatch-valley-mild-green-chile-16oz/-/A-91367236",
+ "notes": "Runner pull 2026-10-18, lane target, store: API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "refrigerated"
+}

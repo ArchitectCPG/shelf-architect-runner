@@ -1,0 +1,39 @@
+{
+ "brand": "Fillo's",
+ "product_name": "Instant Walking Tamales Variety 5-Pack | Bean Salsa Roja, Bean Salsa Verde, Bean Salsa Habanero, Corn Poblano Roja & Sweet Corn Elote | MerlinsMart Zine & Shawhan Farms Parmesan",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 27.97,
+ "price_regular": 27.97,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": 5,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 27.97
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "810183847657",
+ "block": "refrigerated/tamales@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/Fillo-s-Instant-Tamales-Variety-5-Pack-Bean-Salsa-Roja-Bean-Salsa-Verde-Bean-Salsa-Habanero-Corn-Poblano-Roja-Sweet-Corn-Elote-MerlinsMart-Zine-Shawh/20336860065?classType=REGULAR",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

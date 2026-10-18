@@ -1,0 +1,39 @@
+{
+ "brand": "Fillo's",
+ "product_name": "(2 pack) FILLO'S Walking Tamales Bean Salsa Verde Tamale",
+ "retailer": "Walmart",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.16,
+ "price_regular": 4.16,
+ "price_basis": "shelf",
+ "size_oz": 4.0,
+ "size_source": "label",
+ "count": 2,
+ "price_per_oz": 1.04,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 4.16
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq)",
+ "route": "runner-api",
+ "upc": "463886163304",
+ "block": "refrigerated/tamales@walmart",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@walmart"
+ ],
+ "pull_url": "https://www.walmart.com/ip/2-pack-FILLO-S-Walking-Tamales-Bean-Salsa-Verde-Tamale-4-oz-Plastic-Pouch-Shelf-Stable/13510221195?classType=VARIANT",
+ "notes": "Runner pull 2026-10-18, lane walmart, store: API zip 80202 store_id 5957 (dataset gd_m693oc1r1gebnayxq).",
+ "category": "refrigerated"
+}

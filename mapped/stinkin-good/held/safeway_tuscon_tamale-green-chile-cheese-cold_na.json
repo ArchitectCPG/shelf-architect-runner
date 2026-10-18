@@ -1,0 +1,40 @@
+{
+ "brand": "Tuscon",
+ "product_name": "Tamale Green Chile & Cheese Cold",
+ "retailer": "Safeway",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 3.0,
+ "price_regular": 3.0,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 3.0
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "757 E 20th Ave",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/tamales@safeway",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@safeway"
+ ],
+ "pull_url": "https://www.safeway.com/shop/pd/tuscon-tamale-green-chile-and-cheese-cold/960529369",
+ "notes": "Runner pull 2026-10-18, lane safeway, store: 757 E 20th Ave.",
+ "category": "refrigerated",
+ "hold_reason": "no size parsed"
+}

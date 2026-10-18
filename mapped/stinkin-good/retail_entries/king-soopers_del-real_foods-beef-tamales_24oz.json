@@ -1,0 +1,39 @@
+{
+ "brand": "Del Real",
+ "product_name": "Foods Beef Tamales",
+ "retailer": "King Soopers",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.49,
+ "price_regular": 9.49,
+ "price_basis": "shelf",
+ "size_oz": 24.0,
+ "size_source": "label",
+ "count": 6,
+ "price_per_oz": 0.3954,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 9.49
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0082979300194",
+ "block": "refrigerated/tamales@kingsoopers",
+ "zip": "refrigerated",
+ "neighborhood": "tamales",
+ "neighborhoods": [
+  "tamales"
+ ],
+ "blocks": [
+  "refrigerated/tamales@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/del-real-foods-beef-tamales-6-count/0082979300194?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-10-18, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "refrigerated"
+}

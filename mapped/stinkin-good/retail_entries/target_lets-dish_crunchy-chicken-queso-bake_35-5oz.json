@@ -1,0 +1,39 @@
+{
+ "brand": "Let's Dish!",
+ "product_name": "Crunchy Chicken Queso Bake",
+ "retailer": "Target",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 24.49,
+ "price_regular": 24.49,
+ "price_basis": "shelf",
+ "size_oz": 35.5,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.6899,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 24.49
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "850026190427",
+ "block": "refrigerated/queso@target",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@target"
+ ],
+ "pull_url": "https://www.target.com/p/let-39-s-dish-gluten-free-frozen-crunchy-chicken-queso-bake-35-5oz/-/A-93859912",
+ "notes": "Runner pull 2026-10-18, lane target, store: API zip 80202 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "refrigerated"
+}

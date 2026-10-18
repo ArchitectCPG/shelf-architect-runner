@@ -1,0 +1,39 @@
+{
+ "brand": "CREDO FOODS",
+ "product_name": "Medium Oatmilk Queso",
+ "retailer": "Whole Foods Market",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 3.29,
+ "price_regular": 3.29,
+ "price_basis": "shelf",
+ "size_oz": 11.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.2991,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 3.29
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "80202",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/queso@wholefoods",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@wholefoods"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=queso",
+ "notes": "Runner pull 2026-10-18, lane wholefoods, store: 80202.",
+ "category": "refrigerated"
+}

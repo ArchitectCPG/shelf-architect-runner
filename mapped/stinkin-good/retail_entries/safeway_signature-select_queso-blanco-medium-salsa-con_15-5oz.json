@@ -1,0 +1,39 @@
+{
+ "brand": "Signature SELECT",
+ "product_name": "Queso Blanco Medium Salsa Con",
+ "retailer": "Safeway",
+ "client_id": "stinkin-good",
+ "is_own_brand": false,
+ "is_private_label": true,
+ "source_type": "scrape",
+ "price": 3.99,
+ "price_regular": 3.99,
+ "price_basis": "shelf",
+ "size_oz": 15.5,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.2574,
+ "price_history": [
+  {
+   "date": "2026-10-18",
+   "price": 3.99
+  }
+ ],
+ "last_pulled": "2026-10-18",
+ "pulled_at": "2026-10-18T13:57:50Z",
+ "region": "757 E 20th Ave",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "refrigerated/queso@safeway",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "neighborhoods": [
+  "queso"
+ ],
+ "blocks": [
+  "refrigerated/queso@safeway"
+ ],
+ "pull_url": "https://www.safeway.com/shop/pd/signature-select-queso-blanco-medium-salsa-con-15-5-oz/970575535",
+ "notes": "Runner pull 2026-10-18, lane safeway, store: 757 E 20th Ave.",
+ "category": "refrigerated"
+}
