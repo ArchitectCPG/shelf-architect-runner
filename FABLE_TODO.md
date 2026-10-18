@@ -134,3 +134,9 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - Zero or failed: Cub (own Instacart storefront at cub.com, wrong slug), Fareway, Lowes Foods, Save Mart (Swiftly), Tops, Food City, Price Chopper, Natural Grocers, Raley's, Stater Bros (timeouts or not on Instacart at that zip). Recheck slugs or use own platform recipes.
 - Lesson: Bright Data allows one domain per browser session (navigate_domains_limit). One goto domain per block.
 - Built: tools/normalize.py (brand, regular+promo price, relevance filter) wired into client_report.py. Next: collection route, then DB wiring (needs Fable + backup + Steve's OK).
+
+## 2026-10-17 late: slugs + collection route (Sonnet)
+- Instacart slugs that work: cub, food-city, natural-grocers (13 of 20 independents now pull). lucky-supermarkets pulls (that is Lucky, not Save Mart; Save Mart itself is Swiftly).
+- Transient (execution context destroyed / tunnel errors, retry): price-chopper, raleys, stater-bros, tops-markets. No Instacart hit: fareway, lowes-foods.
+- Collection route built (src/instacart_api.js, COLLECTION const, generator key retailers[].collections {neighborhood_id: slug}). Uses data.collectionProducts.itemIds = full aisle (837 ids at Sprouts condiments-sauces). Hash 374c333a... can rotate. Verified at Sprouts Denver. Full aisles are big: relevance filter does the narrowing.
+- Next: retry the 4 transients, then DB mapping design (Fable) and SOP text (Fable).
