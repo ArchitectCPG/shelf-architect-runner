@@ -32,6 +32,29 @@ def clean_name(name,brand_label):
     if brand_label and n.lower().startswith(brand_label.lower()+' '): n=n[len(brand_label)+1:]
     return n or name
 today=datetime.date.today().isoformat()
+
+# ---- storage class (maps to the DB `format` field: Frozen / Refrigerated / Shelf-stable) ----
+KR_FROZEN={'frozen'}
+KR_REFRIG={'deli','dairy','meat & seafood','refrigerated','bakery','produce'}
+KR_SHELF={'canned & packaged','snacks','candy','baking goods','condiments, spices & bake','pasta, sauces, grain','beverages','breakfast','cereal','soups'}
+RX_FROZEN=re.compile(r'\bfrozen\b|\bfreezer\b|\bflash[- ]frozen\b',re.I)
+RX_SHELF=re.compile(r'shelf[- ]?stable|\bcanned\b|\bcan\b|\bjar\b|tortilla chips?|\bchips\b|\bcandy\b|\bchewy\b|enchilada sauce|\bhot sauce\b|\bdiced (fire[- ]roasted )?green chiles?\b|\bchopped green chile\b',re.I)
+RX_REFRIG=re.compile(r'refrigerated|\bchilled\b|\bfresh\b|\bdeli\b',re.I)
+RX_SHELF_X=re.compile(r'shelf[- ]?stable',re.I)
+def storage_class(h,nm,kapi):
+    """returns (format, source) or (None,None). Never guesses: ambiguous -> None."""
+    cats=[c.lower() for c in (h.get('categories') or [])] if kapi else []
+    if cats:
+        if any(c in KR_FROZEN for c in cats): return 'Frozen','kroger-category'
+        if any(c in KR_REFRIG for c in cats): return 'Refrigerated','kroger-category'
+        if any(c in KR_SHELF for c in cats): return 'Shelf-stable','kroger-category'
+    ct=' '.join(x for x in (h.get('card_text') or []) if '$' not in x)
+    t=(nm or '')+' '+(h.get('name') or '')
+    if RX_FROZEN.search(t) or RX_FROZEN.search(ct): return 'Frozen','name'
+    if RX_SHELF.search(t) or RX_SHELF_X.search(ct): return 'Shelf-stable','name'
+    if RX_REFRIG.search(t) or RX_REFRIG.search(ct): return 'Refrigerated','name'
+    return None,None
+
 rows={}; blocks_out=[]; stats={'blocks':0,'houses_in':0,'rows':0,'dropped_irrelevant':0}
 def latest(b):
     bid=re.sub(r'[^a-z0-9@_.-]','_',b['block_id'],flags=re.I)
@@ -80,7 +103,7 @@ def fix_brand(brand,nm):
         if len(out)==3: break
     if out and 1<=len(out)<=3 and len(' '.join(out))>2 and not re.match(r'^(the|a|an)$',out[0],re.I): return ' '.join(out)
     return None
-RET={'kingsoopers':('King Soopers','king-soopers'),'citymarket':('City Market','city-market'),'safeway':('Safeway','safeway'),'heb':('H-E-B','heb'),'walmart':('Walmart','walmart'),'target':('Target','target'),'sprouts':('Sprouts Farmers Market','sprouts'),'wholefoods':('Whole Foods Market','wholefoods'),'costco':('Costco','costco'),'costco-online':('Costco','costco')}
+RET={'kingsoopers':('King Soopers','king-soopers'),'citymarket':('City Market','city-market'),'safeway':('Safeway','safeway'),'heb':('H-E-B','heb'),'walmart':('Walmart','walmart'),'target':('Target','target'),'sprouts':('Sprouts Farmers Market','sprouts'),'wholefoods':('Whole Foods Market','wholefoods'),'costco':('Costco','costco'),'albertsons':('Albertsons','albertsons'),'costco-online':('Costco','costco')}
 os.makedirs(out+'/held',exist_ok=True); held={}
 for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
     b=json.load(open(f)); d=latest(b); nb=next(n for n in C['neighborhoods'] if n['id']==b['neighborhood'])
@@ -132,6 +155,8 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
               pull_url=h.get('link') or d.get('url_final'),notes=f"Runner pull {today}, lane {b.get('retailer')}, store: {d.get('store_set')}."+(" Instacart quote, carries marketplace markup; pricing intel, not shelf price." if price_basis=='instacart_quote' else ''),
               category=C.get('department'))
             if pro: r['sale_price']=pro
+            _f,_fs=storage_class(h,nm,kapi)
+            if _f: r['format']=_f; r['format_source']=_fs
             if banner in DOLLAR: r['pricing_cohort']='dollar'
             rows[rid]=r
             if not oz and not ct: r['hold_reason']='no size parsed'
@@ -140,6 +165,25 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
             if block not in r['blocks']: r['blocks'].append(block)
         kept+=1; brands.add(brand)
     blocks_out.append(dict(block=b['block_id'],last_walked=today,last_result=f"walked: {kept} houses across {len(brands)} brands",store=d.get('store_set'),error=d.get('error')))
+
+# ---- propagate storage class across retailers for the same brand+product (only from authoritative or curated sources) ----
+def pkey(r):
+    n=re.sub(r'\b(\d+(\.\d+)?\s*(oz|ct|lb)|pack|of|count|the|and|with|style|medium|mild|hot|original|flavor)\b','',(r.get('product_name') or '').lower())
+    return slug(r.get('brand'))+'|'+re.sub(r'[^a-z]','',n)[:24]
+KNOWN={}
+for rid,r in rows.items():
+    if r.get('format') and r.get('format_source')=='kroger-category': KNOWN.setdefault(pkey(r),r['format'])
+_seed=os.environ.get('BRAND_SEED_DIR')
+if _seed:
+    for f in glob.glob(_seed+'/*.json'):
+        o=json.load(open(f)); o=o.get('data',o)
+        if o.get('format') and o.get('client_id')==cid: KNOWN.setdefault(pkey(o),re.sub(r'(?i)shelf-stable','Shelf-stable',o['format']))
+nprop=0
+for rid,r in rows.items():
+    if not r.get('format') and pkey(r) in KNOWN: r['format']=KNOWN[pkey(r)]; r['format_source']='same-product-elsewhere'; nprop+=1
+stats['format_propagated']=nprop
+stats['format_set']=sum(1 for r in rows.values() if r.get('format'))
+stats['format_blank']=sum(1 for r in rows.values() if not r.get('format'))
 for rid,r in rows.items():
     tgt='held' if r.get('hold_reason') else 'retail_entries'
     json.dump(r,open(f'{out}/{tgt}/{rid}.json','w'),indent=1)

@@ -1,165 +1,172 @@
 {
- "client_id": "stinkin-good",
- "name": "Stinkin' Good",
- "sandbox_note": "Test client for the unattended runner. Nothing here writes to the Shelf Architect DB.",
- "brand_terms": [
-  "\\bstinkin"
- ],
- "competitor_terms": {
-  "505 Southwestern": [
-   "\\b505\\b"
+  "client_id": "stinkin-good",
+  "name": "Stinkin' Good",
+  "sandbox_note": "Test client for the unattended runner. Nothing here writes to the Shelf Architect DB.",
+  "brand_terms": [
+    "\\bstinkin"
   ],
-  "Del Real": [
-   "\\bdel real\\b"
-  ],
-  "Santiago's": [
-   "\\bsantiago"
-  ],
-  "Hatch (brand)": [
-   "\\bhatch (select|chile co|red|green)\\b|^hatch\\b"
-  ],
-  "Mi Tienda (H-E-B)": [
-   "\\bmi tienda\\b"
-  ]
- },
- "markets": {
-  "denver": {
-   "zip": "80202",
-   "lat": 39.7527,
-   "lng": -104.9996
+  "competitor_terms": {
+    "505 Southwestern": [
+      "\\b505\\b"
+    ],
+    "Del Real": [
+      "\\bdel real\\b"
+    ],
+    "Santiago's": [
+      "\\bsantiago"
+    ],
+    "Hatch (brand)": [
+      "\\bhatch (select|chile co|red|green)\\b|^hatch\\b"
+    ],
+    "Mi Tienda (H-E-B)": [
+      "\\bmi tienda\\b"
+    ]
   },
-  "grand-junction": {
-   "zip": "81501",
-   "lat": 39.0639,
-   "lng": -108.5506
+  "markets": {
+    "denver": {
+      "zip": "80202",
+      "lat": 39.7527,
+      "lng": -104.9996
+    },
+    "grand-junction": {
+      "zip": "81501",
+      "lat": 39.0639,
+      "lng": -108.5506
+    },
+    "houston": {
+      "zip": "77005",
+      "lat": 29.7174,
+      "lng": -95.4018
+    }
   },
-  "houston": {
-   "zip": "77005",
-   "lat": 29.7174,
-   "lng": -95.4018
+  "department": "refrigerated",
+  "neighborhoods": [
+    {
+      "id": "green-chile",
+      "term": "green chile",
+      "relevance": "chil[ei]|hatch|salsa verde|poblano",
+      "exclude": "burrito|\\begg|rice\\b|macaron|tomato|beans?\\b|seasoning|shaker|lentil|nuts?\\b|olive|cheese(?!.*(dip|sauce))|empanada|soup|chili (crisp|crunch|oil)|chocolate|freeze.?dried|dried .*(pepper|chile|chili)|chili with|chili lime|in-shell|snack|chips?\\b|popcorn|jerky|sausage|pizza|flavored|pitted|quesadilla|taquito|bowl|wrap|sandwich|hummus|dressing|mayo|aioli|mustard|relish|jam|honey|wing|hot dog|cornbread|mac\\b|pasta|crackers?|pretzel|bacon|cheddar|chicken|pork chop|steak|leg quarter|butcher|habanero",
+      "keep": "green chil[ei] sauce|green chili sauce|chile verde|salsa verde|(?<!freeze-dried )(?<!dried )\\bgreen chili\\b(?!.*(burrito|soup|empanada|for chefs))|diced green chil|chopped green chil|whole green chil|roasted (hatch|green) chil|hatch valley|enchilada sauce|green chile peppers|green chiles?\\b(?!.*(bacon|cheddar|cheese|chicken|sausage|burrito|tomato|bean))",
+      "hard_exclude": "tomato|\\bbeans?\\b|lentil|bacon|cheddar|sausage|macaron|burrito|\\begg|\\brice\\b|chicken|seasoning|freeze|jerky|nuts?\\b|olive|empanada|pizza|chips?\\b|popcorn|crackers?|pretzel|soup|cheese(?!.*(dip|sauce))|habanero|in-shell|pork chop|steak|flavored"
+    },
+    {
+      "id": "queso",
+      "term": "queso",
+      "relevance": "queso|cheese dip",
+      "exclude": "fresco|muenster|cotija|panela|an[e\u00ea]jo|oaxaca|quesadilla|para freir|shredded|popcorn|popped|chips?\\b|crisps|puffs|snack|crackers|pretzel|lentil|soup|nachos|taco kit|slices|sticks|string",
+      "keep": "\\bdip\\b|con queso|queso sauce|cheese sauce|queso blanco|queso amarillo|queso dip",
+      "hard_exclude": "popcorn|chips?\\b|crackers?|pretzel|puffs|snack|macaron|cake|cookie"
+    },
+    {
+      "id": "tamales",
+      "term": "tamales",
+      "relevance": "tamal",
+      "exclude": "tamale pie|tamale (seasoning|mix|kit)|masa|corn husk|tamalito",
+      "hard_exclude": "tamale pie|masa|corn husk|seasoning"
+    },
+    {
+      "id": "brand",
+      "term": "stinkin good",
+      "relevance": "stinkin",
+      "brand_only": true
+    }
+  ],
+  "retailers": [
+    {
+      "banner": "kingsoopers-api",
+      "lane": "kroger_api",
+      "chain": "King Soopers",
+      "market": "denver",
+      "brand_check": true
+    },
+    {
+      "banner": "citymarket-api",
+      "lane": "kroger_api",
+      "chain": "City Market",
+      "market": "grand-junction",
+      "brand_check": true
+    },
+    {
+      "banner": "kingsoopers",
+      "lane": "kroger",
+      "host": "www.kingsoopers.com",
+      "market": "denver",
+      "brand_check": true,
+      "fallback": true
+    },
+    {
+      "banner": "citymarket",
+      "lane": "kroger",
+      "host": "www.citymarket.com",
+      "market": "grand-junction",
+      "brand_check": true,
+      "fallback": true
+    },
+    {
+      "banner": "walmart",
+      "lane": "api",
+      "template": "walmart",
+      "market": "denver"
+    },
+    {
+      "banner": "target",
+      "lane": "api",
+      "template": "target",
+      "market": "denver"
+    },
+    {
+      "banner": "sprouts",
+      "lane": "instacart",
+      "slug": "sprouts",
+      "url": "https://shop.sprouts.com/store/sprouts/s?k={{term}}",
+      "market": "denver"
+    },
+    {
+      "banner": "safeway",
+      "lane": "recipe",
+      "template": "safeway",
+      "market": "denver"
+    },
+    {
+      "banner": "wholefoods",
+      "lane": "recipe",
+      "template": "wholefoods",
+      "market": "denver"
+    },
+    {
+      "banner": "costco-online",
+      "lane": "recipe",
+      "template": "costco-online",
+      "market": "denver",
+      "brand_check": true
+    },
+    {
+      "banner": "heb",
+      "lane": "recipe",
+      "template": "heb",
+      "market": "houston"
+    },
+    {
+      "banner": "costco-ic",
+      "lane": "instacart",
+      "slug": "costco",
+      "market": "denver",
+      "note": "Costco warehouse-local assortment via Instacart; prices carry Instacart markup (~15% over warehouse tag)",
+      "brand_check": true
+    },
+    {
+      "banner": "albertsons",
+      "lane": "recipe",
+      "template": "albertsons",
+      "market": "denver",
+      "note": "Albertsons platform recipe, store-pinned by zip (Denver 80202)"
+    }
+  ],
+  "brand_hints": {
+    "La Preferida": "\\bla preferida",
+    "Hormel": "\\bhormel",
+    "Texas Tamale Co": "\\btexas tamale",
+    "Rosarita": "\\brosarita",
+    "Old El Paso": "\\bold el paso"
   }
- },
- "department": "refrigerated",
- "neighborhoods": [
-  {
-   "id": "green-chile",
-   "term": "green chile",
-   "relevance": "chil[ei]|hatch|salsa verde|poblano",
-   "exclude": "burrito|\\begg|rice\\b|macaron|tomato|beans?\\b|seasoning|shaker|lentil|nuts?\\b|olive|cheese(?!.*(dip|sauce))|empanada|soup|chili (crisp|crunch|oil)|chocolate|freeze.?dried|dried .*(pepper|chile|chili)|chili with|chili lime|in-shell|snack|chips?\\b|popcorn|jerky|sausage|pizza|flavored|pitted|quesadilla|taquito|bowl|wrap|sandwich|hummus|dressing|mayo|aioli|mustard|relish|jam|honey|wing|hot dog|cornbread|mac\\b|pasta|crackers?|pretzel|bacon|cheddar|chicken|pork chop|steak|leg quarter|butcher|habanero",
-   "keep": "green chil[ei] sauce|green chili sauce|chile verde|salsa verde|(?<!freeze-dried )(?<!dried )\\bgreen chili\\b(?!.*(burrito|soup|empanada|for chefs))|diced green chil|chopped green chil|whole green chil|roasted (hatch|green) chil|hatch valley|enchilada sauce|green chile peppers|green chiles?\\b(?!.*(bacon|cheddar|cheese|chicken|sausage|burrito|tomato|bean))",
-   "hard_exclude": "tomato|\\bbeans?\\b|lentil|bacon|cheddar|sausage|macaron|burrito|\\begg|\\brice\\b|chicken|seasoning|freeze|jerky|nuts?\\b|olive|empanada|pizza|chips?\\b|popcorn|crackers?|pretzel|soup|cheese(?!.*(dip|sauce))|habanero|in-shell|pork chop|steak|flavored"
-  },
-  {
-   "id": "queso",
-   "term": "queso",
-   "relevance": "queso|cheese dip",
-   "exclude": "fresco|muenster|cotija|panela|an[e\u00ea]jo|oaxaca|quesadilla|para freir|shredded|popcorn|popped|chips?\\b|crisps|puffs|snack|crackers|pretzel|lentil|soup|nachos|taco kit|slices|sticks|string",
-   "keep": "\\bdip\\b|con queso|queso sauce|cheese sauce|queso blanco|queso amarillo|queso dip",
-   "hard_exclude": "popcorn|chips?\\b|crackers?|pretzel|puffs|snack|macaron|cake|cookie"
-  },
-  {
-   "id": "tamales",
-   "term": "tamales",
-   "relevance": "tamal",
-   "exclude": "tamale pie|tamale (seasoning|mix|kit)|masa|corn husk|tamalito",
-   "hard_exclude": "tamale pie|masa|corn husk|seasoning"
-  },
-  {
-   "id": "brand",
-   "term": "stinkin good",
-   "relevance": "stinkin",
-   "brand_only": true
-  }
- ],
- "retailers": [
-  {
-   "banner": "kingsoopers-api",
-   "lane": "kroger_api",
-   "chain": "King Soopers",
-   "market": "denver",
-   "brand_check": true
-  },
-  {
-   "banner": "citymarket-api",
-   "lane": "kroger_api",
-   "chain": "City Market",
-   "market": "grand-junction",
-   "brand_check": true
-  },
-  {
-   "banner": "kingsoopers",
-   "lane": "kroger",
-   "host": "www.kingsoopers.com",
-   "market": "denver",
-   "brand_check": true,
-   "fallback": true
-  },
-  {
-   "banner": "citymarket",
-   "lane": "kroger",
-   "host": "www.citymarket.com",
-   "market": "grand-junction",
-   "brand_check": true,
-   "fallback": true
-  },
-  {
-   "banner": "walmart",
-   "lane": "api",
-   "template": "walmart",
-   "market": "denver"
-  },
-  {
-   "banner": "target",
-   "lane": "api",
-   "template": "target",
-   "market": "denver"
-  },
-  {
-   "banner": "sprouts",
-   "lane": "instacart",
-   "slug": "sprouts",
-   "url": "https://shop.sprouts.com/store/sprouts/s?k={{term}}",
-   "market": "denver"
-  },
-  {
-   "banner": "safeway",
-   "lane": "recipe",
-   "template": "safeway",
-   "market": "denver"
-  },
-  {
-   "banner": "wholefoods",
-   "lane": "recipe",
-   "template": "wholefoods",
-   "market": "denver"
-  },
-  {
-   "banner": "costco-online",
-   "lane": "recipe",
-   "template": "costco-online",
-   "market": "denver",
-   "brand_check": true
-  },
-  {
-   "banner": "heb",
-   "lane": "recipe",
-   "template": "heb",
-   "market": "houston"
-  },
-  {
-   "banner": "costco-ic",
-   "lane": "instacart",
-   "slug": "costco",
-   "market": "denver",
-   "note": "Costco warehouse-local assortment via Instacart; prices carry Instacart markup (~15% over warehouse tag)",
-   "brand_check": true
-  }
- ],
- "brand_hints": {
-  "La Preferida": "\\bla preferida",
-  "Hormel": "\\bhormel",
-  "Texas Tamale Co": "\\btexas tamale",
-  "Rosarita": "\\brosarita",
-  "Old El Paso": "\\bold el paso"
- }
 }
