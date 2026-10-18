@@ -1,0 +1,24 @@
+{
+  "block_id": "stinkin-good/tamales@jewel-osco-chicago",
+  "retailer": "jewel-osco",
+  "zip": "refrigerated",
+  "neighborhood": "tamales",
+  "pulled_at": "2026-10-18T14:39:58.606Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "url_final": "https://www.jewelosco.com/shop/search-results.html?q=tamales",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "14:39:58 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "14:39:59 connected to Bright Data Scraping Browser",
+    "14:40:29 goto https://www.jewelosco.com/shop/search-results.html?q=tamales",
+    "14:40:37 captcha check passed",
+    "14:40:50 dismiss: nothing to close",
+    "14:40:50 press Escape",
+    "14:41:02 step failed (Error: page.evaluate: TypeError: Cannot read properties of null (reading 'queryS), will retry recipe",
+    "14:41:02 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'innerText')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:21)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  ],
+  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'innerText')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:21)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+}

@@ -1,0 +1,909 @@
+{
+  "block_id": "stinkin-good/queso@jewel-osco-chicago",
+  "retailer": "jewel-osco",
+  "zip": "refrigerated",
+  "neighborhood": "queso",
+  "pulled_at": "2026-10-18T14:38:45.143Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": "6014 S Cottage Grove",
+  "url_final": "https://www.jewelosco.com/shop/search-results.html?q=queso",
+  "houses": [
+    {
+      "name": "Sargento Shredded 4 Cheese Mex...aditional Cut - 8 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "Your Price $3.99 each",
+        "$3.99",
+        "Original Price $4.49",
+        "$4.49",
+        "price per Ounce $0.50"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Sargento Shredded 4 Cheese Mex...aditional Cut - 8 Oz",
+      "brand": null,
+      "price": "$4.49",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.99",
+        "Original Price $4.49",
+        "$4.49",
+        "price per Ounce $0.50",
+        "($0.50 / Ounce)",
+        "Sargento Shredded 4 Cheese Mex...aditional Cut - 8 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Sargento Shreds Cholula Queso ...sadaro Cheese - 7 OZ",
+      "brand": null,
+      "price": "$3.99",
+      "size": "7 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "Your Price $3.99 each",
+        "$3.99",
+        "Original Price $4.49",
+        "$4.49",
+        "price per Ounce $0.57"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Sargento Shreds Cholula Queso ...sadaro Cheese - 7 OZ",
+      "brand": null,
+      "price": "$4.49",
+      "size": "7 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.99",
+        "Original Price $4.49",
+        "$4.49",
+        "price per Ounce $0.57",
+        "($0.57 / Ounce)",
+        "Sargento Shreds Cholula Queso ...sadaro Cheese - 7 OZ"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Cacique Queso Fresco Cheese - 10 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "10 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.99 each",
+        "$4.99",
+        "Original Price $5.49",
+        "$5.49",
+        "price per Ounce $0.50"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Cacique Queso Fresco Cheese - 10 Oz",
+      "brand": null,
+      "price": "$5.49",
+      "size": "10 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.99",
+        "Original Price $5.49",
+        "$5.49",
+        "price per Ounce $0.50",
+        "($0.50 / Ounce)",
+        "Cacique Queso Fresco Cheese - 10 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Innovations White Queso 12oz - 12 OZ",
+      "brand": null,
+      "price": "$4.99",
+      "size": "12oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Ounce $0.42",
+        "($0.42 / Ounce)",
+        "Fresh Innovations White Queso 12oz - 12 OZ"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Con Queso Medium - 15 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per Ounce $0.40",
+        "($0.40 / Ounce)",
+        "TOSTITOS Salsa Con Queso Medium - 15 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Fresh Innovations Yellow Queso 12oz - 12 OZ",
+      "brand": null,
+      "price": "$4.99",
+      "size": "12oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Ounce $0.42",
+        "($0.42 / Ounce)",
+        "Fresh Innovations Yellow Queso 12oz - 12 OZ"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Dip Queso Blanco Medium - 15 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per Ounce $0.40",
+        "($0.40 / Ounce)",
+        "TOSTITOS Dip Queso Blanco Medium - 15 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "White Queso - 12 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per Each $3.99",
+        "($3.99 / Each)",
+        "White Queso - 12 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Queso Poblano Dip - 10 OZ",
+      "brand": null,
+      "price": "$4.99",
+      "size": "10 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Ounce $0.50",
+        "($0.50 / Ounce)",
+        "Queso Poblano Dip - 10 OZ"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Tostitos Dip Spicy Queso Hot - 15 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.99 each",
+        "$5.99",
+        "price per Ounce $0.40",
+        "($0.40 / Ounce)",
+        "Tostitos Dip Spicy Queso Hot - 15 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Queso Blanco Medium Salsa Con - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Ounce $0.32",
+        "($0.32 / Ounce)",
+        "Signature SELECT Queso Blanco Medium Salsa Con - 15.5 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "V&V Supremo Chihuahua Shredded Cheese - 32 Oz",
+      "brand": null,
+      "price": "$9.99",
+      "size": "32 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $9.99 each",
+        "$9.99",
+        "Original Price $15.99",
+        "$15.99",
+        "price per Ounce $0.31"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "V&V Supremo Chihuahua Shredded Cheese - 32 Oz",
+      "brand": null,
+      "price": "$15.99",
+      "size": "32 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$9.99",
+        "Original Price $15.99",
+        "$15.99",
+        "price per Ounce $0.31",
+        "($0.31 / Ounce)",
+        "V&V Supremo Chihuahua Shredded Cheese - 32 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Signature SELECT Queso Medium Salsa Con - 15.5 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Ounce $0.32",
+        "($0.32 / Ounce)",
+        "Signature SELECT Queso Medium Salsa Con - 15.5 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Queso Blanco Cheese Dip - 15 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "Original Price $5.99",
+        "$5.99",
+        "price per Ounce $0.33"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Pace Medium Queso Blanco Cheese Dip - 15 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.99",
+        "Original Price $5.99",
+        "$5.99",
+        "price per Ounce $0.33",
+        "($0.33 / Ounce)",
+        "Pace Medium Queso Blanco Cheese Dip - 15 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded...Cheese Blend - 32 Oz",
+      "brand": null,
+      "price": "$7.99",
+      "size": "32 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $7.99 each",
+        "$7.99",
+        "Original Price $9.99",
+        "$9.99",
+        "price per Ounce $0.25"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded...Cheese Blend - 32 Oz",
+      "brand": null,
+      "price": "$9.99",
+      "size": "32 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$7.99",
+        "Original Price $9.99",
+        "$9.99",
+        "price per Ounce $0.25",
+        "($0.25 / Ounce)",
+        "Lucerne Cheese Finely Shredded...Cheese Blend - 32 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "V&V Supremo Chihuahua Quesadilla Shredded Cheese - 16 Oz",
+      "brand": null,
+      "price": "$6.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "Original Price $7.99",
+        "$7.99",
+        "price per Ounce $0.44"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "V&V Supremo Chihuahua Quesadilla Shredded Cheese - 16 Oz",
+      "brand": null,
+      "price": "$7.99",
+      "size": "16 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$6.99",
+        "Original Price $7.99",
+        "$7.99",
+        "price per Ounce $0.44",
+        "($0.44 / Ounce)",
+        "V&V Supremo Chihuahua Quesadilla Shredded Cheese - 16 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "On The Border Salsa Con Quezo Jar - 15.5 Oz",
+      "brand": null,
+      "price": "$6.49",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.49 each",
+        "$6.49",
+        "price per Ounce $0.42",
+        "($0.42 / Ounce)",
+        "On The Border Salsa Con Quezo Jar - 15.5 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "On The Border Queso Jalapeno Tray Pack - 15.25 OZ",
+      "brand": null,
+      "price": "$6.49",
+      "size": "15.25 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.49 each",
+        "$6.49",
+        "price per Ounce $0.43",
+        "($0.43 / Ounce)",
+        "On The Border Queso Jalapeno Tray Pack - 15.25 OZ"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded Queso Quesadilla - 8 Oz",
+      "brand": null,
+      "price": "$2.99",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.99 each",
+        "$2.99",
+        "Original Price $3.29",
+        "$3.29",
+        "price per Ounce $0.37"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded Queso Quesadilla - 8 Oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.99",
+        "Original Price $3.29",
+        "$3.29",
+        "price per Ounce $0.37",
+        "($0.37 / Ounce)",
+        "Lucerne Cheese Finely Shredded Queso Quesadilla - 8 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded...d Reduced Fat - 8 Oz",
+      "brand": null,
+      "price": "$2.99",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.99 each",
+        "$2.99",
+        "Original Price $3.29",
+        "$3.29",
+        "price per Ounce $0.37"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded...d Reduced Fat - 8 Oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.99",
+        "Original Price $3.29",
+        "$3.29",
+        "price per Ounce $0.37",
+        "($0.37 / Ounce)",
+        "Lucerne Cheese Finely Shredded...d Reduced Fat - 8 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Beyond Meat Beyond Burger Plant Based Patties 2 Count - 8 Oz",
+      "brand": null,
+      "price": "$5.19",
+      "size": "2 Count",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "Your Price $5.19 each",
+        "$5.19",
+        "Original Price $7.99",
+        "$7.99",
+        "price per Ounce $0.65"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Beyond Meat Beyond Burger Plant Based Patties 2 Count - 8 Oz",
+      "brand": null,
+      "price": "$7.99",
+      "size": "2 Count",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$5.19",
+        "Original Price $7.99",
+        "$7.99",
+        "price per Ounce $0.65",
+        "($0.65 / Ounce)",
+        "Beyond Meat Beyond Burger Plant Based Patties 2 Count - 8 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Taylor Farms Kit Chopped Caesar Salad Kit - 11.15 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "11.15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Ounce $0.45",
+        "($0.45 / Ounce)",
+        "Taylor Farms Kit Chopped Caesar Salad Kit - 11.15 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Earthbound Farm Greenhouse Romaine Crunch - 4 Oz",
+      "brand": null,
+      "price": "$4.49",
+      "size": "4 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.49 each",
+        "$4.49",
+        "price per Ounce $1.12",
+        "($1.12 / Ounce)",
+        "Earthbound Farm Greenhouse Romaine Crunch - 4 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Taylor Farms Asian Chopped Salad Kit - 13 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "13 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Ounce $0.38",
+        "($0.38 / Ounce)",
+        "Taylor Farms Asian Chopped Salad Kit - 13 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "V&V Supremo Queso Fresco Fresh Crumbling Cheese - 10 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "10 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "Original Price $5.99",
+        "$5.99",
+        "price per Ounce $0.50"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "V&V Supremo Queso Fresco Fresh Crumbling Cheese - 10 Oz",
+      "brand": null,
+      "price": "$5.99",
+      "size": "10 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.99",
+        "Original Price $5.99",
+        "$5.99",
+        "price per Ounce $0.50",
+        "($0.50 / Ounce)",
+        "V&V Supremo Queso Fresco Fresh Crumbling Cheese - 10 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "La Preferida Sauce Ready-To-Us...se Zesty Can - 15 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.99 each",
+        "$4.99",
+        "price per Ounce $0.33",
+        "($0.33 / Ounce)",
+        "La Preferida Sauce Ready-To-Us...se Zesty Can - 15 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "On The Border Queso Creamy Monterrey Jack Jar - 15.5 Oz",
+      "brand": null,
+      "price": "$6.49",
+      "size": "15.5 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.49 each",
+        "$6.49",
+        "price per Ounce $0.42",
+        "($0.42 / Ounce)",
+        "On The Border Queso Creamy Monterrey Jack Jar - 15.5 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Tillamook Farmstyle Thick Cut ...redded Cheese - 8 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "Original Price $4.99",
+        "$4.99",
+        "price per Ounce $0.50"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Tillamook Farmstyle Thick Cut ...redded Cheese - 8 Oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.99",
+        "Original Price $4.99",
+        "$4.99",
+        "price per Ounce $0.50",
+        "($0.50 / Ounce)",
+        "Tillamook Farmstyle Thick Cut ...redded Cheese - 8 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Lucerne Cheese Mexican Blend Thick Cut Shredded- 8 Oz",
+      "brand": null,
+      "price": "$2.99",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.99 each",
+        "$2.99",
+        "Original Price $3.29",
+        "$3.29",
+        "price per Ounce $0.37"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Lucerne Cheese Mexican Blend Thick Cut Shredded- 8 Oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.99",
+        "Original Price $3.29",
+        "$3.29",
+        "price per Ounce $0.37",
+        "($0.37 / Ounce)",
+        "Lucerne Cheese Mexican Blend Thick Cut Shredded- 8 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Ricos Gourmet Nacho Sauce Cheese - 15 OZ",
+      "brand": null,
+      "price": "$4.50",
+      "size": "15 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.50 each",
+        "$4.50",
+        "Original Price $4.99",
+        "$4.99",
+        "price per Ounce $0.30"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Ricos Gourmet Nacho Sauce Cheese - 15 OZ",
+      "brand": null,
+      "price": "$4.99",
+      "size": "15 OZ",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$4.50",
+        "Original Price $4.99",
+        "$4.99",
+        "price per Ounce $0.30",
+        "($0.30 / Ounce)",
+        "Ricos Gourmet Nacho Sauce Cheese - 15 OZ"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "TOSTITOS Salsa Con Queso Medium - 23 Oz",
+      "brand": null,
+      "price": "$6.99",
+      "size": "23 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per Ounce $0.30",
+        "($0.30 / Ounce)",
+        "TOSTITOS Salsa Con Queso Medium - 23 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Ruffles Potato Chips Queso 8 Ounce - 8 OZ",
+      "brand": null,
+      "price": "$5.49",
+      "size": "8 Ounce",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $5.49 each",
+        "$5.49",
+        "price per Ounce $0.69",
+        "($0.69 / Ounce)",
+        "Ruffles Potato Chips Queso 8 Ounce - 8 OZ"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "ReadyMeals YelloWith Queso Dip Ready2Heat - 12 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "12 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per Ounce $0.33",
+        "($0.33 / Ounce)",
+        "ReadyMeals YelloWith Queso Dip Ready2Heat - 12 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded... Cheese Blend - 8 Oz",
+      "brand": null,
+      "price": "$2.99",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.99 each",
+        "$2.99",
+        "Original Price $3.29",
+        "$3.29",
+        "price per Ounce $0.37"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Lucerne Cheese Finely Shredded... Cheese Blend - 8 Oz",
+      "brand": null,
+      "price": "$3.29",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$2.99",
+        "Original Price $3.29",
+        "$3.29",
+        "price per Ounce $0.37",
+        "($0.37 / Ounce)",
+        "Lucerne Cheese Finely Shredded... Cheese Blend - 8 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Sargento Shredded 4 Cheese Mex...eese Fine Cut - 8 Oz",
+      "brand": null,
+      "price": "$3.99",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "Original Price $4.49",
+        "$4.49",
+        "price per Ounce $0.50"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Sargento Shredded 4 Cheese Mex...eese Fine Cut - 8 Oz",
+      "brand": null,
+      "price": "$4.49",
+      "size": "8 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "$3.99",
+        "Original Price $4.49",
+        "$4.49",
+        "price per Ounce $0.50",
+        "($0.50 / Ounce)",
+        "Sargento Shredded 4 Cheese Mex...eese Fine Cut - 8 Oz"
+      ],
+      "via": "text"
+    }
+  ],
+  "raw_text_chars": 8628,
+  "steps": [
+    "14:38:45 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "14:38:45 connected to Bright Data Scraping Browser",
+    "14:39:08 goto https://www.jewelosco.com/shop/search-results.html?q=queso",
+    "14:39:16 captcha check passed",
+    "14:39:26 dismissed \"Continue with all\"",
+    "14:39:27 press Escape",
+    "14:39:34 js ok open 0",
+    "14:39:49 type_sel input[placeholder*='ZIP Code'] \"60615\"",
+    "14:39:55 js ok selected",
+    "14:40:16 scrolled x4",
+    "14:40:19 scrolled x2",
+    "14:40:24 scrolled x2",
+    "14:40:28 scrolled x2",
+    "14:40:30 store_set: 6014 S Cottage Grove",
+    "14:40:30 few houses, reloading once",
+    "14:40:57 text parser wins: 51 vs 0",
+    "14:41:00 extracted 51 houses; raw text 8628 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "open 0",
+    "selected"
+  ],
+  "reloaded": true,
+  "houses_text": 51,
+  "houses_dom": 0
+}
