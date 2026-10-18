@@ -1,0 +1,23 @@
+{
+  "block_id": "pura/kids-drinks@costco-ic-socal",
+  "retailer": "costco-ic",
+  "zip": "beverages",
+  "neighborhood": "kids-drinks",
+  "pulled_at": "2026-10-18T02:04:04.929Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "90012",
+  "store_set": null,
+  "url_final": "about:blank",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "02:04:04 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "02:04:06 connected to Bright Data Scraping Browser",
+    "02:04:08 rate limited, retry 1",
+    "02:06:16 step failed (TimeoutError: page.goto: Timeout 120000ms exceeded.\nCall log:\n  - navigating to ), will retry recipe",
+    "02:10:47 store_js failed Error: page.evaluate: Execution context was destroyed, most ",
+    "02:10:47 ERROR Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+  ],
+  "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+}

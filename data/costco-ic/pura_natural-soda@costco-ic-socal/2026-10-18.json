@@ -1,0 +1,756 @@
+{
+  "block_id": "pura/natural-soda@costco-ic-socal",
+  "retailer": "costco-ic",
+  "zip": "beverages",
+  "neighborhood": "natural-soda",
+  "pulled_at": "2026-10-18T02:02:16.369Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "90012",
+  "store_set": null,
+  "url_final": "https://www.instacart.com/store/costco/s?k=natural%20soda",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "02:02:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "02:02:16 connected to Bright Data Scraping Browser",
+    "02:02:19 rate limited, retry 1",
+    "02:02:40 goto https://www.instacart.com/store/costco/s?k=natural soda",
+    "02:02:48 captcha check passed",
+    "02:03:03 dismissed \"Continue\"",
+    "02:03:10 js_houses 72 store API zip 90012 shop 238 location 319",
+    "02:03:12 store_set: null",
+    "02:03:12 attempt 2: store not pinned, fresh page",
+    "02:03:21 goto https://www.instacart.com/store/costco/s?k=natural soda",
+    "02:03:29 captcha check passed",
+    "02:08:10 dismiss: nothing to close",
+    "02:12:40 js_houses miss Error: page.evaluate: Execution context was destroyed, most likely because of a ",
+    "02:12:41 store_js failed Error: page.evaluate: Execution context was destroyed, most ",
+    "02:12:41 ERROR Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+  ],
+  "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation.",
+  "js_houses": [
+    {
+      "name": "Spindrift Sparkling Water, 12 fl oz, 30-count",
+      "size": "12 fl oz",
+      "brand": "spindrift",
+      "price": "$23.33",
+      "item_id": "items_319-102282242",
+      "product_id": "102282242",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f5e42833-6dfb-4a3e-bc25-eb179ce9fc35.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Zevia Soda Variety Pack, 12 fl oz, 30-count",
+      "size": "12 fl oz",
+      "brand": "zevia",
+      "price": "$21.84",
+      "item_id": "items_319-98914477",
+      "product_id": "98914477",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_079c6ce4-1cb9-4166-8375-3a0d95682245.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Cheerpop Prebiotic Soda Variety Pack, 11 fl oz, 12-count",
+      "size": "11 fl oz",
+      "brand": "cheerpop",
+      "price": "$17.93",
+      "item_id": "items_319-126937923",
+      "product_id": "126937923",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1520f6ba-7040-4b82-94c6-570105b894fe.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Olipop Mini Soda, Variety Pack, 7.5 fl oz, 15-count",
+      "size": "7.5 fl oz",
+      "brand": "olipop minis",
+      "price": "$22.70",
+      "item_id": "items_319-116796031",
+      "product_id": "116796031",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_244b4296-2fd2-482a-a3fc-a12d62b3338d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola Classic, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "coca-cola",
+      "price": "$24.20",
+      "item_id": "items_319-2736842",
+      "product_id": "2736842",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cf30190f-849f-4556-91ae-f64edae4f206.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Oral-B iO Deep Clean Replacement Toothbrush Head, 9-count",
+      "size": "9 ct",
+      "brand": "oral-b",
+      "price": "$63.24",
+      "item_id": "items_319-66824237",
+      "product_id": "66824237",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b7b6d1fe-7a9c-4056-9bac-b1997015b912.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Pepsi, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "pepsi",
+      "price": "$17.47",
+      "item_id": "items_319-32020",
+      "product_id": "32020",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f148e5c5-ff9e-4960-a2ee-8388469adbe7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Bounty Advanced Paper Towels, 2-Ply, 103 Sheets, 12-count",
+      "size": "12 ct",
+      "brand": "bounty",
+      "price": "$32.88",
+      "item_id": "items_319-70468811",
+      "product_id": "70468811",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b74da87c-28c9-41e2-ac0c-a0d3b16c1b24.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Fever Tree Ginger Beer, 9.3 fl oz, 12 count",
+      "size": "9.3 fl oz",
+      "brand": "fever-tree",
+      "price": "$19.77",
+      "item_id": "items_319-18164112",
+      "product_id": "18164112",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5c938937-76b4-4b9d-bbad-499614e9930f.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Jones Soda Fallout Vault-Dweller Variety Pack Bottles, 12 fl oz, 12-count",
+      "size": "12 fl oz",
+      "brand": "jones soda",
+      "price": "$23.33",
+      "item_id": "items_319-129411155",
+      "product_id": "129411155",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e1c928de-2236-44e3-8595-c9461b604113.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "IZZE, Sparkling Juice Beverage, Variety Pack, 8.4 fl oz, 24-Count",
+      "size": "8.4 fl oz",
+      "brand": "izze",
+      "price": "$19.19",
+      "item_id": "items_319-43063389",
+      "product_id": "43063389",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f751f6bc-3065-47fe-b5b6-23f2609abac8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Poppi Soda, Cranberry Fizz, 12 fl oz, 18-count",
+      "size": "12 fl oz",
+      "brand": "poppi",
+      "price": "$24.02",
+      "item_id": "items_319-130902681",
+      "product_id": "130902681",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d985fc0e-d021-42a3-b4cb-2d50287445df.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Canada Dry Ginger Ale Variety Pack, 12 fl oz, 36-count",
+      "size": "12 oz",
+      "brand": "canada dry",
+      "price": "$23.91",
+      "item_id": "items_319-16596612",
+      "product_id": "16596612",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f8b6e5d9-5352-443b-8d2e-7168c831aa9e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "San Pellegrino Crafted Soda Italiana, Variety Pack, 11.15 fl oz, 24-count",
+      "size": "11.15 fl oz",
+      "brand": "san pellegrino",
+      "price": "$25.52",
+      "item_id": "items_319-120233430",
+      "product_id": "120233430",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3f4192f8-047a-4291-9518-d7332dd098d7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Olipop Soda, Winter Variety Pack, 12 fl oz, 15-count",
+      "size": "12 fl oz",
+      "brand": "olipop",
+      "price": "$23.85",
+      "item_id": "items_319-129456854",
+      "product_id": "129456854",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e643f9ad-f553-425b-9f1a-7a8da4859b3a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Honest Kids, Organic Juice Drink, Variety Pack, 6 fl oz, 40-count",
+      "size": "6 fl oz",
+      "brand": "honest kids",
+      "price": "$17.12",
+      "item_id": "items_319-19385705",
+      "product_id": "19385705",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_92583883-76c6-49b5-94bc-19e9ca9f5963.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Diet Coke, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "coca-cola",
+      "price": "$24.20",
+      "item_id": "items_319-2802711",
+      "product_id": "2802711",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a0f72ee4-22c3-4207-aff2-360960f80e5c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola Mini, 7.5 fl oz, 30-count",
+      "size": "7.5 fl oz",
+      "brand": "coca-cola",
+      "price": "$20.46",
+      "item_id": "items_319-18019134",
+      "product_id": "18019134",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3691d266-cdc8-4849-953f-0d894876c4c6.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Fanta Soda Variety Pack, 12 fl oz, 24 count",
+      "size": "12 fl oz",
+      "brand": "fanta",
+      "price": "$42.42",
+      "item_id": "items_319-16595839",
+      "product_id": "16595839",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_915aaf84-7de5-46c8-a722-c1736e183bd3.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Joyburst Creatine Soda Variety Pack Cans, 12 fl oz, 15-count",
+      "size": "12 fl oz",
+      "brand": "joyburst",
+      "price": "$18.08",
+      "item_id": "items_319-124810027",
+      "product_id": "124810027",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_46242849-b519-4bac-8d52-ba59e2119791.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Coca-Cola de Mexico Soda Soft Drink Glass Bottles, 335 mL, 24-count",
+      "size": "12 fl oz",
+      "brand": "coca-cola",
+      "price": "$42.42",
+      "item_id": "items_319-16485141",
+      "product_id": "16485141",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2c1e735-3d93-4d51-b2fc-dba90170e7c8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Sparkling Water, Variety Pack, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "kirkland signature",
+      "price": "$15.80",
+      "item_id": "items_319-20194391",
+      "product_id": "20194391",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_14e40ce1-acb7-42b8-b0ef-5531be9bb2a9.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Sprite Lemon-Lime Caffeine Free Soda Soft Drink Cans, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "sprite",
+      "price": "$24.20",
+      "item_id": "items_319-2736841",
+      "product_id": "2736841",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_61c582ff-29be-48a0-9f42-4a25c84aa2d7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Squirt Thirst Quencher, 12 fl oz, 36 count",
+      "size": "12 oz",
+      "brand": "seven-up (bay area)",
+      "price": "$21.61",
+      "item_id": "items_319-1130125",
+      "product_id": "1130125",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_be88f95f-aaf1-45a4-9be4-e92329f0b59c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola, Classic, 16.9 fl oz, 24-count",
+      "size": "16.9 fl oz",
+      "brand": "coca cola bay area",
+      "price": "$20.69",
+      "item_id": "items_319-2577419",
+      "product_id": "2577419",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0d01e159-0c20-40a9-9f2c-08b2819c8d67.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Dr. Pepper, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "dr pepper",
+      "price": "$22.76",
+      "item_id": "items_319-32334",
+      "product_id": "32334",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5221b19c-60a4-4370-bb19-6248d9095e93.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Skinny Pop Organic Popcorn, 0.65 oz, 28-count",
+      "size": "each",
+      "brand": "skinnypop",
+      "price": "$13.79",
+      "item_id": "items_319-24102286",
+      "product_id": "24102286",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c8d9f84b-2a39-420e-843d-8c4a0c3f3a3b.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature, Organic Coconut Water, 11.1 fl oz, 12-count",
+      "size": "11.1 fl oz",
+      "brand": "kirkland signature",
+      "price": "$12.64",
+      "item_id": "items_319-21946241",
+      "product_id": "21946241",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_80301973-2288-45e2-959f-b50801b13000.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Martinelli's Sparkling Cider, Apple, 25.4 fl oz, 4 count",
+      "size": "25.4 fl oz",
+      "brand": "martinelli's",
+      "price": "$12.98",
+      "item_id": "items_319-198335",
+      "product_id": "198335",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96eafeaa-df00-4192-b1fc-63b4546a6e01.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Athletic Brewing Co. IPA Variety Non-Alcoholic, 12 fl oz, 24-count",
+      "size": "12 fl oz",
+      "brand": "athletic brewing co.",
+      "price": "$39.19",
+      "item_id": "items_319-74124350",
+      "product_id": "74124350",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cf217380-23a3-45eb-a006-c9af9b911f41.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Organic Coconut Water, 14 fl oz, 6-count",
+      "size": "14 fl oz",
+      "brand": "kirkland signature",
+      "price": "$15.28",
+      "item_id": "items_319-26445938",
+      "product_id": "26445938",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_35d26ac0-bbef-4802-83c7-49c8d91cd479.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "7 Up, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "seven-up (bay area)",
+      "price": "$21.61",
+      "item_id": "items_319-32335",
+      "product_id": "32335",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c7ddad08-236e-4756-86ea-df18ee8c07fd.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature, Organic Lemonade, 96 fl oz, 2-count",
+      "size": "96 fl oz",
+      "brand": "kirkland signature",
+      "price": "$7.81",
+      "item_id": "items_319-190395",
+      "product_id": "190395",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_118c2b12-0141-405f-9685-0ad5413e99cd.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Waterloo Sparkling Water, Variety Pack, 12 fl oz, 24-count",
+      "size": "12 fl oz",
+      "brand": "waterloo sparkling water",
+      "price": "$10.68",
+      "item_id": "items_319-64421149",
+      "product_id": "64421149",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8568f33a-7544-4e0a-a0d1-33f48b91f08d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Skinny Pop Organic Popcorn, 14 oz",
+      "size": "each",
+      "brand": "skinnypop",
+      "price": "$8.04",
+      "item_id": "items_319-17352741",
+      "product_id": "17352741",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c70c332d-c425-489c-b196-3b83f381c6f7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Nature's Garden, Probiotic Strawberry Yoggies, 0.7 oz,  30-count",
+      "size": "each",
+      "brand": "nature's garden",
+      "price": "$16.09",
+      "item_id": "items_319-30552614",
+      "product_id": "30552614",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bc855c75-e544-480f-8bd3-8dbd866f49f3.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Solely Organic Fruit Jerky Variety Pack, 0.8 oz, 16-count",
+      "size": "0.8 oz",
+      "brand": "solely: fruit jerky",
+      "price": "$19.54",
+      "item_id": "items_319-101460796",
+      "product_id": "101460796",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0a62766f-1fae-47cb-9b12-6ca6568713db.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature, Organic Non-Dairy Oat Beverage, 32 oz, 6-count",
+      "size": "32 fl oz",
+      "brand": "kirkland signature",
+      "price": "$11.49",
+      "item_id": "items_319-20137005",
+      "product_id": "20137005",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4a244d4f-b0ae-41af-b847-1f7a6b015728.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Arm & Hammer, Pure Baking Soda, 13.5 lbs",
+      "size": "each",
+      "brand": "arm & hammer",
+      "price": "$10.80",
+      "item_id": "items_319-2718157",
+      "product_id": "2718157",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_714433d6-d117-4689-a372-05d8beb40426.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Epoca Cool Plus Original Organic Cultured Dairy Beverage with Probiotics, 2.1 oz, 50-count",
+      "size": "2.1 fl oz",
+      "brand": "epoca cool plus",
+      "price": "$13.79",
+      "item_id": "items_319-20722103",
+      "product_id": "20722103",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_92c6505e-63df-4b7a-bc0d-6efee190254e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Kettle Pink Salt Potato Chips, 32 oz",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$7.35",
+      "item_id": "items_319-19327174",
+      "product_id": "19327174",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8afd36ef-6680-44a1-9040-10538a5f8f95.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Grown Right Organic Strawberry Lemonade, 96 fl oz, 2-count",
+      "size": "96 oz",
+      "brand": "grown right",
+      "price": "$9.42",
+      "item_id": "items_319-24515388",
+      "product_id": "24515388",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_92f60952-44c2-40b1-9af6-b5d037c132ac.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Annie's Organic Extra Cheddar Cheesy Smiles Corn Puffs, 15.5 oz",
+      "size": "15.5 oz",
+      "brand": "annie's",
+      "price": "$8.04",
+      "item_id": "items_319-88669598",
+      "product_id": "88669598",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a21952cb-1fae-4021-a10f-763f3d84ffd2.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Lipton Brisk Iced Tea, Lemon, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "pepsi cola of n.y. inc",
+      "price": "$21.61",
+      "item_id": "items_319-154860",
+      "product_id": "154860",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7eb98cca-11f7-4a74-90b5-d175191c810d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Late July Organic Salt and Lime Tortilla Chips, 22 oz",
+      "size": "each",
+      "brand": "late july",
+      "price": "$7.81",
+      "item_id": "items_319-16956259",
+      "product_id": "16956259",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ef1fd18d-0321-44ca-8261-af9514f07a0d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Grown Right Paloma Grapefruit Cocktail, 64 fl oz, 2-count",
+      "size": "64 fl oz",
+      "brand": "grown right",
+      "price": "$5.39",
+      "item_id": "items_319-129310763",
+      "product_id": "129310763",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9a038559-f31b-4928-a9b8-a8a8972e4b0d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Spindrift Sparkling Water Variety Pack, 12 fl oz, 30-count",
+      "size": "12 fl oz",
+      "brand": "spindrift",
+      "price": "$23.33",
+      "item_id": "items_319-112427685",
+      "product_id": "112427685",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9652e8b3-91ff-446b-9f83-6e47cb41af0c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Organic Mixed Bell Peppers, 6-count",
+      "size": "each",
+      "brand": null,
+      "price": "$11.49",
+      "item_id": "items_319-18698768",
+      "product_id": "18698768",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1601960e-5ce2-4996-93f1-8c46fa0f3540.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Organic Carrots, 6 lbs",
+      "size": "each",
+      "brand": null,
+      "price": "$6.31",
+      "item_id": "items_319-22137231",
+      "product_id": "22137231",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fcd53dd6-5405-4132-9323-8b532a7b4daf.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "San Pellegrino Sparkling Natural Mineral Water, 25.3 fl oz, 15-count",
+      "size": "750 ml",
+      "brand": "san pellegrino",
+      "price": "$29.31",
+      "item_id": "items_319-3211833",
+      "product_id": "3211833",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ba0929fa-86ae-4d13-9c11-4cfcc79e57ec.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Doritos Tortilla Chips, Nacho Cheese, 30 oz",
+      "size": "each",
+      "brand": "doritos",
+      "price": "$8.38",
+      "item_id": "items_319-18533456",
+      "product_id": "18533456",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9879d907-41cb-44dd-9819-4bd991a8dd45.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Martinelli's, Gold Medal 100% Pure Apple Juice, 10 fl oz, 24-Count",
+      "size": "10 oz",
+      "brand": "martinelli's",
+      "price": "$29.54",
+      "item_id": "items_319-16407274",
+      "product_id": "16407274",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_af9d86aa-f4ac-4054-b832-feb3dbedebca.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "NaturSource Organic Salad Topper, 2 lbs",
+      "size": "each",
+      "brand": "natursource",
+      "price": "$11.37",
+      "item_id": "items_319-18706209",
+      "product_id": "18706209",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_49473e9c-8776-4418-b9c4-6b2850f80a56.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature  Flavored Sparkling Water, 17 fl oz, 24-count",
+      "size": "17 fl oz",
+      "brand": "kirkland signature",
+      "price": "$12.87",
+      "item_id": "items_319-75916748",
+      "product_id": "75916748",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ed13f489-8e09-4e76-bab4-3b492df17fc1.jpg",
+      "availability": "lowStock"
+    },
+    {
+      "name": "Kirkland Signature, Organic Almond Beverage, Vanilla, 32 fl oz, 6-Count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$9.76",
+      "item_id": "items_319-3341392",
+      "product_id": "3341392",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6c9ea3e5-fb8d-49f2-a6f2-b52f3f3ae751.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signaure Organic Raw Kombucha, 16 fl oz, 8-count",
+      "size": "16 fl oz",
+      "brand": "kirkland signature",
+      "price": "$15.40",
+      "item_id": "items_319-19350760",
+      "product_id": "19350760",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5133378a-1fe1-4455-abef-82c85a6d37d3.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Microwave Popcorn, 3.3 oz, 44-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$17.24",
+      "item_id": "items_319-19231207",
+      "product_id": "19231207",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_91ce4736-8b6d-406a-8d56-d511aaa6e99e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Sparkling Energy Drink, Variety Pack, 12 fl oz, 24-count",
+      "size": "12 fl oz",
+      "brand": "kirkland signature",
+      "price": "$19.77",
+      "item_id": "items_319-109608914",
+      "product_id": "109608914",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_893f0edf-fc97-4313-b77e-c7037fb1840b.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Italian Sparkling Mineral Water, 16.9 fl oz, 24-count",
+      "size": "16.9 fl oz",
+      "brand": "kirkland signature",
+      "price": "$19.19",
+      "item_id": "items_319-18167844",
+      "product_id": "18167844",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7d5cbfe3-1dc5-40b1-90e5-fe8ec8bf27ff.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Organic Lactose Free Milk, 64 fl oz, 3 count",
+      "size": "64 oz",
+      "brand": "kirkland signature",
+      "price": "$15.51",
+      "item_id": "items_319-17444603",
+      "product_id": "17444603",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b5334da2-248f-4ae0-927e-df876dfa6634.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Late July Organic Sea Salt Multigrain Tortilla Chips, 28 oz",
+      "size": "each",
+      "brand": "late july",
+      "price": "$9.19",
+      "item_id": "items_319-17284774",
+      "product_id": "17284774",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3a69e19e-220f-4d33-a9ab-2fd27130998b.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Organic Apple Cider Vinegar, 32 oz, 3-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$10.34",
+      "item_id": "items_319-19551122",
+      "product_id": "19551122",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_73557ec7-ba58-43c9-878e-94599b3e3a01.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Visvita Premium Aloe Vera Drink, Variety Pack, 16.9 fl oz, 20 count",
+      "size": "16.9 oz",
+      "brand": "visvita",
+      "price": "$18.96",
+      "item_id": "items_319-20021083",
+      "product_id": "20021083",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0053067b-0ada-4567-85a1-d310270a6267.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Popcorn, Sea Salt, 0.65 oz, 36-count",
+      "size": "0.65 oz",
+      "brand": "kirkland signature",
+      "price": "$11.49",
+      "item_id": "items_319-112322430",
+      "product_id": "112322430",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a96f1f85-acfd-4638-8329-aac2ec80176e.jpg",
+      "availability": "lowStock"
+    },
+    {
+      "name": "Kirkland Signature Vodka + Soda, Variety Pack, 12 fl oz, 18-count",
+      "size": "12 fl oz",
+      "brand": "kirkland signature",
+      "price": "$32.69",
+      "item_id": "items_319-64556140",
+      "product_id": "64556140",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c5f1a460-de9c-47be-98cc-d9d14542623e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Sport Drink, Variety Pack, 12 fl oz, 24-count",
+      "size": "12 fl oz",
+      "brand": "kirkland signature",
+      "price": "$11.72",
+      "item_id": "items_319-116990237",
+      "product_id": "116990237",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e658ff82-1f1f-4e03-a4fe-1c7d41d84740.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Cranberry Raspberry Juice, 96 fl oz, 2 count",
+      "size": "96 oz",
+      "brand": "kirkland signature",
+      "price": "$9.19",
+      "item_id": "items_319-19231007",
+      "product_id": "19231007",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8c3b124b-f499-48cd-9c0c-7fb947f5e477.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Organic Matcha Green Tea Powder, 12 oz",
+      "size": "12 oz",
+      "brand": "kirkland signature",
+      "price": "$27.59",
+      "item_id": "items_319-109877565",
+      "product_id": "109877565",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f0b0afae-d7fc-4e89-a7ee-82bb24ef10b7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Organic Green Tea, 1.5 g, 100-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$18.85",
+      "item_id": "items_319-3341842",
+      "product_id": "3341842",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_45a695c1-aecd-4183-b8b9-a12f7454cf92.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Trip Mindful Blend Sparkling Drink Cans, 12 fl oz, 12-count",
+      "size": "12 oz",
+      "brand": "trip",
+      "price": "$23.68",
+      "item_id": "items_319-130900591",
+      "product_id": "130900591",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e85c33a7-baf7-4f9e-a944-c3d64f883707.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "BranchOut Organic Cinnamon Apple Chips, 7 oz",
+      "size": "7 oz",
+      "brand": "branchout",
+      "price": "$13.79",
+      "item_id": "items_319-135209987",
+      "product_id": "135209987",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a6861a0a-5132-4d7e-b88a-cb604b3823e1.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature, Almond Milk, 1 qt, 12-count",
+      "size": "32 oz",
+      "brand": "kirkland signature",
+      "price": "$16.66",
+      "item_id": "items_319-19559778",
+      "product_id": "19559778",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3777b210-ae7a-452d-8572-4e1f273025f8.jpg",
+      "availability": "highlyInStock"
+    }
+  ],
+  "js_store": "API zip 90012 shop 238 location 319",
+  "js_debug": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+}

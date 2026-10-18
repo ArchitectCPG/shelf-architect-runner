@@ -1,0 +1,18 @@
+{
+  "block_id": "pura/natural-soda@target-socal",
+  "retailer": "target",
+  "zip": "beverages",
+  "neighborhood": "natural-soda",
+  "pulled_at": "2026-10-18T02:40:43.374Z",
+  "runner": "github-actions+brightdata-dataset-api",
+  "store_requested_zip": "90012",
+  "store_set": "API zip 90012 (dataset gd_ltppk5mx2lp0v1k0vo)",
+  "houses": [],
+  "steps": [
+    "02:40:43 snapshot sd_mvd7xijd13flvo8a1x",
+    "02:41:04 poll 0: running",
+    "02:42:04 poll 3: running",
+    "02:42:46 extracted 0 houses from 0 records"
+  ],
+  "error": null
+}

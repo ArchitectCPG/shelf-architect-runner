@@ -1,0 +1,1039 @@
+{
+  "block_id": "pura/brand@costco-ic-socal",
+  "retailer": "costco-ic",
+  "zip": "beverages",
+  "neighborhood": "brand",
+  "pulled_at": "2026-10-18T02:13:15.862Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "90012",
+  "store_set": "API zip 90012 shop 238 location 319",
+  "url_final": "https://www.instacart.com/store/costco/s?k=pura%20soda",
+  "houses": [
+    {
+      "name": "Canada Dry Ginger Ale Variety Pack, 12 fl oz, 36-count",
+      "size": "12 oz",
+      "brand": "canada dry",
+      "price": "$25.86",
+      "item_id": "items_319-16596612",
+      "product_id": "16596612",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f8b6e5d9-5352-443b-8d2e-7168c831aa9e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola Classic, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "coca-cola",
+      "price": "$26.17",
+      "item_id": "items_319-2736842",
+      "product_id": "2736842",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cf30190f-849f-4556-91ae-f64edae4f206.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Pepsi, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "pepsi",
+      "price": "$18.90",
+      "item_id": "items_319-32020",
+      "product_id": "32020",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f148e5c5-ff9e-4960-a2ee-8388469adbe7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Squirt Thirst Quencher, 12 fl oz, 36 count",
+      "size": "12 oz",
+      "brand": "seven-up (bay area)",
+      "price": "$23.37",
+      "item_id": "items_319-1130125",
+      "product_id": "1130125",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_be88f95f-aaf1-45a4-9be4-e92329f0b59c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "San Pellegrino Crafted Soda Italiana, Variety Pack, 11.15 fl oz, 24-count",
+      "size": "11.15 fl oz",
+      "brand": "san pellegrino",
+      "price": "$27.60",
+      "item_id": "items_319-120233430",
+      "product_id": "120233430",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3f4192f8-047a-4291-9518-d7332dd098d7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Oral-B iO Deep Clean Replacement Toothbrush Head, 9-count",
+      "size": "9 ct",
+      "brand": "oral-b",
+      "price": "$67.99",
+      "item_id": "items_319-66824237",
+      "product_id": "66824237",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b7b6d1fe-7a9c-4056-9bac-b1997015b912.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Bounty Advanced Paper Towels, 2-Ply, 103 Sheets, 12-count",
+      "size": "12 ct",
+      "brand": "bounty",
+      "price": "$35.57",
+      "item_id": "items_319-70468811",
+      "product_id": "70468811",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b74da87c-28c9-41e2-ac0c-a0d3b16c1b24.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Diet Coke, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "coca-cola",
+      "price": "$26.17",
+      "item_id": "items_319-2802711",
+      "product_id": "2802711",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a0f72ee4-22c3-4207-aff2-360960f80e5c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Sprite Lemon-Lime Caffeine Free Soda Soft Drink Cans, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "sprite",
+      "price": "$26.17",
+      "item_id": "items_319-2736841",
+      "product_id": "2736841",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_61c582ff-29be-48a0-9f42-4a25c84aa2d7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Label-Less Purified Bottled Water, 16.9 fl oz, 40-count",
+      "size": "16.9 fl oz",
+      "brand": "kirkland signature",
+      "price": "$4.96",
+      "item_id": "items_319-121587604",
+      "product_id": "121587604",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_338e1105-bb68-4e18-9232-1b1f1eb3c554.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Zevia Soda Variety Pack, 12 fl oz, 30-count",
+      "size": "12 fl oz",
+      "brand": "zevia",
+      "price": "$23.62",
+      "item_id": "items_319-98914477",
+      "product_id": "98914477",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_079c6ce4-1cb9-4166-8375-3a0d95682245.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Olipop Mini Soda, Variety Pack, 7.5 fl oz, 15-count",
+      "size": "7.5 fl oz",
+      "brand": "olipop minis",
+      "price": "$24.56",
+      "item_id": "items_319-116796031",
+      "product_id": "116796031",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_244b4296-2fd2-482a-a3fc-a12d62b3338d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Poppi Soda, Cranberry Fizz, 12 fl oz, 18-count",
+      "size": "12 fl oz",
+      "brand": "poppi",
+      "price": "$25.99",
+      "item_id": "items_319-130902681",
+      "product_id": "130902681",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d985fc0e-d021-42a3-b4cb-2d50287445df.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Olipop Soda, Winter Variety Pack, 12 fl oz, 15-count",
+      "size": "12 fl oz",
+      "brand": "olipop",
+      "price": "$25.80",
+      "item_id": "items_319-129456854",
+      "product_id": "129456854",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e643f9ad-f553-425b-9f1a-7a8da4859b3a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Dr. Pepper, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "dr pepper",
+      "price": "$24.62",
+      "item_id": "items_319-32334",
+      "product_id": "32334",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5221b19c-60a4-4370-bb19-6248d9095e93.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola de Mexico Soda Soft Drink Glass Bottles, 335 mL, 24-count",
+      "size": "12 fl oz",
+      "brand": "coca-cola",
+      "price": "$45.89",
+      "item_id": "items_319-16485141",
+      "product_id": "16485141",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2c1e735-3d93-4d51-b2fc-dba90170e7c8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola Mini, 7.5 fl oz, 30-count",
+      "size": "7.5 fl oz",
+      "brand": "coca-cola",
+      "price": "$22.13",
+      "item_id": "items_319-18019134",
+      "product_id": "18019134",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3691d266-cdc8-4849-953f-0d894876c4c6.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "7 Up, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "seven-up (bay area)",
+      "price": "$23.37",
+      "item_id": "items_319-32335",
+      "product_id": "32335",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c7ddad08-236e-4756-86ea-df18ee8c07fd.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Fever Tree Ginger Beer, 9.3 fl oz, 12 count",
+      "size": "9.3 fl oz",
+      "brand": "fever-tree",
+      "price": "$21.38",
+      "item_id": "items_319-18164112",
+      "product_id": "18164112",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5c938937-76b4-4b9d-bbad-499614e9930f.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fanta Soda Variety Pack, 12 fl oz, 24 count",
+      "size": "12 fl oz",
+      "brand": "fanta",
+      "price": "$45.89",
+      "item_id": "items_319-16595839",
+      "product_id": "16595839",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_915aaf84-7de5-46c8-a722-c1736e183bd3.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "LaCroix Sparkling Water, Variety Pack, 12 fl oz, 24-count",
+      "size": "12 fl oz",
+      "brand": "lacroix",
+      "price": "$13.67",
+      "item_id": "items_319-572430",
+      "product_id": "572430",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5da48158-ca3c-4a61-a8e0-1c4b7d9c43f4.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Spindrift Sparkling Water, 12 fl oz, 30-count",
+      "size": "12 fl oz",
+      "brand": "spindrift",
+      "price": "$25.24",
+      "item_id": "items_319-102282242",
+      "product_id": "102282242",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f5e42833-6dfb-4a3e-bc25-eb179ce9fc35.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Waterloo Sparkling Water, Variety Pack, 12 fl oz, 24-count",
+      "size": "12 fl oz",
+      "brand": "waterloo sparkling water",
+      "price": "$11.56",
+      "item_id": "items_319-64421149",
+      "product_id": "64421149",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8568f33a-7544-4e0a-a0d1-33f48b91f08d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "IZZE, Sparkling Juice Beverage, Variety Pack, 8.4 fl oz, 24-Count",
+      "size": "8.4 fl oz",
+      "brand": "izze",
+      "price": "$20.76",
+      "item_id": "items_319-43063389",
+      "product_id": "43063389",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f751f6bc-3065-47fe-b5b6-23f2609abac8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Sparkling Water, Variety Pack, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "kirkland signature",
+      "price": "$17.09",
+      "item_id": "items_319-20194391",
+      "product_id": "20194391",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_14e40ce1-acb7-42b8-b0ef-5531be9bb2a9.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Jones Soda Fallout Vault-Dweller Variety Pack Bottles, 12 fl oz, 12-count",
+      "size": "12 fl oz",
+      "brand": "jones soda",
+      "price": "$25.24",
+      "item_id": "items_319-129411155",
+      "product_id": "129411155",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e1c928de-2236-44e3-8595-c9461b604113.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "San Pellegrino Sparkling Natural Mineral Water, 16.9 fl oz, 24-count",
+      "size": "16.9 fl oz",
+      "brand": "san pellegrino",
+      "price": "$28.85",
+      "item_id": "items_319-32342",
+      "product_id": "32342",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bda959df-0410-4536-a8ac-cd62c28da5e5.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Maison Perrier Sparkling Water, 16.9 fl oz, 24-count",
+      "size": "16.9 fl oz",
+      "brand": "perrier",
+      "price": "$22.26",
+      "item_id": "items_319-42891365",
+      "product_id": "42891365",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8bcbb47e-87e6-4ca7-beee-4e521f0174f7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Purified Water, 8 fl oz, 80-count",
+      "size": "8 fl oz",
+      "brand": "niagara bottling , llc",
+      "price": "$11.81",
+      "item_id": "items_319-3212504",
+      "product_id": "3212504",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2e1e745c-066b-403b-be36-c2e776e9a41b.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "San Pellegrino Sparkling Natural Mineral Water, 25.3 fl oz, 15-count",
+      "size": "750 ml",
+      "brand": "san pellegrino",
+      "price": "$31.71",
+      "item_id": "items_319-3211833",
+      "product_id": "3211833",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ba0929fa-86ae-4d13-9c11-4cfcc79e57ec.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola, Classic, 16.9 fl oz, 24-count",
+      "size": "16.9 fl oz",
+      "brand": "coca cola bay area",
+      "price": "$22.38",
+      "item_id": "items_319-2577419",
+      "product_id": "2577419",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0d01e159-0c20-40a9-9f2c-08b2819c8d67.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Martinelli's Sparkling Cider, Apple, 25.4 fl oz, 4 count",
+      "size": "25.4 fl oz",
+      "brand": "martinelli's",
+      "price": "$14.04",
+      "item_id": "items_319-198335",
+      "product_id": "198335",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96eafeaa-df00-4192-b1fc-63b4546a6e01.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Kettle Pink Salt Potato Chips, 32 oz",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$7.95",
+      "item_id": "items_319-19327174",
+      "product_id": "19327174",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8afd36ef-6680-44a1-9040-10538a5f8f95.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Hisense AX700 5.1.4 Ch Soundbar with Wireless Subwoofer",
+      "size": "1 each",
+      "brand": "hisense",
+      "price": "$262.99",
+      "item_id": "items_319-116796252",
+      "product_id": "116796252",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f09a1d3b-ffe3-491c-b162-93caa6eb275c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Arm & Hammer, Pure Baking Soda, 13.5 lbs",
+      "size": "each",
+      "brand": "arm & hammer",
+      "price": "$11.68",
+      "item_id": "items_319-2718157",
+      "product_id": "2718157",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_714433d6-d117-4689-a372-05d8beb40426.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Sparkling Ice Zero Sugar Sparkling Water Purple Variety Pack, 17 fl oz, 24-count",
+      "size": "17 fl oz",
+      "brand": "sparkling ice®",
+      "price": "$22.63",
+      "item_id": "items_319-107210962",
+      "product_id": "107210962",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e7c8979f-5935-4d1b-866e-575534bd5f62.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Lattice Apple Pie",
+      "size": "1 each",
+      "brand": null,
+      "price": "$16.16",
+      "item_id": "items_319-99682077",
+      "product_id": "99682077",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_08c7b707-153d-4b33-93f4-6464755fe593.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Lipton Brisk Iced Tea, Lemon, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "pepsi cola of n.y. inc",
+      "price": "$23.37",
+      "item_id": "items_319-154860",
+      "product_id": "154860",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7eb98cca-11f7-4a74-90b5-d175191c810d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature, Ocean Spray Cranberry Premium 100% Juice, 96 fl oz, 2-Count",
+      "size": "96 fl oz",
+      "brand": "kirkland signature",
+      "price": "$10.56",
+      "item_id": "items_319-2764121",
+      "product_id": "2764121",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3467213e-671c-4cc6-b82f-c1e4565decae.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature  Flavored Sparkling Water, 17 fl oz, 24-count",
+      "size": "17 fl oz",
+      "brand": "kirkland signature",
+      "price": "$13.92",
+      "item_id": "items_319-75916748",
+      "product_id": "75916748",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ed13f489-8e09-4e76-bab4-3b492df17fc1.jpg",
+      "availability": "lowStock"
+    },
+    {
+      "name": "Grown Right Paloma Grapefruit Cocktail, 64 fl oz, 2-count",
+      "size": "64 fl oz",
+      "brand": "grown right",
+      "price": "$5.83",
+      "item_id": "items_319-129310763",
+      "product_id": "129310763",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9a038559-f31b-4928-a9b8-a8a8972e4b0d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Grown Right Organic Strawberry Lemonade, 96 fl oz, 2-count",
+      "size": "96 oz",
+      "brand": "grown right",
+      "price": "$10.19",
+      "item_id": "items_319-24515388",
+      "product_id": "24515388",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_92f60952-44c2-40b1-9af6-b5d037c132ac.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Capri Sun, 100% Juice, Variety Pack, 6 fl oz, 40-count",
+      "size": "6 fl oz",
+      "brand": "capri sun",
+      "price": "$17.40",
+      "item_id": "items_319-154807",
+      "product_id": "154807",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_64cc19a4-0060-43ae-b203-fe63872fb574.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Italian Sparkling Mineral Water, 16.9 fl oz, 24-count",
+      "size": "16.9 fl oz",
+      "brand": "kirkland signature",
+      "price": "$20.76",
+      "item_id": "items_319-18167844",
+      "product_id": "18167844",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7d5cbfe3-1dc5-40b1-90e5-fe8ec8bf27ff.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Joyburst Creatine Soda Variety Pack Cans, 12 fl oz, 15-count",
+      "size": "12 fl oz",
+      "brand": "joyburst",
+      "price": "$19.56",
+      "item_id": "items_319-124810027",
+      "product_id": "124810027",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_46242849-b519-4bac-8d52-ba59e2119791.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Vodka + Soda, Variety Pack, 12 fl oz, 18-count",
+      "size": "12 fl oz",
+      "brand": "kirkland signature",
+      "price": "$32.69",
+      "item_id": "items_319-64556140",
+      "product_id": "64556140",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c5f1a460-de9c-47be-98cc-d9d14542623e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signaure Organic Raw Kombucha, 16 fl oz, 8-count",
+      "size": "16 fl oz",
+      "brand": "kirkland signature",
+      "price": "$16.66",
+      "item_id": "items_319-19350760",
+      "product_id": "19350760",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5133378a-1fe1-4455-abef-82c85a6d37d3.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Classic Red Sangria, 1.5 L",
+      "size": "1.5 L",
+      "brand": "kirkland signature",
+      "price": "$9.79",
+      "item_id": "items_319-16899048",
+      "product_id": "16899048",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_18d719db-1966-47a8-b697-c020a57f640a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Sport Drink, Variety Pack, 12 fl oz, 24-count",
+      "size": "12 fl oz",
+      "brand": "kirkland signature",
+      "price": "$12.68",
+      "item_id": "items_319-116990237",
+      "product_id": "116990237",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e658ff82-1f1f-4e03-a4fe-1c7d41d84740.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Cranberry Raspberry Juice, 96 fl oz, 2 count",
+      "size": "96 oz",
+      "brand": "kirkland signature",
+      "price": "$9.94",
+      "item_id": "items_319-19231007",
+      "product_id": "19231007",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8c3b124b-f499-48cd-9c0c-7fb947f5e477.jpg",
+      "availability": "highlyInStock"
+    }
+  ],
+  "raw_text_chars": 7740,
+  "steps": [
+    "02:13:15 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "02:13:25 connected to Bright Data Scraping Browser",
+    "02:13:39 goto https://www.instacart.com/store/costco/s?k=pura soda",
+    "02:13:47 captcha check passed",
+    "02:14:02 dismissed \"Continue\"",
+    "02:14:07 js_houses 50 store API zip 90012 shop 238 location 319",
+    "02:14:08 store_set: null",
+    "02:14:08 attempt 2: store not pinned, fresh page",
+    "02:14:13 goto https://www.instacart.com/store/costco/s?k=pura soda",
+    "02:14:22 captcha check passed",
+    "02:14:34 dismissed \"Continue\"",
+    "02:14:38 js_houses 50 store API zip 90012 shop 238 location 319",
+    "02:14:39 store_set: null",
+    "02:14:40 js_houses override: 50",
+    "02:14:41 extracted 50 houses; raw text 7740 chars"
+  ],
+  "error": null,
+  "js_houses": [
+    {
+      "name": "Canada Dry Ginger Ale Variety Pack, 12 fl oz, 36-count",
+      "size": "12 oz",
+      "brand": "canada dry",
+      "price": "$25.86",
+      "item_id": "items_319-16596612",
+      "product_id": "16596612",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f8b6e5d9-5352-443b-8d2e-7168c831aa9e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola Classic, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "coca-cola",
+      "price": "$26.17",
+      "item_id": "items_319-2736842",
+      "product_id": "2736842",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cf30190f-849f-4556-91ae-f64edae4f206.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Pepsi, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "pepsi",
+      "price": "$18.90",
+      "item_id": "items_319-32020",
+      "product_id": "32020",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f148e5c5-ff9e-4960-a2ee-8388469adbe7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Squirt Thirst Quencher, 12 fl oz, 36 count",
+      "size": "12 oz",
+      "brand": "seven-up (bay area)",
+      "price": "$23.37",
+      "item_id": "items_319-1130125",
+      "product_id": "1130125",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_be88f95f-aaf1-45a4-9be4-e92329f0b59c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "San Pellegrino Crafted Soda Italiana, Variety Pack, 11.15 fl oz, 24-count",
+      "size": "11.15 fl oz",
+      "brand": "san pellegrino",
+      "price": "$27.60",
+      "item_id": "items_319-120233430",
+      "product_id": "120233430",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3f4192f8-047a-4291-9518-d7332dd098d7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Oral-B iO Deep Clean Replacement Toothbrush Head, 9-count",
+      "size": "9 ct",
+      "brand": "oral-b",
+      "price": "$67.99",
+      "item_id": "items_319-66824237",
+      "product_id": "66824237",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b7b6d1fe-7a9c-4056-9bac-b1997015b912.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Bounty Advanced Paper Towels, 2-Ply, 103 Sheets, 12-count",
+      "size": "12 ct",
+      "brand": "bounty",
+      "price": "$35.57",
+      "item_id": "items_319-70468811",
+      "product_id": "70468811",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b74da87c-28c9-41e2-ac0c-a0d3b16c1b24.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Diet Coke, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "coca-cola",
+      "price": "$26.17",
+      "item_id": "items_319-2802711",
+      "product_id": "2802711",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a0f72ee4-22c3-4207-aff2-360960f80e5c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Sprite Lemon-Lime Caffeine Free Soda Soft Drink Cans, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "sprite",
+      "price": "$26.17",
+      "item_id": "items_319-2736841",
+      "product_id": "2736841",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_61c582ff-29be-48a0-9f42-4a25c84aa2d7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Label-Less Purified Bottled Water, 16.9 fl oz, 40-count",
+      "size": "16.9 fl oz",
+      "brand": "kirkland signature",
+      "price": "$4.96",
+      "item_id": "items_319-121587604",
+      "product_id": "121587604",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_338e1105-bb68-4e18-9232-1b1f1eb3c554.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Zevia Soda Variety Pack, 12 fl oz, 30-count",
+      "size": "12 fl oz",
+      "brand": "zevia",
+      "price": "$23.62",
+      "item_id": "items_319-98914477",
+      "product_id": "98914477",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_079c6ce4-1cb9-4166-8375-3a0d95682245.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Olipop Mini Soda, Variety Pack, 7.5 fl oz, 15-count",
+      "size": "7.5 fl oz",
+      "brand": "olipop minis",
+      "price": "$24.56",
+      "item_id": "items_319-116796031",
+      "product_id": "116796031",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_244b4296-2fd2-482a-a3fc-a12d62b3338d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Poppi Soda, Cranberry Fizz, 12 fl oz, 18-count",
+      "size": "12 fl oz",
+      "brand": "poppi",
+      "price": "$25.99",
+      "item_id": "items_319-130902681",
+      "product_id": "130902681",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d985fc0e-d021-42a3-b4cb-2d50287445df.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Olipop Soda, Winter Variety Pack, 12 fl oz, 15-count",
+      "size": "12 fl oz",
+      "brand": "olipop",
+      "price": "$25.80",
+      "item_id": "items_319-129456854",
+      "product_id": "129456854",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e643f9ad-f553-425b-9f1a-7a8da4859b3a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Dr. Pepper, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "dr pepper",
+      "price": "$24.62",
+      "item_id": "items_319-32334",
+      "product_id": "32334",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5221b19c-60a4-4370-bb19-6248d9095e93.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola de Mexico Soda Soft Drink Glass Bottles, 335 mL, 24-count",
+      "size": "12 fl oz",
+      "brand": "coca-cola",
+      "price": "$45.89",
+      "item_id": "items_319-16485141",
+      "product_id": "16485141",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e2c1e735-3d93-4d51-b2fc-dba90170e7c8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola Mini, 7.5 fl oz, 30-count",
+      "size": "7.5 fl oz",
+      "brand": "coca-cola",
+      "price": "$22.13",
+      "item_id": "items_319-18019134",
+      "product_id": "18019134",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3691d266-cdc8-4849-953f-0d894876c4c6.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "7 Up, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "seven-up (bay area)",
+      "price": "$23.37",
+      "item_id": "items_319-32335",
+      "product_id": "32335",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c7ddad08-236e-4756-86ea-df18ee8c07fd.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Fever Tree Ginger Beer, 9.3 fl oz, 12 count",
+      "size": "9.3 fl oz",
+      "brand": "fever-tree",
+      "price": "$21.38",
+      "item_id": "items_319-18164112",
+      "product_id": "18164112",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5c938937-76b4-4b9d-bbad-499614e9930f.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fanta Soda Variety Pack, 12 fl oz, 24 count",
+      "size": "12 fl oz",
+      "brand": "fanta",
+      "price": "$45.89",
+      "item_id": "items_319-16595839",
+      "product_id": "16595839",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_915aaf84-7de5-46c8-a722-c1736e183bd3.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "LaCroix Sparkling Water, Variety Pack, 12 fl oz, 24-count",
+      "size": "12 fl oz",
+      "brand": "lacroix",
+      "price": "$13.67",
+      "item_id": "items_319-572430",
+      "product_id": "572430",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5da48158-ca3c-4a61-a8e0-1c4b7d9c43f4.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Spindrift Sparkling Water, 12 fl oz, 30-count",
+      "size": "12 fl oz",
+      "brand": "spindrift",
+      "price": "$25.24",
+      "item_id": "items_319-102282242",
+      "product_id": "102282242",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f5e42833-6dfb-4a3e-bc25-eb179ce9fc35.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Waterloo Sparkling Water, Variety Pack, 12 fl oz, 24-count",
+      "size": "12 fl oz",
+      "brand": "waterloo sparkling water",
+      "price": "$11.56",
+      "item_id": "items_319-64421149",
+      "product_id": "64421149",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8568f33a-7544-4e0a-a0d1-33f48b91f08d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "IZZE, Sparkling Juice Beverage, Variety Pack, 8.4 fl oz, 24-Count",
+      "size": "8.4 fl oz",
+      "brand": "izze",
+      "price": "$20.76",
+      "item_id": "items_319-43063389",
+      "product_id": "43063389",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f751f6bc-3065-47fe-b5b6-23f2609abac8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Sparkling Water, Variety Pack, 12 fl oz, 35-count",
+      "size": "12 fl oz",
+      "brand": "kirkland signature",
+      "price": "$17.09",
+      "item_id": "items_319-20194391",
+      "product_id": "20194391",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_14e40ce1-acb7-42b8-b0ef-5531be9bb2a9.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Jones Soda Fallout Vault-Dweller Variety Pack Bottles, 12 fl oz, 12-count",
+      "size": "12 fl oz",
+      "brand": "jones soda",
+      "price": "$25.24",
+      "item_id": "items_319-129411155",
+      "product_id": "129411155",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e1c928de-2236-44e3-8595-c9461b604113.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "San Pellegrino Sparkling Natural Mineral Water, 16.9 fl oz, 24-count",
+      "size": "16.9 fl oz",
+      "brand": "san pellegrino",
+      "price": "$28.85",
+      "item_id": "items_319-32342",
+      "product_id": "32342",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bda959df-0410-4536-a8ac-cd62c28da5e5.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Maison Perrier Sparkling Water, 16.9 fl oz, 24-count",
+      "size": "16.9 fl oz",
+      "brand": "perrier",
+      "price": "$22.26",
+      "item_id": "items_319-42891365",
+      "product_id": "42891365",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8bcbb47e-87e6-4ca7-beee-4e521f0174f7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Purified Water, 8 fl oz, 80-count",
+      "size": "8 fl oz",
+      "brand": "niagara bottling , llc",
+      "price": "$11.81",
+      "item_id": "items_319-3212504",
+      "product_id": "3212504",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2e1e745c-066b-403b-be36-c2e776e9a41b.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "San Pellegrino Sparkling Natural Mineral Water, 25.3 fl oz, 15-count",
+      "size": "750 ml",
+      "brand": "san pellegrino",
+      "price": "$31.71",
+      "item_id": "items_319-3211833",
+      "product_id": "3211833",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ba0929fa-86ae-4d13-9c11-4cfcc79e57ec.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Coca-Cola, Classic, 16.9 fl oz, 24-count",
+      "size": "16.9 fl oz",
+      "brand": "coca cola bay area",
+      "price": "$22.38",
+      "item_id": "items_319-2577419",
+      "product_id": "2577419",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0d01e159-0c20-40a9-9f2c-08b2819c8d67.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Martinelli's Sparkling Cider, Apple, 25.4 fl oz, 4 count",
+      "size": "25.4 fl oz",
+      "brand": "martinelli's",
+      "price": "$14.04",
+      "item_id": "items_319-198335",
+      "product_id": "198335",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96eafeaa-df00-4192-b1fc-63b4546a6e01.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Kettle Pink Salt Potato Chips, 32 oz",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$7.95",
+      "item_id": "items_319-19327174",
+      "product_id": "19327174",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8afd36ef-6680-44a1-9040-10538a5f8f95.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Hisense AX700 5.1.4 Ch Soundbar with Wireless Subwoofer",
+      "size": "1 each",
+      "brand": "hisense",
+      "price": "$262.99",
+      "item_id": "items_319-116796252",
+      "product_id": "116796252",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f09a1d3b-ffe3-491c-b162-93caa6eb275c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Arm & Hammer, Pure Baking Soda, 13.5 lbs",
+      "size": "each",
+      "brand": "arm & hammer",
+      "price": "$11.68",
+      "item_id": "items_319-2718157",
+      "product_id": "2718157",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_714433d6-d117-4689-a372-05d8beb40426.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Sparkling Ice Zero Sugar Sparkling Water Purple Variety Pack, 17 fl oz, 24-count",
+      "size": "17 fl oz",
+      "brand": "sparkling ice®",
+      "price": "$22.63",
+      "item_id": "items_319-107210962",
+      "product_id": "107210962",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e7c8979f-5935-4d1b-866e-575534bd5f62.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Lattice Apple Pie",
+      "size": "1 each",
+      "brand": null,
+      "price": "$16.16",
+      "item_id": "items_319-99682077",
+      "product_id": "99682077",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_08c7b707-153d-4b33-93f4-6464755fe593.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Lipton Brisk Iced Tea, Lemon, 12 fl oz, 36-count",
+      "size": "12 fl oz",
+      "brand": "pepsi cola of n.y. inc",
+      "price": "$23.37",
+      "item_id": "items_319-154860",
+      "product_id": "154860",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7eb98cca-11f7-4a74-90b5-d175191c810d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature, Ocean Spray Cranberry Premium 100% Juice, 96 fl oz, 2-Count",
+      "size": "96 fl oz",
+      "brand": "kirkland signature",
+      "price": "$10.56",
+      "item_id": "items_319-2764121",
+      "product_id": "2764121",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3467213e-671c-4cc6-b82f-c1e4565decae.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature  Flavored Sparkling Water, 17 fl oz, 24-count",
+      "size": "17 fl oz",
+      "brand": "kirkland signature",
+      "price": "$13.92",
+      "item_id": "items_319-75916748",
+      "product_id": "75916748",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ed13f489-8e09-4e76-bab4-3b492df17fc1.jpg",
+      "availability": "lowStock"
+    },
+    {
+      "name": "Grown Right Paloma Grapefruit Cocktail, 64 fl oz, 2-count",
+      "size": "64 fl oz",
+      "brand": "grown right",
+      "price": "$5.83",
+      "item_id": "items_319-129310763",
+      "product_id": "129310763",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9a038559-f31b-4928-a9b8-a8a8972e4b0d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Grown Right Organic Strawberry Lemonade, 96 fl oz, 2-count",
+      "size": "96 oz",
+      "brand": "grown right",
+      "price": "$10.19",
+      "item_id": "items_319-24515388",
+      "product_id": "24515388",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_92f60952-44c2-40b1-9af6-b5d037c132ac.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Capri Sun, 100% Juice, Variety Pack, 6 fl oz, 40-count",
+      "size": "6 fl oz",
+      "brand": "capri sun",
+      "price": "$17.40",
+      "item_id": "items_319-154807",
+      "product_id": "154807",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_64cc19a4-0060-43ae-b203-fe63872fb574.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Italian Sparkling Mineral Water, 16.9 fl oz, 24-count",
+      "size": "16.9 fl oz",
+      "brand": "kirkland signature",
+      "price": "$20.76",
+      "item_id": "items_319-18167844",
+      "product_id": "18167844",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7d5cbfe3-1dc5-40b1-90e5-fe8ec8bf27ff.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Joyburst Creatine Soda Variety Pack Cans, 12 fl oz, 15-count",
+      "size": "12 fl oz",
+      "brand": "joyburst",
+      "price": "$19.56",
+      "item_id": "items_319-124810027",
+      "product_id": "124810027",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_46242849-b519-4bac-8d52-ba59e2119791.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Vodka + Soda, Variety Pack, 12 fl oz, 18-count",
+      "size": "12 fl oz",
+      "brand": "kirkland signature",
+      "price": "$32.69",
+      "item_id": "items_319-64556140",
+      "product_id": "64556140",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c5f1a460-de9c-47be-98cc-d9d14542623e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signaure Organic Raw Kombucha, 16 fl oz, 8-count",
+      "size": "16 fl oz",
+      "brand": "kirkland signature",
+      "price": "$16.66",
+      "item_id": "items_319-19350760",
+      "product_id": "19350760",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5133378a-1fe1-4455-abef-82c85a6d37d3.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Classic Red Sangria, 1.5 L",
+      "size": "1.5 L",
+      "brand": "kirkland signature",
+      "price": "$9.79",
+      "item_id": "items_319-16899048",
+      "product_id": "16899048",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_18d719db-1966-47a8-b697-c020a57f640a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Sport Drink, Variety Pack, 12 fl oz, 24-count",
+      "size": "12 fl oz",
+      "brand": "kirkland signature",
+      "price": "$12.68",
+      "item_id": "items_319-116990237",
+      "product_id": "116990237",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e658ff82-1f1f-4e03-a4fe-1c7d41d84740.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Cranberry Raspberry Juice, 96 fl oz, 2 count",
+      "size": "96 oz",
+      "brand": "kirkland signature",
+      "price": "$9.94",
+      "item_id": "items_319-19231007",
+      "product_id": "19231007",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8c3b124b-f499-48cd-9c0c-7fb947f5e477.jpg",
+      "availability": "highlyInStock"
+    }
+  ],
+  "js_store": "API zip 90012 shop 238 location 319",
+  "js_debug": "DefaultShop 200 1633 | SearchResultsPlacements 200 153115 | shop 238 loc 319 zone 1264 ids 50 | Items 200 291619 | Items 200 183893",
+  "houses_text": 5,
+  "houses_page": 41
+}

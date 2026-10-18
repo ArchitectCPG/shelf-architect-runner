@@ -1,0 +1,30 @@
+{
+  "block_id": "pura/kids-drinks@heb-houston",
+  "retailer": "heb",
+  "zip": "beverages",
+  "neighborhood": "kids-drinks",
+  "pulled_at": "2026-10-18T03:10:45.231Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "77005",
+  "store_set": null,
+  "url_final": "https://www.heb.com/discover/hrm-009341-p-g-laundry-cleaning-aisle-event-oct-2026?int=curbside-premium-home-hero-hrm-pg-&campaignId=hrm-009341-ux",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "03:10:45 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "03:10:46 connected to Bright Data Scraping Browser",
+    "03:10:48 goto https://www.heb.com/",
+    "03:10:56 captcha check passed",
+    "03:11:19 js ok opened | clicked Change store | inputs=[\"Search\",\"address-input\"] | zipbox ok | ",
+    "03:11:23 type_marked #address-input",
+    "03:11:29 js ok picked first Select Store of 5 | Select a store Search by street address, city, ",
+    "03:16:06 step failed (Error: keyboard.press: Protocol error (Input.dispatchKeyEvent): Command executio), will retry recipe",
+    "03:20:36 ERROR Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+  ],
+  "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation.",
+  "js_results": [
+    "opened | clicked Change store | inputs=[\"Search\",\"address-input\"] | zipbox ok | dlg=Select a store Search by street address, city, or zip code Search Use my current location 25 stores near \"Victoria H-E-B plus!\" Victoria H‑E‑B plus! 6106 N. Navarro Victoria, TX 77904-1767 Store details Next available pickup time is tomorrow Selected Store 59 and Laurent H‑E‑B 1505 East Rio Grande Victoria, TX 77901-6220 3.16 miles awayStore details Next available pickup time is tomorrow Select Store Edna H‑E‑B 301 N. Wells St Edna, TX 77957-2728 22.75 miles awayStore details Curbside unavailable Add delivery address See if your address is in our delivery zone Select Store Cuero H‑E‑B 909 E Br",
+    "picked first Select Store of 5 | Select a store Search by street address, city, or zip code Search Use my current location 25 stores near \"77005\" Buffalo Market H‑E‑B On Buffalo Speedway 5225 Buffalo Speedway Houston, TX 77005-4210 0.65 miles awayStore details Next available pickup time is tomorrow Select Store Montrose Market H‑E‑B 1701 West Alabama St Houston, TX 77098-2807 2.14 miles awayStore details Next available pickup time is tomorrow Select Store Bellaire Market H‑E‑B 5106 Bissonnet Bellaire, TX 77401-4019 2.49 miles awayStore details Next available pickup time is tomorrow Select Store Meyerland Market H‑E‑B 4955 Beechnut Street Houston, TX 77096-4001 2.88 miles awayStore details Next available pickup time is tomor"
+  ]
+}
