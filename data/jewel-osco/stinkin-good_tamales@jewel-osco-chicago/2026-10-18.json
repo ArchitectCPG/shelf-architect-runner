@@ -3,22 +3,515 @@
   "retailer": "jewel-osco",
   "zip": "refrigerated",
   "neighborhood": "tamales",
-  "pulled_at": "2026-10-18T14:39:58.606Z",
+  "pulled_at": "2026-10-18T14:42:07.557Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
+  "store_set": "6014 S Cottage Grove",
   "url_final": "https://www.jewelosco.com/shop/search-results.html?q=tamales",
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "14:39:58 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "14:39:59 connected to Bright Data Scraping Browser",
-    "14:40:29 goto https://www.jewelosco.com/shop/search-results.html?q=tamales",
-    "14:40:37 captcha check passed",
-    "14:40:50 dismiss: nothing to close",
-    "14:40:50 press Escape",
-    "14:41:02 step failed (Error: page.evaluate: TypeError: Cannot read properties of null (reading 'queryS), will retry recipe",
-    "14:41:02 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'innerText')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:21)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "houses": [
+    {
+      "name": "Supreme Beef Tamale - 40 OZ",
+      "brand": "price per",
+      "price": "$8.99",
+      "size": "40 OZ",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970111895?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/supreme-beef-tamale-40-oz/970111895",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $8.99 each",
+        "$8.99",
+        "price per",
+        "( / )",
+        "Supreme Beef Tamale - 40 OZ",
+        "Rated 4.5 out of 5, 14 reviews",
+        "14"
+      ]
+    },
+    {
+      "name": "Hormel Tamales Beef in Chili Sauce - 15 Oz",
+      "brand": "price per",
+      "price": "$3.49",
+      "size": "15 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/127102375?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/hormel-tamales-beef-in-chili-sauce-15-oz/127102375",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.49 each",
+        "$3.49",
+        "price per",
+        "( / )",
+        "Hormel Tamales Beef in Chili Sauce - 15 Oz",
+        "Rated 3.6 out of 5, 77 reviews",
+        "77"
+      ]
+    },
+    {
+      "name": "Tom Tom Tamales - 3.5 Oz",
+      "brand": "price per",
+      "price": "$1.79",
+      "size": "3.5 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960433270?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/tom-tom-tamales-3-5-oz/960433270",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $1.79 each",
+        "$1.79",
+        "price per",
+        "( / )",
+        "Tom Tom Tamales - 3.5 Oz",
+        "Rated 4.0 out of 5, 5 reviews",
+        "5"
+      ]
+    },
+    {
+      "name": "Chicken Tamale 3 Count - EACH",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "3 Count",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970095997?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/chicken-tamale-3-ct-each/970095997",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "Chicken Tamale 3 Count - EACH",
+        "Rated 4.4 out of 5, 5 reviews",
+        "5"
+      ]
+    },
+    {
+      "name": "Supreme Beef Tamale - 4 Oz",
+      "brand": "price per",
+      "price": "$1.25",
+      "size": "4 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960437607?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/supreme-beef-tamale-4-oz/960437607",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $1.25 each",
+        "$1.25",
+        "price per",
+        "( / )",
+        "Supreme Beef Tamale - 4 Oz",
+        "Rated 4.8 out of 5, 12 reviews",
+        "12"
+      ]
+    },
+    {
+      "name": "Supreme Chicken Tamale - 4 Oz",
+      "brand": "price per",
+      "price": "$1.25",
+      "size": "4 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960437606?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/supreme-chicken-tamale-4-oz/960437606",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $1.25 each",
+        "$1.25",
+        "price per",
+        "( / )",
+        "Supreme Chicken Tamale - 4 Oz",
+        "Rated 4.6 out of 5, 8 reviews",
+        "8"
+      ]
+    },
+    {
+      "name": "Special Taste Frozen Jerk Chicken Tamales - 12 Oz",
+      "brand": "price per",
+      "price": "$3.99",
+      "size": "12 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960555950?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/special-taste-frozen-jerk-chicken-tamales-12-oz/960555950",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per",
+        "( / )",
+        "Special Taste Frozen Jerk Chicken Tamales - 12 Oz",
+        "Rated 5.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Deli Beef Tamale 3 Count - Each",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "3 Count",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970015460?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/deli-beef-tamale-3-ct-each/970015460",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "Deli Beef Tamale 3 Count - Each",
+        "Rated 4.9 out of 5, 7 reviews",
+        "7"
+      ]
+    },
+    {
+      "name": "Tucson Green Chile Pork And Chese Tamale - 5 Oz",
+      "brand": "price per",
+      "price": "$4.49",
+      "size": "5 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960519427?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/tucson-green-chile-pork-and-chese-tamale-5-oz/960519427",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $4.49 each",
+        "$4.49",
+        "price per",
+        "( / )",
+        "Tucson Green Chile Pork And Chese Tamale - 5 Oz",
+        "Rated 5.0 out of 5, 3 reviews",
+        "3"
+      ]
+    },
+    {
+      "name": "La Preferida Tamales With Sauce Beef & Pork Can - 15 Oz",
+      "brand": "price per",
+      "price": "$3.99",
+      "size": "15 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960310582?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/la-preferida-tamales-with-sauce-beef-and-pork-can-15-oz/960310582",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per",
+        "( / )",
+        "La Preferida Tamales With Sauce Beef & Pork Can - 15 Oz",
+        "Rated 4.0 out of 5, 4 reviews",
+        "4"
+      ]
+    },
+    {
+      "name": "Special Taste Frozen Jerk Turkey Tamales - 12 Oz",
+      "brand": "price per",
+      "price": "$3.99",
+      "size": "12 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960555951?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/special-taste-frozen-jerk-turkey-tamales-12-oz/960555951",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $3.99 each",
+        "$3.99",
+        "price per",
+        "( / )",
+        "Special Taste Frozen Jerk Turkey Tamales - 12 Oz"
+      ]
+    },
+    {
+      "name": "Deli Chicken Tamale Cold - Each",
+      "brand": "price per",
+      "price": "$2.49",
+      "size": "",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960447021?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/deli-chicken-tamale-cold-each/960447021",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.49 each",
+        "$2.49",
+        "price per",
+        "( / )",
+        "Deli Chicken Tamale Cold - Each"
+      ]
+    },
+    {
+      "name": "Beef Tamale Cold - Each",
+      "brand": "price per",
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/beef-tamale-cold-each/960447020",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.49 each",
+        "$2.49",
+        "price per",
+        "( / )",
+        "Beef Tamale Cold - Each"
+      ]
+    },
+    {
+      "name": "La Guadalupana Mild Pork Tamales - 3.5 Oz",
+      "brand": "price per",
+      "price": "$1.50",
+      "size": "3.5 Oz",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/la-guadalupana-mild-pork-tamales-3-5-oz/970886334",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $1.50 each",
+        "$1.50",
+        "price per",
+        "( / )",
+        "La Guadalupana Mild Pork Tamales - 3.5 Oz"
+      ]
+    },
+    {
+      "name": "La Guadalupana Hot Chicken Tamales - 3.5 Oz",
+      "brand": "price per",
+      "price": "$1.50",
+      "size": "3.5 Oz",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/la-guadalupana-hot-chicken-tamales-3-5-oz/970886333",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $1.50 each",
+        "$1.50",
+        "price per",
+        "( / )",
+        "La Guadalupana Hot Chicken Tamales - 3.5 Oz"
+      ]
+    },
+    {
+      "name": "Pork Tamale Cold 3 Ct - EA",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "3 Ct",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/pork-tamale-cold-3-ct-ea/970015421",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "Pork Tamale Cold 3 Ct - EA",
+        "Rated 3.5 out of 5, 2 reviews",
+        "2"
+      ]
+    },
+    {
+      "name": "Mild Pork Tamales Previously Frozen - 1.25 Lbs",
+      "brand": "approx.",
+      "price": "$8.36",
+      "size": "1.25 Lbs",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/mild-pork-tamales-previously-frozen-1-25-lbs/960539404",
+      "card_text": [
+        "Sign in to add",
+        "approx.",
+        "Your Price $8.36 each",
+        "$8.36",
+        "price per",
+        "( / )",
+        "Mild Pork Tamales Previously Frozen - 1.25 Lbs"
+      ]
+    },
+    {
+      "name": "ReadyMeals Beef Tamales & Spanish Rice - Each",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/readymeals-beef-tamales-and-spanish-rice-each/970029684",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "ReadyMeals Beef Tamales & Spanish Rice - Each"
+      ]
+    },
+    {
+      "name": "ReadyMeals Chicken Tamales & Spanish Rice - Ready2Eat - Each",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/readymeals-chicken-tamales-and-spanish-rice-ready2eat-each/970029273",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "ReadyMeals Chicken Tamales & Spanish Rice - Ready2Eat - Each",
+        "Rated 3.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "La Guadalupana Masa For Tamale Pre Mixed Con Chile - 5 Lb",
+      "brand": "price per",
+      "price": "$14.99",
+      "size": "5 Lb",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/la-guadalupana-masa-for-tamale-pre-mixed-con-chile-5-lb/960433465",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $14.99 each",
+        "$14.99",
+        "price per",
+        "( / )",
+        "La Guadalupana Masa For Tamale Pre Mixed Con Chile - 5 Lb"
+      ]
+    },
+    {
+      "name": "Deli Beef Tamales Hot 3 Count - Each",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "3 Count",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/deli-beef-tamales-hot-3-ct-each/960505223",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "Deli Beef Tamales Hot 3 Count - Each"
+      ]
+    },
+    {
+      "name": "La Guadalupana Hot Chicken Tam...teamable Bag - 14 Oz",
+      "brand": "price per",
+      "price": "$7.99",
+      "size": "14 Oz",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/la-guadalupana-hot-chicken-tamales-in-microwaveable-steamable-bag-14-oz/960471577",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $7.99 each",
+        "$7.99",
+        "price per",
+        "( / )",
+        "La Guadalupana Hot Chicken Tam...teamable Bag - 14 Oz",
+        "Rated 1.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Ea Guadalupana Mild Pork Tamal...teamable Bag - 14 Oz",
+      "brand": "price per",
+      "price": "$7.99",
+      "size": "14 Oz",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/ea-guadalupana-mild-pork-tamales-in-microwaveable-steamable-bag-14-oz/960471576",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $7.99 each",
+        "$7.99",
+        "price per",
+        "( / )",
+        "Ea Guadalupana Mild Pork Tamal...teamable Bag - 14 Oz",
+        "Rated 2.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Tamal De Queso Con Rajas Chees...f Serve Cold 6 Count",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "6 Count",
+      "img": null,
+      "link": "https://www.jewelosco.com/shop/pd/tamal-de-queso-con-rajas-cheese-tamale-self-serve-cold-6-ct/960461191",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "Tamal De Queso Con Rajas Chees...f Serve Cold 6 Count",
+        "Rated 1.0 out of 5, 1 reviews",
+        "1"
+      ]
+    },
+    {
+      "name": "Chicken Tamales 3 Count Hot - EA",
+      "brand": "price per",
+      "price": "$6.99",
+      "size": "3 Count",
+      "img": "https://images.albertsons-media.com/is/image/ABS/970308195?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/chicken-tamales-3-ct-hot-ea/970308195",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $6.99 each",
+        "$6.99",
+        "price per",
+        "( / )",
+        "Chicken Tamales 3 Count Hot - EA"
+      ]
+    },
+    {
+      "name": "La Guadalupana Mild Beef Tamal...teamable Bag - 14 Oz",
+      "brand": "price per",
+      "price": "$7.99",
+      "size": "14 Oz",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960471578?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/la-guadalupana-mild-beef-tamales-in-microwaveable-steamable-bag-14-oz/960471578",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $7.99 each",
+        "$7.99",
+        "price per",
+        "( / )",
+        "La Guadalupana Mild Beef Tamal...teamable Bag - 14 Oz"
+      ]
+    },
+    {
+      "name": "Pork Tamale Cold - Each",
+      "brand": "price per",
+      "price": "$2.49",
+      "size": "",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960447022?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/pork-tamale-cold-each/960447022",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $2.49 each",
+        "$2.49",
+        "price per",
+        "( / )",
+        "Pork Tamale Cold - Each"
+      ]
+    },
+    {
+      "name": "Mild Pork Tamales",
+      "brand": "price per",
+      "price": "$1.50",
+      "size": "",
+      "img": "https://images.albertsons-media.com/is/image/ABS/960452708?$grid-product-card-desktop$&defaultImage=Not_Available",
+      "link": "https://www.jewelosco.com/shop/pd/mild-pork-tamales/960452708",
+      "card_text": [
+        "Sign in to add",
+        "Your Price $1.50 each",
+        "$1.50",
+        "price per",
+        "( / )",
+        "Mild Pork Tamales"
+      ]
+    }
   ],
-  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'innerText')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:21)\n    at UtilityScript.evaluate (<anonymous>:372:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "raw_text_chars": 4549,
+  "steps": [
+    "14:42:07 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "14:42:08 connected to Bright Data Scraping Browser",
+    "14:42:22 goto https://www.jewelosco.com/shop/search-results.html?q=tamales",
+    "14:42:30 captcha check passed",
+    "14:42:39 dismissed \"Continue with all\"",
+    "14:42:39 press Escape",
+    "14:42:47 js ok open 0",
+    "14:42:52 type_sel input[placeholder*='ZIP Code'] \"60615\"",
+    "14:42:58 js ok selected",
+    "14:43:12 scrolled x4",
+    "14:43:14 scrolled x2",
+    "14:43:18 scrolled x2",
+    "14:43:22 scrolled x2",
+    "14:43:24 store_set: 6014 S Cottage Grove",
+    "14:43:25 extracted 28 houses; raw text 4549 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "open 0",
+    "selected"
+  ],
+  "houses_text": 28
 }
