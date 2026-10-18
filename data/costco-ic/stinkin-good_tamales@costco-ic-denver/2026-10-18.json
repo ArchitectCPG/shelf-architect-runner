@@ -1,0 +1,25 @@
+{
+  "block_id": "stinkin-good/tamales@costco-ic-denver",
+  "retailer": "costco-ic",
+  "zip": "refrigerated",
+  "neighborhood": "tamales",
+  "pulled_at": "2026-10-18T00:55:44.374Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "80202",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "00:55:44 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "00:55:55 connected to Bright Data Scraping Browser",
+    "00:56:09 goto https://www.instacart.com/store/costco/s?k=tamales",
+    "00:56:21 captcha check passed",
+    "01:01:21 dismiss: nothing to close",
+    "01:05:55 js_houses miss Error: page.evaluate: Target page, context or browser has been closed\nBrowser lo",
+    "01:05:55 ERROR Error: page.waitForTimeout: Target page, context or browser has been closed"
+  ],
+  "error": "Error: page.waitForTimeout: Target page, context or browser has been closed",
+  "js_debug": "Error: page.evaluate: Target page, context or browser has been closed\nBrowser logs:\n\nsession killed due to 300s of network inactivity\n"
+}

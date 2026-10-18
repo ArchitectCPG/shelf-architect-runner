@@ -1,0 +1,26 @@
+{
+  "block_id": "stinkin-good/queso@costco-ic-denver",
+  "retailer": "costco-ic",
+  "zip": "refrigerated",
+  "neighborhood": "queso",
+  "pulled_at": "2026-10-18T00:53:51.943Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "80202",
+  "store_set": null,
+  "url_final": "https://www.instacart.com/store/costco/s?k=queso",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "00:53:51 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "00:54:54 connected to Bright Data Scraping Browser",
+    "00:55:05 goto https://www.instacart.com/store/costco/s?k=queso",
+    "00:55:14 captcha check passed",
+    "00:59:55 dismiss: nothing to close",
+    "01:04:25 js_houses miss Error: page.evaluate: Execution context was destroyed, most likely because of a ",
+    "01:04:26 store_js failed Error: page.evaluate: Execution context was destroyed, most ",
+    "01:04:26 ERROR Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+  ],
+  "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation.",
+  "js_debug": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+}
