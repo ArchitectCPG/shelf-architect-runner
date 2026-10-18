@@ -181,3 +181,8 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - Known rough edges: pack parser is title-based (fixed 12pk/24pk; "20 packets" style still reads as 1); hydration mixes powder packets and RTD, so $/unit needs a form split before it means anything; relevance regex for the brand neighborhood misses "PuraSoda" (no word boundary), harmless.
 - NOT DONE, needs Steve: SOP v79 rule 16 (drafted in SOP_v79_DRAFT.md), amazon_comps mapping and landing, app render of bought-past-month. Nothing in the DB.
 - Note: a parallel session is running SG competitive markets (Boise, Chicago) and drafting v79 rules 13 to 15 in the same file; keep rule numbers in sync.
+
+## 2026-10-18 09:52 CT: SOP v79 LANDED (Steve "Yes")
+- Backup first: shelf-architect-backup-2026-10-18_2.zip (main instance, 21 collections, 1,503 docs, app.html, RESTORE.md). Mac archives folder could not be granted from the cloud session, so the zip was handed to Steve in chat to drop in Desktop/Shelf Architect/archives/ himself.
+- app_meta/pull_process now v79: rule 8 amended (runner fills format only where blank), rules 13 storage class, 14 standard banner set, 15 competitive pulls follow competitors, 16 intake lists competitive markets, 17 Amazon lane separate and temperature-gated. The two parallel v79 draft files were merged into one numbering (SOP_v79.md in repo). Published Runbook page republished (v6) from the v79 docs; generator VERSIONS updated in DB.
+- No rows landed in this step. The SG competitive-market rows (Boise, Chicago) belong to the session that ran them and land on their own approval.
