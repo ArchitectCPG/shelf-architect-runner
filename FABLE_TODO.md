@@ -211,3 +211,8 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - Still held (2): jewel-osco unbranded White Queso 12 oz $3.99 (brand unknown, could be ReadyMeals), "Tamal De Queso Con Rajas" 6ct (brand unclear).
 - GO-FORWARD FIX for mapper.py: Albertsons/Jewel grid truncates long titles with "..." but pull_url slugs carry the full name. When product_name contains "..." or an abbreviation pattern, rebuild it from the pull_url slug. Would have eliminated 20 of the 28 holds. Sonnet job.
 - Store context: Albertsons runner = 1650 W State St Boise (hand pulls were 4700 N Eagle Rd). Jewel runner = 6014 S Cottage Grove (hand pulls were 2940 N Ashland). Prices matched across stores on every confirmed pair.
+
+## Mapper truncation fix (2026-10-18, Sonnet)
+- tools/mapper.py now repairs names containing "..." : (1) /shop/pd/ URL slug, (2) unique head/tail match to a known full name (client seed rows + untruncated names in the same run), (3) otherwise the row is tagged name_truncated=true and routed to held/ (never guessed).
+- Tested on the 2026-10-18 SG data: 5 rows recovered (Guadalupana x2, Tamal de Queso con Rajas, Velveeta x2), 19 held. Scope is about 5, not the 20 first estimated.
+- Open (needs a recipe change, not the mapper): Albertsons-platform grids return houses_dom=0 and via="text", so full titles never reach the mapper. Next step is a DOM selector for the product title (aria-label/title attr) in the albertsons/jewel recipe, tested live. Until then, truncated rows need a hand call at landing.

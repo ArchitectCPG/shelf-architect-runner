@@ -31,6 +31,26 @@ def clean_name(name,brand_label):
     n=re.sub(r',?\s*\d+(\.\d+)?\s?(fl\.?\s?oz|oz|lb|lbs|ct|count|g|ml)\b.*$','',n,flags=re.I).strip(' ,-')
     if brand_label and n.lower().startswith(brand_label.lower()+' '): n=n[len(brand_label)+1:]
     return n or name
+
+ELL=re.compile(r'\.\.\.|\u2026')
+def _an(t): return re.sub(r'[^a-z0-9]','',(t or '').lower())
+def _strip_size(t): return re.sub(r',?\s*[-,]?\s*\d+(\.\d+)?\s?(fl\.?\s?oz|oz|lb|lbs|ct|count|g|ml)\b.*$','',t or '',flags=re.I).strip(' ,-')
+def slug_name(url):
+    m=re.search(r'/shop/pd/([a-z0-9-]+?)/\d+',url or '')
+    return ' '.join(w.capitalize() if not w.isdigit() else w for w in m.group(1).split('-')) if m else None
+def repair_name(nm,brand,url,known):
+    """Return (name, status). status: ok | slug | known | truncated."""
+    if not ELL.search(nm or ''): return nm,'ok'
+    head,_,tail=ELL.split(nm,1)[0],None,ELL.split(nm,1)[1]
+    hn,tn=_an(head),_an(_strip_size(tail))
+    sl=slug_name(url)
+    if sl:
+        sn=_an(sl)
+        if not tn or tn in sn: return sl,'slug'
+    cands={k for k in known if len(_an(k))>len(hn)+len(tn) and (_an(k).startswith(hn) or _an(brand+k).startswith(hn)) and (not tn or _an(k).endswith(tn))}
+    # tolerate brand-prefixed known names: compare with brand label stripped
+    if len(cands)==1: return next(iter(cands)),'known'
+    return nm,'truncated'
 today=datetime.date.today().isoformat()
 
 # ---- storage class (maps to the DB `format` field: Frozen / Refrigerated / Shelf-stable) ----
@@ -104,6 +124,21 @@ def fix_brand(brand,nm):
     if out and 1<=len(out)<=3 and len(' '.join(out))>2 and not re.match(r'^(the|a|an)$',out[0],re.I): return ' '.join(out)
     return None
 RET={'kingsoopers':('King Soopers','king-soopers'),'citymarket':('City Market','city-market'),'safeway':('Safeway','safeway'),'heb':('H-E-B','heb'),'walmart':('Walmart','walmart'),'target':('Target','target'),'sprouts':('Sprouts Farmers Market','sprouts'),'wholefoods':('Whole Foods Market','wholefoods'),'costco':('Costco','costco'),'albertsons':('Albertsons','albertsons'),'jewel-osco':('Jewel-Osco','jewel-osco'),'costco-online':('Costco','costco')}
+KNOWN_NAMES=set()
+_sd=os.environ.get('BRAND_SEED_DIR')
+if _sd:
+    for _f in glob.glob(_sd+'/*.json'):
+        try:
+            _o=json.load(open(_f)); _o=_o.get('data',_o)
+            if _o.get('client_id')==cid and _o.get('product_name') and not ELL.search(_o['product_name']):
+                KNOWN_NAMES.add(clean_name(_o['product_name'],_o.get('brand')))
+        except Exception: pass
+for _f in glob.glob(f'blocks_gen/{cid}/*.json'):
+    try:
+        _d=latest(json.load(open(_f)))
+        for _h in (_d or {}).get('houses',[]):
+            if _h.get('name') and not ELL.search(_h['name']): KNOWN_NAMES.add(_strip_size(_h['name']))
+    except Exception: pass
 os.makedirs(out+'/held',exist_ok=True); held={}
 for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
     b=json.load(open(f)); d=latest(b); nb=next(n for n in C['neighborhoods'] if n['id']==b['neighborhood'])
@@ -139,6 +174,7 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
                     if u in('ct','count'): ct=int(round(best[1]))
                     else: oz=round(best[1]*2)/2
                     size_src='derived_unit_price'
+        nm,_nst=repair_name(nm,brand,h.get('link') or d.get('url_final'),KNOWN_NAMES)
         pname=clean_name(nm,brand)
         disp,idp=RET.get(retailer_slug,(retailer_slug,retailer_slug)); rid=f"{idp}_{slug(brand)}_{slug(pname)}_{size_slug(oz,ct)}"
         reg=x['price_regular']; pro=x['price_promo']
@@ -158,8 +194,10 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
             _f,_fs=storage_class(h,nm,kapi)
             if _f: r['format']=_f; r['format_source']=_fs
             if banner in DOLLAR: r['pricing_cohort']='dollar'
+            if _nst=='truncated': r['name_truncated']=True; r['hold_reason']='name truncated, needs full title'
+            elif _nst!='ok': r['name_repaired']=_nst
             rows[rid]=r
-            if not oz and not ct: r['hold_reason']='no size parsed'
+            if not oz and not ct and not r.get('hold_reason'): r['hold_reason']='no size parsed'
         else:
             if b['neighborhood'] not in r['neighborhoods']: r['neighborhoods'].append(b['neighborhood'])
             if block not in r['blocks']: r['blocks'].append(block)
