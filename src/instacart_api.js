@@ -14,10 +14,12 @@ const locId=shop.retailerLocationId;
 if(!zoneId){const m=performance.getEntriesByType('resource').map(e=>decodeURIComponent(e.name)).join(' ').match(/"zoneId":"(\d+)"/); zoneId=m?m[1]:null;}
 const vars={action:null,query:TERM,pageViewId:crypto.randomUUID(),elevatedProductId:null,searchSource:'search',filters:[],disableReformulation:false,disableLlm:false,forceInspiration:false,orderBy:'bestMatch',clusterId:null,includeDebugInfo:false,clusteringStrategy:null,contentManagementSearchParams:{itemGridColumnCount:5},shopId,postalCode:ZIP,zoneId:zoneId||'0',first:60};
 const sr=await gq('SearchResultsPlacements',vars,H.SRP);
-const ids=[...new Set((JSON.stringify(sr).match(/items_\d+-\d+/g)||[]))];
+let ids=[...new Set((JSON.stringify(sr).match(/items_\d+-\d+/g)||[]))];
+// Optional collection (aisle) route: COLLECTION = slug or comma list. Union with search ids, paginated by cursor.
+if(typeof COLLECTION!=='undefined'&&COLLECTION){for(const slug of String(COLLECTION).split(',')){let after=null;for(let pg=0;pg<8;pg++){const cv={shopId,slug,filters:[],pageViewId:crypto.randomUUID(),itemsDisplayType:'collections_all_items_grid',first:20,pageSource:'collections',postalCode:ZIP,zoneId:zoneId||'0'};if(after)cv.after=after;let cr;try{cr=await gq('CollectionProductsWithFeaturedProducts',cv,'374c333a8919219b1d150ef870cd2af87fd23b4cd8fa53fc6909483e8e1f5dd7');}catch(e){dbg.push('coll err '+slug);break;}const t=JSON.stringify(cr);const got=t.match(/items_\d+-\d+/g)||[];ids=[...new Set(ids.concat(got))];const ec=(t.match(/"endCursor":"([^"]+)"/)||[])[1];const hn=/"hasNextPage":true/.test(t);dbg.push('coll '+slug+' p'+pg+' '+got.length);if(!hn||!ec||ec===after)break;after=ec;}}}
 dbg.push('shop '+shopId+' loc '+locId+' zone '+zoneId+' ids '+ids.length);
 const houses=[];
-for(let i=0;i<ids.length&&i<120;i+=30){const it=await gq('Items',{ids:ids.slice(i,i+30),shopId,zoneId:zoneId||'0',postalCode:ZIP},H.Items);
+for(let i=0;i<ids.length&&i<240;i+=30){const it=await gq('Items',{ids:ids.slice(i,i+30),shopId,zoneId:zoneId||'0',postalCode:ZIP},H.Items);
  for(const x of ((it.data&&it.data.items)||[])){const pr=x.price&&x.price.viewSection; houses.push({name:x.name,size:x.size||null,brand:x.brandName||null,price:(pr&&(pr.itemCard&&pr.itemCard.priceString||pr.priceString))||null,item_id:x.id,product_id:x.productId||null,img:(x.viewSection&&x.viewSection.itemImage&&x.viewSection.itemImage.url)||null,availability:(x.availability&&x.availability.stockLevel)||null});}}
 if(!houses.length) dbg.push('items0 '+JSON.stringify(sr).slice(0,600));
 return JSON.stringify({store:'API zip '+ZIP+' shop '+shopId+' location '+locId,houses,debug:dbg.join(' | ')});

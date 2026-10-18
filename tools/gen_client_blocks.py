@@ -16,7 +16,7 @@ for r in C['retailers']:
             t=load('kroger'); s=json.dumps(t['steps']).replace('www.kroger.com',r['host']); base['steps']=json.loads(s); base['store_js']=t['store_js']
         elif r['lane']=='instacart':
             url=r.get('url') or f"https://www.instacart.com/store/{r['slug']}/s?k={{{{term}}}}"
-            pre=f"const SLUG='{r['slug']}',ZIP='{m['zip']}',LAT={m['lat']},LNG={m['lng']},TERM='{term}';\n"
+            pre=f"const SLUG='{r['slug']}',ZIP='{m['zip']}',LAT={m['lat']},LNG={m['lng']},TERM='{term}';\n"+(f"const COLLECTION='{r['collections'][n['id']]}';\n" if r.get('collections',{}).get(n['id']) else '')
             base['store_js']="(()=>null)()"; base['steps']=[{"goto":url},{"wait":10000},{"dismiss":["Close","No thanks","Not now","Continue","Got it"]},{"js_houses":pre+ic_js,"optional":True},{"wait":1000}]
         elif r['lane']=='api':
             t=load(r['template']); base['api']=json.loads(json.dumps(t['api']))
