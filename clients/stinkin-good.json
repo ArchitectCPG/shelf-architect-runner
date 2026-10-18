@@ -55,6 +55,12 @@
    "id": "tamales",
    "term": "tamales",
    "relevance": "tamal"
+  },
+  {
+   "id": "brand",
+   "term": "stinkin good",
+   "relevance": "stinkin",
+   "brand_only": true
   }
  ],
  "retailers": [
@@ -62,13 +68,15 @@
    "banner": "kingsoopers",
    "lane": "kroger",
    "host": "www.kingsoopers.com",
-   "market": "denver"
+   "market": "denver",
+   "brand_check": true
   },
   {
    "banner": "citymarket",
    "lane": "kroger",
    "host": "www.citymarket.com",
-   "market": "grand-junction"
+   "market": "grand-junction",
+   "brand_check": true
   },
   {
    "banner": "walmart",
@@ -105,7 +113,8 @@
    "banner": "costco-online",
    "lane": "recipe",
    "template": "costco-online",
-   "market": "denver"
+   "market": "denver",
+   "brand_check": true
   },
   {
    "banner": "heb",
@@ -118,7 +127,8 @@
    "lane": "instacart",
    "slug": "costco",
    "market": "denver",
-   "note": "Costco warehouse-local assortment via Instacart; prices carry Instacart markup (~15% over warehouse tag)"
+   "note": "Costco warehouse-local assortment via Instacart; prices carry Instacart markup (~15% over warehouse tag)",
+   "brand_check": true
   }
  ],
  "brand_hints": {

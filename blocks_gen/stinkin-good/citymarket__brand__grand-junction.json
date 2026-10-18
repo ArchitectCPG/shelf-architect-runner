@@ -1,0 +1,67 @@
+{
+ "block_id": "stinkin-good/brand@citymarket-grand-junction",
+ "retailer": "citymarket",
+ "zip": "refrigerated",
+ "neighborhood": "brand",
+ "term": "stinkin good",
+ "store_zip": "81501",
+ "client_id": "stinkin-good",
+ "steps": [
+  {
+   "goto": "https://www.citymarket.com/search?query={{term}}"
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "click_sel": "button[aria-label='close banner']",
+   "optional": true
+  },
+  {
+   "wait": 1000
+  },
+  {
+   "click_sel": "[data-testid=CurrentModality-button]"
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "type_sel": {
+    "sel": "[data-testid=PostalCodeSearchBox-input]",
+    "value": "{{store_zip}}",
+    "enter": false
+   }
+  },
+  {
+   "js": "const i=document.querySelector('[data-testid=PostalCodeSearchBox-input]'); (i.parentElement.querySelector('button')||i.closest('form')?.querySelector('button')).click(); return 'search'"
+  },
+  {
+   "wait": 6000
+  },
+  {
+   "js": "const d=document.querySelector('[role=dialog],[aria-modal=true]'); const r=d.querySelector('input[type=radio]'); r.click(); await new Promise(x=>setTimeout(x,1000)); d.querySelector('[data-testid=Start-Shopping-PICKUP]').click(); return r.value"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "click_re": "^Keep Shopping Here$",
+   "optional": true
+  },
+  {
+   "wait": 2000
+  },
+  {
+   "goto": "https://www.citymarket.com/search?query={{term}}"
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "scroll": 4
+  }
+ ],
+ "store_js": "document.querySelector('[data-testid=CurrentModality-button]')?.innerText.replace(/\\s+/g,' ').trim()",
+ "attempts": 2
+}

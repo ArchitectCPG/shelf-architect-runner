@@ -10,6 +10,7 @@ made=[]
 for r in C['retailers']:
     m=C['markets'][r['market']]
     for n in C['neighborhoods']:
+        if n.get('brand_only') and not r.get('brand_check'): continue
         term=n['term']; bid=f"{cid}/{n['id']}@{r['banner']}-{r['market']}"
         base={"block_id":bid,"retailer":r['banner'],"zip":C['department'],"neighborhood":n['id'],"term":term,"store_zip":m['zip'],"client_id":cid}
         if r['lane']=='kroger':

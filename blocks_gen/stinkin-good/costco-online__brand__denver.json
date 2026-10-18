@@ -1,0 +1,31 @@
+{
+ "block_id": "stinkin-good/brand@costco-online-denver",
+ "retailer": "costco-online",
+ "zip": "refrigerated",
+ "neighborhood": "brand",
+ "term": "stinkin good",
+ "store_zip": "80202",
+ "client_id": "stinkin-good",
+ "steps": [
+  {
+   "goto": "https://www.costco.com/s?keyword={{term}}"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it"
+   ]
+  },
+  {
+   "scroll": 4
+  }
+ ],
+ "store_js": "'costco.com online (national, 2-day delivery pricing)'",
+ "attempts": 2
+}
