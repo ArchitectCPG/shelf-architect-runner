@@ -1,0 +1,15 @@
+{
+ "block_id": "stinkin-good/green-chile@citymarket-api-grand-junction",
+ "retailer": "citymarket-api",
+ "zip": "refrigerated",
+ "neighborhood": "green-chile",
+ "pulled_at": "2026-10-18T04:44:48.027Z",
+ "runner": "github-actions+kroger-api",
+ "store_requested_zip": "81501",
+ "store_set": null,
+ "houses": [],
+ "steps": [
+  "04:44:48 ERROR Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ ],
+ "error": "Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+}

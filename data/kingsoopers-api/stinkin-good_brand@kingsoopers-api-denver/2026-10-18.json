@@ -1,0 +1,15 @@
+{
+ "block_id": "stinkin-good/brand@kingsoopers-api-denver",
+ "retailer": "kingsoopers-api",
+ "zip": "refrigerated",
+ "neighborhood": "brand",
+ "pulled_at": "2026-10-18T04:45:19.738Z",
+ "runner": "github-actions+kroger-api",
+ "store_requested_zip": "80202",
+ "store_set": null,
+ "houses": [],
+ "steps": [
+  "04:45:20 ERROR Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ ],
+ "error": "Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+}
