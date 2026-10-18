@@ -83,23 +83,27 @@
   {
    "id": "natural-soda",
    "term": "natural soda",
-   "relevance": "soda|cola|ginger|\\bpop\\b|sparkling|prebiotic"
+   "relevance": "soda|cola|ginger|\\bpop\\b|sparkling|prebiotic",
+   "temperature": "shelf_stable"
   },
   {
    "id": "kids-drinks",
    "term": "kids juice drink",
-   "relevance": "kids|juice|pouch|fruit drink"
+   "relevance": "kids|juice|pouch|fruit drink",
+   "temperature": "shelf_stable"
   },
   {
    "id": "hydration",
    "term": "electrolyte hydration drink",
-   "relevance": "electrolyte|hydrat|sports drink|gatorade|body ?armor|liquid i"
+   "relevance": "electrolyte|hydrat|sports drink|gatorade|body ?armor|liquid i",
+   "temperature": "shelf_stable"
   },
   {
    "id": "brand",
    "term": "pura soda",
    "relevance": "\\bpura\\b(?! vida)",
-   "brand_only": true
+   "brand_only": true,
+   "temperature": "shelf_stable"
   }
  ],
  "retailers": [
@@ -146,5 +150,13 @@
    "brand_check": true
   }
  ],
- "brand_exclude": "fragrance|refill|vial|capri blue|candle|diffuser|air freshener|cleaner|detergent"
+ "brand_exclude": "fragrance|refill|vial|capri blue|candle|diffuser|air freshener|cleaner|detergent",
+ "amazon": {
+  "enabled": true,
+  "temperature": "shelf_stable",
+  "zip": "",
+  "limit": 48,
+  "brand_check": true,
+  "note": "Amazon lane is separate from retail: own blocks folder, own data folder, own report. National pricing, no store. Rows are candidates for amazon_comps (manual audit), never retail_entries."
+ }
 }

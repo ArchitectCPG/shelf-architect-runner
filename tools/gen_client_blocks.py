@@ -31,4 +31,29 @@ for r in C['retailers']:
             if not base.get('store_js'): base.pop('store_js')
         if 'steps' in base and 'attempts' not in base: base['attempts']=2
         fn=f"{out}/{r['banner']}__{n['id']}__{r['market']}.json"; json.dump(base,open(fn,'w'),indent=1); made.append(fn)
-print(','.join(made)); print(len(made),'blocks',file=sys.stderr)
+print(','.join(made)); print(len(made),'retail blocks',file=sys.stderr)
+
+# ---- Amazon lane: separate from retail, gated on temperature state ----
+# Blocks go to blocks_gen/<cid>/amazon/ and results to data/amazon/, so client_report, mapper and landing
+# never see them. Runs only when the client product is shelf-stable (client-level amazon.temperature),
+# and per neighborhood only when that neighborhood is shelf-stable too (neighborhood.temperature overrides).
+A=C.get('amazon') or {}; aout=f'{out}/amazon'; os.makedirs(aout,exist_ok=True)
+for f in glob.glob(aout+'/*'): os.remove(f)
+amade=[]
+if A.get('enabled'):
+    ctemp=A.get('temperature','unknown')
+    if ctemp!='shelf_stable':
+        msg=f"amazon lane SKIPPED: client product temperature is '{ctemp}' (Amazon lane needs shelf_stable)"
+        open(aout+'/SKIPPED.txt','w').write(msg+'\n'); print(msg,file=sys.stderr)
+    else:
+        for n in C['neighborhoods']:
+            if n.get('brand_only') and not A.get('brand_check',True): continue
+            ntemp=n.get('temperature',ctemp)
+            if ntemp!='shelf_stable': print(f"amazon: skip {n['id']} ({ntemp})",file=sys.stderr); continue
+            term=n.get('amazon_term') or n['term']
+            b={"block_id":f"{cid}/{n['id']}@amazon","retailer":"amazon","zip":"amazon","neighborhood":n['id'],"term":term,
+               "store_zip":A.get('zip',''),"client_id":cid,"temperature":ntemp,
+               "api":{"amazon":True,"dataset_id":"gd_l7q7dkf244hwjntr0","discover_by":"keyword",
+                      "input":{"keyword":"{{term}}","zipcode":"{{store_zip}}"},"limit":int(A.get('limit',48))}}
+            fn=f"{aout}/amazon__{n['id']}.json"; json.dump(b,open(fn,'w'),indent=1); amade.append(fn)
+if amade: print('AMAZON:'+','.join(amade)); print(len(amade),'amazon blocks',file=sys.stderr)

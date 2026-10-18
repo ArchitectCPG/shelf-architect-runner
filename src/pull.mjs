@@ -68,10 +68,14 @@ if (block.api) {
   const tok = process.env.BRD_API_TOKEN;
   if (!tok) { console.error("missing BRD_API_TOKEN"); process.exit(2); }
   const stamp2 = new Date().toISOString(); const day2 = stamp2.slice(0, 10);
-  const outDir2 = path.join("data", block.retailer, block.block_id.replace(/[^a-z0-9@_.-]/gi, "_"));
+  // Amazon lane: same dataset mechanics, but the output lives under data/amazon/ and is NEVER
+  // read by client_report / mapper / landing (retail stays separate; see tools/amazon_report.py).
+  const isAmazon = !!block.api.amazon;
+  const outDir2 = path.join("data", isAmazon ? "amazon" : block.retailer, block.block_id.replace(/[^a-z0-9@_.-]/gi, "_"));
   fs.mkdirSync(outDir2, { recursive: true });
   const o = { block_id: block.block_id, retailer: block.retailer, zip: block.zip || null,
-    neighborhood: block.neighborhood || null, pulled_at: stamp2, runner: "github-actions+brightdata-dataset-api",
+    neighborhood: block.neighborhood || null, pulled_at: stamp2, runner: "github-actions+brightdata-dataset-api" + (isAmazon ? "+amazon" : ""),
+    channel: isAmazon ? "amazon" : "retail", temperature: block.temperature || null,
     store_requested_zip: block.store_zip || null, store_set: null, houses: [], steps: [], error: null };
   const lg = (m) => { console.log(m); o.steps.push(`${new Date().toISOString().slice(11,19)} ${m}`); };
   try {
@@ -109,10 +113,23 @@ if (block.api) {
       upc: r.item_number || r.upc || null,
       availability: r.availability || r.availability_text || null,
       initial_price: r.initial_price ?? null, rating: r.rating ?? null, reviews: r.reviews_count ?? null,
+      ...(isAmazon ? {
+        asin: r.asin || null, parent_asin: r.parent_asin || null,
+        bought_past_month: r.bought_past_month ?? null, bought_past_month_text: r.bought_past_month_text || null,
+        bs_rank: r.bs_rank ?? null, bs_category: r.bs_category || null,
+        root_bs_rank: r.root_bs_rank ?? null, root_bs_category: r.root_bs_category || null,
+        sponsored: !!(r.sponsored || r.sponsered), badge: r.badge || null, amazon_choice: !!r.amazon_choice,
+        prime: r.amazon_prime ?? null, seller: r.buybox_seller || r.seller_name || null,
+        number_of_sellers: r.number_of_sellers ?? null, coupon: r.coupon || null,
+        item_weight: r.item_weight || null, product_dimensions: r.product_dimensions || null,
+        date_first_available: r.date_first_available || null, is_available: r.is_available ?? null,
+        prices_breakdown: r.prices_breakdown || null,
+      } : {}),
     })).filter(h => h.name && h.price);
     const errs = recs.filter(r => r.error); if (errs.length) lg(`${errs.length} errored inputs: ${String(errs[0].error).slice(0,120)}`);
     const sid = recs.find(r => r.store_id)?.store_id;
-    o.store_set = `API zip ${block.store_zip}${sid ? ` store_id ${sid}` : ""} (dataset ${a.dataset_id})`;
+    o.store_set = isAmazon ? `Amazon.com national${block.store_zip ? ` (delivery zip ${block.store_zip})` : ""} (dataset ${a.dataset_id})`
+      : `API zip ${block.store_zip}${sid ? ` store_id ${sid}` : ""} (dataset ${a.dataset_id})`;
     lg(`extracted ${o.houses.length} houses from ${recs.length} records`);
   } catch (e) { o.error = String(e).slice(0, 500); lg(`ERROR ${o.error}`); }
   fs.writeFileSync(path.join(outDir2, `${day2}.json`), JSON.stringify(o, null, 2));

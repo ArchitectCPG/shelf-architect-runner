@@ -168,5 +168,10 @@
     "Texas Tamale Co": "\\btexas tamale",
     "Rosarita": "\\brosarita",
     "Old El Paso": "\\bold el paso"
+  },
+  "amazon": {
+    "enabled": true,
+    "temperature": "refrigerated",
+    "note": "Refrigerated product: Amazon lane gated off by temperature. Flip to shelf_stable only if a shelf-stable SKU exists."
   }
 }
