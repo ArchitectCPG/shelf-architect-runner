@@ -1,4 +1,4 @@
-# Pull process SOP v79: the runner lane (DRAFT, not applied)
+# Pull process SOP v79: the runner lane (LANDED 2026-10-18, app_meta/pull_process v79)
 Shelf Architect main instance, app_meta/pull_process. Builds on v78 (2026-10-18). Set by Steve, 2026-10-18. Everything in v77 not touched here stands.
 
 1. **Primary route is the runner.** Bright Data plus GitHub Actions, unattended, one domain per browser session. Attended Chrome is plan B only: mapping a new banner, bot-walled sites, the Costco warehouse tag, a broken recipe.
