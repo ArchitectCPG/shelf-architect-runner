@@ -3,13 +3,1555 @@
  "retailer": "citymarket-api",
  "zip": "refrigerated",
  "neighborhood": "green-chile",
- "pulled_at": "2026-10-18T04:44:48.027Z",
+ "pulled_at": "2026-10-18T04:47:46.393Z",
  "runner": "github-actions+kroger-api",
  "store_requested_zip": "81501",
- "store_set": null,
- "houses": [],
- "steps": [
-  "04:44:48 ERROR Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ "store_set": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+ "houses": [
+  {
+   "name": "Kroger® Diced Green Chile Peppers",
+   "brand": "Kroger",
+   "upc": "0001111084009",
+   "product_id": "0001111084009",
+   "size": "4 oz",
+   "price": "$0.99",
+   "regular_price": 0.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111084009",
+   "link": "https://www.kroger.com/p/kroger-diced-green-chile-peppers/0001111084009?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ortega Diced Mild Fire Roasted Green Chiles, Kosher",
+   "brand": "Ortega",
+   "upc": "0003900001021",
+   "product_id": "0003900001021",
+   "size": "4 oz",
+   "price": "$1.99",
+   "regular_price": 2.19,
+   "promo_price": 1.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003900001021",
+   "link": "https://www.kroger.com/p/ortega-diced-mild-fire-roasted-green-chiles-kosher/0003900001021?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Macayo Diced Green Chiles",
+   "brand": "Macayo",
+   "upc": "0003640840040",
+   "product_id": "0003640840040",
+   "size": "4 oz",
+   "price": "$1.5",
+   "regular_price": 1.59,
+   "promo_price": 1.5,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003640840040",
+   "link": "https://www.kroger.com/p/macayo-diced-green-chiles/0003640840040?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ortega Hot Fire Roasted Diced Green Chiles, Kosher",
+   "brand": "Ortega",
+   "upc": "0004150101006",
+   "product_id": "0004150101006",
+   "size": "4 oz",
+   "price": "$1.99",
+   "regular_price": 2.19,
+   "promo_price": 1.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004150101006",
+   "link": "https://www.kroger.com/p/ortega-hot-fire-roasted-diced-green-chiles-kosher/0004150101006?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hatch® Mild Diced Green Chiles",
+   "brand": "Hatch",
+   "upc": "0002818941322",
+   "product_id": "0002818941322",
+   "size": "4 oz",
+   "price": "$2.19",
+   "regular_price": 2.29,
+   "promo_price": 2.19,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002818941322",
+   "link": "https://www.kroger.com/p/hatch-mild-diced-green-chiles/0002818941322?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ortega Mild Diced Fire Roasted Green Chiles, Kosher",
+   "brand": "Ortega",
+   "upc": "0003900001010",
+   "product_id": "0003900001010",
+   "size": "7 oz",
+   "price": "$3.19",
+   "regular_price": 3.49,
+   "promo_price": 3.19,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003900001010",
+   "link": "https://www.kroger.com/p/ortega-mild-diced-fire-roasted-green-chiles-kosher/0003900001010?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern® Medium Flame Roasted Hatch Valley Green Chile",
+   "brand": "505 Southwestern",
+   "upc": "0060205010350",
+   "product_id": "0060205010350",
+   "size": "16 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205010350",
+   "link": "https://www.kroger.com/p/505-southwestern-medium-flame-roasted-hatch-valley-green-chile/0060205010350?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hatch® Select Hot Diced Green Chiles",
+   "brand": "Hatch",
+   "upc": "0002818920466",
+   "product_id": "0002818920466",
+   "size": "4 oz",
+   "price": "$2.19",
+   "regular_price": 2.29,
+   "promo_price": 2.19,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002818920466",
+   "link": "https://www.kroger.com/p/hatch-select-hot-diced-green-chiles/0002818920466?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "El Pinto Chopped Green Chile",
+   "brand": "El Pinto",
+   "upc": "0068136650022",
+   "product_id": "0068136650022",
+   "size": "4 oz",
+   "price": "$1.79",
+   "regular_price": 1.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0068136650022",
+   "link": "https://www.kroger.com/p/el-pinto-chopped-green-chile/0068136650022?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ortega Whole Mild Fire Roasted Green Chiles, Kosher",
+   "brand": "Ortega",
+   "upc": "0003900001013",
+   "product_id": "0003900001013",
+   "size": "27 oz",
+   "price": "$8.99",
+   "regular_price": 9.49,
+   "promo_price": 8.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003900001013",
+   "link": "https://www.kroger.com/p/ortega-whole-mild-fire-roasted-green-chiles-kosher/0003900001013?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Macayo Diced Green Chiles",
+   "brand": "Macayo",
+   "upc": "0003640840050",
+   "product_id": "0003640840050",
+   "size": "7 oz",
+   "price": "$2.49",
+   "regular_price": 2.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003640840050",
+   "link": "https://www.kroger.com/p/macayo-diced-green-chiles/0003640840050?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Bueno Mild Chopped Green Chile",
+   "brand": "Bueno",
+   "upc": "0007800454291",
+   "product_id": "0007800454291",
+   "size": "13 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Frozen",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007800454291",
+   "link": "https://www.kroger.com/p/bueno-mild-chopped-green-chile/0007800454291?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "New Mexico Select Mild Green Chile Peppers",
+   "brand": "Select New Mexico",
+   "upc": "0066138969019",
+   "product_id": "0066138969019",
+   "size": "24 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Frozen",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0066138969019",
+   "link": "https://www.kroger.com/p/new-mexico-select-mild-green-chile-peppers/0066138969019?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Bueno Green Chile Hot",
+   "brand": "Grandma's",
+   "upc": "0007800454281",
+   "product_id": "0007800454281",
+   "size": "13 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Frozen",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007800454281",
+   "link": "https://www.kroger.com/p/bueno-green-chile-hot/0007800454281?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Preferida® Diced Green Chiles Mild",
+   "brand": "La Preferida",
+   "upc": "0007152416007",
+   "product_id": "0007152416007",
+   "size": "4 oz",
+   "price": "$1.39",
+   "regular_price": 1.49,
+   "promo_price": 1.39,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007152416007",
+   "link": "https://www.kroger.com/p/la-preferida-diced-green-chiles-mild/0007152416007?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Select New Mexico Hot Green Chile Peppers",
+   "brand": "Select New Mexico",
+   "upc": "0066138969021",
+   "product_id": "0066138969021",
+   "size": "24 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0066138969021",
+   "link": "https://www.kroger.com/p/select-new-mexico-hot-green-chile-peppers/0066138969021?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Bueno Mild Chopped Green Chile",
+   "brand": "Bueno",
+   "upc": "0007800458291",
+   "product_id": "0007800458291",
+   "size": "28 oz",
+   "price": "$7.49",
+   "regular_price": 7.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Frozen",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007800458291",
+   "link": "https://www.kroger.com/p/bueno-mild-chopped-green-chile/0007800458291?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Las Palmas® Mild Green Chile Enchilada Sauce",
+   "brand": "Las Palmas",
+   "upc": "0004150111042",
+   "product_id": "0004150111042",
+   "size": "28 oz",
+   "price": "$3.19",
+   "regular_price": 3.19,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004150111042",
+   "link": "https://www.kroger.com/p/las-palmas-mild-green-chile-enchilada-sauce/0004150111042?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
+   "brand": "505 Southwestern",
+   "upc": "0060205001324",
+   "product_id": "0060205001324",
+   "size": "16 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205001324",
+   "link": "https://www.kroger.com/p/505-southwestern-flame-roasted-hatch-valley-mild-green-chile-16-oz/0060205001324?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Stokes Green Chile Sauce with Pork",
+   "brand": "Stokes",
+   "upc": "0004161200733",
+   "product_id": "0004161200733",
+   "size": "15 oz",
+   "price": "$3.99",
+   "regular_price": 3.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004161200733",
+   "link": "https://www.kroger.com/p/stokes-green-chile-sauce-with-pork/0004161200733?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hatch Valley Flame Roasted Hot Green Chile",
+   "brand": "Young Guns",
+   "upc": "0082420600119",
+   "product_id": "0082420600119",
+   "size": "24 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082420600119",
+   "link": "https://www.kroger.com/p/hatch-valley-flame-roasted-hot-green-chile/0082420600119?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern® Medium Green Chile Sauce",
+   "brand": "505 Southwestern",
+   "upc": "0060205010383",
+   "product_id": "0060205010383",
+   "size": "16 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205010383",
+   "link": "https://www.kroger.com/p/505-southwestern-medium-green-chile-sauce/0060205010383?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hatch Valley Flame Roasted Mild Green Chile",
+   "brand": "Young Guns",
+   "upc": "0082420600125",
+   "product_id": "0082420600125",
+   "size": "24 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082420600125",
+   "link": "https://www.kroger.com/p/hatch-valley-flame-roasted-mild-green-chile/0082420600125?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Las Palmas® Medium Green Chile Enchilada Sauce",
+   "brand": "Las Palmas",
+   "upc": "0004150111021",
+   "product_id": "0004150111021",
+   "size": "28 oz",
+   "price": "$3.19",
+   "regular_price": 3.19,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004150111021",
+   "link": "https://www.kroger.com/p/las-palmas-medium-green-chile-enchilada-sauce/0004150111021?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Las Palmas Medium Green Chile Enchilada Sauce",
+   "brand": "Las Palmas",
+   "upc": "0004150111020",
+   "product_id": "0004150111020",
+   "size": "19 oz",
+   "price": "$3.29",
+   "regular_price": 3.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004150111020",
+   "link": "https://www.kroger.com/p/las-palmas-medium-green-chile-enchilada-sauce/0004150111020?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hatch® Mild Green Chile Enchilada Sauce",
+   "brand": "Hatch",
+   "upc": "0002818910448",
+   "product_id": "0002818910448",
+   "size": "15 oz",
+   "price": "$3.99",
+   "regular_price": 4.49,
+   "promo_price": 3.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002818910448",
+   "link": "https://www.kroger.com/p/hatch-mild-green-chile-enchilada-sauce/0002818910448?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern® Mild Hatch Valley Green Chile Sauce",
+   "brand": "505 Southwestern",
+   "upc": "0060205010364",
+   "product_id": "0060205010364",
+   "size": "16 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205010364",
+   "link": "https://www.kroger.com/p/505-southwestern-mild-hatch-valley-green-chile-sauce/0060205010364?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hatch Valley Flame Roasted Medium Green Chile",
+   "brand": "Young Guns",
+   "upc": "0082420600121",
+   "product_id": "0082420600121",
+   "size": "24 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082420600121",
+   "link": "https://www.kroger.com/p/hatch-valley-flame-roasted-medium-green-chile/0082420600121?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Old El Paso™ Mild Chopped Green Chiles",
+   "brand": "Old El Paso",
+   "upc": "0004600013581",
+   "product_id": "0004600013581",
+   "size": "4 oz",
+   "price": "$2.49",
+   "regular_price": 2.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004600013581",
+   "link": "https://www.kroger.com/p/old-el-paso-mild-chopped-green-chiles/0004600013581?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Santiago's Medium Green Chile Sauce with Pork",
+   "brand": "Santiago's",
+   "upc": "0082664500001",
+   "product_id": "0082664500001",
+   "size": "28 oz",
+   "price": "$9.29",
+   "regular_price": 9.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082664500001",
+   "link": "https://www.kroger.com/p/santiago-s-medium-green-chile-sauce-with-pork/0082664500001?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Santiago's Authentic Green Chile Sauce With Pork",
+   "brand": "Santiago's",
+   "upc": "0082664500003",
+   "product_id": "0082664500003",
+   "size": "28 oz",
+   "price": "$9.29",
+   "regular_price": 9.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082664500003",
+   "link": "https://www.kroger.com/p/santiago-s-authentic-green-chile-sauce-with-pork/0082664500003?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Old El Paso™ Mild Green Chile Enchilada Sauce",
+   "brand": "Old El Paso",
+   "upc": "0004600086101",
+   "product_id": "0004600086101",
+   "size": "10 oz",
+   "price": "$2.99",
+   "regular_price": 2.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004600086101",
+   "link": "https://www.kroger.com/p/old-el-paso-mild-green-chile-enchilada-sauce/0004600086101?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nanita's Finest Medium New Mexico Style Green Chile Hot Sauce",
+   "brand": "Nanita's Finest",
+   "upc": "0085512400002",
+   "product_id": "0085512400002",
+   "size": "16 oz",
+   "price": "$6.29",
+   "regular_price": 6.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Condiment & Sauces",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085512400002",
+   "link": "https://www.kroger.com/p/nanita-s-finest-medium-new-mexico-style-green-chile-hot-sauce/0085512400002?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Victoria® Fire Roasted Diced Green Chiles Mild",
+   "brand": "La Victoria",
+   "upc": "0007210104650",
+   "product_id": "0007210104650",
+   "size": "net wt 7 oz (198g)",
+   "price": "$2.49",
+   "regular_price": 2.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007210104650",
+   "link": "https://www.kroger.com/p/la-victoria-fire-roasted-diced-green-chiles-mild/0007210104650?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hatch Mild Chopped Green Chiles",
+   "brand": "Hatch",
+   "upc": "0002818980000",
+   "product_id": "0002818980000",
+   "size": "27 oz",
+   "price": "$7.19",
+   "regular_price": 7.49,
+   "promo_price": 7.19,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002818980000",
+   "link": "https://www.kroger.com/p/hatch-mild-chopped-green-chiles/0002818980000?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Rosarita No Fat Refried Beans with Green Chile and Lime, Canned Beans",
+   "brand": "Rosarita",
+   "upc": "0004430010723",
+   "product_id": "0004430010723",
+   "size": "16 oz",
+   "price": "$1.99",
+   "regular_price": 1.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "Canned & Packaged",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004430010723",
+   "link": "https://www.kroger.com/p/rosarita-no-fat-refried-beans-with-green-chile-and-lime-canned-beans/0004430010723?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Las Palmas Hot Green Chile Enchilada Sauce",
+   "brand": "Las Palmas",
+   "upc": "0004150111040",
+   "product_id": "0004150111040",
+   "size": "28 oz",
+   "price": "$3.19",
+   "regular_price": 3.19,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004150111040",
+   "link": "https://www.kroger.com/p/las-palmas-hot-green-chile-enchilada-sauce/0004150111040?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hatch™ Medium Green Chile Enchilada Sauce",
+   "brand": "Hatch",
+   "upc": "0002818973200",
+   "product_id": "0002818973200",
+   "size": "15 oz",
+   "price": "$3.99",
+   "regular_price": 4.49,
+   "promo_price": 3.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002818973200",
+   "link": "https://www.kroger.com/p/hatch-medium-green-chile-enchilada-sauce/0002818973200?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern® Medium Green Chile Salsa",
+   "brand": "505 Southwestern",
+   "upc": "0060205010382",
+   "product_id": "0060205010382",
+   "size": "16 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "International",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205010382",
+   "link": "https://www.kroger.com/p/505-southwestern-medium-green-chile-salsa/0060205010382?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nanita's Finest Mild Green Chile Hot Sauce",
+   "brand": "Nanita's Finest",
+   "upc": "0085512400001",
+   "product_id": "0085512400001",
+   "size": "16 oz",
+   "price": "$6.29",
+   "regular_price": 6.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International",
+    "Natural & Organic",
+    "Condiment & Sauces"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085512400001",
+   "link": "https://www.kroger.com/p/nanita-s-finest-mild-green-chile-hot-sauce/0085512400001?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "MEXICO LINDO Salsa de chile Habanero Verde Green Sauce",
+   "brand": "Unknown",
+   "upc": "0072483600403",
+   "product_id": "0072483600403",
+   "size": "5 fl oz",
+   "price": "$1.69",
+   "regular_price": 1.69,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Condiment & Sauces",
+    "International",
+    "Snacks",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0072483600403",
+   "link": "https://www.kroger.com/p/mexico-lindo-salsa-de-chile-habanero-verde-green-sauce/0072483600403?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern® Hot Hatch Valley Green Chile Sauce",
+   "brand": "505 Southwestern",
+   "upc": "0060205010357",
+   "product_id": "0060205010357",
+   "size": "16 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205010357",
+   "link": "https://www.kroger.com/p/505-southwestern-hot-hatch-valley-green-chile-sauce/0060205010357?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "El Pinto Green Chile Sauce, (Medium)",
+   "brand": "El Pinto",
+   "upc": "0068136619628",
+   "product_id": "0068136619628",
+   "size": "16 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0068136619628",
+   "link": "https://www.kroger.com/p/el-pinto-green-chile-sauce-medium-/0068136619628?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern® Green Chile Queso Dip",
+   "brand": "505 Southwestern",
+   "upc": "0060205011042",
+   "product_id": "0060205011042",
+   "size": "15 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "Deli",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205011042",
+   "link": "https://www.kroger.com/p/505-southwestern-green-chile-queso-dip/0060205011042?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hatch Valley Flame Roasted Extra Hot Green Chile",
+   "brand": "Young Guns",
+   "upc": "0082420600130",
+   "product_id": "0082420600130",
+   "size": "24 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082420600130",
+   "link": "https://www.kroger.com/p/hatch-valley-flame-roasted-extra-hot-green-chile/0082420600130?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Stokes Green Chile Sauce with Chicken",
+   "brand": "Stokes",
+   "upc": "0004161200430",
+   "product_id": "0004161200430",
+   "size": "15 oz",
+   "price": "$3.99",
+   "regular_price": 3.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004161200430",
+   "link": "https://www.kroger.com/p/stokes-green-chile-sauce-with-chicken/0004161200430?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern Hot Green Chile Salsa",
+   "brand": "505 Southwestern",
+   "upc": "0060205010355",
+   "product_id": "0060205010355",
+   "size": "16 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "International",
+    "International",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205010355",
+   "link": "https://www.kroger.com/p/505-southwestern-hot-green-chile-salsa/0060205010355?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Stokes Green Chile Sauce with Pork & Jalapeno",
+   "brand": "Stokes",
+   "upc": "0004161200533",
+   "product_id": "0004161200533",
+   "size": "15 oz",
+   "price": "$3.99",
+   "regular_price": 3.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004161200533",
+   "link": "https://www.kroger.com/p/stokes-green-chile-sauce-with-pork-jalapeno/0004161200533?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Stokes Green Chile Sauce With Pork",
+   "brand": "Stokes",
+   "upc": "0004161200725",
+   "product_id": "0004161200725",
+   "size": "25 oz",
+   "price": "$6.49",
+   "regular_price": 6.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004161200725",
+   "link": "https://www.kroger.com/p/stokes-green-chile-sauce-with-pork/0004161200725?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern® Green Chile Blanco Queso",
+   "brand": "505 Southwestern",
+   "upc": "0060205011081",
+   "product_id": "0060205011081",
+   "size": "15 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205011081",
+   "link": "https://www.kroger.com/p/505-southwestern-green-chile-blanco-queso/0060205011081?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "El Pinto Fire Roasted Hot Green Chile Sauce",
+   "brand": "El Pinto",
+   "upc": "0068136619621",
+   "product_id": "0068136619621",
+   "size": "16 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "International",
+    "International",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0068136619621",
+   "link": "https://www.kroger.com/p/el-pinto-fire-roasted-hot-green-chile-sauce/0068136619621?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Roberto's® Mild Green Chile Salsa",
+   "brand": "Roberto's",
+   "upc": "0005479110007",
+   "product_id": "0005479110007",
+   "size": "15 oz",
+   "price": "$5.79",
+   "regular_price": 6.29,
+   "promo_price": 5.79,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International",
+    "International",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0005479110007",
+   "link": "https://www.kroger.com/p/roberto-s-mild-green-chile-salsa/0005479110007?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile Sauce",
+   "brand": "505 Southwestern",
+   "upc": "0060205010387",
+   "product_id": "0060205010387",
+   "size": "40 oz",
+   "price": "$12.29",
+   "regular_price": 12.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205010387",
+   "link": "https://www.kroger.com/p/505-southwestern-medium-flame-roasted-hatch-valley-green-chile-sauce/0060205010387?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Roberto's Hot Green Chile Salsa",
+   "brand": "Roberto's",
+   "upc": "0005479110008",
+   "product_id": "0005479110008",
+   "size": "15 oz",
+   "price": "$5.79",
+   "regular_price": 6.29,
+   "promo_price": 5.79,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International",
+    "International",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0005479110008",
+   "link": "https://www.kroger.com/p/roberto-s-hot-green-chile-salsa/0005479110008?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ellis Burrito Sauce with Green Chile and Pork",
+   "brand": "Ellis",
+   "upc": "0007660000011",
+   "product_id": "0007660000011",
+   "size": "15 oz",
+   "price": "$3.49",
+   "regular_price": 3.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007660000011",
+   "link": "https://www.kroger.com/p/ellis-burrito-sauce-with-green-chile-and-pork/0007660000011?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Burns & McCoy Hatch Green Chile Mild Heat Salsa",
+   "brand": "Burns & McCoy",
+   "upc": "0085266000513",
+   "product_id": "0085266000513",
+   "size": "16 oz",
+   "price": "$6.49",
+   "regular_price": 6.49,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Snacks",
+    "Natural & Organic",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085266000513",
+   "link": "https://www.kroger.com/p/burns-mccoy-hatch-green-chile-mild-heat-salsa/0085266000513?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Estrellita Vegetarian Medium Green Chile",
+   "brand": null,
+   "upc": "0078089212265",
+   "product_id": "0078089212265",
+   "size": "16 oz",
+   "price": "$6.49",
+   "regular_price": 6.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International",
+    "Snacks",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0078089212265",
+   "link": "https://www.kroger.com/p/la-estrellita-vegetarian-medium-green-chile/0078089212265?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Estrellita Green Vegetarian Chile",
+   "brand": "La Estrellita",
+   "upc": "0078089251163",
+   "product_id": "0078089251163",
+   "size": "16 oz",
+   "price": "$6.49",
+   "regular_price": 6.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0078089251163",
+   "link": "https://www.kroger.com/p/la-estrellita-green-vegetarian-chile/0078089251163?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Gilberto's Gourmet Goodness Smokin' Hot Green Chile Salsa",
+   "brand": "Gilberto's Gourmet Goodness",
+   "upc": "0089544700103",
+   "product_id": "0089544700103",
+   "size": "16 oz",
+   "price": "$6.49",
+   "regular_price": 6.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International",
+    "Snacks",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0089544700103",
+   "link": "https://www.kroger.com/p/gilberto-s-gourmet-goodness-smokin-hot-green-chile-salsa/0089544700103?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® Southwest Inspired Green Chile Chicken Empanada",
+   "brand": "Private Selection",
+   "upc": "0001111016543",
+   "product_id": "0001111016543",
+   "size": "4 ct / 2 oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen",
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111016543",
+   "link": "https://www.kroger.com/p/private-selection-southwest-inspired-green-chile-chicken-empanada/0001111016543?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Schlereth's Stinkin' Good Green Chile Sauce",
+   "brand": "Mark Schlereth's",
+   "upc": "0089351100272",
+   "product_id": "0089351100272",
+   "size": "15 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0089351100272",
+   "link": "https://www.kroger.com/p/schlereth-s-stinkin-good-green-chile-sauce/0089351100272?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® Petite Potatoes with Hatch Green Chile Ranch Seasoning Blend",
+   "brand": "Private Selection",
+   "upc": "0001111008023",
+   "product_id": "0001111008023",
+   "size": "16 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Produce",
+    "Produce"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111008023",
+   "link": "https://www.kroger.com/p/private-selection-petite-potatoes-with-hatch-green-chile-ranch-seasoning-blend/0001111008023?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Johnsonville Hatch Green Chile Seasoned Sausage Links",
+   "brand": "Johnsonville",
+   "upc": "0007778200244",
+   "product_id": "0007778200244",
+   "size": "19.0 oz.",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Meat & Seafood"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007778200244",
+   "link": "https://www.kroger.com/p/johnsonville-hatch-green-chile-seasoned-sausage-links/0007778200244?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Duke's Hatch Green Chile Smoked Shorty Sausages, Keto Friendly, Gluten Free",
+   "brand": "Duke's",
+   "upc": "0081580002254",
+   "product_id": "0081580002254",
+   "size": "7.500 oz",
+   "price": "$9.29",
+   "regular_price": 9.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0081580002254",
+   "link": "https://www.kroger.com/p/duke-s-hatch-green-chile-smoked-shorty-sausages-keto-friendly-gluten-free/0081580002254?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® Mexican Inspired Green Chile Chicken",
+   "brand": "Private Selection",
+   "upc": "0001111016124",
+   "product_id": "0001111016124",
+   "size": "16 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111016124",
+   "link": "https://www.kroger.com/p/private-selection-mexican-inspired-green-chile-chicken/0001111016124?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Johnsonville Hatch Green Chile Smoked Sausage Links",
+   "brand": "Johnsonville",
+   "upc": "0007778268346",
+   "product_id": "0007778268346",
+   "size": "14.0 oz.",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Meat & Seafood"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007778268346",
+   "link": "https://www.kroger.com/p/johnsonville-hatch-green-chile-smoked-sausage-links/0007778268346?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Butcher Counter Private Selection® Hatch Green Chile Bacon",
+   "brand": "Private Selection",
+   "upc": "0020923690000",
+   "product_id": "0020923690000",
+   "size": "1 lb",
+   "price": "$5.99",
+   "regular_price": 7.99,
+   "promo_price": 5.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Meat & Seafood"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0020923690000",
+   "link": "https://www.kroger.com/p/butcher-counter-private-selection-hatch-green-chile-bacon/0020923690000?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Yucatan® Mild Chunky Hatch Green Chile Guacamole",
+   "brand": "Yucatan",
+   "upc": "0076711900007",
+   "product_id": "0076711900007",
+   "size": "7.5 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Deli",
+    "Produce"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0076711900007",
+   "link": "https://www.kroger.com/p/yucatan-mild-chunky-hatch-green-chile-guacamole/0076711900007?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Bonfire Green Chile Breakfast Burrito",
+   "brand": "Bonfire Burritos",
+   "upc": "0086000612843",
+   "product_id": "0086000612843",
+   "size": "10.3 oz",
+   "price": "$5.79",
+   "regular_price": 5.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0086000612843",
+   "link": "https://www.kroger.com/p/bonfire-green-chile-breakfast-burrito/0086000612843?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tucson Tamale Green Chile Pork & Cheese Tamale",
+   "brand": "Tucson Tamale",
+   "upc": "0085000112401",
+   "product_id": "0085000112401",
+   "size": "5 oz",
+   "price": "$4.29",
+   "regular_price": 4.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085000112401",
+   "link": "https://www.kroger.com/p/tucson-tamale-green-chile-pork-cheese-tamale/0085000112401?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tucson Tamale Green Chile & Cheese Tamale",
+   "brand": "Tucson Tamale",
+   "upc": "0085000112402",
+   "product_id": "0085000112402",
+   "size": "5 oz",
+   "price": "$4.29",
+   "regular_price": 4.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Frozen",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085000112402",
+   "link": "https://www.kroger.com/p/tucson-tamale-green-chile-cheese-tamale/0085000112402?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Santiago's Mild Green Chile Sauce With Pork",
+   "brand": "Santiago's",
+   "upc": "0082664500002",
+   "product_id": "0082664500002",
+   "size": "28 oz",
+   "price": "$9.29",
+   "regular_price": 9.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082664500002",
+   "link": "https://www.kroger.com/p/santiago-s-mild-green-chile-sauce-with-pork/0082664500002?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Amy's Organic Refried Beans with Mild Green Chiles",
+   "brand": "Amy's",
+   "upc": "0004227200552",
+   "product_id": "0004227200552",
+   "size": "15.4 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004227200552",
+   "link": "https://www.kroger.com/p/amy-s-organic-refried-beans-with-mild-green-chiles/0004227200552?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nanita's Finest Green Chile Hot Sauce",
+   "brand": "Nanita's Finest",
+   "upc": "0085512400003",
+   "product_id": "0085512400003",
+   "size": "16 oz",
+   "price": "$6.29",
+   "regular_price": 6.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Natural & Organic",
+    "Condiment & Sauces"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085512400003",
+   "link": "https://www.kroger.com/p/nanita-s-finest-green-chile-hot-sauce/0085512400003?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Boulder Sausage® Hatch Green Chile Ground Chub",
+   "brand": "Boulder Sausage",
+   "upc": "0078959218514",
+   "product_id": "0078959218514",
+   "size": "14 oz",
+   "price": "$7.79",
+   "regular_price": 7.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Meat & Seafood"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0078959218514",
+   "link": "https://www.kroger.com/p/boulder-sausage-hatch-green-chile-ground-chub/0078959218514?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern Roadhouse Tomatillo and Medium Roasted Green Chile Salsa",
+   "brand": "505 Southwestern",
+   "upc": "0060205000994",
+   "product_id": "0060205000994",
+   "size": "15 oz",
+   "price": "$3.49",
+   "regular_price": 4.79,
+   "promo_price": 3.49,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205000994",
+   "link": "https://www.kroger.com/p/505-southwestern-roadhouse-tomatillo-and-medium-roasted-green-chile-salsa/0060205000994?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® Smoky Green Chile Seasoning Shaker",
+   "brand": "Private Selection",
+   "upc": "0001111009116",
+   "product_id": "0001111009116",
+   "size": "5.46 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Baking Goods"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111009116",
+   "link": "https://www.kroger.com/p/private-selection-smoky-green-chile-seasoning-shaker/0001111009116?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Boulder Organic Foods® Gluten Free Green Chile Corn Chowder",
+   "brand": "Boulder Organic",
+   "upc": "0089813400230",
+   "product_id": "0089813400230",
+   "size": "24 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0089813400230",
+   "link": "https://www.kroger.com/p/boulder-organic-foods-gluten-free-green-chile-corn-chowder/0089813400230?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® Hatch Green Chile Bacon",
+   "brand": "Private Selection",
+   "upc": "0020923650000",
+   "product_id": "0020923650000",
+   "size": "1 lb",
+   "price": "$5.99",
+   "regular_price": 7.99,
+   "promo_price": 5.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Meat & Seafood"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0020923650000",
+   "link": "https://www.kroger.com/p/private-selection-hatch-green-chile-bacon/0020923650000?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "ROTEL Original Diced Tomatoes and Green Chilies",
+   "brand": "Rotel",
+   "upc": "0006414428243",
+   "product_id": "0006414428243",
+   "size": "10 oz",
+   "price": "$1.59",
+   "regular_price": 1.59,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0006414428243",
+   "link": "https://www.kroger.com/p/rotel-original-diced-tomatoes-and-green-chilies/0006414428243?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "ROTEL Mild Diced Tomatoes and Green Chilies",
+   "brand": "Rotel",
+   "upc": "0006414428263",
+   "product_id": "0006414428263",
+   "size": "10 oz",
+   "price": "$1.59",
+   "regular_price": 1.59,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0006414428263",
+   "link": "https://www.kroger.com/p/rotel-mild-diced-tomatoes-and-green-chilies/0006414428263?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger Diced Tomatoes with Green Chilies Original",
+   "brand": "Kroger",
+   "upc": "0001111011967",
+   "product_id": "0001111011967",
+   "size": "14.5 oz",
+   "price": "$1",
+   "regular_price": 1,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111011967",
+   "link": "https://www.kroger.com/p/kroger-diced-tomatoes-with-green-chilies-original/0001111011967?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "ROTEL Fire Roasted Diced Tomatoes and Green Chilies",
+   "brand": "Rotel",
+   "upc": "0006414464150",
+   "product_id": "0006414464150",
+   "size": "10 oz",
+   "price": "$1.59",
+   "regular_price": 1.59,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0006414464150",
+   "link": "https://www.kroger.com/p/rotel-fire-roasted-diced-tomatoes-and-green-chilies/0006414464150?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "ROTEL Original No Salt Added Diced Tomatoes and Green Chilies",
+   "brand": "Rotel",
+   "upc": "0006414428304",
+   "product_id": "0006414428304",
+   "size": "10 oz",
+   "price": "$1.59",
+   "regular_price": 1.59,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0006414428304",
+   "link": "https://www.kroger.com/p/rotel-original-no-salt-added-diced-tomatoes-and-green-chilies/0006414428304?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Muir Glen™ Organic Diced Fire Roasted with Medium Green Chilies Canned Tomatoes",
+   "brand": "Muir Glen Organic",
+   "upc": "0072534229211",
+   "product_id": "0072534229211",
+   "size": "14.5 oz",
+   "price": "$2.69",
+   "regular_price": 2.99,
+   "promo_price": 2.69,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Natural & Organic",
+    "Canned & Packaged"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0072534229211",
+   "link": "https://www.kroger.com/p/muir-glen-organic-diced-fire-roasted-with-medium-green-chilies-canned-tomatoes/0072534229211?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Colorado Green Chili® Medium Green Chili Sauce",
+   "brand": "Colorado Green Chili",
+   "upc": "0085356300201",
+   "product_id": "0085356300201",
+   "size": "16 oz",
+   "price": "$7.99",
+   "regular_price": 7.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085356300201",
+   "link": "https://www.kroger.com/p/colorado-green-chili-medium-green-chili-sauce/0085356300201?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Colorado Green Chili® Hot Green Chili Sauce",
+   "brand": "Colorado Green Chili",
+   "upc": "0085356300200",
+   "product_id": "0085356300200",
+   "size": "16 oz",
+   "price": "$7.99",
+   "regular_price": 7.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085356300200",
+   "link": "https://www.kroger.com/p/colorado-green-chili-hot-green-chili-sauce/0085356300200?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  }
  ],
- "error": "Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ "steps": [
+  "04:47:46 locations near 81501: 6 chains=CITYMARKET",
+  "04:47:46 store CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+  "04:47:47 products start=0: 50",
+  "04:47:48 products start=50: 37",
+  "04:47:48 extracted 87 houses"
+ ],
+ "error": null
 }

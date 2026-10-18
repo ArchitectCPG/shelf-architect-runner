@@ -3,13 +3,196 @@
  "retailer": "citymarket-api",
  "zip": "refrigerated",
  "neighborhood": "tamales",
- "pulled_at": "2026-10-18T04:45:02.659Z",
+ "pulled_at": "2026-10-18T04:48:04.953Z",
  "runner": "github-actions+kroger-api",
  "store_requested_zip": "81501",
- "store_set": null,
- "houses": [],
- "steps": [
-  "04:45:03 ERROR Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ "store_set": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+ "houses": [
+  {
+   "name": "Del Real Foods® Gluten Free Pork Tamales",
+   "brand": "Del Real Foods",
+   "upc": "0082979300190",
+   "product_id": "0082979300190",
+   "size": "6 ct / 24 oz",
+   "price": "$9.49",
+   "regular_price": 9.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082979300190",
+   "link": "https://www.kroger.com/p/del-real-foods-gluten-free-pork-tamales/0082979300190?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Del Real Foods Chicken and Cheese Tamales",
+   "brand": "Del Real Foods",
+   "upc": "0082979307983",
+   "product_id": "0082979307983",
+   "size": "24 oz",
+   "price": "$9.49",
+   "regular_price": 9.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082979307983",
+   "link": "https://www.kroger.com/p/del-real-foods-chicken-and-cheese-tamales/0082979307983?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Del Real® Foods Beef Tamales 6 Count",
+   "brand": "Del Real Foods",
+   "upc": "0082979300194",
+   "product_id": "0082979300194",
+   "size": "24 oz",
+   "price": "$9.49",
+   "regular_price": 9.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082979300194",
+   "link": "https://www.kroger.com/p/del-real-foods-beef-tamales-6-count/0082979300194?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Favorita Pork Tamales 6 Count",
+   "brand": "La Favorita",
+   "upc": "0072556430050",
+   "product_id": "0072556430050",
+   "size": "18 oz",
+   "price": "$10.99",
+   "regular_price": 10.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0072556430050",
+   "link": "https://www.kroger.com/p/la-favorita-pork-tamales-6-count/0072556430050?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Bueno Hand-Made Red Chile & Stone Ground Corn Pork Tamales 12 Count",
+   "brand": "Bueno",
+   "upc": "0007800432545",
+   "product_id": "0007800432545",
+   "size": "36 oz",
+   "price": "$15.99",
+   "regular_price": 15.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International",
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007800432545",
+   "link": "https://www.kroger.com/p/bueno-hand-made-red-chile-stone-ground-corn-pork-tamales-12-count/0007800432545?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tucson Tamale Green Chile Pork & Cheese Tamale",
+   "brand": "Tucson Tamale",
+   "upc": "0085000112401",
+   "product_id": "0085000112401",
+   "size": "5 oz",
+   "price": "$4.29",
+   "regular_price": 4.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085000112401",
+   "link": "https://www.kroger.com/p/tucson-tamale-green-chile-pork-cheese-tamale/0085000112401?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tucson Tamale Green Chile & Cheese Tamale",
+   "brand": "Tucson Tamale",
+   "upc": "0085000112402",
+   "product_id": "0085000112402",
+   "size": "5 oz",
+   "price": "$4.29",
+   "regular_price": 4.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Frozen",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085000112402",
+   "link": "https://www.kroger.com/p/tucson-tamale-green-chile-cheese-tamale/0085000112402?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "HOT TAMALES 4.25OZ FIERCE CINNAMON BOX",
+   "brand": "Hot Tamales",
+   "upc": "0007097047531",
+   "product_id": "0007097047531",
+   "size": "4.25 onz",
+   "price": "$1.5",
+   "regular_price": 1.5,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007097047531",
+   "link": "https://www.kroger.com/p/hot-tamales-4-25oz-fierce-cinnamon-box/0007097047531?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Amy's® Roasted Poblano Enchilada Family Size Frozen Meal",
+   "brand": "Amy's",
+   "upc": "0004227201397",
+   "product_id": "0004227201397",
+   "size": "27.36 oz",
+   "price": "$14.49",
+   "regular_price": 14.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Natural & Organic",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004227201397",
+   "link": "https://www.kroger.com/p/amy-s-roasted-poblano-enchilada-family-size-frozen-meal/0004227201397?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "HOT TAMALES 4.25OZ TROPICAL HEAT BOX",
+   "brand": "Hot Tamales",
+   "upc": "0007097047569",
+   "product_id": "0007097047569",
+   "size": "4.25 onz",
+   "price": "$1.5",
+   "regular_price": 1.5,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007097047569",
+   "link": "https://www.kroger.com/p/hot-tamales-4-25oz-tropical-heat-box/0007097047569?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  }
  ],
- "error": "Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ "steps": [
+  "04:48:05 locations near 81501: 6 chains=CITYMARKET",
+  "04:48:05 store CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+  "04:48:06 products start=0: 10",
+  "04:48:06 extracted 10 houses"
+ ],
+ "error": null
 }

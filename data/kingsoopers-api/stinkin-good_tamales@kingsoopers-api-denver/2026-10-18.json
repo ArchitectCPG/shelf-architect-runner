@@ -3,13 +3,391 @@
  "retailer": "kingsoopers-api",
  "zip": "refrigerated",
  "neighborhood": "tamales",
- "pulled_at": "2026-10-18T04:45:42.115Z",
+ "pulled_at": "2026-10-18T04:48:26.849Z",
  "runner": "github-actions+kroger-api",
  "store_requested_zip": "80202",
- "store_set": null,
- "houses": [],
- "steps": [
-  "04:45:42 ERROR Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ "store_set": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "houses": [
+  {
+   "name": "Del Real Foods® Gluten Free Pork Tamales",
+   "brand": "Del Real Foods",
+   "upc": "0082979300190",
+   "product_id": "0082979300190",
+   "size": "6 ct / 24 oz",
+   "price": "$9.49",
+   "regular_price": 9.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082979300190",
+   "link": "https://www.kroger.com/p/del-real-foods-gluten-free-pork-tamales/0082979300190?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Del Real Foods Chicken and Cheese Tamales",
+   "brand": "Del Real Foods",
+   "upc": "0082979307983",
+   "product_id": "0082979307983",
+   "size": "24 oz",
+   "price": "$9.49",
+   "regular_price": 9.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082979307983",
+   "link": "https://www.kroger.com/p/del-real-foods-chicken-and-cheese-tamales/0082979307983?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Favorita Pork Tamales 6 Count",
+   "brand": "La Favorita",
+   "upc": "0072556430050",
+   "product_id": "0072556430050",
+   "size": "18 oz",
+   "price": "$10.99",
+   "regular_price": 10.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "International",
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0072556430050",
+   "link": "https://www.kroger.com/p/la-favorita-pork-tamales-6-count/0072556430050?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Fillo's® Bean Salsa Roja Corn Bar Walking Tamales",
+   "brand": "FILLO'S",
+   "upc": "0085260500857",
+   "product_id": "0085260500857",
+   "size": "4 oz",
+   "price": "$2.49",
+   "regular_price": 2.49,
+   "promo_price": 2.49,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085260500857",
+   "link": "https://www.kroger.com/p/fillo-s-bean-salsa-roja-corn-bar-walking-tamales/0085260500857?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Bueno Hand-Made Red Chile & Stone Ground Corn Pork Tamales 12 Count",
+   "brand": "Bueno",
+   "upc": "0007800432545",
+   "product_id": "0007800432545",
+   "size": "36 oz",
+   "price": "$16.29",
+   "regular_price": 16.29,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "International",
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007800432545",
+   "link": "https://www.kroger.com/p/bueno-hand-made-red-chile-stone-ground-corn-pork-tamales-12-count/0007800432545?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Favorita Chicken & Chili Tamales",
+   "brand": "La Favorita",
+   "upc": "0072556430054",
+   "product_id": "0072556430054",
+   "size": "18 oz",
+   "price": "$10.99",
+   "regular_price": 10.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0072556430054",
+   "link": "https://www.kroger.com/p/la-favorita-chicken-chili-tamales/0072556430054?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Favorita Vegetarian Chile & Cheese TamalesTamales",
+   "brand": "La Favorita",
+   "upc": "0072556430058",
+   "product_id": "0072556430058",
+   "size": "18 oz",
+   "price": "$10.99",
+   "regular_price": 10.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0072556430058",
+   "link": "https://www.kroger.com/p/la-favorita-vegetarian-chile-cheese-tamalestamales/0072556430058?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Del Real® Foods Beef Tamales 6 Count",
+   "brand": "Del Real Foods",
+   "upc": "0082979300194",
+   "product_id": "0082979300194",
+   "size": "24 oz",
+   "price": "$9.49",
+   "regular_price": 9.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082979300194",
+   "link": "https://www.kroger.com/p/del-real-foods-beef-tamales-6-count/0082979300194?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "FILLO'S® Bean Salsa Verde Corn Bar Walking Tamales",
+   "brand": "FILLO'S",
+   "upc": "0085260500856",
+   "product_id": "0085260500856",
+   "size": "4 oz",
+   "price": "$2.49",
+   "regular_price": 2.49,
+   "promo_price": 2.49,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085260500856",
+   "link": "https://www.kroger.com/p/fillo-s-bean-salsa-verde-corn-bar-walking-tamales/0085260500856?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tucson Tamale Green Chile Pork & Cheese Tamale",
+   "brand": "Tucson Tamale",
+   "upc": "0085000112401",
+   "product_id": "0085000112401",
+   "size": "5 oz",
+   "price": "$4.29",
+   "regular_price": 4.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085000112401",
+   "link": "https://www.kroger.com/p/tucson-tamale-green-chile-pork-cheese-tamale/0085000112401?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Bueno Pork Tamale Hot",
+   "brand": "Bueno",
+   "upc": "0007800436045",
+   "product_id": "0007800436045",
+   "size": "18 oz",
+   "price": "$9.79",
+   "regular_price": 9.79,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007800436045",
+   "link": "https://www.kroger.com/p/bueno-pork-tamale-hot/0007800436045?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tucson Tamale Green Chile & Cheese Tamale",
+   "brand": "Tucson Tamale",
+   "upc": "0085000112402",
+   "product_id": "0085000112402",
+   "size": "5 oz",
+   "price": "$4.29",
+   "regular_price": 4.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085000112402",
+   "link": "https://www.kroger.com/p/tucson-tamale-green-chile-cheese-tamale/0085000112402?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Goya® Empanada Discs Puff Pastry Dough",
+   "brand": "GOYA",
+   "upc": "0004133109167",
+   "product_id": "0004133109167",
+   "size": "12 ct / 11.6 oz",
+   "price": "$4.29",
+   "regular_price": 4.29,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "International",
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004133109167",
+   "link": "https://www.kroger.com/p/goya-empanada-discs-puff-pastry-dough/0004133109167?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Goya Beef Empanadas",
+   "brand": "GOYA",
+   "upc": "0004133109034",
+   "product_id": "0004133109034",
+   "size": "4 ct / 10 oz",
+   "price": "$7.99",
+   "regular_price": 7.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004133109034",
+   "link": "https://www.kroger.com/p/goya-beef-empanadas/0004133109034?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Goya® Chicken Empanadas",
+   "brand": "GOYA",
+   "upc": "0004133109014",
+   "product_id": "0004133109014",
+   "size": "4 ct / 10 oz",
+   "price": "$7.79",
+   "regular_price": 7.79,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004133109014",
+   "link": "https://www.kroger.com/p/goya-chicken-empanadas/0004133109014?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Goya® Chicken Empanadas",
+   "brand": "GOYA",
+   "upc": "0004133109031",
+   "product_id": "0004133109031",
+   "size": "4 ct / 10 oz",
+   "price": "$7.79",
+   "regular_price": 7.79,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004133109031",
+   "link": "https://www.kroger.com/p/goya-chicken-empanadas/0004133109031?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "HOT TAMALES 4.25OZ FIERCE CINNAMON BOX",
+   "brand": "Hot Tamales",
+   "upc": "0007097047531",
+   "product_id": "0007097047531",
+   "size": "4.25 onz",
+   "price": "$1.5",
+   "regular_price": 1.5,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007097047531",
+   "link": "https://www.kroger.com/p/hot-tamales-4-25oz-fierce-cinnamon-box/0007097047531?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "HOT TAMALES 4.25OZ TROPICAL HEAT BOX",
+   "brand": "Hot Tamales",
+   "upc": "0007097047569",
+   "product_id": "0007097047569",
+   "size": "4.25 onz",
+   "price": "$1.5",
+   "regular_price": 1.5,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007097047569",
+   "link": "https://www.kroger.com/p/hot-tamales-4-25oz-tropical-heat-box/0007097047569?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Amy's® Roasted Poblano Enchilada Family Size Frozen Meal",
+   "brand": "Amy's",
+   "upc": "0004227201397",
+   "product_id": "0004227201397",
+   "size": "27.36 oz",
+   "price": "$14.79",
+   "regular_price": 14.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Natural & Organic",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004227201397",
+   "link": "https://www.kroger.com/p/amy-s-roasted-poblano-enchilada-family-size-frozen-meal/0004227201397?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "P.A.N.® Frozen Cheese Tequenos",
+   "brand": "P.A.N.",
+   "upc": "0085467500555",
+   "product_id": "0085467500555",
+   "size": "8 ct / 11.28 oz",
+   "price": "$8.29",
+   "regular_price": 8.79,
+   "promo_price": 8.29,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085467500555",
+   "link": "https://www.kroger.com/p/p-a-n-frozen-cheese-tequenos/0085467500555?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "P.A.N. Pizza Tequenos",
+   "brand": "P.A.N.",
+   "upc": "0085467500556",
+   "product_id": "0085467500556",
+   "size": "11.28 oz",
+   "price": "$8.29",
+   "regular_price": 8.79,
+   "promo_price": 8.29,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085467500556",
+   "link": "https://www.kroger.com/p/p-a-n-pizza-tequenos/0085467500556?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  }
  ],
- "error": "Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ "steps": [
+  "04:48:27 locations near 80202: 50 chains=KINGSOOPERS",
+  "04:48:27 store KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+  "04:48:28 products start=0: 21",
+  "04:48:28 extracted 21 houses"
+ ],
+ "error": null
 }

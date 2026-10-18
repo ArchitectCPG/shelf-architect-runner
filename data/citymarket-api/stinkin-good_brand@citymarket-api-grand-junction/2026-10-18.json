@@ -3,13 +3,90 @@
  "retailer": "citymarket-api",
  "zip": "refrigerated",
  "neighborhood": "brand",
- "pulled_at": "2026-10-18T04:44:47.612Z",
+ "pulled_at": "2026-10-18T04:47:47.279Z",
  "runner": "github-actions+kroger-api",
  "store_requested_zip": "81501",
- "store_set": null,
- "houses": [],
- "steps": [
-  "04:44:48 ERROR Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ "store_set": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+ "houses": [
+  {
+   "name": "Stinkin Good Green Chili",
+   "brand": "Mark Schlereth's",
+   "upc": "0089351100269",
+   "product_id": "0089351100269",
+   "size": "15 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0089351100269",
+   "link": "https://www.kroger.com/p/stinkin-good-green-chili/0089351100269?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Schlereth's Stinkin' Good Green Chile Sauce",
+   "brand": "Mark Schlereth's",
+   "upc": "0089351100272",
+   "product_id": "0089351100272",
+   "size": "15 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Frozen",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0089351100272",
+   "link": "https://www.kroger.com/p/schlereth-s-stinkin-good-green-chile-sauce/0089351100272?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Schlereth's Stinkin Good Green Chili Sauce",
+   "brand": "Mark Schlereth's",
+   "upc": "0089351100270",
+   "product_id": "0089351100270",
+   "size": "15 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Frozen",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0089351100270",
+   "link": "https://www.kroger.com/p/schlereth-s-stinkin-good-green-chili-sauce/0089351100270?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Stinkin Good Blanco Queso Medium",
+   "brand": "Stinkin' Good",
+   "upc": "0089351100205",
+   "product_id": "0089351100205",
+   "size": "15 oz.",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Deli",
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0089351100205",
+   "link": "https://www.kroger.com/p/stinkin-good-blanco-queso-medium/0089351100205?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  }
  ],
- "error": "Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ "steps": [
+  "04:47:47 locations near 81501: 6 chains=CITYMARKET",
+  "04:47:47 store CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+  "04:47:48 products start=0: 4",
+  "04:47:48 extracted 4 houses"
+ ],
+ "error": null
 }
