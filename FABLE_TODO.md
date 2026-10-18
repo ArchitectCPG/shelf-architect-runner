@@ -149,3 +149,9 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 ## 2026-10-17 night: brand-check blocks (SG)
 - Category searches only load ~50 products, so the client brand can drop out between runs (City Market had it Oct 14, not Oct 16). Fix: neighborhood "brand_only" + retailers[].brand_check in the client config runs a search of the brand name at expected doors. SG result: City Market 4 listings (Green Chili $6.99 x3 incl. Schlereth's naming, Blanco Queso Medium $8.99); King Soopers Green Chili $6.99; Costco-IC Green Chili Pork Sauce $11.49 to $12.43 (Instacart price moves between pulls).
 - Rule for DB wiring: SG presence at a door = union of category and brand-check pulls, never one category run alone.
+
+## 2026-10-17 late: SOP draft v78 (pending Steve approve), additions from review
+- 72 benchmark read from the 72 instance pull_matrix: 25 retailers, 225 blocks, 135 walked, 776 houses, 18 unattended, 7 attended-only. Runner today covers 16 of those 25 unattended (4 of 72's attended-only now hands-off: Sprouts, HEB, Publix, Natural Grocers); 5 untested small natural; 4 attended (BJ's, Sam's, Giant Eagle, Fresh Thyme).
+- Coverage is measured in ACV (doors as proxy until per-banner ACV field exists), not banner count. Runner ~19K of ~25K non-drug doors on the 94 list. Drug 17K doors pulls, parser rough.
+- NEW SOP RULE, coverage marker (Steve 2026-10-17): after every client run, Stage 2 report ends with a coverage line: in-scope banners pulled / not found / attended pending, doors and ACV share covered, biggest uncovered ACV named. Then it asks one question: search more banners, or move on to the read. Steve answers; the run is not "done" until he does. Never auto-expand.
+- ACV work order: 1 CVS/Walgreens parser, 2 Ahold group recheck, 3 Costco-IC reliability, 4 mid-tail probes (Save Mart, Stater, Tops, Price Chopper, Fareway, Raley's, Lowes), 5 small natural only on client need.
