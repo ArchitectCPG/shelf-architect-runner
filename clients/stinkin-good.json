@@ -46,20 +46,23 @@
    "term": "green chile",
    "relevance": "chil[ei]|hatch|salsa verde|poblano",
    "exclude": "burrito|\\begg|rice\\b|macaron|tomato|beans?\\b|seasoning|shaker|lentil|nuts?\\b|olive|cheese(?!.*(dip|sauce))|empanada|soup|chili (crisp|crunch|oil)|chocolate|freeze.?dried|dried .*(pepper|chile|chili)|chili with|chili lime|in-shell|snack|chips?\\b|popcorn|jerky|sausage|pizza|flavored|pitted|quesadilla|taquito|bowl|wrap|sandwich|hummus|dressing|mayo|aioli|mustard|relish|jam|honey|wing|hot dog|cornbread|mac\\b|pasta|crackers?|pretzel|bacon|cheddar|chicken|pork chop|steak|leg quarter|butcher|habanero",
-   "keep": "green chil[ei] sauce|green chili sauce|chile verde|salsa verde|(?<!freeze-dried )(?<!dried )\\bgreen chili\\b(?!.*(burrito|soup|empanada|for chefs))|diced green chil|chopped green chil|whole green chil|roasted (hatch|green) chil|hatch valley|enchilada sauce|green chile peppers|green chiles?\\b(?!.*(bacon|cheddar|cheese|chicken|sausage|burrito|tomato|bean))"
+   "keep": "green chil[ei] sauce|green chili sauce|chile verde|salsa verde|(?<!freeze-dried )(?<!dried )\\bgreen chili\\b(?!.*(burrito|soup|empanada|for chefs))|diced green chil|chopped green chil|whole green chil|roasted (hatch|green) chil|hatch valley|enchilada sauce|green chile peppers|green chiles?\\b(?!.*(bacon|cheddar|cheese|chicken|sausage|burrito|tomato|bean))",
+   "hard_exclude": "tomato|\\bbeans?\\b|lentil|bacon|cheddar|sausage|macaron|burrito|\\begg|\\brice\\b|chicken|seasoning|freeze|jerky|nuts?\\b|olive|empanada|pizza|chips?\\b|popcorn|crackers?|pretzel|soup|cheese(?!.*(dip|sauce))|habanero|in-shell|pork chop|steak|flavored"
   },
   {
    "id": "queso",
    "term": "queso",
    "relevance": "queso|cheese dip",
    "exclude": "fresco|muenster|cotija|panela|an[e\u00ea]jo|oaxaca|quesadilla|para freir|shredded|popcorn|popped|chips?\\b|crisps|puffs|snack|crackers|pretzel|lentil|soup|nachos|taco kit|slices|sticks|string",
-   "keep": "\\bdip\\b|con queso|queso sauce|cheese sauce|queso blanco|queso amarillo|queso dip"
+   "keep": "\\bdip\\b|con queso|queso sauce|cheese sauce|queso blanco|queso amarillo|queso dip",
+   "hard_exclude": "popcorn|chips?\\b|crackers?|pretzel|puffs|snack|macaron|cake|cookie"
   },
   {
    "id": "tamales",
    "term": "tamales",
    "relevance": "tamal",
-   "exclude": "tamale pie|tamale (seasoning|mix|kit)|masa|corn husk|tamalito"
+   "exclude": "tamale pie|tamale (seasoning|mix|kit)|masa|corn husk|tamalito",
+   "hard_exclude": "tamale pie|masa|corn husk|seasoning"
   },
   {
    "id": "brand",

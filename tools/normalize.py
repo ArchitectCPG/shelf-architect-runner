@@ -38,6 +38,7 @@ def relevant(h,nb):
     rx=nb.get('relevance') or r'\b'+re.sub(r'\s+',r'\\W+',nb['term'])+r's?\b'
     txt=(h.get('name') or '')+' '+' '.join(h.get('card_text') or [])
     if not re.search(rx,txt,re.I): return False
+    if nb.get('hard_exclude') and re.search(nb['hard_exclude'],(h.get('name') or ''),re.I): return False
     ex=nb.get('exclude')
     if ex and re.search(ex,(h.get('name') or ''),re.I) and not (nb.get('keep') and re.search(nb['keep'],(h.get('name') or ''),re.I)): return False
     return True
