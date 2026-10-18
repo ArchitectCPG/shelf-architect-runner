@@ -92,12 +92,15 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
     kept=0; brands=set()
     for h in d.get('houses',[]):
         stats['houses_in']+=1
+        if h.get('via')=='text' and h.get('card_text'):
+            _n=re.sub(r'[^a-z0-9]','',(h.get('name') or '').lower())
+            if not any(_n and _n in re.sub(r'[^a-z0-9]','',t.lower()) for t in h['card_text']): stats['dropped_misattributed']=stats.get('dropped_misattributed',0)+1; continue
         x=normalize(h,C,nb)
         nm=(x.get('name') or '')
         is_own=any(re.search(t,nm+' '+(x.get('brand') or ''),re.I) for t in C['brand_terms']) and not (C.get('brand_exclude') and re.search(C['brand_exclude'],nm,re.I))
         if not x['relevant'] and not is_own: stats['dropped_irrelevant']+=1; continue
         if C.get('brand_exclude') and re.search(C['brand_exclude'],nm,re.I) and not is_own and x['brand_norm'] and re.search(C['brand_terms'][0],x['brand_norm'],re.I): continue
-        brand=fix_brand(x['brand_norm'],nm) or 'Unbranded'; oz,ct=parse_size((h.get('size') or '')+' '+nm+' '+' '.join(h.get('card_text') or []))
+        brand=fix_brand(x['brand_norm'],nm) or 'Unbranded'; oz,ct=parse_size((h.get('size') or '')+' '+nm+' '+' '.join(t for t in (h.get('card_text') or []) if '$' not in t and 'discounted' not in t))
         size_src='label'
         if not oz and not ct:
             ct_txt=' '.join(h.get('card_text') or [])
