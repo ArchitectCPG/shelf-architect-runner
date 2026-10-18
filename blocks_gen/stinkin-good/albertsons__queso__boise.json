@@ -1,0 +1,74 @@
+{
+ "block_id": "stinkin-good/queso@albertsons-boise",
+ "retailer": "albertsons",
+ "zip": "refrigerated",
+ "neighborhood": "queso",
+ "term": "queso",
+ "store_zip": "83702",
+ "client_id": "stinkin-good",
+ "steps": [
+  {
+   "goto": "https://www.albertsons.com/shop/search-results.html?q={{term}}"
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it"
+   ]
+  },
+  {
+   "press": "Escape"
+  },
+  {
+   "js": "const n=document.querySelector('#fulFillMentAddressNav'); const leaf=[...n.querySelectorAll('*')].filter(e=>e.children.length===0&&e.textContent.trim()).pop()||n; for(let i=0;i<5;i++){ leaf.click(); n.click(); await new Promise(r=>setTimeout(r,2500)); const inp=[...document.querySelectorAll('input')].find(x=>/ZIP Code/i.test(x.placeholder||'')&&x.offsetParent); if(inp) return 'open '+i; } throw new Error('fulfillment modal did not open')"
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "type_sel": {
+    "sel": "input[placeholder*='ZIP Code']",
+    "value": "{{store_zip}}",
+    "enter": true
+   }
+  },
+  {
+   "wait": 6000
+  },
+  {
+   "js": "const a=Array.from(document.querySelectorAll('.fulfillment-content a')).find(x=>x.innerText.trim()==='Select'); a.click(); return 'selected'"
+  },
+  {
+   "wait": 10000
+  },
+  {
+   "scroll": 4
+  },
+  {
+   "scroll": 2
+  },
+  {
+   "wait": 2000
+  },
+  {
+   "scroll": 2
+  },
+  {
+   "wait": 2000
+  },
+  {
+   "scroll": 2
+  },
+  {
+   "wait": 2000
+  }
+ ],
+ "store_js": "document.querySelector('#fulFillMentAddressNav')?.innerText.replace(/\\s+/g,' ').trim()",
+ "attempts": 2
+}

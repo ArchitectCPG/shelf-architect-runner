@@ -37,6 +37,18 @@
       "zip": "77005",
       "lat": 29.7174,
       "lng": -95.4018
+    },
+    "boise": {
+      "zip": "83702",
+      "lat": 43.6187,
+      "lng": -116.2146,
+      "role": "competitive"
+    },
+    "chicago": {
+      "zip": "60615",
+      "lat": 41.8019,
+      "lng": -87.6016,
+      "role": "competitive"
     }
   },
   "department": "refrigerated",
@@ -153,6 +165,20 @@
       "market": "denver",
       "note": "Costco warehouse-local assortment via Instacart; prices carry Instacart markup (~15% over warehouse tag)",
       "brand_check": true
+    },
+    {
+      "banner": "albertsons",
+      "lane": "recipe",
+      "template": "albertsons",
+      "market": "boise",
+      "note": "competitive market: Albertsons has doors in Idaho, not Denver"
+    },
+    {
+      "banner": "jewel-osco",
+      "lane": "recipe",
+      "template": "jewel",
+      "market": "chicago",
+      "note": "competitive market: Jewel-Osco, Chicago"
     }
   ],
   "brand_hints": {

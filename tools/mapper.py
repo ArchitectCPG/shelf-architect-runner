@@ -103,7 +103,7 @@ def fix_brand(brand,nm):
         if len(out)==3: break
     if out and 1<=len(out)<=3 and len(' '.join(out))>2 and not re.match(r'^(the|a|an)$',out[0],re.I): return ' '.join(out)
     return None
-RET={'kingsoopers':('King Soopers','king-soopers'),'citymarket':('City Market','city-market'),'safeway':('Safeway','safeway'),'heb':('H-E-B','heb'),'walmart':('Walmart','walmart'),'target':('Target','target'),'sprouts':('Sprouts Farmers Market','sprouts'),'wholefoods':('Whole Foods Market','wholefoods'),'costco':('Costco','costco'),'albertsons':('Albertsons','albertsons'),'costco-online':('Costco','costco')}
+RET={'kingsoopers':('King Soopers','king-soopers'),'citymarket':('City Market','city-market'),'safeway':('Safeway','safeway'),'heb':('H-E-B','heb'),'walmart':('Walmart','walmart'),'target':('Target','target'),'sprouts':('Sprouts Farmers Market','sprouts'),'wholefoods':('Whole Foods Market','wholefoods'),'costco':('Costco','costco'),'albertsons':('Albertsons','albertsons'),'jewel-osco':('Jewel-Osco','jewel-osco'),'costco-online':('Costco','costco')}
 os.makedirs(out+'/held',exist_ok=True); held={}
 for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
     b=json.load(open(f)); d=latest(b); nb=next(n for n in C['neighborhoods'] if n['id']==b['neighborhood'])
