@@ -3,7 +3,7 @@
   "retailer": "staterbros",
   "zip": "probe",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-18T00:26:38.709Z",
+  "pulled_at": "2026-10-18T00:44:43.644Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -12,15 +12,15 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "00:26:38 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "00:26:40 connected to Bright Data Scraping Browser",
-    "00:26:58 goto https://www.instacart.com/store/stater-bros/s?k=salsa",
-    "00:28:44 captcha check passed",
-    "00:33:23 dismiss: nothing to close",
-    "00:37:05 js_houses miss Error: page.evaluate: Target page, context or browser has been closed\nBrowser lo",
-    "00:37:05 store_js failed Error: page.evaluate: Target page, context or browser has be",
-    "00:37:05 ERROR Error: page.evaluate: Target page, context or browser has been closed"
+    "00:44:43 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "00:44:44 connected to Bright Data Scraping Browser",
+    "00:45:05 goto https://www.instacart.com/store/stater-bros/s?k=salsa",
+    "00:45:13 captcha check passed",
+    "00:46:30 dismissed \"Close\"",
+    "00:51:01 js_houses miss Error: page.evaluate: Execution context was destroyed, most likely because of a ",
+    "00:51:01 store_js failed Error: page.evaluate: Execution context was destroyed, most ",
+    "00:51:01 ERROR Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
   ],
-  "error": "Error: page.evaluate: Target page, context or browser has been closed",
-  "js_debug": "Error: page.evaluate: Target page, context or browser has been closed\nBrowser logs:\n\nsession killed due to 300s of network inactivity\n"
+  "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation.",
+  "js_debug": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
 }

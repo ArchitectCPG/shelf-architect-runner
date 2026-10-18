@@ -3,7 +3,7 @@
   "retailer": "pricechopper",
   "zip": "probe",
   "neighborhood": "salsa",
-  "pulled_at": "2026-10-18T00:14:24.058Z",
+  "pulled_at": "2026-10-18T00:39:32.374Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60615",
@@ -12,15 +12,15 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "00:14:24 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "00:14:24 connected to Bright Data Scraping Browser",
-    "00:14:33 goto https://www.instacart.com/store/price-chopper/s?k=salsa",
-    "00:14:41 captcha check passed",
-    "00:19:20 dismiss: nothing to close",
-    "00:23:50 js_houses miss Error: page.evaluate: Execution context was destroyed, most likely because of a ",
-    "00:23:50 store_js failed Error: page.evaluate: Execution context was destroyed, most ",
-    "00:23:50 ERROR Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+    "00:39:32 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "00:39:33 connected to Bright Data Scraping Browser",
+    "00:39:53 goto https://www.instacart.com/store/price-chopper/s?k=salsa",
+    "00:40:01 captcha check passed",
+    "00:44:27 dismiss: nothing to close",
+    "00:44:27 js_houses miss Error: page.evaluate: Target page, context or browser has been closed",
+    "00:44:27 store_js failed Error: page.evaluate: Target page, context or browser has be",
+    "00:44:27 ERROR Error: page.evaluate: Target page, context or browser has been closed"
   ],
-  "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation.",
-  "js_debug": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+  "error": "Error: page.evaluate: Target page, context or browser has been closed",
+  "js_debug": "Error: page.evaluate: Target page, context or browser has been closed"
 }
