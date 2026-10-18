@@ -1,0 +1,36 @@
+{
+  "block_id": "stinkin-good/green-chile@kingsoopers-denver",
+  "retailer": "kingsoopers",
+  "zip": "refrigerated",
+  "neighborhood": "green-chile",
+  "pulled_at": "2026-10-18T04:02:16.645Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "80202",
+  "store_set": null,
+  "url_final": "https://www.kingsoopers.com/search?query=green%20chile",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "04:02:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "04:02:18 connected to Bright Data Scraping Browser",
+    "04:02:32 goto https://www.kingsoopers.com/search?query=green chile",
+    "04:02:41 captcha check passed",
+    "04:03:27 click_sel miss button[aria-label='close banner']",
+    "04:03:35 click_sel [data-testid=CurrentModality-button]",
+    "04:03:46 type_sel [data-testid=PostalCodeSearchBox-input] \"80202\"",
+    "04:03:47 js ok search",
+    "04:04:07 step failed (Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click'), will retry recipe",
+    "04:04:07 store_set: Pickup at Dell Range Cheyenne",
+    "04:04:07 attempt 2: store not pinned, fresh page",
+    "04:04:33 goto https://www.kingsoopers.com/search?query=green chile",
+    "04:04:41 captcha check passed",
+    "04:04:56 click_sel button[aria-label='close banner']",
+    "04:05:03 click_sel [data-testid=CurrentModality-button]",
+    "04:05:31 ERROR TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=PostalCodeSearchBox-input]').first() to be visible\n    - waiting for \"https://www.kingsoopers.com/search?query=green%20chile\" navigation to finish...\n    - navigated to \"https://www.kingsoopers.com/search?query=green%20chile\"\n"
+  ],
+  "error": "TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=PostalCodeSearchBox-input]').first() to be visible\n    - waiting for \"https://www.kingsoopers.com/search?query=green%20chile\" navigation to finish...\n    - navigated to \"https://www.kingsoopers.com/search?query=green%20chile\"\n",
+  "js_results": [
+    "search"
+  ]
+}

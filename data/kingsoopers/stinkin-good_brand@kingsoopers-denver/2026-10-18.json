@@ -3,47 +3,13 @@
   "retailer": "kingsoopers",
   "zip": "refrigerated",
   "neighborhood": "brand",
-  "pulled_at": "2026-10-18T01:39:00.711Z",
+  "pulled_at": "2026-10-18T03:58:20.391Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "80202",
   "store_set": "Pickup at Union Station",
   "url_final": "https://www.kingsoopers.com/search?query=stinkin%20good",
   "houses": [
-    {
-      "name": "Hillshire Farm® Lit'l Smokies® Smoked Sausage",
-      "brand": null,
-      "price": "$3.99",
-      "size": "",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "30 products loaded",
-        "Sponsored",
-        "$3.99",
-        "$6.79",
-        "Sale: $3.99 discounted from $6.79",
-        "$0.28/oz"
-      ],
-      "via": "text"
-    },
-    {
-      "name": "Hillshire Farm® Lit'l Smokies® Smoked Sausage",
-      "brand": null,
-      "price": "$6.79",
-      "size": "",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Sponsored",
-        "$3.99",
-        "$6.79",
-        "Sale: $3.99 discounted from $6.79",
-        "$0.28/oz",
-        "Hillshire Farm® Lit'l Smokies® Smoked Sausage"
-      ],
-      "via": "text"
-    },
     {
       "name": "Stinkin Good Green Chili",
       "brand": null,
@@ -52,8 +18,8 @@
       "img": null,
       "link": null,
       "card_text": [
-        "View Offer",
-        "Sign In to Add",
+        "30 results",
+        "30 products loaded",
         "$6.99",
         "$6.99",
         "$7.46/lb",
@@ -79,23 +45,6 @@
       "via": "text"
     },
     {
-      "name": "Bibigo Original Korean BBQ Marinade & Sauce",
-      "brand": null,
-      "price": "$4.99",
-      "size": "",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Sign In to Add",
-        "Sponsored",
-        "$4.99",
-        "$4.99",
-        "$0.30/oz",
-        "Bibigo Original Korean BBQ Marinade & Sauce"
-      ],
-      "via": "text"
-    },
-    {
       "name": "Santiago's Medium Green Chile Sauce with Pork",
       "brand": null,
       "price": "$9.49",
@@ -103,7 +52,7 @@
       "img": null,
       "link": null,
       "card_text": [
-        "SNAP EBT",
+        "View Offer",
         "Sign In to Add",
         "$9.49",
         "$9.49",
@@ -132,17 +81,34 @@
     {
       "name": "Johnsonville Beddar with Cheddar Smoked Sausage Links",
       "brand": null,
-      "price": "$9.49",
+      "price": "$3.99",
       "size": "",
       "img": null,
       "link": null,
       "card_text": [
-        "SNAP EBT",
         "Sign In to Add",
-        "$9.49",
-        "$9.49",
-        "$1.05/oz",
-        "Heinz Original HP™ Sauce"
+        "Sponsored",
+        "$3.99",
+        "$6.79",
+        "Sale: $3.99 discounted from $6.79",
+        "$0.28/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Hillshire Farm® Lit'l Smokies® Smoked Sausage",
+      "brand": null,
+      "price": "$6.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "$3.99",
+        "$6.79",
+        "Sale: $3.99 discounted from $6.79",
+        "$0.28/oz",
+        "Hillshire Farm® Lit'l Smokies® Smoked Sausage"
       ],
       "via": "text"
     },
@@ -154,12 +120,12 @@
       "img": null,
       "link": null,
       "card_text": [
+        "View Offer",
         "Sign In to Add",
         "$9.49",
         "$9.49",
         "$1.05/oz",
-        "Heinz Original HP™ Sauce",
-        "9 oz"
+        "Heinz Original HP™ Sauce"
       ],
       "via": "text"
     },
@@ -198,6 +164,23 @@
       "via": "text"
     },
     {
+      "name": "Bibigo Original Korean BBQ Marinade & Sauce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "Sponsored",
+        "$4.99",
+        "$4.99",
+        "$0.30/oz",
+        "Bibigo Original Korean BBQ Marinade & Sauce"
+      ],
+      "via": "text"
+    },
+    {
       "name": "SOUR PATCH KIDS & SWEDISH FISH Soft & Chewy Gummy Halloween Candy Variety Pack",
       "brand": null,
       "price": "$16.99",
@@ -205,7 +188,7 @@
       "img": null,
       "link": null,
       "card_text": [
-        "View Offer",
+        "SNAP EBT",
         "Sign In to Add",
         "$16.99",
         "$20.49",
@@ -266,23 +249,6 @@
       "via": "text"
     },
     {
-      "name": "Trolli Spicy Crawlers Gummy Worms, 6.3 oz Bag",
-      "brand": null,
-      "price": "$3.49",
-      "size": "6.3 oz",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Sign In to Add",
-        "Sponsored",
-        "$3.49",
-        "$3.49",
-        "$0.55/oz",
-        "Trolli Spicy Crawlers Gummy Worms, 6.3 oz Bag"
-      ],
-      "via": "text"
-    },
-    {
       "name": "Duke's Hatch Green Chile Smoked Shorty Sausages, Keto Friendly, Gluten Free",
       "brand": null,
       "price": "$9.29",
@@ -290,7 +256,7 @@
       "img": null,
       "link": null,
       "card_text": [
-        "SNAP EBT",
+        "View Offer",
         "Sign In to Add",
         "$9.29",
         "$9.29",
@@ -351,19 +317,19 @@
       "via": "text"
     },
     {
-      "name": "SWEDISH FISH Soft & Chewy Gummy Candy Bag",
+      "name": "Trolli Spicy Crawlers Gummy Worms, 6.3 oz Bag",
       "brand": null,
-      "price": "$3.29",
-      "size": "",
+      "price": "$3.49",
+      "size": "6.3 oz",
       "img": null,
       "link": null,
       "card_text": [
+        "Sign In to Add",
         "Sponsored",
-        "Everyday Low Price",
-        "$3.29",
-        "$3.29",
-        "$0.41/oz",
-        "SWEDISH FISH Soft & Chewy Gummy Candy Bag"
+        "$3.49",
+        "$3.49",
+        "$0.55/oz",
+        "Trolli Spicy Crawlers Gummy Worms, 6.3 oz Bag"
       ],
       "via": "text"
     },
@@ -453,36 +419,19 @@
       "via": "text"
     },
     {
-      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Bag",
+      "name": "SWEDISH FISH Soft & Chewy Gummy Candy Bag",
       "brand": null,
-      "price": "$5.99",
-      "size": "",
-      "img": null,
-      "link": null,
-      "card_text": [
-        "Sign In to Add",
-        "Sponsored",
-        "$5.99",
-        "$6.99",
-        "Sale: $5.99 discounted from $6.99",
-        "$0.57/oz"
-      ],
-      "via": "text"
-    },
-    {
-      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Bag",
-      "brand": null,
-      "price": "$6.99",
+      "price": "$3.29",
       "size": "",
       "img": null,
       "link": null,
       "card_text": [
         "Sponsored",
-        "$5.99",
-        "$6.99",
-        "Sale: $5.99 discounted from $6.99",
-        "$0.57/oz",
-        "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Bag"
+        "Everyday Low Price",
+        "$3.29",
+        "$3.29",
+        "$0.41/oz",
+        "SWEDISH FISH Soft & Chewy Gummy Candy Bag"
       ],
       "via": "text"
     },
@@ -494,7 +443,7 @@
       "img": null,
       "link": null,
       "card_text": [
-        "View Offer",
+        "SNAP EBT",
         "Sign In to Add",
         "$12.99",
         "$14.29",
@@ -572,19 +521,36 @@
       "via": "text"
     },
     {
-      "name": "Eckrich® Skinless Smoked Sausage",
+      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Bag",
       "brand": null,
-      "price": "$3.49",
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "Sponsored",
+        "$5.99",
+        "$6.99",
+        "Sale: $5.99 discounted from $6.99",
+        "$0.57/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Bag",
+      "brand": null,
+      "price": "$6.99",
       "size": "",
       "img": null,
       "link": null,
       "card_text": [
         "Sponsored",
-        "Everyday Low Price",
-        "$3.49",
-        "$3.49",
-        "$0.25/oz",
-        "Eckrich® Skinless Smoked Sausage"
+        "$5.99",
+        "$6.99",
+        "Sale: $5.99 discounted from $6.99",
+        "$0.57/oz",
+        "REESE'S Milk Chocolate Snack Size Peanut Butter Cups Candy Bag"
       ],
       "via": "text"
     },
@@ -596,7 +562,7 @@
       "img": null,
       "link": null,
       "card_text": [
-        "SNAP EBT",
+        "View Offer",
         "Sign In to Add",
         "$4.99",
         "$4.99",
@@ -613,8 +579,8 @@
       "img": null,
       "link": null,
       "card_text": [
-        "SNAP EBT",
         "Sign In to Add",
+        "Sponsored",
         "$6.99",
         "$10.99",
         "Sale: $6.99 discounted from $10.99",
@@ -630,7 +596,7 @@
       "img": null,
       "link": null,
       "card_text": [
-        "Sign In to Add",
+        "Sponsored",
         "$6.99",
         "$10.99",
         "Sale: $6.99 discounted from $10.99",
@@ -674,14 +640,48 @@
       "via": "text"
     },
     {
-      "name": "Rotten® Original Gummy Cruncheez Gummy Candy",
+      "name": "Skittles Original Candy Single Pack, 2.17 ounce",
       "brand": null,
-      "price": "$3.49",
-      "size": "",
+      "price": "$1.69",
+      "size": "2.17 ounce",
       "img": null,
       "link": null,
       "card_text": [
         "Low Stock",
+        "Sign In to Add",
+        "$1.69",
+        "$1.89",
+        "Sale: $1.69 discounted from $1.89",
+        "$0.78/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Skittles Original Candy Single Pack, 2.17 ounce",
+      "brand": null,
+      "price": "$1.89",
+      "size": "2.17 ounce",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$1.69",
+        "$1.89",
+        "Sale: $1.69 discounted from $1.89",
+        "$0.78/oz",
+        "Skittles Original Candy Single Pack, 2.17 ounce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Skittles Original Candy Single Pack, 2.17 ounce",
+      "brand": null,
+      "price": "$3.49",
+      "size": "2.17 ounce",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
         "Sign In to Add",
         "$3.49",
         "$3.49",
@@ -708,30 +708,40 @@
       "via": "text"
     }
   ],
-  "raw_text_chars": 5642,
+  "raw_text_chars": 5674,
   "steps": [
-    "01:39:00 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "01:39:01 connected to Bright Data Scraping Browser",
-    "01:39:04 goto https://www.kingsoopers.com/search?query=stinkin good",
-    "01:39:12 captcha check passed",
-    "01:39:20 click_sel button[aria-label='close banner']",
-    "01:39:21 click_sel [data-testid=CurrentModality-button]",
-    "01:39:25 type_sel [data-testid=PostalCodeSearchBox-input] \"80202\"",
-    "01:39:25 js ok search",
-    "01:39:33 js ok 62000115",
-    "01:39:41 click_re ^Keep Shopping Here$ false",
-    "01:39:48 goto https://www.kingsoopers.com/search?query=stinkin good",
-    "01:39:56 captcha check passed",
-    "01:40:07 scrolled x4",
-    "01:40:07 store_set: Pickup at Union Station",
-    "01:40:07 text parser wins: 41 vs 19",
-    "01:40:08 extracted 41 houses; raw text 5642 chars"
+    "03:58:20 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "03:58:21 connected to Bright Data Scraping Browser",
+    "03:58:59 goto https://www.kingsoopers.com/search?query=stinkin good",
+    "03:59:07 captcha check passed",
+    "03:59:18 click_sel button[aria-label='close banner']",
+    "03:59:19 click_sel [data-testid=CurrentModality-button]",
+    "03:59:24 type_sel [data-testid=PostalCodeSearchBox-input] \"80202\"",
+    "03:59:24 js ok search",
+    "03:59:42 step failed (Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click'), will retry recipe",
+    "03:59:42 store_set: Pickup at Dell Range Cheyenne",
+    "03:59:42 attempt 2: store not pinned, fresh page",
+    "04:00:48 goto https://www.kingsoopers.com/search?query=stinkin good",
+    "04:00:56 captcha check passed",
+    "04:01:42 click_sel miss button[aria-label='close banner']",
+    "04:01:43 click_sel [data-testid=CurrentModality-button]",
+    "04:01:47 type_sel [data-testid=PostalCodeSearchBox-input] \"80202\"",
+    "04:01:48 js ok search",
+    "04:01:55 js ok 62000115",
+    "04:02:03 click_re ^Keep Shopping Here$ false",
+    "04:02:11 goto https://www.kingsoopers.com/search?query=stinkin good",
+    "04:02:19 captcha check passed",
+    "04:02:31 scrolled x4",
+    "04:02:31 store_set: Pickup at Union Station",
+    "04:02:31 text parser wins: 41 vs 18",
+    "04:02:31 extracted 41 houses; raw text 5674 chars"
   ],
   "error": null,
   "js_results": [
     "search",
+    "search",
     "62000115"
   ],
   "houses_text": 41,
-  "houses_dom": 19
+  "houses_dom": 18
 }
