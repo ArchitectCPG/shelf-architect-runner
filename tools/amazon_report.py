@@ -10,7 +10,7 @@ sys.path.insert(0,os.path.dirname(__file__)); from normalize import build_hints,
 cid=sys.argv[1]; C=json.load(open(f'clients/{cid}.json'))
 def num(s):
     m=re.search(r'(\d+(?:\.\d+)?)',str(s or '').replace(',','')); return float(m.group(1)) if m else None
-PACK=[re.compile(p,re.I) for p in (r'pack of (\d{1,3})',r'(\d{1,3})\s?-?\s?pack\b',r'(\d{1,3})\s?(?:count|ct)\b',r'\((\d{1,3}) (?:cans|bottles|jars|pouches|bags|units)\)',r'(\d{1,3}) (?:cans|bottles|jars|pouches|bags)\b',r'case of (\d{1,3})')]
+PACK=[re.compile(p,re.I) for p in (r'pack of (\d{1,3})',r'(\d{1,3})\s?-?\s?(?:pack|pk)\b',r'(\d{1,3})\s?(?:count|ct)\b',r'\((\d{1,3}) (?:cans|bottles|jars|pouches|bags|units)\)',r'(\d{1,3}) (?:cans|bottles|jars|pouches|bags)\b',r'case of (\d{1,3})')]
 def pack_count(name):
     for rx in PACK:
         m=rx.search(name or '')

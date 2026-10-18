@@ -1,5 +1,7 @@
 # Shelf Architect runner (Bright Data Scraping Browser via GitHub Actions)
 
+AMAZON LANE (2026-10-18): separate from retail (blocks_gen/<client>/amazon/, data/amazon/, tools/amazon_report.py), gated on client temperature state (shelf_stable only). See CLIENTS.md. Pura first run 4/4 OK.
+
 STATUS 2026-10-07 1:00 PM CT (supersedes older status): FIRST FULL SALSA SWEEP SCORED. 9 of 11 banners return products. Sandbox only, nothing in the Shelf Architect DB. Sweep paused here by Steve; next step is a Fable session for the hard parts, Sonnet for mechanical fixes.
 
 SWEEP RESULT (run 2026-10-07 17:5x UTC, neighborhood = salsa, requested store zip 60615)
