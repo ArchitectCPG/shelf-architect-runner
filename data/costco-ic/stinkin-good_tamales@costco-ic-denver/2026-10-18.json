@@ -3,23 +3,1511 @@
   "retailer": "costco-ic",
   "zip": "refrigerated",
   "neighborhood": "tamales",
-  "pulled_at": "2026-10-18T00:55:44.374Z",
+  "pulled_at": "2026-10-18T01:06:50.104Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "80202",
-  "store_set": null,
-  "url_final": null,
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "00:55:44 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "00:55:55 connected to Bright Data Scraping Browser",
-    "00:56:09 goto https://www.instacart.com/store/costco/s?k=tamales",
-    "00:56:21 captcha check passed",
-    "01:01:21 dismiss: nothing to close",
-    "01:05:55 js_houses miss Error: page.evaluate: Target page, context or browser has been closed\nBrowser lo",
-    "01:05:55 ERROR Error: page.waitForTimeout: Target page, context or browser has been closed"
+  "store_set": "API zip 80202 shop 2043 location 439",
+  "url_final": "https://www.instacart.com/store/costco/s?k=tamales",
+  "houses": [
+    {
+      "name": "Del Real Foods Chicken with Red Sauce Tamales, 15-count",
+      "size": "each",
+      "brand": "del real",
+      "price": "$20.69",
+      "item_id": "items_439-18642404",
+      "product_id": "18642404",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ea070908-85b7-464f-9d06-e582b0952918.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Don Miguel Chipotle Chicken Mini Tacos, 35 oz",
+      "size": "each",
+      "brand": "don miguel",
+      "price": "$13.79",
+      "item_id": "items_439-387438",
+      "product_id": "387438",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9517a8a0-4060-400d-88a8-d093150cdd81.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Del Real Three Cheese Quesadilla Bites, 32 oz",
+      "size": "32 oz",
+      "brand": "deal real",
+      "price": "$11.49",
+      "item_id": "items_439-64523361",
+      "product_id": "64523361",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4946c5cb-4311-4fd7-902f-ec72b7d4e560.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Authentic Kitchen Chicken Flauntas, 44 oz",
+      "size": "44 oz",
+      "brand": "authentic kitchen",
+      "price": "$18.39",
+      "item_id": "items_439-70523111",
+      "product_id": "70523111",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bc95728b-006e-4da0-b067-bb9c0c945709.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Mercedes' Chile Grande Breakfast Burrito, 8 oz, 6 count",
+      "size": "each",
+      "brand": "high summit dist.   dir 1",
+      "price": "$19.54",
+      "item_id": "items_439-3217782",
+      "product_id": "3217782",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_24108cdf-b428-4d3e-a56b-deab00503c2f.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Organic Extra Form Tofu, 16 oz, 4-count",
+      "size": "16 oz",
+      "brand": "kirkland signature",
+      "price": "$7.12",
+      "item_id": "items_439-86922165",
+      "product_id": "86922165",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_df82e41d-b182-4d80-96be-e9517661ce53.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Posada Chimichangas, Shredded Steak & Cheese, 5 oz, 18-count",
+      "size": "each",
+      "brand": "posada",
+      "price": "$21.84",
+      "item_id": "items_439-213771",
+      "product_id": "213771",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_da3152b4-f869-4b1b-a13a-1eb1b7f11b64.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Shredded Mexican Style Blend Cheese, 2.5 lbs, 2-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$15.51",
+      "item_id": "items_439-17985872",
+      "product_id": "17985872",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_77ec04a3-4ad0-41cd-b847-a7d190f03645.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Avocado Hass Variety, 6-count",
+      "size": "each",
+      "brand": null,
+      "price": "$6.77",
+      "item_id": "items_439-18848256",
+      "product_id": "18848256",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_856d1af9-d3f0-4abb-baf2-5e36f67d7965.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tortilla Fresca Uncooked Flour Tortillas, 44-count",
+      "size": "each",
+      "brand": "franco whole foods    -t-",
+      "price": "$9.76",
+      "item_id": "items_439-17637315",
+      "product_id": "17637315",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_099b88ea-85e9-4a36-b45f-2fde4776cb14.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "El Monterey Mexican Grill Taquitos, Chicken & Cheese, 30-count",
+      "size": "each",
+      "brand": "el monterey",
+      "price": "$16.66",
+      "item_id": "items_439-58263",
+      "product_id": "58263",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_01ede6bb-0722-4ef8-9bc2-3e97e7b5eb3f.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "On The Street Foods Beef Taco Style Carne Asada, 28 oz",
+      "size": "28 oz",
+      "brand": "on the street foods",
+      "price": "$19.54",
+      "item_id": "items_439-118552022",
+      "product_id": "118552022",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c245e815-3a9d-4d4c-a5d6-1e6759101f65.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Smoked Pulled Pork, Rubbed with Seasonings, 2 lbs",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$16.09",
+      "item_id": "items_439-29992295",
+      "product_id": "29992295",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_62cf248b-d394-4b04-8fd1-a60cfd1e97a0.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Eat in Foods Spinach, Feta and Sun-Dried Tomato Wrap, 5.8 oz, 6-count",
+      "size": "5.8 oz",
+      "brand": "eat in foods",
+      "price": "$17.81",
+      "item_id": "items_439-98920367",
+      "product_id": "98920367",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_70bf6ff0-59be-4488-9f6f-51748b825162.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Red's Organic Bean and Cheese Burritos, 10-count",
+      "size": "each",
+      "brand": "red's",
+      "price": "$14.94",
+      "item_id": "items_439-25690612",
+      "product_id": "25690612",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ebd0c6e0-e8ae-4542-b38d-3f26ebbeadc8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "La Chona Quesadilla Shredded Cheese, 32 oz",
+      "size": "each",
+      "brand": "la chona",
+      "price": "$9.19",
+      "item_id": "items_439-26791133",
+      "product_id": "26791133",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bc15f74c-6384-4dd0-a9cb-f9df02e6ffb8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Ling Ling Potstickers, Chicken and Vegetable, 4.2 lbs",
+      "size": "4.2 lb",
+      "brand": "ling ling",
+      "price": "$13.21",
+      "item_id": "items_439-58101642",
+      "product_id": "58101642",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_23f27e7d-1144-40a4-9f9b-c26bfd2aa8e5.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Stuffed Bell Peppers with Ground Beef & Rice",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$10.04 /pkg (est.)",
+      "item_id": "items_439-3117814",
+      "product_id": "3117814",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2685cbc4-72d3-492d-bf63-ecafb68a1676.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Del Real Foods Fire Roasted Combo Salsa, 24 oz, 2-pack",
+      "size": "each",
+      "brand": "del real",
+      "price": "$8.84",
+      "item_id": "items_439-18498982",
+      "product_id": "18498982",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_93ff29f5-f14a-4a4d-aa2f-ea75a2113bd3.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Frankly Fresh Chicken Breast Burrito Bowl, 12 oz, 3-count",
+      "size": "each",
+      "brand": "frankly fresh",
+      "price": "$14.82",
+      "item_id": "items_439-3308577",
+      "product_id": "3308577",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_572aefa7-7ea1-449c-931e-8800db3a169a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Snapdragon Foods Vietnamese Pho Bowls, Beef, 3.1 oz, 9-count",
+      "size": "27.5 oz",
+      "brand": "snapdragon",
+      "price": "$10.34",
+      "item_id": "items_439-90991915",
+      "product_id": "90991915",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c3afcef6-eacc-48a8-a46b-558526377a16.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Nutty & Fruity Spicy Chili Tamarind Bites, 24 oz",
+      "size": "each",
+      "brand": "nutty & fruity",
+      "price": "$12.64",
+      "item_id": "items_439-27239139",
+      "product_id": "27239139",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9193adfe-337f-4b90-b7ab-cc67c56a20f1.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Chicken Pot Pie, All White Meat, Ready To Bake",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$24.33 /pkg (est.)",
+      "item_id": "items_439-57931",
+      "product_id": "57931",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_220be3aa-4748-4f05-9f7b-17041230e143.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Chicken Street Tacos, 12-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$18.30 /pkg (est.)",
+      "item_id": "items_439-19612238",
+      "product_id": "19612238",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f36c46b8-1463-4981-a583-84b6518852e4.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Caramel S’mores Clusters, 26.3 oz",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$13.44",
+      "item_id": "items_439-32407657",
+      "product_id": "32407657",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8fde0389-c4d7-49f0-b9f6-98f4d719c40b.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Pumpkin Pie, 58 oz",
+      "size": "58 oz",
+      "brand": "kirkland signature",
+      "price": "$6.89",
+      "item_id": "items_439-57495",
+      "product_id": "57495",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_718de52e-d0b0-4883-a7ce-83a87aafd761.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Rosarita Organic Refried Beans, 16 oz, 8-count",
+      "size": "each",
+      "brand": "rosarita",
+      "price": "$14.36",
+      "item_id": "items_439-18471658",
+      "product_id": "18471658",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7a017620-d39c-4ee3-9225-c1dcae2b88a1.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Rotisserie Chicken Enchilada",
+      "size": "each",
+      "brand": null,
+      "price": "$25.98 /pkg (est.)",
+      "item_id": "items_439-16917934",
+      "product_id": "16917934",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_794b088a-0f95-43f4-be84-0bcc54cf070e.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fresh Additions Sirloin Steak Bites, 3.2 oz, 6-count",
+      "size": "each",
+      "brand": "fresh additions",
+      "price": "$22.99",
+      "item_id": "items_439-41864404",
+      "product_id": "41864404",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_038b6d67-45f1-482b-b20d-dff5030e943e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Cholula, Hot Sauce Original, 12 fl oz, 2-Count",
+      "size": "each",
+      "brand": "cholula",
+      "price": "$11.49",
+      "item_id": "items_439-18038059",
+      "product_id": "18038059",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d4f26a5d-9652-4879-a1cb-d8762c5eee58.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Marie Callender's Chicken Pot Pies, 10 oz, 8-count",
+      "size": "each",
+      "brand": "marie callender's",
+      "price": "$14.94",
+      "item_id": "items_439-20223013",
+      "product_id": "20223013",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_814368c5-9251-4c9e-9609-0e7744c0d005.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "La Terra Fina Quiche Variety Pack, 2-count",
+      "size": "each",
+      "brand": "la terra fina",
+      "price": "$19.54",
+      "item_id": "items_439-21725177",
+      "product_id": "21725177",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_21c507e6-114f-4d37-bcbd-856175a192ae.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Super Sweet Corn, 8-count",
+      "size": "each",
+      "brand": null,
+      "price": "$6.89",
+      "item_id": "items_439-18848231",
+      "product_id": "18848231",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4e3471db-e5c8-4446-a6f2-6bc5a4d675f5.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Siete Almond Flour Tortilla, 20-count",
+      "size": "each",
+      "brand": "siete",
+      "price": "$9.88",
+      "item_id": "items_439-24697793",
+      "product_id": "24697793",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_061a2330-90f0-4bbd-ab74-902b07091ae7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Wholly Guacamole Organic Mild Guacamole, 15 oz, 3-count",
+      "size": "each",
+      "brand": "wholly guacamole",
+      "price": "$16.09",
+      "item_id": "items_439-25754393",
+      "product_id": "25754393",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_395eed5d-7afc-4f49-af10-bce0c4927d5d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Beef Chili",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$18.36 /pkg (est.)",
+      "item_id": "items_439-26274259",
+      "product_id": "26274259",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b02b10a9-3d7d-47bd-a5e7-60cc653a6050.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Reynaldo's Queso Oaxaca Melting Cheese, 3 lbs",
+      "size": "each",
+      "brand": "reynaldo's",
+      "price": "$17.24",
+      "item_id": "items_439-23004360",
+      "product_id": "23004360",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6a1a9777-9987-4651-b992-f77634f7d616.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Chicken Bakes, 8 oz, 6-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$17.24",
+      "item_id": "items_439-18498999",
+      "product_id": "18498999",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7803838c-613b-44fd-b26c-998318a87fa5.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Del Real Foods Carnitas, 40 oz",
+      "size": "each",
+      "brand": "del real",
+      "price": "$20.11",
+      "item_id": "items_439-33085",
+      "product_id": "33085",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2ef99b60-d9f1-4cb4-8a46-425af539c3b5.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Brisket Burnt Ends",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$27.41 /pkg (est.)",
+      "item_id": "items_439-38902545",
+      "product_id": "38902545",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3c511647-6b13-4172-a4a3-54b0d17bf79f.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Daphne's Beef and Lamb Gyro Slices, 16 oz, 2-count",
+      "size": "16 oz",
+      "brand": "daphne's",
+      "price": "$17.01",
+      "item_id": "items_439-66322606",
+      "product_id": "66322606",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c3163cf5-65b8-48b9-92a0-e88bbf28f079.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "505 Southwestern Flame Roasted Green Chile, 40 oz",
+      "size": "each",
+      "brand": "flagship food group",
+      "price": "$10.11",
+      "item_id": "items_439-17406423",
+      "product_id": "17406423",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ec48a4f1-ca02-4110-b4f1-3219d5e58dbf.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Shepherd's Pie, Ready To Bake",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$25.64 /pkg (est.)",
+      "item_id": "items_439-18446748",
+      "product_id": "18446748",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_869c1e88-294d-41c6-80b3-34b2ce5fa007.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Caramel Apple Strudel Bites, 12-count",
+      "size": "12 ct",
+      "brand": "kirkland signature",
+      "price": "$9.19",
+      "item_id": "items_439-85581811",
+      "product_id": "85581811",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4ed2b2dd-6e86-497a-af09-d1bdefcf8d0f.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tipiak French Macarons Variety Pack, 36-count",
+      "size": "each",
+      "brand": "tipiak",
+      "price": "$13.79",
+      "item_id": "items_439-19328867",
+      "product_id": "19328867",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7d3cd085-7048-4f11-87c6-c72987c7d38a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Meatloaf with Yukon Gold Mashed Potatoes",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$21.76 /pkg (est.)",
+      "item_id": "items_439-17681972",
+      "product_id": "17681972",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bf345a52-7fee-41ef-9764-ebb1e08c41d2.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Beef Pot Roast with Gravy",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$21.14 /pkg (est.)",
+      "item_id": "items_439-28250972",
+      "product_id": "28250972",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_aea06198-2a39-472b-a3f4-8634703a3cf6.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Bill Bailey's Carne Asada Beef Sirloin Flap, Onion, Garlic & Citrus Marinade",
+      "size": "each",
+      "brand": "bill bailey's",
+      "price": "$48.27 /pkg (est.)",
+      "item_id": "items_439-3118736",
+      "product_id": "3118736",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0201b965-8874-4593-9f6a-efaccbcc7cfa.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Tortilla Strips, 48 oz",
+      "size": "48 oz",
+      "brand": "kirkland signature",
+      "price": "$5.74",
+      "item_id": "items_439-30175513",
+      "product_id": "30175513",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6945d107-1cbe-427e-92f0-ac6d01936f9c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Cuisine Solutions Sliced Grass-Fed Beef Sirloin",
+      "size": "each",
+      "brand": "cuisine solutions",
+      "price": "$32.82 /pkg (est.)",
+      "item_id": "items_439-19390334",
+      "product_id": "19390334",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f90889a5-4edf-433f-8d97-6739e35cfb44.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tatemeda Salsa Molcajete, 32 oz",
+      "size": "32 oz",
+      "brand": "tatemeda",
+      "price": "$10.34",
+      "item_id": "items_439-55473088",
+      "product_id": "55473088",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9bd4fd28-703e-4e19-a83e-a94c6088e4dc.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Roasted Chicken & Swiss Roller Tray, 12-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$16.92 /pkg (est.)",
+      "item_id": "items_439-24998546",
+      "product_id": "24998546",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7d1b7bb3-b4fa-4ffe-8f4c-b7cf11b2218c.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Cuisine Adventures Franks in a Blanket Variety Pack, 35.6 oz",
+      "size": "35.6 oz",
+      "brand": "cuisine adventures",
+      "price": "$16.09",
+      "item_id": "items_439-129187741",
+      "product_id": "129187741",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bd2ce882-dbf6-4242-bd55-c82450cd0067.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Sweetwood Ranch Angus Cheeseburger Sliders, 10-count",
+      "size": "10 ct",
+      "brand": "sweetwood ranch",
+      "price": "$19.54",
+      "item_id": "items_439-98214968",
+      "product_id": "98214968",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e7bb6619-a36f-44b2-abdf-52aa55a2e839.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Guerrero Tostadas, 25.6 oz",
+      "size": "each",
+      "brand": "guerrero",
+      "price": "$4.82",
+      "item_id": "items_439-18653911",
+      "product_id": "18653911",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_38835ce1-462d-4222-a934-fbcfcc460f17.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Beef Loin New York Previously Frozen (Shabu Shabu)",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$47.95 /pkg (est.)",
+      "item_id": "items_439-26343360",
+      "product_id": "26343360",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d51521ec-30e4-4400-be93-41fe039aa258.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Stinkin Good Green Chili Pork Sauce, 1 lb 14 oz",
+      "size": "each",
+      "brand": "stink inc",
+      "price": "$11.49",
+      "item_id": "items_439-3217789",
+      "product_id": "3217789",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_05be04d4-a8c5-4230-bbe3-c6465d3abe5a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Organic Limes, 3 lbs",
+      "size": "each",
+      "brand": null,
+      "price": "$9.76",
+      "item_id": "items_439-26399660",
+      "product_id": "26399660",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_936431fc-3521-4549-8ed7-6283954f2b87.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "La Favorita Corn Tortillas, 50-count",
+      "size": "each",
+      "brand": "la favorita",
+      "price": "$5.62",
+      "item_id": "items_439-19186689",
+      "product_id": "19186689",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_113832ee-bccb-4ffd-b2a0-a0ca50e320e0.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Nuovo Pasta Pumpkin & Bats Ravioli, 16 oz, 2-count",
+      "size": "each",
+      "brand": "nuovo pasta",
+      "price": "$11.49",
+      "item_id": "items_439-3073816",
+      "product_id": "3073816",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_46ab2fd7-cd1c-480c-b563-17f2427aca61.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Raybern's Philly Cheesesteak Sandwich, 33.6 oz",
+      "size": "33.6 oz",
+      "brand": "raybern's",
+      "price": "$14.94",
+      "item_id": "items_439-50026566",
+      "product_id": "50026566",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5860bf2c-4204-45f0-a500-080b5cbc6c85.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Seasoned St. Louis Ribs",
+      "size": "each",
+      "brand": null,
+      "price": "$27.25 /pkg (est.)",
+      "item_id": "items_439-17682351",
+      "product_id": "17682351",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c3a182f2-ff97-4208-8b8d-a1390b081519.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Croissant Chicken Salad Sandwich Platter",
+      "size": "1 each",
+      "brand": null,
+      "price": "$51.74",
+      "item_id": "items_439-121836565",
+      "product_id": "121836565",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_68ce4d96-0476-4e8d-b0e6-88512430e557.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Beef and Chicken Fajita Kit, 12-count",
+      "size": "12 ct",
+      "brand": "kirkland signature",
+      "price": "$26.85 /pkg (est.)",
+      "item_id": "items_439-122999809",
+      "product_id": "122999809",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b1ecdb5f-4f81-4bef-9ec0-0bacf304325d.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature, Thai Hom Mali Jasmine Rice, 25 lbs",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$24.14",
+      "item_id": "items_439-16955340",
+      "product_id": "16955340",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ac891ea6-1b94-4519-b78e-54e167911cd2.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Mission Hill Bistro Smoked Sliced Beef Brisket",
+      "size": "each",
+      "brand": "mission hill bistro",
+      "price": "$33.47 /pkg (est.)",
+      "item_id": "items_439-21149744",
+      "product_id": "21149744",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2f4b4a10-a0fa-4de7-853e-85bbfcb1c8b8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Skinny Butcher Chicken Dippers with Barbeque Sauce, 3.5 oz, 4-count",
+      "size": "3.5 oz",
+      "brand": "skinny butcher",
+      "price": "$5.74",
+      "item_id": "items_439-127066152",
+      "product_id": "127066152",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_169b1b8d-ec4b-47e5-bb2e-a82db7bebe3f.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature St. Louis Style Dry Rub Ribs",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$32.51 /pkg (est.)",
+      "item_id": "items_439-18246235",
+      "product_id": "18246235",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ea86506b-9a02-4441-b136-d0255d3aac00.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Chicken Sandwich on Pretzel Buns with Sauce",
+      "size": "1 each",
+      "brand": "kirkland signature",
+      "price": "$16.82 /pkg (est.)",
+      "item_id": "items_439-129311034",
+      "product_id": "129311034",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_998306db-9100-402f-8948-272bf669a9bc.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "A La Carte Pomegranate Fig Lamb Shanks, 2-count",
+      "size": "each",
+      "brand": "a la carte",
+      "price": "$30.73 /pkg (est.)",
+      "item_id": "items_439-20713070",
+      "product_id": "20713070",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_574539c9-7401-4ed9-b9dc-9539539555dd.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kevin's Natural Foods Thai-Style Basil Beef, 32 oz",
+      "size": "32 oz",
+      "brand": "kevin's natural foods",
+      "price": "$21.84",
+      "item_id": "items_439-88056606",
+      "product_id": "88056606",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_35e0596a-3bc4-43ab-94f4-444c93b8493d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Beef Brisket",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$108.78 /pkg (est.)",
+      "item_id": "items_439-241614",
+      "product_id": "241614",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_acbb5209-b915-45c5-baa5-caa07bd54d9a.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Paneer Cheese, 16 oz, 2-count",
+      "size": "16 oz",
+      "brand": "kirkland signature",
+      "price": "$8.50",
+      "item_id": "items_439-136927748",
+      "product_id": "136927748",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_81384ae4-7fc3-43b2-b6db-13668f7bde2b.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Pork St Louis Ribs",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$35.89 /pkg (est.)",
+      "item_id": "items_439-29002156",
+      "product_id": "29002156",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_46a2a856-f21e-47a1-9ad3-3f82d73f9e24.jpg",
+      "availability": "inStock"
+    }
   ],
-  "error": "Error: page.waitForTimeout: Target page, context or browser has been closed",
-  "js_debug": "Error: page.evaluate: Target page, context or browser has been closed\nBrowser logs:\n\nsession killed due to 300s of network inactivity\n"
+  "raw_text_chars": 7950,
+  "steps": [
+    "01:06:50 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "01:06:52 connected to Bright Data Scraping Browser",
+    "01:07:26 goto https://www.instacart.com/store/costco/s?k=tamales",
+    "01:07:35 captcha check passed",
+    "01:07:50 dismiss: nothing to close",
+    "01:08:40 js_houses 74 store API zip 80202 shop 2043 location 439",
+    "01:08:41 store_set: null",
+    "01:08:41 js_houses override: 74",
+    "01:08:43 extracted 74 houses; raw text 7950 chars"
+  ],
+  "error": null,
+  "js_houses": [
+    {
+      "name": "Del Real Foods Chicken with Red Sauce Tamales, 15-count",
+      "size": "each",
+      "brand": "del real",
+      "price": "$20.69",
+      "item_id": "items_439-18642404",
+      "product_id": "18642404",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ea070908-85b7-464f-9d06-e582b0952918.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Don Miguel Chipotle Chicken Mini Tacos, 35 oz",
+      "size": "each",
+      "brand": "don miguel",
+      "price": "$13.79",
+      "item_id": "items_439-387438",
+      "product_id": "387438",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9517a8a0-4060-400d-88a8-d093150cdd81.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Del Real Three Cheese Quesadilla Bites, 32 oz",
+      "size": "32 oz",
+      "brand": "deal real",
+      "price": "$11.49",
+      "item_id": "items_439-64523361",
+      "product_id": "64523361",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4946c5cb-4311-4fd7-902f-ec72b7d4e560.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Authentic Kitchen Chicken Flauntas, 44 oz",
+      "size": "44 oz",
+      "brand": "authentic kitchen",
+      "price": "$18.39",
+      "item_id": "items_439-70523111",
+      "product_id": "70523111",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bc95728b-006e-4da0-b067-bb9c0c945709.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Mercedes' Chile Grande Breakfast Burrito, 8 oz, 6 count",
+      "size": "each",
+      "brand": "high summit dist.   dir 1",
+      "price": "$19.54",
+      "item_id": "items_439-3217782",
+      "product_id": "3217782",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_24108cdf-b428-4d3e-a56b-deab00503c2f.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Organic Extra Form Tofu, 16 oz, 4-count",
+      "size": "16 oz",
+      "brand": "kirkland signature",
+      "price": "$7.12",
+      "item_id": "items_439-86922165",
+      "product_id": "86922165",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_df82e41d-b182-4d80-96be-e9517661ce53.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Posada Chimichangas, Shredded Steak & Cheese, 5 oz, 18-count",
+      "size": "each",
+      "brand": "posada",
+      "price": "$21.84",
+      "item_id": "items_439-213771",
+      "product_id": "213771",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_da3152b4-f869-4b1b-a13a-1eb1b7f11b64.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Shredded Mexican Style Blend Cheese, 2.5 lbs, 2-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$15.51",
+      "item_id": "items_439-17985872",
+      "product_id": "17985872",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_77ec04a3-4ad0-41cd-b847-a7d190f03645.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Avocado Hass Variety, 6-count",
+      "size": "each",
+      "brand": null,
+      "price": "$6.77",
+      "item_id": "items_439-18848256",
+      "product_id": "18848256",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_856d1af9-d3f0-4abb-baf2-5e36f67d7965.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tortilla Fresca Uncooked Flour Tortillas, 44-count",
+      "size": "each",
+      "brand": "franco whole foods    -t-",
+      "price": "$9.76",
+      "item_id": "items_439-17637315",
+      "product_id": "17637315",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_099b88ea-85e9-4a36-b45f-2fde4776cb14.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "El Monterey Mexican Grill Taquitos, Chicken & Cheese, 30-count",
+      "size": "each",
+      "brand": "el monterey",
+      "price": "$16.66",
+      "item_id": "items_439-58263",
+      "product_id": "58263",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_01ede6bb-0722-4ef8-9bc2-3e97e7b5eb3f.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "On The Street Foods Beef Taco Style Carne Asada, 28 oz",
+      "size": "28 oz",
+      "brand": "on the street foods",
+      "price": "$19.54",
+      "item_id": "items_439-118552022",
+      "product_id": "118552022",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c245e815-3a9d-4d4c-a5d6-1e6759101f65.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Smoked Pulled Pork, Rubbed with Seasonings, 2 lbs",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$16.09",
+      "item_id": "items_439-29992295",
+      "product_id": "29992295",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_62cf248b-d394-4b04-8fd1-a60cfd1e97a0.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Eat in Foods Spinach, Feta and Sun-Dried Tomato Wrap, 5.8 oz, 6-count",
+      "size": "5.8 oz",
+      "brand": "eat in foods",
+      "price": "$17.81",
+      "item_id": "items_439-98920367",
+      "product_id": "98920367",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_70bf6ff0-59be-4488-9f6f-51748b825162.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Red's Organic Bean and Cheese Burritos, 10-count",
+      "size": "each",
+      "brand": "red's",
+      "price": "$14.94",
+      "item_id": "items_439-25690612",
+      "product_id": "25690612",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ebd0c6e0-e8ae-4542-b38d-3f26ebbeadc8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "La Chona Quesadilla Shredded Cheese, 32 oz",
+      "size": "each",
+      "brand": "la chona",
+      "price": "$9.19",
+      "item_id": "items_439-26791133",
+      "product_id": "26791133",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bc15f74c-6384-4dd0-a9cb-f9df02e6ffb8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Ling Ling Potstickers, Chicken and Vegetable, 4.2 lbs",
+      "size": "4.2 lb",
+      "brand": "ling ling",
+      "price": "$13.21",
+      "item_id": "items_439-58101642",
+      "product_id": "58101642",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_23f27e7d-1144-40a4-9f9b-c26bfd2aa8e5.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Stuffed Bell Peppers with Ground Beef & Rice",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$10.04 /pkg (est.)",
+      "item_id": "items_439-3117814",
+      "product_id": "3117814",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2685cbc4-72d3-492d-bf63-ecafb68a1676.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Del Real Foods Fire Roasted Combo Salsa, 24 oz, 2-pack",
+      "size": "each",
+      "brand": "del real",
+      "price": "$8.84",
+      "item_id": "items_439-18498982",
+      "product_id": "18498982",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_93ff29f5-f14a-4a4d-aa2f-ea75a2113bd3.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Frankly Fresh Chicken Breast Burrito Bowl, 12 oz, 3-count",
+      "size": "each",
+      "brand": "frankly fresh",
+      "price": "$14.82",
+      "item_id": "items_439-3308577",
+      "product_id": "3308577",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_572aefa7-7ea1-449c-931e-8800db3a169a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Snapdragon Foods Vietnamese Pho Bowls, Beef, 3.1 oz, 9-count",
+      "size": "27.5 oz",
+      "brand": "snapdragon",
+      "price": "$10.34",
+      "item_id": "items_439-90991915",
+      "product_id": "90991915",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c3afcef6-eacc-48a8-a46b-558526377a16.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Nutty & Fruity Spicy Chili Tamarind Bites, 24 oz",
+      "size": "each",
+      "brand": "nutty & fruity",
+      "price": "$12.64",
+      "item_id": "items_439-27239139",
+      "product_id": "27239139",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9193adfe-337f-4b90-b7ab-cc67c56a20f1.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Chicken Pot Pie, All White Meat, Ready To Bake",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$24.33 /pkg (est.)",
+      "item_id": "items_439-57931",
+      "product_id": "57931",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_220be3aa-4748-4f05-9f7b-17041230e143.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Chicken Street Tacos, 12-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$18.30 /pkg (est.)",
+      "item_id": "items_439-19612238",
+      "product_id": "19612238",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f36c46b8-1463-4981-a583-84b6518852e4.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Caramel S’mores Clusters, 26.3 oz",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$13.44",
+      "item_id": "items_439-32407657",
+      "product_id": "32407657",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8fde0389-c4d7-49f0-b9f6-98f4d719c40b.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Pumpkin Pie, 58 oz",
+      "size": "58 oz",
+      "brand": "kirkland signature",
+      "price": "$6.89",
+      "item_id": "items_439-57495",
+      "product_id": "57495",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_718de52e-d0b0-4883-a7ce-83a87aafd761.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Rosarita Organic Refried Beans, 16 oz, 8-count",
+      "size": "each",
+      "brand": "rosarita",
+      "price": "$14.36",
+      "item_id": "items_439-18471658",
+      "product_id": "18471658",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7a017620-d39c-4ee3-9225-c1dcae2b88a1.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Rotisserie Chicken Enchilada",
+      "size": "each",
+      "brand": null,
+      "price": "$25.98 /pkg (est.)",
+      "item_id": "items_439-16917934",
+      "product_id": "16917934",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_794b088a-0f95-43f4-be84-0bcc54cf070e.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Fresh Additions Sirloin Steak Bites, 3.2 oz, 6-count",
+      "size": "each",
+      "brand": "fresh additions",
+      "price": "$22.99",
+      "item_id": "items_439-41864404",
+      "product_id": "41864404",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_038b6d67-45f1-482b-b20d-dff5030e943e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Cholula, Hot Sauce Original, 12 fl oz, 2-Count",
+      "size": "each",
+      "brand": "cholula",
+      "price": "$11.49",
+      "item_id": "items_439-18038059",
+      "product_id": "18038059",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d4f26a5d-9652-4879-a1cb-d8762c5eee58.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Marie Callender's Chicken Pot Pies, 10 oz, 8-count",
+      "size": "each",
+      "brand": "marie callender's",
+      "price": "$14.94",
+      "item_id": "items_439-20223013",
+      "product_id": "20223013",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_814368c5-9251-4c9e-9609-0e7744c0d005.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "La Terra Fina Quiche Variety Pack, 2-count",
+      "size": "each",
+      "brand": "la terra fina",
+      "price": "$19.54",
+      "item_id": "items_439-21725177",
+      "product_id": "21725177",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_21c507e6-114f-4d37-bcbd-856175a192ae.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Super Sweet Corn, 8-count",
+      "size": "each",
+      "brand": null,
+      "price": "$6.89",
+      "item_id": "items_439-18848231",
+      "product_id": "18848231",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4e3471db-e5c8-4446-a6f2-6bc5a4d675f5.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Siete Almond Flour Tortilla, 20-count",
+      "size": "each",
+      "brand": "siete",
+      "price": "$9.88",
+      "item_id": "items_439-24697793",
+      "product_id": "24697793",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_061a2330-90f0-4bbd-ab74-902b07091ae7.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Wholly Guacamole Organic Mild Guacamole, 15 oz, 3-count",
+      "size": "each",
+      "brand": "wholly guacamole",
+      "price": "$16.09",
+      "item_id": "items_439-25754393",
+      "product_id": "25754393",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_395eed5d-7afc-4f49-af10-bce0c4927d5d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Beef Chili",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$18.36 /pkg (est.)",
+      "item_id": "items_439-26274259",
+      "product_id": "26274259",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b02b10a9-3d7d-47bd-a5e7-60cc653a6050.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Reynaldo's Queso Oaxaca Melting Cheese, 3 lbs",
+      "size": "each",
+      "brand": "reynaldo's",
+      "price": "$17.24",
+      "item_id": "items_439-23004360",
+      "product_id": "23004360",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6a1a9777-9987-4651-b992-f77634f7d616.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Chicken Bakes, 8 oz, 6-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$17.24",
+      "item_id": "items_439-18498999",
+      "product_id": "18498999",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7803838c-613b-44fd-b26c-998318a87fa5.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Del Real Foods Carnitas, 40 oz",
+      "size": "each",
+      "brand": "del real",
+      "price": "$20.11",
+      "item_id": "items_439-33085",
+      "product_id": "33085",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2ef99b60-d9f1-4cb4-8a46-425af539c3b5.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Brisket Burnt Ends",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$27.41 /pkg (est.)",
+      "item_id": "items_439-38902545",
+      "product_id": "38902545",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3c511647-6b13-4172-a4a3-54b0d17bf79f.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Daphne's Beef and Lamb Gyro Slices, 16 oz, 2-count",
+      "size": "16 oz",
+      "brand": "daphne's",
+      "price": "$17.01",
+      "item_id": "items_439-66322606",
+      "product_id": "66322606",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c3163cf5-65b8-48b9-92a0-e88bbf28f079.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "505 Southwestern Flame Roasted Green Chile, 40 oz",
+      "size": "each",
+      "brand": "flagship food group",
+      "price": "$10.11",
+      "item_id": "items_439-17406423",
+      "product_id": "17406423",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ec48a4f1-ca02-4110-b4f1-3219d5e58dbf.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Shepherd's Pie, Ready To Bake",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$25.64 /pkg (est.)",
+      "item_id": "items_439-18446748",
+      "product_id": "18446748",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_869c1e88-294d-41c6-80b3-34b2ce5fa007.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Caramel Apple Strudel Bites, 12-count",
+      "size": "12 ct",
+      "brand": "kirkland signature",
+      "price": "$9.19",
+      "item_id": "items_439-85581811",
+      "product_id": "85581811",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4ed2b2dd-6e86-497a-af09-d1bdefcf8d0f.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tipiak French Macarons Variety Pack, 36-count",
+      "size": "each",
+      "brand": "tipiak",
+      "price": "$13.79",
+      "item_id": "items_439-19328867",
+      "product_id": "19328867",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7d3cd085-7048-4f11-87c6-c72987c7d38a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Meatloaf with Yukon Gold Mashed Potatoes",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$21.76 /pkg (est.)",
+      "item_id": "items_439-17681972",
+      "product_id": "17681972",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bf345a52-7fee-41ef-9764-ebb1e08c41d2.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Beef Pot Roast with Gravy",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$21.14 /pkg (est.)",
+      "item_id": "items_439-28250972",
+      "product_id": "28250972",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_aea06198-2a39-472b-a3f4-8634703a3cf6.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Bill Bailey's Carne Asada Beef Sirloin Flap, Onion, Garlic & Citrus Marinade",
+      "size": "each",
+      "brand": "bill bailey's",
+      "price": "$48.27 /pkg (est.)",
+      "item_id": "items_439-3118736",
+      "product_id": "3118736",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_0201b965-8874-4593-9f6a-efaccbcc7cfa.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Tortilla Strips, 48 oz",
+      "size": "48 oz",
+      "brand": "kirkland signature",
+      "price": "$5.74",
+      "item_id": "items_439-30175513",
+      "product_id": "30175513",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6945d107-1cbe-427e-92f0-ac6d01936f9c.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Cuisine Solutions Sliced Grass-Fed Beef Sirloin",
+      "size": "each",
+      "brand": "cuisine solutions",
+      "price": "$32.82 /pkg (est.)",
+      "item_id": "items_439-19390334",
+      "product_id": "19390334",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f90889a5-4edf-433f-8d97-6739e35cfb44.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Tatemeda Salsa Molcajete, 32 oz",
+      "size": "32 oz",
+      "brand": "tatemeda",
+      "price": "$10.34",
+      "item_id": "items_439-55473088",
+      "product_id": "55473088",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9bd4fd28-703e-4e19-a83e-a94c6088e4dc.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Roasted Chicken & Swiss Roller Tray, 12-count",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$16.92 /pkg (est.)",
+      "item_id": "items_439-24998546",
+      "product_id": "24998546",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7d1b7bb3-b4fa-4ffe-8f4c-b7cf11b2218c.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Cuisine Adventures Franks in a Blanket Variety Pack, 35.6 oz",
+      "size": "35.6 oz",
+      "brand": "cuisine adventures",
+      "price": "$16.09",
+      "item_id": "items_439-129187741",
+      "product_id": "129187741",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bd2ce882-dbf6-4242-bd55-c82450cd0067.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Sweetwood Ranch Angus Cheeseburger Sliders, 10-count",
+      "size": "10 ct",
+      "brand": "sweetwood ranch",
+      "price": "$19.54",
+      "item_id": "items_439-98214968",
+      "product_id": "98214968",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e7bb6619-a36f-44b2-abdf-52aa55a2e839.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Guerrero Tostadas, 25.6 oz",
+      "size": "each",
+      "brand": "guerrero",
+      "price": "$4.82",
+      "item_id": "items_439-18653911",
+      "product_id": "18653911",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_38835ce1-462d-4222-a934-fbcfcc460f17.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Beef Loin New York Previously Frozen (Shabu Shabu)",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$47.95 /pkg (est.)",
+      "item_id": "items_439-26343360",
+      "product_id": "26343360",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d51521ec-30e4-4400-be93-41fe039aa258.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Stinkin Good Green Chili Pork Sauce, 1 lb 14 oz",
+      "size": "each",
+      "brand": "stink inc",
+      "price": "$11.49",
+      "item_id": "items_439-3217789",
+      "product_id": "3217789",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_05be04d4-a8c5-4230-bbe3-c6465d3abe5a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Organic Limes, 3 lbs",
+      "size": "each",
+      "brand": null,
+      "price": "$9.76",
+      "item_id": "items_439-26399660",
+      "product_id": "26399660",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_936431fc-3521-4549-8ed7-6283954f2b87.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "La Favorita Corn Tortillas, 50-count",
+      "size": "each",
+      "brand": "la favorita",
+      "price": "$5.62",
+      "item_id": "items_439-19186689",
+      "product_id": "19186689",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_113832ee-bccb-4ffd-b2a0-a0ca50e320e0.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Nuovo Pasta Pumpkin & Bats Ravioli, 16 oz, 2-count",
+      "size": "each",
+      "brand": "nuovo pasta",
+      "price": "$11.49",
+      "item_id": "items_439-3073816",
+      "product_id": "3073816",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_46ab2fd7-cd1c-480c-b563-17f2427aca61.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Raybern's Philly Cheesesteak Sandwich, 33.6 oz",
+      "size": "33.6 oz",
+      "brand": "raybern's",
+      "price": "$14.94",
+      "item_id": "items_439-50026566",
+      "product_id": "50026566",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5860bf2c-4204-45f0-a500-080b5cbc6c85.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Seasoned St. Louis Ribs",
+      "size": "each",
+      "brand": null,
+      "price": "$27.25 /pkg (est.)",
+      "item_id": "items_439-17682351",
+      "product_id": "17682351",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c3a182f2-ff97-4208-8b8d-a1390b081519.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Croissant Chicken Salad Sandwich Platter",
+      "size": "1 each",
+      "brand": null,
+      "price": "$51.74",
+      "item_id": "items_439-121836565",
+      "product_id": "121836565",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_68ce4d96-0476-4e8d-b0e6-88512430e557.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Beef and Chicken Fajita Kit, 12-count",
+      "size": "12 ct",
+      "brand": "kirkland signature",
+      "price": "$26.85 /pkg (est.)",
+      "item_id": "items_439-122999809",
+      "product_id": "122999809",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b1ecdb5f-4f81-4bef-9ec0-0bacf304325d.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature, Thai Hom Mali Jasmine Rice, 25 lbs",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$24.14",
+      "item_id": "items_439-16955340",
+      "product_id": "16955340",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ac891ea6-1b94-4519-b78e-54e167911cd2.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Mission Hill Bistro Smoked Sliced Beef Brisket",
+      "size": "each",
+      "brand": "mission hill bistro",
+      "price": "$33.47 /pkg (est.)",
+      "item_id": "items_439-21149744",
+      "product_id": "21149744",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2f4b4a10-a0fa-4de7-853e-85bbfcb1c8b8.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Skinny Butcher Chicken Dippers with Barbeque Sauce, 3.5 oz, 4-count",
+      "size": "3.5 oz",
+      "brand": "skinny butcher",
+      "price": "$5.74",
+      "item_id": "items_439-127066152",
+      "product_id": "127066152",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_169b1b8d-ec4b-47e5-bb2e-a82db7bebe3f.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature St. Louis Style Dry Rub Ribs",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$32.51 /pkg (est.)",
+      "item_id": "items_439-18246235",
+      "product_id": "18246235",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ea86506b-9a02-4441-b136-d0255d3aac00.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Chicken Sandwich on Pretzel Buns with Sauce",
+      "size": "1 each",
+      "brand": "kirkland signature",
+      "price": "$16.82 /pkg (est.)",
+      "item_id": "items_439-129311034",
+      "product_id": "129311034",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_998306db-9100-402f-8948-272bf669a9bc.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "A La Carte Pomegranate Fig Lamb Shanks, 2-count",
+      "size": "each",
+      "brand": "a la carte",
+      "price": "$30.73 /pkg (est.)",
+      "item_id": "items_439-20713070",
+      "product_id": "20713070",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_574539c9-7401-4ed9-b9dc-9539539555dd.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kevin's Natural Foods Thai-Style Basil Beef, 32 oz",
+      "size": "32 oz",
+      "brand": "kevin's natural foods",
+      "price": "$21.84",
+      "item_id": "items_439-88056606",
+      "product_id": "88056606",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_35e0596a-3bc4-43ab-94f4-444c93b8493d.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Kirkland Signature Beef Brisket",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$108.78 /pkg (est.)",
+      "item_id": "items_439-241614",
+      "product_id": "241614",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_acbb5209-b915-45c5-baa5-caa07bd54d9a.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Paneer Cheese, 16 oz, 2-count",
+      "size": "16 oz",
+      "brand": "kirkland signature",
+      "price": "$8.50",
+      "item_id": "items_439-136927748",
+      "product_id": "136927748",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_81384ae4-7fc3-43b2-b6db-13668f7bde2b.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Kirkland Signature Pork St Louis Ribs",
+      "size": "each",
+      "brand": "kirkland signature",
+      "price": "$35.89 /pkg (est.)",
+      "item_id": "items_439-29002156",
+      "product_id": "29002156",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_46a2a856-f21e-47a1-9ad3-3f82d73f9e24.jpg",
+      "availability": "inStock"
+    }
+  ],
+  "js_store": "API zip 80202 shop 2043 location 439",
+  "js_debug": "DefaultShop 200 1635 | SearchResultsPlacements 200 150176 | shop 2043 loc 439 zone 785 ids 74 | Items 200 272422 | Items 200 272237 | Items 200 127516",
+  "houses_text": 3,
+  "houses_page": 59
 }
