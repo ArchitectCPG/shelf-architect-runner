@@ -77,6 +77,8 @@ def fix_brand(brand,nm):
         if len(out)==3: break
     if out and 1<=len(out)<=3 and len(' '.join(out))>2 and not re.match(r'^(the|a|an)$',out[0],re.I): return ' '.join(out)
     return None
+RET={'kingsoopers':('King Soopers','king-soopers'),'citymarket':('City Market','city-market'),'safeway':('Safeway','safeway'),'heb':('H-E-B','heb'),'walmart':('Walmart','walmart'),'target':('Target','target'),'sprouts':('Sprouts Farmers Market','sprouts'),'wholefoods':('Whole Foods Market','wholefoods'),'costco':('Costco','costco'),'costco-online':('Costco','costco')}
+os.makedirs(out+'/held',exist_ok=True); held={}
 for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
     b=json.load(open(f)); d=latest(b); nb=next(n for n in C['neighborhoods'] if n['id']==b['neighborhood'])
     stats['blocks']+=1
@@ -93,30 +95,49 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
         if not x['relevant'] and not is_own: stats['dropped_irrelevant']+=1; continue
         if C.get('brand_exclude') and re.search(C['brand_exclude'],nm,re.I) and not is_own and x['brand_norm'] and re.search(C['brand_terms'][0],x['brand_norm'],re.I): continue
         brand=fix_brand(x['brand_norm'],nm) or 'Unbranded'; oz,ct=parse_size((h.get('size') or '')+' '+nm+' '+' '.join(h.get('card_text') or []))
+        size_src='label'
+        if not oz and not ct:
+            ct_txt=' '.join(h.get('card_text') or [])
+            um=re.search(r'\$(\d+(?:\.\d+)?)\s*/\s*(fl\.? ?oz|oz|lb|ct|count)\b',ct_txt,re.I)
+            if um:
+                unit=float(um.group(1)); u=um.group(2).lower()
+                best=None
+                for p_ in {v for v in (x['price_promo'],x['price_regular']) if v}:
+                    q=p_/unit; q=q*16 if u=='lb' else q
+                    err=abs(q*2-round(q*2))
+                    if best is None or err<best[0]: best=(err,q)
+                if best and best[0]<0.12:
+                    if u in('ct','count'): ct=int(round(best[1]))
+                    else: oz=round(best[1]*2)/2
+                    size_src='derived_unit_price'
         pname=clean_name(nm,brand)
-        rid=f"{retailer_slug}_{slug(brand)}_{slug(pname)}_{size_slug(oz,ct)}"
+        disp,idp=RET.get(retailer_slug,(retailer_slug,retailer_slug)); rid=f"{idp}_{slug(brand)}_{slug(pname)}_{size_slug(oz,ct)}"
         reg=x['price_regular']; pro=x['price_promo']
         block=f"{b['zip']}/{b['neighborhood']}@{banner}"
         r=rows.get(rid)
         if r is None:
-            r=dict(brand=brand,product_name=pname,retailer=retailer_slug,client_id=cid,is_own_brand=is_own,
+            r=dict(brand=brand,product_name=pname,retailer=disp,client_id=cid,is_own_brand=is_own,
               is_private_label=bool(PL.match(brand)) and not is_own,source_type='scrape',price=(pro or reg),
-              price_regular=reg,price_basis=price_basis,size_oz=oz,count=ct,
+              price_regular=reg,price_basis=price_basis,size_oz=oz,size_source=size_src,count=ct,
               price_per_oz=(round((pro or reg)/oz,4) if oz and (pro or reg) else None),
               price_history=[{'date':today,'price':(pro or reg)}],last_pulled=today,pulled_at=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
               region=str(d.get('store_set') or ''),route='runner-'+('instacart' if price_basis=='instacart_quote' else 'api' if str(d.get('store_set','')).startswith('API') else 'recipe'),
               block=block,zip=b['zip'],neighborhood=b['neighborhood'],neighborhoods=[b['neighborhood']],blocks=[block],
               pull_url=h.get('link') or d.get('url_final'),notes=f"Runner pull {today}, lane {b.get('retailer')}, store: {d.get('store_set')}."+(" Instacart quote, carries marketplace markup; pricing intel, not shelf price." if price_basis=='instacart_quote' else ''),
-              channel=None,category=C.get('department'))
+              category=C.get('department'))
             if pro: r['sale_price']=pro
             if banner in DOLLAR: r['pricing_cohort']='dollar'
             rows[rid]=r
+            if not oz and not ct: r['hold_reason']='no size parsed'
         else:
             if b['neighborhood'] not in r['neighborhoods']: r['neighborhoods'].append(b['neighborhood'])
             if block not in r['blocks']: r['blocks'].append(block)
         kept+=1; brands.add(brand)
     blocks_out.append(dict(block=b['block_id'],last_walked=today,last_result=f"walked: {kept} houses across {len(brands)} brands",store=d.get('store_set'),error=d.get('error')))
-for rid,r in rows.items(): json.dump(r,open(f'{out}/retail_entries/{rid}.json','w'),indent=1)
+for rid,r in rows.items():
+    tgt='held' if r.get('hold_reason') else 'retail_entries'
+    json.dump(r,open(f'{out}/{tgt}/{rid}.json','w'),indent=1)
+stats['held_no_size']=sum(1 for r in rows.values() if r.get('hold_reason'))
 stats['rows']=len(rows)
 json.dump(blocks_out,open(out+'/matrix_blocks.json','w'),indent=1); json.dump(stats,open(out+'/summary.json','w'),indent=1)
 print(json.dumps(stats))

@@ -49,7 +49,9 @@
   {
    "id": "queso",
    "term": "queso",
-   "relevance": "queso|cheese dip"
+   "relevance": "queso|cheese dip",
+   "exclude": "fresco|muenster|cotija|panela|an[e\u00ea]jo|oaxaca|quesadilla|para freir|shredded|popcorn|popped|chips?\\b|crisps|puffs|snack|crackers|pretzel|lentil|soup|nachos|taco kit|slices|sticks|string",
+   "keep": "\\bdip\\b|con queso|queso sauce|cheese sauce|queso blanco|queso amarillo|queso dip"
   },
   {
    "id": "tamales",

@@ -36,7 +36,11 @@ def brand_of(h,hints):
     return m.group(1).strip() if m else None
 def relevant(h,nb):
     rx=nb.get('relevance') or r'\b'+re.sub(r'\s+',r'\\W+',nb['term'])+r's?\b'
-    return bool(re.search(rx,(h.get('name') or '')+' '+' '.join(h.get('card_text') or []),re.I))
+    txt=(h.get('name') or '')+' '+' '.join(h.get('card_text') or [])
+    if not re.search(rx,txt,re.I): return False
+    ex=nb.get('exclude')
+    if ex and re.search(ex,(h.get('name') or ''),re.I) and not (nb.get('keep') and re.search(nb['keep'],(h.get('name') or ''),re.I)): return False
+    return True
 def normalize(h,C,nb):
     reg,pro=dual_price(h)
     return dict(h,brand_norm=brand_of(h,build_hints(C)),price_regular=reg,price_promo=pro,relevant=relevant(h,nb))
