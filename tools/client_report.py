@@ -15,7 +15,7 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
     h=[normalize(x,C,nb) for x in h]
     for x in h:
         nm=(x.get('name') or '')+' '+(x.get('brand') or '')
-        x['_banner']=b['retailer']; x['_term']=b['term']; x['_sg']=any(re.search(t,nm,re.I) for t in C['brand_terms'])
+        x['_banner']=b['retailer']; x['_term']=b['term']; x['_sg']=any(re.search(t,nm,re.I) for t in C['brand_terms']) and not (C.get('brand_exclude') and re.search(C['brand_exclude'],nm,re.I))
         x['_comp']=[k for k,ts in C['competitor_terms'].items() if any(re.search(t,nm,re.I) for t in ts)]
         allh.append(x)
     hr=[x for x in h if x['relevant']]; ps=[price(x.get('price')) for x in hr if price(x.get('price'))]

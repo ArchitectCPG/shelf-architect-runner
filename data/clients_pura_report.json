@@ -1,0 +1,4200 @@
+{
+ "client": "pura",
+ "rows": [
+  {
+   "banner": "costco-ic",
+   "term": "pura soda",
+   "status": "OK",
+   "houses": 50,
+   "relevant": 0,
+   "store": "API zip 90012 shop 238 location 319",
+   "sg": 0,
+   "comp": 15,
+   "pmed": null,
+   "err": ""
+  },
+  {
+   "banner": "costco-ic",
+   "term": "electrolyte hydration drink",
+   "status": "WEAK",
+   "houses": 0,
+   "relevant": 0,
+   "store": "",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": "Error: page.evaluate: Execution context was destroyed, most "
+  },
+  {
+   "banner": "costco-ic",
+   "term": "kids juice drink",
+   "status": "WEAK",
+   "houses": 0,
+   "relevant": 0,
+   "store": "",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": "Error: page.evaluate: Execution context was destroyed, most "
+  },
+  {
+   "banner": "costco-ic",
+   "term": "natural soda",
+   "status": "WEAK",
+   "houses": 0,
+   "relevant": 0,
+   "store": "",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": "Error: page.evaluate: Execution context was destroyed, most "
+  },
+  {
+   "banner": "heb",
+   "term": "pura soda",
+   "status": "OK",
+   "houses": 47,
+   "relevant": 3,
+   "store": "Victoria H\u2011E\u2011B plus!",
+   "sg": 3,
+   "comp": 18,
+   "pmed": 4.48,
+   "err": ""
+  },
+  {
+   "banner": "heb",
+   "term": "electrolyte hydration drink",
+   "status": "OK",
+   "houses": 60,
+   "relevant": 60,
+   "store": "Victoria H\u2011E\u2011B plus!",
+   "sg": 0,
+   "comp": 8,
+   "pmed": 5.44,
+   "err": ""
+  },
+  {
+   "banner": "heb",
+   "term": "kids juice drink",
+   "status": "WEAK",
+   "houses": 0,
+   "relevant": 0,
+   "store": "",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": "Error: page.evaluate: Execution context was destroyed, most "
+  },
+  {
+   "banner": "heb",
+   "term": "natural soda",
+   "status": "OK",
+   "houses": 18,
+   "relevant": 16,
+   "store": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+   "sg": 0,
+   "comp": 5,
+   "pmed": 6.3,
+   "err": ""
+  },
+  {
+   "banner": "sprouts",
+   "term": "pura soda",
+   "status": "OK",
+   "houses": 163,
+   "relevant": 4,
+   "store": "API zip 90012 shop 542872 location 177895",
+   "sg": 4,
+   "comp": 76,
+   "pmed": 2.89,
+   "err": ""
+  },
+  {
+   "banner": "sprouts",
+   "term": "electrolyte hydration drink",
+   "status": "WEAK",
+   "houses": 0,
+   "relevant": 0,
+   "store": "",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": ""
+  },
+  {
+   "banner": "sprouts",
+   "term": "kids juice drink",
+   "status": "OK",
+   "houses": 247,
+   "relevant": 182,
+   "store": "API zip 90012 shop 542872 location 177895",
+   "sg": 0,
+   "comp": 4,
+   "pmed": 7.49,
+   "err": ""
+  },
+  {
+   "banner": "sprouts",
+   "term": "natural soda",
+   "status": "OK",
+   "houses": 193,
+   "relevant": 165,
+   "store": "API zip 90012 shop 542872 location 177895",
+   "sg": 4,
+   "comp": 89,
+   "pmed": 2.99,
+   "err": ""
+  },
+  {
+   "banner": "target",
+   "term": "pura soda",
+   "status": "OK",
+   "houses": 47,
+   "relevant": 11,
+   "store": "API zip 90012 (dataset gd_ltppk5mx2lp0v1k0vo)",
+   "sg": 0,
+   "comp": 16,
+   "pmed": 13.99,
+   "err": ""
+  },
+  {
+   "banner": "target",
+   "term": "electrolyte hydration drink",
+   "status": "OK",
+   "houses": 48,
+   "relevant": 48,
+   "store": "API zip 90012 (dataset gd_ltppk5mx2lp0v1k0vo)",
+   "sg": 0,
+   "comp": 15,
+   "pmed": 11.39,
+   "err": ""
+  },
+  {
+   "banner": "target",
+   "term": "kids juice drink",
+   "status": "OK",
+   "houses": 47,
+   "relevant": 42,
+   "store": "API zip 90012 (dataset gd_ltppk5mx2lp0v1k0vo)",
+   "sg": 0,
+   "comp": 5,
+   "pmed": 5.29,
+   "err": ""
+  },
+  {
+   "banner": "target",
+   "term": "natural soda",
+   "status": "WEAK",
+   "houses": 0,
+   "relevant": 0,
+   "store": "API zip 90012 (dataset gd_ltppk5mx2lp0v1k0vo)",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": ""
+  },
+  {
+   "banner": "walmart",
+   "term": "pura soda",
+   "status": "WEAK",
+   "houses": 0,
+   "relevant": 0,
+   "store": "API zip 90012 (dataset gd_m693oc1r1gebnayxq)",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": ""
+  },
+  {
+   "banner": "walmart",
+   "term": "electrolyte hydration drink",
+   "status": "OK",
+   "houses": 38,
+   "relevant": 38,
+   "store": "API zip 90012 store_id 3180 (dataset gd_m693oc1r1gebnayxq)",
+   "sg": 0,
+   "comp": 0,
+   "pmed": 5.12,
+   "err": ""
+  },
+  {
+   "banner": "walmart",
+   "term": "kids juice drink",
+   "status": "OK",
+   "houses": 42,
+   "relevant": 37,
+   "store": "API zip 90012 store_id 3180 (dataset gd_m693oc1r1gebnayxq)",
+   "sg": 0,
+   "comp": 12,
+   "pmed": 13.28,
+   "err": ""
+  },
+  {
+   "banner": "walmart",
+   "term": "natural soda",
+   "status": "WEAK",
+   "houses": 0,
+   "relevant": 0,
+   "store": "API zip 90012 (dataset gd_m693oc1r1gebnayxq)",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": ""
+  },
+  {
+   "banner": "wholefoods",
+   "term": "electrolyte hydration drink",
+   "status": "OK",
+   "houses": 34,
+   "relevant": 32,
+   "store": "",
+   "sg": 0,
+   "comp": 3,
+   "pmed": 20.49,
+   "err": ""
+  },
+  {
+   "banner": "wholefoods",
+   "term": "kids juice drink",
+   "status": "OK",
+   "houses": 30,
+   "relevant": 25,
+   "store": "",
+   "sg": 0,
+   "comp": 5,
+   "pmed": 4.89,
+   "err": ""
+  },
+  {
+   "banner": "wholefoods",
+   "term": "natural soda",
+   "status": "WEAK",
+   "houses": 0,
+   "relevant": 0,
+   "store": "",
+   "sg": 0,
+   "comp": 0,
+   "pmed": null,
+   "err": ""
+  }
+ ],
+ "sg_items": [
+  {
+   "name": "Pura Kids Lemonade Fruit Extract Infused Drink Boxes, 6 pk, 6.76 oz",
+   "price": "$4.48",
+   "size": "6.76 oz",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 4.48,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "pura soda"
+  },
+  {
+   "name": "Pura Kids Pink Apple Fruit Extract Infused Drink Boxes, 6 pk, 6.76 oz",
+   "price": "$4.48",
+   "size": "6.76 oz",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 4.48,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "pura soda"
+  },
+  {
+   "name": "Pura Kids Mixed Berry Fruit Extract Infused Drink Boxes, 6 pk, 6.76 oz",
+   "price": "$4.48",
+   "size": "6.76 oz",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 4.48,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "pura soda"
+  },
+  {
+   "name": "Pura Soda Ginger Ale Cane Sugar Soda 4 Pack",
+   "size": "10 fl oz",
+   "price": "$4.49",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 4.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "pura soda"
+  },
+  {
+   "name": "Pura Soda Cranberry Cane Sugar Soda",
+   "size": "10 fl oz",
+   "price": "$1.29",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 1.29,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "pura soda"
+  },
+  {
+   "name": "Pura Soda Ginger Ale Cane Sugar Soda",
+   "size": "10.1 fl oz",
+   "price": "$1.29",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 1.29,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "pura soda"
+  },
+  {
+   "name": "Pura Soda Cranberry Cane Sugar Soda 4 Pack",
+   "size": "4 ct",
+   "price": "$4.49",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 4.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "pura soda"
+  },
+  {
+   "name": "Pura Soda Ginger Ale Cane Sugar Soda 4 Pack",
+   "size": "10 fl oz",
+   "price": "$4.49",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 4.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda"
+  },
+  {
+   "name": "Pura Soda Cranberry Cane Sugar Soda 4 Pack",
+   "size": "4 ct",
+   "price": "$4.49",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 4.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda"
+  },
+  {
+   "name": "Pura Soda Cranberry Cane Sugar Soda",
+   "size": "10 fl oz",
+   "price": "$1.29",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 1.29,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda"
+  },
+  {
+   "name": "Pura Soda Ginger Ale Cane Sugar Soda",
+   "size": "10.1 fl oz",
+   "price": "$1.29",
+   "brand_norm": "Pura Beverage",
+   "price_regular": 1.29,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda"
+  }
+ ],
+ "comp_items": [
+  {
+   "name": "Coca-Cola Classic, 12 fl oz, 35-count",
+   "size": "12 fl oz",
+   "price": "$26.17",
+   "brand_norm": "Coca-Cola Simply Pop",
+   "price_regular": 26.17,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Coca-Cola Simply Pop"
+   ]
+  },
+  {
+   "name": "Pepsi, 12 fl oz, 36-count",
+   "size": "12 fl oz",
+   "price": "$18.90",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 18.9,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "Diet Coke, 12 fl oz, 35-count",
+   "size": "12 fl oz",
+   "price": "$26.17",
+   "brand_norm": "Coca-Cola Simply Pop",
+   "price_regular": 26.17,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Coca-Cola Simply Pop"
+   ]
+  },
+  {
+   "name": "Zevia Soda Variety Pack, 12 fl oz, 30-count",
+   "size": "12 fl oz",
+   "price": "$23.62",
+   "brand_norm": "Zevia",
+   "price_regular": 23.62,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Olipop Mini Soda, Variety Pack, 7.5 fl oz, 15-count",
+   "size": "7.5 fl oz",
+   "price": "$24.56",
+   "brand_norm": "Olipop",
+   "price_regular": 24.56,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Soda, Cranberry Fizz, 12 fl oz, 18-count",
+   "size": "12 fl oz",
+   "price": "$25.99",
+   "brand_norm": "Poppi",
+   "price_regular": 25.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Olipop Soda, Winter Variety Pack, 12 fl oz, 15-count",
+   "size": "12 fl oz",
+   "price": "$25.80",
+   "brand_norm": "Olipop",
+   "price_regular": 25.8,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Coca-Cola de Mexico Soda Soft Drink Glass Bottles, 335 mL, 24-count",
+   "size": "12 fl oz",
+   "price": "$45.89",
+   "brand_norm": "Coca-Cola Simply Pop",
+   "price_regular": 45.89,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Coca-Cola Simply Pop"
+   ]
+  },
+  {
+   "name": "Coca-Cola Mini, 7.5 fl oz, 30-count",
+   "size": "7.5 fl oz",
+   "price": "$22.13",
+   "brand_norm": "Coca-Cola Simply Pop",
+   "price_regular": 22.13,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Coca-Cola Simply Pop"
+   ]
+  },
+  {
+   "name": "Spindrift Sparkling Water, 12 fl oz, 30-count",
+   "size": "12 fl oz",
+   "price": "$25.24",
+   "brand_norm": "Spindrift",
+   "price_regular": 25.24,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Waterloo Sparkling Water, Variety Pack, 12 fl oz, 24-count",
+   "size": "12 fl oz",
+   "price": "$11.56",
+   "brand_norm": "Waterloo",
+   "price_regular": 11.56,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Waterloo"
+   ]
+  },
+  {
+   "name": "Jones Soda Fallout Vault-Dweller Variety Pack Bottles, 12 fl oz, 12-count",
+   "size": "12 fl oz",
+   "price": "$25.24",
+   "brand_norm": "Jones Soda",
+   "price_regular": 25.24,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Jones Soda"
+   ]
+  },
+  {
+   "name": "Coca-Cola, Classic, 16.9 fl oz, 24-count",
+   "size": "16.9 fl oz",
+   "price": "$22.38",
+   "brand_norm": "Coca-Cola Simply Pop",
+   "price_regular": 22.38,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Coca-Cola Simply Pop"
+   ]
+  },
+  {
+   "name": "Lipton Brisk Iced Tea, Lemon, 12 fl oz, 36-count",
+   "size": "12 fl oz",
+   "price": "$23.37",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 23.37,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "Capri Sun, 100% Juice, Variety Pack, 6 fl oz, 40-count",
+   "size": "6 fl oz",
+   "price": "$17.40",
+   "brand_norm": "Capri Sun",
+   "price_regular": 17.4,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "pura soda",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "Pepsi Zero Sugar Cola Soda Soft Drink 12 pk Cans, 12 oz",
+   "price": "$7.97",
+   "size": "12 oz",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 7.97,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "Pepsi Zero Sugar Cola Soda Soft Drink 12 pk Cans, 12 oz",
+   "price": "$6.97",
+   "size": "12 oz",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 6.97,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "Pepsi Zero Sugar Cola Soda Soft Drink 6 pk Bottles, 16.9 oz",
+   "price": "$5.28",
+   "size": "16.9 oz",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 5.28,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "Pepsi Zero Sugar Cola Soda Soft Drink 6 pk Bottles, 16.9 oz",
+   "price": "$3.74",
+   "size": "16.9 oz",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 3.74,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "Pepsi Cola Soda Soft Drink 6 pk Bottles, 16.9 oz",
+   "price": "$5.28",
+   "size": "16.9 oz",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 5.28,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "Pepsi Cola Soda Soft Drink 6 pk Bottles, 16.9 oz",
+   "price": "$3.74",
+   "size": "16.9 oz",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 3.74,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "poppi Prebiotic Soda - Wild Berry, 12 oz",
+   "price": "$1.88",
+   "size": "12 oz",
+   "brand_norm": "Poppi",
+   "price_regular": 1.88,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Pepsi Zero Sugar Cola Soda Soft Drink, 20 oz",
+   "price": "$2.48",
+   "size": "20 oz",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 2.48,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "poppi Prebiotic Soda 8 pk Cans Variety Pack - Fruit Flavors, 12 oz",
+   "price": "$14.98",
+   "size": "12 oz",
+   "brand_norm": "Poppi",
+   "price_regular": 14.98,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "poppi Prebiotic Soda 8 pk Cans Variety Pack - Fruit Flavors, 12 oz",
+   "price": "$12.98",
+   "size": "12 oz",
+   "brand_norm": "Poppi",
+   "price_regular": 12.98,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "SodaStream Pepsi Drink Mix, 14.9 oz",
+   "price": "$6.48",
+   "size": "14.9 oz",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 6.48,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "poppi Prebiotic Soda 4 pk Cans - Root Beer, 12 oz",
+   "price": "$8.18",
+   "size": "12 oz",
+   "brand_norm": "Poppi",
+   "price_regular": 8.18,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "poppi Prebiotic Soda 4 pk Cans - Root Beer, 12 oz",
+   "price": "$6.97",
+   "size": "12 oz",
+   "brand_norm": "Poppi",
+   "price_regular": 6.97,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "poppi Prebiotic Soda 4 pk Cans - Strawberry Lemon, 12 oz",
+   "price": "$8.18",
+   "size": "12 oz",
+   "brand_norm": "Poppi",
+   "price_regular": 8.18,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "poppi Prebiotic Soda 4 pk Cans - Strawberry Lemon, 12 oz",
+   "price": "$6.97",
+   "size": "12 oz",
+   "brand_norm": "Poppi",
+   "price_regular": 6.97,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "poppi Prebiotic Soda 8 pk Cans Variety Pack - Classic Flavors, 12 oz",
+   "price": "$15.98",
+   "size": "12 oz",
+   "brand_norm": "Poppi",
+   "price_regular": 15.98,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "poppi Prebiotic Soda 8 pk Cans Variety Pack - Classic Flavors, 12 oz",
+   "price": "$12.98",
+   "size": "12 oz",
+   "brand_norm": "Poppi",
+   "price_regular": 12.98,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Pepsi Zero Sugar Cola Soda Soft Drink 24 pk Cans, 12 oz",
+   "price": "$11.98",
+   "size": "12 oz",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 11.98,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "heb",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "BODYARMOR Electrolyte Sports Drink Variety Pack 12 pk Bottles, 12 oz",
+   "price": "$11.98",
+   "size": "12 oz",
+   "brand_norm": "Body Armor",
+   "price_regular": 11.98,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Body Armor"
+   ]
+  },
+  {
+   "name": "BODYARMOR Flash I.V. Tropical Punch Electrolyte Sports Drink, 20 oz",
+   "price": "$2.38",
+   "size": "20 oz",
+   "brand_norm": "Body Armor",
+   "price_regular": 2.38,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Body Armor"
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Electrolyte Drink Mix Stick - Strawberry, Each",
+   "price": "$2.19",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 2.19,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Electrolyte Drink Mix Sticks - Watermelon, 12 ct",
+   "price": "$17.47",
+   "size": "12 ct",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 17.47,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Electrolyte Drink Mix Sticks - Strawberry, 12 ct",
+   "price": "$17.47",
+   "size": "12 ct",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 17.47,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Capri Sun Hydrate with Electrolytes Drink Variety Pack 30 pk Pouches, 6 oz",
+   "price": "$9.67",
+   "size": "6 oz",
+   "brand_norm": "Capri Sun",
+   "price_regular": 9.67,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Electrolyte Drink Mix Sticks - Variety Pack, 12 ct",
+   "price": "$17.47",
+   "size": "12 ct",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 17.47,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "BODYARMOR Flash I.V. Orange Electrolyte Sports Drink, 20 oz",
+   "price": "$2.38",
+   "size": "20 oz",
+   "brand_norm": "Body Armor",
+   "price_regular": 2.38,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Body Armor"
+   ]
+  },
+  {
+   "name": "Zevia Zero Sugar Soda Variety Pack 12 pk Cans, 12 oz",
+   "price": "$10.98",
+   "size": "12 oz",
+   "brand_norm": "Zevia",
+   "price_regular": 10.98,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Spindrift Lemon Lime Fruit Soda 6 pk Cans, 12 oz",
+   "price": "$7.98",
+   "size": "12 oz",
+   "brand_norm": "Spindrift",
+   "price_regular": 7.98,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "natural soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Zevia Zero Sugar Cola Soda 12 pk Cans, 12 oz",
+   "price": "$10.98",
+   "size": "12 oz",
+   "brand_norm": "Zevia",
+   "price_regular": 10.98,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Zevia Zero Sugar Orange Soda 6 pk Cans, 12 oz",
+   "price": "$6.56",
+   "size": "12 oz",
+   "brand_norm": "Zevia",
+   "price_regular": 6.56,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Coca-Cola Cane Sugar Soda Soft Drink 6 pk Glass Bottles, 8 oz",
+   "price": "$7.47",
+   "size": "8 oz",
+   "brand_norm": "Coca-Cola Simply Pop",
+   "price_regular": 7.47,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "heb",
+   "_term": "natural soda",
+   "_comp": [
+    "Coca-Cola Simply Pop"
+   ]
+  },
+  {
+   "name": "Poppi Grape Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Olipop Cherry Vanilla Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Lime Ginger Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Watermelon Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Culture Pop Raspberry Lemonade Probiotic Soda",
+   "size": "12 fl oz",
+   "price": "$2.29",
+   "brand_norm": "Culture Pop",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Culture Pop"
+   ]
+  },
+  {
+   "name": "Poppi Orange Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Ale Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Culture Pop Black Cherry Probiotic Soda",
+   "size": "12 fl oz",
+   "price": "$2.29",
+   "brand_norm": "Culture Pop",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Culture Pop"
+   ]
+  },
+  {
+   "name": "Olipop Cream Soda Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Culture Pop Ginger Lemon & Turmeric Probiotic Soda",
+   "size": "12 fl oz",
+   "price": "$2.29",
+   "brand_norm": "Culture Pop",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Culture Pop"
+   ]
+  },
+  {
+   "name": "Poppi Cream Soda Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Wild Berry Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Cherry Limeade Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Classic Cola Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Ale 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Fruit Punch Soda 6 Pack",
+   "size": "6 ct",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Poppi Doc Pop Prebiotic Soda 6 Pack",
+   "size": "7.5 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Poppi",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Raspberry Rose Prebiotic Soda 4 Pack",
+   "size": "48 fl oz",
+   "price": "$8.99",
+   "brand_norm": "Poppi",
+   "price_regular": 8.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Variety Pack Prebiotic Soda 8 Pack",
+   "size": "12 fl oz",
+   "price": "$15.99",
+   "brand_norm": "Poppi",
+   "price_regular": 15.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Cream Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Poppi Shirley Temple Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Culture Pop Strawberry & Rhubarb Probiotic Soda",
+   "size": "12 fl oz",
+   "price": "$2.29",
+   "brand_norm": "Culture Pop",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Culture Pop"
+   ]
+  },
+  {
+   "name": "Poppi Orange Cream Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Black Cherry Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Poppi Doc Pop Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Cherry Limeade Prebiotic Soda 4 Pack",
+   "size": "12 fl oz",
+   "price": "$8.99",
+   "brand_norm": "Poppi",
+   "price_regular": 8.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Dr. Zevia Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Creamy Root Beer Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Spindrift Shirley Temple Soda",
+   "size": "12 fl oz",
+   "price": "$2.50",
+   "brand_norm": "Spindrift",
+   "price_regular": 2.5,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Olipop Lemon Lime Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Culture Pop Wild Berries & Lime Probiotic Soda",
+   "size": "12 fl oz",
+   "price": "$2.29",
+   "brand_norm": "Culture Pop",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Culture Pop"
+   ]
+  },
+  {
+   "name": "Zevia Orange Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Cran Raspberry Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Dr. Zevia 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Creamy Root Beer Zero Calorie 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Olipop Shirley Temple Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.00",
+   "brand_norm": "Olipop",
+   "price_regular": 2.0,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Olipop Ginger Lemon Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Strawberry Lemon Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Root Beer Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Black Cherry 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Root Beer Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Cream Soda Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Reed's Premium Ginger Ale 4 Pack",
+   "size": "12 oz",
+   "price": "$6.49",
+   "brand_norm": "Reed's",
+   "price_regular": 6.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Reed's"
+   ]
+  },
+  {
+   "name": "Poppi Raspberry Rose Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Lemon Lime Twist 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Poppi Classic Cola Prebiotic Soda 6 Pack",
+   "size": "7.5 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Poppi",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Strawberry Lemon Burst Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Rootbeer 6 Pack",
+   "size": "72 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Cola Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Spindrift Ginger Ale Soda 6 Pack",
+   "size": "72 fl oz",
+   "price": "$9.49",
+   "brand_norm": "Spindrift",
+   "price_regular": 9.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Poppi Strawberry Lemon Prebiotic Soda 6 Pack",
+   "size": "7.5 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Poppi",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Orange Prebiotic Soda 4 Pack",
+   "size": "48 fl oz",
+   "price": "$8.99",
+   "brand_norm": "Poppi",
+   "price_regular": 8.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Spindrift Ginger Ale Soda",
+   "size": "12 fl oz",
+   "price": "$2.50",
+   "brand_norm": "Spindrift",
+   "price_regular": 2.5,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Olipop Classic Root Beer Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Root Beer Prebiotic Soda 4 Pack",
+   "size": "12 fl oz",
+   "price": "$8.99",
+   "brand_norm": "Poppi",
+   "price_regular": 8.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Olipop Cream Soda Prebiotic Sparkling Tonic 4 Pack",
+   "size": "4 ct",
+   "price": "$9.99",
+   "brand_norm": "Olipop",
+   "price_regular": 9.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Spindrift Shirley Temple Soda 6 Pack",
+   "size": "72 fl oz",
+   "price": "$9.49",
+   "brand_norm": "Spindrift",
+   "price_regular": 9.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Reed's Original Zero Sugar Real Ginger Ale",
+   "size": "12 fl oz",
+   "price": "$1.50",
+   "brand_norm": "Reed's",
+   "price_regular": 1.5,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Reed's"
+   ]
+  },
+  {
+   "name": "Zevia Orange Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Variety Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Orange Creamsicle Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Reed's Original Real Ginger Ale",
+   "size": "12 fl oz",
+   "price": "$1.50",
+   "brand_norm": "Reed's",
+   "price_regular": 1.5,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Reed's"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Ale Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Cream Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Black Cherry Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Strawberries & Cream Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Dr. Zevia Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Zevia",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Creamy Root Beer Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Root Beer Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Olipop Crisp Apple Prebiotic Sparkling Tonic 4 Pack",
+   "size": "4 ct",
+   "price": "$9.99",
+   "brand_norm": "Olipop",
+   "price_regular": 9.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Olipop Peaches & Cream Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Olipop Banana Cream Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Olipop Raspberry Sherbet Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.00",
+   "brand_norm": "Olipop",
+   "price_regular": 2.0,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Humm Kombucha Organic Cherry Limeade Probiotic Kombucha",
+   "size": "12 fl oz",
+   "price": "$2.99",
+   "brand_norm": "Humm",
+   "price_regular": 2.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Humm"
+   ]
+  },
+  {
+   "name": "Humm Kombucha Organic Ruby Red Grapefruit Probiotic Kombucha",
+   "size": "12 fl oz",
+   "price": "$2.99",
+   "brand_norm": "Humm",
+   "price_regular": 2.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Humm"
+   ]
+  },
+  {
+   "name": "Humm Kombucha Organic Mango Passionfruit Probiotic Kombucha",
+   "size": "12 fl oz",
+   "price": "$2.99",
+   "brand_norm": "Humm",
+   "price_regular": 2.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "pura soda",
+   "_comp": [
+    "Humm"
+   ]
+  },
+  {
+   "name": "Honest Kids Organic Kids Fruit Punch Juice Boxes 8 Pack",
+   "size": "48 fl oz",
+   "price": "$5.99",
+   "brand_norm": "Honest Kids",
+   "price_regular": 5.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Honest Kids Organic Bananas About Strawberries Juice 8 Pack",
+   "size": "48 fl oz",
+   "price": "$5.99",
+   "brand_norm": "Honest Kids",
+   "price_regular": 5.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Honest Kids Organic Kids Apple Juice Boxes 8 Pack",
+   "size": "48 fl oz",
+   "price": "$5.99",
+   "brand_norm": "Honest Kids",
+   "price_regular": 5.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Honest Kids Organic Goodness Grapeness Juice 8 Pack",
+   "size": "6 oz",
+   "price": "$5.99",
+   "brand_norm": "Honest Kids",
+   "price_regular": 5.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Culture Pop Ginger Lemon & Turmeric Probiotic Soda",
+   "size": "12 fl oz",
+   "price": "$2.29",
+   "brand_norm": "Culture Pop",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Culture Pop"
+   ]
+  },
+  {
+   "name": "Culture Pop Raspberry Lemonade Probiotic Soda",
+   "size": "12 fl oz",
+   "price": "$2.29",
+   "brand_norm": "Culture Pop",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Culture Pop"
+   ]
+  },
+  {
+   "name": "Culture Pop Strawberry & Rhubarb Probiotic Soda",
+   "size": "12 fl oz",
+   "price": "$2.29",
+   "brand_norm": "Culture Pop",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Culture Pop"
+   ]
+  },
+  {
+   "name": "Zevia Fruit Punch Soda 6 Pack",
+   "size": "6 ct",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Poppi Watermelon Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Reed's Premium Ginger Ale 4 Pack",
+   "size": "12 oz",
+   "price": "$6.49",
+   "brand_norm": "Reed's",
+   "price_regular": 6.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Reed's"
+   ]
+  },
+  {
+   "name": "Zevia Dr. Zevia 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Culture Pop Black Cherry Probiotic Soda",
+   "size": "12 fl oz",
+   "price": "$2.29",
+   "brand_norm": "Culture Pop",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Culture Pop"
+   ]
+  },
+  {
+   "name": "Olipop Tropical Punch Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Reed's Original Real Ginger Ale",
+   "size": "12 fl oz",
+   "price": "$1.50",
+   "brand_norm": "Reed's",
+   "price_regular": 1.5,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Reed's"
+   ]
+  },
+  {
+   "name": "Spindrift Shirley Temple Soda 6 Pack",
+   "size": "72 fl oz",
+   "price": "$9.49",
+   "brand_norm": "Spindrift",
+   "price_regular": 9.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Spindrift Shirley Temple Soda",
+   "size": "12 fl oz",
+   "price": "$2.50",
+   "brand_norm": "Spindrift",
+   "price_regular": 2.5,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Culture Pop Wild Berries & Lime Probiotic Soda",
+   "size": "12 fl oz",
+   "price": "$2.29",
+   "brand_norm": "Culture Pop",
+   "price_regular": 2.29,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Culture Pop"
+   ]
+  },
+  {
+   "name": "Reed's Zero Sugar Extra Ginger Beer 4 Pack Cans",
+   "size": "12 fl oz",
+   "price": "$5.49",
+   "brand_norm": "Reed's",
+   "price_regular": 5.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Reed's"
+   ]
+  },
+  {
+   "name": "Poppi Wild Berry Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Reed's Strongest Ginger Beer 4 Pack",
+   "size": "12 oz",
+   "price": "$6.49",
+   "brand_norm": "Reed's",
+   "price_regular": 6.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Reed's"
+   ]
+  },
+  {
+   "name": "Spindrift Ginger Ale Soda 6 Pack",
+   "size": "72 fl oz",
+   "price": "$9.49",
+   "brand_norm": "Spindrift",
+   "price_regular": 9.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Zevia Strawberries & Cream Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Spindrift Ginger Ale Soda",
+   "size": "12 fl oz",
+   "price": "$2.50",
+   "brand_norm": "Spindrift",
+   "price_regular": 2.5,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Reed's Original Zero Sugar Real Ginger Ale",
+   "size": "12 fl oz",
+   "price": "$1.50",
+   "brand_norm": "Reed's",
+   "price_regular": 1.5,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Reed's"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Ale 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Poppi Cream Soda Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Doc Pop Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Olipop Strawberry Vanilla Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Grape Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Olipop Shirley Temple Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.00",
+   "brand_norm": "Olipop",
+   "price_regular": 2.0,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Doc Pop Prebiotic Soda 4 Pack",
+   "size": "48 fl oz",
+   "price": "$8.99",
+   "brand_norm": "Poppi",
+   "price_regular": 8.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Root Beer Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Olipop Blackberry Vanilla Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Root Beer Prebiotic Soda 4 Pack",
+   "size": "12 fl oz",
+   "price": "$8.99",
+   "brand_norm": "Poppi",
+   "price_regular": 8.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Olipop Cream Soda Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Classic Cola Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Shirley Temple Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Cherry Limeade Prebiotic Soda 4 Pack",
+   "size": "12 fl oz",
+   "price": "$8.99",
+   "brand_norm": "Poppi",
+   "price_regular": 8.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Cherry Limeade Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Raspberry Rose Prebiotic Soda 4 Pack",
+   "size": "48 fl oz",
+   "price": "$8.99",
+   "brand_norm": "Poppi",
+   "price_regular": 8.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Spindrift Orange Vanilla Soda 6 Pack",
+   "size": "72 fl oz",
+   "price": "$9.49",
+   "brand_norm": "Spindrift",
+   "price_regular": 9.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Zevia Cream Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Poppi Strawberry Lemon Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Orange Creamsicle Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Poppi Variety Pack Prebiotic Soda 8 Pack",
+   "size": "12 fl oz",
+   "price": "$15.99",
+   "brand_norm": "Poppi",
+   "price_regular": 15.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Lime Ginger Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Orange Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Orange Cream Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Olipop Crisp Apple Prebiotic Sparkling Tonic 4 Pack",
+   "size": "4 ct",
+   "price": "$9.99",
+   "brand_norm": "Olipop",
+   "price_regular": 9.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Raspberry Rose Prebiotic Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Poppi",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Dr. Zevia Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Black Cherry Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Olipop Cream Soda Prebiotic Sparkling Tonic 4 Pack",
+   "size": "4 ct",
+   "price": "$9.99",
+   "brand_norm": "Olipop",
+   "price_regular": 9.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Olipop Lemon Lime Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Strawberry Lemon Prebiotic Soda 6 Pack",
+   "size": "7.5 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Poppi",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Olipop Orange Squeeze Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Doc Pop Prebiotic Soda 6 Pack",
+   "size": "7.5 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Poppi",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Strawberry Lemon Burst Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Cherry Cola Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Caffeine Free Cola Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Cream Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Cream Soda Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Dr. Zevia Soda",
+   "size": "12 fl oz",
+   "price": "$1.99",
+   "brand_norm": "Zevia",
+   "price_regular": 1.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Poppi Orange Prebiotic Soda 4 Pack",
+   "size": "48 fl oz",
+   "price": "$8.99",
+   "brand_norm": "Poppi",
+   "price_regular": 8.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Zevia Black Cherry Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Orange Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Black Cherry 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Creamy Root Beer Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Lemon Lime Twist 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Poppi Classic Cola Prebiotic Soda 6 Pack",
+   "size": "7.5 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Poppi",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Olipop Classic Root Beer Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Olipop Peaches & Cream Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Olipop Classic Grape Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Olipop Banana Cream Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Zevia Caffeine Free Cola 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Cola 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Olipop Doctor Goodwin Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Olipop Cherry Cola Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Olipop Watermelon Lime Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Zevia Orange Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Variety Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Cran Raspberry Soda 6 Pack",
+   "size": "12 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Rootbeer 6 Pack",
+   "size": "72 fl oz",
+   "price": "$7.49",
+   "brand_norm": "Zevia",
+   "price_regular": 7.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Cola Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Olipop Crisp Apple Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.69",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Zevia Creamy Root Beer Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Root Beer Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Root Beer Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Ale Zero Sugar Soda",
+   "size": "12 fl oz",
+   "price": "$1.79",
+   "brand_norm": "Zevia",
+   "price_regular": 1.79,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Zevia Ginger Ale Zero Calorie Soda 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Spindrift Orange Cream Float Orange Vanilla Soda",
+   "size": "12 fl oz",
+   "price": "$2.50",
+   "brand_norm": "Spindrift",
+   "price_regular": 2.5,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Spindrift"
+   ]
+  },
+  {
+   "name": "Zevia Creamy Root Beer Zero Calorie 12 Pack",
+   "size": "12 fl oz",
+   "price": "$12.99",
+   "brand_norm": "Zevia",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Zevia"
+   ]
+  },
+  {
+   "name": "Olipop Raspberry Sherbet Prebiotic Sparkling Tonic",
+   "size": "12 fl oz",
+   "price": "$2.00",
+   "brand_norm": "Olipop",
+   "price_regular": 2.0,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "sprouts",
+   "_term": "natural soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Shirley Temple - 12 fl oz Can",
+   "price": "$2.49",
+   "size": "",
+   "brand_norm": "Poppi",
+   "price_regular": 2.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "OLIPOP 9g Fiber Prebiotic Soda Crisp Apple - 12 fl oz Can",
+   "price": "$2.69",
+   "size": "",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Coca-Cola Soda - 12pk/12 fl oz Cans",
+   "price": "$8.89",
+   "size": "",
+   "brand_norm": "Coca-Cola Simply Pop",
+   "price_regular": 8.89,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Coca-Cola Simply Pop"
+   ]
+  },
+  {
+   "name": "OLIPOP Pomegranate Sparkle - 12 fl oz",
+   "price": "$2.49",
+   "size": "",
+   "brand_norm": "Olipop",
+   "price_regular": 2.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "OLIPOP MINIs 3g Fiber Prebiotic Soda, Strawberry Vanilla - 6pk/7.5 fl oz Cans",
+   "price": "$12.99",
+   "size": "",
+   "brand_norm": "Olipop",
+   "price_regular": 12.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "OLIPOP 9g Fiber Prebiotic Soda Can - Caramel Apple - 12 fl oz",
+   "price": "$2.69",
+   "size": "",
+   "brand_norm": "Olipop",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Coca-Cola Soda - 2 L Bottle",
+   "price": "$3.69",
+   "size": "",
+   "brand_norm": "Coca-Cola Simply Pop",
+   "price_regular": 3.69,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Coca-Cola Simply Pop"
+   ]
+  },
+  {
+   "name": "Poppi Sour Apple Fall Drink - 12 fl oz Can",
+   "price": "$1.99",
+   "size": "",
+   "brand_norm": "Poppi",
+   "price_regular": 2.29,
+   "price_promo": 1.99,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Orange Prebiotic Soda - 4pk/12 fl oz Cans: Non-Caffeinated",
+   "price": "$7.99",
+   "size": "",
+   "brand_norm": "Poppi",
+   "price_regular": 7.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Doc Pop Prebiotic Soda - 6pK/7.5 fl oz Mini Cans",
+   "price": "$9.99",
+   "size": "",
+   "brand_norm": "Poppi",
+   "price_regular": 9.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "OLIPOP 6g Fiber Prebiotic Soda, Crisp Apple - 4pk/ 12 fl oz Cans",
+   "price": "$10.49",
+   "size": "",
+   "brand_norm": "Olipop",
+   "price_regular": 10.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "OLIPOP 9g Fiber Prebiotic Soda Strawberry Vanilla - 4pk/ 12 fl oz Cans",
+   "price": "$10.49",
+   "size": "",
+   "brand_norm": "Olipop",
+   "price_regular": 10.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Olipop"
+   ]
+  },
+  {
+   "name": "Poppi Classic Cola Prebiotic Soda - 6pK/7.5 fl oz Mini Cans",
+   "price": "$9.99",
+   "size": "",
+   "brand_norm": "Poppi",
+   "price_regular": 9.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Cherry Cola Prebiotic Soda - 12 fl oz Can",
+   "price": "$2.49",
+   "size": "",
+   "brand_norm": "Poppi",
+   "price_regular": 2.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Poppi Strawberry Lemon Prebiotic Soda - 4pk/12 fl oz Poppi",
+   "price": "$7.99",
+   "size": "",
+   "brand_norm": "Poppi",
+   "price_regular": 7.99,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Poppi"
+   ]
+  },
+  {
+   "name": "Pepsi Wild Cherry Cola - 12pk/12 fl oz Cans",
+   "price": "$8.39",
+   "size": "",
+   "brand_norm": "Pepsi Prebiotic / Pepsi",
+   "price_regular": 8.39,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "target",
+   "_term": "pura soda",
+   "_comp": [
+    "Pepsi Prebiotic / Pepsi"
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Vegan Powder Electrolyte Supplements - Strawberry - 0.56oz/3ct",
+   "price": "$5.39",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 5.39,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Powder Electrolyte Drink Mix Variety Pack - 0.56oz/12ct",
+   "price": "$17.49",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 17.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Sugar Free Hydration Multiplier Powder Electrolyte Drink Mix - RingPop Cherry - 0.45oz/6ct",
+   "price": "$9.99",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 9.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Vegan Powder Electrolyte Supplements - Popsicle Firecracker - 0.56oz/10ct",
+   "price": "$16.19",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 16.19,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Electrolyte Drink Mix Powder - Orange Vanilla Dream - 5.64oz/10ct",
+   "price": "$16.19",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 16.19,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Sugar Free Hydration Multiplier Powder Electrolyte Drink Mix - Lemon Lime - 0.45oz/12ct",
+   "price": "$17.49",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 17.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Powder Electrolyte Drink Mix - Arctic Raspberry - 0.56oz/6ct",
+   "price": "$9.29",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 9.29,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Powder Electrolyte Drink - Popsicle Firecracker - 18ct",
+   "price": "$25.49",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 25.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Electrolyte Drink Mix Powder - Arctic Raspberry - 5.64oz/10ct",
+   "price": "$16.19",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 16.19,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Vegan Powder Electrolyte Supplements - Popsicle Firecracker - 0.56oz/3ct",
+   "price": "$5",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 5.39,
+   "price_promo": 5.0,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Hydration Multiplier Vegan Powder Electrolyte Supplements - Passion Fruit - 1.68oz each/3ct",
+   "price": "$5.39",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 5.39,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Lychee Sorbet Sugar Free Hydration Multiplier Sports Drink - 10ct",
+   "price": "$16.19",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 16.19,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Orange Vanilla Dream Hydration Multiplier Sports Drink - 3pk/0.45oz",
+   "price": "$5",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 5.0,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Strawberry Watermelon Sugar Free Hydration Multiplier Sports Drink - 3pk/0.45oz",
+   "price": "$5",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 5.0,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V. Variety Pack Sugar Free Hydration Multiplier Sports Drink - 21ct",
+   "price": "$31.99",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 31.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Capri Sun Strawberry Kiwi Juice Boxes - 10pk/6 fl oz Pouches: No Artificial Colors, No Artificial Flavors, No Preservatives",
+   "price": "$3.69",
+   "size": "",
+   "brand_norm": "Capri Sun",
+   "price_regular": 3.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "Capri Sun Lemonade Juice Boxes - 10pk/6 fl oz Pouches: No Artificial Colors, No Artificial Flavors, No Preservatives",
+   "price": "$3.69",
+   "size": "",
+   "brand_norm": "Capri Sun",
+   "price_regular": 3.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "Kool-Aid Ghoul-Aid Juice Drink - 10pk/6 fl oz Pouches",
+   "price": "$2.99",
+   "size": "",
+   "brand_norm": "Kool-Aid",
+   "price_regular": 2.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Kool-Aid"
+   ]
+  },
+  {
+   "name": "Kool-Aid Summer Blast Boomin' Berry Juice Boxes - 10pk/6 fl oz Pouches",
+   "price": "$3.19",
+   "size": "",
+   "brand_norm": "Kool-Aid",
+   "price_regular": 3.19,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Kool-Aid"
+   ]
+  },
+  {
+   "name": "Capri Sun Hydrate Fruit Punch Juice Boxes - 10pk/6 fl oz Pouches",
+   "price": "$3.69",
+   "size": "",
+   "brand_norm": "Capri Sun",
+   "price_regular": 3.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "target",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "Honest Kids Organic Apple Juice Drink - 8pk/6 Fl Oz Box",
+   "price": "$15.99",
+   "size": "",
+   "brand_norm": "Honest Kids",
+   "price_regular": 15.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Capri Sun Cola Zero Kids Juice Drink 4 x 200ml, British Import (Pack of 2)",
+   "price": "$34.7",
+   "size": "",
+   "brand_norm": "Capri Sun",
+   "price_regular": 34.7,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "Honest Kids Berry Good Lemonade, Organic Juice Drink, 6 Fl oz Juice Boxes, Pack Of 40, Berry Lemonade, 6 Fl Oz (Pack of 40)",
+   "price": "$42.89",
+   "size": "",
+   "brand_norm": "Honest Kids",
+   "price_regular": 42.89,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Capri Sun Strawberry Kiwi Flavored Juice Drink Blend from concentrate with other natural flavors, 64 oz Bottle",
+   "price": "$11.5",
+   "size": "fl oz",
+   "brand_norm": "Capri Sun",
+   "price_regular": 11.5,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "Kool-Aid Jammers Artificially Flavored Drink, 30 Pouches, for School Lunches and On-the-Go Hydration, Tropical Punch Artificially Flavored, Excellent Source of Vitamin C, 6 fl oz",
+   "price": "$8.47",
+   "size": "fl oz",
+   "brand_norm": "Kool-Aid",
+   "price_regular": 8.47,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Kool-Aid"
+   ]
+  },
+  {
+   "name": "Capri Sun Flavored with Other Natural Flavor Juice Drink Blend, 10 Pouches, for School Lunches and On-the-Go Hydration, Fruit Punch, All Natural Ingredients, 6 fl oz",
+   "price": "$3.47",
+   "size": "fl oz",
+   "brand_norm": "Capri Sun",
+   "price_regular": 3.47,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "Capri-Sun Orange 330ml Kids' Juice Drink, Imported from Britain",
+   "price": "$24.16",
+   "size": "",
+   "brand_norm": "Capri Sun",
+   "price_regular": 24.16,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "(4 pack) Capri Sun Hydrate with Electrolytes Flavored Drink with Other Natural Flavor, 10 Pouches, for On-the-Go Hydration and School Lunches, Fruit Punch, Good Source of Vitamin E, 6 oz",
+   "price": "$12.49",
+   "size": "fl oz",
+   "brand_norm": "Capri Sun",
+   "price_regular": 13.88,
+   "price_promo": 12.49,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "(7 pack) Capri Sun Pacific Cooler Mixed Fruit Flavored Juice Drink Blend from concentrate, 12 oz Bottle",
+   "price": "$11.34",
+   "size": "fl oz",
+   "brand_norm": "Capri Sun",
+   "price_regular": 11.34,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "(Pack Of 5) Honest Kids Juice Strawberry Peachy Keen 8-Pack 48 Fl Oz",
+   "price": "$58.99",
+   "size": "",
+   "brand_norm": "Honest Kids",
+   "price_regular": 58.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Capri-Sun Zero Orange 8 x 200ml Kids' Juice Drink, Imported from Britain",
+   "price": "$31.34",
+   "size": "",
+   "brand_norm": "Capri Sun",
+   "price_regular": 31.34,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "Capri-Sun Zero Orange 4 x 200ml Kids' Juice Drink, Imported from Britain",
+   "price": "$25.85",
+   "size": "",
+   "brand_norm": "Capri Sun",
+   "price_regular": 25.85,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "walmart",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Capri Sun"
+   ]
+  },
+  {
+   "name": "Liquid I.V.",
+   "price": "$2.69",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 2.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "wholefoods",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid I.V.",
+   "price": "$1.19",
+   "size": "",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 1.19,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "wholefoods",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Liquid Iv Drink Mix Hydration Lemon Lime Tub, 11.29 Ounce",
+   "price": "$29.99",
+   "size": "11.29 Ounce",
+   "brand_norm": "Liquid I.V.",
+   "price_regular": 29.99,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "wholefoods",
+   "_term": "electrolyte hydration drink",
+   "_comp": [
+    "Liquid I.V."
+   ]
+  },
+  {
+   "name": "Organic Fruit Punch Juice, 8ct",
+   "price": "$5.49",
+   "size": "8ct",
+   "brand_norm": "Honest Kids",
+   "price_regular": 5.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "wholefoods",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Grape Juice Drink, 8ct 6oz",
+   "price": "$4.79",
+   "size": "8ct",
+   "brand_norm": "Honest Kids",
+   "price_regular": 4.79,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "wholefoods",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Honest Kids Organic Bannana and Strawberry Juice 8pk, 48 FZ",
+   "price": "$5.49",
+   "size": "",
+   "brand_norm": "Honest Kids",
+   "price_regular": 5.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "wholefoods",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Berry Lemonade Juice, 8ct 6oz",
+   "price": "$5.49",
+   "size": "8ct",
+   "brand_norm": "Honest Kids",
+   "price_regular": 5.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "wholefoods",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  },
+  {
+   "name": "Strawberry Peach Juice Box, 8ct",
+   "price": "$5.49",
+   "size": "8ct",
+   "brand_norm": "Honest Kids",
+   "price_regular": 5.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "wholefoods",
+   "_term": "kids juice drink",
+   "_comp": [
+    "Honest Kids"
+   ]
+  }
+ ]
+}
