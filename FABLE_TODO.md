@@ -221,3 +221,8 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - amazon_comps: 26 rows set (11 Pura own listings with ASIN, 15 top organic comps by bought-past-month across natural soda, kids drinks, hydration). est_monthly_units carries the bought-past-month badge with est_monthly_units_basis saying so; est_monthly_revenue stays null. pura_own_soda-4pk marked superseded (Pura is live on Amazon as of this pull), kept for history.
 - Backup covering amazon_comps before this write: shelf-architect-backup-2026-10-18_2.zip (Steve holds it).
 - SA retail hygiene items (is_own_brand on store brands, storage-class corrections) handed to the other session as a prompt; see mapped/stinkin-good/hygiene_review_2026-10-18.md.
+
+## SOP v80 landed (2026-10-18, Fable, Steve "Yes")
+- app_meta/pull_process v80: duplicate rule 17 (Amazon lane) removed; new rules 18 hygiene gate, 19 storage-class cut for multi-case categories only (ketchup never mentions it), 20 temperature states at discovery with unseen-case flag. Repo copy SOP_v80.md.
+- Runbook page generator now renders runner_lane rules as a fourth SOP section (DB app_meta/runbook_page_generator v3, Project doc claude/runbook-page-generator.py).
+- SG hygiene (65 writes), 2 held Jewel rows, 3 storage-class insights all landed today after backup _7-full. Steve: SG thesis proven, work is forward-looking for future clients now.
