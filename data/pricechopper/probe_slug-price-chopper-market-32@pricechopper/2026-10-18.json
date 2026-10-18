@@ -1,0 +1,19 @@
+{
+  "block_id": "probe/slug-price-chopper-market-32@pricechopper",
+  "retailer": "pricechopper",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-18T00:21:48.412Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "00:21:48 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "00:22:44 ERROR Error: browserType.connectOverCDP: WebSocket error: wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 503 No free browsers in pool\nNo free browsers in pool\nCall log:\n  - <ws connecting> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/\n  - <ws unexpected response> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 503 No free browsers in pool\nNo free browsers i"
+  ],
+  "error": "Error: browserType.connectOverCDP: WebSocket error: wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 503 No free browsers in pool\nNo free browsers in pool\nCall log:\n  - <ws connecting> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/\n  - <ws unexpected response> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 503 No free browsers in pool\nNo free browsers i"
+}

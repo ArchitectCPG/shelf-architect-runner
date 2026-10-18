@@ -1,0 +1,26 @@
+{
+  "block_id": "probe/slug-tops-markets@tops",
+  "retailer": "tops",
+  "zip": "probe",
+  "neighborhood": "salsa",
+  "pulled_at": "2026-10-18T00:12:07.116Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60615",
+  "store_set": null,
+  "url_final": "https://www.instacart.com/store/tops-markets/s?k=salsa",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "00:12:07 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "00:12:09 connected to Bright Data Scraping Browser",
+    "00:13:10 goto https://www.instacart.com/store/tops-markets/s?k=salsa",
+    "00:13:19 captcha check passed",
+    "00:14:35 dismissed \"Close\"",
+    "00:19:05 js_houses miss Error: page.evaluate: Execution context was destroyed, most likely because of a ",
+    "00:19:05 store_js failed Error: page.evaluate: Execution context was destroyed, most ",
+    "00:19:05 ERROR Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+  ],
+  "error": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation.",
+  "js_debug": "Error: page.evaluate: Execution context was destroyed, most likely because of a navigation."
+}
