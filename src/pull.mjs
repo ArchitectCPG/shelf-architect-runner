@@ -29,9 +29,10 @@ if (block.kroger_api) { // Kroger Developer API: client_credentials -> locations
     const tok = await (await fetch("https://api.kroger.com/v1/connect/oauth2/token", { method: "POST", headers: { Authorization: "Basic " + Buffer.from(`${id}:${sec}`).toString("base64"), "content-type": "application/x-www-form-urlencoded" }, body: "grant_type=client_credentials&scope=product.compact" })).json();
     if (!tok.access_token) throw new Error("token: " + JSON.stringify(tok).slice(0, 200));
     const H = { Authorization: `Bearer ${tok.access_token}` };
-    const chainQ = k.chain ? `&filter.chain=${encodeURIComponent(k.chain)}` : "";
-    const locs = await (await fetch(`https://api.kroger.com/v1/locations?filter.zipCode.near=${block.store_zip}&filter.limit=5${chainQ}`, { headers: H })).json();
-    const loc = (locs.data || [])[0]; if (!loc) throw new Error("no location: " + JSON.stringify(locs).slice(0, 300));
+    const wantRx = new RegExp((k.chain || "").replace(/[^a-z]/gi, ".?"), "i");
+    const locs = await (await fetch(`https://api.kroger.com/v1/locations?filter.zipCode.near=${block.store_zip}&filter.radiusInMiles=40&filter.limit=50`, { headers: H })).json();
+    const all0 = locs.data || []; lg(`locations near ${block.store_zip}: ${all0.length} chains=${[...new Set(all0.map(l => l.chain))].join("|")}`);
+    const loc = all0.find(l => wantRx.test(l.chain || "") || wantRx.test(l.name || "")); if (!loc) throw new Error("no location for " + k.chain + ": chains=" + [...new Set(all0.map(l => l.chain))].join("|") + " " + JSON.stringify(locs).slice(0, 200));
     o.store_set = `${loc.chain} ${loc.name} (${loc.locationId}) ${loc.address?.addressLine1 || ""} ${loc.address?.city || ""} ${loc.address?.zipCode || ""}`.trim(); lg(`store ${o.store_set}`);
     const term = encodeURIComponent(block.term); let all = [];
     for (let start = 0; start < (k.max || 150); start += 50) {
