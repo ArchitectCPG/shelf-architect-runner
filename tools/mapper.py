@@ -36,7 +36,10 @@ rows={}; blocks_out=[]; stats={'blocks':0,'houses_in':0,'rows':0,'dropped_irrele
 def latest(b):
     bid=re.sub(r'[^a-z0-9@_.-]','_',b['block_id'],flags=re.I)
     fs=sorted(x for x in glob.glob(f"data/{b['retailer']}/{bid}/*.json") if not x.endswith('-error.json'))
-    return json.load(open(fs[-1])) if fs else None
+    for fp in reversed(fs):
+        j=json.load(open(fp))
+        if j.get('houses'): j['_file']=fp; return j
+    return None
 JUNK=re.compile(r'^(price per|unbranded|sale|new|hatch \(brand\)|\(brand\)|sponsored|add|\$.*|.*\(brand\))$',re.I)
 from collections import Counter as _C
 _cnt=_C()
