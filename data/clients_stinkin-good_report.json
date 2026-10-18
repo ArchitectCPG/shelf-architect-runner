@@ -38,6 +38,42 @@
    "err": ""
   },
   {
+   "banner": "costco-ic",
+   "term": "green chile",
+   "status": "OK",
+   "houses": 57,
+   "relevant": 10,
+   "store": "API zip 80202 shop 2043 location 439",
+   "sg": 1,
+   "comp": 3,
+   "pmed": 15.11,
+   "err": ""
+  },
+  {
+   "banner": "costco-ic",
+   "term": "queso",
+   "status": "OK",
+   "houses": 123,
+   "relevant": 1,
+   "store": "API zip 80202 shop 2043 location 439",
+   "sg": 0,
+   "comp": 3,
+   "pmed": 18.65,
+   "err": ""
+  },
+  {
+   "banner": "costco-ic",
+   "term": "tamales",
+   "status": "OK",
+   "houses": 74,
+   "relevant": 1,
+   "store": "API zip 80202 shop 2043 location 439",
+   "sg": 1,
+   "comp": 5,
+   "pmed": 20.69,
+   "err": ""
+  },
+  {
    "banner": "costco-online",
    "term": "green chile",
    "status": "OK",
@@ -327,6 +363,28 @@
   }
  ],
  "sg_items": [
+  {
+   "name": "Stinkin Good Green Chili Pork Sauce, 1 lb 14 oz",
+   "size": "each",
+   "price": "$11.49",
+   "brand_norm": "Stinkin' Good",
+   "price_regular": 11.49,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "costco-ic",
+   "_term": "green chile"
+  },
+  {
+   "name": "Stinkin Good Green Chili Pork Sauce, 1 lb 14 oz",
+   "size": "each",
+   "price": "$11.49",
+   "brand_norm": "Stinkin' Good",
+   "price_regular": 11.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "tamales"
+  },
   {
    "name": "Stinkin Good Green Chili",
    "price": "$6.99",
@@ -660,6 +718,160 @@
    "_term": "tamales",
    "_comp": [
     "Del Real"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Green Chile, 40 oz",
+   "size": "each",
+   "price": "$10.11",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 10.11,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "costco-ic",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "Hatch Diced Green Chiles, 4 oz, 12 count",
+   "size": "each",
+   "price": "$14.71",
+   "brand_norm": "Hatch (brand)",
+   "price_regular": 14.71,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "costco-ic",
+   "_term": "green chile",
+   "_comp": [
+    "Hatch (brand)"
+   ]
+  },
+  {
+   "name": "505 Southwestern Green Chile Sauce, Medium, 40 oz",
+   "size": "each",
+   "price": "$6.77",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 6.77,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "costco-ic",
+   "_term": "green chile",
+   "_comp": [
+    "505 Southwestern"
+   ]
+  },
+  {
+   "name": "Del Real Three Cheese Quesadilla Bites, 32 oz",
+   "size": "32 oz",
+   "price": "$12.43",
+   "brand_norm": "Del Real",
+   "price_regular": 12.43,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "queso",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real Foods Fire Roasted Combo Salsa, 24 oz, 2-pack",
+   "size": "each",
+   "price": "$9.57",
+   "brand_norm": "Del Real",
+   "price_regular": 9.57,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "queso",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real Foods Carnitas, 40 oz",
+   "size": "each",
+   "price": "$21.76",
+   "brand_norm": "Del Real",
+   "price_regular": 21.76,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "queso",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real Foods Chicken with Red Sauce Tamales, 15-count",
+   "size": "each",
+   "price": "$20.69",
+   "brand_norm": "Del Real",
+   "price_regular": 20.69,
+   "price_promo": null,
+   "relevant": true,
+   "_banner": "costco-ic",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real Three Cheese Quesadilla Bites, 32 oz",
+   "size": "32 oz",
+   "price": "$11.49",
+   "brand_norm": "Del Real",
+   "price_regular": 11.49,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real Foods Fire Roasted Combo Salsa, 24 oz, 2-pack",
+   "size": "each",
+   "price": "$8.84",
+   "brand_norm": "Del Real",
+   "price_regular": 8.84,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "Del Real Foods Carnitas, 40 oz",
+   "size": "each",
+   "price": "$20.11",
+   "brand_norm": "Del Real",
+   "price_regular": 20.11,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "tamales",
+   "_comp": [
+    "Del Real"
+   ]
+  },
+  {
+   "name": "505 Southwestern Flame Roasted Green Chile, 40 oz",
+   "size": "each",
+   "price": "$10.11",
+   "brand_norm": "505 Southwestern",
+   "price_regular": 10.11,
+   "price_promo": null,
+   "relevant": false,
+   "_banner": "costco-ic",
+   "_term": "tamales",
+   "_comp": [
+    "505 Southwestern"
    ]
   },
   {
