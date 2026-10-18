@@ -1,0 +1,61 @@
+{
+ "block_id": "pura/natural-soda@heb-houston",
+ "retailer": "heb",
+ "zip": "beverages",
+ "neighborhood": "natural-soda",
+ "term": "natural soda",
+ "store_zip": "77005",
+ "client_id": "pura",
+ "steps": [
+  {
+   "goto": "https://www.heb.com/"
+  },
+  {
+   "wait": 10000
+  },
+  {
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;} const vis=e=>e.offsetWidth||e.offsetHeight; let b=[...document.querySelectorAll('button,a,[role=button]')].find(e=>vis(e)&&/In-store at/i.test(e.innerText||'')); if(!b) return 'no store btn'; b.click(); await new Promise(x=>setTimeout(x,2500)); let l=[...document.querySelectorAll('button,a,[role=button]')].find(e=>vis(e)&&/Select your preferred location|change|select/i.test(e.innerText||'')&&(e.innerText||'').length<60); const out=['opened']; if(l){l.click(); out.push('clicked '+l.innerText.trim().slice(0,40)); await new Promise(x=>setTimeout(x,3000));} const inp=await waitFor(()=>[...document.querySelectorAll('input')].find(e=>vis(e)&&(e.id==='address-input'||/zip|city|address/i.test((e.placeholder||'')+(e.getAttribute('aria-label')||'')+e.id))),8); out.push('inputs='+JSON.stringify([...document.querySelectorAll('input')].filter(vis).map(e=>e.placeholder||e.getAttribute('aria-label')||e.id))); if(inp){inp.setAttribute('data-zipbox','1'); out.push('zipbox ok');} const d=document.querySelector('[role=dialog],[aria-modal=true]'); out.push('dlg='+(d?d.innerText.replace(/\\s+/g,' ').slice(0,600):'none')); return out.join(' | ')",
+   "optional": true
+  },
+  {
+   "type_marked": {
+    "sel": "#address-input",
+    "value": "{{store_zip}}",
+    "enter": true
+   },
+   "optional": true
+  },
+  {
+   "js": "await new Promise(x=>setTimeout(x,6000)); const vis=e=>e.offsetWidth||e.offsetHeight; const d=document.querySelector('[role=dialog],[aria-modal=true]')||document; const btns=[...d.querySelectorAll('button,a,[role=button]')].filter(e=>vis(e)&&/^Select Store$/i.test(e.innerText.trim())); const txt=(d.innerText||'').replace(/\\s+/g,' ').slice(0,700); if(btns.length){btns[0].click(); return 'picked first Select Store of '+btns.length+' | '+txt} return 'nopick | '+txt",
+   "optional": true
+  },
+  {
+   "wait": 6000
+  },
+  {
+   "press": "Escape"
+  },
+  {
+   "wait": 1500
+  },
+  {
+   "search": {
+    "placeholder": "Search"
+   }
+  },
+  {
+   "wait": 12000
+  },
+  {
+   "scroll": 4
+  },
+  {
+   "wait": 2000
+  }
+ ],
+ "store_patterns": [
+  "In-store at\\s*\\n?\\s*([^\\n]{3,60})"
+ ],
+ "attempts": 2,
+ "store_expect": "Houston|Bellaire|West U|Rice|77005|Buffalo|Kirby"
+}

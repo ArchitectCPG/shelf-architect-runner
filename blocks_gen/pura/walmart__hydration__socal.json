@@ -1,0 +1,19 @@
+{
+ "block_id": "pura/hydration@walmart-socal",
+ "retailer": "walmart",
+ "zip": "beverages",
+ "neighborhood": "hydration",
+ "term": "electrolyte hydration drink",
+ "store_zip": "90012",
+ "client_id": "pura",
+ "api": {
+  "dataset_id": "gd_m693oc1r1gebnayxq",
+  "discover_by": "keyword",
+  "input": {
+   "keyword": "{{term}}",
+   "store_id": "",
+   "zip_code": "{{store_zip}}"
+  },
+  "limit": 48
+ }
+}

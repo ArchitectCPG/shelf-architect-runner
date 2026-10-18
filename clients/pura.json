@@ -1,0 +1,149 @@
+{
+ "client_id": "pura",
+ "name": "Pura Beverage",
+ "sandbox_note": "Second test client (portability proof). Competitor list is PROPOSED from the Shelf Architect shelf test; Steve to confirm. Nothing here writes to the Shelf Architect DB.",
+ "brand_terms": [
+  "\\bpura\\b(?! vida)"
+ ],
+ "competitor_terms": {
+  "Olipop": [
+   "\\bolipop"
+  ],
+  "Poppi": [
+   "\\bpoppi\\b"
+  ],
+  "Zevia": [
+   "\\bzevia"
+  ],
+  "Spindrift": [
+   "\\bspindrift"
+  ],
+  "Pepsi Prebiotic / Pepsi": [
+   "\\bpepsi prebiotic|\\bpepsi\\b"
+  ],
+  "Coca-Cola Simply Pop": [
+   "\\bsimply pop|\\bcoca-cola"
+  ],
+  "Culture Pop": [
+   "\\bculture pop"
+  ],
+  "Humm": [
+   "\\bhumm\\b"
+  ],
+  "Reed's": [
+   "\\breed'?s\\b"
+  ],
+  "Jones Soda": [
+   "\\bjones soda"
+  ],
+  "Honest Kids": [
+   "\\bhonest kids"
+  ],
+  "Capri Sun": [
+   "\\bcapri.?sun"
+  ],
+  "Hint Kids": [
+   "\\bhint kids"
+  ],
+  "Kool-Aid": [
+   "\\bkool-?aid"
+  ],
+  "Liquid I.V.": [
+   "\\bliquid i\\.?v"
+  ],
+  "Gatorade": [
+   "\\bgatorade"
+  ],
+  "Body Armor": [
+   "\\bbody ?armor"
+  ],
+  "Waterloo": [
+   "\\bwaterloo"
+  ]
+ },
+ "brand_hints": {
+  "Pura Soda": "\\bpura\\b.*(soda|cane)",
+  "Pura Kids": "\\bpura\\b.*kids",
+  "Pura Hydrate": "\\bpura\\b.*hydrat"
+ },
+ "markets": {
+  "socal": {
+   "zip": "90012",
+   "lat": 34.0537,
+   "lng": -118.2428
+  },
+  "houston": {
+   "zip": "77005",
+   "lat": 29.7174,
+   "lng": -95.4018
+  }
+ },
+ "department": "beverages",
+ "neighborhoods": [
+  {
+   "id": "natural-soda",
+   "term": "natural soda",
+   "relevance": "soda|cola|ginger|\\bpop\\b|sparkling|prebiotic"
+  },
+  {
+   "id": "kids-drinks",
+   "term": "kids juice drink",
+   "relevance": "kids|juice|pouch|fruit drink"
+  },
+  {
+   "id": "hydration",
+   "term": "electrolyte hydration drink",
+   "relevance": "electrolyte|hydrat|sports drink|gatorade|body ?armor|liquid i"
+  },
+  {
+   "id": "brand",
+   "term": "pura soda",
+   "relevance": "\\bpura\\b(?! vida)",
+   "brand_only": true
+  }
+ ],
+ "retailers": [
+  {
+   "banner": "sprouts",
+   "lane": "instacart",
+   "slug": "sprouts",
+   "url": "https://shop.sprouts.com/store/sprouts/s?k={{term}}",
+   "market": "socal",
+   "brand_check": true
+  },
+  {
+   "banner": "costco-ic",
+   "lane": "instacart",
+   "slug": "costco",
+   "market": "socal",
+   "brand_check": true
+  },
+  {
+   "banner": "walmart",
+   "lane": "api",
+   "template": "walmart",
+   "market": "socal",
+   "brand_check": true
+  },
+  {
+   "banner": "target",
+   "lane": "api",
+   "template": "target",
+   "market": "socal",
+   "brand_check": true
+  },
+  {
+   "banner": "wholefoods",
+   "lane": "recipe",
+   "template": "wholefoods",
+   "market": "socal"
+  },
+  {
+   "banner": "heb",
+   "lane": "recipe",
+   "template": "heb",
+   "market": "houston",
+   "brand_check": true
+  }
+ ]
+}

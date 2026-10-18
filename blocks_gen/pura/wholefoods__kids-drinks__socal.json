@@ -1,0 +1,70 @@
+{
+ "block_id": "pura/kids-drinks@wholefoods-socal",
+ "retailer": "wholefoods",
+ "zip": "beverages",
+ "neighborhood": "kids-drinks",
+ "term": "kids juice drink",
+ "store_zip": "90012",
+ "client_id": "pura",
+ "steps": [
+  {
+   "goto": "https://www.wholefoodsmarket.com/search?text={{term}}"
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now"
+   ]
+  },
+  {
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;} const vis=e=>e.offsetWidth||e.offsetHeight; const pick=()=>{for(const sel of ['button','a','[role=button]','span','div']){const e=[...document.querySelectorAll(sel)].find(e=>vis(e)&&/update location/i.test(e.innerText||e.getAttribute('aria-label')||'')&&(e.innerText||'x').length<60); if(e) return e;} return null;}; let b=await waitFor(pick,20); if(!b){ location.reload(); return 'reloading'; } b.click(); let z=await waitFor(()=>document.querySelector('#zipCode, input[name=zipCode], input[placeholder*=zip i]'),8); if(!z){b.dispatchEvent(new MouseEvent('click',{bubbles:true})); z=await waitFor(()=>document.querySelector('#zipCode, input[name=zipCode], input[placeholder*=zip i]'),6);} return (z?'zip box ready ':'no zip box ')+b.tagName+' '+(b.innerText||'').trim().slice(0,40)+' | inputs='+[...document.querySelectorAll('input')].filter(vis).map(i=>i.id||i.name||i.placeholder).join(',')",
+   "optional": true
+  },
+  {
+   "wait": 9000
+  },
+  {
+   "js": "async function waitFor(f,n){for(let i=0;i<n;i++){const r=f(); if(r) return r; await new Promise(x=>setTimeout(x,1000));} return null;} const vis=e=>e.offsetWidth||e.offsetHeight; const pick=()=>{for(const sel of ['button','a','[role=button]','span','div']){const e=[...document.querySelectorAll(sel)].find(e=>vis(e)&&/update location/i.test(e.innerText||e.getAttribute('aria-label')||'')&&(e.innerText||'x').length<60); if(e) return e;} return null;}; let b=await waitFor(pick,20); if(!b){ return 'no update location after reload | links='+[...document.querySelectorAll('a')].map(a=>a.getAttribute('href')||'').filter(h=>/store/i.test(h)).slice(0,5).join(' ') } b.click(); let z=await waitFor(()=>document.querySelector('#zipCode, input[name=zipCode], input[placeholder*=zip i]'),8); if(!z){b.dispatchEvent(new MouseEvent('click',{bubbles:true})); z=await waitFor(()=>document.querySelector('#zipCode, input[name=zipCode], input[placeholder*=zip i]'),6);} return (z?'zip box ready ':'no zip box ')+b.tagName+' '+(b.innerText||'').trim().slice(0,40)+' | inputs='+[...document.querySelectorAll('input')].filter(vis).map(i=>i.id||i.name||i.placeholder).join(',')",
+   "optional": true
+  },
+  {
+   "wait": 1500
+  },
+  {
+   "type_sel": {
+    "sel": "#zipCode, input[name=zipCode], input[placeholder*='zip' i]",
+    "value": "{{store_zip}}",
+    "enter": false
+   },
+   "optional": true
+  },
+  {
+   "wait": 1000
+  },
+  {
+   "js": "const z=document.querySelector('#zipCode'); if(!z) return 'no zip'; const f=z.closest('form'); const btn=(f&&f.querySelector('button[type=submit],button'))||[...document.querySelectorAll('button')].find(b=>/apply|update|save|continue/i.test(b.innerText)&&b.offsetWidth); if(btn){btn.click(); return 'submit '+btn.innerText.trim().slice(0,30)} return 'no submit'",
+   "optional": true
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "goto": "https://www.wholefoodsmarket.com/search?text={{term}}"
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "scroll": 4
+  }
+ ],
+ "store_patterns": [
+  "Delivering to\\s*(\\d{5})"
+ ],
+ "attempts": 3,
+ "store_expect": "^\\d{5}$"
+}
