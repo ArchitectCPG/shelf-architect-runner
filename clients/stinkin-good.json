@@ -44,7 +44,9 @@
   {
    "id": "green-chile",
    "term": "green chile",
-   "relevance": "chil[ei]|hatch|salsa verde|poblano"
+   "relevance": "chil[ei]|hatch|salsa verde|poblano",
+   "exclude": "burrito|\\begg|rice\\b|macaron|tomato|beans?\\b|seasoning|shaker|lentil|nuts?\\b|olive|cheese(?!.*(dip|sauce))|empanada|soup|chili (crisp|crunch|oil)|chocolate|freeze.?dried|dried .*(pepper|chile|chili)|chili with|chili lime|in-shell|snack|chips?\\b|popcorn|jerky|sausage|pizza|flavored|pitted|quesadilla|taquito|bowl|wrap|sandwich|hummus|dressing|mayo|aioli|mustard|relish|jam|honey|wing|hot dog|cornbread|mac\\b|pasta|crackers?|pretzel",
+   "keep": "green chil[ei] sauce|green chili sauce|chile verde|salsa verde|\\bgreen chili\\b(?!.*(burrito|soup|empanada))|diced green chil|chopped green chil|whole green chil|roasted (hatch|green)|hatch (valley|green|chile)|enchilada sauce"
   },
   {
    "id": "queso",
@@ -56,7 +58,8 @@
   {
    "id": "tamales",
    "term": "tamales",
-   "relevance": "tamal"
+   "relevance": "tamal",
+   "exclude": "tamale pie|tamale (seasoning|mix|kit)|masa|corn husk|tamalito"
   },
   {
    "id": "brand",
