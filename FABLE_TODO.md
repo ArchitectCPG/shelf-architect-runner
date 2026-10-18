@@ -216,3 +216,8 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - tools/mapper.py now repairs names containing "..." : (1) /shop/pd/ URL slug, (2) unique head/tail match to a known full name (client seed rows + untruncated names in the same run), (3) otherwise the row is tagged name_truncated=true and routed to held/ (never guessed).
 - Tested on the 2026-10-18 SG data: 5 rows recovered (Guadalupana x2, Tamal de Queso con Rajas, Velveeta x2), 19 held. Scope is about 5, not the 20 first estimated.
 - Open (needs a recipe change, not the mapper): Albertsons-platform grids return houses_dom=0 and via="text", so full titles never reach the mapper. Next step is a DOM selector for the product title (aria-label/title attr) in the albertsons/jewel recipe, tested live. Until then, truncated rows need a hand call at landing.
+
+## 2026-10-18 11:05 CT: PURA AMAZON COMPS LANDED (Steve "Ok on Amazon")
+- amazon_comps: 26 rows set (11 Pura own listings with ASIN, 15 top organic comps by bought-past-month across natural soda, kids drinks, hydration). est_monthly_units carries the bought-past-month badge with est_monthly_units_basis saying so; est_monthly_revenue stays null. pura_own_soda-4pk marked superseded (Pura is live on Amazon as of this pull), kept for history.
+- Backup covering amazon_comps before this write: shelf-architect-backup-2026-10-18_2.zip (Steve holds it).
+- SA retail hygiene items (is_own_brand on store brands, storage-class corrections) handed to the other session as a prompt; see mapped/stinkin-good/hygiene_review_2026-10-18.md.
