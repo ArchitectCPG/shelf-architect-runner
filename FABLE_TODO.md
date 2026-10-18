@@ -202,3 +202,12 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - Pending Steve's picks: 24 fuzzy pairs (17 Albertsons, 7 Jewel). La Victoria vs Hatch Select 4 oz and Ortega vs Signature Select 4 oz are wrong pairs, treat as new rows.
 - Fix upstream: runner recipe truncates product names; clean in mapper before next landing.
 - Albertsons runner store 1650 W State St (Boise); older hand pulls were 4700 N Eagle Rd.
+
+## 2026-10-18 10:50 CT: ALBERTSONS + JEWEL-OSCO MERGE COMPLETE (Fable, Steve: "your call")
+- Second landing, 45 writes in 2 atomic batches: 27 price/history updates (24 fuzzy pairs confirmed minus 3, plus 3 truncated-name rows that matched old rows at identical price), 18 new rows. Backups _5-full before, _6-full after.
+- Calls made: La Victoria 4 oz and 505 Green Chile Salsa Medium were NOT the paired old rows, landed as new. Ortega 4 oz "mild can" was a duplicate of the other Ortega 4 oz runner row, dropped. Truncated names reconstructed and verified by price match and pull_url slug (Signature Select "...iced" = fire roasted diced, Hatch Select "Glut...sted" = gluten free fire roasted, "Ea Guadalupana" = La Guadalupana, Tucson = Tucson Tamale, "Bistro 28" kept as brand).
+- Jewel unbranded deli items landed as brand "Deli", is_private_label true, format Refrigerated. "Previously frozen" deli tamales set Refrigerated (sold thawed), not Frozen.
+- Dropped as out of category: Hot Tamales candy, Hatch New Mexico peppers 25 lb case (400 oz, $37.99, seasonal produce), Signature Select petite diced tomatoes with green chilies. Dropped duplicate: unbranded chicken tamale 3ct (same as chicken tamales 3ct).
+- Still held (2): jewel-osco unbranded White Queso 12 oz $3.99 (brand unknown, could be ReadyMeals), "Tamal De Queso Con Rajas" 6ct (brand unclear).
+- GO-FORWARD FIX for mapper.py: Albertsons/Jewel grid truncates long titles with "..." but pull_url slugs carry the full name. When product_name contains "..." or an abbreviation pattern, rebuild it from the pull_url slug. Would have eliminated 20 of the 28 holds. Sonnet job.
+- Store context: Albertsons runner = 1650 W State St Boise (hand pulls were 4700 N Eagle Rd). Jewel runner = 6014 S Cottage Grove (hand pulls were 2940 N Ashland). Prices matched across stores on every confirmed pair.
