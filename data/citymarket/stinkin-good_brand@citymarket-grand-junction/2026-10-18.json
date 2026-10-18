@@ -3,37 +3,684 @@
   "retailer": "citymarket",
   "zip": "refrigerated",
   "neighborhood": "brand",
-  "pulled_at": "2026-10-18T03:54:46.266Z",
+  "pulled_at": "2026-10-18T04:14:01.268Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "81501",
-  "store_set": null,
+  "store_set": "Pickup at 12th Street Grand Junction",
   "url_final": "https://www.citymarket.com/search?query=stinkin%20good",
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "03:54:46 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "03:54:47 connected to Bright Data Scraping Browser",
-    "03:54:59 goto https://www.citymarket.com/search?query=stinkin good",
-    "03:55:07 captcha check passed",
-    "03:55:53 click_sel miss button[aria-label='close banner']",
-    "03:55:59 click_sel [data-testid=CurrentModality-button]",
-    "03:56:12 type_sel [data-testid=PostalCodeSearchBox-input] \"81501\"",
-    "03:56:13 js ok search",
-    "03:56:31 step failed (Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click'), will retry recipe",
-    "03:56:32 store_set: Pickup at Gold Hill Woodland Park",
-    "03:56:32 attempt 2: store not pinned, fresh page",
-    "03:56:36 goto https://www.citymarket.com/search?query=stinkin good",
-    "03:56:45 captcha check passed",
-    "03:57:31 click_sel miss button[aria-label='close banner']",
-    "03:57:35 click_sel [data-testid=CurrentModality-button]",
-    "03:57:42 type_sel [data-testid=PostalCodeSearchBox-input] \"81501\"",
-    "03:57:42 js ok search",
-    "03:58:01 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+  "houses": [
+    {
+      "name": "Stinkin Good Green Chili",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "52 results",
+        "52 products loaded",
+        "$6.99",
+        "$6.99",
+        "$7.46/lb",
+        "Stinkin Good Green Chili"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Schlereth's Stinkin Good Green Chili Sauce",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$6.99",
+        "$6.99",
+        "$7.46/lb",
+        "Schlereth's Stinkin Good Green Chili Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Schlereth's Stinkin' Good Green Chile Sauce",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$6.99",
+        "$6.99",
+        "$14.91/qt",
+        "Schlereth's Stinkin' Good Green Chile Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Bueno Green Chile Hot",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$4.99",
+        "$4.99",
+        "$6.14/lb",
+        "Bueno Green Chile Hot"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Stinkin Good Blanco Queso Medium",
+      "brand": null,
+      "price": "$8.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$8.99",
+        "$8.99",
+        "$0.60/oz",
+        "Stinkin Good Blanco Queso Medium"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Santiago's Mild Green Chile Sauce With Pork",
+      "brand": null,
+      "price": "$9.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$9.29",
+        "$9.29",
+        "$5.31/lb",
+        "Santiago's Mild Green Chile Sauce With Pork"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Santiago's Authentic Green Chile Sauce With Pork",
+      "brand": null,
+      "price": "$9.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$9.29",
+        "$9.29",
+        "$5.31/lb",
+        "Santiago's Authentic Green Chile Sauce With Pork"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Johnsonville Beddar with Cheddar Smoked Sausage Links",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "Everyday Low Price",
+        "$4.99",
+        "$4.99",
+        "$0.36/oz",
+        "Johnsonville Beddar with Cheddar Smoked Sausage Links"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Johnsonville Beddar with Cheddar Smoked Sausage Links",
+      "brand": null,
+      "price": "$10.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$10.99",
+        "$10.99",
+        "$9.77/lb",
+        "La Favorita Pork Tamales 6 Count"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "La Favorita Pork Tamales 6 Count",
+      "brand": null,
+      "price": "$10.99",
+      "size": "6 Count",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$10.99",
+        "$10.99",
+        "$9.77/lb",
+        "La Favorita Pork Tamales 6 Count",
+        "18 oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Select New Mexico Hot Green Chile Peppers",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$4.99",
+        "$4.99",
+        "$0.21/oz",
+        "Select New Mexico Hot Green Chile Peppers"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Santiago's Medium Green Chile Sauce with Pork",
+      "brand": null,
+      "price": "$9.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$9.29",
+        "$9.29",
+        "$5.31/lb",
+        "Santiago's Medium Green Chile Sauce with Pork"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "La Favorita® Black Bean Burrito",
+      "brand": null,
+      "price": "$3.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$3.29",
+        "$3.29",
+        "$0.55/oz",
+        "La Favorita® Black Bean Burrito"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "SOUR PATCH KIDS & SWEDISH FISH Soft & Chewy Gummy Halloween Candy Variety Pack",
+      "brand": null,
+      "price": "$16.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "Sponsored",
+        "$16.99",
+        "$20.49",
+        "Sale: $16.99 discounted from $20.49",
+        "$0.35/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "SOUR PATCH KIDS & SWEDISH FISH Soft & Chewy Gummy Halloween Candy Variety Pack",
+      "brand": null,
+      "price": "$20.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "$16.99",
+        "$20.49",
+        "Sale: $16.99 discounted from $20.49",
+        "$0.35/oz",
+        "SOUR PATCH KIDS & SWEDISH FISH Soft & Chewy Gummy Halloween Candy Variety Pack"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Bueno Red Chile Puree Hot",
+      "brand": null,
+      "price": "$4.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$4.29",
+        "$4.29",
+        "$4.90/lb",
+        "Bueno Red Chile Puree Hot"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "New Mexico Select Mild Green Chile Peppers",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$4.99",
+        "$4.99",
+        "$0.21/oz",
+        "New Mexico Select Mild Green Chile Peppers"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Bueno Mild Chopped Green Chile",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$4.99",
+        "$4.99",
+        "$6.14/lb",
+        "Bueno Mild Chopped Green Chile"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Slim Jim Smoked Jerky Meat Snack Sticks, Original Flavor, 6g Protein Per Serving",
+      "brand": null,
+      "price": "$12.99",
+      "size": "6g",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "Sponsored",
+        "$12.99",
+        "$14.29",
+        "Sale: $12.99 discounted from $14.29",
+        "$1.01/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Slim Jim Smoked Jerky Meat Snack Sticks, Original Flavor, 6g Protein Per Serving",
+      "brand": null,
+      "price": "$14.29",
+      "size": "6g",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "$12.99",
+        "$14.29",
+        "Sale: $12.99 discounted from $14.29",
+        "$1.01/oz",
+        "Slim Jim Smoked Jerky Meat Snack Sticks, Original Flavor, 6g Protein Per Serving"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Slim Jim Smoked Jerky Meat Snack Sticks, Original Flavor, 6g Protein Per Serving",
+      "brand": null,
+      "price": "$7.49",
+      "size": "6g",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$7.49",
+        "$7.49",
+        "$0.27/oz",
+        "Bueno Mild Chopped Green Chile"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Bueno Mild Chopped Green Chile",
+      "brand": null,
+      "price": "$7.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$7.49",
+        "$7.49",
+        "$0.27/oz",
+        "Bueno Mild Chopped Green Chile",
+        "28 oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Holiday Home Decorative Spiders - Black",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$2.99",
+        "$5.99",
+        "Sale: $2.99 discounted from $5.99",
+        "$2.99/each"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Holiday Home Decorative Spiders - Black",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$2.99",
+        "$5.99",
+        "Sale: $2.99 discounted from $5.99",
+        "$2.99/each",
+        "Holiday Home Decorative Spiders - Black"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Holiday Home Decorative Spiders - Black",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Low Stock",
+        "Sign In to Add",
+        "$9.49",
+        "$11.49",
+        "Sale: $9.49 discounted from $11.49",
+        "$0.20/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Smarties® Original Candy Rolls Candy",
+      "brand": null,
+      "price": "$11.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$9.49",
+        "$11.49",
+        "Sale: $9.49 discounted from $11.49",
+        "$0.20/oz",
+        "Smarties® Original Candy Rolls Candy"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Trolli Spicy Crawlers Gummy Worms, 6.3 oz Bag",
+      "brand": null,
+      "price": "$3.39",
+      "size": "6.3 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "Sponsored",
+        "$3.39",
+        "$3.39",
+        "$0.54/oz",
+        "Trolli Spicy Crawlers Gummy Worms, 6.3 oz Bag"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Trolli Spicy Crawlers Gummy Worms, 6.3 oz Bag",
+      "brand": null,
+      "price": "$2.79",
+      "size": "6.3 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$2.79",
+        "$2.79",
+        "$0.80/oz",
+        "Trolli® Sour Brite Crawlers® Minis Sharepack"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Trolli® Sour Brite Crawlers® Minis Sharepack",
+      "brand": null,
+      "price": "$2.79",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$2.79",
+        "$2.79",
+        "$0.80/oz",
+        "Trolli® Sour Brite Crawlers® Minis Sharepack",
+        "3.5 oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Smarties Original Candy Rolls Halloween Candy",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$4.99",
+        "$5.99",
+        "Sale: $4.99 discounted from $5.99",
+        "$0.26/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Smarties Original Candy Rolls Halloween Candy",
+      "brand": null,
+      "price": "$5.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$4.99",
+        "$5.99",
+        "Sale: $4.99 discounted from $5.99",
+        "$0.26/oz",
+        "Smarties Original Candy Rolls Halloween Candy"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Goldfish® Cheddar Cheese Crackers",
+      "brand": null,
+      "price": "$1.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$1.19",
+        "$1.19",
+        "$0.59/oz",
+        "Goldfish® Cheddar Cheese Crackers"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Goldfish® Cheddar Cheese Crackers, 27.3 Oz Carton",
+      "brand": null,
+      "price": "$9.99",
+      "size": "27.3 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$9.99",
+        "$10.29",
+        "Sale: $9.99 discounted from $10.29",
+        "$0.37/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Goldfish® Cheddar Cheese Crackers, 27.3 Oz Carton",
+      "brand": null,
+      "price": "$10.29",
+      "size": "27.3 Oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$9.99",
+        "$10.29",
+        "Sale: $9.99 discounted from $10.29",
+        "$0.37/oz",
+        "Goldfish® Cheddar Cheese Crackers, 27.3 Oz Carton"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Duke's Hatch Green Chile Smoked Shorty Sausages, Keto Friendly, Gluten Free",
+      "brand": null,
+      "price": "$9.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$9.29",
+        "$9.29",
+        "$1.24/oz",
+        "Duke's Hatch Green Chile Smoked Shorty Sausages, Keto Friendly, Gluten Free"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Duke's Hatch Green Chile Smoked Shorty Sausages, Keto Friendly, Gluten Free",
+      "brand": null,
+      "price": "$3.69",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$3.69",
+        "$3.69",
+        "$0.13/oz",
+        "Sweet Baby Ray's® Sweet 'n Spicy BBQ Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Sweet Baby Ray's® Sweet 'n Spicy BBQ Sauce",
+      "brand": null,
+      "price": "$3.69",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$3.69",
+        "$3.69",
+        "$0.13/oz",
+        "Sweet Baby Ray's® Sweet 'n Spicy BBQ Sauce",
+        "28 oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Bibigo Original Korean BBQ Marinade & Sauce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$4.99",
+        "$4.99",
+        "$0.30/oz",
+        "Bibigo Original Korean BBQ Marinade & Sauce"
+      ],
+      "via": "text"
+    }
   ],
-  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+  "raw_text_chars": 6649,
+  "steps": [
+    "04:14:01 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "04:14:59 connected to Bright Data Scraping Browser",
+    "04:15:07 goto https://www.citymarket.com/search?query=stinkin good",
+    "04:15:16 captcha check passed",
+    "04:15:30 click_sel button[aria-label='close banner']",
+    "04:15:33 click_sel [data-testid=CurrentModality-button]",
+    "04:15:41 type_sel [data-testid=PostalCodeSearchBox-input] \"81501\"",
+    "04:15:43 js ok search",
+    "04:15:52 js ok 62000444",
+    "04:16:00 click_re ^Keep Shopping Here$ false",
+    "04:16:07 goto https://www.citymarket.com/search?query=stinkin good",
+    "04:16:15 captcha check passed",
+    "04:16:30 scrolled x4",
+    "04:16:30 store_set: Pickup at 12th Street Grand Junction",
+    "04:16:31 text parser wins: 38 vs 22",
+    "04:16:32 extracted 38 houses; raw text 6649 chars"
+  ],
+  "error": null,
   "js_results": [
     "search",
-    "search"
-  ]
+    "62000444"
+  ],
+  "houses_text": 38,
+  "houses_dom": 22
 }

@@ -3,34 +3,803 @@
   "retailer": "kingsoopers",
   "zip": "refrigerated",
   "neighborhood": "green-chile",
-  "pulled_at": "2026-10-18T04:02:16.645Z",
+  "pulled_at": "2026-10-18T04:11:09.222Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "80202",
-  "store_set": null,
+  "store_set": "Pickup at Union Station",
   "url_final": "https://www.kingsoopers.com/search?query=green%20chile",
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "04:02:16 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "04:02:18 connected to Bright Data Scraping Browser",
-    "04:02:32 goto https://www.kingsoopers.com/search?query=green chile",
-    "04:02:41 captcha check passed",
-    "04:03:27 click_sel miss button[aria-label='close banner']",
-    "04:03:35 click_sel [data-testid=CurrentModality-button]",
-    "04:03:46 type_sel [data-testid=PostalCodeSearchBox-input] \"80202\"",
-    "04:03:47 js ok search",
-    "04:04:07 step failed (Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click'), will retry recipe",
-    "04:04:07 store_set: Pickup at Dell Range Cheyenne",
-    "04:04:07 attempt 2: store not pinned, fresh page",
-    "04:04:33 goto https://www.kingsoopers.com/search?query=green chile",
-    "04:04:41 captcha check passed",
-    "04:04:56 click_sel button[aria-label='close banner']",
-    "04:05:03 click_sel [data-testid=CurrentModality-button]",
-    "04:05:31 ERROR TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=PostalCodeSearchBox-input]').first() to be visible\n    - waiting for \"https://www.kingsoopers.com/search?query=green%20chile\" navigation to finish...\n    - navigated to \"https://www.kingsoopers.com/search?query=green%20chile\"\n"
+  "houses": [
+    {
+      "name": "Kroger® Diced Green Chile Peppers",
+      "brand": null,
+      "price": "$0.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "291 products loaded",
+        "Everyday Low Price",
+        "$0.99",
+        "$0.99",
+        "$0.25/oz",
+        "Kroger® Diced Green Chile Peppers"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Medium Flame Roasted Hatch Valley Green Chile",
+      "brand": null,
+      "price": "$3.90",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$3.90",
+        "$4.99",
+        "Sale: $3.90 discounted from $4.99",
+        "$0.24/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Medium Flame Roasted Hatch Valley Green Chile",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$3.90",
+        "$4.99",
+        "Sale: $3.90 discounted from $4.99",
+        "$0.24/oz",
+        "505 Southwestern® Medium Flame Roasted Hatch Valley Green Chile"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Medium Green Chile Sauce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$3.90",
+        "$4.99",
+        "Sale: $3.90 discounted from $4.99",
+        "$3.90/oz",
+        "505 Southwestern® Medium Green Chile Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Medium Green Chile Sauce",
+      "brand": null,
+      "price": "$2.39",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$2.39",
+        "$2.49",
+        "Sale: $2.39 discounted from $2.49",
+        "$0.60/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Hatch® Mild Diced Green Chiles",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$2.39",
+        "$2.49",
+        "Sale: $2.39 discounted from $2.49",
+        "$0.60/oz",
+        "Hatch® Mild Diced Green Chiles"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Mild Hatch Valley Green Chile Sauce",
+      "brand": null,
+      "price": "$3.90",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$3.90",
+        "$4.99",
+        "Sale: $3.90 discounted from $4.99",
+        "$3.90/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Mild Hatch Valley Green Chile Sauce",
+      "brand": null,
+      "price": "$4.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$3.90",
+        "$4.99",
+        "Sale: $3.90 discounted from $4.99",
+        "$3.90/oz",
+        "505 Southwestern® Mild Hatch Valley Green Chile Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern® Mild Hatch Valley Green Chile Sauce",
+      "brand": null,
+      "price": "$1.50",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "Sponsored",
+        "$1.50",
+        "$1.59",
+        "Sale: $1.50 discounted from $1.59",
+        "$0.38/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Macayo Diced Green Chiles",
+      "brand": null,
+      "price": "$1.59",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "$1.50",
+        "$1.59",
+        "Sale: $1.50 discounted from $1.59",
+        "$0.38/oz",
+        "Macayo Diced Green Chiles"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Stinkin Good Green Chili",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$6.99",
+        "$6.99",
+        "$7.46/lb",
+        "Stinkin Good Green Chili"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Nanita's Finest Medium New Mexico Style Green Chile Hot Sauce",
+      "brand": null,
+      "price": "$6.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$6.29",
+        "$6.29",
+        "$0.39/oz",
+        "Nanita's Finest Medium New Mexico Style Green Chile Hot Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Nanita's Finest Medium New Mexico Style Green Chile Hot Sauce",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$9.49",
+        "$9.49",
+        "$5.42/lb",
+        "Santiago's Medium Green Chile Sauce with Pork"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Santiago's Medium Green Chile Sauce with Pork",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$9.49",
+        "$9.49",
+        "$5.42/lb",
+        "Santiago's Medium Green Chile Sauce with Pork",
+        "28 oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Hatch® Select Hot Diced Green Chiles",
+      "brand": null,
+      "price": "$2.39",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$2.39",
+        "$2.49",
+        "Sale: $2.39 discounted from $2.49",
+        "$0.60/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Hatch® Select Hot Diced Green Chiles",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$2.39",
+        "$2.49",
+        "Sale: $2.39 discounted from $2.49",
+        "$0.60/oz",
+        "Hatch® Select Hot Diced Green Chiles"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Hatch® Select Hot Diced Green Chiles",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$3.99",
+        "$3.99",
+        "$0.27/oz",
+        "Stokes Green Chile Sauce with Pork"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Stokes Green Chile Sauce with Pork",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$3.99",
+        "$3.99",
+        "$0.27/oz",
+        "Stokes Green Chile Sauce with Pork",
+        "15 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Stokes Green Chile Sauce with Pork",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$2.49",
+        "$2.49",
+        "$0.36/oz",
+        "Macayo Diced Green Chiles"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Macayo Diced Green Chiles",
+      "brand": null,
+      "price": "$2.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$2.49",
+        "$2.49",
+        "$0.36/oz",
+        "Macayo Diced Green Chiles",
+        "7 oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Santiago's Authentic Green Chile Sauce With Pork",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$9.49",
+        "$9.49",
+        "$5.42/lb",
+        "Santiago's Authentic Green Chile Sauce With Pork"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Nanita's Finest Mild Green Chile Hot Sauce",
+      "brand": null,
+      "price": "$6.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$6.29",
+        "$6.29",
+        "$0.39/oz",
+        "Nanita's Finest Mild Green Chile Hot Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Hatch Green Chile Tortilla Chips 7.5 oz",
+      "brand": null,
+      "price": "$3.50",
+      "size": "7.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "Sponsored",
+        "$3.50",
+        "$4.99",
+        "Sale: $3.50 discounted from $4.99",
+        "$0.47/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Hatch Green Chile Tortilla Chips 7.5 oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "7.5 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "$3.50",
+        "$4.99",
+        "Sale: $3.50 discounted from $4.99",
+        "$0.47/oz",
+        "505 Hatch Green Chile Tortilla Chips 7.5 oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Whole Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$8.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$8.99",
+        "$9.49",
+        "Sale: $8.99 discounted from $9.49",
+        "$0.33/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Whole Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$9.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$8.99",
+        "$9.49",
+        "Sale: $8.99 discounted from $9.49",
+        "$0.33/oz",
+        "Ortega Whole Mild Fire Roasted Green Chiles, Kosher"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Whole Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Low Stock",
+        "Sign In to Add",
+        "$2.99",
+        "$2.99",
+        "$0.30/oz",
+        "Old El Paso™ Mild Green Chile Enchilada Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Old El Paso™ Mild Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$2.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$2.99",
+        "$2.99",
+        "$0.30/oz",
+        "Old El Paso™ Mild Green Chile Enchilada Sauce",
+        "10 oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Old El Paso™ Mild Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$3.99",
+        "$3.99",
+        "$0.27/oz",
+        "Stokes Green Chile Sauce with Chicken"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Stokes Green Chile Sauce with Chicken",
+      "brand": null,
+      "price": "$3.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$3.99",
+        "$3.99",
+        "$0.27/oz",
+        "Stokes Green Chile Sauce with Chicken",
+        "15 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Stokes Green Chile Sauce with Chicken",
+      "brand": null,
+      "price": "$12.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "Sponsored",
+        "$12.49",
+        "$13.49",
+        "Sale: $12.49 discounted from $13.49",
+        "$1.04/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Mike's Hot Honey",
+      "brand": null,
+      "price": "$13.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "$12.49",
+        "$13.49",
+        "Sale: $12.49 discounted from $13.49",
+        "$1.04/oz",
+        "Mike's Hot Honey"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
+      "brand": null,
+      "price": "$3.90",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "View Offer",
+        "Sign In to Add",
+        "$3.90",
+        "$4.99",
+        "Sale: $3.90 discounted from $4.99",
+        "$0.24/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
+      "brand": null,
+      "price": "$4.99",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$3.90",
+        "$4.99",
+        "Sale: $3.90 discounted from $4.99",
+        "$0.24/oz",
+        "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern Flame Roasted Hatch Valley Mild Green Chile 16 oz",
+      "brand": null,
+      "price": "$1.99",
+      "size": "16 oz",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$1.99",
+        "$2.19",
+        "Sale: $1.99 discounted from $2.19",
+        "$0.50/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Diced Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$2.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$1.99",
+        "$2.19",
+        "Sale: $1.99 discounted from $2.19",
+        "$0.50/oz",
+        "Ortega Diced Mild Fire Roasted Green Chiles, Kosher"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Ortega Diced Mild Fire Roasted Green Chiles, Kosher",
+      "brand": null,
+      "price": "$6.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$6.49",
+        "$6.49",
+        "$0.26/oz",
+        "Stokes Green Chile Sauce With Pork"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Stokes Green Chile Sauce With Pork",
+      "brand": null,
+      "price": "$6.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$6.49",
+        "$6.49",
+        "$0.26/oz",
+        "Stokes Green Chile Sauce With Pork",
+        "25 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "McCormick Original Taco Seasoning Mix",
+      "brand": null,
+      "price": "$0.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sponsored",
+        "Price Cut",
+        "$0.99",
+        "$1.19",
+        "Sale: $0.99 discounted from $1.19",
+        "$0.99/oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "McCormick Original Taco Seasoning Mix",
+      "brand": null,
+      "price": "$1.19",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Price Cut",
+        "$0.99",
+        "$1.19",
+        "Sale: $0.99 discounted from $1.19",
+        "$0.99/oz",
+        "McCormick Original Taco Seasoning Mix"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Las Palmas® Mild Green Chile Enchilada Sauce",
+      "brand": null,
+      "price": "$3.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "Everyday Low Price",
+        "$3.29",
+        "$3.29",
+        "$0.12/oz",
+        "Las Palmas® Mild Green Chile Enchilada Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile Sauce",
+      "brand": null,
+      "price": "$12.49",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "SNAP EBT",
+        "Sign In to Add",
+        "$12.49",
+        "$12.49",
+        "$0.31/oz",
+        "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "505 Southwestern Medium Flame Roasted Hatch Valley Green Chile Sauce",
+      "brand": null,
+      "price": "$6.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Low Stock",
+        "Sign In to Add",
+        "$6.29",
+        "$6.29",
+        "$0.39/oz",
+        "Nanita's Finest Green Chile Hot Sauce"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Nanita's Finest Green Chile Hot Sauce",
+      "brand": null,
+      "price": "$6.29",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "$6.29",
+        "$6.29",
+        "$0.39/oz",
+        "Nanita's Finest Green Chile Hot Sauce",
+        "16 Oz"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Private Selection® Mexican Inspired Green Chile Chicken",
+      "brand": null,
+      "price": "$6.99",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Sign In to Add",
+        "Sponsored",
+        "$6.99",
+        "$6.99",
+        "$0.44/oz",
+        "Private Selection® Mexican Inspired Green Chile Chicken"
+      ],
+      "via": "text"
+    }
   ],
-  "error": "TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=PostalCodeSearchBox-input]').first() to be visible\n    - waiting for \"https://www.kingsoopers.com/search?query=green%20chile\" navigation to finish...\n    - navigated to \"https://www.kingsoopers.com/search?query=green%20chile\"\n",
+  "raw_text_chars": 5324,
+  "steps": [
+    "04:11:09 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "04:11:18 connected to Bright Data Scraping Browser",
+    "04:11:28 goto https://www.kingsoopers.com/search?query=green chile",
+    "04:11:37 captcha check passed",
+    "04:12:23 click_sel miss button[aria-label='close banner']",
+    "04:12:29 click_sel [data-testid=CurrentModality-button]",
+    "04:12:41 type_sel [data-testid=PostalCodeSearchBox-input] \"80202\"",
+    "04:12:42 js ok search",
+    "04:12:50 js ok 62000115",
+    "04:13:00 click_re ^Keep Shopping Here$ false",
+    "04:13:15 goto https://www.kingsoopers.com/search?query=green chile",
+    "04:13:23 captcha check passed",
+    "04:13:39 scrolled x4",
+    "04:13:41 store_set: Pickup at Union Station",
+    "04:13:41 text parser wins: 45 vs 16",
+    "04:13:44 extracted 45 houses; raw text 5324 chars"
+  ],
+  "error": null,
   "js_results": [
-    "search"
-  ]
+    "search",
+    "62000115"
+  ],
+  "houses_text": 45,
+  "houses_dom": 16
 }

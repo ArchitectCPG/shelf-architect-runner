@@ -3,7 +3,7 @@
   "retailer": "citymarket",
   "zip": "refrigerated",
   "neighborhood": "tamales",
-  "pulled_at": "2026-10-18T03:57:47.129Z",
+  "pulled_at": "2026-10-18T04:11:09.012Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "81501",
@@ -12,28 +12,20 @@
   "houses": [],
   "raw_text_chars": 0,
   "steps": [
-    "03:57:47 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "03:57:55 connected to Bright Data Scraping Browser",
-    "03:58:05 goto https://www.citymarket.com/search?query=tamales",
-    "03:58:13 captcha check passed",
-    "03:58:59 click_sel miss button[aria-label='close banner']",
-    "03:59:21 click_sel [data-testid=CurrentModality-button]",
-    "03:59:35 type_sel [data-testid=PostalCodeSearchBox-input] \"81501\"",
-    "03:59:37 js ok search",
-    "03:59:56 step failed (Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click'), will retry recipe",
-    "03:59:56 store_set: Pickup at Alamosa",
-    "03:59:56 attempt 2: store not pinned, fresh page",
-    "04:00:07 goto https://www.citymarket.com/search?query=tamales",
-    "04:00:16 captcha check passed",
-    "04:01:02 click_sel miss button[aria-label='close banner']",
-    "04:01:22 click_sel [data-testid=CurrentModality-button]",
-    "04:01:36 type_sel [data-testid=PostalCodeSearchBox-input] \"81501\"",
-    "04:01:38 js ok search",
-    "04:01:57 ERROR Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+    "04:11:09 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "04:11:12 connected to Bright Data Scraping Browser",
+    "04:11:35 goto https://www.citymarket.com/search?query=tamales",
+    "04:11:43 captcha check passed",
+    "04:12:29 click_sel miss button[aria-label='close banner']",
+    "04:12:33 click_sel [data-testid=CurrentModality-button]",
+    "04:13:01 step failed (TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting f), will retry recipe",
+    "04:13:11 store_set: Pickup at Gold Hill Woodland Park",
+    "04:13:11 attempt 2: store not pinned, fresh page",
+    "04:13:42 goto https://www.citymarket.com/search?query=tamales",
+    "04:13:51 captcha check passed",
+    "04:14:37 click_sel miss button[aria-label='close banner']",
+    "04:14:39 click_sel [data-testid=CurrentModality-button]",
+    "04:15:07 ERROR TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=PostalCodeSearchBox-input]').first() to be visible\n"
   ],
-  "error": "Error: page.evaluate: TypeError: Cannot read properties of null (reading 'click')\n    at eval (eval at evaluate (:370:30), <anonymous>:1:128)\n    at eval (eval at evaluate (:370:30), <anonymous>:1:260)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:370:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
-  "js_results": [
-    "search",
-    "search"
-  ]
+  "error": "TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=PostalCodeSearchBox-input]').first() to be visible\n"
 }
