@@ -1,0 +1,45 @@
+{
+ "block_id": "diag/ic-collection@sprouts",
+ "retailer": "sprouts",
+ "zip": "diag",
+ "neighborhood": "diag",
+ "term": "salsa",
+ "no_reload": true,
+ "store_js": "(()=>null)()",
+ "steps": [
+  {
+   "goto": "https://www.instacart.com/store/sprouts/storefront"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it"
+   ]
+  },
+  {
+   "netlog": "."
+  },
+  {
+   "js": "const links=[...document.querySelectorAll('a[href*=\"/collections/\"]')].map(a=>a.getAttribute('href')); return JSON.stringify(links.slice(0,60));"
+  },
+  {
+   "click_re": "Salsa|Dips|Mexican|Chips|Browse|Aisles|Departments",
+   "optional": true
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "js": "return JSON.stringify({u:location.href,links:[...document.querySelectorAll('a[href*=\"/collections/\"]')].map(a=>a.getAttribute('href')).slice(0,40)});"
+  },
+  {
+   "wait": 2000
+  }
+ ]
+}
