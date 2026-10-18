@@ -67,6 +67,20 @@
  ],
  "retailers": [
   {
+   "banner": "kingsoopers-api",
+   "lane": "kroger_api",
+   "chain": "King Soopers",
+   "market": "denver",
+   "brand_check": true
+  },
+  {
+   "banner": "citymarket-api",
+   "lane": "kroger_api",
+   "chain": "City Market",
+   "market": "grand-junction",
+   "brand_check": true
+  },
+  {
    "banner": "kingsoopers",
    "lane": "kroger",
    "host": "www.kingsoopers.com",

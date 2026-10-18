@@ -19,6 +19,31 @@ if (block.api_call) { // generic Bright Data API call(s): [{method, path, body?}
   for (const c of block.api_call) { const r = await fetch("https://api.brightdata.com/" + c.path, { method: c.method || "GET", headers: { Authorization: `Bearer ${tok}`, "content-type": "application/json" }, body: c.body ? JSON.stringify(c.body) : undefined }); const t = await r.text(); res.push({ method: c.method, path: c.path, status: r.status, body: t.slice(0, 20000) }); console.log(c.method, c.path, r.status); }
   fs.writeFileSync(path.join(dir, new Date().toISOString().slice(0, 10) + ".json"), JSON.stringify(res)); process.exit(0);
 }
+if (block.kroger_api) { // Kroger Developer API: client_credentials -> locations near zip -> products at that location
+  const id = process.env.KROGER_CLIENT_ID, sec = process.env.KROGER_CLIENT_SECRET; if (!id || !sec) { console.error("missing KROGER_CLIENT_ID/SECRET"); process.exit(2); }
+  const k = block.kroger_api; const day = new Date().toISOString().slice(0, 10);
+  const outDir = path.join("data", block.retailer, block.block_id.replace(/[^a-z0-9@_.-]/gi, "_")); fs.mkdirSync(outDir, { recursive: true });
+  const o = { block_id: block.block_id, retailer: block.retailer, zip: block.zip || null, neighborhood: block.neighborhood, pulled_at: new Date().toISOString(), runner: "github-actions+kroger-api", store_requested_zip: block.store_zip, store_set: null, houses: [], steps: [], error: null };
+  const lg = m => { o.steps.push(`${new Date().toISOString().slice(11, 19)} ${m}`); console.log(m); };
+  try {
+    const tok = await (await fetch("https://api.kroger.com/v1/connect/oauth2/token", { method: "POST", headers: { Authorization: "Basic " + Buffer.from(`${id}:${sec}`).toString("base64"), "content-type": "application/x-www-form-urlencoded" }, body: "grant_type=client_credentials&scope=product.compact" })).json();
+    if (!tok.access_token) throw new Error("token: " + JSON.stringify(tok).slice(0, 200));
+    const H = { Authorization: `Bearer ${tok.access_token}` };
+    const chainQ = k.chain ? `&filter.chain=${encodeURIComponent(k.chain)}` : "";
+    const locs = await (await fetch(`https://api.kroger.com/v1/locations?filter.zipCode.near=${block.store_zip}&filter.limit=5${chainQ}`, { headers: H })).json();
+    const loc = (locs.data || [])[0]; if (!loc) throw new Error("no location: " + JSON.stringify(locs).slice(0, 300));
+    o.store_set = `${loc.chain} ${loc.name} (${loc.locationId}) ${loc.address?.addressLine1 || ""} ${loc.address?.city || ""} ${loc.address?.zipCode || ""}`.trim(); lg(`store ${o.store_set}`);
+    const term = encodeURIComponent(block.term); let all = [];
+    for (let start = 0; start < (k.max || 150); start += 50) {
+      const r = await (await fetch(`https://api.kroger.com/v1/products?filter.term=${term}&filter.locationId=${loc.locationId}&filter.limit=50&filter.start=${start}`, { headers: H })).json();
+      const items = r.data || []; all = all.concat(items); lg(`products start=${start}: ${items.length}`); if (items.length < 50) break;
+    }
+    o.houses = all.map(p => { const it = (p.items || [])[0] || {}; const pr = it.price || {}; return { name: p.description, brand: p.brand || null, upc: p.upc, product_id: p.productId, size: it.size || null, price: pr.promo && pr.promo > 0 ? `$${pr.promo}` : (pr.regular != null ? `$${pr.regular}` : null), regular_price: pr.regular ?? null, promo_price: pr.promo ?? null, availability: it.fulfillment ? Object.entries(it.fulfillment).filter(([, v]) => v).map(([k2]) => k2).join(",") : null, stock: it.inventory?.stockLevel || null, categories: p.categories || [], img: (p.images || []).find(i => i.perspective === "front")?.sizes?.find(s2 => s2.size === "medium")?.url || null, link: p.productPageURI ? "https://www.kroger.com" + p.productPageURI : null }; });
+    lg(`extracted ${o.houses.length} houses`);
+  } catch (e) { o.error = String(e).slice(0, 400); lg(`ERROR ${o.error}`); }
+  fs.writeFileSync(path.join(outDir, `${day}.json`), JSON.stringify(o, null, 1));
+  console.log(`\nRESULT block=${o.block_id} store=${o.store_set} houses=${o.houses.length} error=${o.error}`); process.exit(o.error ? 1 : 0);
+}
 if (block.api_unlock) { // Bright Data Web Unlocker: fetch a URL through the unlocker zone (no browser), save body
   const tok = process.env.BRD_API_TOKEN; if (!tok) { console.error("missing BRD_API_TOKEN"); process.exit(2); }
   const u = block.api_unlock; const dir = path.join("data", block.retailer, block.block_id.replace(/[^a-z0-9@_.-]/gi, "_")); fs.mkdirSync(dir, { recursive: true }); const res = {};
