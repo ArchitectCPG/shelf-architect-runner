@@ -3,13 +3,1941 @@
  "retailer": "kingsoopers-api",
  "zip": "refrigerated",
  "neighborhood": "queso",
- "pulled_at": "2026-10-18T04:45:35.490Z",
+ "pulled_at": "2026-10-18T04:46:40.119Z",
  "runner": "github-actions+kroger-api",
  "store_requested_zip": "80202",
- "store_set": null,
- "houses": [],
- "steps": [
-  "04:45:36 ERROR Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ "store_set": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "houses": [
+  {
+   "name": "Kroger® Mild Queso Blanco Cheese Dip",
+   "brand": "Kroger",
+   "upc": "0001111095980",
+   "product_id": "0001111095980",
+   "size": "12 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111095980",
+   "link": "https://www.kroger.com/p/kroger-mild-queso-blanco-cheese-dip/0001111095980?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Queso-Melt® Original Premium Melting Cheese",
+   "brand": "Queso-Melt",
+   "upc": "0082058147354",
+   "product_id": "0082058147354",
+   "size": "10 oz",
+   "price": "$6.49",
+   "regular_price": 6.49,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Deli",
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0082058147354",
+   "link": "https://www.kroger.com/p/queso-melt-original-premium-melting-cheese/0082058147354?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "On The Border® Salsa Con Queso",
+   "brand": "On the Border",
+   "upc": "0078113880215",
+   "product_id": "0078113880215",
+   "size": "15.5 oz",
+   "price": "$3.99",
+   "regular_price": 4.19,
+   "promo_price": 3.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0078113880215",
+   "link": "https://www.kroger.com/p/on-the-border-salsa-con-queso/0078113880215?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tostitos® Medium Con Queso Salsa Dip",
+   "brand": "Tostitos",
+   "upc": "0002840007098",
+   "product_id": "0002840007098",
+   "size": "15 oz",
+   "price": "$4.99",
+   "regular_price": 5.49,
+   "promo_price": 4.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840007098",
+   "link": "https://www.kroger.com/p/tostitos-medium-con-queso-salsa-dip/0002840007098?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern® Green Chile Blanco Queso",
+   "brand": "505 Southwestern",
+   "upc": "0060205011081",
+   "product_id": "0060205011081",
+   "size": "15 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205011081",
+   "link": "https://www.kroger.com/p/505-southwestern-green-chile-blanco-queso/0060205011081?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Herdez ® Queso Blanco Cheese Dip with Jalapenos , 15 oz.",
+   "brand": "Herdez",
+   "upc": "0007287807151",
+   "product_id": "0007287807151",
+   "size": "net wt 15 oz (425g)",
+   "price": "$4.19",
+   "regular_price": 4.19,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "International",
+    "Snacks",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007287807151",
+   "link": "https://www.kroger.com/p/herdez-queso-blanco-cheese-dip-with-jalapenos-15-oz-/0007287807151?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "On The Border® Monterey Jack Queso",
+   "brand": "On the Border",
+   "upc": "0078113880715",
+   "product_id": "0078113880715",
+   "size": "15.5 oz",
+   "price": "$3.99",
+   "regular_price": 4.19,
+   "promo_price": 3.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0078113880715",
+   "link": "https://www.kroger.com/p/on-the-border-monterey-jack-queso/0078113880715?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Herdez ® Queso Con Salsa Medium , 15 oz.",
+   "brand": "Herdez",
+   "upc": "0007287807153",
+   "product_id": "0007287807153",
+   "size": "net wt 15 oz (425g)",
+   "price": "$4.19",
+   "regular_price": 4.19,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Snacks",
+    "International",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007287807153",
+   "link": "https://www.kroger.com/p/herdez-queso-con-salsa-medium-15-oz-/0007287807153?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "QUESO AMARILLO - KROGER - 12 OZ",
+   "brand": "Kroger",
+   "upc": "0001111095981",
+   "product_id": "0001111095981",
+   "size": "12 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111095981",
+   "link": "https://www.kroger.com/p/queso-amarillo-kroger-12-oz/0001111095981?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Medium Salsa Con Queso Cheese Dip",
+   "brand": "Kroger",
+   "upc": "0001111085373",
+   "product_id": "0001111085373",
+   "size": "15 oz",
+   "price": "$3.49",
+   "regular_price": 3.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111085373",
+   "link": "https://www.kroger.com/p/kroger-medium-salsa-con-queso-cheese-dip/0001111085373?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tostitos® Hot Spicy Queso Dip",
+   "brand": "Tostitos",
+   "upc": "0002840072468",
+   "product_id": "0002840072468",
+   "size": "15 oz",
+   "price": "$4.99",
+   "regular_price": 5.49,
+   "promo_price": 4.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840072468",
+   "link": "https://www.kroger.com/p/tostitos-hot-spicy-queso-dip/0002840072468?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Mexicana® Queso Blanco Mild 12oz Cheese Dip",
+   "brand": "Rojo's",
+   "upc": "0004750248053",
+   "product_id": "0004750248053",
+   "size": "12 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "International",
+    "International",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004750248053",
+   "link": "https://www.kroger.com/p/la-mexicana-queso-blanco-mild-12oz-cheese-dip/0004750248053?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "On the Border Green Chili Queso",
+   "brand": "On the Border",
+   "upc": "0078113881216",
+   "product_id": "0078113881216",
+   "size": "15.5 oz",
+   "price": "$3.99",
+   "regular_price": 4.19,
+   "promo_price": 3.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0078113881216",
+   "link": "https://www.kroger.com/p/on-the-border-green-chili-queso/0078113881216?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "505 Southwestern® Green Chile Queso Dip",
+   "brand": "505 Southwestern",
+   "upc": "0060205011042",
+   "product_id": "0060205011042",
+   "size": "15 oz",
+   "price": "$3.9",
+   "regular_price": 4.99,
+   "promo_price": 3.9,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "Deli",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060205011042",
+   "link": "https://www.kroger.com/p/505-southwestern-green-chile-queso-dip/0060205011042?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® Queso Blanco",
+   "brand": "Private Selection",
+   "upc": "0001111014211",
+   "product_id": "0001111014211",
+   "size": "12 oz",
+   "price": "$4.79",
+   "regular_price": 4.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111014211",
+   "link": "https://www.kroger.com/p/private-selection-queso-blanco/0001111014211?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Medium Queso Blanco Cheese Dip",
+   "brand": "Kroger",
+   "upc": "0001111004634",
+   "product_id": "0001111004634",
+   "size": "15 oz",
+   "price": "$3.49",
+   "regular_price": 3.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111004634",
+   "link": "https://www.kroger.com/p/kroger-medium-queso-blanco-cheese-dip/0001111004634?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Mexicana® Queso Blanco Medium Cheese Dip",
+   "brand": "La Mexicana",
+   "upc": "0004427601817",
+   "product_id": "0004427601817",
+   "size": "12 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Deli",
+    "International",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004427601817",
+   "link": "https://www.kroger.com/p/la-mexicana-queso-blanco-medium-cheese-dip/0004427601817?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Cacique® Ranchero® Part Skim Milk Queso Fresco Cheese",
+   "brand": "Cacique",
+   "upc": "0007456200100",
+   "product_id": "0007456200100",
+   "size": "10 oz",
+   "price": "$2.99",
+   "regular_price": 2.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "Dairy",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007456200100",
+   "link": "https://www.kroger.com/p/cacique-ranchero-part-skim-milk-queso-fresco-cheese/0007456200100?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Gordo's® Mild Mexican Restaurant Style Queso Cheese Dip",
+   "brand": "Gordo's",
+   "upc": "0080033810101",
+   "product_id": "0080033810101",
+   "size": "16 oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Dairy",
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0080033810101",
+   "link": "https://www.kroger.com/p/gordo-s-mild-mexican-restaurant-style-queso-cheese-dip/0080033810101?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Old El Paso™ Creamy Queso Dip Taco Sauce",
+   "brand": "Old El Paso",
+   "upc": "0004600011633",
+   "product_id": "0004600011633",
+   "size": "9 oz",
+   "price": "$4.69",
+   "regular_price": 4.69,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "International",
+    "International",
+    "International",
+    "Snacks",
+    "Condiment & Sauces"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004600011633",
+   "link": "https://www.kroger.com/p/old-el-paso-creamy-queso-dip-taco-sauce/0004600011633?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Pace® Medium Salsa con Queso Dip, 15 oz Jar",
+   "brand": "Pace",
+   "upc": "0004156519311",
+   "product_id": "0004156519311",
+   "size": "15 oz",
+   "price": "$4.19",
+   "regular_price": 4.19,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Snacks",
+    "International",
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004156519311",
+   "link": "https://www.kroger.com/p/pace-medium-salsa-con-queso-dip-15-oz-jar/0004156519311?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tostitos® Medium Queso Blanco Dip",
+   "brand": "Tostitos",
+   "upc": "0002840021573",
+   "product_id": "0002840021573",
+   "size": "15 oz",
+   "price": "$4.99",
+   "regular_price": 5.49,
+   "promo_price": 4.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840021573",
+   "link": "https://www.kroger.com/p/tostitos-medium-queso-blanco-dip/0002840021573?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tostitos® Medium Con Queso Salsa Dip",
+   "brand": "Tostitos",
+   "upc": "0002840006740",
+   "product_id": "0002840006740",
+   "size": "23 oz",
+   "price": "$5.99",
+   "regular_price": 6.49,
+   "promo_price": 5.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840006740",
+   "link": "https://www.kroger.com/p/tostitos-medium-con-queso-salsa-dip/0002840006740?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "On The Border® Spicy Jalapeño Queso",
+   "brand": "On the Border",
+   "upc": "0078113881115",
+   "product_id": "0078113881115",
+   "size": "15.25 oz",
+   "price": "$3.99",
+   "regular_price": 4.19,
+   "promo_price": 3.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0078113881115",
+   "link": "https://www.kroger.com/p/on-the-border-spicy-jalape-o-queso/0078113881115?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Queso Campesino Fresco Whole Milk Cheese",
+   "brand": "Queso Campesino",
+   "upc": "0064440413775",
+   "product_id": "0064440413775",
+   "size": "12 oz",
+   "price": "$8.49",
+   "regular_price": 8.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0064440413775",
+   "link": "https://www.kroger.com/p/queso-campesino-fresco-whole-milk-cheese/0064440413775?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tostitos® Medium Queso Blanco Dip",
+   "brand": "Tostitos",
+   "upc": "0002840075439",
+   "product_id": "0002840075439",
+   "size": "23 oz",
+   "price": "$5.99",
+   "regular_price": 6.49,
+   "promo_price": 5.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840075439",
+   "link": "https://www.kroger.com/p/tostitos-medium-queso-blanco-dip/0002840075439?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Pace® Medium Queso Blanco Cheese Dip",
+   "brand": "Pace",
+   "upc": "0004156522741",
+   "product_id": "0004156522741",
+   "size": "15 oz",
+   "price": "$4.19",
+   "regular_price": 4.19,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004156522741",
+   "link": "https://www.kroger.com/p/pace-medium-queso-blanco-cheese-dip/0004156522741?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Mateo's Medium Salsa Con Queso Gourmet Queso",
+   "brand": "Mateo's",
+   "upc": "0085810200481",
+   "product_id": "0085810200481",
+   "size": "15 oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085810200481",
+   "link": "https://www.kroger.com/p/mateo-s-medium-salsa-con-queso-gourmet-queso/0085810200481?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Queso Oaxaca Ball",
+   "brand": null,
+   "upc": "0023537130000",
+   "product_id": "0023537130000",
+   "size": "1 lb",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0023537130000",
+   "link": "https://www.kroger.com/p/queso-oaxaca-ball/0023537130000?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Murray's® Young Queso Manchego Wedge",
+   "brand": "Murray's",
+   "upc": "0081794401347",
+   "product_id": "0081794401347",
+   "size": "5.3 oz",
+   "price": "$9.99",
+   "regular_price": 9.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0081794401347",
+   "link": "https://www.kroger.com/p/murray-s-young-queso-manchego-wedge/0081794401347?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Navarro Queso Menonita Cheese",
+   "brand": "Navarro",
+   "upc": "0750302536730",
+   "product_id": "0750302536730",
+   "size": "14 oz",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0750302536730",
+   "link": "https://www.kroger.com/p/navarro-queso-menonita-cheese/0750302536730?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Velveeta Queso Blanco Cheese",
+   "brand": "Velveeta",
+   "upc": "0002100003355",
+   "product_id": "0002100003355",
+   "size": "32 oz",
+   "price": "$8.49",
+   "regular_price": 8.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002100003355",
+   "link": "https://www.kroger.com/p/velveeta-queso-blanco-cheese/0002100003355?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Gordo's® Original Mexican Restaurant Style Queso Cheese Dip",
+   "brand": "Gordo's",
+   "upc": "0080033810103",
+   "product_id": "0080033810103",
+   "size": "16 oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Dairy",
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0080033810103",
+   "link": "https://www.kroger.com/p/gordo-s-original-mexican-restaurant-style-queso-cheese-dip/0080033810103?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "El Mexicano® Queso Fresco Casero",
+   "brand": "El Mexicano",
+   "upc": "0004274312329",
+   "product_id": "0004274312329",
+   "size": "10 oz",
+   "price": "$2.99",
+   "regular_price": 3.69,
+   "promo_price": 2.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004274312329",
+   "link": "https://www.kroger.com/p/el-mexicano-queso-fresco-casero/0004274312329?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "V&V Supremo® Chihuahua® Queso Quesadilla Mexican Shredded Cheese",
+   "brand": "VV Supremo",
+   "upc": "0002172460289",
+   "product_id": "0002172460289",
+   "size": "16 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Dairy",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002172460289",
+   "link": "https://www.kroger.com/p/v-v-supremo-chihuahua-queso-quesadilla-mexican-shredded-cheese/0002172460289?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Cacique® Ranchero® Brand Queso Fresco Part Skim Milk Cheese",
+   "brand": "Ranchero",
+   "upc": "0007456211020",
+   "product_id": "0007456211020",
+   "size": "35 oz",
+   "price": "$10.29",
+   "regular_price": 10.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "International",
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007456211020",
+   "link": "https://www.kroger.com/p/cacique-ranchero-brand-queso-fresco-part-skim-milk-cheese/0007456211020?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos Nacho Cheese Tortilla Chips",
+   "brand": "Doritos",
+   "upc": "0002840051646",
+   "product_id": "0002840051646",
+   "size": "9.25 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840051646",
+   "link": "https://www.kroger.com/p/doritos-nacho-cheese-tortilla-chips/0002840051646?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Queso Campesino® Crema Menonita",
+   "brand": "Queso Campesino",
+   "upc": "0064440413785",
+   "product_id": "0064440413785",
+   "size": "16 oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0064440413785",
+   "link": "https://www.kroger.com/p/queso-campesino-crema-menonita/0064440413785?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Queso Campesino® Crema Mexicana",
+   "brand": "Queso Campesino",
+   "upc": "0064440413799",
+   "product_id": "0064440413799",
+   "size": "16 oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0064440413799",
+   "link": "https://www.kroger.com/p/queso-campesino-crema-mexicana/0064440413799?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Cacique® Queso Fresco",
+   "brand": "Cacique",
+   "upc": "0007456240110",
+   "product_id": "0007456240110",
+   "size": "10 oz",
+   "price": "$3",
+   "regular_price": 3.39,
+   "promo_price": 3,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007456240110",
+   "link": "https://www.kroger.com/p/cacique-queso-fresco/0007456240110?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Navarro Quesillo Cheese",
+   "brand": "Navarro",
+   "upc": "0750302536754",
+   "product_id": "0750302536754",
+   "size": "14 oz",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0750302536754",
+   "link": "https://www.kroger.com/p/navarro-quesillo-cheese/0750302536754?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Mercado Whole Milk Queso Fresco Cheese",
+   "brand": "Kroger Mercado",
+   "upc": "0001111012733",
+   "product_id": "0001111012733",
+   "size": "10 oz",
+   "price": "$2.89",
+   "regular_price": 2.89,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111012733",
+   "link": "https://www.kroger.com/p/kroger-mercado-whole-milk-queso-fresco-cheese/0001111012733?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "V&V Supremo® Queso Fresco Mexican Crumbling Cheese",
+   "brand": "VV Supremo",
+   "upc": "0002172460303",
+   "product_id": "0002172460303",
+   "size": "10 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Dairy",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002172460303",
+   "link": "https://www.kroger.com/p/v-v-supremo-queso-fresco-mexican-crumbling-cheese/0002172460303?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tostitos Smooth & Cheesy Queso Dip",
+   "brand": "Tostitos",
+   "upc": "0002840078996",
+   "product_id": "0002840078996",
+   "size": "15 oz",
+   "price": "$4.99",
+   "regular_price": 5.49,
+   "promo_price": 4.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840078996",
+   "link": "https://www.kroger.com/p/tostitos-smooth-cheesy-queso-dip/0002840078996?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tostitos Jalapeno Popper Queso Dip",
+   "brand": "Tostitos",
+   "upc": "0002840078977",
+   "product_id": "0002840078977",
+   "size": "15 oz",
+   "price": "$4.99",
+   "regular_price": 5.49,
+   "promo_price": 4.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840078977",
+   "link": "https://www.kroger.com/p/tostitos-jalapeno-popper-queso-dip/0002840078977?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Mateo's Gourmet Queso Blanco in Mild Heat, 15oz",
+   "brand": "Mateo's",
+   "upc": "0085810200485",
+   "product_id": "0085810200485",
+   "size": "15oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085810200485",
+   "link": "https://www.kroger.com/p/mateo-s-gourmet-queso-blanco-in-mild-heat-15oz/0085810200485?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Nacho Cheese Sauce",
+   "brand": "Kroger",
+   "upc": "0001111084580",
+   "product_id": "0001111084580",
+   "size": "15 oz",
+   "price": "$2.99",
+   "regular_price": 2.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111084580",
+   "link": "https://www.kroger.com/p/kroger-nacho-cheese-sauce/0001111084580?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Juanita's Foods Nacho Cheese Sauce, 15 oz Can",
+   "brand": "Juanita's",
+   "upc": "0007013209911",
+   "product_id": "0007013209911",
+   "size": "15 oz",
+   "price": "$3.49",
+   "regular_price": 3.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007013209911",
+   "link": "https://www.kroger.com/p/juanita-s-foods-nacho-cheese-sauce-15-oz-can/0007013209911?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Nacho Cheese Sauce",
+   "brand": "Kroger",
+   "upc": "0001111084777",
+   "product_id": "0001111084777",
+   "size": "6 lb 10 oz",
+   "price": "$10.99",
+   "regular_price": 10.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111084777",
+   "link": "https://www.kroger.com/p/kroger-nacho-cheese-sauce/0001111084777?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Juanita's® Nacho Cheese Sauce",
+   "brand": "Juanita's",
+   "upc": "0007013209914",
+   "product_id": "0007013209914",
+   "size": "106 oz",
+   "price": "$11.99",
+   "regular_price": 12.99,
+   "promo_price": 11.99,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "International",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007013209914",
+   "link": "https://www.kroger.com/p/juanita-s-nacho-cheese-sauce/0007013209914?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Queso Campesino® Cotija Whole Milk Cheese",
+   "brand": "Queso Campesino",
+   "upc": "0064440413716",
+   "product_id": "0064440413716",
+   "size": "12 oz",
+   "price": "$8.49",
+   "regular_price": 8.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0064440413716",
+   "link": "https://www.kroger.com/p/queso-campesino-cotija-whole-milk-cheese/0064440413716?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Queso Campesino® Oaxaca Ball",
+   "brand": "Queso Campesino",
+   "upc": "0064440413777",
+   "product_id": "0064440413777",
+   "size": "16 oz",
+   "price": "$7.99",
+   "regular_price": 7.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0064440413777",
+   "link": "https://www.kroger.com/p/queso-campesino-oaxaca-ball/0064440413777?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Queso Campesino Muenster Enchilado",
+   "brand": "Queso Campesino",
+   "upc": "0026615520000",
+   "product_id": "0026615520000",
+   "size": "1 lb",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0026615520000",
+   "link": "https://www.kroger.com/p/queso-campesino-muenster-enchilado/0026615520000?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Queso Campesino® Quesadilla Wheel Cheese",
+   "brand": "Queso Campesino",
+   "upc": "0064440413705",
+   "product_id": "0064440413705",
+   "size": "12 oz",
+   "price": "$8.49",
+   "regular_price": 8.49,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Dairy",
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0064440413705",
+   "link": "https://www.kroger.com/p/queso-campesino-quesadilla-wheel-cheese/0064440413705?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Queso Campesino® Asadero Cheese",
+   "brand": "Queso Campesino",
+   "upc": "0064440413704",
+   "product_id": "0064440413704",
+   "size": "12 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0064440413704",
+   "link": "https://www.kroger.com/p/queso-campesino-asadero-cheese/0064440413704?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Mild Pulled Pork Queso",
+   "brand": "Kroger",
+   "upc": "0001111095982",
+   "product_id": "0001111095982",
+   "size": "12 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111095982",
+   "link": "https://www.kroger.com/p/kroger-mild-pulled-pork-queso/0001111095982?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® Chipotle Peppers Medium Salsa Con Queso Cheese Dip",
+   "brand": "Private Selection",
+   "upc": "0001111014212",
+   "product_id": "0001111014212",
+   "size": "12 oz",
+   "price": "$4.79",
+   "regular_price": 4.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Dairy",
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111014212",
+   "link": "https://www.kroger.com/p/private-selection-chipotle-peppers-medium-salsa-con-queso-cheese-dip/0001111014212?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Stinkin Good Blanco Queso Medium",
+   "brand": "Stinkin' Good",
+   "upc": "0089351100205",
+   "product_id": "0089351100205",
+   "size": "15 oz.",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Deli",
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0089351100205",
+   "link": "https://www.kroger.com/p/stinkin-good-blanco-queso-medium/0089351100205?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "El Mexicano® Queso Panela",
+   "brand": "El Mexicano",
+   "upc": "0004274301303",
+   "product_id": "0004274301303",
+   "size": "10 oz",
+   "price": "$3.99",
+   "regular_price": 3.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004274301303",
+   "link": "https://www.kroger.com/p/el-mexicano-queso-panela/0004274301303?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "La Vaquita Queso Fresco, 8 oz Chunk",
+   "brand": "La Vaquita",
+   "upc": "0061980199069",
+   "product_id": "0061980199069",
+   "size": "8 oz",
+   "price": "$2.99",
+   "regular_price": 3.49,
+   "promo_price": 2.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0061980199069",
+   "link": "https://www.kroger.com/p/la-vaquita-queso-fresco-8-oz-chunk/0061980199069?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "El Mexicano® Queso Oaxaca Cheese",
+   "brand": "El Mexicano",
+   "upc": "0004274301305",
+   "product_id": "0004274301305",
+   "size": "10 oz",
+   "price": "$3.99",
+   "regular_price": 3.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004274301305",
+   "link": "https://www.kroger.com/p/el-mexicano-queso-oaxaca-cheese/0004274301305?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Queso Quesadilla Shredded Cheese",
+   "brand": "Kroger",
+   "upc": "0001111050190",
+   "product_id": "0001111050190",
+   "size": "8 oz",
+   "price": "$2",
+   "regular_price": 2,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111050190",
+   "link": "https://www.kroger.com/p/kroger-queso-quesadilla-shredded-cheese/0001111050190?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ruffles® Queso Cheese Potato Chips",
+   "brand": "Ruffles",
+   "upc": "0002840051770",
+   "product_id": "0002840051770",
+   "size": "8 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840051770",
+   "link": "https://www.kroger.com/p/ruffles-queso-cheese-potato-chips/0002840051770?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "PopCorners® Spicy Queso Popped Corn Chips",
+   "brand": "PopCorners",
+   "upc": "0081060702166",
+   "product_id": "0081060702166",
+   "size": "7 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0081060702166",
+   "link": "https://www.kroger.com/p/popcorners-spicy-queso-popped-corn-chips/0081060702166?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "V&V Supremo® Chihuahua® Queso Quesadilla Mexican Shredded Cheese",
+   "brand": "VV Supremo",
+   "upc": "0002172460150",
+   "product_id": "0002172460150",
+   "size": "32 oz",
+   "price": "$11.49",
+   "regular_price": 11.99,
+   "promo_price": 11.49,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002172460150",
+   "link": "https://www.kroger.com/p/v-v-supremo-chihuahua-queso-quesadilla-mexican-shredded-cheese/0002172460150?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Smart Way™ Queso Blanco with Jalapeños Nice'N Cheesy®",
+   "brand": "Smart Way",
+   "upc": "0001111017250",
+   "product_id": "0001111017250",
+   "size": "32 oz",
+   "price": "$5.39",
+   "regular_price": 5.39,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Deli"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111017250",
+   "link": "https://www.kroger.com/p/smart-way-queso-blanco-with-jalape-os-nice-n-cheesy-/0001111017250?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ruffles® Queso Cheese Flavor Potato Chips",
+   "brand": "Ruffles",
+   "upc": "0002840001937",
+   "product_id": "0002840001937",
+   "size": "6.5 oz",
+   "price": "$3.79",
+   "regular_price": 3.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840001937",
+   "link": "https://www.kroger.com/p/ruffles-queso-cheese-flavor-potato-chips/0002840001937?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Mercado Mexican Style Queso Quesadilla Shredded Cheese",
+   "brand": "Kroger Mercado",
+   "upc": "0001111012731",
+   "product_id": "0001111012731",
+   "size": "8 oz",
+   "price": "$3.79",
+   "regular_price": 3.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111012731",
+   "link": "https://www.kroger.com/p/kroger-mercado-mexican-style-queso-quesadilla-shredded-cheese/0001111012731?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Johnsonville Queso Sausage Links",
+   "brand": "Johnsonville",
+   "upc": "0007778200488",
+   "product_id": "0007778200488",
+   "size": "19 oz",
+   "price": "$5",
+   "regular_price": 6.99,
+   "promo_price": 5,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Meat & Seafood"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007778200488",
+   "link": "https://www.kroger.com/p/johnsonville-queso-sausage-links/0007778200488?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Queso Blanco White Cheese Sauce",
+   "brand": "Kroger",
+   "upc": "0001111014919",
+   "product_id": "0001111014919",
+   "size": "15 oz",
+   "price": "$2.99",
+   "regular_price": 2.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111014919",
+   "link": "https://www.kroger.com/p/kroger-queso-blanco-white-cheese-sauce/0001111014919?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Tostitos Spicy Queso Blanco Tortilla Chips",
+   "brand": "Tostitos",
+   "upc": "0002840080376",
+   "product_id": "0002840080376",
+   "size": "11 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840080376",
+   "link": "https://www.kroger.com/p/tostitos-spicy-queso-blanco-tortilla-chips/0002840080376?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "RITZ Bits Spicy Queso Sandwich Crackers",
+   "brand": "Nabisco",
+   "upc": "0004400008039",
+   "product_id": "0004400008039",
+   "size": "8.8 oz",
+   "price": "$4.29",
+   "regular_price": 4.59,
+   "promo_price": 4.29,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004400008039",
+   "link": "https://www.kroger.com/p/ritz-bits-spicy-queso-sandwich-crackers/0004400008039?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Old El Paso ™ Mexican Pizza Kit with Queso Sauce, Easy Meal Prep",
+   "brand": "Old El Paso",
+   "upc": "0004600014307",
+   "product_id": "0004600014307",
+   "size": "6 ct / 1.78 oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004600014307",
+   "link": "https://www.kroger.com/p/old-el-paso-mexican-pizza-kit-with-queso-sauce-easy-meal-prep/0004600014307?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Custom Made Meals Brisket Con Queso Dip",
+   "brand": "Custom Made Meals",
+   "upc": "0008500290122",
+   "product_id": "0008500290122",
+   "size": "20 oz",
+   "price": "$12.99",
+   "regular_price": 12.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Meat & Seafood"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0008500290122",
+   "link": "https://www.kroger.com/p/custom-made-meals-brisket-con-queso-dip/0008500290122?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "WILDE Protein Chips® Spicy Queso",
+   "brand": "Wilde",
+   "upc": "0085680200854",
+   "product_id": "0085680200854",
+   "size": "4 oz",
+   "price": "$7.99",
+   "regular_price": 7.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085680200854",
+   "link": "https://www.kroger.com/p/wilde-protein-chips-spicy-queso/0085680200854?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Cacique® Four Quesos Blend",
+   "brand": "Cacique",
+   "upc": "0007456215033",
+   "product_id": "0007456215033",
+   "size": "32 oz",
+   "price": "$11.99",
+   "regular_price": 11.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007456215033",
+   "link": "https://www.kroger.com/p/cacique-four-quesos-blend/0007456215033?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Sunchips Whole Grain And Black Bean Snacks Southwestern Queso",
+   "brand": "Sun Chips",
+   "upc": "0002840068965",
+   "product_id": "0002840068965",
+   "size": "7 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840068965",
+   "link": "https://www.kroger.com/p/sunchips-whole-grain-and-black-bean-snacks-southwestern-queso/0002840068965?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ruffles® Queso Cheese Potato Chips",
+   "brand": "Ruffles",
+   "upc": "0002840069347",
+   "product_id": "0002840069347",
+   "size": "12.5 oz",
+   "price": "$5.99",
+   "regular_price": 6.99,
+   "promo_price": 5.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840069347",
+   "link": "https://www.kroger.com/p/ruffles-queso-cheese-potato-chips/0002840069347?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Wilde Protein Chips® Spicy Queso Multipack",
+   "brand": "Wilde",
+   "upc": "0085680200851",
+   "product_id": "0085680200851",
+   "size": "4 ct / 1.34 oz",
+   "price": "$9.99",
+   "regular_price": 9.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085680200851",
+   "link": "https://www.kroger.com/p/wilde-protein-chips-spicy-queso-multipack/0085680200851?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "RITZ Bits Spicy Queso Sandwich Crackers",
+   "brand": "RITZ",
+   "upc": "0004400008041",
+   "product_id": "0004400008041",
+   "size": "3 oz",
+   "price": "$4.29",
+   "regular_price": 4.59,
+   "promo_price": 4.29,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004400008041",
+   "link": "https://www.kroger.com/p/ritz-bits-spicy-queso-sandwich-crackers/0004400008041?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Old El Paso™ Carb Advantage™ Nacho Cheese Gluten Free Crunchy Taco Shells",
+   "brand": "Old El Paso",
+   "upc": "0004600013839",
+   "product_id": "0004600013839",
+   "size": "8 ct / 0.49 oz",
+   "price": "$3.99",
+   "regular_price": 4.79,
+   "promo_price": 3.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004600013839",
+   "link": "https://www.kroger.com/p/old-el-paso-carb-advantage-nacho-cheese-gluten-free-crunchy-taco-shells/0004600013839?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos® Nacho Cheese Flavored Tortilla Chips Party Size",
+   "brand": "Doritos",
+   "upc": "0002840051779",
+   "product_id": "0002840051779",
+   "size": "14.5 oz",
+   "price": "$6.49",
+   "regular_price": 6.99,
+   "promo_price": 6.49,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840051779",
+   "link": "https://www.kroger.com/p/doritos-nacho-cheese-flavored-tortilla-chips-party-size/0002840051779?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos® Nacho Cheese Flavored Tortilla Chips",
+   "brand": "Doritos",
+   "upc": "0002840077059",
+   "product_id": "0002840077059",
+   "size": "2.62 oz",
+   "price": "$2.79",
+   "regular_price": 2.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840077059",
+   "link": "https://www.kroger.com/p/doritos-nacho-cheese-flavored-tortilla-chips/0002840077059?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos Simply NKD Nacho Cheese Flavored Tortilla Chips",
+   "brand": "Doritos",
+   "upc": "0002840079475",
+   "product_id": "0002840079475",
+   "size": "9.25 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840079475",
+   "link": "https://www.kroger.com/p/doritos-simply-nkd-nacho-cheese-flavored-tortilla-chips/0002840079475?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Old El Paso™ Stand 'N Stuff Bold Nacho Cheese Flavored Taco Shells",
+   "brand": "Old El Paso",
+   "upc": "0004600045395",
+   "product_id": "0004600045395",
+   "size": "10 ct / 0.54 oz",
+   "price": "$3.99",
+   "regular_price": 4.19,
+   "promo_price": 3.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Bakery",
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004600045395",
+   "link": "https://www.kroger.com/p/old-el-paso-stand-n-stuff-bold-nacho-cheese-flavored-taco-shells/0004600045395?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos® Nacho Cheese Flavored Tortilla Chips",
+   "brand": "Doritos",
+   "upc": "0002840009089",
+   "product_id": "0002840009089",
+   "size": "1 oz",
+   "price": "$0.67",
+   "regular_price": 0.67,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840009089",
+   "link": "https://www.kroger.com/p/doritos-nacho-cheese-flavored-tortilla-chips/0002840009089?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos® Nacho Cheese Chips Multipack",
+   "brand": "Doritos",
+   "upc": "0002840067907",
+   "product_id": "0002840067907",
+   "size": "10 ct / 10 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840067907",
+   "link": "https://www.kroger.com/p/doritos-nacho-cheese-chips-multipack/0002840067907?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Nacho Cheese Tortilla Chips",
+   "brand": "Kroger",
+   "upc": "0001111014076",
+   "product_id": "0001111014076",
+   "size": "9.25 oz",
+   "price": "$2.79",
+   "regular_price": 2.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111014076",
+   "link": "https://www.kroger.com/p/kroger-nacho-cheese-tortilla-chips/0001111014076?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lunchables Nachos Cheese & Salsa with Capri Sun Drink & Kit Kat Candy Bar Kids Lunch Meal Kit",
+   "brand": "Lunchables",
+   "upc": "0004470000679",
+   "product_id": "0004470000679",
+   "size": "10.7 oz",
+   "price": "$3.99",
+   "regular_price": 3.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Meat & Seafood"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004470000679",
+   "link": "https://www.kroger.com/p/lunchables-nachos-cheese-salsa-with-capri-sun-drink-kit-kat-candy-bar-kids-lunch-meal-kit/0004470000679?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos® Protein Nacho Cheese Tortilla Chips",
+   "brand": "Doritos",
+   "upc": "0002840079837",
+   "product_id": "0002840079837",
+   "size": "7 oz",
+   "price": "$4.89",
+   "regular_price": 4.89,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Natural & Organic",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840079837",
+   "link": "https://www.kroger.com/p/doritos-protein-nacho-cheese-tortilla-chips/0002840079837?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos® Minis™ Nacho Cheese Minis Tortilla Snack Stacks Crisps Chips",
+   "brand": "Doritos",
+   "upc": "0002840070001",
+   "product_id": "0002840070001",
+   "size": "5.13 oz",
+   "price": "$2.5",
+   "regular_price": 2.99,
+   "promo_price": 2.5,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840070001",
+   "link": "https://www.kroger.com/p/doritos-minis-nacho-cheese-minis-tortilla-snack-stacks-crisps-chips/0002840070001?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Smartfood Doritos Nacho Cheese Popcorn",
+   "brand": "Smartfood",
+   "upc": "0002840079980",
+   "product_id": "0002840079980",
+   "size": "5.5 oz",
+   "price": "$4.49",
+   "regular_price": 4.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840079980",
+   "link": "https://www.kroger.com/p/smartfood-doritos-nacho-cheese-popcorn/0002840079980?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos® Minis™ Nacho Cheese Tortilla Chips",
+   "brand": "Doritos",
+   "upc": "0002840070404",
+   "product_id": "0002840070404",
+   "size": "1.95 oz",
+   "price": "$2.29",
+   "regular_price": 2.29,
+   "promo_price": null,
+   "availability": "",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840070404",
+   "link": "https://www.kroger.com/p/doritos-minis-nacho-cheese-tortilla-chips/0002840070404?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "LATE JULY Snacks Nacho Cheese Tortilla Chips, 6 Oz Bag",
+   "brand": "Late July",
+   "upc": "0081509902259",
+   "product_id": "0081509902259",
+   "size": "6 oz",
+   "price": "$4.99",
+   "regular_price": 5.99,
+   "promo_price": 4.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0081509902259",
+   "link": "https://www.kroger.com/p/late-july-snacks-nacho-cheese-tortilla-chips-6-oz-bag/0081509902259?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ricos® Nacho Cheese Sauce 4 Dipping cups",
+   "brand": "Ricos",
+   "upc": "0007942621207",
+   "product_id": "0007942621207",
+   "size": "4/3.5 oz",
+   "price": "$4.69",
+   "regular_price": 4.69,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007942621207",
+   "link": "https://www.kroger.com/p/ricos-nacho-cheese-sauce-4-dipping-cups/0007942621207?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Munchies Nacho Cheese Flavored Sandwich Crackers",
+   "brand": "Munchies",
+   "upc": "0002840071229",
+   "product_id": "0002840071229",
+   "size": "8 ct / 1.38 oz",
+   "price": "$3.5",
+   "regular_price": 3.99,
+   "promo_price": 3.5,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840071229",
+   "link": "https://www.kroger.com/p/munchies-nacho-cheese-flavored-sandwich-crackers/0002840071229?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Quest Tortilla Style Nacho Cheese Protein Chips",
+   "brand": "Quest",
+   "upc": "0088884901054",
+   "product_id": "0088884901054",
+   "size": "4 ct / 1.1 oz",
+   "price": "$12.49",
+   "regular_price": 12.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0088884901054",
+   "link": "https://www.kroger.com/p/quest-tortilla-style-nacho-cheese-protein-chips/0088884901054?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos® Nacho Cheese Flavored Tortilla Chips",
+   "brand": "Doritos",
+   "upc": "0002840007056",
+   "product_id": "0002840007056",
+   "size": "1.75 oz",
+   "price": "$1.89",
+   "regular_price": 1.89,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840007056",
+   "link": "https://www.kroger.com/p/doritos-nacho-cheese-flavored-tortilla-chips/0002840007056?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Nacho Cheese Flavored Tortilla Chips ",
+   "brand": "Kroger",
+   "upc": "0001111004543",
+   "product_id": "0001111004543",
+   "size": "14.5 oz",
+   "price": "$4.29",
+   "regular_price": 4.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111004543",
+   "link": "https://www.kroger.com/p/kroger-nacho-cheese-flavored-tortilla-chips-/0001111004543?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Quest™ Tortilla Chips Protein Chips - Nacho Cheese",
+   "brand": "Quest",
+   "upc": "0088884900663",
+   "product_id": "0088884900663",
+   "size": "1.1 oz",
+   "price": "$2.29",
+   "regular_price": 2.99,
+   "promo_price": 2.29,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0088884900663",
+   "link": "https://www.kroger.com/p/quest-tortilla-chips-protein-chips-nacho-cheese/0088884900663?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Simple Truth® Protein Nacho Cheese Tortilla Chips",
+   "brand": "Simple Truth",
+   "upc": "0001111015781",
+   "product_id": "0001111015781",
+   "size": "5 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111015781",
+   "link": "https://www.kroger.com/p/simple-truth-protein-nacho-cheese-tortilla-chips/0001111015781?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Simple Truth® Protein Nacho Cheese Puffs Chips",
+   "brand": "Simple Truth",
+   "upc": "0001111015695",
+   "product_id": "0001111015695",
+   "size": "2.1 oz",
+   "price": "$3.49",
+   "regular_price": 3.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111015695",
+   "link": "https://www.kroger.com/p/simple-truth-protein-nacho-cheese-puffs-chips/0001111015695?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Cheez-It® Crunch Kick'n Nacho Cheese Crackers",
+   "brand": "Cheez-It",
+   "upc": "0002410012656",
+   "product_id": "0002410012656",
+   "size": "6.5 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002410012656",
+   "link": "https://www.kroger.com/p/cheez-it-crunch-kick-n-nacho-cheese-crackers/0002410012656?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Quest™ Nutrition Tortilla Style Protein Chips Nacho Cheese",
+   "brand": "Quest",
+   "upc": "0088884900875",
+   "product_id": "0088884900875",
+   "size": "4 oz",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0088884900875",
+   "link": "https://www.kroger.com/p/quest-nutrition-tortilla-style-protein-chips-nacho-cheese/0088884900875?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Old El Paso™ Protein Advantage™ Nacho Cheese Gluten Free Crunchy Taco Shells",
+   "brand": "Old El Paso",
+   "upc": "0004600014344",
+   "product_id": "0004600014344",
+   "size": "8 ct / 0.45 oz",
+   "price": "$3.99",
+   "regular_price": 4.79,
+   "promo_price": 3.99,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "International"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004600014344",
+   "link": "https://www.kroger.com/p/old-el-paso-protein-advantage-nacho-cheese-gluten-free-crunchy-taco-shells/0004600014344?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Doritos Protein Nacho Cheese Tortilla Chips Multipack",
+   "brand": "Doritos",
+   "upc": "0002840080208",
+   "product_id": "0002840080208",
+   "size": "4 pk / 5.2 oz",
+   "price": "$5.99",
+   "regular_price": 7.19,
+   "promo_price": 5.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Natural & Organic",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0002840080208",
+   "link": "https://www.kroger.com/p/doritos-protein-nacho-cheese-tortilla-chips-multipack/0002840080208?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Simple Truth® Protein Nacho Cheese Popped Crisps",
+   "brand": "Simple Truth",
+   "upc": "0001111066202",
+   "product_id": "0001111066202",
+   "size": "3.6 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111066202",
+   "link": "https://www.kroger.com/p/simple-truth-protein-nacho-cheese-popped-crisps/0001111066202?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Takis Intense Nacho Cheese Rolled Tortilla Chips",
+   "brand": "Takis",
+   "upc": "0075752804528",
+   "product_id": "0075752804528",
+   "size": "3.25 oz",
+   "price": "$2.79",
+   "regular_price": 2.79,
+   "promo_price": null,
+   "availability": "",
+   "stock": null,
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0075752804528",
+   "link": "https://www.kroger.com/p/takis-intense-nacho-cheese-rolled-tortilla-chips/0075752804528?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "LALA® Pourable Mexican-Style Sour Cream",
+   "brand": null,
+   "upc": "0081939302169",
+   "product_id": "0081939302169",
+   "size": "15 oz",
+   "price": "$4.79",
+   "regular_price": 4.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "International",
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0081939302169",
+   "link": "https://www.kroger.com/p/lala-pourable-mexican-style-sour-cream/0081939302169?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Mercado Mexican Style Quesadilla Cheese",
+   "brand": "Kroger Mercado",
+   "upc": "0001111012734",
+   "product_id": "0001111012734",
+   "size": "10 oz",
+   "price": "$3.79",
+   "regular_price": 3.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "International",
+    "International",
+    "Dairy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111012734",
+   "link": "https://www.kroger.com/p/kroger-mercado-mexican-style-quesadilla-cheese/0001111012734?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  }
  ],
- "error": "Error: no location: {\"data\":[],\"meta\":{\"pagination\":{\"start\":0,\"limit\":0,\"total\":0}}}"
+ "steps": [
+  "04:46:40 locations near 80202: 50 chains=KINGSOOPERS",
+  "04:46:40 store KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+  "04:46:41 products start=0: 50",
+  "04:46:41 products start=50: 50",
+  "04:46:42 products start=100: 10",
+  "04:46:42 extracted 110 houses"
+ ],
+ "error": null
 }
