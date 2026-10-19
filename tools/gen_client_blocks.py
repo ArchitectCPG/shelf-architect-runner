@@ -56,4 +56,10 @@ if A.get('enabled'):
                "api":{"amazon":True,"dataset_id":"gd_l7q7dkf244hwjntr0","discover_by":"keyword",
                       "input":{"keyword":"{{term}}","zipcode":"{{store_zip}}"},"limit":int(A.get('limit',48))}}
             fn=f"{aout}/amazon__{n['id']}.json"; json.dump(b,open(fn,'w'),indent=1); amade.append(fn)
+            # SOP v82 rule 17 step 3: two or three shopper-typed terms per product line. Extra terms keep the same
+            # neighborhood (same relevance filter) but get their own block id and output folder.
+            for et in n.get('amazon_extra_terms') or []:
+                slug=re.sub(r'[^a-z0-9]+','-',et.lower()).strip('-'); nid=f"{n['id']}--{slug}"
+                eb=json.loads(json.dumps(b)); eb['block_id']=f"{cid}/{nid}@amazon"; eb['term']=et
+                fn=f"{aout}/amazon__{nid}.json"; json.dump(eb,open(fn,'w'),indent=1); amade.append(fn)
 if amade: print('AMAZON:'+','.join(amade)); print(len(amade),'amazon blocks',file=sys.stderr)

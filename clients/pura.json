@@ -84,7 +84,11 @@
    "id": "natural-soda",
    "term": "natural soda",
    "relevance": "soda|cola|ginger|\\bpop\\b|sparkling|prebiotic",
-   "temperature": "shelf_stable"
+   "temperature": "shelf_stable",
+   "amazon_extra_terms": [
+    "prebiotic soda",
+    "cane sugar soda"
+   ]
   },
   {
    "id": "kids-drinks",
@@ -158,5 +162,25 @@
   "limit": 48,
   "brand_check": true,
   "note": "Amazon lane is separate from retail: own blocks folder, own data folder, own report. National pricing, no store. Rows are candidates for amazon_comps (manual audit), never retail_entries."
- }
+ },
+ "product_terms": [
+  "purasoda",
+  "pura\\s?soda",
+  "pura kids",
+  "pura hydrat",
+  "live a little pura"
+ ],
+ "own_asins": [
+  "B0BY2X7HVZ",
+  "B0GJY9RB5G",
+  "B0F6BXPDQJ",
+  "B0GJZ75XMF",
+  "B0F6CMCNWY",
+  "B0H32JYK1V",
+  "B08WWKZKJP",
+  "B0GJCSXZZG",
+  "B08WX15Q5Z",
+  "B0F6BB7QC5"
+ ],
+ "own_brand_label": "Pura Beverage"
 }

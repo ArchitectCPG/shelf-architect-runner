@@ -124,6 +124,7 @@ if (block.api) {
         item_weight: r.item_weight || null, product_dimensions: r.product_dimensions || null,
         date_first_available: r.date_first_available || null, is_available: r.is_available ?? null,
         prices_breakdown: r.prices_breakdown || null,
+        ships_from: r.ships_from || null, seller_url: r.seller_url || null, brand_store_url: r.brand_url || r.brand_store_url || null, delivery: r.delivery || null, // passthrough only if the dataset returns them; not seen in the 2026-10-18 Pura run
       } : {}),
     })).filter(h => h.name && h.price);
     const errs = recs.filter(r => r.error); if (errs.length) lg(`${errs.length} errored inputs: ${String(errs[0].error).slice(0,120)}`);
