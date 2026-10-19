@@ -226,3 +226,8 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - app_meta/pull_process v80: duplicate rule 17 (Amazon lane) removed; new rules 18 hygiene gate, 19 storage-class cut for multi-case categories only (ketchup never mentions it), 20 temperature states at discovery with unseen-case flag. Repo copy SOP_v80.md.
 - Runbook page generator now renders runner_lane rules as a fourth SOP section (DB app_meta/runbook_page_generator v3, Project doc claude/runbook-page-generator.py).
 - SG hygiene (65 writes), 2 held Jewel rows, 3 storage-class insights all landed today after backup _7-full. Steve: SG thesis proven, work is forward-looking for future clients now.
+
+## Process sync gap closed (2026-10-19, Fable)
+- Steve: the 72 scheduled run reported the new rules were not in its SOP. Cause: the 10-18 runner-lane landings (v78, v79, v80) updated main only; 72Chocolate's copy was frozen at 2026-10-14 and EHC's at 2026-10-02. The transfer rule (main first, then every client instance in the same session) was missed on all three landings, including mine.
+- Fixed: main pull_process v81 (v80 + write_cadence folded in from 72, a 10-03 lesson that never reached main) and onboarding_runbook v42 (new section: hygiene gate and the storage-class lens, plus write per retailer). Copied to 72Chocolate (pull_process v62, runbook v34 with EHC scrubbed and the syndicated SOP section added) and EHC (pull_process v27, runbook v18 = main). pull_prompt_template already identical. app_meta/instances v9 carries the sync_log. Runbook page republished at v42/v81.
+- Standing fix: every future SOP landing ends with the client-instance copies in the same batch, and the instances sync_log line. Add it to the landing checklist in tools/landing.py docs.
