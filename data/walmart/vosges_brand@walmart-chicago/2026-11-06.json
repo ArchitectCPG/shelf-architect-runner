@@ -1,0 +1,25 @@
+{
+  "block_id": "vosges/brand@walmart-chicago",
+  "retailer": "walmart",
+  "zip": "candy-chocolate",
+  "neighborhood": "brand",
+  "pulled_at": "2026-11-06T21:08:16.988Z",
+  "runner": "github-actions+brightdata-dataset-api",
+  "channel": "retail",
+  "temperature": null,
+  "store_requested_zip": "60614",
+  "store_set": "API zip 60614 (dataset gd_m693oc1r1gebnayxq)",
+  "houses": [],
+  "steps": [
+    "21:08:17 snapshot sd_mw5gv10v2jskpakish",
+    "21:08:37 poll 0: running",
+    "21:09:37 poll 3: running",
+    "21:10:38 poll 6: running",
+    "21:11:38 poll 9: running",
+    "21:12:38 poll 12: running",
+    "21:13:39 poll 15: running",
+    "21:14:39 poll 18: running",
+    "21:15:19 extracted 0 houses from 0 records"
+  ],
+  "error": null
+}

@@ -1,0 +1,28 @@
+{
+  "block_id": "vosges/brand@target-chicago",
+  "retailer": "target",
+  "zip": "candy-chocolate",
+  "neighborhood": "brand",
+  "pulled_at": "2026-11-06T20:54:04.292Z",
+  "runner": "github-actions+brightdata-dataset-api",
+  "channel": "retail",
+  "temperature": null,
+  "store_requested_zip": "60614",
+  "store_set": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+  "houses": [],
+  "steps": [
+    "20:54:04 snapshot sd_mw5gcr772hyivspvqu",
+    "20:54:24 poll 0: running",
+    "20:55:25 poll 3: running",
+    "20:56:26 poll 6: running",
+    "20:57:27 poll 9: running",
+    "20:58:28 poll 12: running",
+    "20:59:29 poll 15: running",
+    "21:00:31 poll 18: running",
+    "21:01:32 poll 21: running",
+    "21:02:34 poll 24: running",
+    "21:03:14 1 errored inputs: Crawler error: waiting for selector \"button#zip-code-id-btn\" failed: timeout 30000ms exceeded",
+    "21:03:14 extracted 0 houses from 1 records"
+  ],
+  "error": null
+}
