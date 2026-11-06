@@ -3,84 +3,293 @@
   "retailer": "meijer",
   "zip": "candy-chocolate",
   "neighborhood": "chocolate-bites-pouch",
-  "pulled_at": "2026-11-06T13:42:44.828Z",
+  "pulled_at": "2026-11-06T13:44:24.570Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60614",
   "store_set": "Pickup at Alpine",
-  "url_final": "https://www.meijer.com/shopping/cart",
+  "url_final": "https://www.meijer.com/shopping/search/chocolate%20bites%20bag",
   "houses": [
     {
-      "name": "Taxes & Fees",
+      "name": "HEATH Chocolatey English Toffee Baking Bits Bag, 8 oz",
       "brand": null,
-      "price": "$0.00",
-      "size": "",
-      "img": null,
-      "link": null,
+      "price": "$4.99",
+      "size": "8 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0034/00/0061/52/0034000061525_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/heath-chocolatey-english-toffee-baking-bits-bag-8-oz/3400006152",
       "card_text": [
-        "Order Summary",
-        "Item Total (0 Items)",
-        "$0.00",
-        "Savings",
-        "-$0.00",
-        "Taxes & Fees"
-      ],
-      "via": "text"
+        "HEATH Chocolatey English Toffee Baking Bits Bag, 8 oz",
+        "(118)",
+        "4.7 out of 5 stars. 118 reviews for HEATH Chocolatey English Toffee Baking Bits Bag 8 oz.",
+        "$4.99",
+        "Buy 1 Get 1 50% Off",
+        "Subscribe",
+        "Add to Cart"
+      ]
     },
     {
-      "name": "Pickup Fee",
+      "name": "M&M'S Minis Milk Chocolate Candy, Sharing Size 9.4 oz Bag",
       "brand": null,
-      "price": "$0.00",
-      "size": "",
-      "img": null,
-      "link": null,
+      "price": "$5.49",
+      "size": "9.4 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0040/00/0580/16/0040000580164_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/m-m-s-minis-milk-chocolate-candy-sharing-size-9-4-oz-bag/4000058016",
       "card_text": [
-        "-$0.00",
-        "Taxes & Fees",
-        "$0.00",
-        "Pickup Fee",
-        "FREE",
-        "Estimated Taxes"
-      ],
-      "via": "text"
+        "M&M'S Minis Milk Chocolate Candy, Sharing Size 9.4 oz Bag",
+        "(5249)",
+        "4.7 out of 5 stars. 5249 reviews for M M S Minis Milk Chocolate Candy Sharing Size 9.4 oz Bag.",
+        "$5.49",
+        "Original price:",
+        "$5.79",
+        "Save $0.30",
+        "Subscribe"
+      ]
     },
     {
-      "name": "See all offer details. Restrictions apply. Pricing, promotions and availability may vary by location and on Meijer.com",
+      "name": "HERSHEY'S NUGGETS Assorted Chocolate Candy Variety Party Pack, 26 oz",
       "brand": null,
-      "price": "$0.00",
-      "size": "",
-      "img": null,
-      "link": null,
+      "price": "$14.99",
+      "size": "26 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0034/00/0463/06/0034000463060_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/hershey-s-nuggets-assorted-chocolate-candy-variety-party-pack-26-oz/3400046306",
       "card_text": [
-        "Adjusted at Checkout",
-        "Estimated Total",
-        "$0.00",
-        "Disclaimer: Your final order total may differ from the estimated total above due to substitutions, inventory changes, taxes, and discounts. We'll determine the final total when we complete your order. Please note that we can't accept cash or paper coupons for online orders.",
-        "Sign In",
-        "Sponsored"
-      ],
-      "via": "text"
+        "HERSHEY'S NUGGETS Assorted Chocolate Candy Variety Party Pack, 26 oz",
+        "(126)",
+        "4.8 out of 5 stars. 126 reviews for HERSHEY S NUGGETS Assorted Chocolate Candy Variety Party Pack 26 oz.",
+        "$14.99",
+        "Original price:",
+        "$15.99",
+        "Save $1.00",
+        "Subscribe"
+      ]
+    },
+    {
+      "name": "HERSHEY'S NUGGETS Milk Chocolate, Toffee and Almonds Candy Share Pack, 9 oz",
+      "brand": null,
+      "price": "$6.39",
+      "size": "9 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0034/00/0463/53/0034000463534_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/hershey-s-nuggets-milk-chocolate-toffee-and-almonds-candy-share-pack-9-oz/3400046353",
+      "card_text": [
+        "HERSHEY'S NUGGETS Milk Chocolate, Toffee and Almonds Candy Share Pack, 9 oz",
+        "(40)",
+        "4.8 out of 5 stars. 40 reviews for HERSHEY S NUGGETS Milk Chocolate Toffee and Almonds Candy Share Pack 9 oz.",
+        "$6.39",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "M&M'S MINIS Milk Chocolate Candy, Family Size, 16.9 oz Bag",
+      "brand": null,
+      "price": "$9.99",
+      "size": "16.9 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0040/00/0581/23/0040000581239_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/m-m-s-minis-milk-chocolate-candy-family-size-16-9-oz-bag/4000058123",
+      "card_text": [
+        "M&M'S MINIS Milk Chocolate Candy, Family Size, 16.9 oz Bag",
+        "(5218)",
+        "4.7 out of 5 stars. 5218 reviews for M M S MINIS Milk Chocolate Candy Family Size 16.9 oz Bag.",
+        "$9.99",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "HERSHEY'S NUGGETS Milk Chocolate with Almonds Candy Share Pack, 8.8 oz",
+      "brand": null,
+      "price": "$6.39",
+      "size": "8.8 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0034/00/0463/51/0034000463510_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/hershey-s-nuggets-milk-chocolate-with-almonds-candy-share-pack-8-8-oz/3400046351",
+      "card_text": [
+        "HERSHEY'S NUGGETS Milk Chocolate with Almonds Candy Share Pack, 8.8 oz",
+        "(112)",
+        "4.9 out of 5 stars. 112 reviews for HERSHEY S NUGGETS Milk Chocolate with Almonds Candy Share Pack 8.8 oz.",
+        "$6.39",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Frederik's by Meijer Milk Chocolate English Style Toffee Bites, 9 oz",
+      "brand": null,
+      "price": "$6.99",
+      "size": "9 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0708/82/0687/50/0708820687509_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/frederik-s-by-meijer-milk-chocolate-english-style-toffee-bites-9-oz/70882068750",
+      "card_text": [
+        "Frederik's by Meijer Milk Chocolate English Style Toffee Bites, 9 oz",
+        "(16)",
+        "2.5 out of 5 stars. 16 reviews for Frederik s by Meijer Milk Chocolate English Style Toffee Bites 9 oz.",
+        "$6.99",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "HERSHEY'S NUGGETS Milk Chocolate Candy Share Pack, 9.2 oz",
+      "brand": null,
+      "price": "$6.39",
+      "size": "9.2 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0034/00/0463/38/0034000463381_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/hershey-s-nuggets-milk-chocolate-candy-share-pack-9-2-oz/3400046338",
+      "card_text": [
+        "HERSHEY'S NUGGETS Milk Chocolate Candy Share Pack, 9.2 oz",
+        "(94)",
+        "4.8 out of 5 stars. 94 reviews for HERSHEY S NUGGETS Milk Chocolate Candy Share Pack 9.2 oz.",
+        "$6.39",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Lindt Lindor Milk Chocolate Mini Bag, .8 oz",
+      "brand": null,
+      "price": "$1.99",
+      "size": "8 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0009/54/2015/85/0009542015855_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/lindt-lindor-milk-chocolate-mini-bag-8-oz/954201585",
+      "card_text": [
+        "Lindt Lindor Milk Chocolate Mini Bag, .8 oz",
+        "(32)",
+        "4.9 out of 5 stars. 32 reviews for Lindt Lindor Milk Chocolate Mini Bag .8 oz.",
+        "$1.99",
+        "Buy 3 Get 1 Free",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "HERSHEY'S NUGGETS Milk Chocolate Truffles, Candy Share Pack, 7.7 oz",
+      "brand": null,
+      "price": "$6.39",
+      "size": "7.7 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0034/00/0019/08/0034000019083_0_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/hershey-s-nuggets-milk-chocolate-truffles-candy-share-pack-7-7-oz/3400001908",
+      "card_text": [
+        "HERSHEY'S NUGGETS Milk Chocolate Truffles, Candy Share Pack, 7.7 oz",
+        "(140)",
+        "4.7 out of 5 stars. 140 reviews for HERSHEY S NUGGETS Milk Chocolate Truffles Candy Share Pack 7.7 oz.",
+        "$6.39",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "SNICKERS, TWIX, MILKY WAY & 3 MUSKETEERS Minis Chocolate Candy Bars Variety Pack, 8.31 Oz Bag",
+      "brand": null,
+      "price": "$6.49",
+      "size": "8.31 Oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0040/00/0597/55/0040000597551_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/snickers-twix-milky-way-3-musketeers-minis-chocolate-candy-bars-variety-pack-8-31-oz-bag/4000059755",
+      "card_text": [
+        "SNICKERS, TWIX, MILKY WAY & 3 MUSKETEERS Minis Chocolate Candy Bars Variety Pack, 8.31 Oz Bag",
+        "(62)",
+        "4.9 out of 5 stars. 62 reviews for SNICKERS TWIX MILKY WAY 3 MUSKETEERS Minis Chocolate Candy Bars Variety Pack 8.31 Oz Bag.",
+        "$6.49",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Hu Chocolate Bites, Cashew Butter Vanilla Bean and Dark Chocolate, 2.75 oz",
+      "brand": null,
+      "price": "$6.99",
+      "size": "2.75 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0850/04/3074/31/0850043074311_0_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/hu-chocolate-bites-cashew-butter-vanilla-bean-and-dark-chocolate-2-75-oz/85004307431",
+      "card_text": [
+        "Hu Chocolate Bites, Cashew Butter Vanilla Bean and Dark Chocolate, 2.75 oz",
+        "(6)",
+        "4.8 out of 5 stars. 6 reviews for Hu Chocolate Bites Cashew Butter Vanilla Bean and Dark Chocolate 2.75 oz.",
+        "$6.99",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Hu Chocolate Bites, Hazelnut Butter and Dark Chocolate, 2.75 oz",
+      "brand": null,
+      "price": "$6.99",
+      "size": "2.75 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0850/04/3074/29/0850043074298_0_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/hu-chocolate-bites-hazelnut-butter-and-dark-chocolate-2-75-oz/85004307429",
+      "card_text": [
+        "Hu Chocolate Bites, Hazelnut Butter and Dark Chocolate, 2.75 oz",
+        "(3)",
+        "4.0 out of 5 stars. 3 reviews for Hu Chocolate Bites Hazelnut Butter and Dark Chocolate 2.75 oz.",
+        "$6.99",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "HEATH BITS O' BRICKLE English Toffee Baking Bits Bag, 8 oz",
+      "brand": "Out of Stock",
+      "price": "$4.99",
+      "size": "8 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0034/00/0061/80/0034000061808_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/heath-bits-o-brickle-english-toffee-baking-bits-bag-8-oz/3400006180",
+      "card_text": [
+        "Out of Stock",
+        "HEATH BITS O' BRICKLE English Toffee Baking Bits Bag, 8 oz",
+        "(67)",
+        "4.6 out of 5 stars. 67 reviews for HEATH BITS O BRICKLE English Toffee Baking Bits Bag 8 oz.",
+        "$4.99",
+        "Buy 1 Get 1 50% Off",
+        "Find Similar"
+      ]
+    },
+    {
+      "name": "Snickers Minis Milk Chocolate Bars, Sharing Size, 9.7 Oz Candy Bag",
+      "brand": null,
+      "price": "$6.49",
+      "size": "9.7 Oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0040/00/0607/35/0040000607359_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/snickers-minis-milk-chocolate-bars-sharing-size-9-7-oz-candy-bag/4000060735",
+      "card_text": [
+        "Snickers Minis Milk Chocolate Bars, Sharing Size, 9.7 Oz Candy Bag",
+        "(104)",
+        "4.9 out of 5 stars. 104 reviews for Snickers Minis Milk Chocolate Bars Sharing Size 9.7 Oz Candy Bag.",
+        "$6.49",
+        "Subscribe",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "belVita Energy Snack Bites, Banana, Dark Chocolate and Sunflower Seed, 5 oz Bag",
+      "brand": null,
+      "price": "$4.49",
+      "size": "5 oz",
+      "img": "https://www.meijer.com/content/dam/meijer/product/0044/00/0075/33/0044000075330_1_A1C1_0200.jpg",
+      "link": "https://www.meijer.com/shopping/product/belvita-energy-snack-bites-banana-dark-chocolate-and-sunflower-seed-5-oz-bag/4400007533",
+      "card_text": [
+        "belVita Energy Snack Bites, Banana, Dark Chocolate and Sunflower Seed, 5 oz Bag",
+        "(215)",
+        "4.5 out of 5 stars. 215 reviews for belVita Energy Snack Bites Banana Dark Chocolate and Sunflower Seed 5 oz Bag.",
+        "$4.49",
+        "2/$8 | when you mix or match 2 or more",
+        "Subscribe",
+        "Add to Cart"
+      ]
     }
   ],
-  "raw_text_chars": 2064,
+  "raw_text_chars": 5612,
   "steps": [
-    "13:42:44 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:42:45 connected to Bright Data Scraping Browser",
-    "13:42:50 goto https://www.meijer.com/shopping/search.html?text=chocolate bites bag",
-    "13:42:59 captcha check passed",
-    "13:43:11 dismiss: nothing to close",
-    "13:43:11 click_re ^(pickup|delivery|shop|change store)|store true",
-    "13:43:14 js ok {\"inputs\":[[\"text\",\"Search products\",\"\",\"Search products\",\"\",false],[\"text\",\"Sea",
-    "13:43:14 store_set: Pickup at Alpine",
-    "13:43:15 few houses, reloading once",
-    "13:43:29 text parser wins: 3 vs 2",
-    "13:43:29 extracted 3 houses; raw text 2064 chars"
+    "13:44:24 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:44:25 connected to Bright Data Scraping Browser",
+    "13:44:32 goto https://www.meijer.com/shopping/search.html?text=chocolate bites bag",
+    "13:44:37 captcha check passed",
+    "13:44:49 dismiss: nothing to close",
+    "13:44:49 click_re ^Pickup at true",
+    "13:44:56 js ok {\"inputs\":[[\"text\",\"Search products\",\"\",\"Search products\",\"\",false],[\"text\",\"Sea",
+    "13:44:56 store_set: Pickup at Alpine",
+    "13:44:57 extracted 16 houses; raw text 5612 chars"
   ],
   "error": null,
   "js_results": [
-    "{\"inputs\":[[\"text\",\"Search products\",\"\",\"Search products\",\"\",false],[\"text\",\"Search Meijer...\",\"\",\"Search Meijer\",\"\",true]],\"btns\":[\"Search\",\"Sign In\",\"Cart\",\"Departments\",\"Pickup at Alpine\",\"Start Shopping\",\"Sign in and save!\\n\\nApply mPerks rewards \",\"Savings\\n-$0.00\",\"Taxes & Fees\\n$0.00\",\"Estimated total information\",\"Sign In\",\"Cookie Preferences\"]}"
+    "{\"inputs\":[[\"text\",\"Search products\",\"\",\"Search products\",\"\",false],[\"text\",\"Search Meijer...\",\"\",\"Search Meijer\",\"\",true],[\"radio\",\"\",\"sort-by\",null,\"\",true],[\"radio\",\"\",\"sort-by\",null,\"\",true],[\"radio\",\"\",\"sort-by\",null,\"\",true],[\"radio\",\"\",\"sort-by\",null,\"\",true],[\"radio\",\"\",\"sort-by\",null,\"\",true],[\"text\",\"Search brand\",\"\",null,\"search-brand\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"text\",\"Min\",\"\",\"Minimum price\",\"\",true],[\"text\",\"Max\",\"\",\"Maximum price\",\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"checkbox\",\"\",\"\",null,\"\",true],[\"search\",\"Search by Zip\",\"\",\"Search input\",\"\",true]],\"btns\":[\"Clear search\",\"Search\",\"Sign In\",\"Cart\",\"Departments\",\"Pickup at Alpine\",\"Sort By\",\"Category\",\"Grocery\\n(16)\",\"Brand\",\"Show All\",\"Price\",\"Set\",\"Mix & Match Promotions\",\"Ways To Save\",\"Benefit Programs\",\"Dietary Preferences\",\"Flavor\",\"Sold By\",\"Sustainability\",\"Fulfillment Method\",\"View summary of reviews\",\"Add to Cart\",\"View summary of reviews\",\"Add to Cart\",\"View summary of reviews\",\"Add to Cart\",\"View summary of reviews\",\"Add to Cart\",\"View summary of reviews\",\"Add to Cart\",\"View summary of reviews\",\"Add to Cart\",\"Add to Cart\",\"View summary of reviews\",\"Add to Cart\",\"View summary of reviews\",\"Add to Cart\",\"View summary of reviews\",\"Add to Cart\"]}"
   ],
-  "reloaded": true,
-  "houses_text": 3,
-  "houses_dom": 2
+  "houses_text": 12
 }
