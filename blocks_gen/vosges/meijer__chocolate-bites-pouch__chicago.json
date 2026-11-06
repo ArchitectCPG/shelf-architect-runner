@@ -24,8 +24,8 @@
   },
   {
    "click_re": "^Pickup at",
-   "note": "Meijer redesign 2026-11: header store button is now 'Pickup at <store>'",
-   "optional": true
+   "optional": true,
+   "note": "Meijer redesign 2026-11: header store button is 'Pickup at <store>'"
   },
   {
    "wait": 3000

@@ -293,11 +293,12 @@
   },
   {
    "banner": "wegmans",
-   "lane": "recipe",
+   "lane": "instacart",
    "template": "wegmans",
    "market": "nyc",
    "brand_check": true,
-   "note": "premium regional, strong specialty chocolate set; store pin by name per FABLE_TODO"
+   "note": "premium regional, strong specialty chocolate set; store pin by name per FABLE_TODO | 2026-11-06: own-site runner route returned 0 houses at Stage 0; switched to Instacart storefront (slug unverified, pass confirms).",
+   "slug": "wegmans"
   },
   {
    "banner": "meijer",
@@ -323,33 +324,39 @@
   },
   {
    "banner": "costco-online",
-   "lane": "recipe",
+   "lane": "instacart",
    "template": "costco-online",
    "market": "chicago",
    "brand_check": true,
-   "note": "club gifting read, national online pricing"
+   "note": "club gifting read, national online pricing | 2026-11-06: own-site runner route returned 0 houses at Stage 0; switched to Instacart storefront (slug unverified, pass confirms).",
+   "slug": "costco"
   },
   {
    "banner": "naturalgrocers",
-   "lane": "recipe",
+   "lane": "instacart",
    "template": "naturalgrocers",
    "market": "denver",
-   "brand_check": true
+   "brand_check": true,
+   "slug": "natural-grocers",
+   "note": "2026-11-06: own-site runner route returned 0 houses at Stage 0; switched to Instacart storefront (slug unverified, pass confirms)."
   },
   {
    "banner": "freshthyme",
-   "lane": "recipe",
+   "lane": "instacart",
    "template": "freshthyme",
    "market": "chicago",
-   "brand_check": true
+   "brand_check": true,
+   "slug": "fresh-thyme-market",
+   "note": "2026-11-06: own-site runner route returned 0 houses at Stage 0; switched to Instacart storefront (slug unverified, pass confirms)."
   },
   {
    "banner": "thefreshmarket",
-   "lane": "recipe",
+   "lane": "instacart",
    "template": "thefreshmarket",
    "market": "chicago",
    "brand_check": true,
-   "note": "premium specialty, likely Vosges independent-style account"
+   "note": "premium specialty, likely Vosges independent-style account | 2026-11-06: own-site runner route returned 0 houses at Stage 0; switched to Instacart storefront (slug unverified, pass confirms).",
+   "slug": "the-fresh-market"
   },
   {
    "banner": "erewhon",

@@ -7,7 +7,7 @@ let ds=await gq('DefaultShop',{postalCode:ZIP,coordinates:coords,addressId:null}
 let shop=ds.data&&ds.data.defaultShop;
 if(!shop||!shop.retailer||shop.retailer.slug!==SLUG){ const sc=await gq('ShopCollectionScoped',{retailerSlug:SLUG,postalCode:ZIP,coordinates:coords,addressId:null,allowCanonicalFallback:true},'f20693c3c551f0e0fbdcac9b2ca7aa6db50f9224a39967ba5ac767bb2b598f85'); const shops=(sc.data&&sc.data.shopCollection&&sc.data.shopCollection.shops)||[]; shop=shops.find(s=>s.retailer&&s.retailer.slug===SLUG)||shops[0]||null; dbg.push('collection shops '+shops.length); }
  if(!shop) return JSON.stringify({houses:[],debug:dbg.join('|')+' noshop '+JSON.stringify(ds).slice(0,500)});
-const shopId=shop.id; const sj=JSON.stringify(shop);
+const shopId=shop.id; const sj=JSON.stringify(shop); const matchedSlug=(shop.retailer&&shop.retailer.slug)||'?'; dbg.push('matched '+matchedSlug+(matchedSlug===SLUG?'':' MISMATCH wanted '+SLUG));
 let zoneId=(sj.match(/"zoneId":"?(\d+)/)||[])[1]||null;
 const locId=shop.retailerLocationId;
 // zone from IP-default page calls if not in DefaultShop
@@ -22,4 +22,4 @@ const houses=[];
 for(let i=0;i<ids.length&&i<1000;i+=30){const it=await gq('Items',{ids:ids.slice(i,i+30),shopId,zoneId:zoneId||'0',postalCode:ZIP},H.Items);
  for(const x of ((it.data&&it.data.items)||[])){const pr=x.price&&x.price.viewSection; houses.push({name:x.name,size:x.size||null,brand:x.brandName||null,price:(pr&&(pr.itemCard&&pr.itemCard.priceString||pr.priceString))||null,item_id:x.id,product_id:x.productId||null,img:(x.viewSection&&x.viewSection.itemImage&&x.viewSection.itemImage.url)||null,availability:(x.availability&&x.availability.stockLevel)||null});}}
 if(!houses.length) dbg.push('items0 '+JSON.stringify(sr).slice(0,600));
-return JSON.stringify({store:'API zip '+ZIP+' shop '+shopId+' location '+locId,houses,debug:dbg.join(' | ')});
+return JSON.stringify({store:'API zip '+ZIP+' shop '+shopId+' location '+locId+' retailer '+matchedSlug,houses,debug:dbg.join(' | ')});
