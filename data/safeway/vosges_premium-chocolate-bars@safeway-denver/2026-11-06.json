@@ -1,0 +1,39 @@
+{
+  "block_id": "vosges/premium-chocolate-bars@safeway-denver",
+  "retailer": "safeway",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "pulled_at": "2026-11-06T19:28:32.002Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "80202",
+  "store_set": "757 E 20th Ave",
+  "url_final": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "houses": [],
+  "raw_text_chars": 910,
+  "steps": [
+    "19:28:32 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "19:28:32 connected to Bright Data Scraping Browser",
+    "19:28:42 goto https://www.safeway.com/shop/search-results.html?q=dark chocolate bar",
+    "19:28:50 captcha check passed",
+    "19:28:59 dismissed \"Continue with all\"",
+    "19:28:59 press Escape",
+    "19:29:21 js ok open 0",
+    "19:29:26 type_sel input[placeholder*='ZIP Code'] \"80202\"",
+    "19:29:32 js ok selected",
+    "19:29:46 scrolled x4",
+    "19:29:48 scrolled x2",
+    "19:29:52 scrolled x2",
+    "19:29:56 scrolled x2",
+    "19:29:58 store_set: 757 E 20th Ave",
+    "19:29:58 few houses, reloading once",
+    "19:30:14 extracted 0 houses; raw text 910 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "open 0",
+    "selected"
+  ],
+  "reloaded": true,
+  "houses_text": 0
+}

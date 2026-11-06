@@ -1,0 +1,51 @@
+{
+  "block_id": "vosges/premium-chocolate-bars@walmart-chicago",
+  "retailer": "walmart",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "pulled_at": "2026-11-06T19:38:04.031Z",
+  "runner": "github-actions+brightdata-dataset-api",
+  "channel": "retail",
+  "temperature": null,
+  "store_requested_zip": "60614",
+  "store_set": "API zip 60614 store_id 5402 (dataset gd_m693oc1r1gebnayxq)",
+  "houses": [
+    {
+      "name": "Hu Cashew Butter + Vanilla Bean Dark Chocolate Bar, 2.1 Ounce Bar, 1 Count",
+      "brand": null,
+      "price": "$4.99",
+      "size": "oz",
+      "img": null,
+      "link": "https://www.walmart.com/ip/Hu-Cashew-Butter-Vanilla-Bean-Dark-Chocolate-Bar-2-1-Ounce-Bar-1-Count/610247835?classType=VARIANT",
+      "upc": "850180006077",
+      "availability": "In stock",
+      "initial_price": 5.99,
+      "rating": 4.7,
+      "reviews": 340
+    }
+  ],
+  "steps": [
+    "19:38:04 snapshot sd_mw5dn0og284q0dyff1",
+    "19:38:25 poll 0: running",
+    "19:39:25 poll 3: running",
+    "19:40:26 poll 6: running",
+    "19:41:27 poll 9: running",
+    "19:42:28 poll 12: running",
+    "19:43:28 poll 15: running",
+    "19:44:29 poll 18: running",
+    "19:45:30 poll 21: running",
+    "19:46:31 poll 24: running",
+    "19:47:32 poll 27: running",
+    "19:48:33 poll 30: running",
+    "19:49:34 poll 33: running",
+    "19:50:35 poll 36: running",
+    "19:51:35 poll 39: running",
+    "19:52:36 poll 42: running",
+    "19:53:38 poll 45: running",
+    "19:54:38 poll 48: running",
+    "19:55:39 poll 51: ready",
+    "19:55:40 43 errored inputs: The navigation resulted in a dead page (404 status code)",
+    "19:55:40 extracted 1 houses from 44 records"
+  ],
+  "error": null
+}

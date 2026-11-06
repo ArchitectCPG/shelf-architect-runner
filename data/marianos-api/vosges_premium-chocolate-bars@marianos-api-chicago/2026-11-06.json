@@ -1,0 +1,1760 @@
+{
+ "block_id": "vosges/premium-chocolate-bars@marianos-api-chicago",
+ "retailer": "marianos-api",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "pulled_at": "2026-11-06T19:24:03.870Z",
+ "runner": "github-actions+kroger-api",
+ "store_requested_zip": "60614",
+ "store_set": "MARIANOS Marianos - Marianos Bucktown (53100516) 2112 N Ashland Ave Chicago 60614",
+ "houses": [
+  {
+   "name": "HERSHEY'S SPECIAL DARK Mildly Sweet Chocolate XL Candy Bar",
+   "brand": "Hershey's",
+   "upc": "0003400017414",
+   "product_id": "0003400017414",
+   "size": "4.25 oz",
+   "price": "$2.99",
+   "regular_price": 4.69,
+   "promo_price": 2.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003400017414",
+   "link": "https://www.kroger.com/p/hershey-s-special-dark-mildly-sweet-chocolate-xl-candy-bar/0003400017414?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Endangered Species™ Almonds and Sea Salt 72% Dark Chocolate Candy Bar",
+   "brand": "Endangered Species",
+   "upc": "0003701400020",
+   "product_id": "0003701400020",
+   "size": "3 oz",
+   "price": "$4.79",
+   "regular_price": 4.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003701400020",
+   "link": "https://www.kroger.com/p/endangered-species-almonds-and-sea-salt-72-dark-chocolate-candy-bar/0003701400020?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ghirardelli PREMIUM DARK 72% Cacao Dark Chocolate Bar",
+   "brand": "Ghirardelli",
+   "upc": "0074759960721",
+   "product_id": "0074759960721",
+   "size": "3.5 ounces",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0074759960721",
+   "link": "https://www.kroger.com/p/ghirardelli-premium-dark-72-cacao-dark-chocolate-bar/0074759960721?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "HERSHEY'S SPECIAL DARK Mildly Sweet Chocolate with Almonds XL Candy Bar",
+   "brand": "Hershey's",
+   "upc": "0003400017521",
+   "product_id": "0003400017521",
+   "size": "4.25 oz",
+   "price": "$2.99",
+   "regular_price": 4.69,
+   "promo_price": 2.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003400017521",
+   "link": "https://www.kroger.com/p/hershey-s-special-dark-mildly-sweet-chocolate-with-almonds-xl-candy-bar/0003400017521?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® 72% Cacao Dark Chocolate Swiss Candy Bar",
+   "brand": "Private Selection",
+   "upc": "0004126036515",
+   "product_id": "0004126036515",
+   "size": "3.5 oz",
+   "price": "$4.49",
+   "regular_price": 4.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004126036515",
+   "link": "https://www.kroger.com/p/private-selection-72-cacao-dark-chocolate-swiss-candy-bar/0004126036515?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "HERSHEY'S SPECIAL DARK Mildly Sweet Chocolate Giant Candy Bar",
+   "brand": "Hershey's",
+   "upc": "0003400019541",
+   "product_id": "0003400019541",
+   "size": "7.56 oz",
+   "price": "$4.49",
+   "regular_price": 5.99,
+   "promo_price": 4.49,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003400019541",
+   "link": "https://www.kroger.com/p/hershey-s-special-dark-mildly-sweet-chocolate-giant-candy-bar/0003400019541?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt EXCELLENCE 70% Cocoa Dark Chocolate Bar, 3.5 oz",
+   "brand": "Lindt",
+   "upc": "0003746601763",
+   "product_id": "0003746601763",
+   "size": "3.5 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003746601763",
+   "link": "https://www.kroger.com/p/lindt-excellence-70-cocoa-dark-chocolate-bar-3-5-oz/0003746601763?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt EXCELLENCE Sea Salt Dark Chocolate Bar, 3.5 oz.",
+   "brand": "Lindt",
+   "upc": "0003746603941",
+   "product_id": "0003746603941",
+   "size": "3.5 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003746603941",
+   "link": "https://www.kroger.com/p/lindt-excellence-sea-salt-dark-chocolate-bar-3-5-oz-/0003746603941?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® 85% Cacao Dark Chocolate Swiss Candy Bar",
+   "brand": "Private Selection",
+   "upc": "0004126038452",
+   "product_id": "0004126038452",
+   "size": "3.5 oz",
+   "price": "$4.49",
+   "regular_price": 4.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004126038452",
+   "link": "https://www.kroger.com/p/private-selection-85-cacao-dark-chocolate-swiss-candy-bar/0004126038452?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ghirardelli PREMIUM DARK 86% Cacao Dark Chocolate Bar",
+   "brand": "Ghirardelli",
+   "upc": "0074759960725",
+   "product_id": "0074759960725",
+   "size": "3.17 ounces",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0074759960725",
+   "link": "https://www.kroger.com/p/ghirardelli-premium-dark-86-cacao-dark-chocolate-bar/0074759960725?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt EXCELLENCE 78% Cocoa Dark Chocolate Candy Bar",
+   "brand": "Lindt",
+   "upc": "0000954203169",
+   "product_id": "0000954203169",
+   "size": "1 bar / 3.5 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000954203169",
+   "link": "https://www.kroger.com/p/lindt-excellence-78-cocoa-dark-chocolate-candy-bar/0000954203169?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt EXCELLENCE 90% Cocoa Dark Chocolate Bar, 3.5 oz.",
+   "brand": "Lindt",
+   "upc": "0003746604269",
+   "product_id": "0003746604269",
+   "size": "1 bar / 3.5 oz.",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003746604269",
+   "link": "https://www.kroger.com/p/lindt-excellence-90-cocoa-dark-chocolate-bar-3-5-oz-/0003746604269?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt EXCELLENCE Raspberry Dark Chocolate Candy Bar, 3.5 oz.",
+   "brand": "Lindt",
+   "upc": "0000954243892",
+   "product_id": "0000954243892",
+   "size": "3.5 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000954243892",
+   "link": "https://www.kroger.com/p/lindt-excellence-raspberry-dark-chocolate-candy-bar-3-5-oz-/0000954243892?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Simple Truth Organic® 85% Cacao Fair Trade Dark Chocolate Bar",
+   "brand": "Simple Truth Organic",
+   "upc": "0004126037851",
+   "product_id": "0004126037851",
+   "size": "3.17 oz",
+   "price": "$5.79",
+   "regular_price": 5.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004126037851",
+   "link": "https://www.kroger.com/p/simple-truth-organic-85-cacao-fair-trade-dark-chocolate-bar/0004126037851?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Endangered Species™ Chocolate Extreme Dark 88% Dark Chocolate Candy Bar",
+   "brand": "Endangered Species",
+   "upc": "0003701400091",
+   "product_id": "0003701400091",
+   "size": "3 oz",
+   "price": "$4.79",
+   "regular_price": 4.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003701400091",
+   "link": "https://www.kroger.com/p/endangered-species-chocolate-extreme-dark-88-dark-chocolate-candy-bar/0003701400091?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ghirardelli Sea Salt Caramel Dark Chocolate Squares Bar",
+   "brand": "Ghirardelli",
+   "upc": "0074759941872",
+   "product_id": "0074759941872",
+   "size": "4.8 ounces",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0074759941872",
+   "link": "https://www.kroger.com/p/ghirardelli-sea-salt-caramel-dark-chocolate-squares-bar/0074759941872?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® Cranberry Orange and Honey 72% Cacao Dark Chocolate Swiss Candy Bar",
+   "brand": "Private Selection",
+   "upc": "0004126037206",
+   "product_id": "0004126037206",
+   "size": "3.5 oz",
+   "price": "$4.49",
+   "regular_price": 4.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004126037206",
+   "link": "https://www.kroger.com/p/private-selection-cranberry-orange-and-honey-72-cacao-dark-chocolate-swiss-candy-bar/0004126037206?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt EXCELLENCE Crunchy Mint Cookie Dark Chocolate Candy Bar",
+   "brand": "Lindt",
+   "upc": "0000954245500",
+   "product_id": "0000954245500",
+   "size": "1 bar / 3.5 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000954245500",
+   "link": "https://www.kroger.com/p/lindt-excellence-crunchy-mint-cookie-dark-chocolate-candy-bar/0000954245500?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt EXCELLENCE 85% Cocoa Dark Chocolate Bar, 3.5 oz",
+   "brand": "Lindt",
+   "upc": "0003746601645",
+   "product_id": "0003746601645",
+   "size": "3.5 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003746601645",
+   "link": "https://www.kroger.com/p/lindt-excellence-85-cocoa-dark-chocolate-bar-3-5-oz/0003746601645?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "HERSHEY'S SPECIAL DARK Mildly Sweet Chocolate S'mores Candy Bars",
+   "brand": "Hershey's",
+   "upc": "0003400024502",
+   "product_id": "0003400024502",
+   "size": "1.45 oz",
+   "price": "$9.29",
+   "regular_price": 9.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003400024502",
+   "link": "https://www.kroger.com/p/hershey-s-special-dark-mildly-sweet-chocolate-s-mores-candy-bars/0003400024502?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "CADBURY CARAMELLO SWEETLY DARK Semi-Sweet Dark Chocolate Caramel Candy Bar",
+   "brand": "Cadbury",
+   "upc": "0003400046227",
+   "product_id": "0003400046227",
+   "size": "4 oz",
+   "price": "$2.99",
+   "regular_price": 4.69,
+   "promo_price": 2.99,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003400046227",
+   "link": "https://www.kroger.com/p/cadbury-caramello-sweetly-dark-semi-sweet-dark-chocolate-caramel-candy-bar/0003400046227?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Fannie May® Sea Salt & Almond Dark Chocolate Bar",
+   "brand": "Fannie May",
+   "upc": "0005274572772",
+   "product_id": "0005274572772",
+   "size": "3.5 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0005274572772",
+   "link": "https://www.kroger.com/p/fannie-may-sea-salt-almond-dark-chocolate-bar/0005274572772?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Seattle Chocolate Mexican Hot Chocolate Dark Chocolate Truffle Candy Bar",
+   "brand": "Seattle Chocolate",
+   "upc": "0008101411037",
+   "product_id": "0008101411037",
+   "size": "2.5 oz",
+   "price": "$6.49",
+   "regular_price": 6.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0008101411037",
+   "link": "https://www.kroger.com/p/seattle-chocolate-mexican-hot-chocolate-dark-chocolate-truffle-candy-bar/0008101411037?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Theo® Organic Fair Trade Sea Salt 70% Dark Chocolate Bar",
+   "brand": "Theo",
+   "upc": "0087449200325",
+   "product_id": "0087449200325",
+   "size": "3 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0087449200325",
+   "link": "https://www.kroger.com/p/theo-organic-fair-trade-sea-salt-70-dark-chocolate-bar/0087449200325?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ghirardelli PREMIUM DARK Sea Salt Almond Dark Chocolate Bar",
+   "brand": "Ghirardelli",
+   "upc": "0074759961175",
+   "product_id": "0074759961175",
+   "size": "3.5 ounces",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0074759961175",
+   "link": "https://www.kroger.com/p/ghirardelli-premium-dark-sea-salt-almond-dark-chocolate-bar/0074759961175?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Seattle Chocolate Pike Place Espresso Dark Chocolate Truffle Candy Bar",
+   "brand": "Seattle Chocolate",
+   "upc": "0008101400002",
+   "product_id": "0008101400002",
+   "size": "2.5 oz.",
+   "price": "$6.49",
+   "regular_price": 6.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0008101400002",
+   "link": "https://www.kroger.com/p/seattle-chocolate-pike-place-espresso-dark-chocolate-truffle-candy-bar/0008101400002?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Seattle Chocolate Crunchy Peanut Butter Dark Chocolate Truffle Candy Bar",
+   "brand": "Seattle Chocolate",
+   "upc": "0008101400306",
+   "product_id": "0008101400306",
+   "size": "2.5 oz",
+   "price": "$6.49",
+   "regular_price": 6.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0008101400306",
+   "link": "https://www.kroger.com/p/seattle-chocolate-crunchy-peanut-butter-dark-chocolate-truffle-candy-bar/0008101400306?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Private Selection® Almond Blueberry 72% Cacao Dark Chocolate Swiss Candy Bar",
+   "brand": "Private Selection",
+   "upc": "0004126037207",
+   "product_id": "0004126037207",
+   "size": "3.5 oz",
+   "price": "$4.49",
+   "regular_price": 4.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004126037207",
+   "link": "https://www.kroger.com/p/private-selection-almond-blueberry-72-cacao-dark-chocolate-swiss-candy-bar/0004126037207?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ritter Sport Dark Chocolate Candy Bar with Crunchy Whole Hazelnuts",
+   "brand": "Ritter Sport",
+   "upc": "0005025522400",
+   "product_id": "0005025522400",
+   "size": "3.5 oz",
+   "price": "$5.79",
+   "regular_price": 5.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0005025522400",
+   "link": "https://www.kroger.com/p/ritter-sport-dark-chocolate-candy-bar-with-crunchy-whole-hazelnuts/0005025522400?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ritter Sport Dark Chocolate Candy Bar with Smooth German Marzipan Filling, Wrapped, 3.5oz",
+   "brand": "Ritter Sport",
+   "upc": "0005025502500",
+   "product_id": "0005025502500",
+   "size": "3.5 oz",
+   "price": "$5.79",
+   "regular_price": 5.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0005025502500",
+   "link": "https://www.kroger.com/p/ritter-sport-dark-chocolate-candy-bar-with-smooth-german-marzipan-filling-wrapped-3-5oz/0005025502500?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Divine™ 60% Cocoa Dark Chocolate with Pink Himalayan Salt Bar",
+   "brand": "Divine",
+   "upc": "0085274900461",
+   "product_id": "0085274900461",
+   "size": "3 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085274900461",
+   "link": "https://www.kroger.com/p/divine-60-cocoa-dark-chocolate-with-pink-himalayan-salt-bar/0085274900461?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Fannie May® Dark Chocolate Bar",
+   "brand": "Fannie May",
+   "upc": "0005274598001",
+   "product_id": "0005274598001",
+   "size": "1.8 oz",
+   "price": "$2.39",
+   "regular_price": 2.39,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0005274598001",
+   "link": "https://www.kroger.com/p/fannie-may-dark-chocolate-bar/0005274598001?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Fannie May® Dark Chocolate Mint & Cookie Bar",
+   "brand": "Fannie May",
+   "upc": "0005274572773",
+   "product_id": "0005274572773",
+   "size": "3.5 oz",
+   "price": "$4.49",
+   "regular_price": 4.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0005274572773",
+   "link": "https://www.kroger.com/p/fannie-may-dark-chocolate-mint-cookie-bar/0005274572773?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "YORK Dark Chocolate Peppermint Pattie Candy Pack",
+   "brand": "York",
+   "upc": "0003400000330",
+   "product_id": "0003400000330",
+   "size": "1.4oz",
+   "price": "$1.59",
+   "regular_price": 2,
+   "promo_price": 1.59,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003400000330",
+   "link": "https://www.kroger.com/p/york-dark-chocolate-peppermint-pattie-candy-pack/0003400000330?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "ony's Chocolonely 51% Dark Chocolate with Almonds and Sea Salt Candy Bar",
+   "brand": "Tony's Chocolonely",
+   "upc": "0085801000564",
+   "product_id": "0085801000564",
+   "size": "6.35 oz",
+   "price": "$6.49",
+   "regular_price": 6.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Candy",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085801000564",
+   "link": "https://www.kroger.com/p/ony-s-chocolonely-51-dark-chocolate-with-almonds-and-sea-salt-candy-bar/0085801000564?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Endangered Species™ Caramel and Sea Salt 60% Dark Chocolate Bar",
+   "brand": "Endangered Species",
+   "upc": "0003701400049",
+   "product_id": "0003701400049",
+   "size": "3 oz",
+   "price": "$4.79",
+   "regular_price": 4.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003701400049",
+   "link": "https://www.kroger.com/p/endangered-species-caramel-and-sea-salt-60-dark-chocolate-bar/0003701400049?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Theo® Organic Fair Trade Pure Dark 85% Chocolate Bar",
+   "brand": "Theo",
+   "upc": "0087449200154",
+   "product_id": "0087449200154",
+   "size": "3 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0087449200154",
+   "link": "https://www.kroger.com/p/theo-organic-fair-trade-pure-dark-85-chocolate-bar/0087449200154?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Peanut Butter Banana Dark Chocolate Breakfast Protein Bars",
+   "brand": "KIND",
+   "upc": "0060265241931",
+   "product_id": "0060265241931",
+   "size": "12 bars",
+   "price": "$7.99",
+   "regular_price": 7.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Breakfast"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265241931",
+   "link": "https://www.kroger.com/p/kind-peanut-butter-banana-dark-chocolate-breakfast-protein-bars/0060265241931?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Dark Chocolate Cocoa Breakfast Protein Bars",
+   "brand": "KIND",
+   "upc": "0060265241930",
+   "product_id": "0060265241930",
+   "size": "12 bars",
+   "price": "$7.99",
+   "regular_price": 7.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Breakfast"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265241930",
+   "link": "https://www.kroger.com/p/kind-dark-chocolate-cocoa-breakfast-protein-bars/0060265241930?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Peanut Butter Banana Dark Chocolate Protein Bars",
+   "brand": "KIND",
+   "upc": "0060265267660",
+   "product_id": "0060265267660",
+   "size": "24 bars",
+   "price": "$9.99",
+   "regular_price": 9.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Breakfast",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265267660",
+   "link": "https://www.kroger.com/p/kind-peanut-butter-banana-dark-chocolate-protein-bars/0060265267660?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Dark Chocolate Cocoa Protein Bars",
+   "brand": "KIND",
+   "upc": "0060265267659",
+   "product_id": "0060265267659",
+   "size": "24 bars",
+   "price": "$9.99",
+   "regular_price": 9.99,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Natural & Organic",
+    "Breakfast"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265267659",
+   "link": "https://www.kroger.com/p/kind-dark-chocolate-cocoa-protein-bars/0060265267659?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "belVita Dark Chocolate Creme Breakfast Bar Biscuit Sandwiches",
+   "brand": "belVita",
+   "upc": "0004400004328",
+   "product_id": "0004400004328",
+   "size": "5 ct",
+   "price": "$5.79",
+   "regular_price": 5.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Breakfast"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004400004328",
+   "link": "https://www.kroger.com/p/belvita-dark-chocolate-creme-breakfast-bar-biscuit-sandwiches/0004400004328?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Dark Chocolate Chunk Healthy Grains Energy Bars",
+   "brand": "KIND",
+   "upc": "0060265267056",
+   "product_id": "0060265267056",
+   "size": "5 ct",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Breakfast",
+    "Breakfast"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265267056",
+   "link": "https://www.kroger.com/p/kind-dark-chocolate-chunk-healthy-grains-energy-bars/0060265267056?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Spring & Mulberry Pure Dark Date Sweetened Chocolate",
+   "brand": "Spring & Mulberry",
+   "upc": "0085005547000",
+   "product_id": "0085005547000",
+   "size": "2.1 oz",
+   "price": "$7.99",
+   "regular_price": 7.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085005547000",
+   "link": "https://www.kroger.com/p/spring-mulberry-pure-dark-date-sweetened-chocolate/0085005547000?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "HU HAZELNUT BUTTER ORGANIC DARK CHOCOLATE BAR",
+   "brand": "Hu",
+   "upc": "0085018000606",
+   "product_id": "0085018000606",
+   "size": "2.1 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085018000606",
+   "link": "https://www.kroger.com/p/hu-hazelnut-butter-organic-dark-chocolate-bar/0085018000606?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ferrero Collection Premium Gourmet Assorted Hazelnut and Dark Chocolate and Coconut",
+   "brand": "Ferrero",
+   "upc": "0000980020051",
+   "product_id": "0000980020051",
+   "size": "24 ct / 9.1 oz",
+   "price": "$13.99",
+   "regular_price": 18.99,
+   "promo_price": 13.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000980020051",
+   "link": "https://www.kroger.com/p/ferrero-collection-premium-gourmet-assorted-hazelnut-and-dark-chocolate-and-coconut/0000980020051?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ferrero Collection Premium Gourmet Assorted Hazelnut Milk Chocolate and Dark Chocolate",
+   "brand": "Ferrero",
+   "upc": "0000980020041",
+   "product_id": "0000980020041",
+   "size": "12 ct / 4.6 oz",
+   "price": "$8.79",
+   "regular_price": 8.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000980020041",
+   "link": "https://www.kroger.com/p/ferrero-collection-premium-gourmet-assorted-hazelnut-milk-chocolate-and-dark-chocolate/0000980020041?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "CADBURY CARAMELLO SWEETLY DARK Miniatures Semi-Sweet Dark Chocolate Caramel Candy Share Pack",
+   "brand": "Cadbury",
+   "upc": "0003400007877",
+   "product_id": "0003400007877",
+   "size": "7.2 oz",
+   "price": "$8.29",
+   "regular_price": 8.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003400007877",
+   "link": "https://www.kroger.com/p/cadbury-caramello-sweetly-dark-miniatures-semi-sweet-dark-chocolate-caramel-candy-share-pack/0003400007877?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "MadeGood Oats & Dark Chocolate Crunchy Squares",
+   "brand": "MadeGood",
+   "upc": "0068745628540",
+   "product_id": "0068745628540",
+   "size": "5 ct / 1.06 oz",
+   "price": "$4.99",
+   "regular_price": 4.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Natural & Organic",
+    "Breakfast",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0068745628540",
+   "link": "https://www.kroger.com/p/madegood-oats-dark-chocolate-crunchy-squares/0068745628540?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hu Salty Dark Chocolate Bar",
+   "brand": "Hu",
+   "upc": "0085018000605",
+   "product_id": "0085018000605",
+   "size": "2.1 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085018000605",
+   "link": "https://www.kroger.com/p/hu-salty-dark-chocolate-bar/0085018000605?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Endangered Species™ Bold + Silky Dark Chocolate Candy Bar",
+   "brand": "Endangered Species",
+   "upc": "0003701424237",
+   "product_id": "0003701424237",
+   "size": "3 oz",
+   "price": "$4.79",
+   "regular_price": 4.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0003701424237",
+   "link": "https://www.kroger.com/p/endangered-species-bold-silky-dark-chocolate-candy-bar/0003701424237?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "HU VANILLA BEAN CASHEW BUTTER ORGANIC DARK CHOCOLATE BAR",
+   "brand": "Hu",
+   "upc": "0085018000607",
+   "product_id": "0085018000607",
+   "size": "2.1 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085018000607",
+   "link": "https://www.kroger.com/p/hu-vanilla-bean-cashew-butter-organic-dark-chocolate-bar/0085018000607?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "UNREAL Dark Chocolate Coconut Bars 4.2 oz",
+   "brand": "Unreal",
+   "upc": "0085748400654",
+   "product_id": "0085748400654",
+   "size": "4.2 oz",
+   "price": "$7.79",
+   "regular_price": 7.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085748400654",
+   "link": "https://www.kroger.com/p/unreal-dark-chocolate-coconut-bars-4-2-oz/0085748400654?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "UNREAL® Dark Chocolate Caramel Peanut Nougat Bars",
+   "brand": "Unreal",
+   "upc": "0085748400652",
+   "product_id": "0085748400652",
+   "size": "3.4 oz",
+   "price": "$7.79",
+   "regular_price": 7.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085748400652",
+   "link": "https://www.kroger.com/p/unreal-dark-chocolate-caramel-peanut-nougat-bars/0085748400652?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Simple Truth Organic® Sea Salt 70% Cacao Fair Trade Dark Chocolate Bar",
+   "brand": "Simple Truth Organic",
+   "upc": "0004126037850",
+   "product_id": "0004126037850",
+   "size": "3.17 oz",
+   "price": "$5.79",
+   "regular_price": 5.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004126037850",
+   "link": "https://www.kroger.com/p/simple-truth-organic-sea-salt-70-cacao-fair-trade-dark-chocolate-bar/0004126037850?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "LILY'S Sea Salt Extra Dark Chocolate Style No Sugar Added Sweets Bar",
+   "brand": "Lily's",
+   "upc": "0085648100359",
+   "product_id": "0085648100359",
+   "size": "2.8 oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085648100359",
+   "link": "https://www.kroger.com/p/lily-s-sea-salt-extra-dark-chocolate-style-no-sugar-added-sweets-bar/0085648100359?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hu® Vanilla Crunch Dark Chocolate Bar",
+   "brand": "Hu",
+   "upc": "0085018000620",
+   "product_id": "0085018000620",
+   "size": "2.1 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085018000620",
+   "link": "https://www.kroger.com/p/hu-vanilla-crunch-dark-chocolate-bar/0085018000620?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hu® Cashew Butter & Raspberry Jelly Dark Chocolate Bar",
+   "brand": "Hu",
+   "upc": "0085018000644",
+   "product_id": "0085018000644",
+   "size": "2.1 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085018000644",
+   "link": "https://www.kroger.com/p/hu-cashew-butter-raspberry-jelly-dark-chocolate-bar/0085018000644?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "LILY'S Almond Dark Chocolate Style No Sugar Added Sweets Bar",
+   "brand": "Lily's",
+   "upc": "0085648100303",
+   "product_id": "0085648100303",
+   "size": "3 oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085648100303",
+   "link": "https://www.kroger.com/p/lily-s-almond-dark-chocolate-style-no-sugar-added-sweets-bar/0085648100303?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "LILY'S Salted Caramel Extra Dark Chocolate Style No Sugar Added Sweets Bar",
+   "brand": "Lily's",
+   "upc": "0081000346058",
+   "product_id": "0081000346058",
+   "size": "2.8 oz",
+   "price": "$5.99",
+   "regular_price": 5.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0081000346058",
+   "link": "https://www.kroger.com/p/lily-s-salted-caramel-extra-dark-chocolate-style-no-sugar-added-sweets-bar/0081000346058?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Hu® Kitchen Orange Vanilla Cashew Butter Dark Chocolate Bar",
+   "brand": "Hu Products",
+   "upc": "0085018000642",
+   "product_id": "0085018000642",
+   "size": "2.1 oz",
+   "price": "$6.79",
+   "regular_price": 6.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy",
+    "Natural & Organic"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085018000642",
+   "link": "https://www.kroger.com/p/hu-kitchen-orange-vanilla-cashew-butter-dark-chocolate-bar/0085018000642?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Perfect Bar Refrigerated Dark Chocolate Chip Peanut Butter Protein Bar",
+   "brand": "Perfect Bar",
+   "upc": "0085556911060",
+   "product_id": "0085556911060",
+   "size": "1 ct",
+   "price": "$3.09",
+   "regular_price": 3.49,
+   "promo_price": 3.09,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Health"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085556911060",
+   "link": "https://www.kroger.com/p/perfect-bar-refrigerated-dark-chocolate-chip-peanut-butter-protein-bar/0085556911060?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Perfect Bar Mini Dark Chocolate Chip Peanut Butter Protein Bar Organic 8 Count",
+   "brand": "Perfect Bar",
+   "upc": "0085556911035",
+   "product_id": "0085556911035",
+   "size": "8 ct / 7 oz",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Health"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085556911035",
+   "link": "https://www.kroger.com/p/perfect-bar-mini-dark-chocolate-chip-peanut-butter-protein-bar-organic-8-count/0085556911035?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "CLIF BAR Peanut Butter Banana with Dark Chocolate Energy Protein Bars",
+   "brand": "Clif Bar",
+   "upc": "0072225206888",
+   "product_id": "0072225206888",
+   "size": "5 ct",
+   "price": "$7.99",
+   "regular_price": 7.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0072225206888",
+   "link": "https://www.kroger.com/p/clif-bar-peanut-butter-banana-with-dark-chocolate-energy-protein-bars/0072225206888?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Perfect Bar Refrigerated Dark Chocolate Chip Peanut Butter Protein Bar",
+   "brand": "Perfect Bar",
+   "upc": "0085556911065",
+   "product_id": "0085556911065",
+   "size": "4 ct",
+   "price": "$10.99",
+   "regular_price": 10.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Health"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085556911065",
+   "link": "https://www.kroger.com/p/perfect-bar-refrigerated-dark-chocolate-chip-peanut-butter-protein-bar/0085556911065?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "CLIF BAR Peanut Butter Banana with Dark Chocolate Energy Protein Bars",
+   "brand": "Clif Bar",
+   "upc": "0072225206881",
+   "product_id": "0072225206881",
+   "size": "10 ct",
+   "price": "$13.99",
+   "regular_price": 13.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Health"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0072225206881",
+   "link": "https://www.kroger.com/p/clif-bar-peanut-butter-banana-with-dark-chocolate-energy-protein-bars/0072225206881?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Perfect Bar Choco Crisp Gluten Free Dark Chocolate Protein Bar",
+   "brand": "Perfect Bar",
+   "upc": "0085556922015",
+   "product_id": "0085556922015",
+   "size": "1.94 oz",
+   "price": "$3.09",
+   "regular_price": 3.49,
+   "promo_price": 3.09,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Health"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085556922015",
+   "link": "https://www.kroger.com/p/perfect-bar-choco-crisp-gluten-free-dark-chocolate-protein-bar/0085556922015?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Dark Chocolate Nuts & Sea Salt Nut Bars",
+   "brand": "KIND",
+   "upc": "0060265227028",
+   "product_id": "0060265227028",
+   "size": "6 bars",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265227028",
+   "link": "https://www.kroger.com/p/kind-dark-chocolate-nuts-sea-salt-nut-bars/0060265227028?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Peanut Butter Dark Chocolate Bars",
+   "brand": "KIND",
+   "upc": "0060265227134",
+   "product_id": "0060265227134",
+   "size": "6 bars",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265227134",
+   "link": "https://www.kroger.com/p/kind-peanut-butter-dark-chocolate-bars/0060265227134?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nature Valley™ Dark Chocolate Peanut Almond Sweet and Salty Nut Bars",
+   "brand": "Nature Valley",
+   "upc": "0001600027855",
+   "product_id": "0001600027855",
+   "size": "6 ct / 1.2 oz",
+   "price": "$2.5",
+   "regular_price": 5.99,
+   "promo_price": 2.5,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001600027855",
+   "link": "https://www.kroger.com/p/nature-valley-dark-chocolate-peanut-almond-sweet-and-salty-nut-bars/0001600027855?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nature Valley™ Protein Peanut Butter Dark Chocolate Chewy Snack Bars",
+   "brand": "Nature Valley",
+   "upc": "0001600045723",
+   "product_id": "0001600045723",
+   "size": "5 ct / 1.42 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001600045723",
+   "link": "https://www.kroger.com/p/nature-valley-protein-peanut-butter-dark-chocolate-chewy-snack-bars/0001600045723?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nature Valley™ Dark Chocolate Cherry Trail Mix Fruit and Nut bars",
+   "brand": "Nature Valley",
+   "upc": "0001600041727",
+   "product_id": "0001600041727",
+   "size": "6 ct / 1.23 oz",
+   "price": "$2.5",
+   "regular_price": 5.99,
+   "promo_price": 2.5,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001600041727",
+   "link": "https://www.kroger.com/p/nature-valley-dark-chocolate-cherry-trail-mix-fruit-and-nut-bars/0001600041727?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Haagen Dazs Chocolate Dark Chocolate Ice Cream Bars, 3 Count",
+   "brand": "Haagen-Dazs",
+   "upc": "0007457002310",
+   "product_id": "0007457002310",
+   "size": "9.0 fluid ounces",
+   "price": "$4.99",
+   "regular_price": 6.99,
+   "promo_price": 4.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007457002310",
+   "link": "https://www.kroger.com/p/haagen-dazs-chocolate-dark-chocolate-ice-cream-bars-3-count/0007457002310?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Peanut Butter and Dark Chocolate Flavored Chewy Protein Bars",
+   "brand": "Kroger",
+   "upc": "0001111011125",
+   "product_id": "0001111011125",
+   "size": "5 ct / 1.41 oz",
+   "price": "$5.49",
+   "regular_price": 5.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Health",
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111011125",
+   "link": "https://www.kroger.com/p/kroger-peanut-butter-and-dark-chocolate-flavored-chewy-protein-bars/0001111011125?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Haagen Dazs Cherry Dark Chocolate Ice Cream Bars, 3 Count",
+   "brand": "Haagen-Dazs",
+   "upc": "0007457011198",
+   "product_id": "0007457011198",
+   "size": "9.0 fluid ounces",
+   "price": "$4.99",
+   "regular_price": 6.99,
+   "promo_price": 4.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007457011198",
+   "link": "https://www.kroger.com/p/haagen-dazs-cherry-dark-chocolate-ice-cream-bars-3-count/0007457011198?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Haagen-Dazs Chocolate Dark Chocolate Mini Ice Cream Bars, 6 Count",
+   "brand": "Haagen-Dazs",
+   "upc": "0007457030605",
+   "product_id": "0007457030605",
+   "size": "11.1 fl oz",
+   "price": "$4.99",
+   "regular_price": 8.69,
+   "promo_price": 4.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007457030605",
+   "link": "https://www.kroger.com/p/haagen-dazs-chocolate-dark-chocolate-mini-ice-cream-bars-6-count/0007457030605?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nature Valley™ Sweet & Salty Nut Dark Chocolate Peanut Almond Granola bars",
+   "brand": "Nature Valley",
+   "upc": "0001600018697",
+   "product_id": "0001600018697",
+   "size": "18 ct / 1.2 oz",
+   "price": "$12.49",
+   "regular_price": 12.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001600018697",
+   "link": "https://www.kroger.com/p/nature-valley-sweet-salty-nut-dark-chocolate-peanut-almond-granola-bars/0001600018697?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "DOVE Ice Cream Vanilla & Chocolate Mini Dark Chocolate Individually Wrapped Ice Cream Bar Assortment",
+   "brand": "Dove Ice Cream",
+   "upc": "0004767748525",
+   "product_id": "0004767748525",
+   "size": "10 ct / 7.5 fl oz",
+   "price": "$5.79",
+   "regular_price": 5.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004767748525",
+   "link": "https://www.kroger.com/p/dove-ice-cream-vanilla-chocolate-mini-dark-chocolate-individually-wrapped-ice-cream-bar-assortment/0004767748525?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nature Valley™ Peanut Almond & Dark Chocolate Chewy Granola Bars",
+   "brand": "Nature Valley",
+   "upc": "0001600045724",
+   "product_id": "0001600045724",
+   "size": "5 ct / 1.42 oz",
+   "price": "$6.99",
+   "regular_price": 6.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001600045724",
+   "link": "https://www.kroger.com/p/nature-valley-peanut-almond-dark-chocolate-chewy-granola-bars/0001600045724?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nature Valley™ Sweet & Salty Nut Dark Chocolate Peanut Almond Granola bars",
+   "brand": "Nature Valley",
+   "upc": "0001600014665",
+   "product_id": "0001600014665",
+   "size": "12 ct / 1.2 oz",
+   "price": "$6.99",
+   "regular_price": 10.29,
+   "promo_price": 6.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001600014665",
+   "link": "https://www.kroger.com/p/nature-valley-sweet-salty-nut-dark-chocolate-peanut-almond-granola-bars/0001600014665?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nature Valley™ Peanut Butter Dark Chocolate Chewy Granola Bars",
+   "brand": "Nature Valley",
+   "upc": "0001600045891",
+   "product_id": "0001600045891",
+   "size": "10 ct / 1.42 oz",
+   "price": "$8.99",
+   "regular_price": 12.99,
+   "promo_price": 8.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001600045891",
+   "link": "https://www.kroger.com/p/nature-valley-peanut-butter-dark-chocolate-chewy-granola-bars/0001600045891?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "DOVE Vanilla Ice Cream Bars Coated With Dark Chocolate Individually Wrapped Dessert",
+   "brand": "Dove Ice Cream",
+   "upc": "0004767739129",
+   "product_id": "0004767739129",
+   "size": "3 ct / 8.67 fl oz",
+   "price": "$5.79",
+   "regular_price": 5.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0004767739129",
+   "link": "https://www.kroger.com/p/dove-vanilla-ice-cream-bars-coated-with-dark-chocolate-individually-wrapped-dessert/0004767739129?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Dark Chocolate Cherry Cashew Fruit and Nut Bars",
+   "brand": "KIND",
+   "upc": "0060265227142",
+   "product_id": "0060265227142",
+   "size": "6 ct",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265227142",
+   "link": "https://www.kroger.com/p/kind-dark-chocolate-cherry-cashew-fruit-and-nut-bars/0060265227142?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Dark Chocolate Nuts & Sea Salt Nut Bars",
+   "brand": "KIND",
+   "upc": "0060265218665",
+   "product_id": "0060265218665",
+   "size": "12 ct",
+   "price": "$13.49",
+   "regular_price": 16.99,
+   "promo_price": 13.49,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265218665",
+   "link": "https://www.kroger.com/p/kind-dark-chocolate-nuts-sea-salt-nut-bars/0060265218665?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND ZERO Peanut Butter Dark Chocolate Nut Bars",
+   "brand": "KIND",
+   "upc": "0060265243388",
+   "product_id": "0060265243388",
+   "size": "5 ct",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265243388",
+   "link": "https://www.kroger.com/p/kind-zero-peanut-butter-dark-chocolate-nut-bars/0060265243388?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Peanut Butter Dark Chocolate Snack Bars",
+   "brand": "KIND",
+   "upc": "0060265218664",
+   "product_id": "0060265218664",
+   "size": "12 ct",
+   "price": "$13.49",
+   "regular_price": 16.99,
+   "promo_price": 13.49,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265218664",
+   "link": "https://www.kroger.com/p/kind-peanut-butter-dark-chocolate-snack-bars/0060265218664?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Dark Chocolate Cherry Cashew Nuts and Spices Bars",
+   "brand": "KIND",
+   "upc": "0060265224968",
+   "product_id": "0060265224968",
+   "size": "12 ct",
+   "price": "$13.49",
+   "regular_price": 16.99,
+   "promo_price": 13.49,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265224968",
+   "link": "https://www.kroger.com/p/kind-dark-chocolate-cherry-cashew-nuts-and-spices-bars/0060265224968?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "RXBAR® Nut Butter and Oat Dark Chocolate Peanut Butter Protein Bars",
+   "brand": "RXBAR",
+   "upc": "0019390800723",
+   "product_id": "0019390800723",
+   "size": "5 ct",
+   "price": "$10.49",
+   "regular_price": 10.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Health"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0019390800723",
+   "link": "https://www.kroger.com/p/rxbar-nut-butter-and-oat-dark-chocolate-peanut-butter-protein-bars/0019390800723?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Almond Butter Dark Chocolate Protein Nut Bars",
+   "brand": "KIND",
+   "upc": "0060265243265",
+   "product_id": "0060265243265",
+   "size": "5 ct",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265243265",
+   "link": "https://www.kroger.com/p/kind-almond-butter-dark-chocolate-protein-nut-bars/0060265243265?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Nature Valley™ Protein Peanut Butter Dark Chocolate Chewy Bars",
+   "brand": "Nature Valley",
+   "upc": "0001600023572",
+   "product_id": "0001600023572",
+   "size": "5 ct / 1.77 oz",
+   "price": "$6.99",
+   "regular_price": 10.29,
+   "promo_price": 6.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001600023572",
+   "link": "https://www.kroger.com/p/nature-valley-protein-peanut-butter-dark-chocolate-chewy-bars/0001600023572?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Jeni's Dark Chocolate Bombe Ice Cream Bars",
+   "brand": "Jeni's",
+   "upc": "0085006064411",
+   "product_id": "0085006064411",
+   "size": "3 ct / 3.5 fl oz",
+   "price": "$6.99",
+   "regular_price": 8.99,
+   "promo_price": 6.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Frozen"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085006064411",
+   "link": "https://www.kroger.com/p/jeni-s-dark-chocolate-bombe-ice-cream-bars/0085006064411?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Dark Chocolate Cherry Cashew Fruit and Nut Bars",
+   "brand": "KIND",
+   "upc": "0060265217050",
+   "product_id": "0060265217050",
+   "size": "1 ct",
+   "price": "$1.79",
+   "regular_price": 1.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265217050",
+   "link": "https://www.kroger.com/p/kind-dark-chocolate-cherry-cashew-fruit-and-nut-bars/0060265217050?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Peanut Butter Dark Chocolate Snack Bars",
+   "brand": "KIND",
+   "upc": "0060265217056",
+   "product_id": "0060265217056",
+   "size": "1 ct",
+   "price": "$1.79",
+   "regular_price": 1.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265217056",
+   "link": "https://www.kroger.com/p/kind-peanut-butter-dark-chocolate-snack-bars/0060265217056?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "KIND Dark Chocolate Nuts & Sea Salt Nut Bars",
+   "brand": "KIND",
+   "upc": "0060265217651",
+   "product_id": "0060265217651",
+   "size": "1 ct",
+   "price": "$1.79",
+   "regular_price": 1.79,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0060265217651",
+   "link": "https://www.kroger.com/p/kind-dark-chocolate-nuts-sea-salt-nut-bars/0060265217651?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Kroger® Peanut Butter and Dark Chocolate Flavored Chewy Protein Bars Family Size",
+   "brand": "Kroger",
+   "upc": "0001111006738",
+   "product_id": "0001111006738",
+   "size": "15 ct / 1.41 oz",
+   "price": "$8.99",
+   "regular_price": 8.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Bakery"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0001111006738",
+   "link": "https://www.kroger.com/p/kroger-peanut-butter-and-dark-chocolate-flavored-chewy-protein-bars-family-size/0001111006738?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "RXBAR® Protein Energy Bites Dark Chocolate Peanut Butter",
+   "brand": "RXBAR",
+   "upc": "0019390800841",
+   "product_id": "0019390800841",
+   "size": "8.8 oz",
+   "price": "$10.49",
+   "regular_price": 10.49,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Snacks"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0019390800841",
+   "link": "https://www.kroger.com/p/rxbar-protein-energy-bites-dark-chocolate-peanut-butter/0019390800841?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "barkTHINS Dark Chocolate Almond and Sea Salt Snacking Chocolate Bag",
+   "brand": "barkThins",
+   "upc": "0085968600400",
+   "product_id": "0085968600400",
+   "size": "4.7 oz",
+   "price": "$7.39",
+   "regular_price": 7.39,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085968600400",
+   "link": "https://www.kroger.com/p/barkthins-dark-chocolate-almond-and-sea-salt-snacking-chocolate-bag/0085968600400?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "barkTHINS Dark Chocolate Pretzel and Sea Salt Snacking Chocolate Bag",
+   "brand": "barkThins",
+   "upc": "0085968600401",
+   "product_id": "0085968600401",
+   "size": "4.7 oz",
+   "price": "$7.39",
+   "regular_price": 7.39,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0085968600401",
+   "link": "https://www.kroger.com/p/barkthins-dark-chocolate-pretzel-and-sea-salt-snacking-chocolate-bag/0085968600401?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Ghirardelli Dark Chocolate Peppermint Bark Chocolate Squares",
+   "brand": "Ghirardelli",
+   "upc": "0074759932221",
+   "product_id": "0074759932221",
+   "size": "7.7 ounces",
+   "price": "$10.99",
+   "regular_price": 12.99,
+   "promo_price": 10.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0074759932221",
+   "link": "https://www.kroger.com/p/ghirardelli-dark-chocolate-peppermint-bark-chocolate-squares/0074759932221?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  }
+ ],
+ "steps": [
+  "19:24:04 locations near 60614: 49 chains=MARIANOS|FOOD4LESS|RULER",
+  "19:24:04 store MARIANOS Marianos - Marianos Bucktown (53100516) 2112 N Ashland Ave Chicago 60614",
+  "19:24:05 products start=0: 50",
+  "19:24:06 products start=50: 49",
+  "19:24:06 extracted 99 houses"
+ ],
+ "error": null
+}
