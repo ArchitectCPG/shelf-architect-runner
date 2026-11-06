@@ -3,30 +3,84 @@
   "retailer": "meijer",
   "zip": "candy-chocolate",
   "neighborhood": "chocolate-bites-pouch",
-  "pulled_at": "2026-11-06T13:39:52.340Z",
+  "pulled_at": "2026-11-06T13:42:44.828Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60614",
-  "store_set": null,
+  "store_set": "Pickup at Alpine",
   "url_final": "https://www.meijer.com/shopping/cart",
-  "houses": [],
-  "raw_text_chars": 0,
-  "steps": [
-    "13:39:52 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "13:39:53 connected to Bright Data Scraping Browser",
-    "13:39:55 rate limited, retry 1",
-    "13:40:07 goto https://www.meijer.com/shopping/search.html?text=chocolate bites bag",
-    "13:40:13 captcha check passed",
-    "13:40:26 dismiss: nothing to close",
-    "13:40:26 click_re ^(pickup|delivery|shop|change store)|store true",
-    "13:40:54 step failed (TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting f), will retry recipe",
-    "13:40:54 store_set: Pickup at Alpine",
-    "13:40:54 attempt 2: store not pinned, fresh page",
-    "13:40:59 goto https://www.meijer.com/shopping/search.html?text=chocolate bites bag",
-    "13:41:06 captcha check passed",
-    "13:41:19 dismiss: nothing to close",
-    "13:41:19 click_re ^(pickup|delivery|shop|change store)|store true",
-    "13:41:47 ERROR TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'Zip\\']').first() to be visible\n"
+  "houses": [
+    {
+      "name": "Taxes & Fees",
+      "brand": null,
+      "price": "$0.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Order Summary",
+        "Item Total (0 Items)",
+        "$0.00",
+        "Savings",
+        "-$0.00",
+        "Taxes & Fees"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "Pickup Fee",
+      "brand": null,
+      "price": "$0.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "-$0.00",
+        "Taxes & Fees",
+        "$0.00",
+        "Pickup Fee",
+        "FREE",
+        "Estimated Taxes"
+      ],
+      "via": "text"
+    },
+    {
+      "name": "See all offer details. Restrictions apply. Pricing, promotions and availability may vary by location and on Meijer.com",
+      "brand": null,
+      "price": "$0.00",
+      "size": "",
+      "img": null,
+      "link": null,
+      "card_text": [
+        "Adjusted at Checkout",
+        "Estimated Total",
+        "$0.00",
+        "Disclaimer: Your final order total may differ from the estimated total above due to substitutions, inventory changes, taxes, and discounts. We'll determine the final total when we complete your order. Please note that we can't accept cash or paper coupons for online orders.",
+        "Sign In",
+        "Sponsored"
+      ],
+      "via": "text"
+    }
   ],
-  "error": "TimeoutError: locator.waitFor: Timeout 25000ms exceeded.\nCall log:\n  - waiting for locator('input[placeholder*=\\'Zip\\']').first() to be visible\n"
+  "raw_text_chars": 2064,
+  "steps": [
+    "13:42:44 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:42:45 connected to Bright Data Scraping Browser",
+    "13:42:50 goto https://www.meijer.com/shopping/search.html?text=chocolate bites bag",
+    "13:42:59 captcha check passed",
+    "13:43:11 dismiss: nothing to close",
+    "13:43:11 click_re ^(pickup|delivery|shop|change store)|store true",
+    "13:43:14 js ok {\"inputs\":[[\"text\",\"Search products\",\"\",\"Search products\",\"\",false],[\"text\",\"Sea",
+    "13:43:14 store_set: Pickup at Alpine",
+    "13:43:15 few houses, reloading once",
+    "13:43:29 text parser wins: 3 vs 2",
+    "13:43:29 extracted 3 houses; raw text 2064 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "{\"inputs\":[[\"text\",\"Search products\",\"\",\"Search products\",\"\",false],[\"text\",\"Search Meijer...\",\"\",\"Search Meijer\",\"\",true]],\"btns\":[\"Search\",\"Sign In\",\"Cart\",\"Departments\",\"Pickup at Alpine\",\"Start Shopping\",\"Sign in and save!\\n\\nApply mPerks rewards \",\"Savings\\n-$0.00\",\"Taxes & Fees\\n$0.00\",\"Estimated total information\",\"Sign In\",\"Cookie Preferences\"]}"
+  ],
+  "reloaded": true,
+  "houses_text": 3,
+  "houses_dom": 2
 }
