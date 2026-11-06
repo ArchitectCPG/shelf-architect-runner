@@ -81,7 +81,11 @@ def latest(b):
     fs=sorted(x for x in glob.glob(f"data/{b['retailer']}/{bid}/*.json") if not x.endswith('-error.json'))
     for fp in reversed(fs):
         j=json.load(open(fp))
-        if j.get('houses'): j['_file']=fp; return j
+        if j.get('houses'):
+            j['_file']=fp
+            if b['retailer'].startswith('wholefoods'):
+                from normalize import realign_wholefoods; j['houses']=realign_wholefoods(j['houses'])
+            return j
     return None
 JUNK=re.compile(r'^(price per|unbranded|sale|new|hatch \(brand\)|\(brand\)|sponsored|add|\$.*|.*\(brand\))$',re.I)
 from collections import Counter as _C
