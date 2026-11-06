@@ -23,7 +23,8 @@
    ]
   },
   {
-   "click_sel": "[data-testid=store-flyout-button]"
+   "click_re": "^(pickup|delivery|shop|change store)|store",
+   "note": "Meijer redesign 2026-11: header store button is now 'Pickup at <store>'"
   },
   {
    "wait": 3000
@@ -51,6 +52,6 @@
    "scroll": 4
   }
  ],
- "store_js": "document.querySelector('[data-testid=store-flyout-button]')?.innerText.replace(/\\s+/g,' ').trim()",
+ "store_js": "Array.from(document.querySelectorAll('button')).map(e=>e.innerText.replace(/\\s+/g,' ').trim()).find(t=>/^(pickup|delivery|shop) at/i.test(t))||null",
  "attempts": 2
 }
