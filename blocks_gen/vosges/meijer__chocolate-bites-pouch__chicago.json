@@ -33,11 +33,12 @@
    "type_sel": {
     "sel": "input[placeholder*='Zip']",
     "value": "{{store_zip}}",
-    "enter": false
+    "enter": true
    }
   },
   {
-   "click_sel": ".store-fly-out-search__search-icon"
+   "click_sel": ".store-fly-out-search__search-icon",
+   "optional": true
   },
   {
    "wait": 5000
