@@ -1,0 +1,31 @@
+{
+  "block_id": "vosges/chocolate-bites-pouch@thefreshmarket-chicago",
+  "retailer": "thefreshmarket",
+  "zip": "candy-chocolate",
+  "neighborhood": "chocolate-bites-pouch",
+  "pulled_at": "2026-11-06T03:46:59.203Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60614",
+  "store_set": "Search...",
+  "url_final": "https://www.thefreshmarket.com/search?q=salsa",
+  "houses": [],
+  "raw_text_chars": 3554,
+  "steps": [
+    "03:46:59 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "03:47:54 connected to Bright Data Scraping Browser",
+    "03:48:07 goto https://www.thefreshmarket.com/search?q=salsa",
+    "03:48:15 captcha check passed",
+    "03:49:22 dismissed \"Close\"",
+    "03:49:23 press Escape",
+    "03:49:25 scrolled x2",
+    "03:49:29 scrolled x2",
+    "03:49:33 scrolled x2",
+    "03:49:35 store_set: Search...",
+    "03:49:35 few houses, reloading once",
+    "03:49:52 extracted 0 houses; raw text 3554 chars"
+  ],
+  "error": null,
+  "reloaded": true,
+  "houses_text": 0
+}

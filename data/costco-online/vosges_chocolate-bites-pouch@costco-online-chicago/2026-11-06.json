@@ -1,0 +1,19 @@
+{
+  "block_id": "vosges/chocolate-bites-pouch@costco-online-chicago",
+  "retailer": "costco-online",
+  "zip": "candy-chocolate",
+  "neighborhood": "chocolate-bites-pouch",
+  "pulled_at": "2026-11-06T03:35:32.047Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60614",
+  "store_set": null,
+  "url_final": null,
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "03:35:32 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "03:36:11 ERROR Error: browserType.connectOverCDP: WebSocket error: wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 500 Internal Server Error (ETIMEDOUT)\nconnect ETIMEDOUT 144.126.213.117:8080\nCall log:\n  - <ws connecting> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/\n  - <ws unexpected response> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 500 Internal Server Erro"
+  ],
+  "error": "Error: browserType.connectOverCDP: WebSocket error: wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 500 Internal Server Error (ETIMEDOUT)\nconnect ETIMEDOUT 144.126.213.117:8080\nCall log:\n  - <ws connecting> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/\n  - <ws unexpected response> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 500 Internal Server Erro"
+}

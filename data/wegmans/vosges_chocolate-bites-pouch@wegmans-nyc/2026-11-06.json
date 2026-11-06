@@ -1,0 +1,73 @@
+{
+  "block_id": "vosges/chocolate-bites-pouch@wegmans-nyc",
+  "retailer": "wegmans",
+  "zip": "candy-chocolate",
+  "neighborhood": "chocolate-bites-pouch",
+  "pulled_at": "2026-11-06T03:56:01.009Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "10023",
+  "store_set": null,
+  "url_final": "https://www.wegmans.com/shop/search?query=chocolate%20bites%20bag",
+  "houses": [
+    {
+      "name": "Quantity of Famous Amos Classic Chocolate Chip Cookies, Bite-Size Cookies, Great for Sharing, 9 oz Resealable Bag is 0",
+      "brand": null,
+      "price": "$3.99",
+      "size": "9 oz",
+      "img": "https://images.wegmans.com/is/image/wegmanscsprod/924611_PrimaryImage?v=92db6d5949566de7922620ed1e74bbf89db28ae6",
+      "link": "https://www.wegmans.com/shop/product/924611-Classic-Chocolate-Chip-Cookies-Bite-Size-Cookies-Great-for-Sharing-9-oz-Resealable-Bag",
+      "card_text": [
+        "Famous Amos Classic Chocolate Chip Cookies, Bite-Size Cookies, Great for Sharing, 9 oz Resealable Bag",
+        "9 ounce",
+        "Price is:",
+        "$3.99/ea",
+        "Unit price is:",
+        "($0.44/ounce)",
+        "11B - L - Section 4",
+        "Rated 4.5 out of 5"
+      ]
+    }
+  ],
+  "raw_text_chars": 1403,
+  "steps": [
+    "03:56:01 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "03:56:01 connected to Bright Data Scraping Browser",
+    "03:56:04 goto https://www.wegmans.com/stores/",
+    "03:56:12 captcha check passed",
+    "03:57:22 dismissed \"Close\"",
+    "03:57:22 js ok {\"url\":\"https://www.wegmans.com/stores\",\"inputs\":[\"What can we help you find?\"],",
+    "03:57:47 type_sel miss input[placeholder*='City or Zip' i], input[placeholder*='zip' i], input[aria-label*='zip' i]",
+    "03:57:53 js ok {\"url\":\"https://www.wegmans.com/stores\",\"inputs\":[\"What can we help you find?\"],",
+    "03:58:00 js ok nopick | btns=Skip To Content|Skip To Search|Sign In / Register|In Store|Norwalk",
+    "03:58:07 goto https://www.wegmans.com/shop/search?query=chocolate bites bag",
+    "03:58:15 captcha check passed",
+    "03:58:31 scrolled x4",
+    "03:58:33 store_set: null",
+    "03:58:33 attempt 2: store not pinned, fresh page",
+    "03:58:34 goto https://www.wegmans.com/stores/",
+    "03:58:42 captcha check passed",
+    "03:59:53 dismissed \"Close\"",
+    "03:59:53 js ok {\"url\":\"https://www.wegmans.com/stores\",\"inputs\":[\"What can we help you find?\"],",
+    "04:00:18 type_sel miss input[placeholder*='City or Zip' i], input[placeholder*='zip' i], input[aria-label*='zip' i]",
+    "04:00:24 js ok {\"url\":\"https://www.wegmans.com/stores\",\"inputs\":[\"What can we help you find?\"],",
+    "04:00:31 js ok nopick | btns=Skip To Content|Skip To Search|Sign In / Register|In Store|Norwalk",
+    "04:00:37 goto https://www.wegmans.com/shop/search?query=chocolate bites bag",
+    "04:00:45 captcha check passed",
+    "04:01:01 scrolled x4",
+    "04:01:03 store_set: null",
+    "04:01:03 few houses, reloading once",
+    "04:01:17 extracted 1 houses; raw text 1403 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "{\"url\":\"https://www.wegmans.com/stores\",\"inputs\":[\"What can we help you find?\"],\"btns\":[\"Skip To Content\",\"Skip To Search\",\"Stores\",\"Pharmacy\",\"Meals 2GO & Catering\",\"Meals & Recipes\",\"Digital Coupons\",\"Health & Nutrition\",\"Careers\",\"My Items\",\"Sign In / Register\",\"In Store\",\"Norwalk\",\"0\",\"All Departments\",\"Seasonal Entertaining\",\"Gold Pan Entrees\",\"Bakery Desserts\",\"Artisan Breads\",\"Living Gluten Free\",\"Active & Sports Nutrition\",\"View Future Locations\",\"Connecticut\",\"DC\",\"Delaware\",\"Maryland\",\"Massachusetts\",\"New Jersey\",\"New York\",\"North Carolina\",\"Pennsylvania\",\"Virginia\",\"Brockport\",\"Calkins Rd.\",\"Chili Paul\",\"East Ave.\",\"Eastway\",\"Fairport\",\"Holt Rd.\",\"Irondequoit\"],\"body\":\"Skip To Content Skip To Search Stores Pharmacy Meals 2GO & Catering Meals & Recipes Digital Coupons Health & Nutrition Careers My Items Sign In / Register Search In Store at Norwalk 0 0 items in my List All Departments Seasonal Entertaining Gold Pan Entrees Bakery Desserts Artisan Breads Living Gluten Free Active & Sports Nutrition Stores Find a Grocery Store Near You More than one hundred stores across nine states View Future Locations Connecticut DC Delaware Maryland Massachusetts New Jersey New York North Carolina Pennsylvania Virginia New York Rochester Brockport Calkins Rd. Chili Paul Eas\"}",
+    "{\"url\":\"https://www.wegmans.com/stores\",\"inputs\":[\"What can we help you find?\"],\"btns\":[\"Skip To Content\",\"Skip To Search\",\"Stores\",\"Pharmacy\",\"Meals 2GO & Catering\",\"Meals & Recipes\",\"Digital Coupons\",\"Health & Nutrition\",\"Careers\",\"My Items\",\"Sign In / Register\",\"In Store\",\"Norwalk\",\"0\",\"All Departments\",\"Seasonal Entertaining\",\"Gold Pan Entrees\",\"Bakery Desserts\",\"Artisan Breads\",\"Living Gluten Free\",\"Active & Sports Nutrition\",\"View Future Locations\",\"Connecticut\",\"DC\",\"Delaware\",\"Maryland\",\"Massachusetts\",\"New Jersey\",\"New York\",\"North Carolina\",\"Pennsylvania\",\"Virginia\",\"Brockport\",\"Calkins Rd.\",\"Chili Paul\",\"East Ave.\",\"Eastway\",\"Fairport\",\"Holt Rd.\",\"Irondequoit\"],\"body\":\"Skip To Content Skip To Search Stores Pharmacy Meals 2GO & Catering Meals & Recipes Digital Coupons Health & Nutrition Careers My Items Sign In / Register Search In Store at Norwalk 0 0 items in my List All Departments Seasonal Entertaining Gold Pan Entrees Bakery Desserts Artisan Breads Living Gluten Free Active & Sports Nutrition Stores Find a Grocery Store Near You More than one hundred stores across nine states View Future Locations Connecticut DC Delaware Maryland Massachusetts New Jersey New York North Carolina Pennsylvania Virginia New York Rochester Brockport Calkins Rd. Chili Paul Eas\"}",
+    "nopick | btns=Skip To Content|Skip To Search|Sign In / Register|In Store|Norwalk|All Departments | Skip To Content Skip To Search Stores Pharmacy Meals 2GO & Catering Meals & Recipes Digital Coupons Health & Nutrition Careers My Items Sign In / Register Search In Store at Norwalk 0 0 items in my List All Departments Seasonal Entertaining Gold Pan Entrees Bakery Desserts Artisan Breads Living Gluten Free Active & Sports Nutrition Stores Find a Grocery Store Near You More than one hundred stores across nine states View Future Locations Connecticut DC Delaware Maryland Massachusetts New Jersey New York North Carolina Pennsylvania Virginia New York Rochester Brockport Calkins Rd. Chili Paul Eas",
+    "{\"url\":\"https://www.wegmans.com/stores\",\"inputs\":[\"What can we help you find?\"],\"btns\":[\"Skip To Content\",\"Skip To Search\",\"Stores\",\"Pharmacy\",\"Meals 2GO & Catering\",\"Meals & Recipes\",\"Digital Coupons\",\"Health & Nutrition\",\"Careers\",\"My Items\",\"Sign In / Register\",\"In Store\",\"Norwalk\",\"0\",\"All Departments\",\"Seasonal Entertaining\",\"Gold Pan Entrees\",\"Bakery Desserts\",\"Artisan Breads\",\"Living Gluten Free\",\"Active & Sports Nutrition\",\"View Future Locations\",\"Connecticut\",\"DC\",\"Delaware\",\"Maryland\",\"Massachusetts\",\"New Jersey\",\"New York\",\"North Carolina\",\"Pennsylvania\",\"Virginia\",\"Brockport\",\"Calkins Rd.\",\"Chili Paul\",\"East Ave.\",\"Eastway\",\"Fairport\",\"Holt Rd.\",\"Irondequoit\"],\"body\":\"Skip To Content Skip To Search Stores Pharmacy Meals 2GO & Catering Meals & Recipes Digital Coupons Health & Nutrition Careers My Items Sign In / Register Search In Store at Norwalk 0 0 items in my List All Departments Seasonal Entertaining Gold Pan Entrees Bakery Desserts Artisan Breads Living Gluten Free Active & Sports Nutrition Stores Find a Grocery Store Near You More than one hundred stores across nine states View Future Locations Connecticut DC Delaware Maryland Massachusetts New Jersey New York North Carolina Pennsylvania Virginia New York Rochester Brockport Calkins Rd. Chili Paul Eas\"}",
+    "{\"url\":\"https://www.wegmans.com/stores\",\"inputs\":[\"What can we help you find?\"],\"btns\":[\"Skip To Content\",\"Skip To Search\",\"Stores\",\"Pharmacy\",\"Meals 2GO & Catering\",\"Meals & Recipes\",\"Digital Coupons\",\"Health & Nutrition\",\"Careers\",\"My Items\",\"Sign In / Register\",\"In Store\",\"Norwalk\",\"0\",\"All Departments\",\"Seasonal Entertaining\",\"Gold Pan Entrees\",\"Bakery Desserts\",\"Artisan Breads\",\"Living Gluten Free\",\"Active & Sports Nutrition\",\"View Future Locations\",\"Connecticut\",\"DC\",\"Delaware\",\"Maryland\",\"Massachusetts\",\"New Jersey\",\"New York\",\"North Carolina\",\"Pennsylvania\",\"Virginia\",\"Brockport\",\"Calkins Rd.\",\"Chili Paul\",\"East Ave.\",\"Eastway\",\"Fairport\",\"Holt Rd.\",\"Irondequoit\"],\"body\":\"Skip To Content Skip To Search Stores Pharmacy Meals 2GO & Catering Meals & Recipes Digital Coupons Health & Nutrition Careers My Items Sign In / Register Search In Store at Norwalk 0 0 items in my List All Departments Seasonal Entertaining Gold Pan Entrees Bakery Desserts Artisan Breads Living Gluten Free Active & Sports Nutrition Stores Find a Grocery Store Near You More than one hundred stores across nine states View Future Locations Connecticut DC Delaware Maryland Massachusetts New Jersey New York North Carolina Pennsylvania Virginia New York Rochester Brockport Calkins Rd. Chili Paul Eas\"}",
+    "nopick | btns=Skip To Content|Skip To Search|Sign In / Register|In Store|Norwalk|All Departments | Skip To Content Skip To Search Stores Pharmacy Meals 2GO & Catering Meals & Recipes Digital Coupons Health & Nutrition Careers My Items Sign In / Register Search In Store at Norwalk 0 0 items in my List All Departments Seasonal Entertaining Gold Pan Entrees Bakery Desserts Artisan Breads Living Gluten Free Active & Sports Nutrition Stores Find a Grocery Store Near You More than one hundred stores across nine states View Future Locations Connecticut DC Delaware Maryland Massachusetts New Jersey New York North Carolina Pennsylvania Virginia New York Rochester Brockport Calkins Rd. Chili Paul Eas"
+  ],
+  "reloaded": true,
+  "houses_text": 0
+}

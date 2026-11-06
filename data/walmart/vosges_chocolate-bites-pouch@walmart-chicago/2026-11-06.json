@@ -1,0 +1,45 @@
+{
+  "block_id": "vosges/chocolate-bites-pouch@walmart-chicago",
+  "retailer": "walmart",
+  "zip": "candy-chocolate",
+  "neighborhood": "chocolate-bites-pouch",
+  "pulled_at": "2026-11-06T03:50:09.674Z",
+  "runner": "github-actions+brightdata-dataset-api",
+  "channel": "retail",
+  "temperature": null,
+  "store_requested_zip": "60614",
+  "store_set": "API zip 60614 store_id 5402 (dataset gd_m693oc1r1gebnayxq)",
+  "houses": [
+    {
+      "name": "Reese's Thins Chocolate Peanut Butter Cups Candy, Share Pack 7.37 oz",
+      "brand": null,
+      "price": "$5.97",
+      "size": "oz",
+      "img": null,
+      "link": "https://www.walmart.com/ip/Reese-s-Thins-Milk-Chocolate-Peanut-Butter-Cups-Candy-Share-Pack-7-37-oz/528056574?classType=VARIANT&athbdg=L1600",
+      "upc": "034000460601",
+      "availability": "In stock",
+      "initial_price": null,
+      "rating": 4.7,
+      "reviews": 388
+    }
+  ],
+  "steps": [
+    "03:50:10 snapshot sd_mw4frzz72r0sxq44h4",
+    "03:50:30 poll 0: running",
+    "03:51:32 poll 3: running",
+    "03:52:32 poll 6: running",
+    "03:53:33 poll 9: running",
+    "03:54:34 poll 12: running",
+    "03:55:35 poll 15: running",
+    "03:56:36 poll 18: running",
+    "03:57:36 poll 21: running",
+    "03:58:37 poll 24: running",
+    "03:59:38 poll 27: running",
+    "04:00:39 poll 30: running",
+    "04:01:41 poll 33: running",
+    "04:02:23 47 errored inputs: Walmart is having a technical issue on store chooser",
+    "04:02:23 extracted 1 houses from 48 records"
+  ],
+  "error": null
+}

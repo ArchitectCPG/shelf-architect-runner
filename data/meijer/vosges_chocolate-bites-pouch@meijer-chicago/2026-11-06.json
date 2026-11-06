@@ -1,0 +1,30 @@
+{
+  "block_id": "vosges/chocolate-bites-pouch@meijer-chicago",
+  "retailer": "meijer",
+  "zip": "candy-chocolate",
+  "neighborhood": "chocolate-bites-pouch",
+  "pulled_at": "2026-11-06T03:41:40.178Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60614",
+  "store_set": null,
+  "url_final": "https://www.meijer.com/shopping/search.html?text=chocolate%20bites%20bag",
+  "houses": [],
+  "raw_text_chars": 0,
+  "steps": [
+    "03:41:40 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "03:41:42 connected to Bright Data Scraping Browser",
+    "03:41:45 rate limited, retry 1",
+    "03:41:57 goto https://www.meijer.com/shopping/search.html?text=chocolate bites bag",
+    "03:42:05 captcha check passed",
+    "03:42:17 dismiss: nothing to close",
+    "03:42:56 step failed (TimeoutError: page.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for lo), will retry recipe",
+    "03:42:57 store_set: null",
+    "03:42:57 attempt 2: store not pinned, fresh page",
+    "03:42:58 goto https://www.meijer.com/shopping/search.html?text=chocolate bites bag",
+    "03:43:06 captcha check passed",
+    "03:43:20 dismiss: nothing to close",
+    "03:43:59 ERROR TimeoutError: page.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=store-flyout-button]')\n"
+  ],
+  "error": "TimeoutError: page.click: Timeout 10000ms exceeded.\nCall log:\n  - waiting for locator('[data-testid=store-flyout-button]')\n"
+}
