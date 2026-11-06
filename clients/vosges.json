@@ -6,40 +6,108 @@
   "\\bvosges\\b"
  ],
  "competitor_terms": {
-  "Compartes": ["\\bcompart[e\u00e9]s"],
-  "Hu": ["\\bhu\\b(?! ?bbly)|hu kitchen|hu chocolate"],
-  "Alter Eco": ["\\balter eco"],
-  "Lake Champlain": ["\\blake champlain"],
-  "Tony's Chocolonely": ["\\btony'?s"],
-  "Chuao": ["\\bchuao"],
-  "Venchi": ["\\bvenchi"],
-  "Lindt": ["\\blindt\\b|\\blindor\\b"],
-  "Godiva": ["\\bgodiva"],
-  "Ghirardelli": ["\\bghirardelli"],
-  "Theo": ["\\btheo\\b"],
-  "Endangered Species": ["\\bendangered species"],
-  "Taza": ["\\btaza\\b"],
-  "Dove": ["\\bdove\\b(?! ?(soap|body|men))"],
-  "Ferrero Rocher": ["\\bferrero"],
-  "Lily's": ["\\blily'?s\\b"],
-  "Divine": ["\\bdivine\\b"],
-  "Green & Black's": ["\\bgreen (&|and) black"],
-  "Sugarfina": ["\\bsugarfina"],
-  "Raaka": ["\\braaka"],
-  "Moonstruck": ["\\bmoonstruck"],
-  "Jcoco": ["\\bjcoco"],
-  "Seattle Chocolate": ["\\bseattle chocolate"],
-  "Guittard": ["\\bguittard"],
-  "Valrhona": ["\\bvalrhona"],
-  "Chocolove": ["\\bchocolove"],
-  "Tcho": ["\\btcho\\b"],
-  "Brookside": ["\\bbrookside"],
-  "Unreal": ["\\bunreal\\b"],
-  "Justin's": ["\\bjustin'?s\\b"],
-  "Reese's": ["\\breese'?s\\b"],
-  "Ritter Sport": ["\\britter"],
-  "Milka": ["\\bmilka\\b"],
-  "Toblerone": ["\\btoblerone"]
+  "Compartes": [
+   "\\bcompart[e\u00e9]s"
+  ],
+  "Hu": [
+   "\\bhu\\b(?! ?bbly)|hu kitchen|hu chocolate"
+  ],
+  "Alter Eco": [
+   "\\balter eco"
+  ],
+  "Lake Champlain": [
+   "\\blake champlain"
+  ],
+  "Tony's Chocolonely": [
+   "\\btony'?s"
+  ],
+  "Chuao": [
+   "\\bchuao"
+  ],
+  "Venchi": [
+   "\\bvenchi"
+  ],
+  "Lindt": [
+   "\\blindt\\b|\\blindor\\b"
+  ],
+  "Godiva": [
+   "\\bgodiva"
+  ],
+  "Ghirardelli": [
+   "\\bghirardelli"
+  ],
+  "Theo": [
+   "\\btheo\\b"
+  ],
+  "Endangered Species": [
+   "\\bendangered species"
+  ],
+  "Taza": [
+   "\\btaza\\b"
+  ],
+  "Dove": [
+   "\\bdove\\b(?! ?(soap|body|men))"
+  ],
+  "Ferrero Rocher": [
+   "\\bferrero"
+  ],
+  "Lily's": [
+   "\\blily'?s\\b"
+  ],
+  "Divine": [
+   "\\bdivine\\b"
+  ],
+  "Green & Black's": [
+   "\\bgreen (&|and) black"
+  ],
+  "Sugarfina": [
+   "\\bsugarfina"
+  ],
+  "Raaka": [
+   "\\braaka"
+  ],
+  "Moonstruck": [
+   "\\bmoonstruck"
+  ],
+  "Jcoco": [
+   "\\bjcoco"
+  ],
+  "Seattle Chocolate": [
+   "\\bseattle chocolate"
+  ],
+  "Guittard": [
+   "\\bguittard"
+  ],
+  "Valrhona": [
+   "\\bvalrhona"
+  ],
+  "Chocolove": [
+   "\\bchocolove"
+  ],
+  "Tcho": [
+   "\\btcho\\b"
+  ],
+  "Brookside": [
+   "\\bbrookside"
+  ],
+  "Unreal": [
+   "\\bunreal\\b"
+  ],
+  "Justin's": [
+   "\\bjustin'?s\\b"
+  ],
+  "Reese's": [
+   "\\breese'?s\\b"
+  ],
+  "Ritter Sport": [
+   "\\britter"
+  ],
+  "Milka": [
+   "\\bmilka\\b"
+  ],
+  "Toblerone": [
+   "\\btoblerone"
+  ]
  },
  "brand_hints": {
   "Vosges pouch": "\\bvosges\\b.*(bonbon|bites?|hearts?|pouch|bag)",
@@ -47,13 +115,51 @@
   "Vosges truffles": "\\bvosges\\b.*truffle"
  },
  "markets": {
-  "chicago": {"zip": "60614", "lat": 41.9227, "lng": -87.6533, "note": "home market, Vosges HQ, Whole Foods Lincoln Park / Mariano's / Jewel"},
-  "socal": {"zip": "90012", "lat": 34.0537, "lng": -118.2428, "note": "natural and specialty density: Whole Foods, Sprouts, Erewhon, Gelson's, Bristol Farms"},
-  "houston": {"zip": "77005", "lat": 29.7174, "lng": -95.4018, "note": "H-E-B and Central Market"},
-  "madison": {"zip": "53711", "lat": 43.0448, "lng": -89.4594, "note": "Woodman's"},
-  "denver": {"zip": "80202", "lat": 39.7527, "lng": -104.9996, "role": "competitive", "note": "Natural Grocers HQ market, King Soopers"},
-  "nyc": {"zip": "10023", "lat": 40.7769, "lng": -73.9822, "role": "competitive", "note": "Wegmans Astor Place, Whole Foods, Fairway, Citarella: premium chocolate ceiling"},
-  "boise": {"zip": "83702", "lat": 43.6187, "lng": -116.2146, "role": "competitive", "note": "Albertsons zip-pinned recipe, per SOP rule 14"}
+  "chicago": {
+   "zip": "60614",
+   "lat": 41.9227,
+   "lng": -87.6533,
+   "note": "home market, Vosges HQ, Whole Foods Lincoln Park / Mariano's / Jewel"
+  },
+  "socal": {
+   "zip": "90012",
+   "lat": 34.0537,
+   "lng": -118.2428,
+   "note": "natural and specialty density: Whole Foods, Sprouts, Erewhon, Gelson's, Bristol Farms"
+  },
+  "houston": {
+   "zip": "77005",
+   "lat": 29.7174,
+   "lng": -95.4018,
+   "note": "H-E-B and Central Market"
+  },
+  "madison": {
+   "zip": "53711",
+   "lat": 43.0448,
+   "lng": -89.4594,
+   "note": "Woodman's"
+  },
+  "denver": {
+   "zip": "80202",
+   "lat": 39.7527,
+   "lng": -104.9996,
+   "role": "competitive",
+   "note": "Natural Grocers HQ market, King Soopers"
+  },
+  "nyc": {
+   "zip": "10023",
+   "lat": 40.7769,
+   "lng": -73.9822,
+   "role": "competitive",
+   "note": "Wegmans Astor Place, Whole Foods, Fairway, Citarella: premium chocolate ceiling"
+  },
+  "boise": {
+   "zip": "83702",
+   "lat": 43.6187,
+   "lng": -116.2146,
+   "role": "competitive",
+   "note": "Albertsons zip-pinned recipe, per SOP rule 14"
+  }
  },
  "department": "candy-chocolate",
  "neighborhoods": [
@@ -64,7 +170,10 @@
    "exclude": "chips?\\b|baking|cocoa powder|hot (cocoa|chocolate)|syrup|milk\\b(?!.*chocolate)|protein|granola|cereal|oat|ice cream|frozen|cookie|brownie|cake|spread|hazelnut spread|nutella|drink|pudding|wafer|pretzel|almond butter|peanut butter cup|coffee|candle",
    "keep": "chocolate bar|cacao bar|\\b\\d{2}%|dark chocolate|milk chocolate|oat milk chocolate|single origin",
    "temperature": "shelf_stable",
-   "amazon_extra_terms": ["premium chocolate bar", "gourmet dark chocolate"],
+   "amazon_extra_terms": [
+    "premium chocolate bar",
+    "gourmet dark chocolate"
+   ],
    "note": "The chocolate set. Vosges is in it at some independents (not at Whole Foods, where it sits in deli). Shelf runs 2 to 3.5 oz bars around 3.49 to 6.99; Vosges 3 oz bars are 9.99 at WF deli. Both bars and the deli set read against this ladder; the deli placement is a retailer merchandising choice, not a second shelf."
   },
   {
@@ -74,7 +183,10 @@
    "exclude": "chips?\\b|baking|cocoa powder|hot (cocoa|chocolate)|syrup|protein|granola|cereal|ice cream|frozen|cookie|brownie|cake|spread|drink|pudding|coffee|candle|dog|pet",
    "keep": "truffle|bonbon|bites|squares|minis|thins|bark|pieces|individually wrapped|share (bag|size)|stand.?up|pouch|caramel|sea salt|filled",
    "temperature": "shelf_stable",
-   "amazon_extra_terms": ["chocolate truffles bag", "gourmet chocolate bonbons"],
+   "amazon_extra_terms": [
+    "chocolate truffles bag",
+    "gourmet chocolate bonbons"
+   ],
    "note": "The stand-up pouch snackfection shelf: the WS27 launch position (5 pouches, 3.0 to 3.4 oz, SRP 8.99). Dove Promises, Lindor bags, Ghirardelli Squares, Brookside, Hu Gems, barkTHINS, Justin's minis, Unreal, Sugarfina are the neighbors."
   },
   {
@@ -96,31 +208,196 @@
   }
  ],
  "retailers": [
-  {"banner": "wholefoods", "lane": "recipe", "template": "wholefoods", "market": "chicago", "brand_check": true, "note": "Vosges present (deli set). Home banner."},
-  {"banner": "wholefoods-socal", "lane": "recipe", "template": "wholefoods", "market": "socal", "brand_check": true, "note": "second WF read, SoCal, to see regional assortment and the deli vs candy placement"},
-  {"banner": "sprouts", "lane": "instacart", "slug": "sprouts", "url": "https://shop.sprouts.com/store/sprouts/s?k={{term}}", "market": "socal", "brand_check": true, "note": "Tier 1 target"},
-  {"banner": "marianos", "lane": "kroger", "host": "www.marianos.com", "market": "chicago", "brand_check": true, "fallback": true, "note": "plan B browser recipe; Kroger API row below is primary"},
-  {"banner": "marianos-api", "lane": "kroger_api", "chain": "Mariano's", "market": "chicago", "brand_check": true},
-  {"banner": "kingsoopers-api", "lane": "kroger_api", "chain": "King Soopers", "market": "denver", "brand_check": true},
-  {"banner": "ralphs-api", "lane": "kroger_api", "chain": "Ralphs", "market": "socal", "brand_check": true},
-  {"banner": "jewel-osco", "lane": "recipe", "template": "jewel", "market": "chicago", "brand_check": true},
-  {"banner": "albertsons", "lane": "recipe", "template": "albertsons", "market": "boise", "note": "competitive market per SOP rule 14/15"},
-  {"banner": "safeway", "lane": "recipe", "template": "safeway", "market": "denver"},
-  {"banner": "heb", "lane": "recipe", "template": "heb", "market": "houston", "brand_check": true, "note": "premium regional target named by Steve"},
-  {"banner": "wegmans", "lane": "recipe", "template": "wegmans", "market": "nyc", "brand_check": true, "note": "premium regional, strong specialty chocolate set; store pin by name per FABLE_TODO"},
-  {"banner": "meijer", "lane": "recipe", "template": "meijer", "market": "chicago", "note": "Midwest reach, screenshot platform"},
-  {"banner": "target", "lane": "api", "template": "target", "market": "chicago", "brand_check": true},
-  {"banner": "walmart", "lane": "api", "template": "walmart", "market": "chicago", "brand_check": true, "note": "ladder floor, not a Vosges target"},
-  {"banner": "costco-online", "lane": "recipe", "template": "costco-online", "market": "chicago", "brand_check": true, "note": "club gifting read, national online pricing"},
-  {"banner": "naturalgrocers", "lane": "recipe", "template": "naturalgrocers", "market": "denver", "brand_check": true},
-  {"banner": "freshthyme", "lane": "recipe", "template": "freshthyme", "market": "chicago", "brand_check": true},
-  {"banner": "thefreshmarket", "lane": "recipe", "template": "thefreshmarket", "market": "chicago", "brand_check": true, "note": "premium specialty, likely Vosges independent-style account"},
-  {"banner": "erewhon", "lane": "instacart", "slug": "erewhon", "market": "socal", "brand_check": true, "note": "premium ceiling. Steve's signed-in erewhon.com route is attended only; the runner uses the public Instacart storefront, lightest touch"},
-  {"banner": "gelsons", "lane": "instacart", "slug": "gelsons", "market": "socal", "brand_check": true},
-  {"banner": "bristol-farms", "lane": "instacart", "slug": "bristol-farms", "market": "socal", "brand_check": true, "note": "PRICING CAVEAT storefront (marketplace pricing)"},
-  {"banner": "woodmans", "lane": "instacart", "slug": "woodmans", "market": "madison", "brand_check": true, "note": "Steve named Woodman's; slug unverified, Stage 0 confirms or routes to plan B"},
-  {"banner": "central-market", "lane": "instacart", "slug": "central-market", "market": "houston", "brand_check": true, "note": "H-E-B premium banner; slug unverified, Stage 0 confirms"},
-  {"banner": "plum-market", "lane": "instacart", "slug": "plum-market", "market": "chicago", "brand_check": true, "note": "Midwest premium natural independent; slug unverified"}
+  {
+   "banner": "wholefoods",
+   "lane": "recipe",
+   "template": "wholefoods",
+   "market": "chicago",
+   "brand_check": true,
+   "note": "Vosges present (deli set). Home banner."
+  },
+  {
+   "banner": "wholefoods-socal",
+   "lane": "recipe",
+   "template": "wholefoods",
+   "market": "socal",
+   "brand_check": true,
+   "note": "second WF read, SoCal, to see regional assortment and the deli vs candy placement"
+  },
+  {
+   "banner": "sprouts",
+   "lane": "instacart",
+   "slug": "sprouts",
+   "url": "https://shop.sprouts.com/store/sprouts/s?k={{term}}",
+   "market": "socal",
+   "brand_check": true,
+   "note": "Tier 1 target"
+  },
+  {
+   "banner": "marianos",
+   "lane": "kroger",
+   "host": "www.marianos.com",
+   "market": "chicago",
+   "brand_check": true,
+   "fallback": true,
+   "note": "plan B browser recipe; Kroger API row below is primary"
+  },
+  {
+   "banner": "marianos-api",
+   "lane": "kroger_api",
+   "chain": "Mariano's",
+   "market": "chicago",
+   "brand_check": true
+  },
+  {
+   "banner": "kingsoopers-api",
+   "lane": "kroger_api",
+   "chain": "King Soopers",
+   "market": "denver",
+   "brand_check": true
+  },
+  {
+   "banner": "ralphs-api",
+   "lane": "kroger_api",
+   "chain": "Ralphs",
+   "market": "socal",
+   "brand_check": true
+  },
+  {
+   "banner": "jewel-osco",
+   "lane": "recipe",
+   "template": "jewel",
+   "market": "chicago",
+   "brand_check": true
+  },
+  {
+   "banner": "albertsons",
+   "lane": "recipe",
+   "template": "albertsons",
+   "market": "boise",
+   "note": "competitive market per SOP rule 14/15"
+  },
+  {
+   "banner": "safeway",
+   "lane": "recipe",
+   "template": "safeway",
+   "market": "denver"
+  },
+  {
+   "banner": "heb",
+   "lane": "recipe",
+   "template": "heb",
+   "market": "houston",
+   "brand_check": true,
+   "note": "premium regional target named by Steve"
+  },
+  {
+   "banner": "wegmans",
+   "lane": "recipe",
+   "template": "wegmans",
+   "market": "nyc",
+   "brand_check": true,
+   "note": "premium regional, strong specialty chocolate set; store pin by name per FABLE_TODO"
+  },
+  {
+   "banner": "meijer",
+   "lane": "recipe",
+   "template": "meijer",
+   "market": "chicago",
+   "note": "Midwest reach, screenshot platform"
+  },
+  {
+   "banner": "target",
+   "lane": "api",
+   "template": "target",
+   "market": "chicago",
+   "brand_check": true
+  },
+  {
+   "banner": "walmart",
+   "lane": "api",
+   "template": "walmart",
+   "market": "chicago",
+   "brand_check": true,
+   "note": "ladder floor, not a Vosges target"
+  },
+  {
+   "banner": "costco-online",
+   "lane": "recipe",
+   "template": "costco-online",
+   "market": "chicago",
+   "brand_check": true,
+   "note": "club gifting read, national online pricing"
+  },
+  {
+   "banner": "naturalgrocers",
+   "lane": "recipe",
+   "template": "naturalgrocers",
+   "market": "denver",
+   "brand_check": true
+  },
+  {
+   "banner": "freshthyme",
+   "lane": "recipe",
+   "template": "freshthyme",
+   "market": "chicago",
+   "brand_check": true
+  },
+  {
+   "banner": "thefreshmarket",
+   "lane": "recipe",
+   "template": "thefreshmarket",
+   "market": "chicago",
+   "brand_check": true,
+   "note": "premium specialty, likely Vosges independent-style account"
+  },
+  {
+   "banner": "erewhon",
+   "lane": "instacart",
+   "slug": "erewhon",
+   "market": "socal",
+   "brand_check": true,
+   "note": "premium ceiling. Steve's signed-in erewhon.com route is attended only; the runner uses the public Instacart storefront, lightest touch"
+  },
+  {
+   "banner": "gelsons",
+   "lane": "instacart",
+   "slug": "gelsons",
+   "market": "socal",
+   "brand_check": true
+  },
+  {
+   "banner": "bristol-farms",
+   "lane": "instacart",
+   "slug": "bristol-farms",
+   "market": "socal",
+   "brand_check": true,
+   "note": "PRICING CAVEAT storefront (marketplace pricing)"
+  },
+  {
+   "banner": "woodmans",
+   "lane": "instacart",
+   "slug": "woodmans",
+   "market": "madison",
+   "brand_check": true,
+   "note": "Steve named Woodman's; slug unverified, Stage 0 confirms or routes to plan B"
+  },
+  {
+   "banner": "central-market",
+   "lane": "instacart",
+   "slug": "central-market",
+   "market": "houston",
+   "brand_check": true,
+   "note": "H-E-B premium banner; slug unverified, Stage 0 confirms"
+  },
+  {
+   "banner": "plum-market",
+   "lane": "instacart",
+   "slug": "plum-market",
+   "market": "chicago",
+   "brand_check": true,
+   "note": "Midwest premium natural independent; slug unverified"
+  }
  ],
  "brand_exclude": "vosges mountains|alsace|wine|cheese|travel|hotel",
  "amazon": {
@@ -129,10 +406,12 @@
   "zip": "",
   "limit": 48,
   "brand_check": true,
-  "gate_window": "SET AT INTAKE, OPEN: Steve to name the FBA shipping window (chocolate is heat sensitive, FBA has no cold chain; likely Oct to Apr) and the one always-on SKU.",
-  "ticket_ceiling": "OPEN: Steve to set at intake. Working assumption for premium gifting chocolate: under 40 dollars, near 25 to 30.",
-  "posture": "OPEN: Vosges is not on Amazon today. Steve wants the case built from competitors (who is there, floors, ladders, review counts). Output is a brief for Andy and Jay, not a plan to run.",
-  "note": "Amazon lane is separate from retail: own blocks folder, own data folder, own report. Rows are candidates for amazon_comps (manual audit), never retail_entries. Nine-step checklist per SOP v82 rule 17."
+  "gate_window": "Claude's call 2026-11-05, Steve to overrule: FBA window Oct 1 to Apr 30 (no cold chain). May to Sep: FBM from Vosges' Chicago facility with cold packs (the DTC operation already ships that way), not a pause, so rank and reviews survive the summer.",
+  "ticket_ceiling": "Claude's call: 35 dollars for the snackfection line. Single 8.99 pouch does not clear the FBA waterfall; architecture is a 3-pouch set near 26.99 and a 5-flavor variety set near 40 (the nudge pack, read against the leaders per rule 17 step 5). Boxed gifting is its own lane with a 75 dollar ceiling.",
+  "posture": "Brief for Andy and Jay (CEO, COO) first; client-run vs us vs agency decided after the brief. Vosges is not on Amazon today; the case is built from the competitors (presence, floors, ladders, review counts).",
+  "note": "Amazon lane is separate from retail: own blocks folder, own data folder, own report. Rows are candidates for amazon_comps (manual audit), never retail_entries. Nine-step checklist per SOP v82 rule 17.",
+  "always_on_sku": "Red Fire Hearts (solid molded 62% dark, no fill, heritage flavor). Backup: Matcha Bites (72% dark, solid). Pink Salt and Dulce de Leche (caramel fill) inside the window only.",
+  "parity": "Amazon never undercuts Whole Foods or Faire on the 1:1 pouch; a single pouch, if listed, is 10.99 or higher."
  },
  "product_terms": [
   "vosges",
@@ -144,15 +423,77 @@
   "red fire"
  ],
  "own_asins": [],
- "own_upcs": ["850079267640", "850079267657", "850079267664", "850079267824", "850079267831"],
+ "own_upcs": [
+  "850079267640",
+  "850079267657",
+  "850079267664",
+  "850079267824",
+  "850079267831"
+ ],
  "own_brand_label": "Vosges Haut-Chocolat",
  "own_products": [
-  {"line": "Pink Salt Bonbons", "format": "stand-up pouch", "count": 10, "unit_oz": 0.32, "size_oz": 3.2, "srp": 8.99, "upc": "850079267640", "chocolate": "72% dark", "status": "WS27 first wave"},
-  {"line": "Dulce de Leche Bonbons", "format": "stand-up pouch", "count": 10, "unit_oz": 0.32, "size_oz": 3.2, "srp": 8.99, "upc": "850079267657", "chocolate": "45% deep milk", "status": "WS27 first wave"},
-  {"line": "Matcha Bites", "format": "stand-up pouch", "count": 12, "unit_oz": 0.25, "size_oz": 3.0, "srp": 8.99, "upc": "850079267664", "chocolate": "72% dark", "status": "WS27 first wave"},
-  {"line": "Naga Curry Bites", "format": "stand-up pouch", "count": 12, "unit_oz": 0.25, "size_oz": 3.0, "srp": 8.99, "upc": "850079267824", "chocolate": "45% deep milk", "status": "WS27 first wave"},
-  {"line": "Red Fire Hearts", "format": "stand-up pouch", "count": 12, "unit_oz": 0.28, "size_oz": 3.4, "srp": 8.99, "upc": "850079267831", "chocolate": "62% dark", "status": "WS27 first wave"},
-  {"line": "Exotic Candy Bars", "format": "bar", "size_oz": 3.0, "srp": 9.99, "status": "in Whole Foods deli set today; exact SKU list to pull from vosgeschocolate.com"}
+  {
+   "line": "Pink Salt Bonbons",
+   "format": "stand-up pouch",
+   "count": 10,
+   "unit_oz": 0.32,
+   "size_oz": 3.2,
+   "srp": 8.99,
+   "upc": "850079267640",
+   "chocolate": "72% dark",
+   "status": "WS27 first wave"
+  },
+  {
+   "line": "Dulce de Leche Bonbons",
+   "format": "stand-up pouch",
+   "count": 10,
+   "unit_oz": 0.32,
+   "size_oz": 3.2,
+   "srp": 8.99,
+   "upc": "850079267657",
+   "chocolate": "45% deep milk",
+   "status": "WS27 first wave"
+  },
+  {
+   "line": "Matcha Bites",
+   "format": "stand-up pouch",
+   "count": 12,
+   "unit_oz": 0.25,
+   "size_oz": 3.0,
+   "srp": 8.99,
+   "upc": "850079267664",
+   "chocolate": "72% dark",
+   "status": "WS27 first wave"
+  },
+  {
+   "line": "Naga Curry Bites",
+   "format": "stand-up pouch",
+   "count": 12,
+   "unit_oz": 0.25,
+   "size_oz": 3.0,
+   "srp": 8.99,
+   "upc": "850079267824",
+   "chocolate": "45% deep milk",
+   "status": "WS27 first wave"
+  },
+  {
+   "line": "Red Fire Hearts",
+   "format": "stand-up pouch",
+   "count": 12,
+   "unit_oz": 0.28,
+   "size_oz": 3.4,
+   "srp": 8.99,
+   "upc": "850079267831",
+   "chocolate": "62% dark",
+   "status": "WS27 first wave"
+  },
+  {
+   "line": "Exotic Candy Bars",
+   "format": "bar",
+   "size_oz": 3.0,
+   "srp": 9.99,
+   "status": "in Whole Foods deli set today; exact SKU list to pull from vosgeschocolate.com"
+  }
  ],
  "row_shape": "oz",
  "price_elasticity_note": "Steve, 2026-11-05: always assume Vosges sits at the higher end of price elasticity. New packs target the top of the band, never the median."
