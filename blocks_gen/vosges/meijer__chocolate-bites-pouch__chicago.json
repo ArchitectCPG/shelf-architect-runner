@@ -24,7 +24,8 @@
   },
   {
    "click_re": "^Pickup at",
-   "note": "Meijer redesign 2026-11: header store button is now 'Pickup at <store>'"
+   "note": "Meijer redesign 2026-11: header store button is now 'Pickup at <store>'",
+   "optional": true
   },
   {
    "wait": 3000
@@ -34,7 +35,8 @@
     "sel": "input[placeholder*='Zip']",
     "value": "{{store_zip}}",
     "enter": true
-   }
+   },
+   "optional": true
   },
   {
    "click_sel": ".store-fly-out-search__search-icon",
@@ -44,7 +46,8 @@
    "wait": 5000
   },
   {
-   "js": "const i=document.querySelector(\"input[placeholder*='Zip']\"); const f=i.closest('aside,[role=dialog],[class*=flyout],[class*=drawer]')||document; f.querySelector('input[type=radio]').click(); await new Promise(x=>setTimeout(x,800)); Array.from(f.querySelectorAll('button')).find(b=>/continue shopping/i.test(b.innerText)).click(); return 'ok'"
+   "js": "const i=document.querySelector(\"input[placeholder*='Zip']\"); const f=i.closest('aside,[role=dialog],[class*=flyout],[class*=drawer]')||document; f.querySelector('input[type=radio]').click(); await new Promise(x=>setTimeout(x,800)); Array.from(f.querySelectorAll('button')).find(b=>/continue shopping/i.test(b.innerText)).click(); return 'ok'",
+   "optional": true
   },
   {
    "wait": 7000
