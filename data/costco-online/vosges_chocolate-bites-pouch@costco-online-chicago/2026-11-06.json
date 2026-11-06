@@ -3,17 +3,26 @@
   "retailer": "costco-online",
   "zip": "candy-chocolate",
   "neighborhood": "chocolate-bites-pouch",
-  "pulled_at": "2026-11-06T03:35:32.047Z",
+  "pulled_at": "2026-11-06T13:30:18.881Z",
   "runner": "github-actions+brightdata-scraping-browser",
   "country": "us",
   "store_requested_zip": "60614",
-  "store_set": null,
-  "url_final": null,
+  "store_set": "costco.com online (national, 2-day delivery pricing)",
+  "url_final": "https://www.costco.com/s?keyword=chocolate+bites+bag",
   "houses": [],
-  "raw_text_chars": 0,
+  "raw_text_chars": 2759,
   "steps": [
-    "03:35:32 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
-    "03:36:11 ERROR Error: browserType.connectOverCDP: WebSocket error: wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 500 Internal Server Error (ETIMEDOUT)\nconnect ETIMEDOUT 144.126.213.117:8080\nCall log:\n  - <ws connecting> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/\n  - <ws unexpected response> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 500 Internal Server Erro"
+    "13:30:18 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "13:30:19 connected to Bright Data Scraping Browser",
+    "13:30:27 goto https://www.costco.com/s?keyword=chocolate bites bag",
+    "13:30:35 captcha check passed",
+    "13:30:50 dismiss: nothing to close",
+    "13:30:54 scrolled x4",
+    "13:30:54 store_set: costco.com online (national, 2-day delivery pricing)",
+    "13:30:54 few houses, reloading once",
+    "13:31:07 extracted 0 houses; raw text 2759 chars"
   ],
-  "error": "Error: browserType.connectOverCDP: WebSocket error: wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 500 Internal Server Error (ETIMEDOUT)\nconnect ETIMEDOUT 144.126.213.117:8080\nCall log:\n  - <ws connecting> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/\n  - <ws unexpected response> wss://brd-customer-hl_517ded2d-zone-mcp_browser-country-us:v1y5qdce0msm@brd.superproxy.io:9222/ 500 Internal Server Erro"
+  "error": null,
+  "reloaded": true,
+  "houses_text": 0
 }
