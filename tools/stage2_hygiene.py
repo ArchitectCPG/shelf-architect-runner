@@ -29,10 +29,11 @@ def canon_block(b):
     head,suf=b.split('@'); suf=suf.replace('-api','')
     if suf in CANON_RET.values(): return b
     return head+'@'+CANON_RET[suf]
+PL_BRANDS=re.compile(r"^(365|whole foods market|favorite day|good & gather|market pantry|central market|bristol farms|signature reserve|signature select|kirkland|simple truth|private selection|sprouts|wegmans|h-e-b|meijer|true goodness|safeway|o organics|gelson'?s|erewhon|plum market|woodman'?s|the fresh market|natural grocers)\b",re.I)
 new,upd,held,excl,skip=[],[],[],[],[]
 why=collections.Counter()
 for k,r in rows.items():
-    r=dict(r); r['brand']=fixbrand(r['brand']); r['block']=canon_block(r['block']); r['blocks']=sorted(set(canon_block(b) for b in r['blocks']))
+    r=dict(r); r['brand']=fixbrand(r['brand']); r['is_private_label']=bool(PL_BRANDS.match(r['brand'])) or r['is_private_label']; r['block']=canon_block(r['block']); r['blocks']=sorted(set(canon_block(b) for b in r['blocks']))
     nb=r['neighborhood']
     if k in held_prev: held.append((k,'held previously, Whole Foods pseudo-brand')); why['held prev']+=1; continue
     if k in skipped_prev: skip.append((k,'skipped previously as dupe')); why['skip prev']+=1; continue
