@@ -1,0 +1,19 @@
+{
+ "block_id": "vosges/chocolate-gifting-box@walmart-chicago",
+ "retailer": "walmart",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "term": "chocolate truffles gift box",
+ "store_zip": "60614",
+ "client_id": "vosges",
+ "api": {
+  "dataset_id": "gd_m693oc1r1gebnayxq",
+  "discover_by": "keyword",
+  "input": {
+   "keyword": "{{term}}",
+   "store_id": "",
+   "zip_code": "{{store_zip}}"
+  },
+  "limit": 48
+ }
+}

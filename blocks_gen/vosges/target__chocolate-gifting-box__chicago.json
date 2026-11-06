@@ -1,0 +1,18 @@
+{
+ "block_id": "vosges/chocolate-gifting-box@target-chicago",
+ "retailer": "target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "term": "chocolate truffles gift box",
+ "store_zip": "60614",
+ "client_id": "vosges",
+ "api": {
+  "dataset_id": "gd_ltppk5mx2lp0v1k0vo",
+  "discover_by": "keywords",
+  "input": {
+   "keywords": "{{term}}",
+   "zipcode": "{{store_zip}}"
+  },
+  "limit": 48
+ }
+}

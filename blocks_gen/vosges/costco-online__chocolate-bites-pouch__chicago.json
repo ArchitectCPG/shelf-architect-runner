@@ -1,0 +1,31 @@
+{
+ "block_id": "vosges/chocolate-bites-pouch@costco-online-chicago",
+ "retailer": "costco-online",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "term": "chocolate bites bag",
+ "store_zip": "60614",
+ "client_id": "vosges",
+ "steps": [
+  {
+   "goto": "https://www.costco.com/s?keyword={{term}}"
+  },
+  {
+   "wait": 8000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it"
+   ]
+  },
+  {
+   "scroll": 4
+  }
+ ],
+ "store_js": "'costco.com online (national, 2-day delivery pricing)'",
+ "attempts": 2
+}

@@ -1,0 +1,18 @@
+{
+ "block_id": "vosges/premium-chocolate-bars@target-chicago",
+ "retailer": "target",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "term": "dark chocolate bar",
+ "store_zip": "60614",
+ "client_id": "vosges",
+ "api": {
+  "dataset_id": "gd_ltppk5mx2lp0v1k0vo",
+  "discover_by": "keywords",
+  "input": {
+   "keywords": "{{term}}",
+   "zipcode": "{{store_zip}}"
+  },
+  "limit": 48
+ }
+}

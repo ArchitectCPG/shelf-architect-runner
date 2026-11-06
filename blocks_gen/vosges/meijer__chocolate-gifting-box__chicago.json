@@ -1,0 +1,56 @@
+{
+ "block_id": "vosges/chocolate-gifting-box@meijer-chicago",
+ "retailer": "meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "term": "chocolate truffles gift box",
+ "store_zip": "60614",
+ "client_id": "vosges",
+ "steps": [
+  {
+   "goto": "https://www.meijer.com/shopping/search.html?text={{term}}"
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "dismiss": [
+    "Close",
+    "No thanks",
+    "Not now",
+    "Continue",
+    "Got it"
+   ]
+  },
+  {
+   "click_sel": "[data-testid=store-flyout-button]"
+  },
+  {
+   "wait": 3000
+  },
+  {
+   "type_sel": {
+    "sel": "input[placeholder*='Zip']",
+    "value": "{{store_zip}}",
+    "enter": false
+   }
+  },
+  {
+   "click_sel": ".store-fly-out-search__search-icon"
+  },
+  {
+   "wait": 5000
+  },
+  {
+   "js": "const i=document.querySelector(\"input[placeholder*='Zip']\"); const f=i.closest('aside,[role=dialog],[class*=flyout],[class*=drawer]')||document; f.querySelector('input[type=radio]').click(); await new Promise(x=>setTimeout(x,800)); Array.from(f.querySelectorAll('button')).find(b=>/continue shopping/i.test(b.innerText)).click(); return 'ok'"
+  },
+  {
+   "wait": 7000
+  },
+  {
+   "scroll": 4
+  }
+ ],
+ "store_js": "document.querySelector('[data-testid=store-flyout-button]')?.innerText.replace(/\\s+/g,' ').trim()",
+ "attempts": 2
+}
