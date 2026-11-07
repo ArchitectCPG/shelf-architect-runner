@@ -1,0 +1,41 @@
+{
+ "brand": "Alter Eco",
+ "product_name": "Truffle Thins Sweet Ginger Organic Dark Chocolate",
+ "retailer": "naturalgrocers",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.59,
+ "price_regular": 5.59,
+ "price_basis": "instacart_quote",
+ "size_oz": 2.96,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.8885,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 5.59
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@naturalgrocers",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@naturalgrocers",
+  "candy-chocolate/chocolate-gifting-box@naturalgrocers"
+ ],
+ "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

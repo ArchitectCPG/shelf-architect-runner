@@ -1,0 +1,39 @@
+{
+ "brand": "Hu",
+ "product_name": "Chocolate Bites, Hazelnut Butter and Dark Chocolate",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.99,
+ "price_regular": 6.99,
+ "price_basis": "shelf",
+ "size_oz": 2.75,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 2.5418,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 6.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T18:04:06Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/hu-chocolate-bites-hazelnut-butter-and-dark-chocolate-2-75-oz/85004307429",
+ "notes": "Runner pull 2026-11-06, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate"
+}

@@ -1,0 +1,43 @@
+{
+ "brand": "Endangered Species",
+ "product_name": "Starfish Raspberry Filling Dark Chocolate Bar",
+ "retailer": "Sprouts Farmers Market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.99,
+ "price_regular": 4.99,
+ "price_basis": "instacart_quote",
+ "size_oz": 3.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.6633,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 4.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:17Z",
+ "region": "API zip 90012 shop 542872 location 177895",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@sprouts",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@sprouts",
+  "candy-chocolate/chocolate-gifting-box@sprouts",
+  "candy-chocolate/premium-chocolate-bars@sprouts"
+ ],
+ "pull_url": "https://shop.sprouts.com/store/sprouts/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane sprouts, store: API zip 90012 shop 542872 location 177895. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

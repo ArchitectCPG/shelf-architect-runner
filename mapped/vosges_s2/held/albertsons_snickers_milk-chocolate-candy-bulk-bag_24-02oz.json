@@ -1,0 +1,43 @@
+{
+ "brand": "snickers",
+ "product_name": "Milk Chocolate Candy ... Bulk Bag",
+ "retailer": "Albertsons",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 13.49,
+ "price_regular": 13.49,
+ "price_basis": "shelf",
+ "size_oz": 24.02,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.5616,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 13.49
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:10Z",
+ "region": "1650 W State St",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@albertsons",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@albertsons"
+ ],
+ "pull_url": "https://www.albertsons.com/shop/search-results.html?q=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane albertsons, store: 1650 W State St.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name",
+ "name_truncated": true,
+ "hold_reason": "name truncated, needs full title"
+}

@@ -1,0 +1,41 @@
+{
+ "brand": "Hershey'S",
+ "product_name": "KISSES Milk Chocolate Harry Potter, Halloween Candy Bag",
+ "retailer": "woodmans",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 2.99,
+ "price_regular": 2.99,
+ "price_basis": "instacart_quote",
+ "size_oz": 8.5,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.3518,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 2.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 53711 shop 20059 location 70266",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@woodmans",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@woodmans"
+ ],
+ "pull_url": "https://www.instacart.com/store/woodmans-food-markets/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane woodmans, store: API zip 53711 shop 20059 location 70266. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

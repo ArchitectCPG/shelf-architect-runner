@@ -1,0 +1,41 @@
+{
+ "brand": "Lindt",
+ "product_name": "EXCELLENCE 78% Cocoa Dark Chocolate Candy Bar",
+ "retailer": "King Soopers",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.79,
+ "price_regular": 6.79,
+ "price_basis": "shelf",
+ "size_oz": 3.5,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.94,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 6.79
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0000954203169",
+ "block": "candy-chocolate/premium-chocolate-bars@kingsoopers",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/lindt-excellence-78-cocoa-dark-chocolate-candy-bar/0000954203169?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-06, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

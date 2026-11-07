@@ -1,0 +1,41 @@
+{
+ "brand": "Magic Chocolate",
+ "product_name": "Organic Creamy Raspberry Truffle Layer Bars 4 Pack",
+ "retailer": "Sprouts Farmers Market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 7.99,
+ "price_regular": 7.99,
+ "price_basis": "instacart_quote",
+ "size_oz": 0.78,
+ "size_source": "label",
+ "count": 4,
+ "price_per_oz": 10.2436,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 7.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:17Z",
+ "region": "API zip 90012 shop 542872 location 177895 retailer sprouts",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-gifting-box@sprouts",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@sprouts",
+  "candy-chocolate/premium-chocolate-bars@sprouts"
+ ],
+ "pull_url": "https://shop.sprouts.com/store/sprouts/s?k=chocolate%20truffles%20gift%20box",
+ "notes": "Runner pull 2026-11-06, lane sprouts, store: API zip 90012 shop 542872 location 177895 retailer sprouts. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

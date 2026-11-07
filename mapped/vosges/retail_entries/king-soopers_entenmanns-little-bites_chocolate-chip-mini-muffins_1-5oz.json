@@ -1,0 +1,41 @@
+{
+ "brand": "Entenmann's Little Bites",
+ "product_name": "Chocolate Chip Mini Muffins",
+ "retailer": "King Soopers",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.69,
+ "price_regular": 5.69,
+ "price_basis": "shelf",
+ "size_oz": 1.5,
+ "size_source": "label",
+ "count": 5,
+ "price_per_oz": 3.7933,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 5.69
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T18:04:06Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0007203096039",
+ "block": "candy-chocolate/chocolate-bites-pouch@kingsoopers",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/entenmann-s-little-bites-chocolate-chip-mini-muffins/0007203096039?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-06, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

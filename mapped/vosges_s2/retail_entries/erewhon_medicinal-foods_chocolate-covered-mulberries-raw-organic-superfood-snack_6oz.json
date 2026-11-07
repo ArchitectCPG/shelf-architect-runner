@@ -1,0 +1,41 @@
+{
+ "brand": "Medicinal Foods",
+ "product_name": "Chocolate Covered Mulberries Raw Organic Superfood Snack",
+ "retailer": "erewhon",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 33.39,
+ "price_regular": 33.39,
+ "price_basis": "instacart_quote",
+ "size_oz": 6.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 5.565,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 33.39
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:13Z",
+ "region": "API zip 90012 shop 94105 location 88898",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@erewhon",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@erewhon",
+  "candy-chocolate/premium-chocolate-bars@erewhon"
+ ],
+ "pull_url": "https://www.instacart.com/store/erewhon/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane erewhon, store: API zip 90012 shop 94105 location 88898. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

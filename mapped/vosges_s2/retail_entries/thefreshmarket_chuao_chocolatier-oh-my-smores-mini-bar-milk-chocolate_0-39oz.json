@@ -1,0 +1,41 @@
+{
+ "brand": "Chuao",
+ "product_name": "Chocolatier Oh My S'mores! Mini Bar Milk Chocolate",
+ "retailer": "thefreshmarket",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 1.69,
+ "price_regular": 1.69,
+ "price_basis": "instacart_quote",
+ "size_oz": 0.39,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 4.3333,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 1.69
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 shop 541401 location 380718 retailer the-fresh-market",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@thefreshmarket",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@thefreshmarket",
+  "candy-chocolate/premium-chocolate-bars@thefreshmarket"
+ ],
+ "pull_url": "https://www.instacart.com/store/the-fresh-market/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane thefreshmarket, store: API zip 60614 shop 541401 location 380718 retailer the-fresh-market. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

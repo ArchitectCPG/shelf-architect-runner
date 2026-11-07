@@ -1,0 +1,41 @@
+{
+ "brand": "Chuao",
+ "product_name": "Honeycomb",
+ "retailer": "ralphs",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 8.49,
+ "price_regular": 8.49,
+ "price_basis": "shelf",
+ "size_oz": 2.8,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 3.0321,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 8.49
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015",
+ "route": "runner-kroger-api",
+ "upc": "0087262900613",
+ "block": "candy-chocolate/premium-chocolate-bars@ralphs",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@ralphs"
+ ],
+ "pull_url": "https://www.kroger.com/p/honeycomb-2-8-oz-bar-dark-chocolate-with-bits-of-honey/0087262900613?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-06, lane ralphs-api, store: RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

@@ -1,0 +1,42 @@
+{
+ "brand": "HERSHEY'S",
+ "product_name": "Milk Chocolate Snack Size Candy Bars",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 3.19,
+ "price_regular": 4.39,
+ "price_basis": "shelf",
+ "size_oz": 4.5,
+ "size_source": "label",
+ "count": 10,
+ "price_per_oz": 0.7089,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 3.19
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "034000802890",
+ "block": "candy-chocolate/chocolate-bites-pouch@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@target"
+ ],
+ "pull_url": "https://www.target.com/p/hershey-39-s-milk-chocolate-snack-size-candy-bars-4-5oz-10ct/-/A-95021444",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "sale_price": 3.19,
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

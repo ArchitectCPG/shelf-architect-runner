@@ -1,0 +1,41 @@
+{
+ "brand": "Justin's",
+ "product_name": "Peanut Butter Cups, Organic, Milk Chocolate, Mini",
+ "retailer": "plum-market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.59,
+ "price_regular": 9.59,
+ "price_basis": "instacart_quote",
+ "size_oz": 4.7,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 2.0404,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 9.59
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "API zip 60614 shop 109526 location 1247 retailer plum-market",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-gifting-box@plum-market",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@plum-market",
+  "candy-chocolate/premium-chocolate-bars@plum-market"
+ ],
+ "pull_url": "https://www.instacart.com/store/plum-market/s?k=chocolate%20truffles%20gift%20box",
+ "notes": "Runner pull 2026-11-06, lane plum-market, store: API zip 60614 shop 109526 location 1247 retailer plum-market. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

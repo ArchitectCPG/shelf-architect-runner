@@ -1,0 +1,41 @@
+{
+ "brand": "HERSHEY'S",
+ "product_name": "Hershey Assorted Chocolate Flavored Candy",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 12.99,
+ "price_regular": 12.99,
+ "price_basis": "shelf",
+ "size_oz": 15.6,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.8327,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 12.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "034000464616",
+ "block": "candy-chocolate/chocolate-bites-pouch@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@target"
+ ],
+ "pull_url": "https://www.target.com/p/hershey-assorted-chocolate-flavored-candy-15-6oz/-/A-1010651898",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

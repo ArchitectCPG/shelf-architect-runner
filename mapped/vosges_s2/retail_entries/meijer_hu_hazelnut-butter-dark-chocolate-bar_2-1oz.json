@@ -1,0 +1,39 @@
+{
+ "brand": "Hu",
+ "product_name": "Hazelnut Butter Dark Chocolate Bar",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.19,
+ "price_regular": 4.19,
+ "price_basis": "shelf",
+ "size_oz": 2.1,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.9952,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 4.19
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/hu-hazelnut-butter-dark-chocolate-bar-2-1-oz/85018000606",
+ "notes": "Runner pull 2026-11-06, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate"
+}

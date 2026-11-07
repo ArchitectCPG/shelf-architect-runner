@@ -1,0 +1,43 @@
+{
+ "brand": "Lake Champlain",
+ "product_name": "Chocolates Milk Chocolate Bar",
+ "retailer": "bristol-farms",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.19,
+ "price_regular": 9.19,
+ "price_basis": "instacart_quote",
+ "size_oz": 3.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 3.0633,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 9.19
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:11Z",
+ "region": "API zip 90012 shop 16724744 location 495524",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@bristol-farms",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@bristol-farms",
+  "candy-chocolate/chocolate-gifting-box@bristol-farms",
+  "candy-chocolate/premium-chocolate-bars@bristol-farms"
+ ],
+ "pull_url": "https://www.instacart.com/store/bristol-farms/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane bristol-farms, store: API zip 90012 shop 16724744 location 495524. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

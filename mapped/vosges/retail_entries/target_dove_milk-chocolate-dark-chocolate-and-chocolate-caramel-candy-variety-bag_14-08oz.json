@@ -1,0 +1,41 @@
+{
+ "brand": "Dove",
+ "product_name": "Milk Chocolate, Dark Chocolate, and Chocolate & Caramel Candy Variety Bag",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 12.69,
+ "price_regular": 12.69,
+ "price_basis": "shelf",
+ "size_oz": 14.08,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.9013,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 12.69
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T18:04:07Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "040000597599",
+ "block": "candy-chocolate/chocolate-bites-pouch@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@target"
+ ],
+ "pull_url": "https://www.target.com/p/dove-mixed-variety-bag-candy-14-08oz/-/A-90039859",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

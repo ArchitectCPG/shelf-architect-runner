@@ -1,0 +1,41 @@
+{
+ "brand": "Ferrero Rocher",
+ "product_name": "Gourmet Hazelnu... Box",
+ "retailer": "Jewel-Osco",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 14.99,
+ "price_regular": 14.99,
+ "price_basis": "shelf",
+ "size_oz": 7.0,
+ "size_source": "label",
+ "count": 16,
+ "price_per_oz": 2.1414,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 14.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:14Z",
+ "region": "424 W Division St",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-gifting-box@jewel-osco",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@jewel-osco"
+ ],
+ "pull_url": "https://www.jewelosco.com/shop/search-results.html?q=chocolate%20truffles%20gift%20box",
+ "notes": "Runner pull 2026-11-06, lane jewel-osco, store: 424 W Division St.",
+ "category": "candy-chocolate",
+ "name_truncated": true,
+ "hold_reason": "name truncated, needs full title"
+}

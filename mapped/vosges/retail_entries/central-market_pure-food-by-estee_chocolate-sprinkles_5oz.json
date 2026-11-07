@@ -1,0 +1,39 @@
+{
+ "brand": "Pure Food By Estee",
+ "product_name": "Chocolate Sprinkles",
+ "retailer": "central-market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.81,
+ "price_regular": 5.81,
+ "price_basis": "instacart_quote",
+ "size_oz": 5.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.162,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 5.81
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T18:04:05Z",
+ "region": "API zip 77005 shop 3941 location 1612",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@central-market",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@central-market"
+ ],
+ "pull_url": "https://www.instacart.com/store/central-market/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane central-market, store: API zip 77005 shop 3941 location 1612. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

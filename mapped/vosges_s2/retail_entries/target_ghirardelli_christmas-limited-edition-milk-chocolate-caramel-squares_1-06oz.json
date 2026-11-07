@@ -1,0 +1,39 @@
+{
+ "brand": "Ghirardelli",
+ "product_name": "Christmas Limited Edition Milk Chocolate Caramel Squares",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 1.99,
+ "price_regular": 1.99,
+ "price_basis": "shelf",
+ "size_oz": 1.06,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.8774,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 1.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "747599319464",
+ "block": "candy-chocolate/chocolate-gifting-box@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@target"
+ ],
+ "pull_url": "https://www.target.com/p/ghirardelli-christmas-limited-edition-milk-chocolate-caramel-squares-1-06oz/-/A-80040607",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate"
+}

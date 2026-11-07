@@ -1,0 +1,40 @@
+{
+ "brand": "Good & Gather",
+ "product_name": "Signature Dark Chocolate Chunk",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": true,
+ "source_type": "scrape",
+ "price": 5.59,
+ "price_regular": 6.59,
+ "price_basis": "shelf",
+ "size_oz": 10.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.559,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 5.59
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "085239287750",
+ "block": "candy-chocolate/premium-chocolate-bars@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@target"
+ ],
+ "pull_url": "https://www.target.com/p/signature-dark-chocolate-chunk-10oz-good-38-gather-8482/-/A-84834360",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "sale_price": 5.59
+}

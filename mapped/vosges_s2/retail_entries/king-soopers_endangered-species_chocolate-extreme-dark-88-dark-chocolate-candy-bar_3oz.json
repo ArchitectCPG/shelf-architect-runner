@@ -1,0 +1,41 @@
+{
+ "brand": "Endangered Species",
+ "product_name": "Chocolate Extreme Dark 88% Dark Chocolate Candy Bar",
+ "retailer": "King Soopers",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.49,
+ "price_regular": 4.49,
+ "price_basis": "shelf",
+ "size_oz": 3.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.4967,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 4.49
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0003701400091",
+ "block": "candy-chocolate/premium-chocolate-bars@kingsoopers",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/endangered-species-chocolate-extreme-dark-88-dark-chocolate-candy-bar/0003701400091?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-06, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

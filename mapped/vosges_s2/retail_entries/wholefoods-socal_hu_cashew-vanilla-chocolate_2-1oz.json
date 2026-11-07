@@ -1,0 +1,39 @@
+{
+ "brand": "Hu",
+ "product_name": "Cashew Vanilla Chocolate",
+ "retailer": "wholefoods-socal",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.99,
+ "price_regular": 5.99,
+ "price_basis": "shelf",
+ "size_oz": 2.1,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 2.8524,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 5.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@wholefoods-socal",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@wholefoods-socal"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=dark+chocolate+bar",
+ "notes": "Runner pull 2026-11-06, lane wholefoods-socal, store: None.",
+ "category": "candy-chocolate"
+}

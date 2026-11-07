@@ -1,0 +1,39 @@
+{
+ "brand": "Vosges Haut-Chocolat",
+ "product_name": "Vosges Haut Chocolat, Mo's Bacon Bar (",
+ "retailer": "wholefoods-socal",
+ "client_id": "vosges",
+ "is_own_brand": true,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.99,
+ "price_regular": 9.99,
+ "price_basis": "shelf",
+ "size_oz": 3.0,
+ "size_source": "label",
+ "count": 12,
+ "price_per_oz": 3.33,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 9.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "90012",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/brand@wholefoods-socal",
+ "zip": "candy-chocolate",
+ "neighborhood": "brand",
+ "neighborhoods": [
+  "brand"
+ ],
+ "blocks": [
+  "candy-chocolate/brand@wholefoods-socal"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=vosges+chocolate",
+ "notes": "Runner pull 2026-11-06, lane wholefoods-socal, store: 90012.",
+ "category": "candy-chocolate"
+}

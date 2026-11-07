@@ -1,0 +1,41 @@
+{
+ "brand": "m&m's",
+ "product_name": "MINIS Milk Chocolate Candy, Family Size",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.99,
+ "price_regular": 9.99,
+ "price_basis": "shelf",
+ "size_oz": 16.9,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.5911,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 9.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/m-m-s-minis-milk-chocolate-candy-family-size-16-9-oz-bag/4000058123",
+ "notes": "Runner pull 2026-11-06, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

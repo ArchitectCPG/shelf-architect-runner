@@ -1,0 +1,41 @@
+{
+ "brand": "Lily's",
+ "product_name": "Salted Caramel Extra Dark Chocolate Style No Sugar Added Sweets Bar",
+ "retailer": "King Soopers",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.99,
+ "price_regular": 5.99,
+ "price_basis": "shelf",
+ "size_oz": 2.8,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 2.1393,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 5.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0081000346058",
+ "block": "candy-chocolate/premium-chocolate-bars@kingsoopers",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/lily-s-salted-caramel-extra-dark-chocolate-style-no-sugar-added-sweets-bar/0081000346058?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-06, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

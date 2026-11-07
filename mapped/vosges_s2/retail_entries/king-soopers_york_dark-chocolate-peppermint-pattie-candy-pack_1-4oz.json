@@ -1,0 +1,41 @@
+{
+ "brand": "York",
+ "product_name": "Dark Chocolate Peppermint Pattie Candy Pack",
+ "retailer": "King Soopers",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 1.59,
+ "price_regular": 1.59,
+ "price_basis": "shelf",
+ "size_oz": 1.4,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.1357,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 1.59
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0003400000330",
+ "block": "candy-chocolate/premium-chocolate-bars@kingsoopers",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/york-dark-chocolate-peppermint-pattie-candy-pack/0003400000330?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-06, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

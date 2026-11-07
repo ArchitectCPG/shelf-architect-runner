@@ -1,0 +1,41 @@
+{
+ "brand": "Hershey's",
+ "product_name": "SPECIAL DARK Mildly Sweet Chocolate with Almonds XL Candy Bar",
+ "retailer": "King Soopers",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 2.99,
+ "price_regular": 2.99,
+ "price_basis": "shelf",
+ "size_oz": 4.25,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.7035,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 2.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "route": "runner-kroger-api",
+ "upc": "0003400017521",
+ "block": "candy-chocolate/premium-chocolate-bars@kingsoopers",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@kingsoopers"
+ ],
+ "pull_url": "https://www.kroger.com/p/hershey-s-special-dark-mildly-sweet-chocolate-with-almonds-xl-candy-bar/0003400017521?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-06, lane kingsoopers-api, store: KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

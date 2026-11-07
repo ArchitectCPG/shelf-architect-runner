@@ -1,0 +1,41 @@
+{
+ "brand": "Merci",
+ "product_name": "Finest Assortment of European Chocolates, Candy Gift Box",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 7.99,
+ "price_regular": 7.99,
+ "price_basis": "shelf",
+ "size_oz": 7.0,
+ "size_source": "label",
+ "count": 16,
+ "price_per_oz": 1.1414,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 7.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "072799035570",
+ "block": "candy-chocolate/chocolate-gifting-box@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@target"
+ ],
+ "pull_url": "https://www.target.com/p/merci-finest-assortment-of-european-chocolates-candy-gift-box-16ct-7oz/-/A-14484507",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

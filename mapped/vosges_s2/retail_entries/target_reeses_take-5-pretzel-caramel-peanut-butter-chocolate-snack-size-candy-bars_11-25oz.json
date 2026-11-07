@@ -1,0 +1,42 @@
+{
+ "brand": "Reese's",
+ "product_name": "Take 5 Pretzel, Caramel, Peanut Butter, Chocolate Snack Size Candy Bars",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.59,
+ "price_regular": 7.49,
+ "price_basis": "shelf",
+ "size_oz": 11.25,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.5858,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 6.59
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "034000386260",
+ "block": "candy-chocolate/chocolate-bites-pouch@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@target"
+ ],
+ "pull_url": "https://www.target.com/p/reese-39-s-take-5-pretzel-caramel-peanut-butter-chocolate-snack-size-candy-bars-11-25oz/-/A-14718932",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "sale_price": 6.59,
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

@@ -1,0 +1,41 @@
+{
+ "brand": "Hu",
+ "product_name": "Salty Dark Chocolate Bar",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 2.79,
+ "price_regular": 2.79,
+ "price_basis": "shelf",
+ "size_oz": 1.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 2.79,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 2.79
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/hu-salty-dark-chocolate-bar-1oz/85004307421",
+ "notes": "Runner pull 2026-11-06, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "same-product-elsewhere"
+}

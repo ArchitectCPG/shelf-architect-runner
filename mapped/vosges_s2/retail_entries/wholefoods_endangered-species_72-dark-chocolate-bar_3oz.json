@@ -1,0 +1,41 @@
+{
+ "brand": "Endangered Species",
+ "product_name": "72% Dark Chocolate Bar",
+ "retailer": "Whole Foods Market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.99,
+ "price_regular": 4.99,
+ "price_basis": "shelf",
+ "size_oz": 3.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.6633,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 4.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-gifting-box@wholefoods",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@wholefoods",
+  "candy-chocolate/premium-chocolate-bars@wholefoods"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+truffles+gift+box",
+ "notes": "Runner pull 2026-11-06, lane wholefoods, store: None.",
+ "category": "candy-chocolate"
+}

@@ -1,0 +1,41 @@
+{
+ "brand": "HERSHEY'S",
+ "product_name": "Christmas Build-A-Santa Milk Chocolate Candy Bar Stocking Stuffer",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 2.99,
+ "price_regular": 2.99,
+ "price_basis": "shelf",
+ "size_oz": 4.32,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.6921,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 2.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "034000952762",
+ "block": "candy-chocolate/premium-chocolate-bars@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@target"
+ ],
+ "pull_url": "https://www.target.com/p/hershey-39-s-christmas-build-a-santa-milk-chocolate-candy-bar-4-32oz/-/A-88909633",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

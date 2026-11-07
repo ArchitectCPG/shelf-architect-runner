@@ -1,0 +1,43 @@
+{
+ "brand": "Lindt",
+ "product_name": "LINDOR Christmas Chocolate Candy Peppermint Duo Gift Bag",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 16.79,
+ "price_regular": 16.79,
+ "price_basis": "shelf",
+ "size_oz": 12.7,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.322,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 16.79
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "009542457525",
+ "block": "candy-chocolate/chocolate-bites-pouch@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@target",
+  "candy-chocolate/chocolate-gifting-box@target"
+ ],
+ "pull_url": "https://www.target.com/p/lindt-lindor-christmas-peppermint-duo-bag-12-7oz/-/A-94757889",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

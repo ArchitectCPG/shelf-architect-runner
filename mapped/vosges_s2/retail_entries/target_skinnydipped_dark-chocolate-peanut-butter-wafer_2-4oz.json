@@ -1,0 +1,39 @@
+{
+ "brand": "SkinnyDipped",
+ "product_name": "Dark Chocolate Peanut Butter Wafer",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.99,
+ "price_regular": 6.99,
+ "price_basis": "shelf",
+ "size_oz": 2.4,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 2.9125,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 6.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@target"
+ ],
+ "pull_url": "https://www.target.com/p/skinny-dipped-dark-chocolate-peanut-butter-wafer-2-4oz/-/A-1010260667",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate"
+}

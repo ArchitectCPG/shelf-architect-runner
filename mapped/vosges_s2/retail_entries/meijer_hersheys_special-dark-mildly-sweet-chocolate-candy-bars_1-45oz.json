@@ -1,0 +1,41 @@
+{
+ "brand": "hershey's",
+ "product_name": "SPECIAL DARK Mildly Sweet Chocolate Candy Bars",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 8.79,
+ "price_regular": 8.79,
+ "price_basis": "shelf",
+ "size_oz": 1.45,
+ "size_source": "label",
+ "count": 6,
+ "price_per_oz": 6.0621,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 8.79
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/hershey-s-special-dark-mildly-sweet-chocolate-candy-bars-1-45-oz-6-count-/3400024502",
+ "notes": "Runner pull 2026-11-06, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

@@ -1,0 +1,39 @@
+{
+ "brand": "Chocolate Strawberries,",
+ "product_name": "Chocolate Strawberries",
+ "retailer": "wholefoods-socal",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 17.49,
+ "price_regular": 17.49,
+ "price_basis": "shelf",
+ "size_oz": 8.0,
+ "size_source": "label",
+ "count": 20,
+ "price_per_oz": 2.1862,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 17.49
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T18:04:07Z",
+ "region": "90012",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@wholefoods-socal",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@wholefoods-socal"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+ "notes": "Runner pull 2026-11-06, lane wholefoods-socal, store: 90012.",
+ "category": "candy-chocolate"
+}

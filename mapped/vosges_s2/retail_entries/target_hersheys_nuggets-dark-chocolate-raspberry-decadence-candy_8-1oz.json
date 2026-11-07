@@ -1,0 +1,41 @@
+{
+ "brand": "HERSHEY'S",
+ "product_name": "Nuggets Dark Chocolate Raspberry Decadence Candy",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.49,
+ "price_regular": 6.49,
+ "price_basis": "shelf",
+ "size_oz": 8.1,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.8012,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 6.49
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "034000462223",
+ "block": "candy-chocolate/premium-chocolate-bars@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@target"
+ ],
+ "pull_url": "https://www.target.com/p/hershey-39-s-nuggets-dark-chocolate-raspberry-decadence-candy-8-1oz/-/A-94922687",
+ "notes": "Runner pull 2026-11-06, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

@@ -1,0 +1,39 @@
+{
+ "brand": "Unreal",
+ "product_name": "Chocolate Bar, Dark Chocolate Caramel Peanut Nugget",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.79,
+ "price_regular": 6.79,
+ "price_basis": "shelf",
+ "size_oz": 3.4,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.9971,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 6.79
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:15Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/unreal-chocolate-bar-dark-chocolate-caramel-peanut-nugget-3-4-oz/85748400652",
+ "notes": "Runner pull 2026-11-06, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate"
+}

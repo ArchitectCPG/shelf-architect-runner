@@ -1,0 +1,40 @@
+{
+ "brand": "Famous Amos",
+ "product_name": "Classic Chocolate Chip Cookies Bite-Size Cookies Great for Sharing Resealable Bag",
+ "retailer": "Safeway",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.99,
+ "price_regular": 5.99,
+ "price_basis": "shelf",
+ "size_oz": 9.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.6656,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 5.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T18:04:06Z",
+ "region": "757 E 20th Ave",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@safeway",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@safeway"
+ ],
+ "pull_url": "https://www.safeway.com/shop/search-results.html?q=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane safeway, store: 757 E 20th Ave.",
+ "category": "candy-chocolate",
+ "name_repaired": "known"
+}

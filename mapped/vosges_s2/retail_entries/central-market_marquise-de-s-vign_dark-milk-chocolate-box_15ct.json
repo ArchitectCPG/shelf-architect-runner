@@ -1,0 +1,43 @@
+{
+ "brand": "Marquise De S\u00e9vign\u00e9",
+ "product_name": "Dark & Milk Chocolate Box",
+ "retailer": "central-market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 29.11,
+ "price_regular": 29.11,
+ "price_basis": "instacart_quote",
+ "size_oz": null,
+ "size_source": "label",
+ "count": 15,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 29.11
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:12Z",
+ "region": "API zip 77005 shop 3941 location 1612",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@central-market",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@central-market",
+  "candy-chocolate/chocolate-gifting-box@central-market",
+  "candy-chocolate/premium-chocolate-bars@central-market"
+ ],
+ "pull_url": "https://www.instacart.com/store/central-market/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane central-market, store: API zip 77005 shop 3941 location 1612. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

@@ -1,0 +1,43 @@
+{
+ "brand": "Sunridge Farms",
+ "product_name": "Malt Balls, Almond Butter Dark Chocolate",
+ "retailer": "gelsons",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.99,
+ "price_regular": 9.99,
+ "price_basis": "instacart_quote",
+ "size_oz": 6.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.665,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 9.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:13Z",
+ "region": "API zip 90012 shop 2111 location 587",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@gelsons",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@gelsons",
+  "candy-chocolate/chocolate-gifting-box@gelsons",
+  "candy-chocolate/premium-chocolate-bars@gelsons"
+ ],
+ "pull_url": "https://www.instacart.com/store/gelsons/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-06, lane gelsons, store: API zip 90012 shop 2111 location 587. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

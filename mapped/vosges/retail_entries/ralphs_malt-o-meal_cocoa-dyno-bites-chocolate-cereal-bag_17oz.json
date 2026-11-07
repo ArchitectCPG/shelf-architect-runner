@@ -1,0 +1,41 @@
+{
+ "brand": "Malt-O-Meal",
+ "product_name": "Cocoa Dyno Bites Chocolate Cereal Bag",
+ "retailer": "ralphs",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 3.99,
+ "price_regular": 3.99,
+ "price_basis": "shelf",
+ "size_oz": 17.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.2347,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 3.99
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T18:04:06Z",
+ "region": "RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015",
+ "route": "runner-kroger-api",
+ "upc": "0004240026521",
+ "block": "candy-chocolate/chocolate-bites-pouch@ralphs",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@ralphs"
+ ],
+ "pull_url": "https://www.kroger.com/p/malt-o-meal-cocoa-dyno-bites-chocolate-cereal-bag/0004240026521?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-06, lane ralphs-api, store: RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

@@ -1,0 +1,43 @@
+{
+ "brand": "Tony's Chocolonely",
+ "product_name": "Assorted Chocolate Candy",
+ "retailer": "wholefoods-socal",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.79,
+ "price_regular": 6.79,
+ "price_basis": "shelf",
+ "size_oz": 4.44,
+ "size_source": "label",
+ "count": 5,
+ "price_per_oz": 1.5293,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 6.79
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:18Z",
+ "region": "90012",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@wholefoods-socal",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@wholefoods-socal",
+  "candy-chocolate/chocolate-gifting-box@wholefoods-socal"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+ "notes": "Runner pull 2026-11-06, lane wholefoods-socal, store: 90012.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

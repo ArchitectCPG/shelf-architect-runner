@@ -1,0 +1,39 @@
+{
+ "brand": "Hu",
+ "product_name": "Cashew Butter & Pure Vanilla Bean Dark Chocolate Bites",
+ "retailer": "H-E-B",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.98,
+ "price_regular": 6.98,
+ "price_basis": "shelf",
+ "size_oz": 2.75,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 2.5382,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 6.98
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T18:04:05Z",
+ "region": "Victoria H\u2011E\u2011B plus!",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@heb",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@heb"
+ ],
+ "pull_url": "https://www.heb.com/product-detail/hu-cashew-butter-pure-vanilla-bean-dark-chocolate-bites-2-75-oz/15599526",
+ "notes": "Runner pull 2026-11-06, lane heb, store: Victoria H\u2011E\u2011B plus!.",
+ "category": "candy-chocolate"
+}

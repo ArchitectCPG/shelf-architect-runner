@@ -1,0 +1,39 @@
+{
+ "brand": "Five Mile",
+ "product_name": "Domincan Republic Chocolate",
+ "retailer": "central-market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 11.64,
+ "price_regular": 11.64,
+ "price_basis": "instacart_quote",
+ "size_oz": 2.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 5.82,
+ "price_history": [
+  {
+   "date": "2026-11-06",
+   "price": 11.64
+  }
+ ],
+ "last_pulled": "2026-11-06",
+ "pulled_at": "2026-11-06T22:15:12Z",
+ "region": "API zip 77005 shop 3941 location 1612 retailer central-market",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-gifting-box@central-market",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@central-market"
+ ],
+ "pull_url": "https://www.instacart.com/store/central-market/s?k=chocolate%20truffles%20gift%20box",
+ "notes": "Runner pull 2026-11-06, lane central-market, store: API zip 77005 shop 3941 location 1612 retailer central-market. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}
