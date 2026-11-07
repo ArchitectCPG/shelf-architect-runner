@@ -1,0 +1,486 @@
+{
+  "block_id": "vosges/refrigerated-chocolate--perfect-bar@wholefoods-chicago",
+  "retailer": "wholefoods",
+  "zip": "candy-chocolate",
+  "neighborhood": "refrigerated-chocolate",
+  "pulled_at": "2026-11-07T14:46:55.436Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "60614",
+  "store_set": "60614",
+  "url_final": "https://www.wholefoodsmarket.com/grocery/search?k=perfect+bar",
+  "houses": [
+    {
+      "name": "Dark Choc Peanut Butter Bar, 4ct",
+      "brand": "Perfect Bar",
+      "price": "$10.99",
+      "size": "4ct",
+      "img": "https://m.media-amazon.com/images/I/81893qzZK6L._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-organic-gluten-free-dark-chocolate-chip-peanut-butter-protein-bar-4-count-2-3-oz-b07nr78mcq?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Dark Choc Peanut Butter Bar, 4ct",
+        "$10.99",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "GF Choc PB Protein Bar, 6ct",
+      "brand": "Perfect Bar",
+      "price": "$8.79",
+      "size": "6ct",
+      "img": "https://m.media-amazon.com/images/I/8198x2hLYVL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-organic-mini-gluten-free-chocolate-covered-peanut-butter-protein-bar-6-count-1-05-oz-b09wt8qxmx?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "GF Choc PB Protein Bar, 6ct",
+        "2 Flavors",
+        "$8.79",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Dark Choc Peanut Butter Bar, 8ct",
+      "brand": "Perfect Bar",
+      "price": "$8.79",
+      "size": "8ct",
+      "img": "https://m.media-amazon.com/images/I/81x2JCXPk-L._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-organic-mini-dark-chocolate-chip-peanut-butter-protein-bar-8-count-88-oz-b096h8lpp2?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Dark Choc Peanut Butter Bar, 8ct",
+        "2 Flavors",
+        "$8.79",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Peanut Butter Protein Bar, 4ct",
+      "brand": "Perfect Bar",
+      "price": "$10.99",
+      "size": "4ct",
+      "img": "https://m.media-amazon.com/images/I/815U6F-RWWL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-organic-gluten-free-peanut-butter-refrigerated-protein-bar-4-count-2-5-oz-b07nr9937l?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Peanut Butter Protein Bar, 4ct",
+        "$10.99",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Choc Chip Cookie Dough Bar, 4ct",
+      "brand": "Perfect Bar",
+      "price": "$10.99",
+      "size": "4ct",
+      "img": "https://m.media-amazon.com/images/I/81jnIECwDOL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-perfect-bar-gluten-free-chocolate-chip-cookie-dough-protein-bar-4-count-2-2-oz-b0d3jc79s2?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Choc Chip Cookie Dough Bar, 4ct",
+        "$10.99",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Double Chocolate Mini Bar, 8ct",
+      "brand": "Perfect Bar",
+      "price": "$8.79",
+      "size": "8ct",
+      "img": "https://m.media-amazon.com/images/I/718Vfb312LL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-organic-mini-double-chocolate-bar-8-count-0-88-oz-b0f9b9jzp5?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Double Chocolate Mini Bar, 8ct",
+        "$8.79",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Perfect Bar Original Refrigerated Protein Bar, Coconut Peanut Butter, 2.5 Ounce Bar, 8 Count",
+      "brand": "Perfect Bar",
+      "price": "$22.99",
+      "size": "2.5 Ounce",
+      "img": "https://m.media-amazon.com/images/I/71uuAIAWkML._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-perfect-bar-original-refrigerated-protein-bar-coconut-peanut-butter-2-5-ounce-bar-8-count-b079yfpggz?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Perfect Bar Original Refrigerated Protein Bar, Coconut Peanut Butter, 2.5 Ounce Bar, 8 Count",
+        "$22.99",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Perfect Bar Protein+ Prebiotics Bars, Chocolate Peanut Butter, 1 x 2.4 oz | 20g protein from grass-fed whey and 6g fiber including 3g prebiotic fiber, nothing artificial, gluten free, non-gmo",
+      "brand": "Perfect Bar",
+      "price": "$2.78",
+      "size": "2.4 oz",
+      "img": "https://m.media-amazon.com/images/I/71FULPw45nL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-perfect-bar-protein-prebiotics-bars-chocolate-peanut-butter-1-x-2-4-oz-20g-protein-from-grass-fed-whey-and-6g-fiber-including-3g-prebiotic-fiber-nothing-artificial-gluten-free-non-gmo-b0gwn5ckf3?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Perfect Bar Protein+ Prebiotics Bars, Chocolate Peanut Butter, 1 x 2.4 oz | 20g protein from grass-fed whey and 6g fiber including 3g prebiotic fiber, nothing artificial, gluten free, non-gmo",
+        "2 Flavors, 1 Sizes",
+        "27% offwith Prime",
+        "$2.78",
+        "$3.79",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Peanut Butter Protein Bar, 2.5oz",
+      "brand": "Perfect Bar",
+      "price": "$3.49",
+      "size": "2.5oz",
+      "img": "https://m.media-amazon.com/images/I/71Y4toQi5zL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-organic-peanut-butter-refrigerated-protein-bar-2-5-oz-bar-nothing-artificial-organic-peanut-butter-honey-17g-protein-20-superfoods-gluten-free-non-gmo-cookie-dough-texture-b0713m3tdc?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Peanut Butter Protein Bar, 2.5oz",
+        "6 Flavors, 3 Sizes",
+        "$3.49",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Perfect Bar Oaties Brownie Batter Protein Bars, Kosher, 1.83 oz, 4 Ct | 8g protein, 4g fiber, made with oats instead of nuts, organic honey, 20+ superfoods, gluten-free, family pack, lunchbox snack",
+      "brand": "Perfect Bar",
+      "price": "$8.79",
+      "size": "1.83 oz",
+      "img": "https://m.media-amazon.com/images/I/81cihdIAnsL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-perfect-bar-oaties-brownie-batter-protein-bars-kosher-1-83-oz-4-ct-8g-protein-4g-fiber-made-with-oats-instead-of-nuts-organic-honey-20-superfoods-gluten-free-family-pack-lunchbox-snack-b0gkqj7ssh?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Perfect Bar Oaties Brownie Batter Protein Bars, Kosher, 1.83 oz, 4 Ct | 8g protein, 4g fiber, made with oats instead of nuts, organic honey, 20+ superfoods, gluten-free, family pack, lunchbox snack",
+        "2 Flavors",
+        "$8.79",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Dark Choc Chip Peanut Butter Bar",
+      "brand": "Perfect Bar",
+      "price": "$3.49",
+      "size": "",
+      "img": "https://m.media-amazon.com/images/I/71cLTMtMOPL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-organic-protein-bar-dark-chocolate-chip-peanut-butter-2-3-oz-nothing-artificial-a-gluten-free-bar-with-15g-protein-honey-and-sea-salt-a-good-source-of-fiber-chilled-for-softness-b076ckwryd?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Dark Choc Chip Peanut Butter Bar",
+        "6 Flavors, 3 Sizes",
+        "$3.49",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Perfect Bar Protein+ Prebiotics Bars, Chocolate Mint, Whey, 2.4 oz, 1 Ct | 20g protein from grass-fed whey and 6g fiber including 3g prebiotic fiber, nothing artificial, gluten free, non-gmo",
+      "brand": "Perfect Bar",
+      "price": "$2.78",
+      "size": "2.4 oz",
+      "img": "https://m.media-amazon.com/images/I/71ai-6diMTL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-perfect-bar-protein-prebiotics-bars-chocolate-mint-whey-2-4-oz-1-ct-20g-protein-from-grass-fed-whey-and-6g-fiber-including-3g-prebiotic-fiber-nothing-artificial-gluten-free-non-gmo-b0gwnbpjmg?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Perfect Bar Protein+ Prebiotics Bars, Chocolate Mint, Whey, 2.4 oz, 1 Ct | 20g protein from grass-fed whey and 6g fiber including 3g prebiotic fiber, nothing artificial, gluten free, non-gmo",
+        "2 Flavors, 1 Sizes",
+        "27% offwith Prime",
+        "$2.78",
+        "$3.79",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Perfect Bar Oaties Oatmeal Cookie Dough Protein Bars, Kosher, 1.83 oz, 4 Ct | 8g protein, 3g fiber, made with oats instead of nuts, organic honey, 20+ superfoods, gluten-free, family pack, lunchbox snack",
+      "brand": "Perfect Bar",
+      "price": "$8.79",
+      "size": "1.83 oz",
+      "img": "https://m.media-amazon.com/images/I/81DIEic3VmL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-perfect-bar-oaties-oatmeal-cookie-dough-protein-bars-kosher-1-83-oz-4-ct-8g-protein-3g-fiber-made-with-oats-instead-of-nuts-organic-honey-20-superfoods-gluten-free-family-pack-lunchbox-snack-b0gkqcmhvs?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Perfect Bar Oaties Oatmeal Cookie Dough Protein Bars, Kosher, 1.83 oz, 4 Ct | 8g protein, 3g fiber, made with oats instead of nuts, organic honey, 20+ superfoods, gluten-free, family pack, lunchbox snack",
+        "2 Flavors",
+        "$8.79",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Coconut PB Protein Bar, 2.5oz",
+      "brand": "Perfect Bar",
+      "price": "$3.49",
+      "size": "2.5oz",
+      "img": "https://m.media-amazon.com/images/I/71boI3Ys-lL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-organic-gluten-free-coconut-peanut-butter-refrigerated-protein-bar-2-5-oz-b06wv9h7yq?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Coconut PB Protein Bar, 2.5oz",
+        "6 Flavors, 3 Sizes",
+        "$3.49",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Almond Butter Protein Bar, 2.3oz",
+      "brand": "Perfect Bar",
+      "price": "$3.49",
+      "size": "2.3oz",
+      "img": "https://m.media-amazon.com/images/I/71jLHsS9tCL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-perfect-bar-gluten-free-almond-butter-refrigerated-protein-bar-2-3-oz-nothing-artificial-a-gluten-free-bar-with-organic-honey-and-whole-food-superfoods-chilled-for-a-soft-cookie-dough-texture-b01m1ycgg5?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Almond Butter Protein Bar, 2.3oz",
+        "6 Flavors, 3 Sizes",
+        "$3.49",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Choc Chip Cookie Protein Bar",
+      "brand": "Perfect Bar",
+      "price": "$3.49",
+      "size": "",
+      "img": "https://m.media-amazon.com/images/I/71wbnRbwfqL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-perfect-bar-gluten-free-chocolate-chip-cookie-dough-nut-butter-protein-bar-2-2-oz-b0c4bfq4qd?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Choc Chip Cookie Protein Bar",
+        "6 Flavors, 3 Sizes",
+        "$3.49",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Chocolate Brownie Protein Bar",
+      "brand": "Perfect Bar",
+      "price": "$3.49",
+      "size": "",
+      "img": "https://m.media-amazon.com/images/I/71TBRHe6qtL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-organic-chocolate-brownie-cashew-butter-and-peanut-butter-protein-bar-2-2-oz-b0d3jcygkp?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "Chocolate Brownie Protein Bar",
+        "$3.49",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "GF Chocolate Mint PB Bar, 2.3oz",
+      "brand": "Perfect Bar",
+      "price": "$3.49",
+      "size": "2.3oz",
+      "img": "https://m.media-amazon.com/images/I/71Pdi1fxFSL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/perfect-bar-organic-gluten-free-chocolate-mint-peanut-butter-refrigerated-protein-bar-2-3-oz-b07z139sqq?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Perfect Bar",
+        "GF Chocolate Mint PB Bar, 2.3oz",
+        "6 Flavors, 3 Sizes",
+        "$3.49",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Mango Blueberry Mini Bars, 10ct",
+      "brand": "Thats it",
+      "price": "$9.89",
+      "size": "10ct",
+      "img": "https://m.media-amazon.com/images/I/81jfZ2PqoRL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/thats-it-thats-it-mango-blueberry-mini-bars-10-count-7-oz-b0brktzkz5?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Thats it",
+        "Mango Blueberry Mini Bars, 10ct",
+        "$9.89",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Organic MINI Blueberry Refrigerated Oat Kids' Bar Multipack, 6-0.78 oz (22g) Bars",
+      "brand": "Once Upon a Farm",
+      "price": "$8.99",
+      "size": "0.78 oz",
+      "img": "https://m.media-amazon.com/images/I/712LdeJgokL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/once-upon-a-farm-organic-mini-blueberry-refrigerated-oat-kids-bar-multipack-6-0-78-oz-22g-bars-b0g319gjlt?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Once Upon a Farm",
+        "Organic MINI Blueberry Refrigerated Oat Kids' Bar Multipack, 6-0.78 oz (22g) Bars",
+        "$8.99",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Honey Cinnamon PB Protein Bar",
+      "brand": "RXBAR",
+      "price": "$10.99",
+      "size": "",
+      "img": "https://m.media-amazon.com/images/I/81uOIaYh47L._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/rxbar-rxbar-nut-butter-and-oat-protein-bars-protein-snacks-snack-bars-honey-cinnamon-peanut-butter-9-7oz-box-5-count-b09wxcm1dv?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "RXBAR",
+        "Honey Cinnamon PB Protein Bar",
+        "$10.99",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Oatmeal Choc Chip Bar, 12ct",
+      "brand": "GoMacro",
+      "price": "$25.65",
+      "size": "12ct",
+      "img": "https://m.media-amazon.com/images/I/51Imb7HRZDL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/gomacro-gomacro-organic-nutrition-bar-oatmeal-chocolate-chip-12-count-2-3-ounce-b07tpyqhs9?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "GoMacro",
+        "Oatmeal Choc Chip Bar, 12ct",
+        "4 Flavors, 2 Sizes",
+        "22% offwith Prime",
+        "$25.65",
+        "$32.99",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Oatmeal Choc Chip Bars, 8ct",
+      "brand": "GoMacro",
+      "price": "$11.99",
+      "size": "8ct",
+      "img": "https://m.media-amazon.com/images/I/81yo8-x40aL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/gomacro-gomacro-organic-oatmeal-choc-chip-macrobar-minis-8-count-7-2-oz-b098gzmlww?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "GoMacro",
+        "Oatmeal Choc Chip Bars, 8ct",
+        "$11.99",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Dark Chocolate PB Cups, 4.2oz",
+      "brand": "UNREAL",
+      "price": "$7.19",
+      "size": "4.2oz",
+      "img": "https://m.media-amazon.com/images/I/611By-wfqVL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/unreal-unreal-dark-chocolate-peanut-butter-cups-4-2-oz-b01dx6eahg?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "UNREAL",
+        "Dark Chocolate PB Cups, 4.2oz",
+        "$7.19",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Chocolate Peanut Butter Bar, 4ct",
+      "brand": "Mid-Day Squares",
+      "price": "$7.99",
+      "size": "4ct",
+      "img": "https://m.media-amazon.com/images/I/61zppWK34QL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/mid-day-squares-chocolate-peanut-butter-bar-4-pack-b0d5s23wd2?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Mid-Day Squares",
+        "Chocolate Peanut Butter Bar, 4ct",
+        "16% offwith Prime",
+        "$7.99",
+        "$9.49",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "RXBAR Minis Variety Pack, 8ct",
+      "brand": "RXBAR",
+      "price": "$10.49",
+      "size": "8ct",
+      "img": "https://m.media-amazon.com/images/I/71uOTJ9EEuL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/rxbar-rxbar-minis-protein-bars-6g-protein-gluten-free-snacks-chocolate-sea-salt-peanut-butter-chocolate-variety-pack-7-3oz-box-8-bars-b092rxdqmp?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "RXBAR",
+        "RXBAR Minis Variety Pack, 8ct",
+        "1 Flavors, 1 Sizes",
+        "$10.49",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Oatmeal Choc Chip Snack Bar, 7ct",
+      "brand": "GoMacro",
+      "price": "$7.28",
+      "size": "7ct",
+      "img": "https://m.media-amazon.com/images/I/61CAUmJCJDL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/gomacro-gomacro-organic-kids-macrobar-vegan-snack-bars-oatmeal-chocolate-chip-cookie-0-90-ounce-bars-7-count-b08c41q6z7?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "GoMacro",
+        "Oatmeal Choc Chip Snack Bar, 7ct",
+        "5 Flavors, 1 Sizes",
+        "19% offwith Prime",
+        "$7.28",
+        "$8.99",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Raspberry Fig Bars, 6ct 2oz",
+      "brand": "Nature's Bakery",
+      "price": "$7.49",
+      "size": "6ct",
+      "img": "https://m.media-amazon.com/images/I/8139AyuwPBL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/nature-s-bakery-nature-s-bakery-raspberry-fig-bars-real-fruit-nut-free-6-pack-b009ae7wwq?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Nature's Bakery",
+        "Raspberry Fig Bars, 6ct 2oz",
+        "1 Flavors, 1 Sizes",
+        "$7.49",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Caramel Peanut Nougat Bar, 3.4oz",
+      "brand": "UNREAL",
+      "price": "$7.19",
+      "size": "3.4oz",
+      "img": "https://m.media-amazon.com/images/I/71XdEHqhTcL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/unreal-unreal-dark-chocolate-caramel-peanut-nougat-bars-1-bag-70-organic-ingredients-fair-trade-non-gmo-no-corn-syrup-sugar-alcohols-soy-3-4oz-b084blbnrm?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "UNREAL",
+        "Caramel Peanut Nougat Bar, 3.4oz",
+        "$7.19",
+        "Add to Cart"
+      ]
+    },
+    {
+      "name": "Cookie Dough Chocolate Bar, 4ct",
+      "brand": "Mid-Day Squares",
+      "price": "$7.99",
+      "size": "4ct",
+      "img": "https://m.media-amazon.com/images/I/61P0UC1dHzL._FMwebp_.jpg",
+      "link": "https://www.wholefoodsmarket.com/grocery/product/mid-day-squares-chocolate-cookie-dough-bar-4-pack-b0d5s3gttm?ref_=US_OTR_ALL_UFG_WFM_OTHER_0542341",
+      "card_text": [
+        "Mid-Day Squares",
+        "Cookie Dough Chocolate Bar, 4ct",
+        "20% offwith Prime",
+        "$7.99",
+        "$9.99",
+        "Add to Cart"
+      ]
+    }
+  ],
+  "raw_text_chars": 6458,
+  "steps": [
+    "14:46:55 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "14:46:55 connected to Bright Data Scraping Browser",
+    "14:47:08 goto https://www.wholefoodsmarket.com/search?text=perfect bar",
+    "14:47:16 captcha check passed",
+    "14:47:28 dismiss: nothing to close",
+    "14:47:29 js ok zip box ready BUTTON Delivering to 98101\nUpdate Location | inputs=search,filter-",
+    "14:47:38 js ok zip box ready BUTTON Delivering to 98101\nUpdate Location | inputs=search,filter-",
+    "14:47:41 type_sel #zipCode, input[name=zipCode], input[placeholder*='zip' i] \"60614\"",
+    "14:47:42 js ok submit Apply",
+    "14:47:52 goto https://www.wholefoodsmarket.com/search?text=perfect bar",
+    "14:48:00 captcha check passed",
+    "14:48:11 scrolled x4",
+    "14:48:11 store_set: 60614",
+    "14:48:11 extracted 30 houses; raw text 6458 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "zip box ready BUTTON Delivering to 98101\nUpdate Location | inputs=search,filter-checkbox-234396,filter-checkbox-477112,filter-checkbox-257183,filter-checkbox-440093,filter-checkbox-377311,filter-checkbox-232892,filter-checkbox-247999,filter-checkbox-313666,filter-checkbox-93442,filter-checkbox-212800,filter-checkbox-2988639,filter-checkbox-723826,filter-checkbox-373609,filter-checkbox-898861,filter-checkbox-327997,filter-checkbox-645281,filter-checkbox-1283494,filter-checkbox-613378,filter-checkbox-16326933,filter-checkbox-860892,filter-checkbox-410292,filter-checkbox-686917,filter-checkbox-427064,filter-checkbox-632857,filter-checkbox-253378,filter-checkbox-481112,filter-checkbox-703495,filter-checkbox-13446546,filter-checkbox-244545,filter-checkbox-15061526,filter-checkbox-10434594011,filter-checkbox-10434595011,filter-checkbox-10434596011,filter-checkbox-10434597011,filter-checkbox-10434598011,filter-checkbox-53836634011,filter-checkbox-53836633011,filter-checkbox-53836635011,filter-checkbox-53836632011,filter-checkbox-1248897011,filter-checkbox-23566065011,filter-checkbox-23940861011,filter-checkbox-23940860011,filter-checkbox-23940867011,filter-checkbox-23940866011,filter-checkbox-23940864011,filter-checkbox-23940862011,filter-checkbox-23940863011,filter-checkbox-23940865011,filter-checkbox-28820047011,filter-checkbox-28820046011,filter-checkbox-28820062011,filter-checkbox-28820022011,filter-checkbox-28820033011,filter-checkbox-28820045011,filter-checkbox-28820036011,filter-checkbox-28820041011,filter-checkbox-28820070011,filter-checkbox-28820057011,filter-checkbox-28820053011,filter-checkbox-28820068011,filter-checkbox-23598027011,filter-checkbox-24677333011,filter-checkbox-2288328011,filter-checkbox-2288329011,filter-checkbox-10434599011,filter-checkbox-11139484011,filter-checkbox-11139485011,filter-checkbox-2288330011,filter-checkbox-2288331011,filter-checkbox-11139487011,filter-checkbox-2288334011,filter-checkbox-10434601011,filter-checkbox-10434600011,filter-checkbox-11437452011,filter-checkbox-14278162011,filter-checkbox-14804136011,filter-checkbox-11437454011,filter-checkbox-204376014011,filter-checkbox--1000,filter-checkbox-1000-2000,filter-checkbox-2000-3000,filter-checkbox-3000-,filter-checkbox-6990060011,filter-checkbox-6990061011,filter-checkbox-6990062011,filter-checkbox-6990063011,filter-checkbox-6990064011,filter-checkbox-6990065011,filter-checkbox-17428820011,filter-checkbox-17277574011,filter-checkbox-17277585011,filter-checkbox-17277583011,filter-checkbox-17277588011,filter-checkbox-17277582011,filter-checkbox-121136630011,filter-checkbox-116845691011,filter-checkbox-116845688011,filter-checkbox-121191385011,filter-checkbox-116845687011,filter-checkbox-116845690011,filter-checkbox-116845684011,filter-checkbox-116845683011,filter-checkbox-116845686011,filter-checkbox-119653281011,zipCode",
+    "zip box ready BUTTON Delivering to 98101\nUpdate Location | inputs=search,filter-checkbox-234396,filter-checkbox-477112,filter-checkbox-257183,filter-checkbox-440093,filter-checkbox-377311,filter-checkbox-232892,filter-checkbox-247999,filter-checkbox-313666,filter-checkbox-93442,filter-checkbox-212800,filter-checkbox-2988639,filter-checkbox-723826,filter-checkbox-373609,filter-checkbox-898861,filter-checkbox-327997,filter-checkbox-645281,filter-checkbox-1283494,filter-checkbox-613378,filter-checkbox-16326933,filter-checkbox-860892,filter-checkbox-410292,filter-checkbox-686917,filter-checkbox-427064,filter-checkbox-632857,filter-checkbox-253378,filter-checkbox-481112,filter-checkbox-703495,filter-checkbox-13446546,filter-checkbox-244545,filter-checkbox-15061526,filter-checkbox-10434594011,filter-checkbox-10434595011,filter-checkbox-10434596011,filter-checkbox-10434597011,filter-checkbox-10434598011,filter-checkbox-53836634011,filter-checkbox-53836633011,filter-checkbox-53836635011,filter-checkbox-53836632011,filter-checkbox-1248897011,filter-checkbox-23566065011,filter-checkbox-23940861011,filter-checkbox-23940860011,filter-checkbox-23940867011,filter-checkbox-23940866011,filter-checkbox-23940864011,filter-checkbox-23940862011,filter-checkbox-23940863011,filter-checkbox-23940865011,filter-checkbox-28820047011,filter-checkbox-28820046011,filter-checkbox-28820062011,filter-checkbox-28820022011,filter-checkbox-28820033011,filter-checkbox-28820045011,filter-checkbox-28820036011,filter-checkbox-28820041011,filter-checkbox-28820070011,filter-checkbox-28820057011,filter-checkbox-28820053011,filter-checkbox-28820068011,filter-checkbox-23598027011,filter-checkbox-24677333011,filter-checkbox-2288328011,filter-checkbox-2288329011,filter-checkbox-10434599011,filter-checkbox-11139484011,filter-checkbox-11139485011,filter-checkbox-2288330011,filter-checkbox-2288331011,filter-checkbox-11139487011,filter-checkbox-2288334011,filter-checkbox-10434601011,filter-checkbox-10434600011,filter-checkbox-11437452011,filter-checkbox-14278162011,filter-checkbox-14804136011,filter-checkbox-11437454011,filter-checkbox-204376014011,filter-checkbox--1000,filter-checkbox-1000-2000,filter-checkbox-2000-3000,filter-checkbox-3000-,filter-checkbox-6990060011,filter-checkbox-6990061011,filter-checkbox-6990062011,filter-checkbox-6990063011,filter-checkbox-6990064011,filter-checkbox-6990065011,filter-checkbox-17428820011,filter-checkbox-17277574011,filter-checkbox-17277585011,filter-checkbox-17277583011,filter-checkbox-17277588011,filter-checkbox-17277582011,filter-checkbox-121136630011,filter-checkbox-116845691011,filter-checkbox-116845688011,filter-checkbox-121191385011,filter-checkbox-116845687011,filter-checkbox-116845690011,filter-checkbox-116845684011,filter-checkbox-116845683011,filter-checkbox-116845686011,filter-checkbox-119653281011,zipCode",
+    "submit Apply"
+  ],
+  "houses_text": 23
+}

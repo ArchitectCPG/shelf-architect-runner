@@ -1,0 +1,2819 @@
+{
+  "block_id": "vosges/refrigerated-chocolate--perfect-bar@naturalgrocers-denver",
+  "retailer": "naturalgrocers",
+  "zip": "candy-chocolate",
+  "neighborhood": "refrigerated-chocolate",
+  "pulled_at": "2026-11-07T14:29:13.757Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "80202",
+  "store_set": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "url_final": "https://www.instacart.com/store/natural-grocers/s?k=perfect%20bar",
+  "houses": [
+    {
+      "name": "GoMacro Peanut Butter Chocolate Chip MacroBar",
+      "size": "2.4 oz",
+      "brand": "gomacro",
+      "price": "$3.69",
+      "item_id": "items_1261-18151571",
+      "product_id": "18151571",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2f7ee752-0e47-4855-9e77-7d38b5f81bbc.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Double Chocolate + Peanut Butter Chips MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$3.69",
+      "item_id": "items_1261-21141156",
+      "product_id": "21141156",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_55ee2b8c-2287-4391-b552-d4b8d1ce035f.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "GoMacro Coconut + Almond Butter + Chocolate Chips MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$3.69",
+      "item_id": "items_1261-16295688",
+      "product_id": "16295688",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f77ffd59-f71f-407a-8c26-37e402c76f88.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Banana + Almond Butter MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$3.69",
+      "item_id": "items_1261-47762",
+      "product_id": "47762",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d162c903-3944-4f52-8afe-d56e216ede9c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Salted Caramel + Chocolate Chips MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$3.69",
+      "item_id": "items_1261-25892814",
+      "product_id": "25892814",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cf7700d0-eccc-40ba-a25b-141a550b37ab.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Mini Dark Chocolate Chip Peanut Butter Protein Bar, Gluten-Free 7 oz",
+      "size": "7 oz",
+      "brand": "perfect bar",
+      "price": "$10.09",
+      "item_id": "items_1261-24790500",
+      "product_id": "24790500",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_55b41dcd-dcb0-4c11-9c46-217a40fd2abf.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Mini Chocolate Covered Peanut Butter Protein Bar, Gluten-Free",
+      "size": "6.34 oz",
+      "brand": "perfect bar",
+      "price": "$10.09",
+      "item_id": "items_1261-26803456",
+      "product_id": "26803456",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6fe64775-692e-4095-869b-abf24ff39824.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Perfect Bar Dark Chocolate Chip Peanut Butter Protein Bar, Gluten-Free 9 oz",
+      "size": "9.2 oz",
+      "brand": "perfect bar",
+      "price": "$12.19",
+      "item_id": "items_1261-19225083",
+      "product_id": "19225083",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_691458cf-144c-4b2e-89a6-e2203ca3b2ea.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Mini Peanut Butter Protein Bar, Gluten-Free 7 oz",
+      "size": "7 oz",
+      "brand": "perfect bar",
+      "price": "$10.09",
+      "item_id": "items_1261-24880930",
+      "product_id": "24880930",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bd164032-0da3-4d28-911f-aae8e55ad62e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Perfect Bar Chocolate Chip Cookie Dough Nut Butter Protein Bar, Gluten-Free 2 oz",
+      "size": "2.18 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-27834778",
+      "product_id": "27834778",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_982dbe88-8063-4329-9e53-e2363f38a2fe.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Perfect Bar Peanut Butter Protein Bar, Gluten-Free 10 oz",
+      "size": "10 oz",
+      "brand": "perfect bar",
+      "price": "$12.19",
+      "item_id": "items_1261-19225080",
+      "product_id": "19225080",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ab46e17c-1707-437b-8a85-4fa2eb623929.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Chocolate Mint Peanut Butter Protein Bar, Gluten-Free 2 oz",
+      "size": "2.3 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-20168351",
+      "product_id": "20168351",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_979d68a7-0b86-45fe-a422-1e87a261a781.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Dark Chocolate Chip Peanut Butter Protein Bar, Gluten-Free 2.3 oz",
+      "size": "2.3 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-16907565",
+      "product_id": "16907565",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_375097c0-980f-43df-b887-23a9562d906f.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Salted Caramel Cashew Butter And Peanut Butter Protein Bar, Gluten-Free 2 oz",
+      "size": "2.2 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-21345109",
+      "product_id": "21345109",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fe41c3a6-f197-4556-ba72-fd7f833249a1.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Chocolate Chip Cookie Dough Protein Bar",
+      "size": "2.18 oz",
+      "brand": "perfect snacks",
+      "price": "$12.19",
+      "item_id": "items_1261-28515004",
+      "product_id": "28515004",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e59b1055-acea-4a86-98e0-51d08d8606c5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Coconut Peanut Butter Protein Bar, Gluten-Free 3 oz",
+      "size": "2.5 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-16469139",
+      "product_id": "16469139",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_26ea2bef-6630-4686-a11c-72824cc76195.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Peanut Butter Bar",
+      "size": "2.5 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-172751",
+      "product_id": "172751",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c8b22e66-66e4-4724-8093-3af4123c5cbb.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Chocolate Covered Salted Caramel Protein Bar",
+      "size": "6 oz",
+      "brand": "perfect snacks",
+      "price": "$10.09",
+      "item_id": "items_1261-85395667",
+      "product_id": "85395667",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Dark Chocolate Chip Peanut Butter with Sea Salt Protein Bar",
+      "size": "2.3 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-16910749",
+      "product_id": "16910749",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_51b62389-02e8-4087-ab48-b079cf973130.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Chocolate Brownie Protein Bar",
+      "size": "2.18 oz",
+      "brand": "perfect snacks",
+      "price": "$3.79",
+      "item_id": "items_1261-46840180",
+      "product_id": "46840180",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_90b95cb4-ba6e-420b-8f23-d2fdf4e42fb8.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Chocolate Hazelnut Crisp Protein Bar, Gluten-Free 2 oz",
+      "size": "2.2 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-19750620",
+      "product_id": "19750620",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a76ce14e-0114-4f82-ba8f-1a6d57007949.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Peanut Butter Protein Bar",
+      "size": "8 ct",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-2742269",
+      "product_id": "2742269",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_674c449e-59fc-4a5c-814d-04ca32e1a036.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Crispy Dark Chocolate Nut Butter Protein Bar, Gluten-Free 2 oz",
+      "size": "1.94 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-30201345",
+      "product_id": "30201345",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_eb82306f-c815-449e-ae64-b1956cc1d2c2.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Pumpkin Pie Protein Bar",
+      "size": "2 oz",
+      "brand": "perfect snacks",
+      "price": "$3.79",
+      "item_id": "items_1261-19074009",
+      "product_id": "19074009",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e8389093-172d-42b9-912d-24d520650bc5.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Coconut Peanut Butter Protein Bar",
+      "size": "8 ct",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-16335751",
+      "product_id": "16335751",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3c5a49b3-fd64-4900-9fc9-527fe06e4016.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Pumpkin Pie Protein Bar",
+      "size": "2.2 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-19211900",
+      "product_id": "19211900",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_70ce4f98-789d-4a5e-b841-2f14ccc950a1.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Coconut Peanut Butter Protein Bar, Gluten-Free 10 oz",
+      "size": "4 ct",
+      "brand": "perfect bar",
+      "price": "$12.19",
+      "item_id": "items_1261-24610400",
+      "product_id": "24610400",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_513390f4-da3b-4bb6-bab1-19dc30cb6294.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Protein Bar, Almond Butter",
+      "size": "2.3 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-3340272",
+      "product_id": "3340272",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4a8c8f77-11d3-495f-be00-2e41d38baadb.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Dark Chocolate Almond Protein Bar",
+      "size": "2.2 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-16910751",
+      "product_id": "16910751",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_474cf0a1-aa4b-4b76-a45d-a5ed0ea6a667.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Chocolate Cherry Protein Bar",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-94805253",
+      "product_id": "94805253",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_11087a3e-3ad3-4bf0-a657-20bbc89049c7.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Siete Grain Free Strawberries & Cream Cookies",
+      "size": "4.5 oz",
+      "brand": "siete",
+      "price": "$5.29",
+      "item_id": "items_1261-39374272",
+      "product_id": "39374272",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9d9127aa-4289-482c-8992-2ec5fa8f1519.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Siete Grain Free Mexican Wedding Cookies",
+      "size": "4.5 oz",
+      "brand": "siete",
+      "price": "$5.29",
+      "item_id": "items_1261-23812281",
+      "product_id": "23812281",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6aed2c6c-f4e0-46a7-a057-27769f07af60.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Siete Grain Free Mexican Shortbread Cookies",
+      "size": "4.5 oz",
+      "brand": "siete",
+      "price": "$5.29",
+      "item_id": "items_1261-23812246",
+      "product_id": "23812246",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d8cb372f-829a-44ed-81df-c8f49237b23a.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Siete Kettle Cooked Chipotle BBQ Potato Chips",
+      "size": "5.5 oz",
+      "brand": "siete",
+      "price": "$4.69",
+      "item_id": "items_1261-23522811",
+      "product_id": "23522811",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_885615fe-e1fe-4c0a-840f-2e83dee76813.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Siete Corn Tortilla Chips, Dairy Free, Mexican Street Corn",
+      "size": "7.5 oz",
+      "brand": "siete",
+      "price": "$5.39",
+      "item_id": "items_1261-64418800",
+      "product_id": "64418800",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_97b37598-a3a9-47a7-839e-21cc2832cb6c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Maple Sea Salt Protein Bar",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-46408796",
+      "product_id": "46408796",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_58464c6b-3b59-4868-b793-c1d6ad01b351.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Mint, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-17620519",
+      "product_id": "17620519",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d47cc6f8-1144-4425-9aa8-8c51be86912f.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Perfect Bar Dark Chocolate Almond Protein Bar, Gluten-Free 2 oz",
+      "size": "2.2 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-16907669",
+      "product_id": "16907669",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a3c07122-b122-4ccc-86b8-0e2f88c50229.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Protein Bar, Chocolate Hazelnut Crisp",
+      "size": "2.2 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-20035849",
+      "product_id": "20035849",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b567ad03-00f0-40a4-94d2-3df09a45a6be.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Chocolate Mint Protein Bar",
+      "size": "65 g",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-20168148",
+      "product_id": "20168148",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_15463fc6-7696-4207-b574-9d53b80e72a7.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Back to Nature Peanut Butter Creme Sandwich Cookies",
+      "size": "8.25 oz",
+      "brand": "back to nature",
+      "price": "$6.29",
+      "item_id": "items_1261-20699180",
+      "product_id": "20699180",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e8231fa0-6610-4956-be1a-d0ce96d20209.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Back to Nature Chocolate Chunk Cookies",
+      "size": "7.5 oz",
+      "brand": "back to nature",
+      "price": "$6.29",
+      "item_id": "items_1261-59770388",
+      "product_id": "59770388",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5ad00c0b-bae9-49ac-bdf3-fcb2a5caac1c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Back to Nature Classic Creme Sandwich Cookies",
+      "size": "9 oz",
+      "brand": "back to nature",
+      "price": "$6.29",
+      "item_id": "items_1261-59770251",
+      "product_id": "59770251",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_25a9a29a-10ab-4d6e-8b14-489bdc1b03a7.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Back to Nature Double Classic Creme Sandwich Cookies",
+      "size": "8.25 oz",
+      "brand": "back to nature",
+      "price": "$6.29",
+      "item_id": "items_1261-29355513",
+      "product_id": "29355513",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_438037b1-4754-45e1-86ca-5c29656680b3.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Perfect Bar Chocolate Chip Cookie Dough Nut Butter Protein Bar, Gluten-Free 17 oz",
+      "size": "2.18 oz",
+      "brand": "perfect bar",
+      "price": "$27.09",
+      "item_id": "items_1261-30715586",
+      "product_id": "30715586",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1622214d-4d81-4390-8875-adf0d6555cc2.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Chocolate Brownie Bars",
+      "size": "each",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-51343810",
+      "product_id": "51343810",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Almond Butter",
+      "size": "2.3 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-17314768",
+      "product_id": "17314768",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dc63d6fb-912c-436a-bb34-863d956c9a48.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Protein Bar, Salted Caramel",
+      "size": "17.5 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-21343983",
+      "product_id": "21343983",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2727b6f8-bedc-4d9b-a6f6-8b7051e62dea.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Coconut Chocolate Almond",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-25041316",
+      "product_id": "25041316",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_64308b54-aa39-4ee1-a46f-e253129fee1e.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Olyra Dark Chocolate, Crème Breakfast Biscuits, Organic Snack",
+      "size": "5.3 oz",
+      "brand": "olyra",
+      "price": "$5.99",
+      "item_id": "items_1261-23755403",
+      "product_id": "23755403",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c30afa0c-9fd4-4f0d-a488-df686a5e5e79.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Olyra Hazelnut Cocoa, Crème Breakfast Biscuits, Organic Snack",
+      "size": "5.3 oz",
+      "brand": "olyra",
+      "price": "$5.99",
+      "item_id": "items_1261-23755415",
+      "product_id": "23755415",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_13a93fec-74b4-4bf9-84b2-9edc26c0f5a2.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Olyra Vanilla, Crème Breakfast Biscuits, Organic Snack",
+      "size": "4 ct",
+      "brand": "olyra",
+      "price": "$5.99",
+      "item_id": "items_1261-75688638",
+      "product_id": "75688638",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8ee1bde2-94ac-4a9a-aa72-577d66f45f27.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Chocolate Espresso",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-27611594",
+      "product_id": "27611594",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3a2f0fcd-6903-44d9-8cb8-27cf603b4165.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Almond Butter Cup Protein Bar",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-74125879",
+      "product_id": "74125879",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_aca5d236-e6a8-4030-8ec2-d71cc4d18bd9.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Aloha Organic Oatmeal Chocolate Chip Protein Bar",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-48846248",
+      "product_id": "48846248",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6132151e-8213-4f8c-851b-74bd8b367bee.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Thunderbird Nutrition Bar",
+      "size": "1.7 oz",
+      "brand": "thunderbird",
+      "price": "$3.69",
+      "item_id": "items_1261-20200402",
+      "product_id": "20200402",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b0468053-a756-454c-a540-9ee07f494133.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Aloha Protein Bars, Organic, Chocolate Chip Cookie Dough",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-20718016",
+      "product_id": "20718016",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bd4d513b-8814-48ee-96a4-4f8ce957a8cb.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Peanut Butter Cup, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-25700508",
+      "product_id": "25700508",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_11fc1bf7-c776-4f49-a9fa-5f9e4b43aaf6.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Lemon Cashew, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-28036802",
+      "product_id": "28036802",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9163ba58-5cb1-49f5-ba58-ec7554bdd9b0.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Peanut Butter Chocolate Chip",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-16623908",
+      "product_id": "16623908",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_27021446-e99c-42d2-89f3-1ff380ac763d.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Truvani The Only Bar Chocolate Chip Banana Bread",
+      "size": "12 oz",
+      "brand": "truvani the only bar",
+      "price": "$31.39",
+      "item_id": "items_1261-64412698",
+      "product_id": "64412698",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Superfruit Slam",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-310321",
+      "product_id": "310321",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_300b5644-a518-4ade-8a85-a1ed1f79b4bd.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Cookies and Creme Protein Bar",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-106405469",
+      "product_id": "106405469",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_26ab806c-cdec-4370-8a52-4ef865aff8f2.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Blueberry",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-56091566",
+      "product_id": "56091566",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d3319cd3-f9b5-49f9-abda-7474b082400f.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Fudge Brownie, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-16627218",
+      "product_id": "16627218",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_26ba7d17-564c-4a3a-920a-9cad6e22d686.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Chocolate Caramel Pecan",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-32873159",
+      "product_id": "32873159",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_49a75144-81b5-4d5a-ae62-c05bf190b040.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Mammoth Bar Almond Vanilla Raw Protein Bar",
+      "size": "1.8 oz",
+      "brand": "mammoth bar",
+      "price": "$3.39",
+      "item_id": "items_1261-18489916",
+      "product_id": "18489916",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1b15f877-9be5-494e-8fec-7c416563e57f.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "jonesbar Bar, Organic, Chocolate Peanut Butter",
+      "size": "1.7 oz",
+      "brand": "jonesbar",
+      "price": "$2.99",
+      "item_id": "items_1261-21120749",
+      "product_id": "21120749",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f8d0a9a3-a3ed-458d-864d-d2a9a962c3e5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Protein Bar Peanut Butter Chocolate",
+      "size": "1.8 oz",
+      "brand": "rxbar",
+      "price": "$3.09",
+      "item_id": "items_1261-17276670",
+      "product_id": "17276670",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_08845ad3-374e-44e9-a51a-17bc543d6fd9.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Mint, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-19489558",
+      "product_id": "19489558",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_67f960c6-23f8-4d61-b0ad-6e5979f4fc3c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Coconut Chocolate Almond, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-25700510",
+      "product_id": "25700510",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1513fae3-0c94-4812-9b81-c8ad98dde5d9.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Thunderbird Nutrition Bar",
+      "size": "1.7 oz",
+      "brand": "thunderbird",
+      "price": "$3.69",
+      "item_id": "items_1261-20026032",
+      "product_id": "20026032",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_55068011-bfe1-41ad-a1fc-1a5831d3a8d8.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "GoMacro Cherries + Berries MacroBar",
+      "size": "2 oz",
+      "brand": "gomacro",
+      "price": "$39.79",
+      "item_id": "items_1261-47760",
+      "product_id": "47760",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b96d0f97-43f6-4c3f-a5e1-f8fc90bd7a71.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Plant Based Snack Bar",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$2.99",
+      "item_id": "items_1261-27823698",
+      "product_id": "27823698",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b44be76c-cbcf-4fad-a30b-d7023eb74a8f.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bars, Organic, Blueberry",
+      "size": "12 each",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-57016622",
+      "product_id": "57016622",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a9fba62c-fcab-4dd9-ab80-576c47a74f37.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Peanut Butter MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$39.79",
+      "item_id": "items_1261-47756",
+      "product_id": "47756",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2d001c2-70ef-4de6-bbbf-b712028e70f5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Chocolate Sea Salt Protein Bars, Protein Snack",
+      "size": "1.8 oz",
+      "brand": "rxbar",
+      "price": "$3.09",
+      "item_id": "items_1261-2915435",
+      "product_id": "2915435",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e88c775a-8ac2-4c72-b611-606ee3e93b8a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Peanut Butter Chocolate Chip",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-17315351",
+      "product_id": "17315351",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_46609b50-7913-4ae9-a604-b1512db50381.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Bar, Peanut Butter Chocolate",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$3.99",
+      "item_id": "items_1261-47793",
+      "product_id": "47793",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6595ba64-84c8-4371-a213-e6a12d13c370.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Almond Acai Bar Case",
+      "size": "1.5 oz",
+      "brand": "perfect snacks",
+      "price": "$24.09",
+      "item_id": "items_1261-3307485",
+      "product_id": "3307485",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR Meal Bar",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-55896",
+      "product_id": "55896",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_82a198e6-db9a-494d-bd57-47ee455a5137.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Chip Cookie Dough, Organic",
+      "size": "12 ct",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-21120425",
+      "product_id": "21120425",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6a39a3e0-b871-42bc-9c08-2c4d2f88560e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Superfruit Slam",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-29738",
+      "product_id": "29738",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7130d05b-efeb-44ed-8adf-a41e3cbf4b01.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Chocolate Brownie",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$3.99",
+      "item_id": "items_1261-3089383",
+      "product_id": "3089383",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ccb121ef-1473-4acb-a05c-a065992109d0.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Chocolate Brownie Flavored Bar",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$2.99",
+      "item_id": "items_1261-26050883",
+      "product_id": "26050883",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_532122e4-af9f-4cbb-ba81-c953572565a7.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Superberry And Greens",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-47784",
+      "product_id": "47784",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ac2e47ad-411d-4ec5-85f0-5c2eaa753744.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Orgain Organic Plant Based Protein Snack Bar - Peanut Butter",
+      "size": "1.41 oz",
+      "brand": "orgain",
+      "price": "$25.79",
+      "item_id": "items_1261-17416321",
+      "product_id": "17416321",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d450230d-21eb-40d6-be88-515f74edf3e9.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Espresso, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-27676879",
+      "product_id": "27676879",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4395da20-a79b-486b-9681-f1548b445977.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Peanut Butter Chocolate Protein Bars, Protein Snack",
+      "size": "12 ct",
+      "brand": "rxbar",
+      "price": "$32.59",
+      "item_id": "items_1261-17379025",
+      "product_id": "17379025",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_93210999-29b8-4100-a7d4-8e4010c663ef.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "RXBAR Peanut Butter Protein Bars, Protein Snack",
+      "size": "1.8 oz",
+      "brand": "rxbar",
+      "price": "$3.09",
+      "item_id": "items_1261-2915442",
+      "product_id": "2915442",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_37919857-26ad-485c-a5e7-c4894082a2f8.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "jonesbar Real Food Bars, Organic, PB And J",
+      "size": "1.7 oz",
+      "brand": "jonesbar",
+      "price": "$31.39",
+      "item_id": "items_1261-17530796",
+      "product_id": "17530796",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_eb81cf5e-7cd7-4c64-8db4-a47ac23579be.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Coconut Chocolate Protein Bars, Protein Snack",
+      "size": "22 oz",
+      "brand": "rxbar",
+      "price": "$32.59",
+      "item_id": "items_1261-16265106",
+      "product_id": "16265106",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e08587e0-10ee-4b0c-b686-2d124cf6b626.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Mint Chocolate",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$42.59",
+      "item_id": "items_1261-47796",
+      "product_id": "47796",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2a3991f1-71df-4891-8262-129086886ef7.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Blueberry Protein Bars, Protein Snack",
+      "size": "12 ct",
+      "brand": "rxbar",
+      "price": "$32.59",
+      "item_id": "items_1261-3374721",
+      "product_id": "3374721",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_17154908-b46e-4e5f-b1f9-cebefab17e39.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Superberry And Greens",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-47783",
+      "product_id": "47783",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_414f4b16-bc7a-4561-a2d9-bb62e0560dd6.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "think! High Protein Bars, White Chocolate, 10 Count",
+      "size": "1.32 lb",
+      "brand": "think!",
+      "price": "$29.19",
+      "item_id": "items_1261-47752",
+      "product_id": "47752",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b8b4b777-637b-4005-a246-55fbaeee9fac.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "think! High Protein Bar, 20g Protein, Creamy Peanut Butter",
+      "size": "2.1 oz",
+      "brand": "think!",
+      "price": "$3.19",
+      "item_id": "items_1261-16914119",
+      "product_id": "16914119",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ec190458-eef0-44e7-9d57-47e2497be972.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Chocolate Cherry Protein Bars",
+      "size": "12 each",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-91795053",
+      "product_id": "91795053",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6fe216e9-fa51-4c87-af98-558cd4f2b6e3.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Perfect Bar Choco Crisp Dark Chocolate Protein Bars",
+      "size": "8 ct",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-30700408",
+      "product_id": "30700408",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cb086206-da29-4007-8c75-7e3636d2c398.jpg",
+      "availability": "lowStock"
+    },
+    {
+      "name": "think! High Protein Bar Chunky Peanut Butter",
+      "size": "1 ct",
+      "brand": "think!",
+      "price": "$3.19",
+      "item_id": "items_1261-17090277",
+      "product_id": "17090277",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9d650afa-962c-4697-a6a2-f4ed0a72a7a9.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Peanut Butter Chocolate Chip Bar",
+      "size": "1.8 oz",
+      "brand": "truvani",
+      "price": "$2.99",
+      "item_id": "items_1261-56435388",
+      "product_id": "56435388",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fc8a5dc6-81a9-4a9f-9a14-4e1e50e156e1.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "jonesbar Protein Bars, Organic, PB and J",
+      "size": "1.7 oz",
+      "brand": "jonesbar",
+      "price": "$2.99",
+      "item_id": "items_1261-17386902",
+      "product_id": "17386902",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_af080c3e-c3de-491d-9f37-611b75b6d3b0.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Chocolate Coconut",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-47777",
+      "product_id": "47777",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_89e2d72f-9878-4617-936a-830965a77785.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani The Only Bar Chocolate Peanut Butter Flavored Bars",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$31.39",
+      "item_id": "items_1261-29459351",
+      "product_id": "29459351",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_622e0835-9662-4790-911e-d5336110c848.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Coconut + Almond Butter + Chocolate Chips MacroBar",
+      "size": "12 ct",
+      "brand": "gomacro",
+      "price": "$39.79",
+      "item_id": "items_1261-16402751",
+      "product_id": "16402751",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_84a3e33b-b849-448a-a2b3-e24265a1d7fb.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Almond Butter Cup Protein Bars",
+      "size": "12 each",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-76562392",
+      "product_id": "76562392",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d7ff3d1d-234c-425b-bc23-30a821c5c50e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bars, Organic, Oatmeal Chocolate Chip",
+      "size": "12 each",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-48846223",
+      "product_id": "48846223",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9af17b1c-64fb-44a1-9f9c-5331af0c2c07.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Plant Based Snack Bar",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$2.99",
+      "item_id": "items_1261-27823118",
+      "product_id": "27823118",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3762c6e5-c4ca-4dcd-9ad3-26c661fb5141.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani The Only Bar Peanut Butter Chocolate Chip Bars",
+      "size": "1.76 oz",
+      "brand": "truvani the only bar",
+      "price": "$31.39",
+      "item_id": "items_1261-61734126",
+      "product_id": "61734126",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8808a4f1-0e6d-4b6e-b7fa-68760ac3d65d.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani The Only Bar Chocolate Brownie Flavored Bars",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$31.39",
+      "item_id": "items_1261-28214126",
+      "product_id": "28214126",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_75d5fb34-3ea0-43ed-b4f2-719b91d767a9.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Mint Chocolate Chip MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$39.79",
+      "item_id": "items_1261-30152186",
+      "product_id": "30152186",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_244a8419-9bbd-433f-8bda-e493702fd258.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Bar, Cookie Dough",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$3.99",
+      "item_id": "items_1261-47785",
+      "product_id": "47785",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5b189c22-e24e-4c43-afc3-a1507687eb7d.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Peanut Butter Chocolate Chip",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-16865422",
+      "product_id": "16865422",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_14e8c98c-d9dd-4713-b20b-be13f798e190.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Double Chocolate + Peanut Butter Chips MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$39.79",
+      "item_id": "items_1261-21141189",
+      "product_id": "21141189",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ff24ec33-6fb3-4902-a7db-1aadc051b933.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Mint Chocolate",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$3.99",
+      "item_id": "items_1261-47795",
+      "product_id": "47795",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3676cc56-0079-4c06-81de-0cd0f687f2c7.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bars, Peanut Butter Cup",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-25700500",
+      "product_id": "25700500",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7f0ee752-0e01-4f5b-b909-a81adc283e76.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Caramel Pecan, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-33202596",
+      "product_id": "33202596",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96a1d31f-2d29-4ff5-ad0e-73269f52a507.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani The Only Bar Coconut Cashew Bars",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$31.39",
+      "item_id": "items_1261-28251340",
+      "product_id": "28251340",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_32745b80-cb66-4330-8dd3-e1e31407ba99.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Fudge Brownie, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-16551092",
+      "product_id": "16551092",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a8baf7a8-c425-4407-9762-67cf52cfcd0e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Maple Sea Salt Protein Bars",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-46629077",
+      "product_id": "46629077",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c5b95b53-64d6-4d05-aaf2-7ccfe756ec1d.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Coconut Chocolate Protein Bar, 12g Protein",
+      "size": "1.8 oz",
+      "brand": "rxbar",
+      "price": "$3.09",
+      "item_id": "items_1261-2915433",
+      "product_id": "2915433",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3838aa97-49a6-4352-b884-ea7d71b68a47.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Chocolate Coconut",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-47778",
+      "product_id": "47778",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fb5d914d-2478-4f0c-b171-9a7920886c42.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Chocolate Sea Salt Protein Bars",
+      "size": "12 ct",
+      "brand": "rxbar",
+      "price": "$32.59",
+      "item_id": "items_1261-3206488",
+      "product_id": "3206488",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bd68ee5c-e61f-465e-a1eb-1aa3310915ba.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Oatmeal Chocolate Chip The Only Bar",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$31.39",
+      "item_id": "items_1261-52905709",
+      "product_id": "52905709",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cdf6da94-209d-498b-8a6e-ee903a300b3f.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Peanut Butter Chocolate",
+      "size": "2.46 oz",
+      "brand": "probar",
+      "price": "$42.59",
+      "item_id": "items_1261-47794",
+      "product_id": "47794",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_412620d3-ebb4-4e57-a9ae-9d38d95f9a48.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "jonesbars Coconut Almond Real Food Bars",
+      "size": "12 oz",
+      "brand": "jonesbars",
+      "price": "$31.39",
+      "item_id": "items_1261-17542099",
+      "product_id": "17542099",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR Meal Bar, Original Blend",
+      "size": "12 each",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-47776",
+      "product_id": "47776",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f2f40361-675a-4bab-9195-2b91eee848c5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Cookies and Creme Protein Bars",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-106404461",
+      "product_id": "106404461",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6cc184d3-7563-40b6-9ac6-df07f2022850.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Lemon Cashew Protein Bars",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-28778126",
+      "product_id": "28778126",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3fa0aa25-518c-4e34-b87e-948e9638e466.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Chocolate Brownie",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$42.59",
+      "item_id": "items_1261-16249142",
+      "product_id": "16249142",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a9933ad9-cdfa-4b60-bbd8-08ac508414f7.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Oatmeal Chocolate Chip Snack Bar",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$2.99",
+      "item_id": "items_1261-30199331",
+      "product_id": "30199331",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c090a3ac-ac79-426f-ae5d-735a9258d2e1.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "jonesbars Bars, Organic, Chocolate Peanut Butter",
+      "size": "1.7 oz",
+      "brand": "jonesbars",
+      "price": "$31.39",
+      "item_id": "items_1261-21186776",
+      "product_id": "21186776",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4505e3bf-de9d-4f0f-91fb-ac6ef49652e6.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Peanut Butter Chocolate Chip",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-47780",
+      "product_id": "47780",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b079a4e3-3815-4d83-8148-8cd82eba1a23.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Peanut Butter",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-136008",
+      "product_id": "136008",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3e15e65b-1b62-418d-b1da-15527e593cf3.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Cookie Dough",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$42.59",
+      "item_id": "items_1261-47786",
+      "product_id": "47786",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5ebdef40-6431-41ea-bc69-7707483f6611.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Blueberry Protein Bars, Protein Snack",
+      "size": "1.8 oz",
+      "brand": "rxbar",
+      "price": "$3.09",
+      "item_id": "items_1261-2909668",
+      "product_id": "2909668",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c38f7647-57b4-4e18-8ff7-6727b82b0a82.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Original Trail Mix",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-29734",
+      "product_id": "29734",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4c8f2182-9f56-4892-b1da-e27e27da4473.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Peanut Butter Protein Bars, 12g Protein",
+      "size": "12 ct",
+      "brand": "rxbar",
+      "price": "$32.59",
+      "item_id": "items_1261-3374723",
+      "product_id": "3374723",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bb4ca085-1e3b-4145-8c16-7cd5873105e6.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "think! High Protein Creamy Peanut Butter Protein Bar",
+      "size": "2.1 oz",
+      "brand": "think!",
+      "price": "$29.19",
+      "item_id": "items_1261-47753",
+      "product_id": "47753",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_506262f5-1ced-4059-8b4b-7c5d98aede25.png",
+      "availability": "inStock"
+    }
+  ],
+  "raw_text_chars": 9691,
+  "steps": [
+    "14:29:13 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "14:29:14 connected to Bright Data Scraping Browser",
+    "14:29:18 goto https://www.instacart.com/store/natural-grocers/s?k=perfect bar",
+    "14:29:27 captcha check passed",
+    "14:29:38 dismissed \"Continue\"",
+    "14:29:47 js_houses 145 store API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+    "14:29:48 store_set: null",
+    "14:29:48 attempt 2: store not pinned, fresh page",
+    "14:29:51 goto https://www.instacart.com/store/natural-grocers/s?k=perfect bar",
+    "14:30:06 captcha check passed",
+    "14:30:17 dismissed \"Continue\"",
+    "14:30:25 js_houses 139 store API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+    "14:30:26 store_set: null",
+    "14:30:27 js_houses override: 139",
+    "14:30:27 extracted 139 houses; raw text 9691 chars"
+  ],
+  "error": null,
+  "js_houses": [
+    {
+      "name": "GoMacro Peanut Butter Chocolate Chip MacroBar",
+      "size": "2.4 oz",
+      "brand": "gomacro",
+      "price": "$3.69",
+      "item_id": "items_1261-18151571",
+      "product_id": "18151571",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2f7ee752-0e47-4855-9e77-7d38b5f81bbc.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Double Chocolate + Peanut Butter Chips MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$3.69",
+      "item_id": "items_1261-21141156",
+      "product_id": "21141156",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_55ee2b8c-2287-4391-b552-d4b8d1ce035f.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "GoMacro Coconut + Almond Butter + Chocolate Chips MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$3.69",
+      "item_id": "items_1261-16295688",
+      "product_id": "16295688",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f77ffd59-f71f-407a-8c26-37e402c76f88.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Banana + Almond Butter MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$3.69",
+      "item_id": "items_1261-47762",
+      "product_id": "47762",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d162c903-3944-4f52-8afe-d56e216ede9c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Salted Caramel + Chocolate Chips MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$3.69",
+      "item_id": "items_1261-25892814",
+      "product_id": "25892814",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cf7700d0-eccc-40ba-a25b-141a550b37ab.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Mini Dark Chocolate Chip Peanut Butter Protein Bar, Gluten-Free 7 oz",
+      "size": "7 oz",
+      "brand": "perfect bar",
+      "price": "$10.09",
+      "item_id": "items_1261-24790500",
+      "product_id": "24790500",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_55b41dcd-dcb0-4c11-9c46-217a40fd2abf.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Mini Chocolate Covered Peanut Butter Protein Bar, Gluten-Free",
+      "size": "6.34 oz",
+      "brand": "perfect bar",
+      "price": "$10.09",
+      "item_id": "items_1261-26803456",
+      "product_id": "26803456",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6fe64775-692e-4095-869b-abf24ff39824.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Perfect Bar Dark Chocolate Chip Peanut Butter Protein Bar, Gluten-Free 9 oz",
+      "size": "9.2 oz",
+      "brand": "perfect bar",
+      "price": "$12.19",
+      "item_id": "items_1261-19225083",
+      "product_id": "19225083",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_691458cf-144c-4b2e-89a6-e2203ca3b2ea.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Mini Peanut Butter Protein Bar, Gluten-Free 7 oz",
+      "size": "7 oz",
+      "brand": "perfect bar",
+      "price": "$10.09",
+      "item_id": "items_1261-24880930",
+      "product_id": "24880930",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bd164032-0da3-4d28-911f-aae8e55ad62e.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Perfect Bar Chocolate Chip Cookie Dough Nut Butter Protein Bar, Gluten-Free 2 oz",
+      "size": "2.18 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-27834778",
+      "product_id": "27834778",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_982dbe88-8063-4329-9e53-e2363f38a2fe.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Perfect Bar Peanut Butter Protein Bar, Gluten-Free 10 oz",
+      "size": "10 oz",
+      "brand": "perfect bar",
+      "price": "$12.19",
+      "item_id": "items_1261-19225080",
+      "product_id": "19225080",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ab46e17c-1707-437b-8a85-4fa2eb623929.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Chocolate Mint Peanut Butter Protein Bar, Gluten-Free 2 oz",
+      "size": "2.3 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-20168351",
+      "product_id": "20168351",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_979d68a7-0b86-45fe-a422-1e87a261a781.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Dark Chocolate Chip Peanut Butter Protein Bar, Gluten-Free 2.3 oz",
+      "size": "2.3 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-16907565",
+      "product_id": "16907565",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_375097c0-980f-43df-b887-23a9562d906f.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Salted Caramel Cashew Butter And Peanut Butter Protein Bar, Gluten-Free 2 oz",
+      "size": "2.2 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-21345109",
+      "product_id": "21345109",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fe41c3a6-f197-4556-ba72-fd7f833249a1.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Chocolate Chip Cookie Dough Protein Bar",
+      "size": "2.18 oz",
+      "brand": "perfect snacks",
+      "price": "$12.19",
+      "item_id": "items_1261-28515004",
+      "product_id": "28515004",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e59b1055-acea-4a86-98e0-51d08d8606c5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Coconut Peanut Butter Protein Bar, Gluten-Free 3 oz",
+      "size": "2.5 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-16469139",
+      "product_id": "16469139",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_26ea2bef-6630-4686-a11c-72824cc76195.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Peanut Butter Bar",
+      "size": "2.5 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-172751",
+      "product_id": "172751",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c8b22e66-66e4-4724-8093-3af4123c5cbb.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Chocolate Covered Salted Caramel Protein Bar",
+      "size": "6 oz",
+      "brand": "perfect snacks",
+      "price": "$10.09",
+      "item_id": "items_1261-85395667",
+      "product_id": "85395667",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Dark Chocolate Chip Peanut Butter with Sea Salt Protein Bar",
+      "size": "2.3 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-16910749",
+      "product_id": "16910749",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_51b62389-02e8-4087-ab48-b079cf973130.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Chocolate Brownie Protein Bar",
+      "size": "2.18 oz",
+      "brand": "perfect snacks",
+      "price": "$3.79",
+      "item_id": "items_1261-46840180",
+      "product_id": "46840180",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_90b95cb4-ba6e-420b-8f23-d2fdf4e42fb8.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Chocolate Hazelnut Crisp Protein Bar, Gluten-Free 2 oz",
+      "size": "2.2 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-19750620",
+      "product_id": "19750620",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a76ce14e-0114-4f82-ba8f-1a6d57007949.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Peanut Butter Protein Bar",
+      "size": "8 ct",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-2742269",
+      "product_id": "2742269",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_674c449e-59fc-4a5c-814d-04ca32e1a036.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Crispy Dark Chocolate Nut Butter Protein Bar, Gluten-Free 2 oz",
+      "size": "1.94 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-30201345",
+      "product_id": "30201345",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_eb82306f-c815-449e-ae64-b1956cc1d2c2.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Pumpkin Pie Protein Bar",
+      "size": "2 oz",
+      "brand": "perfect snacks",
+      "price": "$3.79",
+      "item_id": "items_1261-19074009",
+      "product_id": "19074009",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e8389093-172d-42b9-912d-24d520650bc5.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Coconut Peanut Butter Protein Bar",
+      "size": "8 ct",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-16335751",
+      "product_id": "16335751",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3c5a49b3-fd64-4900-9fc9-527fe06e4016.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Pumpkin Pie Protein Bar",
+      "size": "2.2 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-19211900",
+      "product_id": "19211900",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_70ce4f98-789d-4a5e-b841-2f14ccc950a1.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Coconut Peanut Butter Protein Bar, Gluten-Free 10 oz",
+      "size": "4 ct",
+      "brand": "perfect bar",
+      "price": "$12.19",
+      "item_id": "items_1261-24610400",
+      "product_id": "24610400",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_513390f4-da3b-4bb6-bab1-19dc30cb6294.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Protein Bar, Almond Butter",
+      "size": "2.3 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-3340272",
+      "product_id": "3340272",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4a8c8f77-11d3-495f-be00-2e41d38baadb.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Dark Chocolate Almond Protein Bar",
+      "size": "2.2 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-16910751",
+      "product_id": "16910751",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_474cf0a1-aa4b-4b76-a45d-a5ed0ea6a667.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Chocolate Cherry Protein Bar",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-94805253",
+      "product_id": "94805253",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_11087a3e-3ad3-4bf0-a657-20bbc89049c7.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Siete Grain Free Strawberries & Cream Cookies",
+      "size": "4.5 oz",
+      "brand": "siete",
+      "price": "$5.29",
+      "item_id": "items_1261-39374272",
+      "product_id": "39374272",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9d9127aa-4289-482c-8992-2ec5fa8f1519.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Siete Grain Free Mexican Wedding Cookies",
+      "size": "4.5 oz",
+      "brand": "siete",
+      "price": "$5.29",
+      "item_id": "items_1261-23812281",
+      "product_id": "23812281",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6aed2c6c-f4e0-46a7-a057-27769f07af60.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Siete Grain Free Mexican Shortbread Cookies",
+      "size": "4.5 oz",
+      "brand": "siete",
+      "price": "$5.29",
+      "item_id": "items_1261-23812246",
+      "product_id": "23812246",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d8cb372f-829a-44ed-81df-c8f49237b23a.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Siete Kettle Cooked Chipotle BBQ Potato Chips",
+      "size": "5.5 oz",
+      "brand": "siete",
+      "price": "$4.69",
+      "item_id": "items_1261-23522811",
+      "product_id": "23522811",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_885615fe-e1fe-4c0a-840f-2e83dee76813.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Siete Corn Tortilla Chips, Dairy Free, Mexican Street Corn",
+      "size": "7.5 oz",
+      "brand": "siete",
+      "price": "$5.39",
+      "item_id": "items_1261-64418800",
+      "product_id": "64418800",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_97b37598-a3a9-47a7-839e-21cc2832cb6c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Maple Sea Salt Protein Bar",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-46408796",
+      "product_id": "46408796",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_58464c6b-3b59-4868-b793-c1d6ad01b351.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Mint, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-17620519",
+      "product_id": "17620519",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d47cc6f8-1144-4425-9aa8-8c51be86912f.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Perfect Bar Dark Chocolate Almond Protein Bar, Gluten-Free 2 oz",
+      "size": "2.2 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-16907669",
+      "product_id": "16907669",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a3c07122-b122-4ccc-86b8-0e2f88c50229.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Protein Bar, Chocolate Hazelnut Crisp",
+      "size": "2.2 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-20035849",
+      "product_id": "20035849",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b567ad03-00f0-40a4-94d2-3df09a45a6be.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Chocolate Mint Protein Bar",
+      "size": "65 g",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-20168148",
+      "product_id": "20168148",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_15463fc6-7696-4207-b574-9d53b80e72a7.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Back to Nature Peanut Butter Creme Sandwich Cookies",
+      "size": "8.25 oz",
+      "brand": "back to nature",
+      "price": "$6.29",
+      "item_id": "items_1261-20699180",
+      "product_id": "20699180",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e8231fa0-6610-4956-be1a-d0ce96d20209.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Back to Nature Chocolate Chunk Cookies",
+      "size": "7.5 oz",
+      "brand": "back to nature",
+      "price": "$6.29",
+      "item_id": "items_1261-59770388",
+      "product_id": "59770388",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5ad00c0b-bae9-49ac-bdf3-fcb2a5caac1c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Back to Nature Classic Creme Sandwich Cookies",
+      "size": "9 oz",
+      "brand": "back to nature",
+      "price": "$6.29",
+      "item_id": "items_1261-59770251",
+      "product_id": "59770251",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_25a9a29a-10ab-4d6e-8b14-489bdc1b03a7.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Back to Nature Double Classic Creme Sandwich Cookies",
+      "size": "8.25 oz",
+      "brand": "back to nature",
+      "price": "$6.29",
+      "item_id": "items_1261-29355513",
+      "product_id": "29355513",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_438037b1-4754-45e1-86ca-5c29656680b3.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Perfect Bar Chocolate Chip Cookie Dough Nut Butter Protein Bar, Gluten-Free 17 oz",
+      "size": "2.18 oz",
+      "brand": "perfect bar",
+      "price": "$27.09",
+      "item_id": "items_1261-30715586",
+      "product_id": "30715586",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1622214d-4d81-4390-8875-adf0d6555cc2.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Chocolate Brownie Bars",
+      "size": "each",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-51343810",
+      "product_id": "51343810",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Bar Almond Butter",
+      "size": "2.3 oz",
+      "brand": "perfect bar",
+      "price": "$3.79",
+      "item_id": "items_1261-17314768",
+      "product_id": "17314768",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_dc63d6fb-912c-436a-bb34-863d956c9a48.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Protein Bar, Salted Caramel",
+      "size": "17.5 oz",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-21343983",
+      "product_id": "21343983",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2727b6f8-bedc-4d9b-a6f6-8b7051e62dea.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Coconut Chocolate Almond",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-25041316",
+      "product_id": "25041316",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_64308b54-aa39-4ee1-a46f-e253129fee1e.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Olyra Dark Chocolate, Crème Breakfast Biscuits, Organic Snack",
+      "size": "5.3 oz",
+      "brand": "olyra",
+      "price": "$5.99",
+      "item_id": "items_1261-23755403",
+      "product_id": "23755403",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c30afa0c-9fd4-4f0d-a488-df686a5e5e79.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Olyra Hazelnut Cocoa, Crème Breakfast Biscuits, Organic Snack",
+      "size": "5.3 oz",
+      "brand": "olyra",
+      "price": "$5.99",
+      "item_id": "items_1261-23755415",
+      "product_id": "23755415",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_13a93fec-74b4-4bf9-84b2-9edc26c0f5a2.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Olyra Vanilla, Crème Breakfast Biscuits, Organic Snack",
+      "size": "4 ct",
+      "brand": "olyra",
+      "price": "$5.99",
+      "item_id": "items_1261-75688638",
+      "product_id": "75688638",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8ee1bde2-94ac-4a9a-aa72-577d66f45f27.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Chocolate Espresso",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-27611594",
+      "product_id": "27611594",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3a2f0fcd-6903-44d9-8cb8-27cf603b4165.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Almond Butter Cup Protein Bar",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-74125879",
+      "product_id": "74125879",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_aca5d236-e6a8-4030-8ec2-d71cc4d18bd9.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Aloha Organic Oatmeal Chocolate Chip Protein Bar",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-48846248",
+      "product_id": "48846248",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6132151e-8213-4f8c-851b-74bd8b367bee.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Thunderbird Nutrition Bar",
+      "size": "1.7 oz",
+      "brand": "thunderbird",
+      "price": "$3.69",
+      "item_id": "items_1261-20200402",
+      "product_id": "20200402",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b0468053-a756-454c-a540-9ee07f494133.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Aloha Protein Bars, Organic, Chocolate Chip Cookie Dough",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-20718016",
+      "product_id": "20718016",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bd4d513b-8814-48ee-96a4-4f8ce957a8cb.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Peanut Butter Cup, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-25700508",
+      "product_id": "25700508",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_11fc1bf7-c776-4f49-a9fa-5f9e4b43aaf6.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Lemon Cashew, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-28036802",
+      "product_id": "28036802",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9163ba58-5cb1-49f5-ba58-ec7554bdd9b0.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Peanut Butter Chocolate Chip",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-16623908",
+      "product_id": "16623908",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_27021446-e99c-42d2-89f3-1ff380ac763d.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Truvani The Only Bar Chocolate Chip Banana Bread",
+      "size": "12 oz",
+      "brand": "truvani the only bar",
+      "price": "$31.39",
+      "item_id": "items_1261-64412698",
+      "product_id": "64412698",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Superfruit Slam",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-310321",
+      "product_id": "310321",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_300b5644-a518-4ade-8a85-a1ed1f79b4bd.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Cookies and Creme Protein Bar",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-106405469",
+      "product_id": "106405469",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_26ab806c-cdec-4370-8a52-4ef865aff8f2.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Blueberry",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-56091566",
+      "product_id": "56091566",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d3319cd3-f9b5-49f9-abda-7474b082400f.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Fudge Brownie, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-16627218",
+      "product_id": "16627218",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_26ba7d17-564c-4a3a-920a-9cad6e22d686.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Chocolate Caramel Pecan",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$3.39",
+      "item_id": "items_1261-32873159",
+      "product_id": "32873159",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_49a75144-81b5-4d5a-ae62-c05bf190b040.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Mammoth Bar Almond Vanilla Raw Protein Bar",
+      "size": "1.8 oz",
+      "brand": "mammoth bar",
+      "price": "$3.39",
+      "item_id": "items_1261-18489916",
+      "product_id": "18489916",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1b15f877-9be5-494e-8fec-7c416563e57f.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "jonesbar Bar, Organic, Chocolate Peanut Butter",
+      "size": "1.7 oz",
+      "brand": "jonesbar",
+      "price": "$2.99",
+      "item_id": "items_1261-21120749",
+      "product_id": "21120749",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f8d0a9a3-a3ed-458d-864d-d2a9a962c3e5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Protein Bar Peanut Butter Chocolate",
+      "size": "1.8 oz",
+      "brand": "rxbar",
+      "price": "$3.09",
+      "item_id": "items_1261-17276670",
+      "product_id": "17276670",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_08845ad3-374e-44e9-a51a-17bc543d6fd9.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Mint, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-19489558",
+      "product_id": "19489558",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_67f960c6-23f8-4d61-b0ad-6e5979f4fc3c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Coconut Chocolate Almond, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-25700510",
+      "product_id": "25700510",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_1513fae3-0c94-4812-9b81-c8ad98dde5d9.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Thunderbird Nutrition Bar",
+      "size": "1.7 oz",
+      "brand": "thunderbird",
+      "price": "$3.69",
+      "item_id": "items_1261-20026032",
+      "product_id": "20026032",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_55068011-bfe1-41ad-a1fc-1a5831d3a8d8.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "GoMacro Cherries + Berries MacroBar",
+      "size": "2 oz",
+      "brand": "gomacro",
+      "price": "$39.79",
+      "item_id": "items_1261-47760",
+      "product_id": "47760",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b96d0f97-43f6-4c3f-a5e1-f8fc90bd7a71.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Plant Based Snack Bar",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$2.99",
+      "item_id": "items_1261-27823698",
+      "product_id": "27823698",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b44be76c-cbcf-4fad-a30b-d7023eb74a8f.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bars, Organic, Blueberry",
+      "size": "12 each",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-57016622",
+      "product_id": "57016622",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a9fba62c-fcab-4dd9-ab80-576c47a74f37.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Peanut Butter MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$39.79",
+      "item_id": "items_1261-47756",
+      "product_id": "47756",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a2d001c2-70ef-4de6-bbbf-b712028e70f5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Chocolate Sea Salt Protein Bars, Protein Snack",
+      "size": "1.8 oz",
+      "brand": "rxbar",
+      "price": "$3.09",
+      "item_id": "items_1261-2915435",
+      "product_id": "2915435",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e88c775a-8ac2-4c72-b611-606ee3e93b8a.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Peanut Butter Chocolate Chip",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-17315351",
+      "product_id": "17315351",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_46609b50-7913-4ae9-a604-b1512db50381.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Bar, Peanut Butter Chocolate",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$3.99",
+      "item_id": "items_1261-47793",
+      "product_id": "47793",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6595ba64-84c8-4371-a213-e6a12d13c370.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Almond Acai Bar Case",
+      "size": "1.5 oz",
+      "brand": "perfect snacks",
+      "price": "$24.09",
+      "item_id": "items_1261-3307485",
+      "product_id": "3307485",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR Meal Bar",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-55896",
+      "product_id": "55896",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_82a198e6-db9a-494d-bd57-47ee455a5137.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Chip Cookie Dough, Organic",
+      "size": "12 ct",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-21120425",
+      "product_id": "21120425",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6a39a3e0-b871-42bc-9c08-2c4d2f88560e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Superfruit Slam",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-29738",
+      "product_id": "29738",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7130d05b-efeb-44ed-8adf-a41e3cbf4b01.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Chocolate Brownie",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$3.99",
+      "item_id": "items_1261-3089383",
+      "product_id": "3089383",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ccb121ef-1473-4acb-a05c-a065992109d0.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Chocolate Brownie Flavored Bar",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$2.99",
+      "item_id": "items_1261-26050883",
+      "product_id": "26050883",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_532122e4-af9f-4cbb-ba81-c953572565a7.png",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Superberry And Greens",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-47784",
+      "product_id": "47784",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ac2e47ad-411d-4ec5-85f0-5c2eaa753744.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Orgain Organic Plant Based Protein Snack Bar - Peanut Butter",
+      "size": "1.41 oz",
+      "brand": "orgain",
+      "price": "$25.79",
+      "item_id": "items_1261-17416321",
+      "product_id": "17416321",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d450230d-21eb-40d6-be88-515f74edf3e9.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Espresso, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-27676879",
+      "product_id": "27676879",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4395da20-a79b-486b-9681-f1548b445977.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Peanut Butter Chocolate Protein Bars, Protein Snack",
+      "size": "12 ct",
+      "brand": "rxbar",
+      "price": "$32.59",
+      "item_id": "items_1261-17379025",
+      "product_id": "17379025",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_93210999-29b8-4100-a7d4-8e4010c663ef.jpg",
+      "availability": "highlyInStock"
+    },
+    {
+      "name": "RXBAR Peanut Butter Protein Bars, Protein Snack",
+      "size": "1.8 oz",
+      "brand": "rxbar",
+      "price": "$3.09",
+      "item_id": "items_1261-2915442",
+      "product_id": "2915442",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_37919857-26ad-485c-a5e7-c4894082a2f8.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "jonesbar Real Food Bars, Organic, PB And J",
+      "size": "1.7 oz",
+      "brand": "jonesbar",
+      "price": "$31.39",
+      "item_id": "items_1261-17530796",
+      "product_id": "17530796",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_eb81cf5e-7cd7-4c64-8db4-a47ac23579be.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Coconut Chocolate Protein Bars, Protein Snack",
+      "size": "22 oz",
+      "brand": "rxbar",
+      "price": "$32.59",
+      "item_id": "items_1261-16265106",
+      "product_id": "16265106",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_e08587e0-10ee-4b0c-b686-2d124cf6b626.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Mint Chocolate",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$42.59",
+      "item_id": "items_1261-47796",
+      "product_id": "47796",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_2a3991f1-71df-4891-8262-129086886ef7.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Blueberry Protein Bars, Protein Snack",
+      "size": "12 ct",
+      "brand": "rxbar",
+      "price": "$32.59",
+      "item_id": "items_1261-3374721",
+      "product_id": "3374721",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_17154908-b46e-4e5f-b1f9-cebefab17e39.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Superberry And Greens",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-47783",
+      "product_id": "47783",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_414f4b16-bc7a-4561-a2d9-bb62e0560dd6.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "think! High Protein Bars, White Chocolate, 10 Count",
+      "size": "1.32 lb",
+      "brand": "think!",
+      "price": "$29.19",
+      "item_id": "items_1261-47752",
+      "product_id": "47752",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b8b4b777-637b-4005-a246-55fbaeee9fac.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "think! High Protein Bar, 20g Protein, Creamy Peanut Butter",
+      "size": "2.1 oz",
+      "brand": "think!",
+      "price": "$3.19",
+      "item_id": "items_1261-16914119",
+      "product_id": "16914119",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ec190458-eef0-44e7-9d57-47e2497be972.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Chocolate Cherry Protein Bars",
+      "size": "12 each",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-91795053",
+      "product_id": "91795053",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6fe216e9-fa51-4c87-af98-558cd4f2b6e3.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Perfect Snacks Perfect Bar Choco Crisp Dark Chocolate Protein Bars",
+      "size": "8 ct",
+      "brand": "perfect snacks",
+      "price": "$27.09",
+      "item_id": "items_1261-30700408",
+      "product_id": "30700408",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cb086206-da29-4007-8c75-7e3636d2c398.jpg",
+      "availability": "lowStock"
+    },
+    {
+      "name": "think! High Protein Bar Chunky Peanut Butter",
+      "size": "1 ct",
+      "brand": "think!",
+      "price": "$3.19",
+      "item_id": "items_1261-17090277",
+      "product_id": "17090277",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9d650afa-962c-4697-a6a2-f4ed0a72a7a9.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Peanut Butter Chocolate Chip Bar",
+      "size": "1.8 oz",
+      "brand": "truvani",
+      "price": "$2.99",
+      "item_id": "items_1261-56435388",
+      "product_id": "56435388",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fc8a5dc6-81a9-4a9f-9a14-4e1e50e156e1.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "jonesbar Protein Bars, Organic, PB and J",
+      "size": "1.7 oz",
+      "brand": "jonesbar",
+      "price": "$2.99",
+      "item_id": "items_1261-17386902",
+      "product_id": "17386902",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_af080c3e-c3de-491d-9f37-611b75b6d3b0.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Chocolate Coconut",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-47777",
+      "product_id": "47777",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_89e2d72f-9878-4617-936a-830965a77785.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani The Only Bar Chocolate Peanut Butter Flavored Bars",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$31.39",
+      "item_id": "items_1261-29459351",
+      "product_id": "29459351",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_622e0835-9662-4790-911e-d5336110c848.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Coconut + Almond Butter + Chocolate Chips MacroBar",
+      "size": "12 ct",
+      "brand": "gomacro",
+      "price": "$39.79",
+      "item_id": "items_1261-16402751",
+      "product_id": "16402751",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_84a3e33b-b849-448a-a2b3-e24265a1d7fb.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Almond Butter Cup Protein Bars",
+      "size": "12 each",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-76562392",
+      "product_id": "76562392",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_d7ff3d1d-234c-425b-bc23-30a821c5c50e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bars, Organic, Oatmeal Chocolate Chip",
+      "size": "12 each",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-48846223",
+      "product_id": "48846223",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_9af17b1c-64fb-44a1-9f9c-5331af0c2c07.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Plant Based Snack Bar",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$2.99",
+      "item_id": "items_1261-27823118",
+      "product_id": "27823118",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3762c6e5-c4ca-4dcd-9ad3-26c661fb5141.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani The Only Bar Peanut Butter Chocolate Chip Bars",
+      "size": "1.76 oz",
+      "brand": "truvani the only bar",
+      "price": "$31.39",
+      "item_id": "items_1261-61734126",
+      "product_id": "61734126",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8808a4f1-0e6d-4b6e-b7fa-68760ac3d65d.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani The Only Bar Chocolate Brownie Flavored Bars",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$31.39",
+      "item_id": "items_1261-28214126",
+      "product_id": "28214126",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_75d5fb34-3ea0-43ed-b4f2-719b91d767a9.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Mint Chocolate Chip MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$39.79",
+      "item_id": "items_1261-30152186",
+      "product_id": "30152186",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_244a8419-9bbd-433f-8bda-e493702fd258.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Bar, Cookie Dough",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$3.99",
+      "item_id": "items_1261-47785",
+      "product_id": "47785",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5b189c22-e24e-4c43-afc3-a1507687eb7d.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Organic, Peanut Butter Chocolate Chip",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-16865422",
+      "product_id": "16865422",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_14e8c98c-d9dd-4713-b20b-be13f798e190.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "GoMacro Double Chocolate + Peanut Butter Chips MacroBar",
+      "size": "2.3 oz",
+      "brand": "gomacro",
+      "price": "$39.79",
+      "item_id": "items_1261-21141189",
+      "product_id": "21141189",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_ff24ec33-6fb3-4902-a7db-1aadc051b933.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Mint Chocolate",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$3.99",
+      "item_id": "items_1261-47795",
+      "product_id": "47795",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3676cc56-0079-4c06-81de-0cd0f687f2c7.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bars, Peanut Butter Cup",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-25700500",
+      "product_id": "25700500",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_7f0ee752-0e01-4f5b-b909-a81adc283e76.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Caramel Pecan, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-33202596",
+      "product_id": "33202596",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_96a1d31f-2d29-4ff5-ad0e-73269f52a507.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani The Only Bar Coconut Cashew Bars",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$31.39",
+      "item_id": "items_1261-28251340",
+      "product_id": "28251340",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_32745b80-cb66-4330-8dd3-e1e31407ba99.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Protein Bar, Chocolate Fudge Brownie, Organic",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-16551092",
+      "product_id": "16551092",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a8baf7a8-c425-4407-9762-67cf52cfcd0e.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Maple Sea Salt Protein Bars",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-46629077",
+      "product_id": "46629077",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c5b95b53-64d6-4d05-aaf2-7ccfe756ec1d.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Coconut Chocolate Protein Bar, 12g Protein",
+      "size": "1.8 oz",
+      "brand": "rxbar",
+      "price": "$3.09",
+      "item_id": "items_1261-2915433",
+      "product_id": "2915433",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3838aa97-49a6-4352-b884-ea7d71b68a47.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Chocolate Coconut",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-47778",
+      "product_id": "47778",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_fb5d914d-2478-4f0c-b171-9a7920886c42.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Chocolate Sea Salt Protein Bars",
+      "size": "12 ct",
+      "brand": "rxbar",
+      "price": "$32.59",
+      "item_id": "items_1261-3206488",
+      "product_id": "3206488",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bd68ee5c-e61f-465e-a1eb-1aa3310915ba.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Oatmeal Chocolate Chip The Only Bar",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$31.39",
+      "item_id": "items_1261-52905709",
+      "product_id": "52905709",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_cdf6da94-209d-498b-8a6e-ee903a300b3f.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Peanut Butter Chocolate",
+      "size": "2.46 oz",
+      "brand": "probar",
+      "price": "$42.59",
+      "item_id": "items_1261-47794",
+      "product_id": "47794",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_412620d3-ebb4-4e57-a9ae-9d38d95f9a48.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "jonesbars Coconut Almond Real Food Bars",
+      "size": "12 oz",
+      "brand": "jonesbars",
+      "price": "$31.39",
+      "item_id": "items_1261-17542099",
+      "product_id": "17542099",
+      "img": "https://d1s8987jlndkbs.cloudfront.net/assets/missing-item-4bbe82b8555e4d1c12626fd482cb2409713e8e30835645ff3650ef66a725d03c.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR Meal Bar, Original Blend",
+      "size": "12 each",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-47776",
+      "product_id": "47776",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_f2f40361-675a-4bab-9195-2b91eee848c5.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Cookies and Creme Protein Bars",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-106404461",
+      "product_id": "106404461",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_6cc184d3-7563-40b6-9ac6-df07f2022850.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Aloha Organic Lemon Cashew Protein Bars",
+      "size": "1.98 oz",
+      "brand": "aloha",
+      "price": "$36.39",
+      "item_id": "items_1261-28778126",
+      "product_id": "28778126",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3fa0aa25-518c-4e34-b87e-948e9638e466.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Chocolate Brownie",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$42.59",
+      "item_id": "items_1261-16249142",
+      "product_id": "16249142",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_a9933ad9-cdfa-4b60-bbd8-08ac508414f7.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "Truvani Oatmeal Chocolate Chip Snack Bar",
+      "size": "1.76 oz",
+      "brand": "truvani",
+      "price": "$2.99",
+      "item_id": "items_1261-30199331",
+      "product_id": "30199331",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c090a3ac-ac79-426f-ae5d-735a9258d2e1.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "jonesbars Bars, Organic, Chocolate Peanut Butter",
+      "size": "1.7 oz",
+      "brand": "jonesbars",
+      "price": "$31.39",
+      "item_id": "items_1261-21186776",
+      "product_id": "21186776",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4505e3bf-de9d-4f0f-91fb-ac6ef49652e6.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Peanut Butter Chocolate Chip",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-47780",
+      "product_id": "47780",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_b079a4e3-3815-4d83-8148-8cd82eba1a23.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Peanut Butter",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$47.09",
+      "item_id": "items_1261-136008",
+      "product_id": "136008",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_3e15e65b-1b62-418d-b1da-15527e593cf3.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR PROTEIN, 20g Plant-Based Protein Bar, Cookie Dough",
+      "size": "2.47 oz",
+      "brand": "probar",
+      "price": "$42.59",
+      "item_id": "items_1261-47786",
+      "product_id": "47786",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_5ebdef40-6431-41ea-bc69-7707483f6611.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Blueberry Protein Bars, Protein Snack",
+      "size": "1.8 oz",
+      "brand": "rxbar",
+      "price": "$3.09",
+      "item_id": "items_1261-2909668",
+      "product_id": "2909668",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_c38f7647-57b4-4e18-8ff7-6727b82b0a82.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "PROBAR MEAL Replacement Bar, Original Trail Mix",
+      "size": "3 oz",
+      "brand": "probar",
+      "price": "$4.39",
+      "item_id": "items_1261-29734",
+      "product_id": "29734",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_4c8f2182-9f56-4892-b1da-e27e27da4473.png",
+      "availability": "inStock"
+    },
+    {
+      "name": "RXBAR Peanut Butter Protein Bars, 12g Protein",
+      "size": "12 ct",
+      "brand": "rxbar",
+      "price": "$32.59",
+      "item_id": "items_1261-3374723",
+      "product_id": "3374723",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_bb4ca085-1e3b-4145-8c16-7cd5873105e6.jpg",
+      "availability": "inStock"
+    },
+    {
+      "name": "think! High Protein Creamy Peanut Butter Protein Bar",
+      "size": "2.1 oz",
+      "brand": "think!",
+      "price": "$29.19",
+      "item_id": "items_1261-47753",
+      "product_id": "47753",
+      "img": "https://d2lnr5mha7bycj.cloudfront.net/product-image/file/large_506262f5-1ced-4059-8b4b-7c5d98aede25.png",
+      "availability": "inStock"
+    }
+  ],
+  "js_store": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "js_debug": "DefaultShop 200 1693 | matched natural-grocers | SearchResultsPlacements 200 583658 | shop 14929 loc 1261 zone 484 ids 139 | Items 200 340046 | Items 200 349383 | Items 200 352073 | Items 200 354092 | Items 200 212645",
+  "houses_text": 5,
+  "houses_page": 66
+}
