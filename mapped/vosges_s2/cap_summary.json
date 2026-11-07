@@ -1,0 +1,392 @@
+{
+ "candy-chocolate/brand@wholefoods": {
+  "rows_in": 2,
+  "brands": 1,
+  "rows_out": 2,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/brand@wholefoods-socal": {
+  "rows_in": 2,
+  "brands": 1,
+  "rows_out": 2,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@albertsons": {
+  "rows_in": 8,
+  "brands": 8,
+  "rows_out": 8,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@bristol-farms": {
+  "rows_in": 175,
+  "brands": 49,
+  "rows_out": 49,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-bites-pouch@central-market": {
+  "rows_in": 135,
+  "brands": 64,
+  "rows_out": 64,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-bites-pouch@costco-online": {
+  "rows_in": 29,
+  "brands": 22,
+  "rows_out": 22,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-bites-pouch@erewhon": {
+  "rows_in": 152,
+  "brands": 56,
+  "rows_out": 56,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-bites-pouch@gelsons": {
+  "rows_in": 129,
+  "brands": 52,
+  "rows_out": 52,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-bites-pouch@heb": {
+  "rows_in": 9,
+  "brands": 4,
+  "rows_out": 9,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@jewel-osco": {
+  "rows_in": 6,
+  "brands": 6,
+  "rows_out": 6,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@marianos": {
+  "rows_in": 1,
+  "brands": 1,
+  "rows_out": 1,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@meijer": {
+  "rows_in": 12,
+  "brands": 7,
+  "rows_out": 12,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@naturalgrocers": {
+  "rows_in": 199,
+  "brands": 39,
+  "rows_out": 39,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-bites-pouch@plum-market": {
+  "rows_in": 156,
+  "brands": 48,
+  "rows_out": 48,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-bites-pouch@ralphs": {
+  "rows_in": 2,
+  "brands": 2,
+  "rows_out": 2,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@safeway": {
+  "rows_in": 8,
+  "brands": 8,
+  "rows_out": 8,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@sprouts": {
+  "rows_in": 150,
+  "brands": 49,
+  "rows_out": 49,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-bites-pouch@target": {
+  "rows_in": 41,
+  "brands": 19,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@thefreshmarket": {
+  "rows_in": 125,
+  "brands": 42,
+  "rows_out": 42,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-bites-pouch@walmart": {
+  "rows_in": 1,
+  "brands": 1,
+  "rows_out": 1,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@wegmans": {
+  "rows_in": 153,
+  "brands": 52,
+  "rows_out": 52,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-bites-pouch@wholefoods": {
+  "rows_in": 19,
+  "brands": 9,
+  "rows_out": 19,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@wholefoods-socal": {
+  "rows_in": 18,
+  "brands": 11,
+  "rows_out": 18,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-bites-pouch@woodmans": {
+  "rows_in": 123,
+  "brands": 42,
+  "rows_out": 42,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-gifting-box@albertsons": {
+  "rows_in": 10,
+  "brands": 4,
+  "rows_out": 10,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@bristol-farms": {
+  "rows_in": 46,
+  "brands": 26,
+  "rows_out": 26,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-gifting-box@central-market": {
+  "rows_in": 103,
+  "brands": 51,
+  "rows_out": 51,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-gifting-box@costco-online": {
+  "rows_in": 4,
+  "brands": 3,
+  "rows_out": 4,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@erewhon": {
+  "rows_in": 1,
+  "brands": 1,
+  "rows_out": 1,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@gelsons": {
+  "rows_in": 64,
+  "brands": 33,
+  "rows_out": 33,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-gifting-box@heb": {
+  "rows_in": 51,
+  "brands": 4,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@jewel-osco": {
+  "rows_in": 8,
+  "brands": 5,
+  "rows_out": 8,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@kingsoopers": {
+  "rows_in": 3,
+  "brands": 1,
+  "rows_out": 3,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@marianos": {
+  "rows_in": 4,
+  "brands": 2,
+  "rows_out": 4,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@meijer": {
+  "rows_in": 6,
+  "brands": 2,
+  "rows_out": 6,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@naturalgrocers": {
+  "rows_in": 44,
+  "brands": 19,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@plum-market": {
+  "rows_in": 89,
+  "brands": 33,
+  "rows_out": 33,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-gifting-box@ralphs": {
+  "rows_in": 3,
+  "brands": 1,
+  "rows_out": 3,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@safeway": {
+  "rows_in": 9,
+  "brands": 4,
+  "rows_out": 9,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@sprouts": {
+  "rows_in": 53,
+  "brands": 23,
+  "rows_out": 23,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-gifting-box@target": {
+  "rows_in": 39,
+  "brands": 15,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@thefreshmarket": {
+  "rows_in": 34,
+  "brands": 20,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@wegmans": {
+  "rows_in": 43,
+  "brands": 25,
+  "rows_out": 25,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/chocolate-gifting-box@wholefoods": {
+  "rows_in": 10,
+  "brands": 7,
+  "rows_out": 10,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@wholefoods-socal": {
+  "rows_in": 9,
+  "brands": 7,
+  "rows_out": 9,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/chocolate-gifting-box@woodmans": {
+  "rows_in": 201,
+  "brands": 42,
+  "rows_out": 42,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/premium-chocolate-bars@albertsons": {
+  "rows_in": 15,
+  "brands": 6,
+  "rows_out": 15,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@bristol-farms": {
+  "rows_in": 11,
+  "brands": 9,
+  "rows_out": 11,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@central-market": {
+  "rows_in": 117,
+  "brands": 57,
+  "rows_out": 57,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/premium-chocolate-bars@erewhon": {
+  "rows_in": 42,
+  "brands": 28,
+  "rows_out": 28,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/premium-chocolate-bars@gelsons": {
+  "rows_in": 11,
+  "brands": 8,
+  "rows_out": 11,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@heb": {
+  "rows_in": 53,
+  "brands": 12,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@jewel-osco": {
+  "rows_in": 16,
+  "brands": 10,
+  "rows_out": 16,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@kingsoopers": {
+  "rows_in": 48,
+  "brands": 18,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@marianos": {
+  "rows_in": 46,
+  "brands": 19,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@meijer": {
+  "rows_in": 28,
+  "brands": 10,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@plum-market": {
+  "rows_in": 25,
+  "brands": 13,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@ralphs": {
+  "rows_in": 47,
+  "brands": 19,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@sprouts": {
+  "rows_in": 23,
+  "brands": 13,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@target": {
+  "rows_in": 30,
+  "brands": 14,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@thefreshmarket": {
+  "rows_in": 21,
+  "brands": 13,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@wegmans": {
+  "rows_in": 28,
+  "brands": 21,
+  "rows_out": 21,
+  "mode": "wide shelf, one row per brand, no fill"
+ },
+ "candy-chocolate/premium-chocolate-bars@wholefoods": {
+  "rows_in": 17,
+  "brands": 10,
+  "rows_out": 17,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@wholefoods-socal": {
+  "rows_in": 20,
+  "brands": 10,
+  "rows_out": 20,
+  "mode": "one row per brand then fill to 20"
+ },
+ "candy-chocolate/premium-chocolate-bars@woodmans": {
+  "rows_in": 159,
+  "brands": 42,
+  "rows_out": 42,
+  "mode": "wide shelf, one row per brand, no fill"
+ }
+}
