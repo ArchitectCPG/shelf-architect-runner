@@ -1363,5 +1363,29 @@
    "brand@marianos-chicago",
    "brand@king-soopers-denver"
   ]
+ },
+ "weekend_retry": {
+  "date": "2026-11-07",
+  "run": "42335498325",
+  "landed": {
+   "natural-grocers bars": 14,
+   "safeway bars": 11
+  },
+  "idempotency_keys": [
+   "vosges-s2-retry-bars-natural-grocers-20261107",
+   "vosges-s2-retry-bars-safeway-20261107",
+   "vosges-s2-retry-pullmatrix-20261107"
+  ],
+  "held": 8,
+  "houses": {
+   "naturalgrocers bars": 318,
+   "safeway bars": 47,
+   "walmart gifting": 0,
+   "walmart bars": "snapshot timeout",
+   "kingsoopers gifting": 4,
+   "marianos gifting": 4,
+   "ralphs gifting": 3
+  },
+  "pull_matrix": "v5"
  }
 }
