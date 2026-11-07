@@ -214,6 +214,17 @@
    "relevance": "\\bvosges\\b",
    "brand_only": true,
    "temperature": "shelf_stable"
+  },
+  {
+   "id": "refrigerated-chocolate",
+   "term": "refrigerated chocolate",
+   "kind": "SCOUT",
+   "temperature": "refrigerated",
+   "relevance": "chocolat|cacao|cocoa|truffle|midday|perfect bar|honey mama|hail merry|tru fru|squares|bites|cups",
+   "exclude": "milk\\b(?!.*chocolate)|yogurt|creamer|pudding|ice cream|frozen|cake|cheesecake|mousse|drink|kefir|cookie dough",
+   "keep": "chocolate|cacao",
+   "scout_only": true,
+   "note": "SCOUT, price comparison only (Steve 2026-11-07). Refrigerated better-for-you chocolate treats (Midday Squares, Perfect Bar, Honey Mama's, Hail Merry) at natural and specialty. Not a launch position; the pouch is shelf-stable. Does not switch on the storage-class cut."
   }
  ],
  "retailers": [
