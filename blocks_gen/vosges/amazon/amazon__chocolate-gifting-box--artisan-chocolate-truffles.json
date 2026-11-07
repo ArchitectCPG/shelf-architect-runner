@@ -1,0 +1,21 @@
+{
+ "block_id": "vosges/chocolate-gifting-box--artisan-chocolate-truffles@amazon",
+ "retailer": "amazon",
+ "zip": "amazon",
+ "neighborhood": "chocolate-gifting-box",
+ "term": "artisan chocolate truffles",
+ "store_zip": "",
+ "client_id": "vosges",
+ "temperature": "shelf_stable",
+ "api": {
+  "amazon": true,
+  "dataset_id": "gd_l7q7dkf244hwjntr0",
+  "discover_by": "keyword",
+  "input": {
+   "keyword": "{{term}}",
+   "zipcode": "{{store_zip}}"
+  },
+  "limit": 48
+ },
+ "scout_premium_gifting": true
+}
