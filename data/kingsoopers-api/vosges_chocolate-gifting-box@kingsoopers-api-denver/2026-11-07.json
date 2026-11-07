@@ -1,0 +1,90 @@
+{
+ "block_id": "vosges/chocolate-gifting-box@kingsoopers-api-denver",
+ "retailer": "kingsoopers-api",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "pulled_at": "2026-11-07T04:01:55.900Z",
+ "runner": "github-actions+kroger-api",
+ "store_requested_zip": "80202",
+ "store_set": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+ "houses": [
+  {
+   "name": "Lindt Gourmet Truffles Assorted Chocolate Candy Gift Box",
+   "brand": "Lindt",
+   "upc": "0000954243015",
+   "product_id": "0000954243015",
+   "size": "1 box / 6.8 oz",
+   "price": "$15.29",
+   "regular_price": 15.29,
+   "promo_price": null,
+   "availability": "",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000954243015",
+   "link": "https://www.kroger.com/p/lindt-gourmet-truffles-assorted-chocolate-candy-gift-box/0000954243015?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt LINDOR Holiday Assorted Chocolate Candy Truffles Gift Box",
+   "brand": "Lindt",
+   "upc": "0000954246443",
+   "product_id": "0000954246443",
+   "size": "1 box / 3.8 oz",
+   "price": "$6.99",
+   "regular_price": 8.49,
+   "promo_price": 6.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000954246443",
+   "link": "https://www.kroger.com/p/lindt-lindor-holiday-assorted-chocolate-candy-truffles-gift-box/0000954246443?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "RUSSELL STOVER Truffles in Milk, Dark & White Chocolate Gift Box",
+   "brand": "Russell Stover",
+   "upc": "0007726004407",
+   "product_id": "0007726004407",
+   "size": "9.4 oz",
+   "price": "$14.29",
+   "regular_price": 14.29,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "HIGH",
+   "categories": [
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0007726004407",
+   "link": "https://www.kroger.com/p/russell-stover-truffles-in-milk-dark-white-chocolate-gift-box/0007726004407?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt Gourmet Chocolate Truffles Gift Box",
+   "brand": "Lindt",
+   "upc": "0000954242948",
+   "product_id": "0000954242948",
+   "size": "14.7 oz",
+   "price": null,
+   "regular_price": null,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000954242948",
+   "link": "https://www.kroger.com/p/lindt-gourmet-chocolate-truffles-gift-box/0000954242948?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  }
+ ],
+ "steps": [
+  "04:01:56 locations near 80202: 50 chains=KINGSOOPERS",
+  "04:01:56 store KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+  "04:01:56 products start=0: 4",
+  "04:01:56 extracted 4 houses"
+ ],
+ "error": null
+}

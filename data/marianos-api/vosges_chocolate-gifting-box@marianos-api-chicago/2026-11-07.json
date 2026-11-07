@@ -1,0 +1,91 @@
+{
+ "block_id": "vosges/chocolate-gifting-box@marianos-api-chicago",
+ "retailer": "marianos-api",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "pulled_at": "2026-11-07T04:02:14.340Z",
+ "runner": "github-actions+kroger-api",
+ "store_requested_zip": "60614",
+ "store_set": "MARIANOS Marianos - Marianos Bucktown (53100516) 2112 N Ashland Ave Chicago 60614",
+ "houses": [
+  {
+   "name": "Lindt Gourmet Truffles Assorted Chocolate Candy Gift Box",
+   "brand": "Lindt",
+   "upc": "0000954243015",
+   "product_id": "0000954243015",
+   "size": "1 box / 6.8 oz",
+   "price": "$15.99",
+   "regular_price": 15.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000954243015",
+   "link": "https://www.kroger.com/p/lindt-gourmet-truffles-assorted-chocolate-candy-gift-box/0000954243015?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt LINDOR Holiday Assorted Chocolate Candy Truffles Gift Box",
+   "brand": "Lindt",
+   "upc": "0000954246443",
+   "product_id": "0000954246443",
+   "size": "1 box / 3.8 oz",
+   "price": "$6.99",
+   "regular_price": 8.49,
+   "promo_price": 6.99,
+   "availability": "curbside,delivery,inStore",
+   "stock": "LOW",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000954246443",
+   "link": "https://www.kroger.com/p/lindt-lindor-holiday-assorted-chocolate-candy-truffles-gift-box/0000954246443?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Fannie May Peanut Butter Truffles Chocolate Candy Box",
+   "brand": "Fannie May",
+   "upc": "0005274572793",
+   "product_id": "0005274572793",
+   "size": "11 oz",
+   "price": "$19.99",
+   "regular_price": 19.99,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": null,
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0005274572793",
+   "link": "https://www.kroger.com/p/fannie-may-peanut-butter-truffles-chocolate-candy-box/0005274572793?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  },
+  {
+   "name": "Lindt Gourmet Chocolate Truffles Gift Box",
+   "brand": "Lindt",
+   "upc": "0000954242948",
+   "product_id": "0000954242948",
+   "size": "14.7 oz",
+   "price": null,
+   "regular_price": null,
+   "promo_price": null,
+   "availability": "curbside,delivery,inStore",
+   "stock": "TEMPORARILY_OUT_OF_STOCK",
+   "categories": [
+    "Candy",
+    "Candy"
+   ],
+   "img": "https://www.kroger.com/product/images/medium/front/0000954242948",
+   "link": "https://www.kroger.com/p/lindt-gourmet-chocolate-truffles-gift-box/0000954242948?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh"
+  }
+ ],
+ "steps": [
+  "04:02:14 locations near 60614: 49 chains=MARIANOS|FOOD4LESS|RULER",
+  "04:02:14 store MARIANOS Marianos - Marianos Bucktown (53100516) 2112 N Ashland Ave Chicago 60614",
+  "04:02:15 products start=0: 4",
+  "04:02:15 extracted 4 houses"
+ ],
+ "error": null
+}
