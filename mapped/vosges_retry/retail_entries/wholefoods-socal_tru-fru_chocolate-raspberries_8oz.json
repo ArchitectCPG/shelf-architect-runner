@@ -1,0 +1,39 @@
+{
+ "brand": "Tru Fru",
+ "product_name": "Chocolate Raspberries",
+ "retailer": "wholefoods-socal",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.29,
+ "price_regular": 9.29,
+ "price_basis": "shelf",
+ "size_oz": 8.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.1612,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 9.29
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:35Z",
+ "region": "90012",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@wholefoods-socal",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@wholefoods-socal"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+ "notes": "Runner pull 2026-11-07, lane wholefoods-socal, store: 90012.",
+ "category": "candy-chocolate"
+}

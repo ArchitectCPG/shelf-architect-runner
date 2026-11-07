@@ -1,0 +1,993 @@
+{
+ "naturalgrocers_lilys_milk-chocolate-style-salted-caramel-bar_2-8oz": {
+  "brand": "Lily's",
+  "product_name": "Milk Chocolate Style Salted Caramel Bar",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "instacart_quote",
+  "size_oz": 2.8,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.425,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "naturalgrocers_equal-exchange_choc-bar-88-extreme-dark-og_2-8oz": {
+  "brand": "Equal Exchange",
+  "product_name": "Choc Bar 88% Extreme Dark Og",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.19,
+  "price_regular": 6.19,
+  "price_basis": "instacart_quote",
+  "size_oz": 2.8,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.2107,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.19
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "safeway_tonys-chocolonely_tonys-cho-bar-choc-drk-almd-sea-slt_6-35oz": {
+  "brand": "Tony's Chocolonely",
+  "product_name": "Tonys Cho Bar Choc Drk Almd Sea Slt",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "shelf",
+  "size_oz": 6.35,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.0693,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate"
+ },
+ "safeway_lindt_excellence-85-cocoa-dark-chocolate-candy-bar_3-5oz": {
+  "brand": "Lindt",
+  "product_name": "EXCELLENCE 85% Cocoa Dark Chocolate Candy Bar",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.99,
+  "price_regular": 6.99,
+  "price_basis": "shelf",
+  "size_oz": 3.5,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.9971,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.99
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate",
+  "format": "Shelf-stable",
+  "format_source": "name"
+ },
+ "naturalgrocers_lilys_salted-almond-extra-dark-chocolate-style-no-sugar-added-sweets-bar_2-8oz": {
+  "brand": "Lily's",
+  "product_name": "Salted Almond Extra Dark Chocolate Style No Sugar Added, Sweets Bar",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "instacart_quote",
+  "size_oz": 2.8,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.425,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "naturalgrocers_aldens-organic_vanilla-dark-chocolate-bars_3oz": {
+  "brand": "Alden's Organic",
+  "product_name": "Vanilla Dark Chocolate Bars",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 7.69,
+  "price_regular": 7.69,
+  "price_basis": "instacart_quote",
+  "size_oz": 3.0,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.5633,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 7.69
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "naturalgrocers_tosi_peanut-dark-chocolate-sea-salt-bar_2-4oz": {
+  "brand": "Tosi",
+  "product_name": "Peanut Dark Chocolate Sea Salt Bar",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 3.89,
+  "price_regular": 3.89,
+  "price_basis": "instacart_quote",
+  "size_oz": 2.4,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.6208,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 3.89
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "naturalgrocers_lilys_extra-dark-chocolate-style-no-sugar-added-sweets-bar_2-8oz": {
+  "brand": "Lily's",
+  "product_name": "Extra Dark Chocolate Style No Sugar Added, Sweets Bar",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "instacart_quote",
+  "size_oz": 2.8,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.425,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "naturalgrocers_lilys_extremely-dark-extra-dark-chocolate-style-no-sugar-added-sweets-bar_2-8oz": {
+  "brand": "Lily's",
+  "product_name": "Extremely Dark Extra Dark Chocolate Style No Sugar Added, Sweets Bar",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "instacart_quote",
+  "size_oz": 2.8,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.425,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "safeway_lindt_excellence-90-cocoa-dark-chocolate-candy-bar_3-5oz": {
+  "brand": "Lindt",
+  "product_name": "EXCELLENCE 90% Cocoa Dark Chocolate Candy Bar",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.99,
+  "price_regular": 6.99,
+  "price_basis": "shelf",
+  "size_oz": 3.5,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.9971,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.99
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate",
+  "format": "Shelf-stable",
+  "format_source": "name"
+ },
+ "naturalgrocers_theo_chocolate-coconut-70-dark-chocolate_3oz": {
+  "brand": "Theo",
+  "product_name": "Chocolate Coconut 70% Dark Chocolate",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.59,
+  "price_regular": 6.59,
+  "price_basis": "instacart_quote",
+  "size_oz": 3.0,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.1967,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.59
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "naturalgrocers_equal-exchange_dark-choc-orange-bar-65-og_2-8oz": {
+  "brand": "Equal Exchange",
+  "product_name": "Dark Choc Orange Bar 65% Og",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.19,
+  "price_regular": 6.19,
+  "price_basis": "instacart_quote",
+  "size_oz": 2.8,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.2107,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.19
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "naturalgrocers_lilys_intensely-dark-chocolate-style-no-sugar-added-sweets-bar_2-8oz": {
+  "brand": "Lily's",
+  "product_name": "Intensely Dark Chocolate Style No Sugar Added, Sweets Bar",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "instacart_quote",
+  "size_oz": 2.8,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.425,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "safeway_chocolove_70-cocoa-strong-dark-chocolate-bar_3-2oz": {
+  "brand": "Chocolove",
+  "product_name": "70% Cocoa Strong Dark Chocolate Bar",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 4.49,
+  "price_regular": 4.49,
+  "price_basis": "shelf",
+  "size_oz": 3.2,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.4031,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 4.49
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate"
+ },
+ "safeway_lindt_excellence-70-cocoa-dark-chocolate-candy-bar_3-5oz": {
+  "brand": "Lindt",
+  "product_name": "EXCELLENCE 70% Cocoa Dark Chocolate Candy Bar",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.99,
+  "price_regular": 6.99,
+  "price_basis": "shelf",
+  "size_oz": 3.5,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.9971,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.99
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate",
+  "format": "Shelf-stable",
+  "format_source": "name"
+ },
+ "safeway_chocolove_almonds-sea-salt-dark-chocolate-bar_3-2oz": {
+  "brand": "Chocolove",
+  "product_name": "Almonds & Sea Salt Dark Chocolate Bar",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 4.49,
+  "price_regular": 4.49,
+  "price_basis": "shelf",
+  "size_oz": 3.2,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.4031,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 4.49
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate"
+ },
+ "safeway_ghirardelli_premium-dark-salted-caramel-dark-chocolate-bar_3-5oz": {
+  "brand": "Ghirardelli",
+  "product_name": "PREMIUM DARK Salted Caramel Dark Chocolate Bar",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "shelf",
+  "size_oz": 3.5,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.94,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate",
+  "name_repaired": "known"
+ },
+ "naturalgrocers_lilys_almond-dark-chocolate-style-no-sugar-added-sweets-bar_3oz": {
+  "brand": "Lily's",
+  "product_name": "Almond Dark Chocolate Style No Sugar Added, Sweets Bar",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "instacart_quote",
+  "size_oz": 3.0,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.2633,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate",
+  "format": "Shelf-stable",
+  "format_source": "same-product-elsewhere"
+ },
+ "naturalgrocers_lilys_creamy-milk-chocolate-style-no-sugar-added-sweets-bar_3oz": {
+  "brand": "Lily's",
+  "product_name": "Creamy Milk Chocolate Style No Sugar Added, Sweets Bar",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "instacart_quote",
+  "size_oz": 3.0,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.2633,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "naturalgrocers_lilys_salted-caramel-extra-dark-chocolate-style-no-sugar-added-sweets-bar_2-8oz": {
+  "brand": "Lily's",
+  "product_name": "Salted Caramel Extra Dark Chocolate Style No Sugar Added, Sweets Bar",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "instacart_quote",
+  "size_oz": 2.8,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.425,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate",
+  "format": "Shelf-stable",
+  "format_source": "same-product-elsewhere"
+ },
+ "safeway_lindt_excellence-sea-salt-dark-chocolate-candy-bar_3-5oz": {
+  "brand": "Lindt",
+  "product_name": "EXCELLENCE Sea Salt Dark Chocolate Candy Bar",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.99,
+  "price_regular": 6.99,
+  "price_basis": "shelf",
+  "size_oz": 3.5,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.9971,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.99
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate",
+  "format": "Shelf-stable",
+  "format_source": "name"
+ },
+ "safeway_cadbury_royal-dark-dark-chocolate-candy-bar_3-5oz": {
+  "brand": "Cadbury",
+  "product_name": "Royal Dark Dark Chocolate Candy Bar",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 3.79,
+  "price_regular": 3.79,
+  "price_basis": "shelf",
+  "size_oz": 3.5,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.0829,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 3.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate",
+  "format": "Shelf-stable",
+  "format_source": "name"
+ },
+ "naturalgrocers_lilys_hazelnut-milk-chocolate-style-no-sugar-added-sweets-bar_2-8oz": {
+  "brand": "Lily's",
+  "product_name": "Hazelnut Milk Chocolate Style No Sugar Added, Sweets Bar",
+  "retailer": "naturalgrocers",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "instacart_quote",
+  "size_oz": 2.8,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 2.425,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:31Z",
+  "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+  "route": "runner-instacart",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@natural-grocers-vitamin-cottage-denver"
+  ],
+  "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+  "category": "candy-chocolate"
+ },
+ "safeway_ghirardelli_premium-dark-orange-chocolate-bar_3-5oz": {
+  "brand": "Ghirardelli",
+  "product_name": "PREMIUM DARK Orange Chocolate Bar",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 6.79,
+  "price_regular": 6.79,
+  "price_basis": "shelf",
+  "size_oz": 3.5,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.94,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 6.79
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate"
+ },
+ "safeway_chocolove_hawaiian-sea-salt-72-cocoa-dark-chocolate-bar_3oz": {
+  "brand": "Chocolove",
+  "product_name": "Hawaiian Sea Salt 72% Cocoa Dark Chocolate Bar",
+  "retailer": "Safeway",
+  "client_id": "vosges",
+  "is_own_brand": false,
+  "is_private_label": false,
+  "source_type": "scrape",
+  "price": 4.49,
+  "price_regular": 4.49,
+  "price_basis": "shelf",
+  "size_oz": 3.0,
+  "size_source": "label",
+  "count": null,
+  "price_per_oz": 1.4967,
+  "price_history": [
+   {
+    "date": "2026-11-07",
+    "price": 4.49
+   }
+  ],
+  "last_pulled": "2026-11-07",
+  "pulled_at": "2026-11-07T12:19:32Z",
+  "region": "757 E 20th Ave",
+  "route": "runner-recipe",
+  "upc": null,
+  "block": "candy-chocolate/premium-chocolate-bars@safeway-denver",
+  "zip": "candy-chocolate",
+  "neighborhood": "premium-chocolate-bars",
+  "neighborhoods": [
+   "premium-chocolate-bars"
+  ],
+  "blocks": [
+   "candy-chocolate/premium-chocolate-bars@safeway-denver"
+  ],
+  "pull_url": "https://www.safeway.com/shop/search-results.html?q=dark%20chocolate%20bar",
+  "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+  "category": "candy-chocolate",
+  "name_repaired": "known"
+ }
+}

@@ -1,0 +1,39 @@
+{
+ "brand": "SKINNYDIPPED",
+ "product_name": "Dark Chocolate Almonds",
+ "retailer": "Whole Foods Market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.79,
+ "price_regular": 6.79,
+ "price_basis": "shelf",
+ "size_oz": 3.5,
+ "size_source": "label",
+ "count": 20,
+ "price_per_oz": 1.94,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 6.79
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:35Z",
+ "region": "60614",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@wholefoods",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@wholefoods"
+ ],
+ "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+ "notes": "Runner pull 2026-11-07, lane wholefoods, store: 60614.",
+ "category": "candy-chocolate"
+}

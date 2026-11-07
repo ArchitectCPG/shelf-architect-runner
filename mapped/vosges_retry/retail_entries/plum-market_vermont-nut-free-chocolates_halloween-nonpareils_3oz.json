@@ -1,0 +1,39 @@
+{
+ "brand": "Vermont Nut Free Chocolates",
+ "product_name": "Halloween Nonpareils",
+ "retailer": "plum-market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 8.39,
+ "price_regular": 8.39,
+ "price_basis": "instacart_quote",
+ "size_oz": 3.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 2.7967,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 8.39
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "API zip 60614 shop 109526 location 1247",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@plum-market",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@plum-market"
+ ],
+ "pull_url": "https://www.instacart.com/store/plum-market/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-07, lane plum-market, store: API zip 60614 shop 109526 location 1247. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

@@ -1,0 +1,43 @@
+{
+ "brand": "Justin's",
+ "product_name": "Super Dark Chocolate Peanut Butter Cup",
+ "retailer": "plum-market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.59,
+ "price_regular": 9.59,
+ "price_basis": "instacart_quote",
+ "size_oz": 0.7,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 13.7,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 9.59
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "API zip 60614 shop 109526 location 1247",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@plum-market",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@plum-market",
+  "candy-chocolate/chocolate-gifting-box@plum-market",
+  "candy-chocolate/premium-chocolate-bars@plum-market"
+ ],
+ "pull_url": "https://www.instacart.com/store/plum-market/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-07, lane plum-market, store: API zip 60614 shop 109526 location 1247. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

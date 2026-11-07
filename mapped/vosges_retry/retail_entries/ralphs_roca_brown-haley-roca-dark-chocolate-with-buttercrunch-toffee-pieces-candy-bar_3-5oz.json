@@ -1,0 +1,41 @@
+{
+ "brand": "Roca\u00ae",
+ "product_name": "Brown & Haley Roca Dark Chocolate with Buttercrunch Toffee Pieces Candy Bar",
+ "retailer": "ralphs",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.99,
+ "price_regular": 4.99,
+ "price_basis": "shelf",
+ "size_oz": 3.5,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.4257,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 4.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015",
+ "route": "runner-kroger-api",
+ "upc": "0004177080700",
+ "block": "candy-chocolate/premium-chocolate-bars@ralphs",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@ralphs"
+ ],
+ "pull_url": "https://www.kroger.com/p/brown-haley-roca-dark-chocolate-with-buttercrunch-toffee-pieces-candy-bar/0004177080700?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-07, lane ralphs-api, store: RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

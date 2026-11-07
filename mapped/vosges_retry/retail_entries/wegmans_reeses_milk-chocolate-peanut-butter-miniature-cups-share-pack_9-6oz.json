@@ -1,0 +1,39 @@
+{
+ "brand": "Reese's",
+ "product_name": "Milk Chocolate & Peanut Butter Miniature Cups Share Pack",
+ "retailer": "wegmans",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.89,
+ "price_regular": 6.89,
+ "price_basis": "instacart_quote",
+ "size_oz": 9.6,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.7177,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 6.89
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:35Z",
+ "region": "API zip 10023 shop 366100 location 162737 retailer wegmans",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@wegmans",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@wegmans"
+ ],
+ "pull_url": "https://www.instacart.com/store/wegmans/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-07, lane wegmans, store: API zip 10023 shop 366100 location 162737 retailer wegmans. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

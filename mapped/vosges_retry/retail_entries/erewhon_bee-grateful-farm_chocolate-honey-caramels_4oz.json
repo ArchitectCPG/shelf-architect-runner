@@ -1,0 +1,40 @@
+{
+ "brand": "bee grateful farm",
+ "product_name": "Chocolate Honey Caramels",
+ "retailer": "erewhon",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 13.79,
+ "price_regular": 17.29,
+ "price_basis": "shelf",
+ "size_oz": 4.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 3.4475,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 13.79
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:29Z",
+ "region": "",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-gifting-box@erewhon",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@erewhon"
+ ],
+ "pull_url": "https://www.instacart.com/products/21046836-bee-grateful-farm-chocolate-honey-caramels-4-oz?retailerSlug=erewhon",
+ "notes": "Runner pull 2026-11-07, lane erewhon, store: None.",
+ "category": "candy-chocolate",
+ "sale_price": 13.79
+}

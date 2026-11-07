@@ -1,0 +1,41 @@
+{
+ "brand": "Lindt",
+ "product_name": "EXCELLENCE 70% Cocoa Dark Chocolate Candy Bar, Dark Chocolate",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.19,
+ "price_regular": 6.19,
+ "price_basis": "shelf",
+ "size_oz": 3.5,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.7686,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 6.19
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/lindt-excellence-70-cocoa-dark-chocolate-candy-bar-dark-chocolate-3-5-oz-bar/3746601763",
+ "notes": "Runner pull 2026-11-07, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

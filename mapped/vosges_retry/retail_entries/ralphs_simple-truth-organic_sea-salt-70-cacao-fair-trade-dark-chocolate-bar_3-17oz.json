@@ -1,0 +1,41 @@
+{
+ "brand": "Simple Truth Organic",
+ "product_name": "Sea Salt 70% Cacao Fair Trade Dark Chocolate Bar",
+ "retailer": "ralphs",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": true,
+ "source_type": "scrape",
+ "price": 4.99,
+ "price_regular": 4.99,
+ "price_basis": "shelf",
+ "size_oz": 3.17,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.5741,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 4.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015",
+ "route": "runner-kroger-api",
+ "upc": "0004126037850",
+ "block": "candy-chocolate/premium-chocolate-bars@ralphs",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@ralphs"
+ ],
+ "pull_url": "https://www.kroger.com/p/simple-truth-organic-sea-salt-70-cacao-fair-trade-dark-chocolate-bar/0004126037850?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-07, lane ralphs-api, store: RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

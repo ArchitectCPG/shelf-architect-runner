@@ -1,0 +1,40 @@
+{
+ "brand": "Frederik's by Meijer",
+ "product_name": "Assorted Truffle Box, 7 PC",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.99,
+ "price_regular": 9.99,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 9.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-gifting-box@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/frederik-s-by-meijer-assorted-truffle-box-7-pc/71373333071",
+ "notes": "Runner pull 2026-11-07, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate",
+ "hold_reason": "no size parsed"
+}

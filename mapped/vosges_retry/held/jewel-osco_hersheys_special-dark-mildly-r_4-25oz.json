@@ -1,0 +1,41 @@
+{
+ "brand": "hershey's",
+ "product_name": "Special Dark Mildly ...r",
+ "retailer": "Jewel-Osco",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.99,
+ "price_regular": 4.99,
+ "price_basis": "shelf",
+ "size_oz": 4.25,
+ "size_source": "label",
+ "count": 16,
+ "price_per_oz": 1.1741,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 4.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:30Z",
+ "region": "424 W Division St",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@jewel-osco",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@jewel-osco"
+ ],
+ "pull_url": "https://www.jewelosco.com/shop/search-results.html?q=dark%20chocolate%20bar",
+ "notes": "Runner pull 2026-11-07, lane jewel-osco, store: 424 W Division St.",
+ "category": "candy-chocolate",
+ "name_truncated": true,
+ "hold_reason": "name truncated, needs full title"
+}

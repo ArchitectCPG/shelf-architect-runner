@@ -1,0 +1,39 @@
+{
+ "brand": "ChocoRite Dark Chocolate",
+ "product_name": "Bar, 5 pk",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.69,
+ "price_regular": 5.69,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": 5,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 5.69
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/chocorite-dark-chocolate-bar-5-pk/85712800119",
+ "notes": "Runner pull 2026-11-07, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate"
+}

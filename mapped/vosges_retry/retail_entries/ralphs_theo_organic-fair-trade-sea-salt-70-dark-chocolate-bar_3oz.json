@@ -1,0 +1,41 @@
+{
+ "brand": "Theo",
+ "product_name": "Organic Fair Trade Sea Salt 70% Dark Chocolate Bar",
+ "retailer": "ralphs",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 7.99,
+ "price_regular": 7.99,
+ "price_basis": "shelf",
+ "size_oz": 3.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 2.6633,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 7.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015",
+ "route": "runner-kroger-api",
+ "upc": "0087449200325",
+ "block": "candy-chocolate/premium-chocolate-bars@ralphs",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@ralphs"
+ ],
+ "pull_url": "https://www.kroger.com/p/theo-organic-fair-trade-sea-salt-70-dark-chocolate-bar/0087449200325?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-07, lane ralphs-api, store: RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

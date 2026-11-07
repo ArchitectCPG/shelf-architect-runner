@@ -1,0 +1,39 @@
+{
+ "brand": "Frederik's by Meijer",
+ "product_name": "Milk Chocolate English Style Toffee Bites",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.99,
+ "price_regular": 6.99,
+ "price_basis": "shelf",
+ "size_oz": 9.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.7767,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 6.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/frederik-s-by-meijer-milk-chocolate-english-style-toffee-bites-9-oz/70882068750",
+ "notes": "Runner pull 2026-11-07, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate"
+}

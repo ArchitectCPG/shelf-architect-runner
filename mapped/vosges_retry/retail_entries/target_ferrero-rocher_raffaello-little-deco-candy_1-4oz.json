@@ -1,0 +1,41 @@
+{
+ "brand": "Ferrero Rocher",
+ "product_name": "Raffaello Little Deco Candy",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 3.49,
+ "price_regular": 3.49,
+ "price_basis": "shelf",
+ "size_oz": 1.4,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 2.4929,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 3.49
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:34Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "009800142118",
+ "block": "candy-chocolate/chocolate-gifting-box@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@target"
+ ],
+ "pull_url": "https://www.target.com/p/ferrero-rocher-raffaello-little-deco-candy-1-4oz/-/A-1011229934",
+ "notes": "Runner pull 2026-11-07, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

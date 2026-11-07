@@ -1,0 +1,39 @@
+{
+ "brand": "Luisa Abram",
+ "product_name": "Organic 81% Purus Cacau Chocolate Bar",
+ "retailer": "erewhon",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 14.99,
+ "price_regular": 14.99,
+ "price_basis": "instacart_quote",
+ "size_oz": 2.82,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 5.3156,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 14.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:29Z",
+ "region": "API zip 90012 shop 94105 location 88898 retailer erewhon",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@erewhon",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@erewhon"
+ ],
+ "pull_url": "https://www.instacart.com/store/erewhon/s?k=dark%20chocolate%20bar",
+ "notes": "Runner pull 2026-11-07, lane erewhon, store: API zip 90012 shop 94105 location 88898 retailer erewhon. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

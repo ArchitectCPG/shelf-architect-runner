@@ -1,0 +1,39 @@
+{
+ "brand": "Duverger",
+ "product_name": "French Macarons, Organic, Chocolate",
+ "retailer": "erewhon",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 10.39,
+ "price_regular": 10.39,
+ "price_basis": "instacart_quote",
+ "size_oz": null,
+ "size_source": "label",
+ "count": 3,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 10.39
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:29Z",
+ "region": "API zip 90012 shop 94105 location 88898 retailer erewhon",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@erewhon",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@erewhon"
+ ],
+ "pull_url": "https://www.instacart.com/store/erewhon/s?k=dark%20chocolate%20bar",
+ "notes": "Runner pull 2026-11-07, lane erewhon, store: API zip 90012 shop 94105 location 88898 retailer erewhon. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

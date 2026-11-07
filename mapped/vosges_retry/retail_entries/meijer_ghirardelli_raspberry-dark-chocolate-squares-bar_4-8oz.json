@@ -1,0 +1,39 @@
+{
+ "brand": "Ghirardelli",
+ "product_name": "Raspberry Dark Chocolate Squares Bar",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.19,
+ "price_regular": 6.19,
+ "price_basis": "shelf",
+ "size_oz": 4.8,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.2896,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 6.19
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/ghirardelli-raspberry-dark-chocolate-squares-bar-4-8-oz-bar/74759941873",
+ "notes": "Runner pull 2026-11-07, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate"
+}

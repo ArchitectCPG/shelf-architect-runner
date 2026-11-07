@@ -1,0 +1,41 @@
+{
+ "brand": "Godiva",
+ "product_name": "Goldmark Candy Giftbox",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 10.99,
+ "price_regular": 10.99,
+ "price_basis": "shelf",
+ "size_oz": 3.8,
+ "size_source": "label",
+ "count": 9,
+ "price_per_oz": 2.8921,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 10.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:34Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "031290148981",
+ "block": "candy-chocolate/chocolate-gifting-box@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@target"
+ ],
+ "pull_url": "https://www.target.com/p/godiva-goldmark-candy-giftbox-3-8oz-9ct/-/A-86518528",
+ "notes": "Runner pull 2026-11-07, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

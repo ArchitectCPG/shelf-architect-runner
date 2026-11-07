@@ -1,0 +1,43 @@
+{
+ "brand": "Edward Marc",
+ "product_name": "Caramel & Pretzel Cluster, Dark Chocolate Sea Salt",
+ "retailer": "thefreshmarket",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 10.69,
+ "price_regular": 10.69,
+ "price_basis": "instacart_quote",
+ "size_oz": 6.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.7817,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 10.69
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:34Z",
+ "region": "API zip 60614 shop 541401 location 380718 retailer the-fresh-market",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@thefreshmarket",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@thefreshmarket",
+  "candy-chocolate/chocolate-gifting-box@thefreshmarket",
+  "candy-chocolate/premium-chocolate-bars@thefreshmarket"
+ ],
+ "pull_url": "https://www.instacart.com/store/the-fresh-market/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-07, lane thefreshmarket, store: API zip 60614 shop 541401 location 380718 retailer the-fresh-market. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

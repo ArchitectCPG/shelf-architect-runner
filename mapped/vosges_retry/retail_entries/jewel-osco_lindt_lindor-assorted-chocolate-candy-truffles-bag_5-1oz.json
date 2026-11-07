@@ -1,0 +1,43 @@
+{
+ "brand": "Lindt",
+ "product_name": "LINDOR Assorted Chocolate Candy Truffles Bag",
+ "retailer": "Jewel-Osco",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 9.99,
+ "price_regular": 9.99,
+ "price_basis": "shelf",
+ "size_oz": 5.1,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.9588,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 9.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:30Z",
+ "region": "424 W Division St",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-gifting-box@jewel-osco",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@jewel-osco",
+  "candy-chocolate/premium-chocolate-bars@jewel-osco"
+ ],
+ "pull_url": "https://www.jewelosco.com/shop/search-results.html?q=chocolate%20truffles%20gift%20box",
+ "notes": "Runner pull 2026-11-07, lane jewel-osco, store: 424 W Division St.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

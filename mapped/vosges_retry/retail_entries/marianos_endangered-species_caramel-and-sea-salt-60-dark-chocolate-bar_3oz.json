@@ -1,0 +1,41 @@
+{
+ "brand": "Endangered Species",
+ "product_name": "Caramel and Sea Salt 60% Dark Chocolate Bar",
+ "retailer": "marianos",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 4.79,
+ "price_regular": 4.79,
+ "price_basis": "shelf",
+ "size_oz": 3.0,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.5967,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 4.79
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "MARIANOS Marianos - Marianos Bucktown (53100516) 2112 N Ashland Ave Chicago 60614",
+ "route": "runner-kroger-api",
+ "upc": "0003701400049",
+ "block": "candy-chocolate/premium-chocolate-bars@marianos",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@marianos"
+ ],
+ "pull_url": "https://www.kroger.com/p/endangered-species-caramel-and-sea-salt-60-dark-chocolate-bar/0003701400049?cid=dis.api.tpi_products-api_20240521_b:all_c:p_t:shelfarchitect-bbchh",
+ "notes": "Runner pull 2026-11-07, lane marianos-api, store: MARIANOS Marianos - Marianos Bucktown (53100516) 2112 N Ashland Ave Chicago 60614.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "kroger-category"
+}

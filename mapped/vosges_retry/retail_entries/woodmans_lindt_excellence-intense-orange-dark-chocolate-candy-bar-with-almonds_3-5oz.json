@@ -1,0 +1,41 @@
+{
+ "brand": "Lindt",
+ "product_name": "Excellence Intense Orange Dark Chocolate Candy Bar with Almonds",
+ "retailer": "woodmans",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.69,
+ "price_regular": 6.69,
+ "price_basis": "instacart_quote",
+ "size_oz": 3.5,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.9114,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 6.69
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:35Z",
+ "region": "API zip 53711 shop 20059 location 70266 retailer woodmans-food-markets",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@woodmans",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@woodmans"
+ ],
+ "pull_url": "https://www.instacart.com/store/woodmans-food-markets/s?k=dark%20chocolate%20bar",
+ "notes": "Runner pull 2026-11-07, lane woodmans, store: API zip 53711 shop 20059 location 70266 retailer woodmans-food-markets. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

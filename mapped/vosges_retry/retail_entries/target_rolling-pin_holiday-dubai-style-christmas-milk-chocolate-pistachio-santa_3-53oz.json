@@ -1,0 +1,39 @@
+{
+ "brand": "Rolling Pin",
+ "product_name": "Holiday Dubai Style Christmas Milk Chocolate & Pistachio Santa",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 5.99,
+ "price_regular": 5.99,
+ "price_basis": "shelf",
+ "size_oz": 3.53,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.6969,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 5.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:34Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "642461185881",
+ "block": "candy-chocolate/chocolate-bites-pouch@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@target"
+ ],
+ "pull_url": "https://www.target.com/p/rolling-pin-holiday-dubai-style-milk-chocolate-38-pistachio-santa-3-53oz/-/A-1011261051",
+ "notes": "Runner pull 2026-11-07, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate"
+}

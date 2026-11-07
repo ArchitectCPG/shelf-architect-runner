@@ -1,0 +1,41 @@
+{
+ "brand": "snickers",
+ "product_name": "Original Chocolate Ca... Size Bag",
+ "retailer": "Safeway",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 7.49,
+ "price_regular": 7.49,
+ "price_basis": "shelf",
+ "size_oz": 10.59,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 0.7073,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 7.49
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:32Z",
+ "region": "757 E 20th Ave",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@safeway",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@safeway"
+ ],
+ "pull_url": "https://www.safeway.com/shop/search-results.html?q=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-07, lane safeway, store: 757 E 20th Ave.",
+ "category": "candy-chocolate",
+ "name_truncated": true,
+ "hold_reason": "name truncated, needs full title"
+}

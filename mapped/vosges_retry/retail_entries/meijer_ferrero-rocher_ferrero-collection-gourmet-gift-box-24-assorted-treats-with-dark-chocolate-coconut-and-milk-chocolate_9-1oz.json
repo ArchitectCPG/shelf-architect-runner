@@ -1,0 +1,39 @@
+{
+ "brand": "Ferrero Rocher",
+ "product_name": "Ferrero Collection Gourmet Gift Box, 24 Assorted Treats with Dark Chocolate, Coconut, and Milk Chocolate",
+ "retailer": "meijer",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 15.49,
+ "price_regular": 15.49,
+ "price_basis": "shelf",
+ "size_oz": 9.1,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.7022,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 15.49
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:31Z",
+ "region": "Pickup at Alpine",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-gifting-box@meijer",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@meijer"
+ ],
+ "pull_url": "https://www.meijer.com/shopping/product/ferrero-collection-gourmet-gift-box-24-assorted-treats-with-dark-chocolate-coconut-and-milk-chocolate-9-1-oz/980020051",
+ "notes": "Runner pull 2026-11-07, lane meijer, store: Pickup at Alpine.",
+ "category": "candy-chocolate"
+}

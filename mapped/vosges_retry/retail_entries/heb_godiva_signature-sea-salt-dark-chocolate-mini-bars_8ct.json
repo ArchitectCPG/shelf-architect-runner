@@ -1,0 +1,39 @@
+{
+ "brand": "Godiva",
+ "product_name": "Signature Sea Salt Dark Chocolate Mini Bars",
+ "retailer": "H-E-B",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 3.98,
+ "price_regular": 3.98,
+ "price_basis": "shelf",
+ "size_oz": null,
+ "size_source": "label",
+ "count": 8,
+ "price_per_oz": null,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 3.98
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:30Z",
+ "region": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@heb",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@heb"
+ ],
+ "pull_url": "https://www.heb.com/search?q=dark%20chocolate%20bar",
+ "notes": "Runner pull 2026-11-07, lane heb, store: Buffalo Market H\u2011E\u2011B On Buffalo Speedway.",
+ "category": "candy-chocolate"
+}

@@ -1,0 +1,39 @@
+{
+ "brand": "Summerdown Pure Mint",
+ "product_name": "Dark Chocolate Heritage Peppermint Fondants",
+ "retailer": "central-market",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 22.12,
+ "price_regular": 22.12,
+ "price_basis": "instacart_quote",
+ "size_oz": 7.05,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 3.1376,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 22.12
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:29Z",
+ "region": "API zip 77005 shop 3941 location 1612 retailer central-market",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/premium-chocolate-bars@central-market",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@central-market"
+ ],
+ "pull_url": "https://www.instacart.com/store/central-market/s?k=dark%20chocolate%20bar",
+ "notes": "Runner pull 2026-11-07, lane central-market, store: API zip 77005 shop 3941 location 1612 retailer central-market. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

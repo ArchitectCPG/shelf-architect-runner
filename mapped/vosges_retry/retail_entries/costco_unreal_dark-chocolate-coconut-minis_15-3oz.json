@@ -1,0 +1,43 @@
+{
+ "brand": "Unreal",
+ "product_name": "Dark Chocolate Coconut Minis",
+ "retailer": "Costco",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 15.54,
+ "price_regular": 15.54,
+ "price_basis": "instacart_quote",
+ "size_oz": 15.3,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.0157,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 15.54
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:29Z",
+ "region": "API zip 60614 shop 3476 location 115 retailer costco",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@costco-online",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "chocolate-gifting-box",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@costco-online",
+  "candy-chocolate/chocolate-gifting-box@costco-online",
+  "candy-chocolate/premium-chocolate-bars@costco-online"
+ ],
+ "pull_url": "https://www.instacart.com/store/costco/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-07, lane costco-online, store: API zip 60614 shop 3476 location 115 retailer costco. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

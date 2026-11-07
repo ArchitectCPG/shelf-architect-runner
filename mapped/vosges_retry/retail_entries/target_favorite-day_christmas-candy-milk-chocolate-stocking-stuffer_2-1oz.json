@@ -1,0 +1,41 @@
+{
+ "brand": "Favorite Day",
+ "product_name": "Christmas Candy Milk Chocolate Stocking Stuffer",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 1.5,
+ "price_regular": 1.5,
+ "price_basis": "shelf",
+ "size_oz": 2.1,
+ "size_source": "label",
+ "count": 4,
+ "price_per_oz": 0.7143,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 1.5
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:34Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "085239327470",
+ "block": "candy-chocolate/chocolate-gifting-box@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@target"
+ ],
+ "pull_url": "https://www.target.com/p/christmas-milk-chocolate-stocking-stuffer-2-1oz-4ct-favorite-day-8482/-/A-86057490",
+ "notes": "Runner pull 2026-11-07, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

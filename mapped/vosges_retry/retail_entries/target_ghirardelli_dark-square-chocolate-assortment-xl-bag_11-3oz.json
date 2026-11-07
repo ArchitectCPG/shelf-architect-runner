@@ -1,0 +1,39 @@
+{
+ "brand": "Ghirardelli",
+ "product_name": "Dark Square Chocolate Assortment - XL Bag",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 17.89,
+ "price_regular": 17.89,
+ "price_basis": "shelf",
+ "size_oz": 11.3,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.5832,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 17.89
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:34Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "747599434808",
+ "block": "candy-chocolate/premium-chocolate-bars@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "premium-chocolate-bars",
+ "neighborhoods": [
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/premium-chocolate-bars@target"
+ ],
+ "pull_url": "https://www.target.com/p/ghirardelli-dark-square-chocolate-assortment-xl-bag-11-3oz/-/A-94920600",
+ "notes": "Runner pull 2026-11-07, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate"
+}

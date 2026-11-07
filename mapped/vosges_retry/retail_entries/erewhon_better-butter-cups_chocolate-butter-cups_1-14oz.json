@@ -1,0 +1,41 @@
+{
+ "brand": "Better Butter Cups",
+ "product_name": "Chocolate Butter Cups",
+ "retailer": "erewhon",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 12.69,
+ "price_regular": 12.69,
+ "price_basis": "instacart_quote",
+ "size_oz": 1.14,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 11.1316,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 12.69
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:29Z",
+ "region": "API zip 90012 shop 94105 location 88898",
+ "route": "runner-instacart",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-bites-pouch@erewhon",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-bites-pouch",
+ "neighborhoods": [
+  "chocolate-bites-pouch",
+  "premium-chocolate-bars"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-bites-pouch@erewhon",
+  "candy-chocolate/premium-chocolate-bars@erewhon"
+ ],
+ "pull_url": "https://www.instacart.com/store/erewhon/s?k=chocolate%20bites%20bag",
+ "notes": "Runner pull 2026-11-07, lane erewhon, store: API zip 90012 shop 94105 location 88898. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+ "category": "candy-chocolate"
+}

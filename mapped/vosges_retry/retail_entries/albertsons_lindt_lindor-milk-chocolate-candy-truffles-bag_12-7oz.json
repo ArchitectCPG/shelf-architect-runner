@@ -1,0 +1,41 @@
+{
+ "brand": "Lindt",
+ "product_name": "Lindor Milk Chocolate Candy Truffles Bag",
+ "retailer": "Albertsons",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 16.99,
+ "price_regular": 16.99,
+ "price_basis": "shelf",
+ "size_oz": 12.7,
+ "size_source": "label",
+ "count": null,
+ "price_per_oz": 1.3378,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 16.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:26Z",
+ "region": "1650 W State St",
+ "route": "runner-recipe",
+ "upc": null,
+ "block": "candy-chocolate/chocolate-gifting-box@albertsons",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@albertsons"
+ ],
+ "pull_url": "https://www.albertsons.com/shop/search-results.html?q=chocolate%20truffles%20gift%20box",
+ "notes": "Runner pull 2026-11-07, lane albertsons, store: 1650 W State St.",
+ "category": "candy-chocolate",
+ "format": "Shelf-stable",
+ "format_source": "name"
+}

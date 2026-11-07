@@ -1,0 +1,39 @@
+{
+ "brand": "Ritter Sport",
+ "product_name": "Milk Chocolate Choco Holiday Cubes",
+ "retailer": "Target",
+ "client_id": "vosges",
+ "is_own_brand": false,
+ "is_private_label": false,
+ "source_type": "scrape",
+ "price": 6.99,
+ "price_regular": 6.99,
+ "price_basis": "shelf",
+ "size_oz": 4.95,
+ "size_source": "label",
+ "count": 18,
+ "price_per_oz": 1.4121,
+ "price_history": [
+  {
+   "date": "2026-11-07",
+   "price": 6.99
+  }
+ ],
+ "last_pulled": "2026-11-07",
+ "pulled_at": "2026-11-07T12:19:34Z",
+ "region": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+ "route": "runner-api",
+ "upc": "050255812972",
+ "block": "candy-chocolate/chocolate-gifting-box@target",
+ "zip": "candy-chocolate",
+ "neighborhood": "chocolate-gifting-box",
+ "neighborhoods": [
+  "chocolate-gifting-box"
+ ],
+ "blocks": [
+  "candy-chocolate/chocolate-gifting-box@target"
+ ],
+ "pull_url": "https://www.target.com/p/ritter-sport-milk-chocolate-choco-holiday-cubes-4-95oz-18ct/-/A-1011279214",
+ "notes": "Runner pull 2026-11-07, lane target, store: API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo).",
+ "category": "candy-chocolate"
+}
