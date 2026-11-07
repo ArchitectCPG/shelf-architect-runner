@@ -1,0 +1,39 @@
+{
+  "block_id": "vosges/refrigerated-chocolate@wholefoods-socal-socal",
+  "retailer": "wholefoods-socal",
+  "zip": "candy-chocolate",
+  "neighborhood": "refrigerated-chocolate",
+  "pulled_at": "2026-11-07T14:15:07.884Z",
+  "runner": "github-actions+brightdata-scraping-browser",
+  "country": "us",
+  "store_requested_zip": "90012",
+  "store_set": "90012",
+  "url_final": "https://www.wholefoodsmarket.com/grocery/search?k=refrigerated+chocolate",
+  "houses": [],
+  "raw_text_chars": 1813,
+  "steps": [
+    "14:15:07 auth user=brd-customer-hl_517ded2d-zone-mcp_browser-country-us password_len=12 endpoint=brd.superproxy.io:9222",
+    "14:15:08 connected to Bright Data Scraping Browser",
+    "14:15:20 goto https://www.wholefoodsmarket.com/search?text=refrigerated chocolate",
+    "14:15:28 captcha check passed",
+    "14:15:40 dismiss: nothing to close",
+    "14:15:41 js ok zip box ready BUTTON Delivering to 60007\nUpdate Location | inputs=search,filter-",
+    "14:15:51 js ok zip box ready BUTTON Delivering to 60007\nUpdate Location | inputs=search,filter-",
+    "14:15:53 type_sel #zipCode, input[name=zipCode], input[placeholder*='zip' i] \"90012\"",
+    "14:15:54 js ok submit Apply",
+    "14:16:03 goto https://www.wholefoodsmarket.com/search?text=refrigerated chocolate",
+    "14:16:11 captcha check passed",
+    "14:16:22 scrolled x4",
+    "14:16:22 store_set: 90012",
+    "14:16:22 few houses, reloading once",
+    "14:16:36 extracted 0 houses; raw text 1813 chars"
+  ],
+  "error": null,
+  "js_results": [
+    "zip box ready BUTTON Delivering to 60007\nUpdate Location | inputs=search,filter-checkbox-10434594011,filter-checkbox-10434595011,filter-checkbox-10434596011,filter-checkbox-10434597011,filter-checkbox-10434598011,filter-checkbox-53836561011,filter-checkbox-1248897011,filter-checkbox-23906442011,filter-checkbox-23906445011,filter-checkbox-23906447011,filter-checkbox-23906448011,filter-checkbox-23989834011,filter-checkbox-23598027011,filter-checkbox-119072236011,filter-checkbox-119072241011,filter-checkbox-11139484011,filter-checkbox-11139485011,filter-checkbox-2288331011,filter-checkbox-24398233011,filter-checkbox-24398244011,filter-checkbox-24398253011,filter-checkbox-24398238011,filter-checkbox-24398243011,filter-checkbox-24398254011,filter-checkbox--1000,filter-checkbox-17428820011,filter-checkbox-23921741011,filter-checkbox-23921743011,zipCode",
+    "zip box ready BUTTON Delivering to 60007\nUpdate Location | inputs=search,filter-checkbox-10434594011,filter-checkbox-10434595011,filter-checkbox-10434596011,filter-checkbox-10434597011,filter-checkbox-10434598011,filter-checkbox-53836561011,filter-checkbox-1248897011,filter-checkbox-23906442011,filter-checkbox-23906445011,filter-checkbox-23906447011,filter-checkbox-23906448011,filter-checkbox-23989834011,filter-checkbox-23598027011,filter-checkbox-119072236011,filter-checkbox-119072241011,filter-checkbox-11139484011,filter-checkbox-11139485011,filter-checkbox-2288331011,filter-checkbox-24398233011,filter-checkbox-24398244011,filter-checkbox-24398253011,filter-checkbox-24398238011,filter-checkbox-24398243011,filter-checkbox-24398254011,filter-checkbox--1000,filter-checkbox-17428820011,filter-checkbox-23921741011,filter-checkbox-23921743011,zipCode",
+    "submit Apply"
+  ],
+  "reloaded": true,
+  "houses_text": 0
+}
