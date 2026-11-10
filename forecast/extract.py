@@ -117,6 +117,16 @@ def extract(cfg, out_dir):
                       "monthly_spend": mon(O, mrr, 5), "total_spend": 0,
                       "spark_label": f"Monthly incremental revenue ({refs['months'][0][:3]}-{refs['months'][-1][:3]})", "budget": None, "no_zero_note": True,
                       "no_budget_note": fill_note(mrc.get("note", "Every marketing dollar returns its ratio in retail $ at shelf (SRP basis), on top of the velocity base. Spend sits in the other cards; this card is the sales it brings back."))})
+    # Steve 2026-11-10: cards read in gross sales (the brand's dollars), not retail $ at shelf. Retail is kept as retail_* for reference.
+    wf_ = cfg["waterfall"]; BF = (1 - wf_["retailer"]) * (1 - wf_["distributor"])
+    for t, card in zip(refs["existing"], cards):
+        g = val(V[t["tab"]], f"W{t['tot']}")
+        card.update({"basis": "gross", "retail_projected": card["projected_revenue"], "current_revenue": round(g, 2), "projected_revenue": round(g, 2)})
+    for card in cards[len(refs["existing"]):]:
+        card.update({"basis": "gross", "retail_projected": card["projected_revenue"],
+                     "incremental_lift": round(card["incremental_lift"] * BF, 2), "projected_revenue": round(card["projected_revenue"] * BF, 2),
+                     "monthly_spend": [round(x * BF, 2) for x in card["monthly_spend"]],
+                     "spark_label": card["spark_label"].replace("incremental revenue", "incremental gross sales")})
     dash = {"as_of": cfg.get("as_of"), "gross_label": d.get("gross_tile_label", f"{refs['year_label']} Gross Sales (what {cfg.get('client_name', 'the brand')} invoices)"),
             "revenue_label": d.get("revenue_label", f"{refs['year_label']} Total Revenue (retail $ at shelf)"),
             "revenue_subs": [{"label": "Retail $ at shelf", "value": round(tot, 2), "label2": "Net sales", "value2": round(val(O, ov["net"]), 2)},

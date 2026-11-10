@@ -1,0 +1,19 @@
+--- index.before_cards.html	2026-11-10 14:58:10.035766297 -0600
++++ index.html	2026-11-10 14:58:10.056909090 -0600
+@@ -10248,10 +10248,12 @@
+     html += '</div>';
+     if(!r.budget && r.no_budget_note) html += '<div class="fin-note">'+esc(r.no_budget_note)+'</div>';
+     html += '<div class="fcd-metrics-row">';
+-    html += fcdMetric('Current revenue', fcdCur(r.current_revenue));
+-    html += fcdMetric('Incremental lift', fcdCur(r.incremental_lift));
+-    html += fcdMetric('Projected revenue', fcdCur(r.projected_revenue));
+-    html += fcdMetric('Total spend', fcdCur(r.total_spend));
++    // Steve 2026-11-10: a card with basis 'gross' reads in gross sales (the brand's dollars), not retail $ at shelf.
++    var gB = r.basis==='gross', gP = Number(r.projected_revenue)||0;
++    html += fcdMetric(gB?'Current gross sales':'Current revenue', fcdCur(r.current_revenue));
++    html += fcdMetric(gB?'Incremental gross sales':'Incremental lift', fcdCur(r.incremental_lift));
++    html += fcdMetric(gB?'Projected gross sales':'Projected revenue', fcdCur(r.projected_revenue));
++    html += fcdMetric('Total spend', fcdCur(r.total_spend)+((gB && gP && Number(r.total_spend))?' ('+fcdPct(Number(r.total_spend)/gP)+' of gross)':''));
+     html += '</div>';
+     if(!r.current_revenue && !r.no_zero_note) html += '<div class="fin-note">Current Annual Revenue is not entered yet for '+esc(r.label)+' in the workbook — lift and projected revenue will show $0 until it is.</div>';
+     html += '<div class="fcd-body-row">';
