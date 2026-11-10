@@ -27,15 +27,15 @@ Pressure test of the 2026-11-07 change proposal (C1 to C9), run on Fable, approv
 |---|---|---|---|
 | 1 | Stage 0 gate checks (BUILT 2026-11-10, tools/gate.py) | Sonnet | gen_client_blocks.py writes store_expect from the market on every block and refuses to emit one without it; client_report.py prints term precision per neighborhood and fails under 50 percent; config check for relevance and hard_exclude. |
 | 2 | Generic hygiene in the mapper (BUILT 2026-11-10, tools/hygiene.py) | Sonnet | Move the Vosges patterns from pouch_filter.py and stage2_hygiene.py into clients/vosges.json; mapper applies config rules; replay the Vosges landing and report the share sent to review. |
-| 3 | Seed proof | Opus | Export the reference set from main to served files; add a Seed reference data action to the page; prove on a scratch instance. If it fails, write the batch emitter for Sonnet. |
+| 3 | Seed proof (PROVED 2026-11-10, tools/seed) | Opus | Export the reference set from main to served files; add a Seed reference data action to the page; prove on a scratch instance. If it fails, write the batch emitter for Sonnet. |
 | 4 | Forecast runner | Opus | Make forecast/build.py and extract.py generic, driven by forecast.json from Sheet B; one command emits workbook, dashboard docs and download. |
 | 5 | Numbers audit script (BUILT 2026-11-10, tools/numbers_audit.py) | Sonnet | Recompute every figure in a copy block from retail_entries or the workbook; non-zero exit on a mismatch. |
-| 6 | Shared assets at setup | Sonnet | Copy files/retail-marketing-framework.jpg and its forecast_images doc into every new instance as part of the seed. |
+| 6 | Shared assets at setup (COVERED by build 3: the slide doc carries the image and is in the seed) | Sonnet | Copy files/retail-marketing-framework.jpg and its forecast_images doc into every new instance as part of the seed. |
 | 7 | Slim the SOP | Fable, one pass | Move browser-era sections of pull_process and the runbook into an archive doc once core has been used on one client without a miss. |
 
 ## Open
 - Trade and marketing default when Sheet B is blank: 20 percent of gross sales, confirmed by Steve 2026-11-10.
-- Seed by page is decided but unproven.
+- Seed by page proved 2026-11-10 (build 3).
 - Hygiene review share measured on the Vosges replay (8.4 percent); a held-out test needs the next client.
 - Vosges DB hygiene fix finished (18 rows removed, backup in archives/). The 3 Tru Fru freeze-dried rows and 3 Unreal bar rows are left as they are.
 
@@ -63,3 +63,9 @@ Not done: the 8.4 percent is a replay on the data the rules were tuned on, not a
 Built: tools/numbers_audit.py plus docs/process/Numbers_Audit.md and a claims example. It recomputes each figure quoted in copy from an export of retail_entries (count, banners, brands, min, max, mean, median, percentiles, shares; filters by neighborhood, retailer, brand, size band, own brand, private label), follows the app's price-set rules, scans the copy text for figures that have no claim behind them, and exits non-zero on a mismatch (or an uncovered figure under --strict). Self-test passes (9 checks). Gate: a session runs it before writing any copy to the DB and does not write on a non-zero exit. Convention numbers_audit_gate is in both instances (main v91, Vosges v10).
 First real run, the Vosges Stage 3 thesis, on rows rebuilt from the landing batches (an approximation of the DB): pouch median 6.99 and p75 8.99 reproduce; pouch row count (121 claimed, 120 to 128 recomputed) and the 27 percent share (26 to 27) depend on how band edges are read. Bars: p75 6.99 and the 7 percent share reproduce; the 286 rows, the 5.99 median (recomputes about 6.2) and the p90 of 8.63 (recomputes 8.99) do not. One figure in the copy had no claim (15 banners).
 Open: settle the bars figures from a true DB export before the deck goes to Andy and Jay; add an Export rows action to the page so the audit needs no session; the audit has not yet run in the forecast copy path (build 4).
+
+## Build 3 result (2026-11-10, Opus)
+Built: Export reference set and Seed reference data actions in the main page (version 1794320633-2685), code and harness in tools/seed. Export reads only the reference set (retailers, review_calendar, category_scan, distributors, general insights, nine app_meta docs, the shared slide doc, pull_matrix/_template) and saves one JSON bundle. Seed shows only when the page is served with seed/reference_set.json; it sets missing docs, merges existing ones, deletes nothing, creates pull_conflicts if missing and writes app_meta/seed_log.
+Proof: Steve exported from main (301 docs, SOP v85, no client data; content scan found no keys or passwords, 25 emails that are DC appointment and submission addresses already in retailer notes). Scratch instance 06eebf06 published with the bundle; Steve tapped Seed. Result: 303 docs (301 plus pull_conflicts and seed_log), 0 failed, retailer spot-check identical to main. The first run stopped part way (81 docs) and a second tap merged them, so a re-tap is the safe resume.
+Build 6 is covered: the shared Retail Marketing slide doc embeds the image and is in the bundle.
+Left out on purpose: distributor_contacts (Steve's own contacts) until he says otherwise. Not done: the Vosges and other client pages do not carry the new actions until their next session (sync_rule); the scratch instance can be deleted.
