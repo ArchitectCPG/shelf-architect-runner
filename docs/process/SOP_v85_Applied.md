@@ -36,7 +36,8 @@ Pressure test of the 2026-11-07 change proposal (C1 to C9), run on Fable, approv
 ## Open
 - Trade and marketing default when Sheet B is blank: 20 percent of gross sales, confirmed by Steve 2026-11-10.
 - Seed by page is decided but unproven.
-- Hygiene review share measured on the Vosges replay (8.1 percent); a held-out test needs the next client.
+- Hygiene review share measured on the Vosges replay (8.4 percent); a held-out test needs the next client.
+- 16 more not-this-shelf rows in the Vosges DB wait for Steve's OK to remove (list in archives/vosges_hygiene_removed_2026-11-10.json, second_pass).
 
 ## Build 1 result (2026-11-10, Sonnet)
 Built: tools/gate.py (config, store, brand, precision checks, plus a `stamp` retrofit), wired into gen_client_blocks.py (refuses to generate on a config failure), client_report.py (flags WRONG MARKET and UNPINNED, prints the gate table, `--gate` exits non-zero) and mapper.py (does not land a block that fails the store check). pull.mjs store_expect is now case-insensitive to match.
