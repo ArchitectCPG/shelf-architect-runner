@@ -176,6 +176,13 @@ def build(cfg, out_dir):
     if san:
         put(A, f"B{r}", san["label"], kind="text"); put(A, f"C{r}", san["value"], USD, "input", note="gold"); put(A, f"H{r}", san.get("note", ""), kind="note")
         a["sanity"] = f"{AS}!$C${r}"; r += 1
+    mr = cfg.get("marketing_return")
+    if mr:
+        # Steve 2026-11-10, SA default: marketing $ comes back as incremental retail $ at shelf (SRP basis), on top of the velocity base.
+        r += 1; bar(A, r, "MARKETING RETURN", 2, 8); r += 1
+        put(A, f"B{r}", mr.get("label", "Marketing return: retail $ at shelf per $1 of marketing"), kind="text"); put(A, f"C{r}", mr["ratio"], '0.00"x"', "input", note="gold")
+        put(A, f"H{r}", mr.get("note", "Incremental to the velocity base. Spread by month in line with base revenue. Carries the same waterfall and blended COGS; no trade on top."), kind="note")
+        a["mret"] = f"{AS}!$C${r}"; r += 1
     r += 1
     bar(A, r, f"{YL} CALENDAR", 2, 14); r += 1
     for i, m in enumerate(MONTHS):
@@ -403,7 +410,16 @@ def build(cfg, out_dir):
         put(O, f"B{row}", lab, kind="text")
         for m in range(12): put(O, f"{L(5+m)}{row}", f"={sh}!{L(c0+m)}{tr}", USD, "link")
         put(O, f"Q{row}", f"=SUM(E{row}:P{row})", USD)
-    TOT = SX_ROW + 1; BR = TOT + 1
+    MR_ROW = None
+    if mr:
+        MR_ROW = SX_ROW + 1
+        mkt_all = "+".join([f"{q(t['tab'])}!V{t['tot']}" for t in ex_tabs] + [f"'Retailer Expansion'!AF{RT}", f"'SKU Expansion'!Z{ST}"])
+        put(O, f"B{MR_ROW}", ov.get("mret_label", f"Marketing return ({mr['ratio']:g}x marketing $, retail $, incremental)"), kind="text")
+        for m in range(12):
+            c = L(5 + m)
+            put(O, f"{c}{MR_ROW}", f"=IFERROR({a['mret']}*({mkt_all})*SUM({c}6:{c}{SX_ROW})/SUM($Q$6:$Q${SX_ROW}),0)", USD)
+        put(O, f"Q{MR_ROW}", f"=SUM(E{MR_ROW}:P{MR_ROW})", USD)
+    TOT = (MR_ROW or SX_ROW) + 1; BR = TOT + 1
     put(O, f"B{TOT}", "TOTAL REVENUE (retail $ at shelf)", kind="text", bold=True)
     flat_rows = [(x, t) for x, t in zip(ex_rows, ex_tabs) if t.get("flat")]
     br_lab = f"Brand revenue (after {w['retailer']*100:.0f} retailer / {w['distributor']*100:.0f} distributor)"
@@ -411,7 +427,7 @@ def build(cfg, out_dir):
     put(O, f"B{BR}", br_lab, kind="text")
     for m in range(13):
         c = L(5 + m)
-        put(O, f"{c}{TOT}", f"=SUM({c}6:{c}{SX_ROW})", USD, bold=True)
+        put(O, f"{c}{TOT}", f"=SUM({c}6:{c}{MR_ROW or SX_ROW})", USD, bold=True)
         if flat_rows:
             fr = "+".join(f"{c}{x}" for x, _ in flat_rows)
             fg = "+".join(f"{c}{x}*{t['bf_ref']}" for x, t in flat_rows)
@@ -465,7 +481,7 @@ def build(cfg, out_dir):
           (ov.get("gross_label", "Gross sales (what the brand invoices)"), f"=Q{BR}", True),
           ("Less trade", f"=E{TRADE}", False),
           ("Net sales", f"=F{p0+2}-F{p0+3}", True),
-          ("Less COGS (units x COGS per unit)", "=" + "+".join(cogs_terms), False),
+          ("Less COGS (units x COGS per unit)", "=(" + "+".join(cogs_terms) + ")" + (f"*IFERROR(Q{TOT}/(Q{TOT}-Q{MR_ROW}),1)" if MR_ROW else ""), False),
           ("Gross profit", f"=F{p0+4}-F{p0+5}", True),
           ("Less marketing", f"=F{MKT}", False),
           ("Contribution margin (before overhead)", f"=F{p0+6}-F{p0+7}", True)]
@@ -481,7 +497,7 @@ def build(cfg, out_dir):
     O.freeze_panes = "C6"
     refs.update({"overall": {"tot": TOT, "brand": BR, "trade": f"E{TRADE}", "mkt": f"F{MKT}", "spend": f"F{SPEND}",
                              "gross": f"F{p0+2}", "net": f"F{p0+4}", "cogs": f"F{p0+5}", "gp": f"F{p0+6}", "cm": f"F{CM}",
-                             "sanity_pct": f"F{SAN_PCT}" if SAN_PCT else None, "tdp_end": f"F{TDP_END}"},
+                             "sanity_pct": f"F{SAN_PCT}" if SAN_PCT else None, "tdp_end": f"F{TDP_END}", "mret_row": MR_ROW},
                  "existing": ex_tabs, "rx_tot": RT, "sx_tot": ST, "rx_first": R_FIRST, "rx_last": R_LAST})
 
     # ------------------------------------------------ Plan / Vol templates (optional)

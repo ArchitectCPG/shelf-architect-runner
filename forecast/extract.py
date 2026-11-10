@@ -108,6 +108,15 @@ def extract(cfg, out_dir):
 
     # Steve 2026-11-10, platform default: the headline tile is gross sales (what the brand invoices); retail $ at shelf is a sub-line.
     # Trade, marketing and contribution margin tiles show $ and % of gross sales (page renders the %). No spend % tile.
+    if ov.get("mret_row"):
+        mrr = ov["mret_row"]; mrc = d.get("mret_card", {})
+        mret_v = val(O, f"Q{mrr}")
+        cards.append({"key": mrc.get("key", "marketing-return"), "label": mrc.get("label", f"Marketing return ({cfg['marketing_return']['ratio']:g}x marketing $, incremental)"),
+                      "current_revenue": 0, "incremental_lift": round(mret_v, 2), "projected_revenue": round(mret_v, 2),
+                      "categories": [{"name": f"Marketing $ that drives it ({refs['year_label']}, all lines)", "fy27_total": round(mkt, 2)}],
+                      "monthly_spend": mon(O, mrr, 5), "total_spend": 0,
+                      "spark_label": f"Monthly incremental revenue ({refs['months'][0][:3]}-{refs['months'][-1][:3]})", "budget": None, "no_zero_note": True,
+                      "no_budget_note": fill_note(mrc.get("note", "Every marketing dollar returns its ratio in retail $ at shelf (SRP basis), on top of the velocity base. Spend sits in the other cards; this card is the sales it brings back."))})
     dash = {"as_of": cfg.get("as_of"), "gross_label": d.get("gross_tile_label", f"{refs['year_label']} Gross Sales (what {cfg.get('client_name', 'the brand')} invoices)"),
             "revenue_label": d.get("revenue_label", f"{refs['year_label']} Total Revenue (retail $ at shelf)"),
             "revenue_subs": [{"label": "Retail $ at shelf", "value": round(tot, 2), "label2": "Net sales", "value2": round(val(O, ov["net"]), 2)},

@@ -564,7 +564,8 @@
   "starting_tdp_label": "Starting TDP (Whole Foods bars today; Faire has no door count)",
   "gross_label": "Gross sales (what Vosges invoices)",
   "pl_note": "COGS uses the margin calculator ceilings (bar 2.85, pouch 2.56), not actual costs. Contribution is before overhead, freight and G&A, so it is not net margin.",
-  "margin_label": "Less retailer and distributor margin (Whole Foods 40 / 15; Faire keystone)"
+  "margin_label": "Less retailer and distributor margin (Whole Foods 40 / 15; Faire keystone)",
+  "mret_label": "Marketing return (1.1x marketing $, retail $, incremental)"
  },
  "plan": {
   "account": "Whole Foods",
@@ -660,7 +661,7 @@
  "dashboard": {
   "revenue_label": "2027 Total Revenue (retail $ at shelf)",
   "gross_label": "Gross sales (Vosges invoice)",
-  "footer_note": "Calendar 2027, Jan to Dec, same frame as 72. Revenue tile is retail $ at shelf. Spend % and the P&L run on gross sales (after 40 retailer / 15 distributor; Faire at keystone): gross sales, less trade = net sales, less COGS (margin calculator ceilings: bar 2.85, pouch 2.56) = gross profit, less marketing = contribution margin, before overhead. Existing business is 2.75M Vosges dollars today (Vosges, 2026-11-10): about 95 percent Whole Foods and 5 percent Faire independents (Steve's split). Faire runs keystone with no distributor and about 15 percent commission. Whole Foods: 7 Exotic bars, 3 oz, deli set, 530 US doors assumed (all of them, the conservative per-store read; bars confirmed on wholefoodsmarket.com in Chicago and SoCal 2026-11-07, authorized count from Andy pending). Retailer Expansion: Whole Foods takes 3 pouch SKUs in Mar-27 and 2 more in Jun-27; Sprouts, UNFI and KeHE accounts start Jun-27 with the full set, at tier hit rates (Whole Foods and Sprouts 75%); Hold at zero. No bar expansion: bars only win in a non-chocolate set like the Whole Foods deli; in the candy aisle they would be the priciest bar by about 3 dollars, so retail growth is the pouch. SKU Expansion stairsteps wave 2 into the Tier 1 pouch doors. Gold cells are the guesses: velocity (bars 2.95 calibrated to the Whole Foods share of the 2.75M at 530 doors, launch pouches 3.0, wave 2 pouches 2.0 u/s/w; no SPINS yet), Whole Foods door count, Whole Foods vs Faire split, Sprouts doors, tier hit rates and spend %, WS27 timing. Pouch cannibalization of bars is not modeled. Download the workbook for formulas and the Whole Foods Plan / Vol templates.",
+  "footer_note": "Calendar 2027, Jan to Dec, same frame as 72. Headline tile is gross sales (what Vosges invoices, after 40 retailer / 15 distributor; Faire at keystone); retail $ at shelf is the sub-line. Trade, marketing and contribution margin show $ and % of gross sales. P&L: gross sales, less trade = net sales, less COGS (margin calculator ceilings: bar 2.85, pouch 2.56) = gross profit, less marketing = contribution margin, before overhead. Existing business is 2.75M Vosges dollars today (Vosges, 2026-11-10): about 95 percent Whole Foods and 5 percent Faire independents (Steve's split). Faire runs keystone with no distributor and about 15 percent commission. Whole Foods: 7 Exotic bars, 3 oz, deli set, 530 US doors assumed (all of them, the conservative per-store read; bars confirmed on wholefoodsmarket.com in Chicago and SoCal 2026-11-07, authorized count from Andy pending). Retailer Expansion: Whole Foods takes 3 pouch SKUs in Mar-27 and 2 more in Jun-27; Sprouts, UNFI and KeHE accounts start Jun-27 with the full set, at tier hit rates (Whole Foods and Sprouts 75%); Hold at zero. No bar expansion: bars only win in a non-chocolate set like the Whole Foods deli; in the candy aisle they would be the priciest bar by about 3 dollars, so retail growth is the pouch. SKU Expansion stairsteps wave 2 into the Tier 1 pouch doors. Gold cells are the guesses: velocity (bars 2.95 calibrated to the Whole Foods share of the 2.75M at 530 doors, launch pouches 3.0, wave 2 pouches 2.0 u/s/w; no SPINS yet), Whole Foods door count, Whole Foods vs Faire split, Sprouts doors, tier hit rates and spend %, WS27 timing. Marketing returns 1.1x in retail $ at shelf, incremental (Vosges runs no marketing today). Pouch cannibalization of bars is not modeled. Download the workbook for formulas and the Whole Foods Plan / Vol templates.",
   "existing_cards": [
    {
     "key": "wholefoods-bars",
@@ -684,6 +685,16 @@
    "key": "sku-expansion",
    "label": "SKU / TDP Expansion: wave 2 (prospective, incremental)",
    "note": "Starts two months after the second pouch drop, one every 2 months, at 2.0 u/s/w into the Whole Foods and Sprouts pouch doors: Peanut Butter Bonbons Aug-27, Hazelnut Praline Oct-27, Toffee Bites Dec-27. The truffle pouch and Espresso fall into 2028. Not modeled: refrigerated, grocery gifting boxes, bark, branded PB cups (cups are private label)."
+  },
+  "mret_card": {
+   "key": "marketing-return",
+   "label": "Marketing return (1.1x marketing $, incremental)",
+   "note": "Steve 2026-11-10: every marketing dollar returns 1.1 dollars at shelf (SRP basis), on top of the velocity base. Vosges runs no marketing today, so none of it is in the base. Spend sits in the other cards; this is the sales it brings back."
   }
+ },
+ "marketing_return": {
+  "ratio": 1.1,
+  "label": "Marketing return: retail $ at shelf per $1 of marketing",
+  "note": "Steve 2026-11-10: marketing $ comes back at 1.1x in retail $ (SRP basis). Incremental on top of the velocity base, since Vosges runs no marketing today. Spread by month with base revenue; same waterfall and blended COGS, no trade on top."
  }
 }
