@@ -18,3 +18,6 @@ Read: the call holds. 9.99 is above p90 either way and only about 7 percent of b
 
 ## Lesson for the gate
 A thesis figure is computed on the app's price set from a DB export taken after the last landing, never on all rows and never mid-landing. numbers_audit.py does that by default.
+
+## Applied (Steve OK, 2026-11-10)
+Sections 1 and 5 of the thesis project doc and the pouch and bars price rail reads in client_config/vosges (v29) now carry the audited figures. Audit passed on the new text with the client's own cohorts (--cohorts from pricing_exclude_cohorts): claims in claims_vosges_thesis_v2.json. Not re-audited: other figures in those reads (Hu 7.99 and 8.99 at Whole Foods checked and hold; the conventional small-band top of 6.89 to 8.19 now has one Target row at 8.99).

@@ -1,0 +1,12 @@
+[
+{"id":"pouch_rows","quote":"111 rows","claim":111,"metric":{"stat":"count","set":"presence","filter":{"neighborhood":"chocolate-bites-pouch","size_min":2.5,"size_max":4.5}}},
+{"id":"pouch_banners","quote":"15 banners","claim":15,"metric":{"stat":"banners","set":"presence","filter":{"neighborhood":"chocolate-bites-pouch","size_min":2.5,"size_max":4.5}}},
+{"id":"pouch_median","quote":"median 6.99","claim":6.99,"metric":{"stat":"median","filter":{"neighborhood":"chocolate-bites-pouch","size_min":2.5,"size_max":4.5}}},
+{"id":"pouch_p75","quote":"p75 8.64","claim":8.64,"metric":{"stat":"p75","filter":{"neighborhood":"chocolate-bites-pouch","size_min":2.5,"size_max":4.5}}},
+{"id":"pouch_share","quote":"about 24 percent at 8.99 or above","claim":24,"metric":{"stat":"share_ge","threshold":8.99,"filter":{"neighborhood":"chocolate-bites-pouch","size_min":2.5,"size_max":4.5}}},
+{"id":"bars_rows","quote":"311 rows","claim":311,"metric":{"stat":"count","set":"presence","filter":{"neighborhood":"premium-chocolate-bars","size_min":2.5,"size_max":3.6}}},
+{"id":"bars_median","quote":"median 6.19","claim":6.19,"metric":{"stat":"median","filter":{"neighborhood":"premium-chocolate-bars","size_min":2.5,"size_max":3.6}}},
+{"id":"bars_p75","quote":"p75 6.99","claim":6.99,"metric":{"stat":"p75","filter":{"neighborhood":"premium-chocolate-bars","size_min":2.5,"size_max":3.6}}},
+{"id":"bars_p90","quote":"p90 8.99","claim":8.99,"metric":{"stat":"p90","filter":{"neighborhood":"premium-chocolate-bars","size_min":2.5,"size_max":3.6}}},
+{"id":"bars_share","quote":"7 percent at 9.99 or above","claim":7,"metric":{"stat":"share_ge","threshold":9.99,"filter":{"neighborhood":"premium-chocolate-bars","size_min":2.5,"size_max":3.6}}}
+]

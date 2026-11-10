@@ -5,7 +5,7 @@ before the copy is written. A mismatch, or a figure with no claim behind it in -
 
 Usage:
   numbers_audit.py --selftest
-  numbers_audit.py <client> --rows <dir|file.json> --claims <claims.json> [--text copy.txt] [--allow 8.99,9.99] [--strict] [--report out.json]
+  numbers_audit.py <client> --rows <dir|file.json> --claims <claims.json> [--text copy.txt] [--allow 8.99,9.99] [--strict] [--cohorts a,b,c] [--report out.json]
 
 --rows    a directory of retail_entries JSON files, or one JSON file (list of rows, or {id: row}). Export the collection first;
           the audit reads what the DB holds, not what a mapper run produced.
@@ -135,6 +135,8 @@ if __name__=='__main__':
     if '--selftest' in a: sys.exit(0 if selftest() else 1)
     opt=lambda k:(a[a.index(k)+1] if k in a else None)
     if len(a)<1 or not opt('--rows') or not opt('--claims'): print(__doc__); sys.exit(2)
+    if opt('--cohorts'):   # the client's client_config.pricing_exclude_cohorts; the price set must match the app's
+        PRICE_DROP_COHORTS.clear(); PRICE_DROP_COHORTS.update(x for x in opt('--cohorts').split(',') if x)
     rows=load_rows(opt('--rows')); claims=json.load(open(opt('--claims')))
     res=audit_claims(rows,claims); bad=[r for r in res if not r['ok']]
     print(f'| claim | quoted | recomputed | n | result |\n|---|---|---|---|---|')
