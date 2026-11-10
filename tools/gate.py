@@ -42,6 +42,16 @@ def check_config(C):
             try: re.compile(n['relevance'])
             except re.error as e: errs.append(f"neighborhood {n['id']}: relevance does not compile ({e})")
         if not n.get('brand_only') and 'hard_exclude' not in n: errs.append(f"neighborhood {n['id']}: hard_exclude key missing (use \"\" if none is decided)")
+    for k,v in (C.get('hygiene') or {}).items():
+        if k in('exclude_brands','fragment_brands','private_label_brands') and v:
+            try: re.compile(v)
+            except re.error as e: errs.append(f"hygiene.{k} does not compile ({e})")
+    for n in nbs:
+        for k in ('belongs','elsewhere'):
+            v=(n.get('format_rule') or {}).get(k)
+            if v:
+                try: re.compile(v)
+                except re.error as e: errs.append(f"neighborhood {n['id']}: format_rule.{k} does not compile ({e})")
     for r in C.get('retailers',[]):
         if r.get('fallback'): continue
         if r['market'] not in C.get('markets',{}): errs.append(f"banner {r['banner']}: market {r['market']} not in markets"); continue

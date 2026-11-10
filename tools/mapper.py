@@ -3,9 +3,10 @@
 Usage: mapper.py <client_id> [outdir]. Writes <outdir>/retail_entries/<id>.json, matrix_blocks.json, summary.json."""
 import json,sys,os,re,glob,datetime
 sys.path.insert(0,os.path.dirname(__file__)); from normalize import normalize,num
-import gate
+import gate,hygiene
 cid=sys.argv[1]; out=sys.argv[2] if len(sys.argv)>2 else f'mapped/{cid}'
 C=json.load(open(f'clients/{cid}.json')); os.makedirs(out+'/retail_entries',exist_ok=True)
+HY=hygiene.load(C); hyg_log=[]   # client hygiene rules (clients/<id>.json hygiene, neighborhood format_rule); engine in tools/hygiene.py
 PL=re.compile(r"^(kroger|simple truth|private selection|signature (select|care|farms)|o organics|great value|good & gather|market pantry|up & up|sprouts|365|wegmans|publix|h-?e-?b|mi tienda|meijer|true goodness|safeway|lucky|trader|kirkland|member'?s mark|giant|stop & shop|food lion|hannaford|harris teeter|whole foods)\b",re.I)
 DOLLAR={'dollargeneral','dollartree','familydollar','popshelf'}
 def slug(s): return re.sub(r'-+','-',re.sub(r"[^a-z0-9]+","-",re.sub(r"['’]","",(s or '').lower()))).strip('-')
@@ -165,7 +166,8 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
         is_own=any(re.search(t,nm+' '+(x.get('brand') or ''),re.I) for t in C['brand_terms']) and not (C.get('brand_exclude') and re.search(C['brand_exclude'],nm,re.I))
         if not x['relevant'] and not is_own: stats['dropped_irrelevant']+=1; continue
         if C.get('brand_exclude') and re.search(C['brand_exclude'],nm,re.I) and not is_own and x['brand_norm'] and re.search(C['brand_terms'][0],x['brand_norm'],re.I): continue
-        brand=fix_brand(x['brand_norm'],nm) or 'Unbranded'; oz,ct=parse_size((h.get('size') or '')+' '+nm+' '+' '.join(t for t in (h.get('card_text') or []) if '$' not in t and 'discounted' not in t))
+        brand=fix_brand(x['brand_norm'],nm) or 'Unbranded'
+        oz,ct=parse_size((h.get('size') or '')+' '+nm+' '+' '.join(t for t in (h.get('card_text') or []) if '$' not in t and 'discounted' not in t))
         size_src='label'
         if not oz and not ct:
             ct_txt=' '.join(h.get('card_text') or [])
@@ -183,13 +185,17 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
                     size_src='derived_unit_price'
         nm,_nst=repair_name(nm,brand,h.get('link') or d.get('url_final'),KNOWN_NAMES)
         pname=clean_name(nm,brand)
+        _cb=hygiene.canon_brand(HY,brand) if HY.configured else brand   # canonical brand is stored on the row; ids keep the raw brand so price history still matches (runner_lane row identity)
+        _hv,_hwhy=hygiene.judge(HY,b['neighborhood'],_cb,pname,oz,ct)   # exclude and elsewhere are logged, never silent; review is held for a person
+        if _hv in('exclude','elsewhere'):
+            stats['hygiene_'+_hv]=stats.get('hygiene_'+_hv,0)+1; hyg_log.append(dict(id=f"{RET.get(retailer_slug,(retailer_slug,retailer_slug))[1]}_{slug(brand)}_{slug(pname)}_{size_slug(oz,ct)}",verdict=_hv,reason=_hwhy,retailer=banner,brand=brand,product=pname,block=f"{b['zip']}/{b['neighborhood']}@{banner}")); continue
         disp,idp=RET.get(retailer_slug,(retailer_slug,retailer_slug)); rid=f"{idp}_{slug(brand)}_{slug(pname)}_{size_slug(oz,ct)}"
         reg=x['price_regular']; pro=x['price_promo']
         block=f"{b['zip']}/{b['neighborhood']}@{banner}"
         r=rows.get(rid)
         if r is None:
-            r=dict(brand=brand,product_name=pname,retailer=disp,client_id=cid,is_own_brand=is_own,
-              is_private_label=bool(PL.match(brand)) and not is_own,source_type='scrape',price=(pro or reg),
+            r=dict(brand=_cb,product_name=pname,retailer=disp,client_id=cid,is_own_brand=is_own,
+              is_private_label=(bool(PL.match(brand)) or hygiene.is_private_label(HY,_cb)) and not is_own,source_type='scrape',price=(pro or reg),
               price_regular=reg,price_basis=price_basis,size_oz=oz,size_source=size_src,count=ct,
               price_per_oz=(round((pro or reg)/oz,4) if oz and (pro or reg) else None),
               price_history=[{'date':today,'price':(pro or reg)}],last_pulled=today,pulled_at=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -205,6 +211,7 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
             elif _nst!='ok': r['name_repaired']=_nst
             rows[rid]=r
             if not oz and not ct and not r.get('hold_reason'): r['hold_reason']='no size parsed'
+            if _hv=='review' and not r.get('hold_reason'): r['hold_reason']=_hwhy
         else:
             if b['neighborhood'] not in r['neighborhoods']: r['neighborhoods'].append(b['neighborhood'])
             if block not in r['blocks']: r['blocks'].append(block)
@@ -233,6 +240,10 @@ for rid,r in rows.items():
     tgt='held' if r.get('hold_reason') else 'retail_entries'
     json.dump(r,open(f'{out}/{tgt}/{rid}.json','w'),indent=1)
 stats['held_no_size']=sum(1 for r in rows.values() if r.get('hold_reason'))
+stats['held_total']=stats['held_no_size']   # rows a person has to look at (no size, truncated name, fragment brand)
+stats['review_share']=round(stats['held_total']/max(1,len(rows)),3)
+stats['hygiene_review']=sum(1 for r in rows.values() if str(r.get('hold_reason','')).startswith('brand is'))
+json.dump(hyg_log,open(out+'/hygiene_log.json','w'),indent=1)
 stats['rows']=len(rows)
 json.dump(blocks_out,open(out+'/matrix_blocks.json','w'),indent=1); json.dump(stats,open(out+'/summary.json','w'),indent=1)
 print(json.dumps(stats))

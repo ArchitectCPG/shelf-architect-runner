@@ -188,6 +188,12 @@
   },
   {
    "id": "chocolate-bites-pouch",
+   "format_rule": {
+    "belongs": "truffle|bonbon|bites?|squares?|minis?|thins?|bark|pieces|wrapped|share|stand.?up|pouch|\\bbag\\b|gems|drops|melts|cups?|clusters?|balls?|covered|dipped|enrobed|nuggets|morsels|snack|candy|family|coins|assort|promises|kisses|eggs?|hearts?",
+    "elsewhere": "\\bbars?\\b|\\b\\d{2}%|single origin|cacao\\b|tablette",
+    "small_single_oz_max": 3.6,
+    "elsewhere_reason": "off-neighborhood bar, waits for the bars term"
+   },
    "term": "chocolate bites bag",
    "relevance": "chocolat|cacao|cocoa|truffle|bonbon|\\bbark\\b|toffee|fudge|praline|nonpareil|m&m|m&amp;m|kisses|reese|snickers|twix|kit.?kat|lindor|lindt|ghirardelli|hershey|\\bdove\\b|cadbury|milky way|godiva|ferrero|rocher|sugarfina|maltesers|whoppers|rolo|twizzler|brookside|barkthins|unreal|justin|hu\\b|tony'?s|chocolonely|sixlets|raisinets|buncha crunch|crunch bar|mounds|almond joy|york peppermint|heath|skor|butterfinger|baby ruth|3 musketeers|caramello|take 5|whatchamacallit|payday|lion\\b|aero\\b|kinder|toblerone|ritter|loacker|pirouline|violet crumble|see'?s|russell stover|whitman|\\bchoc\\b|skinnydipped|skinny dipped|chocolove|muddy bites|st\\. amour|harken|alter eco|theo\\b|taza|raaka|endangered species|lily'?s|divine|green & black|compartes|chuao|venchi|lake champlain|moonstruck|jcoco|seattle chocolate|guittard|valrhona|tcho|hu kitchen|seed and bean|perugina|baci",
    "exclude": "chips?\\b|baking|cocoa powder|hot (cocoa|chocolate)|syrup|protein|granola|cereal|ice cream|frozen|cookie|brownie|cake|spread|drink|pudding|coffee|candle|dog|pet",
@@ -235,9 +241,42 @@
    "note": "SCOUT, price comparison only (Steve 2026-11-07). Refrigerated better-for-you chocolate treats (Midday Squares, Perfect Bar, Honey Mama's, Hail Merry) at natural and specialty. Not a launch position; the pouch is shelf-stable. Does not switch on the storage-class cut."
   }
  ],
+ "hygiene": {
+  "exclude_brands": "^(gomacro|barnana|kind|clif bar|clif|rxbar|nassau candy|the gfb|mosh|sabatino tartufi|pocky|snack factory|woodstock|mitica|gato dates|sweet jubilee|harry & david|wonderful|mauna loa|walkers|bahlsen|bonne maman|olyra|sillycow|teeccino|republic of tea|quest|barebells)\\b",
+  "fragment_brands": "^(sea salt dark|orange|bonbon|chocolate covered figs|dark chocolate|milk chocolate|chocolate|unbranded)$",
+  "brand_canon": {
+   "hershey's": "Hershey's",
+   "hershey'S": "Hershey's",
+   "cadbury": "Cadbury",
+   "mounds": "Mounds",
+   "russell stover": "Russell Stover",
+   "elements truffles": "Elements Truffles",
+   "milkboy": "Milkboy",
+   "beyond good": "Beyond Good",
+   "central market": "Central Market",
+   "alden’s organic": "Alden's Organic",
+   "nelly's organics": "Nelly's Organics",
+   "see's candies": "See's Candies",
+   "see’s candies": "See's Candies",
+   "bissinger's": "Bissinger's",
+   "terry's": "Terry's",
+   "m&m's": "M&M's",
+   "kit kat": "Kit Kat",
+   "rolo": "Rolo",
+   "signature reserve sea": "Signature Reserve",
+   "mid-day squares": "Mid-Day Squares",
+   "honey mama's": "Honey Mama's",
+   "kate's real food": "Kate's Real Food",
+   "jeni's ice creams": "Jeni's Ice Creams",
+   "toffifay": "Toffifay"
+  },
+  "private_label_brands": "^(365|whole foods market|favorite day|good & gather|market pantry|central market|bristol farms|signature reserve|signature select|kirkland|simple truth|private selection|sprouts|wegmans|h-e-b|meijer|true goodness|safeway|o organics|gelson'?s|erewhon|plum market|woodman'?s|the fresh market|natural grocers)\\b",
+  "note": "Moved out of tools/pouch_filter.py and tools/stage2_hygiene.py on 2026-11-10 (SOP v85 build 2). Patterns are Vosges's; the engine is tools/hygiene.py. exclude_brands drops brands that are not this shelf (snack and protein bars, dates, nuts); fragment_brands holds rows whose brand is a product fragment for review; brand_canon fixes casing and spelling; private_label_brands flags store brands."
+ },
  "retailers": [
   {
    "banner": "wholefoods",
+   "matrix_suffix": "whole-foods-chicago",
    "lane": "recipe",
    "template": "wholefoods",
    "market": "chicago",
@@ -246,6 +285,7 @@
   },
   {
    "banner": "wholefoods-socal",
+   "matrix_suffix": "whole-foods-socal",
    "lane": "recipe",
    "template": "wholefoods",
    "market": "socal",
@@ -254,6 +294,7 @@
   },
   {
    "banner": "sprouts",
+   "matrix_suffix": "sprouts-socal",
    "lane": "instacart",
    "slug": "sprouts",
    "url": "https://shop.sprouts.com/store/sprouts/s?k={{term}}",
@@ -263,6 +304,7 @@
   },
   {
    "banner": "marianos",
+   "matrix_suffix": "marianos-chicago",
    "lane": "kroger",
    "host": "www.marianos.com",
    "market": "chicago",
@@ -272,6 +314,7 @@
   },
   {
    "banner": "marianos-api",
+   "matrix_suffix": "marianos-chicago",
    "lane": "kroger_api",
    "chain": "Mariano's",
    "market": "chicago",
@@ -279,6 +322,7 @@
   },
   {
    "banner": "kingsoopers-api",
+   "matrix_suffix": "king-soopers-denver",
    "lane": "kroger_api",
    "chain": "King Soopers",
    "market": "denver",
@@ -286,6 +330,7 @@
   },
   {
    "banner": "ralphs-api",
+   "matrix_suffix": "ralphs-socal",
    "lane": "kroger_api",
    "chain": "Ralphs",
    "market": "socal",
@@ -293,6 +338,7 @@
   },
   {
    "banner": "jewel-osco",
+   "matrix_suffix": "jewel-osco-chicago",
    "store_expect": "Division St",
    "lane": "recipe",
    "template": "jewel",
@@ -301,6 +347,7 @@
   },
   {
    "banner": "albertsons",
+   "matrix_suffix": "albertsons-boise",
    "store_expect": "State St",
    "lane": "recipe",
    "template": "albertsons",
@@ -309,6 +356,7 @@
   },
   {
    "banner": "safeway",
+   "matrix_suffix": "safeway-denver",
    "store_expect": "20th Ave",
    "lane": "recipe",
    "template": "safeway",
@@ -316,6 +364,7 @@
   },
   {
    "banner": "heb",
+   "matrix_suffix": "heb-houston",
    "store_expect": "Houston|Bellaire|West U|Rice|77005|Buffalo|Kirby",
    "lane": "recipe",
    "template": "heb",
@@ -325,6 +374,7 @@
   },
   {
    "banner": "wegmans",
+   "matrix_suffix": "wegmans-nyc",
    "lane": "instacart",
    "template": "wegmans",
    "market": "nyc",
@@ -334,6 +384,7 @@
   },
   {
    "banner": "meijer",
+   "matrix_suffix": "meijer-chicago",
    "lane": "recipe",
    "template": "meijer",
    "market": "chicago",
@@ -341,6 +392,7 @@
   },
   {
    "banner": "target",
+   "matrix_suffix": "target-chicago",
    "lane": "api",
    "template": "target",
    "market": "chicago",
@@ -348,6 +400,7 @@
   },
   {
    "banner": "walmart",
+   "matrix_suffix": "walmart-chicago",
    "lane": "api",
    "template": "walmart",
    "market": "chicago",
@@ -356,6 +409,7 @@
   },
   {
    "banner": "costco-online",
+   "matrix_suffix": "costco-chicago",
    "lane": "instacart",
    "template": "costco-online",
    "market": "chicago",
@@ -365,6 +419,7 @@
   },
   {
    "banner": "naturalgrocers",
+   "matrix_suffix": "natural-grocers-vitamin-cottage-denver",
    "lane": "instacart",
    "template": "naturalgrocers",
    "market": "denver",
@@ -374,6 +429,7 @@
   },
   {
    "banner": "freshthyme",
+   "matrix_suffix": "fresh-thyme-market-chicago",
    "lane": "instacart",
    "template": "freshthyme",
    "market": "chicago",
@@ -383,6 +439,7 @@
   },
   {
    "banner": "thefreshmarket",
+   "matrix_suffix": "the-fresh-market-chicago",
    "lane": "instacart",
    "template": "thefreshmarket",
    "market": "chicago",
@@ -392,6 +449,7 @@
   },
   {
    "banner": "erewhon",
+   "matrix_suffix": "erewhon-socal",
    "lane": "instacart",
    "slug": "erewhon",
    "market": "socal",
@@ -400,6 +458,7 @@
   },
   {
    "banner": "gelsons",
+   "matrix_suffix": "gelsons-socal",
    "lane": "instacart",
    "slug": "gelsons",
    "market": "socal",
@@ -407,6 +466,7 @@
   },
   {
    "banner": "bristol-farms",
+   "matrix_suffix": "bristol-farms-socal",
    "lane": "instacart",
    "slug": "bristol-farms",
    "market": "socal",
@@ -415,6 +475,7 @@
   },
   {
    "banner": "woodmans",
+   "matrix_suffix": "woodmans-madison",
    "lane": "instacart",
    "slug": "woodmans-food-markets",
    "market": "madison",
@@ -423,6 +484,7 @@
   },
   {
    "banner": "central-market",
+   "matrix_suffix": "central-market-houston",
    "lane": "instacart",
    "slug": "central-market",
    "market": "houston",
@@ -431,6 +493,7 @@
   },
   {
    "banner": "plum-market",
+   "matrix_suffix": "plum-market-chicago",
    "lane": "instacart",
    "slug": "plum-market",
    "market": "chicago",
