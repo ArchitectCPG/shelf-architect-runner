@@ -191,7 +191,7 @@
    "format_rule": {
     "belongs": "truffle|bonbon|bites?|squares?|minis?|thins?|bark|pieces|wrapped|share|stand.?up|pouch|\\bbag\\b|gems|drops|melts|cups?|clusters?|balls?|covered|dipped|enrobed|nuggets|morsels|snack|candy|family|coins|assort|promises|kisses|eggs?|hearts?",
     "elsewhere": "\\bbars?\\b|\\b\\d{2}%|single origin|cacao\\b|tablette",
-    "small_single_oz_max": 3.6,
+    "small_single_oz_max": null,
     "elsewhere_reason": "off-neighborhood bar, waits for the bars term"
    },
    "term": "chocolate bites bag",

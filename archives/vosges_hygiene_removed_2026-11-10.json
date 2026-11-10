@@ -1,0 +1,1344 @@
+{
+ "purpose": "Backup of 18 retail_entries rows removed from the Vosges instance 2026-11-10 (SOP v85 build 2 hygiene findings, Steve approved). Restore with db_write set at retail_entries/<id>.",
+ "instance": "5d69a74f-f3df-40c6-baf4-c5aa7f355897",
+ "rows": {
+  "bristol-farms_mitica_orange-delights-dark-chocolate-covered-candied-oranges_4-94oz": {
+   "brand": "Mitica",
+   "product_name": "Orange Delights, Dark Chocolate Covered Candied Oranges",
+   "retailer": "bristol-farms",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 13.09,
+   "price_regular": 13.09,
+   "price_basis": "instacart_quote",
+   "size_oz": 4.94,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 2.6498,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 13.09
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:04Z",
+   "region": "API zip 90012 shop 16724744 location 495524",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@bristol-farms-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@bristol-farms-socal"
+   ],
+   "pull_url": "https://www.instacart.com/store/bristol-farms/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane bristol-farms, store: API zip 90012 shop 16724744 location 495524. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "bristol-farms_the-gfb_dark-chocolate-coconut-bites_4oz": {
+   "brand": "The Gfb",
+   "product_name": "Dark Chocolate Coconut Bites",
+   "retailer": "bristol-farms",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 5.79,
+   "price_regular": 5.79,
+   "price_basis": "instacart_quote",
+   "size_oz": 4.0,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.4475,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 5.79
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:04Z",
+   "region": "API zip 90012 shop 16724744 location 495524",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@bristol-farms-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@bristol-farms-socal"
+   ],
+   "pull_url": "https://www.instacart.com/store/bristol-farms/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane bristol-farms, store: API zip 90012 shop 16724744 location 495524. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "costco_snack-factory_dark-chocolate-crunch-pretzel-crisps_22oz": {
+   "brand": "Snack Factory",
+   "product_name": "Dark Chocolate Crunch Pretzel Crisps",
+   "retailer": "Costco",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 14.17,
+   "price_regular": 14.17,
+   "price_basis": "instacart_quote",
+   "size_oz": 22.0,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 0.6441,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 14.17
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:05Z",
+   "region": "API zip 60614 shop 3476 location 115 retailer costco",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@costco-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@costco-chicago"
+   ],
+   "pull_url": "https://www.instacart.com/store/costco/s?k=chocolate%20bites%20bag",
+   "notes": "PRICING CAVEAT: Costco via Instacart is warehouse-local assortment at roughly 15 percent over the warehouse tag; price_basis instacart_quote, pricing intel not shelf price (SOP rule 10). Runner pull 2026-11-06, lane costco-online, store: API zip 60614 shop 3476 location 115 retailer costco. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate",
+   "pricing_cohort": "instacart-quote"
+  },
+  "erewhon_barnana_dipped-banana-bites-dark-chocolate_3-5oz": {
+   "brand": "Barnana",
+   "product_name": "Dipped Banana Bites, Dark Chocolate",
+   "retailer": "erewhon",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 8.09,
+   "price_regular": 8.09,
+   "price_basis": "instacart_quote",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 2.3114,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 8.09
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:05Z",
+   "region": "API zip 90012 shop 94105 location 88898",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@erewhon-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@erewhon-socal"
+   ],
+   "pull_url": "https://www.instacart.com/store/erewhon/s?k=chocolate%20bites%20bag",
+   "notes": "PRICING CAVEAT: Erewhon prices skew the band up; counts for presence, pricing_cohort erewhon-premium, out of the median. Runner pull 2026-11-06, lane erewhon, store: API zip 90012 shop 94105 location 88898. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate",
+   "pricing_cohort": "erewhon-premium"
+  },
+  "erewhon_the-gfb_chocolate-cherry-almond-bites_4oz": {
+   "brand": "The Gfb",
+   "product_name": "Chocolate Cherry Almond Bites",
+   "retailer": "erewhon",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 6.89,
+   "price_regular": 6.89,
+   "price_basis": "instacart_quote",
+   "size_oz": 4.0,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.7225,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 6.89
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:05Z",
+   "region": "API zip 90012 shop 94105 location 88898",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@erewhon-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@erewhon-socal"
+   ],
+   "pull_url": "https://www.instacart.com/store/erewhon/s?k=chocolate%20bites%20bag",
+   "notes": "PRICING CAVEAT: Erewhon prices skew the band up; counts for presence, pricing_cohort erewhon-premium, out of the median. Runner pull 2026-11-06, lane erewhon, store: API zip 90012 shop 94105 location 88898. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate",
+   "pricing_cohort": "erewhon-premium"
+  },
+  "gelsons_the-gfb_dark-chocolate-coconut-bites_4oz": {
+   "brand": "The Gfb",
+   "product_name": "Dark Chocolate Coconut Bites",
+   "retailer": "gelsons",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 5.59,
+   "price_regular": 5.59,
+   "price_basis": "instacart_quote",
+   "size_oz": 4.0,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.3975,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 5.59
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:05Z",
+   "region": "API zip 90012 shop 2111 location 587",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@gelsons-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@gelsons-socal"
+   ],
+   "pull_url": "https://www.instacart.com/store/gelsons/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane gelsons, store: API zip 90012 shop 2111 location 587. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "plum-market_mitica_chocohigos-dark-chocolate-covered-figs_4-94oz": {
+   "brand": "Mitica",
+   "product_name": "ChocoHigos, Dark Chocolate Covered Figs",
+   "retailer": "plum-market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 20.19,
+   "price_regular": 20.19,
+   "price_basis": "instacart_quote",
+   "size_oz": 4.94,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 4.087,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 20.19
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:06Z",
+   "region": "API zip 60614 shop 109526 location 1247",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@plum-market-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@plum-market-chicago"
+   ],
+   "pull_url": "https://www.instacart.com/store/plum-market/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane plum-market, store: API zip 60614 shop 109526 location 1247. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "plum-market_the-gfb_chocolate-cherry-almond-bites_4oz": {
+   "brand": "The Gfb",
+   "product_name": "Chocolate Cherry Almond Bites",
+   "retailer": "plum-market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 6.39,
+   "price_regular": 6.39,
+   "price_basis": "instacart_quote",
+   "size_oz": 4.0,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.5975,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 6.39
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:06Z",
+   "region": "API zip 60614 shop 109526 location 1247",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@plum-market-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@plum-market-chicago"
+   ],
+   "pull_url": "https://www.instacart.com/store/plum-market/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane plum-market, store: API zip 60614 shop 109526 location 1247. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "plum-market_woodstock_mixed-berries-in-dark-white-chocolate-dipped-bites_8oz": {
+   "brand": "Woodstock",
+   "product_name": "Mixed Berries in Dark & White Chocolate Dipped Bites",
+   "retailer": "plum-market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 7.59,
+   "price_regular": 7.59,
+   "price_basis": "instacart_quote",
+   "size_oz": 8.0,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 0.9487,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 7.59
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:06Z",
+   "region": "API zip 60614 shop 109526 location 1247",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@plum-market-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@plum-market-chicago"
+   ],
+   "pull_url": "https://www.instacart.com/store/plum-market/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane plum-market, store: API zip 60614 shop 109526 location 1247. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "thefreshmarket_nassau-candy_dark-chocolate-walnuts_16oz": {
+   "brand": "Nassau Candy",
+   "product_name": "Dark Chocolate Walnuts",
+   "retailer": "thefreshmarket",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 16.79,
+   "price_regular": 16.79,
+   "price_basis": "instacart_quote",
+   "size_oz": 16.0,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.0494,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 16.79
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:07Z",
+   "region": "API zip 60614 shop 541401 location 380718 retailer the-fresh-market",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@the-fresh-market-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@the-fresh-market-chicago"
+   ],
+   "pull_url": "https://www.instacart.com/store/the-fresh-market/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane thefreshmarket, store: API zip 60614 shop 541401 location 380718 retailer the-fresh-market. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate",
+   "format": "Shelf-stable",
+   "format_source": "name"
+  },
+  "wholefoods-socal_unreal_dark-chocolate-pretzels_3-5oz": {
+   "brand": "Unreal",
+   "product_name": "Dark Chocolate Pretzels",
+   "retailer": "wholefoods-socal",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 7.89,
+   "price_regular": 7.89,
+   "price_basis": "shelf",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 2.2543,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 7.89
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T22:15:18Z",
+   "region": "90012",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-socal"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods-socal, store: 90012.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods_unreal_caramel-peanut-nougat-bar_3-4oz": {
+   "brand": "Unreal",
+   "product_name": "Caramel Peanut Nougat Bar",
+   "retailer": "Whole Foods Market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 7.19,
+   "price_regular": 7.19,
+   "price_basis": "shelf",
+   "size_oz": 3.4,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 2.1147,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 7.19
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T22:15:18Z",
+   "region": "60614",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods, store: 60614.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods-socal_unreal_milk-chocolate-pretzels_3-5oz": {
+   "brand": "Unreal",
+   "product_name": "Milk Chocolate Pretzels",
+   "retailer": "wholefoods-socal",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 7.89,
+   "price_regular": 7.89,
+   "price_basis": "shelf",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 2.2543,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 7.89
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T22:15:18Z",
+   "region": "90012",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-socal"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods-socal, store: 90012.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods_unreal_dark-chocolate-pretzels_3-5oz": {
+   "brand": "Unreal",
+   "product_name": "Dark Chocolate Pretzels",
+   "retailer": "Whole Foods Market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 7.19,
+   "price_regular": 7.19,
+   "price_basis": "shelf",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 2.0543,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 7.19
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T22:15:18Z",
+   "region": "60614",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods, store: 60614.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods-socal_unreal_dark-choc-coconut-bars_4-2oz": {
+   "brand": "Unreal",
+   "product_name": "Dark Choc Coconut Bars",
+   "retailer": "wholefoods-socal",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 7.89,
+   "price_regular": 7.89,
+   "price_basis": "shelf",
+   "size_oz": 4.2,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.8786,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 7.89
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T22:15:18Z",
+   "region": "90012",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-socal"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods-socal, store: 90012.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods-socal_hu_coconut-dark-chocolate_2-75oz": {
+   "brand": "Hu",
+   "product_name": "Coconut Dark Chocolate",
+   "retailer": "wholefoods-socal",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 8.99,
+   "price_regular": 8.99,
+   "price_basis": "shelf",
+   "size_oz": 2.75,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 3.2691,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 8.99
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T22:15:18Z",
+   "region": "90012",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-socal"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods-socal, store: 90012.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods_hu_coconut-dark-chocolate_2-75oz": {
+   "brand": "Hu",
+   "product_name": "Coconut Dark Chocolate",
+   "retailer": "Whole Foods Market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 7.99,
+   "price_regular": 7.99,
+   "price_basis": "shelf",
+   "size_oz": 2.75,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 2.9055,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 7.99
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T22:15:18Z",
+   "region": "60614",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods, store: 60614.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods_unreal_dark-choc-coconut-bars_4-2oz": {
+   "brand": "Unreal",
+   "product_name": "Dark Choc Coconut Bars",
+   "retailer": "Whole Foods Market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 7.19,
+   "price_regular": 7.19,
+   "price_basis": "shelf",
+   "size_oz": 4.2,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.7119,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 7.19
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T22:15:18Z",
+   "region": "60614",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods, store: 60614.",
+   "category": "candy-chocolate"
+  }
+ },
+ "restored": "The 8 Whole Foods rows (Hu Coconut Dark Chocolate x2, Unreal bars and pretzels x6) in rows[] with the format rule verdict elsewhere were deleted and then restored the same day: the small-single rule is a heuristic, Hu 2.75 oz is a pouch peer cited in the Stage 3 thesis. Do not delete them.",
+ "rows_second_pass": {
+  "bristol-farms_barnana-organic-banana-bites_original_3-5oz": {
+   "brand": "Barnana Organic Banana Bites",
+   "product_name": "Original",
+   "retailer": "bristol-farms",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 6.89,
+   "price_regular": 6.89,
+   "price_basis": "instacart_quote",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.9686,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 6.89
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:04Z",
+   "region": "API zip 90012 shop 16724744 location 495524",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@bristol-farms-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@bristol-farms-socal"
+   ],
+   "pull_url": "https://www.instacart.com/store/bristol-farms/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane bristol-farms, store: API zip 90012 shop 16724744 location 495524. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "bristol-farms_barnana_dipped-banana-bites-dark-chocolate_3-5oz": {
+   "brand": "Barnana",
+   "product_name": "Dipped Banana Bites, Dark Chocolate",
+   "retailer": "bristol-farms",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 6.89,
+   "price_regular": 6.89,
+   "price_basis": "instacart_quote",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.9686,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 6.89
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:04Z",
+   "region": "API zip 90012 shop 16724744 location 495524",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@bristol-farms-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@bristol-farms-socal"
+   ],
+   "pull_url": "https://www.instacart.com/store/bristol-farms/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane bristol-farms, store: API zip 90012 shop 16724744 location 495524. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "erewhon_barnana-organic-banana-bites_original_3-5oz": {
+   "brand": "Barnana Organic Banana Bites",
+   "product_name": "Original",
+   "retailer": "erewhon",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 8.09,
+   "price_regular": 8.09,
+   "price_basis": "instacart_quote",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 2.3114,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 8.09
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:05Z",
+   "region": "API zip 90012 shop 94105 location 88898",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@erewhon-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@erewhon-socal"
+   ],
+   "pull_url": "https://www.instacart.com/store/erewhon/s?k=chocolate%20bites%20bag",
+   "notes": "PRICING CAVEAT: Erewhon prices skew the band up; counts for presence, pricing_cohort erewhon-premium, out of the median. Runner pull 2026-11-06, lane erewhon, store: API zip 90012 shop 94105 location 88898. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate",
+   "pricing_cohort": "erewhon-premium"
+  },
+  "gelsons_barnana_dipped-banana-bites-dark-chocolate_3-5oz": {
+   "brand": "Barnana",
+   "product_name": "Dipped Banana Bites, Dark Chocolate",
+   "retailer": "gelsons",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 5.99,
+   "price_regular": 5.99,
+   "price_basis": "instacart_quote",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.7114,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 5.99
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:05Z",
+   "region": "API zip 90012 shop 2111 location 587",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@gelsons-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@gelsons-socal"
+   ],
+   "pull_url": "https://www.instacart.com/store/gelsons/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane gelsons, store: API zip 90012 shop 2111 location 587. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "naturalgrocers_barnana_dipped-banana-bites-dark-chocolate-peanut-butter-cup_3-5oz": {
+   "brand": "Barnana",
+   "product_name": "Dipped Banana Bites, Dark Chocolate Peanut Butter Cup",
+   "retailer": "naturalgrocers",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 5.39,
+   "price_regular": 5.39,
+   "price_basis": "instacart_quote",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.54,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 5.39
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:06Z",
+   "region": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@natural-grocers-vitamin-cottage-denver",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@natural-grocers-vitamin-cottage-denver"
+   ],
+   "pull_url": "https://www.instacart.com/store/natural-grocers/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane naturalgrocers, store: API zip 80202 shop 14929 location 1261 retailer natural-grocers. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "plum-market_barnana-organic-banana-bites_original_3-5oz": {
+   "brand": "Barnana Organic Banana Bites",
+   "product_name": "Original",
+   "retailer": "plum-market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 6.79,
+   "price_regular": 6.79,
+   "price_basis": "instacart_quote",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.94,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 6.79
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:06Z",
+   "region": "API zip 60614 shop 109526 location 1247",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@plum-market-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@plum-market-chicago"
+   ],
+   "pull_url": "https://www.instacart.com/store/plum-market/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane plum-market, store: API zip 60614 shop 109526 location 1247. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "plum-market_barnana_dipped-banana-bites-dark-chocolate_3-5oz": {
+   "brand": "Barnana",
+   "product_name": "Dipped Banana Bites, Dark Chocolate",
+   "retailer": "plum-market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 6.79,
+   "price_regular": 6.79,
+   "price_basis": "instacart_quote",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.94,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 6.79
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:06Z",
+   "region": "API zip 60614 shop 109526 location 1247",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@plum-market-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@plum-market-chicago"
+   ],
+   "pull_url": "https://www.instacart.com/store/plum-market/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane plum-market, store: API zip 60614 shop 109526 location 1247. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "plum-market_snack-factory_milk-chocolate-pretzels_5-5oz": {
+   "brand": "Snack Factory",
+   "product_name": "Milk Chocolate Pretzels",
+   "retailer": "plum-market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 13.49,
+   "price_regular": 13.49,
+   "price_basis": "instacart_quote",
+   "size_oz": 5.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 2.4527,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 13.49
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:06Z",
+   "region": "API zip 60614 shop 109526 location 1247",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@plum-market-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@plum-market-chicago"
+   ],
+   "pull_url": "https://www.instacart.com/store/plum-market/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane plum-market, store: API zip 60614 shop 109526 location 1247. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "sprouts_barnana_organic-dark-chocolate-dipped-chewy-banana-bites_3-5oz": {
+   "brand": "Barnana",
+   "product_name": "Organic Dark Chocolate Dipped Chewy Banana Bites",
+   "retailer": "Sprouts Farmers Market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 5.99,
+   "price_regular": 5.99,
+   "price_basis": "instacart_quote",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.7114,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 5.99
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:06Z",
+   "region": "API zip 90012 shop 542872 location 177895",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@sprouts-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@sprouts-socal"
+   ],
+   "pull_url": "https://shop.sprouts.com/store/sprouts/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane sprouts, store: API zip 90012 shop 542872 location 177895. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate",
+   "format": "Shelf-stable",
+   "format_source": "name"
+  },
+  "sprouts_snack-factory_dark-chocolate-pretzel-crisps-drizzlers_5-5oz": {
+   "brand": "Snack Factory",
+   "product_name": "Dark Chocolate Pretzel Crisps Drizzlers",
+   "retailer": "Sprouts Farmers Market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 6.49,
+   "price_regular": 6.49,
+   "price_basis": "instacart_quote",
+   "size_oz": 5.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.18,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 6.49
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:06Z",
+   "region": "API zip 90012 shop 542872 location 177895",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@sprouts-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@sprouts-socal"
+   ],
+   "pull_url": "https://shop.sprouts.com/store/sprouts/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane sprouts, store: API zip 90012 shop 542872 location 177895. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "wegmans_snack-factory-bites_baked-pretzel-snacks-sea-salt-thin-crunchy-bites_9oz": {
+   "brand": "Snack Factory Bites",
+   "product_name": "Baked Pretzel Snacks, Sea Salt, Thin & Crunchy, Bites",
+   "retailer": "wegmans",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 5.59,
+   "price_regular": 5.59,
+   "price_basis": "instacart_quote",
+   "size_oz": 9.0,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 0.6211,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 5.59
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:07Z",
+   "region": "API zip 10023 shop 366100 location 162737 retailer wegmans",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@wegmans-nyc",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@wegmans-nyc"
+   ],
+   "pull_url": "https://www.instacart.com/store/wegmans/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane wegmans, store: API zip 10023 shop 366100 location 162737 retailer wegmans. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods-socal_kind-minis-variety_pack_3-5oz": {
+   "brand": "KIND Minis Variety",
+   "product_name": "Pack",
+   "retailer": "wholefoods-socal",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 5.99,
+   "price_regular": 5.99,
+   "price_basis": "shelf",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": 20,
+   "price_per_oz": 1.7114,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 5.99
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:07Z",
+   "region": "90012",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-socal"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods-socal, store: 90012.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods-socal_rxbar-minis-variety_pack_8oz": {
+   "brand": "RXBAR Minis Variety",
+   "product_name": "Pack",
+   "retailer": "wholefoods-socal",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 9.29,
+   "price_regular": 9.29,
+   "price_basis": "shelf",
+   "size_oz": 8.0,
+   "size_source": "label",
+   "count": 8,
+   "price_per_oz": 1.1612,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 9.29
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:07Z",
+   "region": "90012",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-socal",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-socal"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods-socal, store: 90012.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods_kind-minis-variety_pack_3-5oz": {
+   "brand": "KIND Minis Variety",
+   "product_name": "Pack",
+   "retailer": "Whole Foods Market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 6.79,
+   "price_regular": 6.79,
+   "price_basis": "shelf",
+   "size_oz": 3.5,
+   "size_source": "label",
+   "count": 20,
+   "price_per_oz": 1.94,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 6.79
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:08Z",
+   "region": "60614",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods, store: 60614.",
+   "category": "candy-chocolate"
+  },
+  "wholefoods_rxbar-minis-variety_pack_8oz": {
+   "brand": "RXBAR Minis Variety",
+   "product_name": "Pack",
+   "retailer": "Whole Foods Market",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 8.69,
+   "price_regular": 8.69,
+   "price_basis": "shelf",
+   "size_oz": 8.0,
+   "size_source": "label",
+   "count": 8,
+   "price_per_oz": 1.0862,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 8.69
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:08Z",
+   "region": "60614",
+   "route": "runner-recipe",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@whole-foods-chicago"
+   ],
+   "pull_url": "https://www.wholefoodsmarket.com/grocery/search?k=chocolate+bites+bag",
+   "notes": "Runner pull 2026-11-06, lane wholefoods, store: 60614.",
+   "category": "candy-chocolate"
+  },
+  "woodmans_snack-factory_milk-chocolate-pretzels_5-5oz": {
+   "brand": "Snack Factory",
+   "product_name": "Milk Chocolate Pretzels",
+   "retailer": "woodmans",
+   "client_id": "vosges",
+   "is_own_brand": false,
+   "is_private_label": false,
+   "source_type": "scrape",
+   "price": 5.79,
+   "price_regular": 5.79,
+   "price_basis": "instacart_quote",
+   "size_oz": 5.5,
+   "size_source": "label",
+   "count": null,
+   "price_per_oz": 1.0527,
+   "price_history": [
+    {
+     "date": "2026-11-06",
+     "price": 5.79
+    }
+   ],
+   "last_pulled": "2026-11-06",
+   "pulled_at": "2026-11-06T18:04:08Z",
+   "region": "API zip 53711 shop 20059 location 70266",
+   "route": "runner-instacart",
+   "upc": null,
+   "block": "candy-chocolate/chocolate-bites-pouch@woodmans-madison",
+   "zip": "candy-chocolate",
+   "neighborhood": "chocolate-bites-pouch",
+   "neighborhoods": [
+    "chocolate-bites-pouch"
+   ],
+   "blocks": [
+    "candy-chocolate/chocolate-bites-pouch@woodmans-madison"
+   ],
+   "pull_url": "https://www.instacart.com/store/woodmans-food-markets/s?k=chocolate%20bites%20bag",
+   "notes": "Runner pull 2026-11-06, lane woodmans, store: API zip 53711 shop 20059 location 70266. Instacart quote, carries marketplace markup; pricing intel, not shelf price.",
+   "category": "candy-chocolate"
+  }
+ },
+ "second_pass_note": "16 more not-this-shelf brand rows (Barnana, Snack Factory, Kind, RXBar) found by replaying every landing batch, deleted 2026-11-10 after the first 10. Same class, same approval."
+}
