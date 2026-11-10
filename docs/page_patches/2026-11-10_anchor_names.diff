@@ -1,0 +1,14 @@
+7414a7415,7419
+>     // launch.anchor_names: the anchor is the door the brand already HAS; other tier accounts are targets, not unlocks.
+>     // launch.anchor_fams: the distributor books the brand actually ships through (a retailer's secondary book opens nothing).
+>     var AN = Array.isArray(L.anchor_names) ? L.anchor_names.map(function(x){ return String(x).toLowerCase(); }) : [];
+>     var AF = Array.isArray(L.anchor_fams) ? L.anchor_fams : [];
+>     if(AN.length){ var named = anchors.filter(function(x){ return AN.indexOf(String(x.n).toLowerCase())!==-1; }); if(named.length) anchors = named; else AN = []; }
+7423c7428
+<       var fams = DP_FAMS.filter(function(f){ return dpDcs(a.dp,f).length; });
+---
+>       var fams = DP_FAMS.filter(function(f){ return dpDcs(a.dp,f).length && (!AF.length || AF.indexOf(f)!==-1); });
+7440c7445
+<     if(lead && (lead.coverage>=0.6 || (cards.length>1 && lead.found>=1.3*cards[1].found))){ sk='Anchor-led path'; sh=lead.a.n+' unlocks the most: '+Math.round(lead.found).toLocaleString()+' found doors, opening '+lead.dcOpened+' of the '+lead.dcTotal+' '+lead.fams.join(' + ')+' DCs your tiers touch.'; sb='Chase it first. '+(lead.riders.length? lead.riders.length+' tier account'+(lead.riders.length>1?'s':'')+' ride on the same DCs (' + lead.riders.slice(0,4).map(function(x){return x.n;}).join(', ')+(lead.riders.length>4?', more':'')+'), and '+lead.fill.length+' in-state independents and regionals fill in behind it for '+Math.round(lead.fdoors).toLocaleString()+' doors at no new setup.' : lead.fill.length+' in-state independents and regionals fill in behind it for '+Math.round(lead.fdoors).toLocaleString()+' doors at no new setup.'); }
+---
+>     if(lead && (AN.length || lead.coverage>=0.6 || (cards.length>1 && lead.found>=1.3*cards[1].found))){ sk='Anchor-led path'; sh=lead.a.n+(AN.length?' is the door you have: ':' unlocks the most: ')+Math.round(lead.found).toLocaleString()+' found doors, opening '+lead.dcOpened+' of the '+lead.dcTotal+' '+lead.fams.join(' + ')+' DCs your tiers touch.'; sb=(AN.length?'Build out from it. ':'Chase it first. ')+(lead.riders.length? lead.riders.length+' tier account'+(lead.riders.length>1?'s':'')+' ride on the same DCs (' + lead.riders.slice(0,4).map(function(x){return x.n;}).join(', ')+(lead.riders.length>4?', more':'')+'), and '+lead.fill.length+' in-state independents and regionals fill in behind it for '+Math.round(lead.fdoors).toLocaleString()+' doors at no new setup.' : lead.fill.length+' in-state independents and regionals fill in behind it for '+Math.round(lead.fdoors).toLocaleString()+' doors at no new setup.'); }
