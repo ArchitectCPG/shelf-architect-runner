@@ -80,11 +80,15 @@ def extract(cfg, out_dir):
     cards = []
     for t, card in zip(refs["existing"], d.get("existing_cards", [])):
         W = V[t["tab"]]; tt = t["tot"]
-        cards.append({"key": card["key"], "label": card["label"], "current_revenue": round(val(W, f"S{tt}"), 2), "incremental_lift": 0,
-                      "projected_revenue": round(val(W, f"S{tt}"), 2),
-                      "categories": [{"name": f"Trade $ ({refs['year_label']}, mature {et*100:.0f}%)", "fy27_total": round(val(W, f"U{tt}"), 2)},
-                                     {"name": f"Marketing $ ({refs['year_label']}, mature {em*100:.0f}%)", "fy27_total": round(val(W, f"V{tt}"), 2)}],
-                      "monthly_spend": [round(x * (et + em) * brand_pct, 2) for x in mon(W, tt, 7)],
+        S_, U_, V_, G_ = (val(W, f"{c}{tt}") for c in "SUVW")
+        tr_r, mk_r = (U_ / G_, V_ / G_) if G_ else (et, em)
+        sp_r = (U_ + V_) / S_ if S_ else 0
+        tl = card.get("trade_name", "Trade $"); ml = card.get("mkt_name", "Marketing $")
+        cards.append({"key": card["key"], "label": card["label"], "current_revenue": round(S_, 2), "incremental_lift": 0,
+                      "projected_revenue": round(S_, 2),
+                      "categories": [{"name": f"{tl} ({refs['year_label']}, {tr_r*100:.0f}% of brand $)", "fy27_total": round(U_, 2)},
+                                     {"name": f"{ml} ({refs['year_label']}, {mk_r*100:.0f}% of brand $)", "fy27_total": round(V_, 2)}],
+                      "monthly_spend": [round(x * sp_r, 2) for x in mon(W, tt, 7)],
                       "total_spend": round(val(W, f"U{tt}") + val(W, f"V{tt}"), 2),
                       "spark_label": "Trade + Marketing / mo (flat, mature rates)", "budget": None, "no_zero_note": True,
                       "no_budget_note": fill_note(card.get("note"))})

@@ -160,6 +160,16 @@ def build(cfg, out_dir):
 
     bar(A, r, "EXISTING ACCOUNTS (doors)", 2, 8); r += 1
     for e in cfg["existing"]:
+        if e.get("kind") == "flat":
+            # Flat-dollar account (marketplace or wholesale with no door count): brand $ in, its own waterfall and spend rates.
+            acct = e["account"]
+            for key, lab, v, fm, nt in (("gross", e.get("gross_label", f"{acct}: brand $ per year (what the brand invoices)"), e["gross"], USD, e.get("gross_note", "")),
+                                        ("bf", e.get("bf_label", f"{acct}: brand $ as % of retail $"), e["brand_factor"], PCT, e.get("bf_note", "")),
+                                        ("tr", e.get("trade_label", f"{acct}: trade % of brand $"), e["trade"], PCT, e.get("trade_note", "")),
+                                        ("mk", e.get("mkt_label", f"{acct}: marketing % of brand $"), e["mkt"], PCT, e.get("mkt_note", ""))):
+                put(A, f"B{r}", lab, kind="text"); put(A, f"C{r}", v, fm, "input", note="gold"); put(A, f"H{r}", nt, kind="note")
+                a[f"{key}:{acct}"] = f"{AS}!$C${r}"; r += 1
+            continue
         put(A, f"B{r}", e.get("doors_label", e["account"] + " doors"), kind="text"); put(A, f"C{r}", e["doors"], NUM, "input", note="gold"); put(A, f"H{r}", e.get("doors_note", ""), kind="note")
         a["doors:" + e["account"]] = f"{AS}!$C${r}"; r += 1
     san = cfg.get("sanity")
@@ -192,8 +202,35 @@ def build(cfg, out_dir):
         W = sheet(tab, e.get("title", f"{CN}: {e['account']} (Current State detail)"), e.get("sub"),
                   widths={"B": 30, "C": 9, "D": 11, "E": 10, "F": 9})
         for i in range(12): W.column_dimensions[L(7 + i)].width = 11
-        for c in "STUV": W.column_dimensions[c].width = 13
-        hdr(W, 5, ["SKU on shelf", "SRP", "U/S/W override", "U/S/W used", "Doors"] + MONTHS + [f"{YL} Total", "Run-rate / yr", "Trade $", "Marketing $"])
+        for c in "STUVW": W.column_dimensions[c].width = 13
+        flat = e.get("kind") == "flat"
+        hdr(W, 5, ["SKU on shelf", "SRP", "U/S/W override", "U/S/W used", "Doors"] + MONTHS + [f"{YL} Total (retail $)", "Run-rate / yr", "Trade $", "Marketing $", "Gross sales (brand $)"])
+        if flat:
+            acct = e["account"]; g, bf, tr_, mk_ = (a[f"{k}:{acct}"] for k in ("gross", "bf", "tr", "mk"))
+            rows = e.get("skus") or [e.get("row_label", acct)]
+            share = 1 / len(rows)
+            for i, b in enumerate(rows):
+                rr = 6 + i
+                put(W, f"B{rr}", b, kind="text")
+                put(W, f"C{rr}", f"={lref(e['line'], 'C')}", '$#,##0.00', "link")
+                for m in range(12):
+                    put(W, f"{L(7+m)}{rr}", f"={g}/{bf}/12*{share}", USD)
+                put(W, f"S{rr}", f"=SUM(G{rr}:R{rr})", USD)
+                put(W, f"T{rr}", f"=S{rr}", USD)
+                put(W, f"U{rr}", f"=S{rr}*{bf}*{tr_}", USD)
+                put(W, f"V{rr}", f"=S{rr}*{bf}*{mk_}", USD)
+                put(W, f"W{rr}", f"=S{rr}*{bf}", USD)
+            TR = 6 + len(rows)
+            put(W, f"B{TR}", "TOTAL", kind="text", bold=True)
+            for c in [L(7 + m) for m in range(12)] + list("STUVW"):
+                put(W, f"{c}{TR}", f"=SUM({c}6:{c}{TR-1})", USD, bold=True)
+            for c in range(2, 24): W.cell(TR, c).fill = fill(CARD)
+            if e.get("foot"): put(W, f"B{TR+2}", e["foot"], kind="note")
+            W.freeze_panes = "C6"
+            ex_tabs.append({"account": acct, "tab": tab, "tot": TR, "line": e["line"], "n": len(rows), "flat": True,
+                            "trade_ref": tr_, "mkt_ref": mk_, "bf_ref": bf,
+                            "trade_name": e.get("trade_card", "Trade $"), "mkt_name": e.get("mkt_card", "Marketing $")})
+            continue
         srp = e.get("srp_override") or f"={lref(e['line'], 'C')}"
         for i, b in enumerate(e["skus"]):
             rr = 6 + i
@@ -208,15 +245,16 @@ def build(cfg, out_dir):
             put(W, f"T{rr}", f"=F{rr}*E{rr}*C{rr}*52", USD)
             put(W, f"U{rr}", f"=S{rr}*{a['brand']}*{a['ex_trade']}", USD)
             put(W, f"V{rr}", f"=S{rr}*{a['brand']}*{a['ex_mkt']}", USD)
+            put(W, f"W{rr}", f"=S{rr}*{a['brand']}", USD)
         TR = 6 + len(e["skus"])
         put(W, f"B{TR}", "TOTAL", kind="text", bold=True)
         put(W, f"F{TR}", f"=SUM(F6:F{TR-1})", NUM, bold=True)
-        for c in [L(7 + m) for m in range(12)] + list("STUV"):
+        for c in [L(7 + m) for m in range(12)] + list("STUVW"):
             put(W, f"{c}{TR}", f"=SUM({c}6:{c}{TR-1})", USD, bold=True)
-        for c in range(2, 23): W.cell(TR, c).fill = fill(CARD)
+        for c in range(2, 24): W.cell(TR, c).fill = fill(CARD)
         if e.get("foot"): put(W, f"B{TR+2}", e["foot"], kind="note")
         W.freeze_panes = "C6"
-        ex_tabs.append({"account": e["account"], "tab": tab, "tot": TR, "line": e["line"], "n": len(e["skus"])})
+        ex_tabs.append({"account": e["account"], "tab": tab, "tot": TR, "line": e["line"], "n": len(e["skus"]), "flat": False})
 
     # ------------------------------------------------ Current State
     C = sheet("Current State", cfg.get("current_state_title", f"{CN}: Current State (existing business)"), cfg.get("current_state_sub"),
@@ -226,8 +264,10 @@ def build(cfg, out_dir):
     for e, t in zip(cfg["existing"], ex_tabs):
         T = q(t["tab"])
         put(C, f"B{rr}", e["account"], kind="text"); put(C, f"C{rr}", e.get("channel", ""), kind="text")
-        put(C, f"D{rr}", f"={a['doors:' + e['account']]}", NUM, "link")
-        put(C, f"E{rr}", f"=COUNTA({T}!B6:B{t['tot']-1})", NUM, "link")
+        if t.get("flat"): put(C, f"D{rr}", 0, NUM)
+        else: put(C, f"D{rr}", f"={a['doors:' + e['account']]}", NUM, "link")
+        if t.get("flat"): put(C, f"E{rr}", 0, NUM)
+        else: put(C, f"E{rr}", f"=COUNTA({T}!B6:B{t['tot']-1})", NUM, "link")
         put(C, f"F{rr}", f"=D{rr}*E{rr}", NUM)
         put(C, f"G{rr}", f"={T}!S{t['tot']}", USD, "link")
         put(C, f"H{rr}", f"=IFERROR(G{rr}/D{rr},0)", USD); put(C, f"I{rr}", f"=IFERROR(G{rr}/F{rr},0)", USD)
@@ -241,7 +281,7 @@ def build(cfg, out_dir):
     put(C, f"B{rr}", "TOTAL", kind="text", bold=True)
     for c, fm in zip("DEFGJK", (NUM, NUM, NUM, USD, USD, USD)):
         put(C, f"{c}{rr}", f"=SUM({c}6:{c}{rr-1})", fm, bold=True)
-    put(C, f"I{rr}", f"=IFERROR(G{rr}/F{rr},0)", USD, bold=True)
+    put(C, f"I{rr}", f"=IFERROR(SUMPRODUCT((F6:F{rr-1}>0)*G6:G{rr-1})/F{rr},0)", USD, bold=True)
     for c in range(2, 13): C.cell(rr, c).fill = fill(CARD)
 
     # ------------------------------------------------ Retailer Expansion
@@ -365,11 +405,19 @@ def build(cfg, out_dir):
         put(O, f"Q{row}", f"=SUM(E{row}:P{row})", USD)
     TOT = SX_ROW + 1; BR = TOT + 1
     put(O, f"B{TOT}", "TOTAL REVENUE (retail $ at shelf)", kind="text", bold=True)
-    put(O, f"B{BR}", f"Brand revenue (after {w['retailer']*100:.0f} retailer / {w['distributor']*100:.0f} distributor)", kind="text")
+    flat_rows = [(x, t) for x, t in zip(ex_rows, ex_tabs) if t.get("flat")]
+    br_lab = f"Brand revenue (after {w['retailer']*100:.0f} retailer / {w['distributor']*100:.0f} distributor)"
+    if flat_rows: br_lab += "; " + ", ".join(t["account"] for _, t in flat_rows) + " on its own waterfall"
+    put(O, f"B{BR}", br_lab, kind="text")
     for m in range(13):
         c = L(5 + m)
         put(O, f"{c}{TOT}", f"=SUM({c}6:{c}{SX_ROW})", USD, bold=True)
-        put(O, f"{c}{BR}", f"={c}{TOT}*{a['brand']}", USD)
+        if flat_rows:
+            fr = "+".join(f"{c}{x}" for x, _ in flat_rows)
+            fg = "+".join(f"{c}{x}*{t['bf_ref']}" for x, t in flat_rows)
+            put(O, f"{c}{BR}", f"=({c}{TOT}-({fr}))*{a['brand']}+{fg}", USD)
+        else:
+            put(O, f"{c}{BR}", f"={c}{TOT}*{a['brand']}", USD)
     for c in range(2, 18): O.cell(TOT, c).fill = fill(CARD)
     r = BR + 2
     bar(O, r, f"BUDGET ({YL} Trade & Marketing, tier model)", 2, 19); r += 1
@@ -396,8 +444,8 @@ def build(cfg, out_dir):
     SAN_PCT = None
     if san:
         bar(O, r, "SANITY CHECK vs. intake", 2, 19); r += 1
-        exsum = "+".join(f"Q{x}" for x in ex_rows)
-        put(O, f"B{r}", san.get("existing_label", "Existing Business at brand $"), kind="text"); put(O, f"F{r}", f"=({exsum})*{a['brand']}", USD); r += 1
+        exsum = "+".join(f"{q(t['tab'])}!W{t['tot']}" for t in ex_tabs)
+        put(O, f"B{r}", san.get("existing_label", "Existing Business at brand $"), kind="text"); put(O, f"F{r}", f"={exsum}", USD); r += 1
         put(O, f"B{r}", san.get("overall_label", "Intake revenue (brand $)"), kind="text"); put(O, f"F{r}", f"={a['sanity']}", USD, "link"); r += 1
         put(O, f"B{r}", san.get("pct_label", "Existing as % of intake"), kind="text"); put(O, f"F{r}", f"=IFERROR(F{r-2}/F{r-1},0)", PCT); SAN_PCT = r; r += 1
         put(O, f"B{r}", san.get("explain", ""), kind="note"); r += 2
@@ -413,7 +461,7 @@ def build(cfg, out_dir):
         cogs_terms.append(f"({'+'.join(parts)})/{lref(ln['name'], 'C')}*{lref(ln['name'], 'E')}")
     p0 = r
     pl = [("Retail $ at shelf", f"=Q{TOT}", False),
-          (f"Less retailer ({w['retailer']*100:.0f}%) and distributor ({w['distributor']*100:.0f}%) margin", f"=Q{TOT}-Q{BR}", False),
+          (ov.get("margin_label", f"Less retailer ({w['retailer']*100:.0f}%) and distributor ({w['distributor']*100:.0f}%) margin"), f"=Q{TOT}-Q{BR}", False),
           (ov.get("gross_label", "Gross sales (what the brand invoices)"), f"=Q{BR}", True),
           ("Less trade", f"=E{TRADE}", False),
           ("Net sales", f"=F{p0+2}-F{p0+3}", True),
