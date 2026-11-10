@@ -7,3 +7,5 @@ refdata.js is the page code added to the main Shelf Architect page on 2026-11-10
 New instance recipe: publish_files with index.html (main page), seed/reference_set.json (latest export), files/retail-marketing-framework.jpg; declare db and downloads; open the page and tap Seed twice; check app_meta/seed_log against the bundle counts.
 
 Harness: node run.js (playwright, stub db in stub.js) exports from a fake main and seeds a fake empty instance.
+
+Export rows (2026-11-10): rows.js, sidebar button in main (1794323178-b384) and Vosges (1794323216-49ee). Saves every retail_entries doc as one JSON (kind shelf_architect_rows); this is the --rows input for tools/numbers_audit.py. Harness: node run2.js.
