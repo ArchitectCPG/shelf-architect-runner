@@ -43,3 +43,9 @@ Goal: collect everything the client already knows before any pull runs. Steve fo
 ## Output (Opus, same session)
 - client_config/<id>, discovery/<id>, clients/<id>.json in the runner (channels, terms, relevance, hard_exclude, store pins per banner)
 - Current-state rows (existing SKUs, doors, SRP) seeded as brand rows before Stage 0, so the brand term pull confirms instead of discovers
+
+## v85 amendments (2026-11-10)
+- Two modes. Client: the client fills this or Steve fills it on the call. Prospect: Steve fills what he knows, public sources fill the rest.
+- A blank never blocks. It takes a default, is flagged as a guess, and shows on a decision sheet.
+- Current-state SKUs, doors and SRP are written as expected doors (matrix.expectations.client_present, clients/<id>.json own_products, client_config.current_retail). They are never written as retail_entries rows. The pull confirms them.
+- The runner config written from this intake must carry relevance, hard_exclude and store_expect for every block.

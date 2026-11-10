@@ -32,3 +32,7 @@ Format per line: Question | Default (Opus) | Basis | Steve
 ## Library and synopsis
 16. Library picks: which syndicated reads matter to this client
 17. Synopsis tone: how hard to lead the reader toward the SKU and adjacency calls
+
+## v85 amendments (2026-11-10)
+- Steve answers by line number, changes only. An unanswered line means the default stands.
+- Anything answered at intake is pre-filled as confirm only, never asked twice.

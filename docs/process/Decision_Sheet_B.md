@@ -34,3 +34,10 @@ Format per line: Question | Default (Opus) | Basis | Steve
 - P&L block on Overall: retail at shelf, gross sales, trade, net sales, COGS, gross profit, marketing, contribution margin, each as percent of gross sales
 - Tabs: Read Me, Assumptions, Overall, Current State, existing account detail, Retailer Expansion, SKU Expansion, account Plan and Vol templates
 - Forecast section tabs: Forecast and Budget dashboard, Model tabs, Retail Marketing (shared slide)
+
+## v85 amendments (2026-11-10)
+- Steve answers by line number, changes only. An unanswered line means the default stands.
+- Anything answered at intake is pre-filled as confirm only, never asked twice.
+- Line 14: the review-wait skip applies only where the client is already an approved vendor; category reset windows still apply unless the client has a commitment.
+- Line 17: where blank, total trade plus marketing defaults near 20 percent of gross sales, split by tier.
+- Lines 10 to 12: existing items use the client's real velocity; the hold-low rule applies only to a brand with no store history.
