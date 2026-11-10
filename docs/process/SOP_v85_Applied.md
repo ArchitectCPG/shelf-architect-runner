@@ -34,7 +34,7 @@ Pressure test of the 2026-11-07 change proposal (C1 to C9), run on Fable, approv
 | 7 | Slim the SOP | Fable, one pass | Move browser-era sections of pull_process and the runbook into an archive doc once core has been used on one client without a miss. |
 
 ## Open
-- Trade and marketing default when Sheet B is blank: landed as total spend near 20 percent of gross sales. Steve to confirm or change.
+- Trade and marketing default when Sheet B is blank: 20 percent of gross sales, confirmed by Steve 2026-11-10.
 - Seed by page is decided but unproven.
 - Hygiene review share measured on the Vosges replay (8.1 percent); a held-out test needs the next client.
 
