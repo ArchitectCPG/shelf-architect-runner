@@ -1,0 +1,522 @@
+{
+ "client_id": "testco",
+ "client_name": "TestCo",
+ "client_full_name": "TestCo Snacks",
+ "version": "t1",
+ "file_key": "fc_t1",
+ "as_of": "2026-11-07",
+ "frame": {
+  "start_year": 2026,
+  "start_month": 10,
+  "label": "FY27, Oct-26 to Sep-27",
+  "year_label": "FY27"
+ },
+ "readme": [
+  [
+   "What this is",
+   "Same frame as the 72 Snack Collection model: Current State (what sells today), plus Retailer Expansion and SKU Expansion as incremental tabs, rolling to Overall. Retail $ at shelf."
+  ],
+  [
+   "Current State",
+   "Whole Foods, global. 7 Exotic bars, 3 oz, in the deli set: Raw Honey Cacao, Black Salt Caramel, Pink Salt Caramel, Matcha, Banana Coconut, Mo's Bacon, Turmeric Ginger. Confirmed on wholefoodsmarket.com and Amazon/Whole Foods 2026-11-07."
+  ],
+  [
+   "Retailer Expansion",
+   "The WS27 pouch into the launch plan tiers. Whole Foods expands first: 3 SKUs in Mar-27, the other 2 in Jun-27. Sprouts, the UNFI unlocks and the KeHE unlocks start once the full set exists (Jun-27). Hold stays at zero. Expected doors = doors x tier hit rate. Launch month = later of the tier gate and review month + pitch offset + ship lag."
+  ],
+  [
+   "SKU Expansion",
+   "Wave 2 (Peanut Butter Bonbons, Hazelnut Praline, Toffee Bites) and the shelf-stable truffle pouch, stairstepped into the Tier 1 pouch doors that exist when each is ready."
+  ],
+  [
+   "Overall",
+   "Every number is a link or a sum. Also backs out 40 retailer / 15 distributor to brand revenue and checks it against the intake FDM number."
+  ],
+  [
+   "Whole Foods Plan / Vol",
+   "Blank CanLove in-store templates for the Whole Foods program, built against the recommended Trade + Marketing."
+  ],
+  [
+   "Color key",
+   "Blue = input. Gold fill = a guess to replace with real data. Black = formula. Green = pulled from another tab."
+  ],
+  [
+   "Biggest guesses",
+   "Bar and pouch velocity (no SPINS yet), Whole Foods door count, tier hit rates and spend %, Sprouts door count, WS27 timing. Swap in SPINS or the Whole Foods vendor report and the whole model moves."
+  ],
+  [
+   "Not modeled",
+   "Pouch cannibalizing bars at Whole Foods; Amazon/DTC/corporate gifting; Faire independents; private label cups (separate lane, see the Private Label grid)."
+  ]
+ ],
+ "tiers_title": "RETAILER TIER ASSUMPTIONS (per the launch plan, Steve 2026-11-07)",
+ "tiers": [
+  {
+   "code": "T1 Anchor",
+   "trade": 0.15,
+   "mkt": 0.1,
+   "hit": 0.75,
+   "gate": 1,
+   "skus": 5,
+   "note": "Whole Foods (pouch on top of the bar relationship) and Sprouts (existing private label relationship). The UNFI and KeHE keys."
+  },
+  {
+   "code": "T2 UNFI unlock",
+   "trade": 0.12,
+   "mkt": 0.08,
+   "hit": 0.4,
+   "gate": 5,
+   "skus": 4,
+   "note": "Natural and specialty on the UNFI trucks once the pouch is in the Whole Foods DCs. Gate = two months after the Whole Foods pouch ships."
+  },
+  {
+   "code": "T3 KeHE unlock",
+   "trade": 0.12,
+   "mkt": 0.08,
+   "hit": 0.25,
+   "gate": 6,
+   "skus": 3,
+   "note": "KeHE side, only if Sprouts takes the pouch. Hit rate carries the Sprouts conditionality."
+  },
+  {
+   "code": "Hold",
+   "trade": 0,
+   "mkt": 0,
+   "hit": 0,
+   "gate": 13,
+   "skus": 0,
+   "note": "Conventional: pouch overpriced on those shelves. Private label conversation only. Zero in 2027."
+  }
+ ],
+ "existing_spend": {
+  "label": "Existing business (Whole Foods bars, mature)",
+  "trade": 0.1,
+  "mkt": 0.05,
+  "note": "Trade and marketing on a mature line, below the new-item tier rates. Replace with the real Whole Foods deal sheet."
+ },
+ "timing": {
+  "lag": 4,
+  "lag_note": "Per Steve on 72: a win usually ships 3 to 4 months out. 4 is the conservative default.",
+  "pitch": 1,
+  "pitch_note": "1 = Jan-27. Whole Foods pouch is being pitched now for WS27."
+ },
+ "sku_stairstep": {
+  "first": 8,
+  "first_note": "8 = Aug-27, two months after the second pouch drop.",
+  "cadence": 2,
+  "ni_trade": 0.18,
+  "ni_trade_note": "Planning allowance. Push it toward retail media where you can.",
+  "ni_mkt": 0.08,
+  "line": "Cup",
+  "usw": 2.0,
+  "usw_label": "Wave 2 SKU velocity, u/s/w (mature)",
+  "usw_note": "Below the launch pouch SKUs until it has its own scans.",
+  "into_tier": "T1 Anchor"
+ },
+ "waterfall": {
+  "retailer": 0.4,
+  "distributor": 0.15,
+  "distributor_label": "Distributor margin (UNFI / KeHE)",
+  "trade": 0.2,
+  "gross": 0.3,
+  "cogs_note": "8.99 pouch gives a 2.57 COGS ceiling. A target, not a quote. Replace with real COGS per SKU."
+ },
+ "ramp": [
+  0.4,
+  0.7,
+  1.0
+ ],
+ "lines": [
+  {
+   "name": "Bag",
+   "srp": 4.99,
+   "usw": 2.0,
+   "cogs": 1.2
+  },
+  {
+   "name": "Cup",
+   "srp": 2.49,
+   "usw": 3.0,
+   "cogs": 0.6
+  }
+ ],
+ "existing": [
+  {
+   "account": "Sprouts",
+   "tab": "Sprouts",
+   "channel": "Natural",
+   "line": "Bag",
+   "doors": 400,
+   "skus": [
+    "A",
+    "B",
+    "C"
+   ]
+  },
+  {
+   "account": "Target",
+   "tab": "Target",
+   "channel": "Mass",
+   "line": "Cup",
+   "doors": 1800,
+   "skus": [
+    "X",
+    "Y"
+   ],
+   "usw_overrides": {
+    "Y": 1.0
+   }
+  }
+ ],
+ "current_state_title": "Vosges: Current State (existing business)",
+ "current_state_sub": "Whole Foods is the only grocery door modeled today. The bar business is the base the pouch lands on.",
+ "current_state_extra": [
+  {
+   "account": "Sprouts",
+   "channel": "Natural",
+   "note": "Private label white chocolate PB cups only. Not branded revenue; private label lane, not modeled here."
+  }
+ ],
+ "retailer_expansion": {
+  "title": "Vosges: Retailer Expansion (WS27 pouch into the launch tiers)",
+  "sub": "Launch mo: Whole Foods pouch = the first drop (an expansion of an existing account, no review wait); everyone else = MAX(tier gate, review mo + pitch offset + ship lag, full-set month). Whole Foods takes 3 pouch SKUs at the first drop and 2 more at the second; every other account starts once the full set exists. Expected doors = doors x tier hit rate. Revenue = expected doors x SKUs x fit x rate / 12 x ramp. Launch past month 12 = 2028.",
+  "foot": "Doors: launch plan notes and Shelf Architect door estimates; Sprouts and Whole Foods to confirm. Tier, line, offset, fit and SKU override are the per-row levers; hit rate, gate and SKUs placed come from the tier on Assumptions. The Whole Foods pouch is incremental to the bars (no cannibalization modeled).",
+  "accounts": [
+   [
+    "T1 Anchor",
+    "Whole Foods Market",
+    "Bag",
+    "UNFI, 13 DCs. Bars in the deli set today",
+    "Pitching WS27 now",
+    null,
+    0,
+    1.15,
+    500,
+    null,
+    "Doors link to Assumptions. Fit 1.15: existing relationship."
+   ],
+   [
+    "T1 Anchor",
+    "Sprouts Farmers Market",
+    "Bag",
+    "KeHE primary, UNFI secondary",
+    "Open; lead with the PL relationship",
+    null,
+    1,
+    0.9,
+    440,
+    null,
+    "Waits for the full set (Assumptions). Fit 0.9: small-band median 6.99, 8.99 is a stretch."
+   ],
+   [
+    "T2 UNFI unlock",
+    "The Fresh Market",
+    "Bag",
+    "UNFI, 4 DCs",
+    "Calendar review (est.)",
+    null,
+    0,
+    1.0,
+    173,
+    null,
+    ""
+   ],
+   [
+    "T2 UNFI unlock",
+    "Natural Grocers",
+    "Bag",
+    "UNFI, 6 DCs",
+    "Calendar review (est.)",
+    null,
+    0,
+    1.0,
+    178,
+    null,
+    ""
+   ],
+   [
+    "T2 UNFI unlock",
+    "Plum Market",
+    "Bag",
+    "UNFI (Greenwood)",
+    "Calendar review + cut-ins",
+    null,
+    0,
+    1.1,
+    6,
+    null,
+    "Five small pouches at 8.99+."
+   ],
+   [
+    "T2 UNFI unlock",
+    "Bristol Farms",
+    "Bag",
+    "UNFI (Moreno Valley)",
+    "Open",
+    null,
+    1,
+    1.0,
+    14,
+    null,
+    ""
+   ],
+   [
+    "T2 UNFI unlock",
+    "PCC Community Markets",
+    "Bag",
+    "UNFI (Ridgefield)",
+    "Calendar review (est.)",
+    null,
+    1,
+    1.0,
+    16,
+    null,
+    "Not walked."
+   ],
+   [
+    "T2 UNFI unlock",
+    "Heinen's",
+    "Bag",
+    "UNFI (Greenwood)",
+    "Calendar review (est.)",
+    null,
+    1,
+    1.0,
+    23,
+    null,
+    "Chicago home market."
+   ],
+   [
+    "T2 UNFI unlock",
+    "Market of Choice",
+    "Bag",
+    "UNFI (Ridgefield)",
+    "Open",
+    null,
+    2,
+    1.0,
+    11,
+    null,
+    "Not walked."
+   ],
+   [
+    "T2 UNFI unlock",
+    "Wegmans",
+    "Cup",
+    "UNFI (York)",
+    "Calendar review (est.)",
+    null,
+    2,
+    1.0,
+    110,
+    3,
+    "Bars, not the pouch: small-pouch shelf tops at 6.89."
+   ],
+   [
+    "T3 KeHE unlock",
+    "Gelson's",
+    "Bag",
+    "KeHE primary",
+    "Open",
+    null,
+    0,
+    1.0,
+    26,
+    null,
+    ""
+   ],
+   [
+    "T3 KeHE unlock",
+    "Central Market",
+    "Bag",
+    "KeHE primary",
+    "Calendar review (est.)",
+    null,
+    0,
+    1.1,
+    10,
+    null,
+    "Small-pouch median 9.20."
+   ],
+   [
+    "T3 KeHE unlock",
+    "Lassen's",
+    "Bag",
+    "KeHE (Chino)",
+    "Open",
+    null,
+    1,
+    1.0,
+    10,
+    null,
+    ""
+   ],
+   [
+    "T3 KeHE unlock",
+    "Erewhon",
+    "Bag",
+    "KeHE primary",
+    "Open; halo",
+    null,
+    1,
+    0.5,
+    14,
+    null,
+    "Fit 0.5: one placement for the story, not volume."
+   ],
+   [
+    "T3 KeHE unlock",
+    "Fresh Thyme Market",
+    "Bag",
+    "KeHE",
+    "Watch",
+    null,
+    2,
+    0.5,
+    70,
+    null,
+    "Visits -5.8%."
+   ],
+   [
+    "Hold",
+    "Kroger",
+    "Bag",
+    "KeHE",
+    "Hold",
+    null,
+    0,
+    1.0,
+    1258,
+    null,
+    "Private label cups instead."
+   ],
+   [
+    "Hold",
+    "H-E-B",
+    "Bag",
+    "KeHE (Dallas), direct",
+    "Hold",
+    null,
+    0,
+    1.0,
+    355,
+    null,
+    "Bars median 4.37. Central Market carries the brand."
+   ],
+   [
+    "Hold",
+    "Woodman's",
+    "Bag",
+    "Direct",
+    "Hold",
+    null,
+    0,
+    1.0,
+    19,
+    null,
+    "Zero at 8.99."
+   ],
+   [
+    "Hold",
+    "Jewel-Osco",
+    "Bag",
+    "KeHE (Romeoville)",
+    "Hold",
+    null,
+    0,
+    1.0,
+    185,
+    null,
+    ""
+   ],
+   [
+    "Hold",
+    "Mariano's",
+    "Bag",
+    "KeHE (Romeoville)",
+    "Hold",
+    null,
+    0,
+    1.0,
+    44,
+    null,
+    ""
+   ]
+  ]
+ },
+ "sku_expansion": {
+  "title": "Vosges: SKU / TDP Expansion (wave 2, stairstepped)",
+  "sub": "Launch mo = first wave 2 month + (seq - 1) x cadence. Each new SKU goes into the Tier 1 pouch doors already launched by then. Past month 12 = 2028.",
+  "skus": [
+   [
+    "High",
+    "Peanut Butter Bonbons",
+    "Flavor (wave 2 lead)",
+    "PB cups are the deepest premium form on shelf (50 rows, 24 brands). Vosges already makes it DTC. Bonbon, not a cup: cups are private label."
+   ],
+   [
+    "High",
+    "Hazelnut Praline Bonbons",
+    "Flavor (wave 2)",
+    "Owned by Ferrero, Kinder, Hu. No premium dark praline."
+   ],
+   [
+    "Medium",
+    "Bapchi's Toffee Bites",
+    "Flavor (wave 2)",
+    "20 rows, 17 brands, no leader. Recipe exists."
+   ],
+   [
+    "High",
+    "Shelf-stable truffle pouch, 3 oz",
+    "Adjacency (truffle route)",
+    "Replaces the refrigerated idea. Pending a 12-month center."
+   ],
+   [
+    "Medium",
+    "Espresso Bonbons",
+    "Flavor (Matcha backup)",
+    "Zero rows on shelf. The swap if Matcha drops."
+   ]
+  ],
+  "foot": "NOT MODELED: refrigerated (decided against 2026-11-07), grocery gifting boxes (1.40/oz), bark, branded PB cups (cups are the private label firewall), twin bonbon register pack (post-launch trial pack), 3-pouch DTC set."
+ },
+ "overall": {
+  "title": "Vosges: Forecast & Budget v1: Overall",
+  "sub": "Existing Business is the Whole Foods bar tab by month. Everything here is a link or a sum.",
+  "existing_label": "Existing Business (Whole Foods bars, 7 SKUs, global)",
+  "retailer_label": "Retailer Expansion (WS27 pouch, incremental)",
+  "sku_label": "SKU / TDP Expansion (wave 2, incremental)",
+  "existing_budget_label": "Existing Business (mature bar rates)",
+  "starting_tdp_label": "Starting TDP (Whole Foods bars today)",
+  "gross_label": "Gross sales (what Vosges invoices)",
+  "pl_note": "COGS uses the margin calculator ceilings (bar 2.85, pouch 2.56), not actual costs. Contribution is before overhead, freight and G&A, so it is not net margin."
+ },
+ "dashboard": {
+  "revenue_label": "2027 Total Revenue (retail $ at shelf)",
+  "gross_label": "Gross sales (Vosges invoice)",
+  "footer_note": "Calendar 2027, Jan to Dec, same frame as 72. Revenue tile is retail $ at shelf. Spend % and the P&L run on gross sales (after 40 retailer / 15 distributor): gross sales, less trade = net sales, less COGS (margin calculator ceilings: bar 2.85, pouch 2.56) = gross profit, less marketing = contribution margin, before overhead. Existing business is Whole Foods: 7 Exotic bars, 3 oz, deli set, all 521 doors (confirmed on wholefoodsmarket.com and Amazon/Whole Foods 2026-11-07). Retailer Expansion: Whole Foods takes 3 pouch SKUs in Mar-27 and 2 more in Jun-27; Sprouts, UNFI and KeHE accounts start Jun-27 with the full set, at tier hit rates (Whole Foods and Sprouts 75%); Hold at zero. SKU Expansion stairsteps wave 2 into the Tier 1 pouch doors. Gold cells are the guesses: velocity (bars 1.5, launch pouches 2.5, wave 2 pouches 2.0 u/s/w; no SPINS yet), Whole Foods door count, Sprouts doors, tier hit rates and spend %, WS27 timing. Pouch cannibalization of bars is not modeled. Download the workbook for formulas and the Whole Foods Plan / Vol templates.",
+  "existing_cards": [
+   {
+    "key": "sprouts",
+    "label": "Sprouts",
+    "note": "n"
+   },
+   {
+    "key": "target",
+    "label": "Target",
+    "note": "n"
+   }
+  ],
+  "retailer_card": {
+   "key": "retailer-expansion",
+   "label": "Retailer Expansion: WS27 pouch (prospective, incremental)",
+   "note": "Whole Foods expands first: 3 pouch SKUs in Mar-27 (in development, maybe sooner), the other 2 in Jun-27, at 75% odds. Pouch velocity 2.5 u/s/w, above the bars: higher perceived value and multiple usage occasions. Every other account waits for the full set and starts Jun-27: Sprouts, the UNFI unlocks (Fresh Market, Natural Grocers, Plum, Bristol Farms, PCC, Heinen's, Market of Choice) and the KeHE unlocks if Sprouts lands (Gelson's, Central Market, Lassen's, Erewhon halo, Fresh Thyme watch). Wegmans takes 3 bars from Jul-27, not the pouch. Kroger, H-E-B, Woodman's, Jewel-Osco, Mariano's sit in Hold at zero: private label conversation only."
+  },
+  "sku_card": {
+   "key": "sku-expansion",
+   "label": "SKU / TDP Expansion: wave 2 (prospective, incremental)",
+   "note": "Starts two months after the second pouch drop, one every 2 months, at 2.0 u/s/w into the Whole Foods and Sprouts pouch doors: Peanut Butter Bonbons Aug-27, Hazelnut Praline Oct-27, Toffee Bites Dec-27. The truffle pouch and Espresso fall into 2028. Not modeled: refrigerated, grocery gifting boxes, bark, branded PB cups (cups are private label)."
+  }
+ }
+}
