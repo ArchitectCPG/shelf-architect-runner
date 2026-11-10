@@ -2,7 +2,14 @@
 """Generate runner blocks for one client from clients/<id>.json. Usage: gen_client_blocks.py stinkin-good
 Writes blocks_gen/<client>/<banner>__<neighborhood>.json and prints the dispatch list."""
 import json,sys,os,re,glob
-cid=sys.argv[1]; C=json.load(open(f'clients/{cid}.json')); out=f'blocks_gen/{cid}'; os.makedirs(out,exist_ok=True)
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__))); import gate
+cid=sys.argv[1]; C=json.load(open(f'clients/{cid}.json'))
+# Stage 0 gate, config half (SOP v85): refuse to generate when relevance/hard_exclude, a brand neighborhood or a per-block store_expect is missing
+_errs=gate.check_config(C)
+if _errs:
+    for e in _errs: print('GATE CONFIG FAIL:',e,file=sys.stderr)
+    sys.exit(2)
+out=f'blocks_gen/{cid}'; os.makedirs(out,exist_ok=True)
 for f in glob.glob(out+'/*.json'): os.remove(f)
 ic_js=open('src/instacart_api.js').read()
 def load(name): return json.load(open(f'blocks/{name}-salsa.json'))
@@ -11,7 +18,7 @@ for r in C['retailers']:
     if r.get('fallback'): continue  # plan-B lane kept in config, not generated
     m=C['markets'][r['market']]
     for n in C['neighborhoods']:
-        if n.get('brand_only') and not r.get('brand_check'): continue
+        if n.get('brand_only') and not gate.brand_wanted(r): continue   # brand term at every banner unless brand_check false with a written reason
         term=n['term']; bid=f"{cid}/{n['id']}@{r['banner']}-{r['market']}"
         base={"block_id":bid,"retailer":r['banner'],"zip":C['department'],"neighborhood":n['id'],"term":term,"store_zip":m['zip'],"client_id":cid}
         if r['lane']=='kroger':
@@ -26,9 +33,11 @@ for r in C['retailers']:
             t=load(r['template']); base['api']=json.loads(json.dumps(t['api']))
         elif r['lane']=='recipe':
             t=load(r['template']); base['steps']=t['steps']; base['store_js']=t.get('store_js'); 
-            for k in ('card_selector','store_patterns','no_reload','attempts','store_expect'):
+            for k in ('card_selector','store_patterns','no_reload','attempts'):   # store_expect comes from the market or retailer pin, never the template
                 if k in t: base[k]=t[k]
             if not base.get('store_js'): base.pop('store_js')
+        se=gate.store_expect_for(C,r); base['gate_store_expect']=se   # judged by gate.py after the pull, never read by the runner
+        if r['lane']=='recipe': base['store_expect']=se             # recipe lane also retries until the page store matches
         if 'steps' in base and 'attempts' not in base: base['attempts']=2
         fn=f"{out}/{r['banner']}__{n['id']}__{r['market']}.json"; json.dump(base,open(fn,'w'),indent=1); made.append(fn)
 print(','.join(made)); print(len(made),'retail blocks',file=sys.stderr)

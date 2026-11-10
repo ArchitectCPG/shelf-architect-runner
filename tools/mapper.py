@@ -3,6 +3,7 @@
 Usage: mapper.py <client_id> [outdir]. Writes <outdir>/retail_entries/<id>.json, matrix_blocks.json, summary.json."""
 import json,sys,os,re,glob,datetime
 sys.path.insert(0,os.path.dirname(__file__)); from normalize import normalize,num
+import gate
 cid=sys.argv[1]; out=sys.argv[2] if len(sys.argv)>2 else f'mapped/{cid}'
 C=json.load(open(f'clients/{cid}.json')); os.makedirs(out+'/retail_entries',exist_ok=True)
 PL=re.compile(r"^(kroger|simple truth|private selection|signature (select|care|farms)|o organics|great value|good & gather|market pantry|up & up|sprouts|365|wegmans|publix|h-?e-?b|mi tienda|meijer|true goodness|safeway|lucky|trader|kirkland|member'?s mark|giant|stop & shop|food lion|hannaford|harris teeter|whole foods)\b",re.I)
@@ -148,6 +149,8 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
     b=json.load(open(f)); d=latest(b); nb=next(n for n in C['neighborhoods'] if n['id']==b['neighborhood'])
     stats['blocks']+=1
     if not d: blocks_out.append(dict(block=b['block_id'],last_result='no data')); continue
+    _gv=gate.block_store_verdict(b,d)   # Stage 0 gate (SOP v85): wrong market or unpinned is reported and not landed
+    if _gv!='ok': blocks_out.append(dict(block=b['block_id'],last_result='not landed: '+_gv,store=d.get('store_set'),error=d.get('error'))); stats['gate_not_landed']=stats.get('gate_not_landed',0)+1; continue
     banner=b['retailer'].replace('-api',''); kapi=(d.get('runner') or '').endswith('kroger-api'); ic=banner=='costco-ic' or (d.get('store_set') or '').startswith('API zip') and 'shop' in (d.get('store_set') or '')
     price_basis='instacart_quote' if ('shop ' in str(d.get('store_set')) and 'location' in str(d.get('store_set'))) else 'shelf'
     retailer_slug='costco' if banner=='costco-ic' else banner

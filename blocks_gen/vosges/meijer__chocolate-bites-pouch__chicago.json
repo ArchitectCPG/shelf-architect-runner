@@ -57,5 +57,7 @@
   }
  ],
  "store_js": "Array.from(document.querySelectorAll('button')).map(e=>e.innerText.replace(/\\s+/g,' ').trim()).find(t=>/^(pickup|delivery|shop) at/i.test(t))||null",
- "attempts": 2
+ "attempts": 2,
+ "gate_store_expect": "Chicago|\\b606\\d\\d\\b",
+ "store_expect": "Chicago|\\b606\\d\\d\\b"
 }

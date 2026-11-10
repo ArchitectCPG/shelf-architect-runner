@@ -9,5 +9,6 @@
  "kroger_api": {
   "chain": "Mariano's",
   "max": 150
- }
+ },
+ "gate_store_expect": "Chicago|\\b606\\d\\d\\b"
 }

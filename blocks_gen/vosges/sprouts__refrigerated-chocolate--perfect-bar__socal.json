@@ -32,5 +32,6 @@
   }
  ],
  "attempts": 2,
- "temperature": "refrigerated"
+ "temperature": "refrigerated",
+ "gate_store_expect": "Los Angeles|\\b900\\d\\d\\b"
 }

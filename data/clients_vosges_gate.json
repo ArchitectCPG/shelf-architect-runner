@@ -1,0 +1,87 @@
+{
+ "store": {
+  "vosges/brand@albertsons-boise": "NO DATA",
+  "vosges/chocolate-gifting-box@erewhon-socal": "UNPINNED",
+  "vosges/brand@freshthyme-chicago": "UNPINNED",
+  "vosges/chocolate-bites-pouch@freshthyme-chicago": "UNPINNED",
+  "vosges/chocolate-gifting-box@freshthyme-chicago": "UNPINNED",
+  "vosges/premium-chocolate-bars@freshthyme-chicago": "UNPINNED",
+  "vosges/chocolate-bites-pouch@heb-houston": "WRONG MARKET (landed: Victoria H\u2011E\u2011B plus!)",
+  "vosges/brand@meijer-chicago": "NO DATA",
+  "vosges/chocolate-bites-pouch@meijer-chicago": "WRONG MARKET (landed: Pickup at Alpine)",
+  "vosges/chocolate-gifting-box@meijer-chicago": "WRONG MARKET (landed: Pickup at Alpine)",
+  "vosges/premium-chocolate-bars@meijer-chicago": "WRONG MARKET (landed: Pickup at Alpine)",
+  "vosges/brand@safeway-denver": "NO DATA",
+  "vosges/refrigerated-chocolate--perfect-bar@sprouts-socal": "UNPINNED",
+  "vosges/premium-chocolate-bars@walmart-chicago": "UNPINNED",
+  "vosges/chocolate-gifting-box@wholefoods-socal-socal": "UNPINNED",
+  "vosges/premium-chocolate-bars@wholefoods-socal-socal": "UNPINNED",
+  "vosges/refrigerated-chocolate--perfect-bar@wholefoods-socal-socal": "UNPINNED",
+  "vosges/chocolate-gifting-box@wholefoods-chicago": "UNPINNED",
+  "vosges/premium-chocolate-bars@wholefoods-chicago": "UNPINNED",
+  "vosges/refrigerated-chocolate--honey-mamas@wholefoods-chicago": "UNPINNED",
+  "vosges/refrigerated-chocolate--midday-squares@wholefoods-chicago": "UNPINNED",
+  "vosges/refrigerated-chocolate@wholefoods-chicago": "UNPINNED"
+ },
+ "brand": {
+  "albertsons": "no brand block with data",
+  "meijer": "no brand block with data",
+  "safeway": "no brand block with data"
+ },
+ "precision": {
+  "chocolate-bites-pouch": {
+   "returned": 3621,
+   "relevant": 1840,
+   "precision": 0.508,
+   "verdict": "ok"
+  },
+  "chocolate-gifting-box": {
+   "returned": 3153,
+   "relevant": 2066,
+   "precision": 0.655,
+   "verdict": "ok"
+  },
+  "premium-chocolate-bars": {
+   "returned": 3793,
+   "relevant": 2369,
+   "precision": 0.625,
+   "verdict": "ok"
+  },
+  "brand": {
+   "returned": 3215,
+   "relevant": 4,
+   "precision": 0.001,
+   "verdict": "brand search, not judged"
+  },
+  "refrigerated-chocolate": {
+   "returned": 4820,
+   "relevant": 3395,
+   "precision": 0.704,
+   "verdict": "ok"
+  }
+ },
+ "fail": [
+  "brand: albertsons no brand block with data",
+  "brand: meijer no brand block with data",
+  "brand: safeway no brand block with data",
+  "store: vosges/brand@freshthyme-chicago UNPINNED",
+  "store: vosges/chocolate-bites-pouch@freshthyme-chicago UNPINNED",
+  "store: vosges/chocolate-bites-pouch@heb-houston WRONG MARKET (landed: Victoria H\u2011E\u2011B plus!)",
+  "store: vosges/chocolate-bites-pouch@meijer-chicago WRONG MARKET (landed: Pickup at Alpine)",
+  "store: vosges/chocolate-gifting-box@erewhon-socal UNPINNED",
+  "store: vosges/chocolate-gifting-box@freshthyme-chicago UNPINNED",
+  "store: vosges/chocolate-gifting-box@meijer-chicago WRONG MARKET (landed: Pickup at Alpine)",
+  "store: vosges/chocolate-gifting-box@wholefoods-chicago UNPINNED",
+  "store: vosges/chocolate-gifting-box@wholefoods-socal-socal UNPINNED",
+  "store: vosges/premium-chocolate-bars@freshthyme-chicago UNPINNED",
+  "store: vosges/premium-chocolate-bars@meijer-chicago WRONG MARKET (landed: Pickup at Alpine)",
+  "store: vosges/premium-chocolate-bars@walmart-chicago UNPINNED",
+  "store: vosges/premium-chocolate-bars@wholefoods-chicago UNPINNED",
+  "store: vosges/premium-chocolate-bars@wholefoods-socal-socal UNPINNED",
+  "store: vosges/refrigerated-chocolate--honey-mamas@wholefoods-chicago UNPINNED",
+  "store: vosges/refrigerated-chocolate--midday-squares@wholefoods-chicago UNPINNED",
+  "store: vosges/refrigerated-chocolate--perfect-bar@sprouts-socal UNPINNED",
+  "store: vosges/refrigerated-chocolate--perfect-bar@wholefoods-socal-socal UNPINNED",
+  "store: vosges/refrigerated-chocolate@wholefoods-chicago UNPINNED"
+ ]
+}

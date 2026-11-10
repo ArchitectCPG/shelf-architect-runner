@@ -282,7 +282,7 @@ try {
   if (!out.store_set) out.store_set = await captureStore(page, block.store_patterns || ["Delivering to\\s*(\\d{5})", "Pickup at\\s*([^\\n|]{3,60})", "(?:My Store|Your store|Shopping at|Store:)\\s*[:\\-]?\\s*([^\\n]{3,80})"]);
   log(`store_set: ${out.store_set}`);
   if (stepErr) { out.store_set = null; continue; }
-  if (out.store_set && !/UNPINNED|^null$/i.test(String(out.store_set)) && (!block.store_expect || new RegExp(block.store_expect).test(String(out.store_set)))) break;
+  if (out.store_set && !/UNPINNED|^null$/i.test(String(out.store_set)) && (!block.store_expect || new RegExp(block.store_expect, "i").test(String(out.store_set)))) break;
   if (att < attempts) { out.store_set = null; continue; }
   }
   out.houses = await extractProducts(page, block.card_selector);

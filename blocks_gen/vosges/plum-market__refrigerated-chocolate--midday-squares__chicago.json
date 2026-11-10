@@ -32,5 +32,6 @@
   }
  ],
  "attempts": 2,
- "temperature": "refrigerated"
+ "temperature": "refrigerated",
+ "gate_store_expect": "Chicago|\\b606\\d\\d\\b"
 }

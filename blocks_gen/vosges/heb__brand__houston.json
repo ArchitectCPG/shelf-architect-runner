@@ -57,5 +57,6 @@
   "In-store at\\s*\\n?\\s*([^\\n]{3,60})"
  ],
  "attempts": 2,
- "store_expect": "Houston|Bellaire|West U|Rice|77005|Buffalo|Kirby"
+ "store_expect": "Houston|Bellaire|West U|Rice|77005|Buffalo|Kirby",
+ "gate_store_expect": "Houston|Bellaire|West U|Rice|77005|Buffalo|Kirby"
 }

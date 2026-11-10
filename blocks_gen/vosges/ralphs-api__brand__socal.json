@@ -9,5 +9,6 @@
  "kroger_api": {
   "chain": "Ralphs",
   "max": 150
- }
+ },
+ "gate_store_expect": "Los Angeles|\\b900\\d\\d\\b"
 }

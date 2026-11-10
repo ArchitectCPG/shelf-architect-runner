@@ -66,6 +66,7 @@
   "Delivering to\\s*(\\d{5})"
  ],
  "attempts": 3,
- "store_expect": "^\\d{5}$",
- "temperature": "refrigerated"
+ "store_expect": "Los Angeles|\\b900\\d\\d\\b",
+ "temperature": "refrigerated",
+ "gate_store_expect": "Los Angeles|\\b900\\d\\d\\b"
 }

@@ -25,27 +25,32 @@
   "markets": {
     "denver": {
       "zip": "80202",
+     "store_expect": "Denver|\\b802\\d\\d\\b",
       "lat": 39.7527,
       "lng": -104.9996
     },
     "grand-junction": {
       "zip": "81501",
+     "store_expect": "Grand Junction|\\b815\\d\\d\\b",
       "lat": 39.0639,
       "lng": -108.5506
     },
     "houston": {
       "zip": "77005",
+     "store_expect": "Houston|\\b770\\d\\d\\b",
       "lat": 29.7174,
       "lng": -95.4018
     },
     "boise": {
       "zip": "83702",
+     "store_expect": "Boise|\\b837\\d\\d\\b",
       "lat": 43.6187,
       "lng": -116.2146,
       "role": "competitive"
     },
     "chicago": {
       "zip": "60615",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
       "lat": 41.8019,
       "lng": -87.6016,
       "role": "competitive"

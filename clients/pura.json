@@ -69,11 +69,13 @@
  "markets": {
   "socal": {
    "zip": "90012",
+   "store_expect": "Los Angeles|\\b900\\d\\d\\b",
    "lat": 34.0537,
    "lng": -118.2428
   },
   "houston": {
    "zip": "77005",
+   "store_expect": "Houston|\\b770\\d\\d\\b",
    "lat": 29.7174,
    "lng": -95.4018
   }
@@ -82,6 +84,7 @@
  "neighborhoods": [
   {
    "id": "natural-soda",
+   "hard_exclude": "",
    "term": "natural soda",
    "relevance": "soda|cola|ginger|\\bpop\\b|sparkling|prebiotic",
    "temperature": "shelf_stable",
@@ -92,12 +95,14 @@
   },
   {
    "id": "kids-drinks",
+   "hard_exclude": "",
    "term": "kids juice drink",
    "relevance": "kids|juice|pouch|fruit drink",
    "temperature": "shelf_stable"
   },
   {
    "id": "hydration",
+   "hard_exclude": "",
    "term": "electrolyte hydration drink",
    "relevance": "electrolyte|hydrat|sports drink|gatorade|body ?armor|liquid i",
    "temperature": "shelf_stable"

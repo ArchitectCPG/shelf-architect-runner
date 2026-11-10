@@ -31,5 +31,6 @@
    "wait": 1000
   }
  ],
- "attempts": 2
+ "attempts": 2,
+ "gate_store_expect": "New York|\\b100\\d\\d\\b"
 }

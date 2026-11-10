@@ -31,5 +31,6 @@
    "wait": 1000
   }
  ],
- "attempts": 2
+ "attempts": 2,
+ "gate_store_expect": "Chicago|\\b606\\d\\d\\b"
 }

@@ -117,30 +117,35 @@
  "markets": {
   "chicago": {
    "zip": "60614",
+   "store_expect": "Chicago|\\b606\\d\\d\\b",
    "lat": 41.9227,
    "lng": -87.6533,
    "note": "home market, Vosges HQ, Whole Foods Lincoln Park / Mariano's / Jewel"
   },
   "socal": {
    "zip": "90012",
+   "store_expect": "Los Angeles|\\b900\\d\\d\\b",
    "lat": 34.0537,
    "lng": -118.2428,
    "note": "natural and specialty density: Whole Foods, Sprouts, Erewhon, Gelson's, Bristol Farms"
   },
   "houston": {
    "zip": "77005",
+   "store_expect": "Houston|\\b770\\d\\d\\b",
    "lat": 29.7174,
    "lng": -95.4018,
    "note": "H-E-B and Central Market"
   },
   "madison": {
    "zip": "53711",
+   "store_expect": "Madison|\\b537\\d\\d\\b",
    "lat": 43.0448,
    "lng": -89.4594,
    "note": "Woodman's"
   },
   "denver": {
    "zip": "80202",
+   "store_expect": "Denver|\\b802\\d\\d\\b",
    "lat": 39.7527,
    "lng": -104.9996,
    "role": "competitive",
@@ -148,6 +153,7 @@
   },
   "nyc": {
    "zip": "10023",
+   "store_expect": "New York|\\b100\\d\\d\\b",
    "lat": 40.7769,
    "lng": -73.9822,
    "role": "competitive",
@@ -155,6 +161,7 @@
   },
   "boise": {
    "zip": "83702",
+   "store_expect": "Boise|\\b837\\d\\d\\b",
    "lat": 43.6187,
    "lng": -116.2146,
    "role": "competitive",
@@ -224,6 +231,7 @@
    "exclude": "milk\\b(?!.*chocolate)|yogurt|creamer|pudding|ice cream|frozen|cake|cheesecake|mousse|drink|kefir|cookie dough",
    "keep": "chocolate|cacao",
    "scout_only": true,
+   "hard_exclude": "",
    "note": "SCOUT, price comparison only (Steve 2026-11-07). Refrigerated better-for-you chocolate treats (Midday Squares, Perfect Bar, Honey Mama's, Hail Merry) at natural and specialty. Not a launch position; the pouch is shelf-stable. Does not switch on the storage-class cut."
   }
  ],
@@ -285,6 +293,7 @@
   },
   {
    "banner": "jewel-osco",
+   "store_expect": "Division St",
    "lane": "recipe",
    "template": "jewel",
    "market": "chicago",
@@ -292,6 +301,7 @@
   },
   {
    "banner": "albertsons",
+   "store_expect": "State St",
    "lane": "recipe",
    "template": "albertsons",
    "market": "boise",
@@ -299,12 +309,14 @@
   },
   {
    "banner": "safeway",
+   "store_expect": "20th Ave",
    "lane": "recipe",
    "template": "safeway",
    "market": "denver"
   },
   {
    "banner": "heb",
+   "store_expect": "Houston|Bellaire|West U|Rice|77005|Buffalo|Kirby",
    "lane": "recipe",
    "template": "heb",
    "market": "houston",

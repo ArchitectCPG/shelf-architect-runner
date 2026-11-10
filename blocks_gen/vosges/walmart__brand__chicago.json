@@ -15,5 +15,6 @@
    "zip_code": "{{store_zip}}"
   },
   "limit": 48
- }
+ },
+ "gate_store_expect": "Chicago|\\b606\\d\\d\\b"
 }

@@ -70,5 +70,7 @@
   }
  ],
  "store_js": "document.querySelector('#fulFillMentAddressNav')?.innerText.replace(/\\s+/g,' ').trim()",
- "attempts": 2
+ "attempts": 2,
+ "gate_store_expect": "20th Ave",
+ "store_expect": "20th Ave"
 }

@@ -25,7 +25,7 @@ Pressure test of the 2026-11-07 change proposal (C1 to C9), run on Fable, approv
 ## Build list, in order
 | # | Build | Owner | Spec |
 |---|---|---|---|
-| 1 | Stage 0 gate checks | Sonnet | gen_client_blocks.py writes store_expect from the market on every block and refuses to emit one without it; client_report.py prints term precision per neighborhood and fails under 50 percent; config check for relevance and hard_exclude. |
+| 1 | Stage 0 gate checks (BUILT 2026-11-10, tools/gate.py) | Sonnet | gen_client_blocks.py writes store_expect from the market on every block and refuses to emit one without it; client_report.py prints term precision per neighborhood and fails under 50 percent; config check for relevance and hard_exclude. |
 | 2 | Generic hygiene in the mapper | Sonnet | Move the Vosges patterns from pouch_filter.py and stage2_hygiene.py into clients/vosges.json; mapper applies config rules; replay the Vosges landing and report the share sent to review. |
 | 3 | Seed proof | Opus | Export the reference set from main to served files; add a Seed reference data action to the page; prove on a scratch instance. If it fails, write the batch emitter for Sonnet. |
 | 4 | Forecast runner | Opus | Make forecast/build.py and extract.py generic, driven by forecast.json from Sheet B; one command emits workbook, dashboard docs and download. |
@@ -37,3 +37,9 @@ Pressure test of the 2026-11-07 change proposal (C1 to C9), run on Fable, approv
 - Trade and marketing default when Sheet B is blank: landed as total spend near 20 percent of gross sales. Steve to confirm or change.
 - Seed by page is decided but unproven.
 - Hygiene 10 percent target is unmeasured.
+
+## Build 1 result (2026-11-10, Sonnet)
+Built: tools/gate.py (config, store, brand, precision checks, plus a `stamp` retrofit), wired into gen_client_blocks.py (refuses to generate on a config failure), client_report.py (flags WRONG MARKET and UNPINNED, prints the gate table, `--gate` exits non-zero) and mapper.py (does not land a block that fails the store check). pull.mjs store_expect is now case-insensitive to match.
+Configs: store_expect added to every market in vosges, pura and stinkin-good (city plus 3-digit zip prefix); four Vosges retailer pins where the recipe returns only a street address or store name (jewel-osco, albertsons, safeway, heb); explicit empty hard_exclude where the key was missing (Vosges refrigerated shelf, Pura and Stinkin' Good non-brand shelves).
+Replay on the Vosges data: caught H-E-B landing on Victoria, Meijer landing on a Michigan store (Alpine), Fresh Thyme unpinned, Whole Foods blocks with no pinned store, and no brand block with data at Albertsons, Safeway and Meijer. Mapper dry run: 12 blocks not landed. Four bad configs refused by the generator; a rule set that matches nothing scores 0 percent and fails.
+Not done: dispatch-time refusal in the workflow (the generator, report and mapper enforce it); Pura and Stinkin' Good blocks not regenerated or stamped; hand-added blocks (the refrigerated scout shelf, extra Amazon terms) are wiped by gen_client_blocks.py on regeneration, so use `gate.py <client> stamp` on existing clients.
