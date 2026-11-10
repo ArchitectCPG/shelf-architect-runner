@@ -1,0 +1,123 @@
+[
+ {
+  "id": "pouch_rows_2.5_4.5",
+  "quote": "Small pouch band 2.5 to 4.5 oz, 121 rows",
+  "claim": 121,
+  "metric": {
+   "stat": "count",
+   "set": "price",
+   "filter": {
+    "neighborhood": "chocolate-bites-pouch",
+    "size_min": 2.5,
+    "size_max": 4.5
+   }
+  }
+ },
+ {
+  "id": "pouch_median",
+  "quote": "median 6.99",
+  "claim": 6.99,
+  "metric": {
+   "stat": "median",
+   "filter": {
+    "neighborhood": "chocolate-bites-pouch",
+    "size_min": 2.5,
+    "size_max": 4.5
+   }
+  }
+ },
+ {
+  "id": "pouch_p75",
+  "quote": "p75 8.99",
+  "claim": 8.99,
+  "metric": {
+   "stat": "p75",
+   "filter": {
+    "neighborhood": "chocolate-bites-pouch",
+    "size_min": 2.5,
+    "size_max": 4.5
+   }
+  }
+ },
+ {
+  "id": "pouch_share_8.99",
+  "quote": "27 percent at 8.99 or above",
+  "claim": 27,
+  "metric": {
+   "stat": "share_ge",
+   "threshold": 8.99,
+   "filter": {
+    "neighborhood": "chocolate-bites-pouch",
+    "size_min": 2.5,
+    "size_max": 4.5
+   }
+  }
+ },
+ {
+  "id": "bars_rows_2.5_3.6",
+  "quote": "Bars 2.5 to 3.6 oz, 286 rows",
+  "claim": 286,
+  "metric": {
+   "stat": "count",
+   "set": "price",
+   "filter": {
+    "neighborhood": "premium-chocolate-bars",
+    "size_min": 2.5,
+    "size_max": 3.6
+   }
+  }
+ },
+ {
+  "id": "bars_median",
+  "quote": "median 5.99",
+  "claim": 5.99,
+  "metric": {
+   "stat": "median",
+   "filter": {
+    "neighborhood": "premium-chocolate-bars",
+    "size_min": 2.5,
+    "size_max": 3.6
+   }
+  }
+ },
+ {
+  "id": "bars_p75",
+  "quote": "p75 6.99",
+  "claim": 6.99,
+  "metric": {
+   "stat": "p75",
+   "filter": {
+    "neighborhood": "premium-chocolate-bars",
+    "size_min": 2.5,
+    "size_max": 3.6
+   }
+  }
+ },
+ {
+  "id": "bars_p90",
+  "quote": "p90 8.63",
+  "claim": 8.63,
+  "metric": {
+   "stat": "p90",
+   "filter": {
+    "neighborhood": "premium-chocolate-bars",
+    "size_min": 2.5,
+    "size_max": 3.6
+   }
+  }
+ },
+ {
+  "id": "bars_share_9.99",
+  "quote": "7 percent at 9.99 plus",
+  "claim": 7,
+  "metric": {
+   "stat": "share_ge",
+   "threshold": 9.99,
+   "filter": {
+    "neighborhood": "premium-chocolate-bars",
+    "size_min": 2.5,
+    "size_max": 3.6
+   }
+  }
+ }
+]
