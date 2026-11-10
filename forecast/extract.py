@@ -106,12 +106,16 @@ def extract(cfg, out_dir):
                   "monthly_spend": mon(S, st, 12), "total_spend": round(val(S, f"Y{st}") + val(S, f"Z{st}"), 2),
                   "spark_label": f"Monthly incremental revenue ({refs['months'][0][:3]}-{refs['months'][-1][:3]}), ramp not spend", "budget": None, "no_zero_note": True, "no_budget_note": fill_note(sc.get("note"))})
 
-    dash = {"as_of": cfg.get("as_of"), "revenue_label": d.get("revenue_label", f"{refs['year_label']} Total Revenue (retail $ at shelf)"),
-            "revenue_subs": [{"label": d.get("gross_label", "Gross sales"), "value": round(gross, 2), "label2": "Net sales", "value2": round(val(O, ov["net"]), 2)},
+    # Steve 2026-11-10, platform default: the headline tile is gross sales (what the brand invoices); retail $ at shelf is a sub-line.
+    # Trade, marketing and contribution margin tiles show $ and % of gross sales (page renders the %). No spend % tile.
+    dash = {"as_of": cfg.get("as_of"), "gross_label": d.get("gross_tile_label", f"{refs['year_label']} Gross Sales (what {cfg.get('client_name', 'the brand')} invoices)"),
+            "revenue_label": d.get("revenue_label", f"{refs['year_label']} Total Revenue (retail $ at shelf)"),
+            "revenue_subs": [{"label": "Retail $ at shelf", "value": round(tot, 2), "label2": "Net sales", "value2": round(val(O, ov["net"]), 2)},
                              {"label": "COGS", "value": round(val(O, ov["cogs"]), 2), "label2": "Gross profit", "value2": round(val(O, ov["gp"]), 2)}],
-            "net_label": "Contribution Margin", "spend_pct_label": "Spend % of Gross Sales",
-            "company": {"total_revenue": round(tot, 2), "total_trade": round(trade, 2), "total_marketing": round(mkt, 2), "total_spend": round(spend, 2),
-                        "net_revenue": round(val(O, ov["cm"]), 2), "spend_pct_of_revenue": round(spend / gross, 4) if gross else 0, "total_brand_love": 0},
+            "net_label": "Contribution Margin",
+            "company": {"gross_sales": round(gross, 2), "total_revenue": round(tot, 2), "total_trade": round(trade, 2), "total_marketing": round(mkt, 2), "total_spend": round(spend, 2),
+                        "net_revenue": round(val(O, ov["cm"]), 2), "cm_pct_of_gross": round(val(O, ov["cm"]) / gross, 4) if gross else 0,
+                        "spend_pct_of_revenue": round(spend / gross, 4) if gross else 0, "total_brand_love": 0},
             "flags": [], "footer_note": fill_note(d.get("footer_note")), "retailers": cards}
     names = ["Overall", "Assumptions", "Current State"] + [t["tab"] for t in refs["existing"]] + ["Retailer Expansion", "SKU Expansion"]
     sheets = [sheet_rows(V, n, 5 if n != "Assumptions" else 4, 3 if n in ("Retailer Expansion", "SKU Expansion") else 2) for n in names]

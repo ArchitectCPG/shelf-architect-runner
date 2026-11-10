@@ -13,3 +13,6 @@ Config (see clients/vosges.forecast.json): frame (start year and month, so fisca
 Proof 2026-11-10: clients/vosges.forecast.json reproduces the live Vosges v1 dashboard exactly (every company figure and revenue sub-tile equal to the cent). forecast/tests: a fiscal-year client with two existing accounts on two lines and no rollout (existing revenue matches hand math), and a three-drop rollout (the third tranche matches hand math month by month). All build with 0 formula errors.
 
 - `love_label` (optional): in-store layer name on the Plan tab. Default "Pack Love". Set "Can Love" only for a canned beverage client (Steve, 2026-11-10).
+
+- Dashboard tiles (Steve, 2026-11-10, every client): the headline tile is gross sales (what the brand invoices), with retail $ at shelf as a sub-line. Trade, marketing and contribution margin tiles show $ and % of gross sales. No spend % tile. extract.py emits company.gross_sales and dashboard.gross_label; the page renders the new tiles when gross_sales is present (patch in docs/page_patches/2026-11-10_forecast_tiles.diff, live on Vosges; main and the other client pages get it at their next session per the sync rule).
+- Existing accounts can be "kind": "flat" (no doors or velocity): brand $ per year, brand $ as % of retail, trade and marketing % of brand $. Used for Faire independents on Vosges.

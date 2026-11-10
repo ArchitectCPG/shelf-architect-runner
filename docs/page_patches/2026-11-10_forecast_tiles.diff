@@ -1,0 +1,12 @@
+10266a10267,10275
+>     if(co.gross_sales!=null){
+>       // Steve 2026-11-10, platform default: lead with gross sales (what the brand invoices); retail $ is a sub-line.
+>       // Trade, marketing and contribution margin each show $ with % of gross sales. No spend % tile.
+>       var gs=Number(co.gross_sales)||0, pg=function(v){ return gs? fcdPct(Number(v||0)/gs)+' of gross sales' : ''; };
+>       html += fcdKpi((dash.gross_label||'Gross Sales'), fcdCur(gs), revSub);
+>       html += fcdKpi('Trade Spend', fcdCur(co.total_trade), esc(pg(co.total_trade)));
+>       html += fcdKpi('Marketing Spend', fcdCur(co.total_marketing), esc(pg(co.total_marketing)));
+>       html += fcdKpi((dash.net_label||'Contribution Margin'), fcdCur(co.net_revenue), esc(pg(co.net_revenue)));
+>     } else {
+10271a10281
+>     }
