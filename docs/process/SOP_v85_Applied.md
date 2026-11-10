@@ -37,7 +37,7 @@ Pressure test of the 2026-11-07 change proposal (C1 to C9), run on Fable, approv
 - Trade and marketing default when Sheet B is blank: 20 percent of gross sales, confirmed by Steve 2026-11-10.
 - Seed by page is decided but unproven.
 - Hygiene review share measured on the Vosges replay (8.4 percent); a held-out test needs the next client.
-- 16 more not-this-shelf rows in the Vosges DB wait for Steve's OK to remove (list in archives/vosges_hygiene_removed_2026-11-10.json, second_pass).
+- Vosges DB hygiene fix finished (18 rows removed, backup in archives/). The 3 Tru Fru freeze-dried rows and 3 Unreal bar rows are left as they are.
 
 ## Build 1 result (2026-11-10, Sonnet)
 Built: tools/gate.py (config, store, brand, precision checks, plus a `stamp` retrofit), wired into gen_client_blocks.py (refuses to generate on a config failure), client_report.py (flags WRONG MARKET and UNPINNED, prints the gate table, `--gate` exits non-zero) and mapper.py (does not land a block that fails the store check). pull.mjs store_expect is now case-insensitive to match.
@@ -54,7 +54,7 @@ Replay on the Vosges data (mapper run into a temp folder, nothing landed or chan
 - Against the hand process: 27 of the 30 brands excluded by hand in Stage 2 are also excluded by rule.
 - Replaying every landing batch, 26 landed rows are brands the rules exclude as not this shelf (Barnana, Snack Factory, Kind, RXBar, Mitica, The Gfb, Nassau Candy, Woodstock) and 3 are Unreal bars (named bars) the format rule routes elsewhere. Tru Fru freeze-dried rows were left alone.
 Fix applied to the Vosges DB (Steve: "fix pls", backup first, archives/vosges_hygiene_removed_2026-11-10.json):
-- Removed 10 not-this-shelf rows (The Gfb x4, Mitica x2, Snack Factory, Barnana, Nassau Candy, Woodstock). pull_matrix/vosges.hygiene_removals records it.
+- Removed 10 not-this-shelf rows (The Gfb x4, Mitica x2, Snack Factory, Barnana, Nassau Candy, Woodstock), then 8 more after Steve's second yes (Barnana x5, Snack Factory x3). 18 in total; pull_matrix/vosges.hygiene_removals records it by block.
 - Removed 8 Whole Foods rows (Hu Coconut Dark Chocolate x2, Unreal x6) and restored them the same day. My first report called them bars; they are not all bars, and Hu 2.75 oz is a pouch peer the Stage 3 thesis cites for price. The small-pouch heuristic (a small single with no pouch word moves to the bars shelf) was wrong for them, so small_single_oz_max is now null in clients/vosges.json and only a named bar moves off the shelf.
-- 16 more not-this-shelf rows found by the batch replay (Barnana x6, Snack Factory x5, Kind x2, RXBar x2, others) were NOT removed: the delete call was blocked, correctly, because it went past what Steve approved. They stay in the DB and in the restore file's second_pass list until he says go.
+- The batch replay listed 16 more candidates. The first delete call was blocked because it went past what Steve had approved; after his yes, 8 of the 16 turned out to be already gone (deleted at Stage 2: Kind and RXBar minis, Barnana organic original, Snack Factory bites) and the other 8 were removed. A query on every excluded brand now returns nothing.
 Not done: the 8.4 percent is a replay on the data the rules were tuned on, not a held-out test; the next client's first landing is the real measure. Brand canon is stored on the row; ids keep the raw brand so price history still matches.
