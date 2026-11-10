@@ -29,7 +29,8 @@ def load_rows(path):
     if os.path.isdir(path):
         return [json.load(open(f)) for f in sorted(glob.glob(path+'/*.json'))]
     d=json.load(open(path))
-    if isinstance(d,dict): d=[dict(v,_id=k) for k,v in d.items()]
+    if isinstance(d,dict) and isinstance(d.get('rows'),list): d=d['rows']   # page Export rows bundle
+    elif isinstance(d,dict): d=[dict(v,_id=k) for k,v in d.items()]
     return [x.get('data',x) for x in d]
 
 def in_set(r,kind):
