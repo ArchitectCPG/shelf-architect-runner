@@ -26,11 +26,13 @@ def build_hints(C):
     for k,t in (C.get('brand_hints') or {}).items(): hints.append((k,t))
     return hints
 MARK=re.compile(r'^(.{2,40}?)\s?[®™]')
+_CTA_BRAND=re.compile(r'^(add( to (cart|list|basket))?|sponsored|see options|buy now|view( options| details)?|options|ship|pickup|delivery|save|sale)\s*$',re.I)
 def brand_of(h,hints):
     nm=(h.get('name') or '')
     for lab,rx in hints:
         if re.search(rx,nm+' '+(h.get('brand') or ''),re.I): return lab
     b=(h.get('brand') or '').strip()
+    if _CTA_BRAND.match(b): b=''   # a recipe that read a button label as the brand (H-E-B 'Add to cart'): never a brand
     if b: return b.title() if b.islower() else b
     m=MARK.match(nm)
     return m.group(1).strip() if m else None
