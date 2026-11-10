@@ -18,7 +18,7 @@ Format per line: Question | Default (Opus) | Basis | Steve
 
 ## Forecast (becomes forecast.json)
 9. Frame: calendar year or fiscal year, and which year
-10. Existing business: accounts, doors, SKUs, SRP, velocity (units per store per week)
+10. Existing business: accounts, doors, SKUs, SRP, velocity (units per store per week). If the client gives a dollar figure instead: is it retail $ or the client's own (gross) dollars, and the split by account. Velocity is then solved from doors (more doors = lower per-store velocity = the conservative read). Accounts with no door count (Faire, marketplaces) are flat dollars on their own waterfall
 11. New format velocity vs existing (default equal; raise if higher perceived value or multiple usage)
 12. Wave 2 velocity
 13. Launch timing: first drop month and SKU count, later drops, when other retailers can start
@@ -28,7 +28,10 @@ Format per line: Question | Default (Opus) | Basis | Steve
 17. Trade and marketing percent by tier, existing line and new items. Always on gross sales, never shelf dollars
 18. COGS per unit by format (default margin calculator ceilings, flagged)
 19. Waterfall: retailer and distributor margin (default 40 / 15)
-20. Dashboard tiles: revenue basis, net label (default Contribution Margin), percent tile (default Contribution Margin percent of gross sales)
+20. Dashboard tiles: headline is gross sales (what the client invoices) with retail $ as a sub-line; trade, marketing and contribution margin each show $ and % of gross sales; no spend % tile (SA standard, Steve 2026-11-10)
+21. Marketing return: default 1.1x marketing $ back in retail $ at shelf, incremental. Does the client run marketing today? If yes, lower or drop it so it is not counted twice
+22. Growth lines: which lines grow and which are held flat (Vosges: bars held, pouch is the growth)
+23. In-store layer name: Pack Love (Can Love only for a canned beverage client)
 
 ## Standard outputs (not decisions)
 - P&L block on Overall: retail at shelf, gross sales, trade, net sales, COGS, gross profit, marketing, contribution margin, each as percent of gross sales
