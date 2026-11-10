@@ -37,6 +37,7 @@ def build(cfg, out_dir):
     YL = fr.get("year_label", str(fr["start_year"]))
     CN = cfg["client_name"]
     VER = cfg.get("version", "v1")
+    LOVE = cfg.get("love_label", "Pack Love")  # Steve 2026-11-10: always Pack Love; Can Love only for canned beverage clients
     wb = Workbook(); wb.remove(wb.active)
 
     def sheet(name, title, sub=None, widths=None):
@@ -442,7 +443,7 @@ def build(cfg, out_dir):
         pt = next(t for t in ex_tabs if t["account"] == pc["account"])
         pe = next(e for e in cfg["existing"] if e["account"] == pc["account"])
         pname = f"{pc['account']} Plan"[:31]; vname = f"{pc['account']} Vol"[:31]
-        PL = sheet(pname, f"Customer: {pc['account']}. CanLove in-store plan (TEMPLATE)", "Blue = type here. Black = formula. Green = pulled from the model. Build the program to the recommended spend row.", widths={"B": 44, "C": 30})
+        PL = sheet(pname, f"Customer: {pc['account']}. {LOVE} in-store plan (TEMPLATE)", "Blue = type here. Black = formula. Green = pulled from the model. Build the program to the recommended spend row.", widths={"B": 44, "C": 30})
         for i in range(12): PL.column_dimensions[L(4 + i)].width = 10
         PL.column_dimensions["P"].width = 13; PL.column_dimensions["Q"].width = 14
         hdr(PL, 5, ["Line", "Comments"] + MONTHS + [f"TOTAL {YL}", "vs. recommended"])
@@ -494,7 +495,7 @@ def build(cfg, out_dir):
         r += 1; put(PL, f"B{r}", "SAMPLING subtotal", kind="text", bold=True)
         for m in range(13): put(PL, f"{L(4+m)}{r}", f"={L(4+m)}{DEMOS}+{L(4+m)}{DEMOS+1}", USD, bold=True)
         sub_rows.append(r); r += 2; TOTP = r
-        put(PL, f"B{r}", "TOTAL SPEND (CAN LOVE IN STORE)", kind="text", bold=True)
+        put(PL, f"B{r}", f"TOTAL SPEND ({LOVE.upper()} IN STORE)", kind="text", bold=True)
         for m in range(13):
             c = L(4 + m); put(PL, f"{c}{r}", "=" + "+".join(f"{c}{x}" for x in sub_rows), USD, bold=True)
         put(PL, f"Q{r}", f"=P{r}-P{REC}", USD, bold=True)
