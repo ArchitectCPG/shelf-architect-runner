@@ -172,9 +172,11 @@ if (block.api) {
         if (seen.size - before === 0) break;
       }
       const lim = block.api.limit || 48; const all = [...seen.values()].filter(h => !h.sponsored); // Walmart-sold first: marketplace sellers are not the shelf
-      const fh = [...all.filter(h => h.seller === "Walmart.com"), ...all.filter(h => h.seller !== "Walmart.com")].slice(0, lim);
+      const wm = all.filter(h => h.seller === "Walmart.com"); const mk = all.filter(h => h.seller !== "Walmart.com");
+      // marketplace sellers list cases and multipacks at off-shelf prices: keep them only when Walmart-sold alone is under the floor
+      const fh = (wm.length >= (fb.floor ?? 10) ? wm : [...wm, ...mk]).slice(0, lim);
       if (fh.length > o.houses.length) {
-        o.houses = fh; o.error = null; o.fallback = { lane: "unlocker_search", primary }; o.price_basis = "online_default_store";
+        o.houses = fh; o.error = null; o.fallback = { lane: "unlocker_search", primary, walmart_sold: wm.length, marketplace_seen: mk.length, marketplace_kept: fh.filter(h => h.seller !== "Walmart.com").length }; o.price_basis = "online_default_store";
         o.store_set = `walmart.com search, default store${storeId ? ` ${storeId}` : ""} (store pin failed; requested zip ${block.store_zip})`;
         lg(`fallback kept ${fh.length} houses`);
       } else lg(`fallback found ${fh.length}, keeping primary`);

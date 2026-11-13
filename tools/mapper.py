@@ -154,6 +154,7 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
     if _gv!='ok': blocks_out.append(dict(block=b['block_id'],last_result='not landed: '+_gv,store=d.get('store_set'),error=d.get('error'))); stats['gate_not_landed']=stats.get('gate_not_landed',0)+1; continue
     banner=b['retailer'].replace('-api',''); kapi=(d.get('runner') or '').endswith('kroger-api'); ic=banner=='costco-ic' or (d.get('store_set') or '').startswith('API zip') and 'shop' in (d.get('store_set') or '')
     price_basis='instacart_quote' if ('shop ' in str(d.get('store_set')) and 'location' in str(d.get('store_set'))) else 'shelf'
+    if d.get('price_basis')=='online_default_store': price_basis='online_default_store'   # SOP v89: Walmart search-page fallback
     retailer_slug='costco' if banner=='costco-ic' else banner
     kept=0; brands=set()
     for h in d.get('houses',[]):
@@ -199,9 +200,9 @@ for f in sorted(glob.glob(f'blocks_gen/{cid}/*.json')):
               price_regular=reg,price_basis=price_basis,size_oz=oz,size_source=size_src,count=ct,
               price_per_oz=(round((pro or reg)/oz,4) if oz and (pro or reg) else None),
               price_history=[{'date':today,'price':(pro or reg)}],last_pulled=today,pulled_at=datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-              region=str(d.get('store_set') or ''),route='runner-'+('kroger-api' if kapi else 'instacart' if price_basis=='instacart_quote' else 'api' if str(d.get('store_set','')).startswith('API') else 'recipe'),upc=h.get('upc'),
+              region=str(d.get('store_set') or ''),route='runner-'+('kroger-api' if kapi else 'instacart' if price_basis=='instacart_quote' else 'unlocker' if price_basis=='online_default_store' else 'api' if str(d.get('store_set','')).startswith('API') else 'recipe'),upc=h.get('upc'),
               block=block,zip=b['zip'],neighborhood=b['neighborhood'],neighborhoods=[b['neighborhood']],blocks=[block],
-              pull_url=h.get('link') or d.get('url_final'),notes=f"Runner pull {today}, lane {b.get('retailer')}, store: {d.get('store_set')}."+(" Instacart quote, carries marketplace markup; pricing intel, not shelf price." if price_basis=='instacart_quote' else ''),
+              pull_url=h.get('link') or d.get('url_final'),notes=f"Runner pull {today}, lane {b.get('retailer')}, store: {d.get('store_set')}."+(" Instacart quote, carries marketplace markup; pricing intel, not shelf price." if price_basis=='instacart_quote' else '')+(" Walmart.com default-store price, not the pinned zip (store pin failed)." if price_basis=='online_default_store' else ''),
               category=C.get('department'))
             if pro: r['sale_price']=pro
             _f,_fs=storage_class(h,nm,kapi)

@@ -72,6 +72,8 @@ def block_store_verdict(b,d):
     se=b.get('gate_store_expect') or b.get('store_expect')
     if not se: return 'NO store_expect on block'
     ss=str(d.get('store_set') or '')
+    # SOP v89: Walmart search-page fallback lands, tagged online_default_store (default-store price, not the pinned zip). Only Walmart; never a silent pass for other banners.
+    if b.get('retailer')=='walmart' and d.get('price_basis')=='online_default_store': return 'ok'
     if not ss or re.search(r'UNPINNED|^none$|^null$',ss,re.I): return 'UNPINNED'
     if not re.search(se,ss,re.I): return f"WRONG MARKET (landed: {ss[:60]})"
     return 'ok'
