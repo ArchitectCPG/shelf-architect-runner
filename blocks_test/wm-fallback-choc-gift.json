@@ -1,0 +1,19 @@
+{
+ "block_id": "diag/wm-fallback-choc-gift@walmart",
+ "retailer": "walmart",
+ "zip": "diag",
+ "neighborhood": "choc-gift",
+ "term": "chocolate gift box",
+ "store_zip": "60614",
+ "api": {
+  "dataset_id": "gd_m693oc1r1gebnayxq",
+  "discover_by": "keyword",
+  "input": {
+   "keyword": "{{term}}",
+   "store_id": "",
+   "zip_code": "{{store_zip}}"
+  },
+  "limit": 48,
+  "fallback_only": true
+ }
+}

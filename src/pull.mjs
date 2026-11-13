@@ -80,6 +80,7 @@ if (block.api) {
   const lg = (m) => { console.log(m); o.steps.push(`${new Date().toISOString().slice(11,19)} ${m}`); };
   try {
     const a = block.api;
+    if (a.fallback_only) throw new Error("primary skipped (fallback_only)");
     const input = JSON.parse(sub(JSON.stringify(a.input)));
     const qs = new URLSearchParams({ dataset_id: a.dataset_id, include_errors: "true",
       type: "discover_new", discover_by: a.discover_by, limit_per_input: String(a.limit || 48) });
@@ -132,7 +133,53 @@ if (block.api) {
     o.store_set = isAmazon ? `Amazon.com national${block.store_zip ? ` (delivery zip ${block.store_zip})` : ""} (dataset ${a.dataset_id})`
       : `API zip ${block.store_zip}${sid ? ` store_id ${sid}` : ""} (dataset ${a.dataset_id})`;
     lg(`extracted ${o.houses.length} houses from ${recs.length} records`);
+    o.api_records = recs.length; o.api_errored = errs.length; o.api_first_error = errs.length ? String(errs[0].error).slice(0, 160) : null;
+    if (!isAmazon) o.price_basis = "store";
   } catch (e) { o.error = String(e).slice(0, 500); lg(`ERROR ${o.error}`); }
+  // Walmart fallback (2026-11-13): the zip dataset dies on Walmart's store chooser on bad days and
+  // returns 0 to 1 rows with no error. Under the floor, read the search page through the Web Unlocker
+  // and take the items from __NEXT_DATA__. Price basis is walmart.com default store, not the pinned store.
+  const fb = block.api.fallback_unlock || (block.retailer === "walmart" && !isAmazon ? { url: "https://www.walmart.com/search?q={{term}}", pages: 2, floor: 10 } : null);
+  if (fb && o.houses.length < (fb.floor ?? 10)) {
+    const primary = { houses: o.houses.length, error: o.error, first_error: o.api_first_error || null };
+    try {
+      const seen = new Map(); let storeId = null;
+      for (let pg = 1; pg <= (fb.pages || 1); pg++) {
+        const url = fb.url.replace("{{term}}", encodeURIComponent(block.term || "")) + (pg > 1 ? `&page=${pg}` : "");
+        let html = "";
+        for (let t = 0; t < 2 && !/__NEXT_DATA__/.test(html); t++) {
+          const r = await fetch("https://api.brightdata.com/request", { method: "POST", headers: { Authorization: `Bearer ${tok}`, "content-type": "application/json" },
+            body: JSON.stringify({ zone: fb.zone || "mcp_unlocker", url, format: "raw", country: "us" }) });
+          html = await r.text(); lg(`fallback unlock p${pg} try ${t + 1}: ${r.status} ${html.length} bytes`);
+        }
+        const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+        if (!m) { lg(`fallback p${pg}: no __NEXT_DATA__`); break; }
+        const nd = JSON.parse(m[1]); const before = seen.size;
+        const walk = (x) => { if (!x || typeof x !== "object") return; if (Array.isArray(x)) { x.forEach(walk); return; }
+          if (x.usItemId && x.name && !seen.has(x.usItemId)) {
+            const line = x.priceInfo?.linePrice || x.priceInfo?.itemPrice || null;
+            const num = (typeof x.price === "number" && x.price > 0) ? x.price : (line && /\$\s*([\d,.]+)/.test(line) ? Number(RegExp.$1.replace(/,/g, "")) : null);
+            if (num) seen.set(x.usItemId, { name: x.name, brand: x.brand || null, price: `$${num}`, size: x.priceInfo?.unitPrice || "",
+              img: x.image || x.imageInfo?.thumbnailUrl || null,
+              link: x.canonicalUrl ? (x.canonicalUrl.startsWith("http") ? x.canonicalUrl : "https://www.walmart.com" + x.canonicalUrl) : null,
+              upc: null, item_id: x.usItemId, availability: x.availabilityStatusV2?.display || x.availabilityStatusDisplayValue || (x.isOutOfStock ? "Out of stock" : null),
+              initial_price: x.priceInfo?.wasPrice || null, rating: x.averageRating ?? null, reviews: x.numberOfReviews ?? null,
+              seller: x.sellerName || null, sponsored: !!x.isSponsoredFlag });
+          }
+          if (!storeId && (typeof x.storeId === "string" || typeof x.storeId === "number") && /^\d{2,5}$/.test(String(x.storeId))) storeId = String(x.storeId);
+          for (const k in x) walk(x[k]); };
+        walk(nd); lg(`fallback p${pg}: ${seen.size - before} new items`);
+        if (seen.size - before === 0) break;
+      }
+      const lim = block.api.limit || 48; const fh = [...seen.values()].filter(h => !h.sponsored).slice(0, lim);
+      if (fh.length > o.houses.length) {
+        o.houses = fh; o.error = null; o.fallback = { lane: "unlocker_search", primary }; o.price_basis = "online_default_store";
+        o.store_set = `walmart.com search, default store${storeId ? ` ${storeId}` : ""} (store pin failed; requested zip ${block.store_zip})`;
+        lg(`fallback kept ${fh.length} houses`);
+      } else lg(`fallback found ${fh.length}, keeping primary`);
+    } catch (e) { lg(`fallback ERROR ${String(e).slice(0, 200)}`); }
+    if (!o.error && o.houses.length < (fb.floor ?? 10)) o.error = `thin: ${o.houses.length} houses after fallback (dataset: ${primary.first_error || primary.error || "0 records"})`;
+  }
   fs.writeFileSync(path.join(outDir2, `${day2}.json`), JSON.stringify(o, null, 2));
   console.log(`\nRESULT block=${o.block_id} store=${o.store_set} houses=${o.houses.length} error=${o.error}`);
   process.exit(o.error ? 1 : 0);
