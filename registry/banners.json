@@ -7169,6 +7169,7 @@
      "depth_median": 1,
      "depth_blocks": 2,
      "depth": "thin",
+     "depth_note": "store pin (zip dataset) fails on bad days; since 2026-11-13 the runner falls back to walmart.com search, 48 rows on 3 test blocks. Fallback price is the default store, not the pinned one (price_basis in the pull file)",
      "state": "proven"
     }
    ],

@@ -260,3 +260,10 @@ Full selector-level recipes for Kroger platform, Albertsons platform, Meijer, Ta
 - Open, width not process: natural tail (INFRA, NCG, 38 small banners never probed); Sam's, BJ's, Stop & Shop, Stater Bros, Giant Eagle fail; Walmart API lane grades thin (median 1 row per block on Vosges); Kroger API partial (7 to 8); CVS partial (lazy load); Fareway missing from the universe; salsa-era banners need a market pin (one gate pass).
 - Not yet done: existing client files (vosges, pura, stinkin-good) still carry typed retailers lists; move each to a scope block at its next run. gen_client_blocks.py does not call scope.py itself yet (use --emit).
 - Steve's rule: unattended first, attended only as a last resort, raised when it comes up.
+
+## Walmart route fix (2026-11-13)
+- Cause: the Bright Data zip dataset (gd_m693oc1r1gebnayxq) dies on Walmart's store chooser on bad days and returned 0 to 1 rows with no error. 11 of 17 API pulls were under 2 rows; the good ones took up to 22 minutes.
+- Fix in src/pull.mjs: under 10 rows, the lane reads walmart.com search through the Web Unlocker (2 pages, about 40 seconds), Walmart-sold items first, sponsored dropped. Still thin after that now fails loudly instead of passing empty.
+- Tested: 48 rows each on premium dark chocolate bar, chocolate gift box, salsa (run 43458358515). Test blocks in blocks_test/ (api.fallback_only skips the dataset).
+- Limit: fallback price is the default store Walmart assigns, not the pinned zip. Pull file carries price_basis (store or online_default_store). No UPC on fallback rows (item_id instead).
+- Open: registry still grades Walmart thin until the next client run lands real blocks. Mapper not yet checked against a fallback file on a client block.

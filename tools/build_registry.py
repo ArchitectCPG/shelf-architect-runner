@@ -35,6 +35,7 @@ RUNNER_MAP = {
 NO_ECOMM = {'trader-joes','7-eleven-us','circle-k','wawa','sheetz','speedway','quiktrip','maverik','us-defense-commissaries-deca',
             'nex-navy-exchange','grocery-outlet','plaid-pantry','otg-cibo-markets'}
 STALE_DAYS = 30
+ROUTE_NOTE = {'walmart': 'store pin (zip dataset) fails on bad days; since 2026-11-13 the runner falls back to walmart.com search, 48 rows on 3 test blocks. Fallback price is the default store, not the pinned one (price_basis in the pull file)'}
 KNOWN_PARTIAL = {'cvs': 'search lazy-loads; about 20 of 109 products captured (2026-10-17)',
                  'costco-online': 'national online pricing, not warehouse shelf', 'costco-ic': 'Instacart pricing, not warehouse shelf'}
 
@@ -107,6 +108,7 @@ def main():
             med = cs[len(cs)//2]; route['depth_median'] = med; route['depth_blocks'] = len(cs)
             route['depth'] = 'full' if med >= 15 else ('partial' if med >= 5 else 'thin')
         if key in KNOWN_PARTIAL: route['depth'] = 'partial'; route['depth_note'] = KNOWN_PARTIAL[key]
+        if key in ROUTE_NOTE: route['depth_note'] = ROUTE_NOTE[key]
         if e['last_ok']:
             age = (today - datetime.date.fromisoformat(e['last_ok'])).days
             route['state'] = 'proven' if age <= STALE_DAYS else 'stale'
