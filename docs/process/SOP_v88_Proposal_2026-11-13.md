@@ -1,6 +1,6 @@
 # SOP v88 proposal: scope, registry, gate with memory (2026-11-13, postmortem on v83 to v87)
 
-Status: tools built and dry-run in the sandbox. Nothing written to any instance. Lands on Steve's OK.
+Status: approved by Steve 2026-11-13 ("go", "yes"). Depth grade added. Lands on main after the backup; client instances at their next session.
 
 ## Why
 The Vosges update fixed intake, decisions, audit and forecast. Banner selection stayed hand-built per client: 25 banners typed into clients/vosges.json, 19 dispatched runs for 125 blocks, slugs and recipes re-learned mid-run. Pura's file has 6 banners against a 94-retailer MULO list. No way to run the universe or a named subset.

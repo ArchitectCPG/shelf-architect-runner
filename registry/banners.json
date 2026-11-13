@@ -99,6 +99,9 @@
      "store_set": "1001 South St",
      "tries": 2,
      "oks": 2,
+     "depth_median": 44,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -192,6 +195,9 @@
      "tries": 10,
      "oks": 10,
      "template": "albertsons",
+     "depth_median": 55,
+     "depth_blocks": 3,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -428,6 +434,9 @@
      "store_set": "5586 Weslayan St",
      "tries": 2,
      "oks": 2,
+     "depth_median": 52,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "stale"
     },
     {
@@ -440,6 +449,9 @@
      "store_set": "3878 Oaklawn Ave #18",
      "tries": 2,
      "oks": 2,
+     "depth_median": 28,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -559,6 +571,9 @@
      "store_set": "API zip 60615 shop 273531 location 12268",
      "tries": 3,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -932,6 +947,9 @@
      "store_set": "API zip 90012 shop 16724744 location 495524 retailer bristol-farms",
      "tries": 4,
      "oks": 4,
+     "depth_median": 313,
+     "depth_blocks": 4,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -999,6 +1017,9 @@
      "store_set": "API zip 60615 shop 8295 location 24750",
      "tries": 1,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -1137,6 +1158,9 @@
      "store_set": "API zip 77005 shop 3941 location 1612 retailer central-market",
      "tries": 4,
      "oks": 4,
+     "depth_median": 313,
+     "depth_blocks": 4,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -1240,6 +1264,9 @@
      "store_set": "Pickup at 12th Street Grand Junction",
      "tries": 11,
      "oks": 10,
+     "depth_median": 46,
+     "depth_blocks": 10,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -1253,6 +1280,9 @@
      "tries": 4,
      "oks": 4,
      "chain": "City Market",
+     "depth_median": 87,
+     "depth_blocks": 4,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -1408,6 +1438,10 @@
      "store_set": "API zip 80202 shop 2043 location 439",
      "tries": 8,
      "oks": 5,
+     "depth_median": 74,
+     "depth_blocks": 5,
+     "depth": "partial",
+     "depth_note": "Instacart pricing, not warehouse shelf",
      "state": "proven"
     },
     {
@@ -1421,6 +1455,10 @@
      "tries": 4,
      "oks": 4,
      "template": "costco-online",
+     "depth_median": 156,
+     "depth_blocks": 4,
+     "depth": "partial",
+     "depth_note": "national online pricing, not warehouse shelf",
      "state": "proven"
     },
     {
@@ -1434,6 +1472,10 @@
      "tries": 5,
      "oks": 3,
      "template": "costco-online",
+     "depth_median": 15,
+     "depth_blocks": 3,
+     "depth": "partial",
+     "depth_note": "national online pricing, not warehouse shelf",
      "state": "proven"
     },
     {
@@ -1446,6 +1488,9 @@
      "store_set": "costco.com online (national, 2-day delivery pricing)",
      "tries": 2,
      "oks": 1,
+     "depth_median": 22,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -1678,6 +1723,9 @@
      "store_set": "API zip 60615 shop 4352 location 1648",
      "tries": 2,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -1776,6 +1824,10 @@
      "store_set": "None",
      "tries": 2,
      "oks": 1,
+     "depth_median": 20,
+     "depth_blocks": 1,
+     "depth": "partial",
+     "depth_note": "search lazy-loads; about 20 of 109 products captured (2026-10-17)",
      "state": "proven"
     }
    ],
@@ -2137,6 +2189,9 @@
      "store_set": "API zip 90012 shop 94105 location 88898 retailer erewhon",
      "tries": 8,
      "oks": 8,
+     "depth_median": 308,
+     "depth_blocks": 8,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -2307,6 +2362,9 @@
      "store_set": "API zip 60615 shop 113128 location 10665",
      "tries": 2,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -2363,6 +2421,9 @@
      "store_set": "None",
      "tries": 2,
      "oks": 1,
+     "depth_median": 33,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -2492,6 +2553,9 @@
      "store_set": "Pickup at Hawthorne",
      "tries": 2,
      "oks": 2,
+     "depth_median": 31,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -2687,6 +2751,9 @@
      "store_set": "API zip 90012 shop 2111 location 587 retailer gelsons",
      "tries": 4,
      "oks": 4,
+     "depth_median": 312,
+     "depth_blocks": 4,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -3012,6 +3079,9 @@
      "store_set": "Pickup at Kenilworth Commons",
      "tries": 2,
      "oks": 1,
+     "depth_median": 39,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -3071,6 +3141,9 @@
      "tries": 14,
      "oks": 12,
      "template": "heb",
+     "depth_median": 44,
+     "depth_blocks": 5,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -3300,6 +3373,9 @@
      "store_set": "Shopping Sycamore, IL",
      "tries": 3,
      "oks": 3,
+     "depth_median": 132,
+     "depth_blocks": 3,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -3380,6 +3456,9 @@
      "store_set": "API zip 60615 shop 342623 location 164501",
      "tries": 1,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -3472,6 +3551,9 @@
      "tries": 10,
      "oks": 10,
      "template": "jewel",
+     "depth_median": 49,
+     "depth_blocks": 4,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -3567,6 +3649,9 @@
      "store_set": "API zip 60615 shop 16295 location 326",
      "tries": 1,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -3657,6 +3742,9 @@
      "store_set": "Pickup at Union Station",
      "tries": 11,
      "oks": 10,
+     "depth_median": 42,
+     "depth_blocks": 10,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -3670,6 +3758,9 @@
      "tries": 9,
      "oks": 8,
      "chain": "King Soopers",
+     "depth_median": 5,
+     "depth_blocks": 4,
+     "depth": "partial",
      "state": "proven"
     },
     {
@@ -3682,6 +3773,9 @@
      "store_set": "API zip 80202 shop 3651 location 2386",
      "tries": 3,
      "oks": 3,
+     "depth_median": 120,
+     "depth_blocks": 3,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -3782,6 +3876,9 @@
      "store_set": "Pickup at Newport (Locker Pickup)",
      "tries": 3,
      "oks": 2,
+     "depth_median": 184,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -4073,6 +4170,9 @@
      "store_set": "API zip 60615 shop 112340 location 31525",
      "tries": 3,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -4198,6 +4298,9 @@
      "tries": 5,
      "oks": 4,
      "chain": "Mariano's",
+     "depth_median": 7,
+     "depth_blocks": 4,
+     "depth": "partial",
      "state": "proven"
     },
     {
@@ -4210,6 +4313,9 @@
      "store_set": "Pickup at Marianos Bronzeville",
      "tries": 1,
      "oks": 1,
+     "depth_median": 32,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -4256,6 +4362,9 @@
      "store_set": "API zip 60615 shop 557 location 211",
      "tries": 1,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -4405,6 +4514,9 @@
      "tries": 6,
      "oks": 5,
      "template": "meijer",
+     "depth_median": 16,
+     "depth_blocks": 3,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -4686,6 +4798,9 @@
      "tries": 10,
      "oks": 9,
      "template": "naturalgrocers",
+     "depth_median": 304,
+     "depth_blocks": 8,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -5127,6 +5242,9 @@
      "store_set": "API zip 60614 shop 109526 location 1247 retailer plum-market",
      "tries": 8,
      "oks": 8,
+     "depth_median": 310,
+     "depth_blocks": 8,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -5178,6 +5296,9 @@
      "store_set": "API zip 60615 shop 66418 location 621",
      "tries": 2,
      "oks": 2,
+     "depth_median": 120,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -5337,6 +5458,9 @@
      "tries": 5,
      "oks": 4,
      "chain": "Ralphs",
+     "depth_median": 8,
+     "depth_blocks": 4,
+     "depth": "partial",
      "state": "proven"
     },
     {
@@ -5349,6 +5473,9 @@
      "store_set": "Pickup at Westwood",
      "tries": 3,
      "oks": 2,
+     "depth_median": 30,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -5542,6 +5669,9 @@
      "tries": 11,
      "oks": 10,
      "template": "safeway",
+     "depth_median": 47,
+     "depth_blocks": 3,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -5554,6 +5684,9 @@
      "store_set": "API zip 94110 shop 5468 location 75",
      "tries": 1,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -5566,6 +5699,9 @@
      "store_set": "08848",
      "tries": 3,
      "oks": 2,
+     "depth_median": 25,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -5737,6 +5873,9 @@
      "store_set": "API zip 60615 shop 45516 location 4086",
      "tries": 1,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -5808,6 +5947,9 @@
      "store_set": "127 Marion Rd",
      "tries": 2,
      "oks": 2,
+     "depth_median": 45,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -5871,6 +6013,9 @@
      "store_set": "API zip 60615 shop 91103 location 7143",
      "tries": 1,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -5919,6 +6064,9 @@
      "store_set": "None",
      "tries": 1,
      "oks": 1,
+     "depth_median": 31,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -5960,6 +6108,9 @@
      "store_set": "Pickup at 828 S 900 W SLC UT (Locker Pickup)",
      "tries": 2,
      "oks": 1,
+     "depth_median": 33,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -6093,6 +6244,9 @@
      "tries": 21,
      "oks": 19,
      "url": "https://shop.sprouts.com/store/sprouts/s?k={{term}}",
+     "depth_median": 297,
+     "depth_blocks": 7,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -6433,6 +6587,9 @@
      "tries": 19,
      "oks": 16,
      "template": "target",
+     "depth_median": 48,
+     "depth_blocks": 3,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -6515,6 +6672,9 @@
      "tries": 9,
      "oks": 9,
      "template": "thefreshmarket",
+     "depth_median": 307,
+     "depth_blocks": 8,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -6784,6 +6944,9 @@
      "store_set": "3645 Midway Dr",
      "tries": 3,
      "oks": 2,
+     "depth_median": 39,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -6912,6 +7075,9 @@
      "store_set": "5036 S Cottage Grove Ave, Chicago, IL",
      "tries": 3,
      "oks": 1,
+     "depth_median": 35,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -7000,6 +7166,9 @@
      "tries": 19,
      "oks": 10,
      "template": "walmart",
+     "depth_median": 1,
+     "depth_blocks": 2,
+     "depth": "thin",
      "state": "proven"
     }
    ],
@@ -7096,6 +7265,9 @@
      "tries": 4,
      "oks": 4,
      "template": "wegmans",
+     "depth_median": 309,
+     "depth_blocks": 4,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -7108,6 +7280,9 @@
      "store_set": "None",
      "tries": 2,
      "oks": 1,
+     "depth_median": 91,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     }
    ],
@@ -7157,6 +7332,9 @@
      "store_set": "API zip 60615 shop 213197 location 151469",
      "tries": 1,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -7248,6 +7426,9 @@
      "tries": 18,
      "oks": 16,
      "template": "wholefoods",
+     "depth_median": 31,
+     "depth_blocks": 7,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -7261,6 +7442,9 @@
      "tries": 8,
      "oks": 7,
      "template": "wholefoods",
+     "depth_median": 34,
+     "depth_blocks": 7,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -7273,6 +7457,9 @@
      "store_set": "60615",
      "tries": 2,
      "oks": 2,
+     "depth_median": 23,
+     "depth_blocks": 2,
+     "depth": "full",
      "state": "stale"
     }
    ],
@@ -7360,6 +7547,9 @@
      "store_set": "API zip 60615 shop 16752328 location 589095",
      "tries": 1,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -7410,6 +7600,9 @@
      "store_set": "API zip 60615 shop 99690 location 122743",
      "tries": 1,
      "oks": 1,
+     "depth_median": 120,
+     "depth_blocks": 1,
+     "depth": "full",
      "state": "proven"
     },
     {
@@ -7478,6 +7671,9 @@
      "store_set": "API zip 53711 shop 20059 location 70266 retailer woodmans-food-markets",
      "tries": 4,
      "oks": 4,
+     "depth_median": 310,
+     "depth_blocks": 4,
+     "depth": "full",
      "state": "proven"
     }
    ],

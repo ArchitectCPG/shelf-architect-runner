@@ -85,6 +85,7 @@ def report(scope, reg, n_nb, label, emit=False):
         elif b['status'] == 'no_ecomm': uncovered.append((b, 'no online shelf'))
         elif b['status'] == 'failed': uncovered.append((b, 'route failed on last try'))
         else: uncovered.append((b, 'never probed'))
+    from collections import Counter
     cov_d = sum(b['doors'] for b, _ in ready); cov_a = sum(b['acv_weight'] or 0 for b, _ in ready)
     print(f"== {label}"); print(f"scope: {json.dumps(scope)}")
     fam_d = sum(b['doors'] for b in family)
@@ -92,6 +93,9 @@ def report(scope, reg, n_nb, label, emit=False):
     print(f"doors covered: {cov_d:,} of {tot_d:,} ({100*cov_d/tot_d:.0f}%) | ACV covered: {100*cov_a/tot_a:.0f}% of the scope's rated ACV")
     print(f"blocks at {n_nb} neighborhoods: {len(ready)*n_nb} pull (+{len(family)*n_nb} if the family banners pass) + {len(gate)} gate; {len(ready)+len(family)-len(gate)} banners skip the gate")
     from collections import Counter
+    dc = Counter((r.get('depth') or 'unscored') for _, r in ready)
+    dd = {k: sum(b['doors'] for b, r in ready if (r.get('depth') or 'unscored') == k) for k in dc}
+    print("ready by depth:", "; ".join(f"{k} {dc[k]} banners ({dd[k]:,} doors)" for k in ('full', 'partial', 'thin', 'unscored') if k in dc))
     print("ready by lane:", dict(Counter(r['lane'] for _, r in ready)))
     print("ready by channel:", dict(Counter(b['channel'] for b, _ in ready)), "| in scope by channel:", dict(Counter(b['channel'] for b in banners)))
     top = sorted(uncovered, key=lambda x: -((x[0]['acv_weight'] or 0), x[0]['doors'])[0] * 1e6 - x[0]['doors'])[:8]

@@ -35,6 +35,8 @@ RUNNER_MAP = {
 NO_ECOMM = {'trader-joes','7-eleven-us','circle-k','wawa','sheetz','speedway','quiktrip','maverik','us-defense-commissaries-deca',
             'nex-navy-exchange','grocery-outlet','plaid-pantry','otg-cibo-markets'}
 STALE_DAYS = 30
+KNOWN_PARTIAL = {'cvs': 'search lazy-loads; about 20 of 109 products captured (2026-10-17)',
+                 'costco-online': 'national online pricing, not warehouse shelf', 'costco-ic': 'Instacart pricing, not warehouse shelf'}
 
 def lane_of(key, d):
     ss = str(d.get('store_set') or ''); url = str(d.get('url_final') or '')
@@ -80,9 +82,10 @@ def main():
         except Exception: continue
         n = len(d.get('houses') or []); ok = n > 0 and not d.get('error')
         lane, slug = lane_of(key, d)
-        e = per.setdefault((key, lane), {'last_try': '', 'last_ok': '', 'houses': 0, 'slug': None, 'store_set': None, 'tries': 0, 'oks': 0})
+        e = per.setdefault((key, lane), {'last_try': '', 'last_ok': '', 'houses': 0, 'slug': None, 'store_set': None, 'tries': 0, 'oks': 0, 'counts': {}})
         e['tries'] += 1; e['oks'] += ok
         if date > e['last_try']: e['last_try'] = date
+        if ok: e['counts'].setdefault(date, []).append(n)
         if ok and date >= e['last_ok']:
             e['last_ok'] = date; e['houses'] = max(n, e['houses'] if date == e['last_ok'] else 0) or n
             e['slug'] = slug or e['slug']; e['store_set'] = str(d.get('store_set'))[:120]
@@ -95,6 +98,15 @@ def main():
                  'last_try': e['last_try'], 'houses_last_ok': e['houses'], 'store_set': e['store_set'], 'tries': e['tries'], 'oks': e['oks']}
         for k in ('url', 'template', 'host', 'chain', 'fallback'):
             if k in cfg: route[k] = cfg[k]
+        # depth: median priced houses per block over the 14 days up to the last good pull (one late scout block must not set the grade). full >= 15, partial 5 to 14, thin < 5
+        cs = []
+        if e['last_ok']:
+            lo = (datetime.date.fromisoformat(e['last_ok']) - datetime.timedelta(days=14)).isoformat()
+            cs = sorted(n for dt, ns in e['counts'].items() if dt >= lo for n in ns)
+        if cs:
+            med = cs[len(cs)//2]; route['depth_median'] = med; route['depth_blocks'] = len(cs)
+            route['depth'] = 'full' if med >= 15 else ('partial' if med >= 5 else 'thin')
+        if key in KNOWN_PARTIAL: route['depth'] = 'partial'; route['depth_note'] = KNOWN_PARTIAL[key]
         if e['last_ok']:
             age = (today - datetime.date.fromisoformat(e['last_ok'])).days
             route['state'] = 'proven' if age <= STALE_DAYS else 'stale'

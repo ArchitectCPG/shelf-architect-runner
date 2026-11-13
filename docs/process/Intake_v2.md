@@ -26,7 +26,7 @@ Goal: collect everything the client already knows before any pull runs. Steve fo
 - Pipeline after that (next flavors, timing)
 
 ## 5. Where they want to go
-- Target channels and banners, banners to avoid
+- Scope (SOP v88): whole universe, a preset (MULO, FDMC) or a subset. Name the channels, the distributor if the run follows one (UNFI, KeHE), banners to add and banners to avoid. Blank defaults to MULO and is flagged.
 - Markets (national, regional, home market)
 - Competitors: real and perceived, by category
 
