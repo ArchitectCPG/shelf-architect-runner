@@ -1,0 +1,7616 @@
+{
+ "built": "2026-11-13",
+ "stale_days": 30,
+ "count": 243,
+ "banners": [
+  {
+   "id": "7-eleven-us",
+   "name": "7-Eleven US",
+   "channel": "C-Store",
+   "parent": "7-Eleven US",
+   "distributor_primary": "DSD",
+   "distributors": [
+    "DSD",
+    "McLane",
+    "Coremark"
+   ],
+   "doors": 9534,
+   "acv_weight": null,
+   "hq_state": "Texas",
+   "states": [
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DC",
+    "DE",
+    "FL",
+    "GA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "NC",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "RI",
+    "SC",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "VT",
+    "WA",
+    "WI",
+    "WV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "acme-markets",
+   "name": "ACME Markets",
+   "channel": "MULO",
+   "parent": "Albertsons Companies",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 157,
+   "acv_weight": null,
+   "hq_state": "Ohio",
+   "states": [
+    "CT",
+    "DE",
+    "MD",
+    "NJ",
+    "NY",
+    "PA"
+   ],
+   "counted": false,
+   "excluded_reason": "subset of albertsons-companies total",
+   "status": "stale",
+   "routes": [
+    {
+     "runner_banner": "acmemarkets",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 44,
+     "store_set": "1001 South St",
+     "tries": 2,
+     "oks": 2,
+     "state": "stale"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "ahold-delhaize-usa",
+   "name": "Ahold Delhaize USA (family)",
+   "channel": "MULO",
+   "parent": "Ahold Delhaize",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 2000,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [],
+   "counted": false,
+   "excluded_reason": "parent holding, banners counted individually",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "ahold-delhaize-usa-hannaford-delhaize",
+   "name": "Ahold Delhaize USA - Hannaford (Delhaize)",
+   "channel": "MULO",
+   "parent": "Ahold Delhaize USA",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Chex Fine Foods"
+   ],
+   "doors": 187,
+   "acv_weight": null,
+   "hq_state": "Maine",
+   "states": [
+    "MA",
+    "ME",
+    "NH",
+    "NY",
+    "VT"
+   ],
+   "counted": false,
+   "excluded_reason": "duplicate of hannaford",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "albertsons",
+   "name": "Albertsons",
+   "channel": "MULO",
+   "parent": "Albertsons Companies",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 372,
+   "acv_weight": 14237343900,
+   "hq_state": null,
+   "states": [
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "ID",
+    "LA",
+    "MT",
+    "ND",
+    "NM",
+    "NV",
+    "OK",
+    "OR",
+    "TX",
+    "UT",
+    "WA",
+    "WY"
+   ],
+   "counted": false,
+   "excluded_reason": "subset of albertsons-companies total",
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "albertsons",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-06",
+     "houses_last_ok": 59,
+     "store_set": "1650 W State St",
+     "tries": 10,
+     "oks": 10,
+     "template": "albertsons",
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "boise",
+     "zip": "83702",
+     "store_expect": "Boise|\\b837\\d\\d\\b",
+     "lat": 43.6187,
+     "lng": -116.2146,
+     "from_client": "stinkin-good"
+    }
+   ]
+  },
+  {
+   "id": "albertsons-companies",
+   "name": "Albertsons Companies (family)",
+   "channel": "MULO",
+   "parent": "Albertsons Companies",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 2270,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [],
+   "counted": false,
+   "excluded_reason": "parent holding, banners counted individually",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "albertsons-safeway-denver",
+   "name": "Albertsons Safeway - Denver",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 123,
+   "acv_weight": null,
+   "hq_state": "Colorado",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "albertsons-safeway-haggen",
+   "name": "Albertsons Safeway - Haggen",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE",
+    "Crown Pacific Fine Foods"
+   ],
+   "doors": 16,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "albertsons-safeway-intermountain",
+   "name": "Albertsons Safeway - Intermountain",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 85,
+   "acv_weight": null,
+   "hq_state": "Idaho",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "albertsons-safeway-mid-atlantic-king-s-balducci-s",
+   "name": "Albertsons Safeway - Mid Atlantic - King's/Balducci's",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "Chex Fine Foods"
+   ],
+   "doors": 24,
+   "acv_weight": null,
+   "hq_state": "Maryland",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "albertsons-safeway-norcal",
+   "name": "Albertsons Safeway - NorCal",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 280,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "albertsons-safeway-portland",
+   "name": "Albertsons Safeway - Portland",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 139,
+   "acv_weight": null,
+   "hq_state": "Oregon",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "albertsons-safeway-seattle",
+   "name": "Albertsons Safeway - Seattle",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 219,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "albertsons-safeway-socal-von-s",
+   "name": "Albertsons Safeway - SoCal - Von's",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 187,
+   "acv_weight": 6996499380,
+   "hq_state": "California",
+   "states": [
+    "CA",
+    "NV"
+   ],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "albertsons-safeway-southern-randall-s-tom-thumb",
+   "name": "Albertsons Safeway - Southern (Randall's/Tom Thumb)",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 96,
+   "acv_weight": null,
+   "hq_state": "Texas",
+   "states": [
+    "TX"
+   ],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "stale",
+   "routes": [
+    {
+     "runner_banner": "randalls",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 52,
+     "store_set": "5586 Weslayan St",
+     "tries": 2,
+     "oks": 2,
+     "state": "stale"
+    },
+    {
+     "runner_banner": "tomthumb",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 28,
+     "store_set": "3878 Oaklawn Ave #18",
+     "tries": 2,
+     "oks": 2,
+     "state": "stale"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "albertsons-safeway-southwest",
+   "name": "Albertsons Safeway - Southwest",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 192,
+   "acv_weight": null,
+   "hq_state": "Arizona",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "albertsons-safeway-united-supermarkets-market-street",
+   "name": "Albertsons Safeway - United Supermarkets/Market Street",
+   "channel": "MULO",
+   "parent": "Albertsons Safeway",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 106,
+   "acv_weight": null,
+   "hq_state": "Texas",
+   "states": [
+    "NM",
+    "TX"
+   ],
+   "counted": false,
+   "excluded_reason": "division",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "aldi",
+   "name": "ALDI",
+   "channel": "Discount",
+   "parent": "Aldi Nord (Germany)",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 2706,
+   "acv_weight": 25383187700,
+   "hq_state": "Illinois",
+   "states": [
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CT",
+    "DC",
+    "DE",
+    "FL",
+    "GA",
+    "IA",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "NC",
+    "ND",
+    "NE",
+    "NH",
+    "NJ",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "PA",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "VA",
+    "VT",
+    "WI",
+    "WV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "aldi",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-14",
+     "last_try": "2026-10-14",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 273531 location 12268",
+     "tries": 3,
+     "oks": 1,
+     "state": "proven"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "amazon-fresh-e-comm-stores",
+   "name": "Amazon Fresh (e-comm & stores)",
+   "channel": "E-Commerce",
+   "parent": "Amazon Fresh",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Spartan Nash (C&S)"
+   ],
+   "doors": 40,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "amazon-fresh",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-07",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "amazon-go",
+   "name": "Amazon Go",
+   "channel": "C-Store",
+   "parent": "Amazon Go",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE",
+    "Spartan Nash (C&S)"
+   ],
+   "doors": 20,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "america-s-food-basket",
+   "name": "America's Food Basket",
+   "channel": "Natural",
+   "parent": "America's Food Basket",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 27,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "CT",
+    "GA",
+    "MA",
+    "NY",
+    "RI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "angelo-caputos-fresh-market",
+   "name": "Angelo Caputos Fresh Market",
+   "channel": "MULO",
+   "parent": "Caputos",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 10,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "IL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "associated-food-stores",
+   "name": "Associated Food Stores (AFS)",
+   "channel": "MULO",
+   "parent": "Associated Food Stores (retailer-owned co-op)",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 400,
+   "acv_weight": null,
+   "hq_state": "Utah",
+   "states": [
+    "UT_corporate",
+    "member_total_8_states"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "baron-s",
+   "name": "Baron's",
+   "channel": "Natural",
+   "parent": "Baron's",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 10,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "bashas",
+   "name": "Bashas'",
+   "channel": "MULO",
+   "parent": "Raley's (acquired 2021)",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct",
+    "UNFI",
+    "DSD"
+   ],
+   "doors": 74,
+   "acv_weight": null,
+   "hq_state": "Arizona",
+   "states": [
+    "AZ"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "berkeley-bowl",
+   "name": "Berkeley Bowl",
+   "channel": "Natural",
+   "parent": "Berkeley Bowl",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 2,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "berkot-s-super-foods",
+   "name": "Berkot's Super Foods",
+   "channel": "MULO",
+   "parent": "Berkot's",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "Associated Wholesale Grocers (AWG)"
+   ],
+   "doors": 20,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "IL",
+    "IN",
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "better-health",
+   "name": "Better Health",
+   "channel": "Natural",
+   "parent": "Better Health",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 14,
+   "acv_weight": null,
+   "hq_state": "Michigan",
+   "states": [
+    "MI",
+    "OH"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "big-y",
+   "name": "Big Y",
+   "channel": "MULO",
+   "parent": "Big Y",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct",
+    "UNFI"
+   ],
+   "doors": 94,
+   "acv_weight": null,
+   "hq_state": "Massachusetts",
+   "states": [
+    "CT",
+    "MA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "bjs",
+   "name": "BJ's Wholesale",
+   "channel": "Club",
+   "parent": "Independent",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 273,
+   "acv_weight": null,
+   "hq_state": "Massachusetts",
+   "states": [
+    "AL",
+    "CT",
+    "DE",
+    "FL",
+    "GA",
+    "IN",
+    "KY",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "NC",
+    "NH",
+    "NJ",
+    "NY",
+    "OH",
+    "PA",
+    "RI",
+    "SC",
+    "TN",
+    "TX",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "bjs",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-16",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "bravo-supermarkets",
+   "name": "Bravo Supermarkets",
+   "channel": "MULO",
+   "parent": "Bravo Supermarkets",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 91,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "CT",
+    "FL",
+    "NJ",
+    "NY",
+    "PA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "bristol-farms",
+   "name": "Bristol Farms",
+   "channel": "Natural",
+   "parent": "Good Food Holdings",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE",
+    "HiTouch Distributing"
+   ],
+   "doors": 14,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "bristol-farms",
+     "lane": "instacart",
+     "slug": "bristol-farms",
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-06",
+     "houses_last_ok": 313,
+     "store_set": "API zip 90012 shop 16724744 location 495524 retailer bristol-farms",
+     "tries": 4,
+     "oks": 4,
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "socal",
+     "zip": "90012",
+     "store_expect": "Los Angeles|\\b900\\d\\d\\b",
+     "lat": 34.0537,
+     "lng": -118.2428,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "brookshire-brothers",
+   "name": "Brookshire Brothers",
+   "channel": "MULO",
+   "parent": "Brookshire Brothers (employee-owned)",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 97,
+   "acv_weight": null,
+   "hq_state": "Texas",
+   "states": [
+    "LA",
+    "TX"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "brookshire-grocery",
+   "name": "Brookshire Grocery Company",
+   "channel": "MULO",
+   "parent": "Brookshire Grocery Company (independent)",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 180,
+   "acv_weight": null,
+   "hq_state": "Texas",
+   "states": [
+    "AR",
+    "LA",
+    "TX"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "brookshires",
+     "lane": "instacart",
+     "slug": "brookshires",
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 8295 location 24750",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "brookshires",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "buehler-s-fresh-foods",
+   "name": "Buehler's Fresh Foods",
+   "channel": "MULO",
+   "parent": "Buehler's",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 15,
+   "acv_weight": null,
+   "hq_state": "Ohio",
+   "states": [
+    "OH"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "busch-s",
+   "name": "Busch's",
+   "channel": "MULO",
+   "parent": "Busch's",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI",
+    "Spartan Nash (C&S)"
+   ],
+   "doors": 16,
+   "acv_weight": null,
+   "hq_state": "Michigan",
+   "states": [
+    "MI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "c-k-market",
+   "name": "C&K Market",
+   "channel": "MULO",
+   "parent": "C&K",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE",
+    "C&S Wholesale"
+   ],
+   "doors": 36,
+   "acv_weight": null,
+   "hq_state": "Oregon",
+   "states": [
+    "CA",
+    "OR"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "caraluzzi-s-market",
+   "name": "Caraluzzi's Market",
+   "channel": "Natural",
+   "parent": "Caraluzzi's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Rainforest Distributors",
+    "Chex Fine Foods"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": "Connecticut",
+   "states": [
+    "CT"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "central-market",
+   "name": "Central Market",
+   "channel": "Natural",
+   "parent": "H-E-B",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 10,
+   "acv_weight": null,
+   "hq_state": "Texas",
+   "states": [
+    "TX"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "central-market",
+     "lane": "instacart",
+     "slug": "central-market",
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-06",
+     "houses_last_ok": 314,
+     "store_set": "API zip 77005 shop 3941 location 1612 retailer central-market",
+     "tries": 4,
+     "oks": 4,
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "houston",
+     "zip": "77005",
+     "store_expect": "Houston|\\b770\\d\\d\\b",
+     "lat": 29.7174,
+     "lng": -95.4018,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "circle-k",
+   "name": "Circle K",
+   "channel": "C-Store",
+   "parent": "Circle K",
+   "distributor_primary": "DSD",
+   "distributors": [
+    "DSD",
+    "KeHE",
+    "McLane",
+    "Coremark"
+   ],
+   "doors": 6958,
+   "acv_weight": null,
+   "hq_state": "Arizona",
+   "states": [
+    "AZ",
+    "CA",
+    "FL",
+    "GA",
+    "IL",
+    "MN",
+    "NC",
+    "OH",
+    "SC",
+    "TX"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "citarella",
+   "name": "Citarella",
+   "channel": "Natural",
+   "parent": "Citarella",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Rainforest Distributors"
+   ],
+   "doors": 8,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "CT",
+    "NY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "city-market",
+   "name": "City Market",
+   "channel": "MULO",
+   "parent": "Kroger Co.",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "KeHE",
+    "UNFI",
+    "Chex Fine Foods"
+   ],
+   "doors": 35,
+   "acv_weight": null,
+   "hq_state": "Colorado",
+   "states": [
+    "CO",
+    "UT",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "citymarket",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-18",
+     "last_try": "2026-10-18",
+     "houses_last_ok": 172,
+     "store_set": "Pickup at 12th Street Grand Junction",
+     "tries": 11,
+     "oks": 10,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "citymarket-api",
+     "lane": "kroger_api",
+     "slug": null,
+     "last_ok": "2026-10-18",
+     "last_try": "2026-10-18",
+     "houses_last_ok": 89,
+     "store_set": "CITYMARKET City Market - 12th Street Grand Junction (62000444) 2600 N 12th St Grand Junction 81501",
+     "tries": 4,
+     "oks": 4,
+     "chain": "City Market",
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "grand-junction",
+     "zip": "81501",
+     "store_expect": "Grand Junction|\\b815\\d\\d\\b",
+     "lat": 39.0639,
+     "lng": -108.5506,
+     "from_client": "stinkin-good"
+    }
+   ]
+  },
+  {
+   "id": "clark-s-nutrition",
+   "name": "Clark's Nutrition",
+   "channel": "Natural",
+   "parent": "Clark's Nutrition",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI",
+    "POD Foods",
+    "Foundation Foods"
+   ],
+   "doors": 3,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "coborn-s-cashwise-marketplace-foods-hornbacher-s",
+   "name": "Coborn's (Cashwise, Marketplace Foods, Hornbacher's)",
+   "channel": "MULO",
+   "parent": "Coborn's",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 135,
+   "acv_weight": null,
+   "hq_state": "Minnesota",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "cosentinos-food-stores",
+   "name": "Cosentinos Food Stores",
+   "channel": "MULO",
+   "parent": "Cosentinos",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 32,
+   "acv_weight": null,
+   "hq_state": "Kansas",
+   "states": [
+    "KS",
+    "MO"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "costco",
+   "name": "Costco",
+   "channel": "Club",
+   "parent": "Costco Wholesale",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 621,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [
+    "AK",
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DC",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "ND",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "PR",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "VT",
+    "WA",
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "costco-ic",
+     "lane": "instacart",
+     "slug": "costco",
+     "last_ok": "2026-10-18",
+     "last_try": "2026-10-18",
+     "houses_last_ok": 157,
+     "store_set": "API zip 80202 shop 2043 location 439",
+     "tries": 8,
+     "oks": 5,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "costco-online",
+     "lane": "instacart",
+     "slug": "costco",
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-06",
+     "houses_last_ok": 265,
+     "store_set": "API zip 60614 shop 3476 location 115 retailer costco",
+     "tries": 4,
+     "oks": 4,
+     "template": "costco-online",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "costco-online",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-18",
+     "houses_last_ok": 15,
+     "store_set": "costco.com online (national, 2-day delivery pricing)",
+     "tries": 5,
+     "oks": 3,
+     "template": "costco-online",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "costco",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-14",
+     "last_try": "2026-10-14",
+     "houses_last_ok": 22,
+     "store_set": "costco.com online (national, 2-day delivery pricing)",
+     "tries": 2,
+     "oks": 1,
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "socal",
+     "zip": "90012",
+     "store_expect": "Los Angeles|\\b900\\d\\d\\b",
+     "lat": 34.0537,
+     "lng": -118.2428,
+     "from_client": "pura"
+    },
+    {
+     "market": "denver",
+     "zip": "80202",
+     "store_expect": "Denver|\\b802\\d\\d\\b",
+     "lat": 39.7527,
+     "lng": -104.9996,
+     "from_client": "stinkin-good"
+    },
+    {
+     "market": "chicago",
+     "zip": "60614",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
+     "lat": 41.9227,
+     "lng": -87.6533,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "costco-bay-area",
+   "name": "Costco Bay Area",
+   "channel": "Club",
+   "parent": "Costco",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 57,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "region",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "costco-los-angeles",
+   "name": "Costco Los Angeles",
+   "channel": "Club",
+   "parent": "Costco",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 59,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "region",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "costco-midwest",
+   "name": "Costco Midwest",
+   "channel": "Club",
+   "parent": "Costco",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 96,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "region",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "costco-northeast",
+   "name": "Costco Northeast",
+   "channel": "Club",
+   "parent": "Costco",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 95,
+   "acv_weight": null,
+   "hq_state": "Virginia",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "region",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "costco-northwest",
+   "name": "Costco Northwest",
+   "channel": "Club",
+   "parent": "Costco",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 70,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "region",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "costco-san-diego",
+   "name": "Costco San Diego",
+   "channel": "Club",
+   "parent": "Costco",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 54,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "region",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "costco-southeast",
+   "name": "Costco Southeast",
+   "channel": "Club",
+   "parent": "Costco",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 64,
+   "acv_weight": null,
+   "hq_state": "Georgia",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "region",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "costco-texas",
+   "name": "Costco Texas",
+   "channel": "Club",
+   "parent": "Costco",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 34,
+   "acv_weight": null,
+   "hq_state": "Texas",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "region",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "crosby-s",
+   "name": "Crosby's",
+   "channel": "MULO",
+   "parent": "Crosby's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Chex Fine Foods"
+   ],
+   "doors": 7,
+   "acv_weight": null,
+   "hq_state": "Oklahoma",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "cub-foods",
+   "name": "Cub",
+   "channel": "MULO",
+   "parent": "UNFI (Cub Foods)",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 77,
+   "acv_weight": null,
+   "hq_state": "Minnesota",
+   "states": [
+    "IL",
+    "MN"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "cub",
+     "lane": "instacart",
+     "slug": "cub",
+     "last_ok": "2026-10-18",
+     "last_try": "2026-10-18",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 4352 location 1648",
+     "tries": 2,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "cub",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "cvs",
+   "name": "CVS",
+   "channel": "Drug",
+   "parent": "CVS",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "DSD"
+   ],
+   "doors": 9369,
+   "acv_weight": null,
+   "hq_state": "Rhode Island",
+   "states": [
+    "AK",
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DC",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "ND",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "PR",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "VT",
+    "WA",
+    "WI",
+    "WV",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "cvs",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-16",
+     "last_try": "2026-10-16",
+     "houses_last_ok": 20,
+     "store_set": "None",
+     "tries": 2,
+     "oks": 1,
+     "state": "proven"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "cvs-long-s-drug",
+   "name": "CVS - Long's Drug",
+   "channel": "Drug",
+   "parent": "CVS",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "DSD"
+   ],
+   "doors": 55,
+   "acv_weight": null,
+   "hq_state": "Hawaii",
+   "states": [
+    "HI"
+   ],
+   "counted": false,
+   "excluded_reason": "included in cvs total",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "d-agostinos-gristedes",
+   "name": "D'agostinos & Gristedes",
+   "channel": "MULO",
+   "parent": "D'agostinos & Gristedes",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 27,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "NY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "dave-s-marketplace",
+   "name": "Dave's Marketplace",
+   "channel": "MULO",
+   "parent": "Dave's Marketplace",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE",
+    "Rainforest Distributors",
+    "Chex Fine Foods"
+   ],
+   "doors": 10,
+   "acv_weight": null,
+   "hq_state": "Rhode Island",
+   "states": [
+    "RI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "decicco-s-decicco-sons",
+   "name": "Decicco's - DeCicco & Sons",
+   "channel": "MULO",
+   "parent": "Decicco's",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI",
+    "Rainforest Distributors",
+    "Chex Fine Foods"
+   ],
+   "doors": 9,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "NY"
+   ],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "detwiler-s-farm-market",
+   "name": "Detwiler's Farm Market",
+   "channel": "Natural",
+   "parent": "Detwiler's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 6,
+   "acv_weight": null,
+   "hq_state": "Florida",
+   "states": [
+    "FL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "dick-s-fresh-market",
+   "name": "Dick's Fresh Market",
+   "channel": "MULO",
+   "parent": "Dick's Fresh Market",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 5,
+   "acv_weight": null,
+   "hq_state": "Wisconsin",
+   "states": [
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "dierberg-s",
+   "name": "Dierberg's",
+   "channel": "MULO",
+   "parent": "Dierberg's",
+   "distributor_primary": "DSD",
+   "distributors": [
+    "DSD",
+    "UNFI"
+   ],
+   "doors": 26,
+   "acv_weight": null,
+   "hq_state": "Missouri",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "dollar-general-popshelf",
+   "name": "Dollar General - pOpshelf",
+   "channel": "Alternate",
+   "parent": "Dollar General",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 180,
+   "acv_weight": null,
+   "hq_state": "Tennessee",
+   "states": [
+    "AL",
+    "AR",
+    "FL",
+    "GA",
+    "IA",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MD",
+    "MO",
+    "MS",
+    "NC",
+    "NJ",
+    "OH",
+    "OK",
+    "SC",
+    "TN",
+    "TX",
+    "VA"
+   ],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "dollargeneral",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-07",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "donelan-s-fresh-market",
+   "name": "Donelan's Fresh Market",
+   "channel": "MULO",
+   "parent": "Donelan's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Chex Fine Foods"
+   ],
+   "doors": 3,
+   "acv_weight": null,
+   "hq_state": "Massachusetts",
+   "states": [
+    "MA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "down-to-earth",
+   "name": "Down to Earth",
+   "channel": "Natural",
+   "parent": "Down to Earth",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI",
+    "Foundation Foods"
+   ],
+   "doors": 6,
+   "acv_weight": null,
+   "hq_state": "Hawaii",
+   "states": [
+    "HI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "draeger-s",
+   "name": "Draeger's",
+   "channel": "MULO",
+   "parent": "Draeger's",
+   "distributor_primary": "DSD",
+   "distributors": [
+    "DSD",
+    "UNFI"
+   ],
+   "doors": 2,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "earth-fare",
+   "name": "Earth Fare",
+   "channel": "Natural",
+   "parent": "Earth Fare",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 13,
+   "acv_weight": null,
+   "hq_state": "North Carolina",
+   "states": [
+    "FL",
+    "GA",
+    "NC",
+    "SC",
+    "TN",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "earth-origins",
+   "name": "Earth Origins",
+   "channel": "Natural",
+   "parent": "Earth Origins",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 5,
+   "acv_weight": null,
+   "hq_state": "Florida",
+   "states": [
+    "FL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "erewhon",
+   "name": "Erewhon",
+   "channel": "Natural",
+   "parent": "Erewhon (independent)",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI",
+    "Foundation Foods",
+    "HiTouch Distributing"
+   ],
+   "doors": 14,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "erewhon",
+     "lane": "instacart",
+     "slug": "erewhon",
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 311,
+     "store_set": "API zip 90012 shop 94105 location 88898 retailer erewhon",
+     "tries": 8,
+     "oks": 8,
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "socal",
+     "zip": "90012",
+     "store_expect": "Los Angeles|\\b900\\d\\d\\b",
+     "lat": 34.0537,
+     "lng": -118.2428,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "fairplay-foods",
+   "name": "Fairplay Foods",
+   "channel": "MULO",
+   "parent": "Independent",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 3,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [
+    "IL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "fairway-market",
+   "name": "Fairway Market",
+   "channel": "Alternative",
+   "parent": "Independent",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [
+    "NY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "festival-foods",
+   "name": "Festival Foods",
+   "channel": "MULO",
+   "parent": "Festival",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 42,
+   "acv_weight": null,
+   "hq_state": "Wisconsin",
+   "states": [
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "fiesta-mart",
+   "name": "Fiesta Mart",
+   "channel": "Alternative",
+   "parent": "Independent",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Grocery Supply Co."
+   ],
+   "doors": 65,
+   "acv_weight": null,
+   "hq_state": "Texas",
+   "states": [
+    "OK",
+    "TX"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "food-bazaar",
+   "name": "Food Bazaar",
+   "channel": "Alternative",
+   "parent": "Independent",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI",
+    "Rainforest Distributors"
+   ],
+   "doors": 32,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "CT",
+    "NJ",
+    "NY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "food-city-az",
+   "name": "Food City (AZ)",
+   "channel": "Alternative",
+   "parent": "Raley's / Bashas'",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 48,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [
+    "AZ"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "food-city-stores",
+   "name": "Food City Stores",
+   "channel": "Conventional",
+   "parent": "Food City",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 135,
+   "acv_weight": null,
+   "hq_state": "Virginia",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "foodcity",
+     "lane": "instacart",
+     "slug": "food-city",
+     "last_ok": "2026-10-18",
+     "last_try": "2026-10-18",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 113128 location 10665",
+     "tries": 2,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "foodcity",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "food-lion",
+   "name": "Food Lion",
+   "channel": "MULO",
+   "parent": "Ahold Delhaize",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct",
+    "UNFI"
+   ],
+   "doors": 1115,
+   "acv_weight": 29856937500,
+   "hq_state": "North Carolina",
+   "states": [
+    "DE",
+    "GA",
+    "KY",
+    "MD",
+    "NC",
+    "PA",
+    "SC",
+    "TN",
+    "VA",
+    "WV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "stale",
+   "routes": [
+    {
+     "runner_banner": "foodlion",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-07",
+     "last_try": "2026-10-12",
+     "houses_last_ok": 33,
+     "store_set": "None",
+     "tries": 2,
+     "oks": 1,
+     "state": "stale"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "food4less",
+   "name": "Food 4 Less",
+   "channel": "Discount",
+   "parent": "Kroger Co.",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 102,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA",
+    "IL",
+    "IN"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "kroger",
+   "family_donor": "city-market"
+  },
+  {
+   "id": "foodland",
+   "name": "Foodland",
+   "channel": "Natural",
+   "parent": "Foodland",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "DSD"
+   ],
+   "doors": 30,
+   "acv_weight": null,
+   "hq_state": "Hawaii",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "foodtown",
+   "name": "Foodtown",
+   "channel": "MULO",
+   "parent": "Foodtown",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE",
+    "Rainforest Distributors"
+   ],
+   "doors": 73,
+   "acv_weight": null,
+   "hq_state": "New Jersey",
+   "states": [
+    "NJ",
+    "NY",
+    "PA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "frazier-farms",
+   "name": "Frazier Farms",
+   "channel": "Natural",
+   "parent": "Frazier Farms",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 3,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "fred-meyer",
+   "name": "Fred Meyer",
+   "channel": "MULO",
+   "parent": "Kroger Co.",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 81,
+   "acv_weight": 9718408440,
+   "hq_state": "Oregon",
+   "states": [
+    "AK",
+    "ID",
+    "OR",
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "stale",
+   "routes": [
+    {
+     "runner_banner": "fredmeyer",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 31,
+     "store_set": "Pickup at Hawthorne",
+     "tries": 2,
+     "oks": 2,
+     "state": "stale"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "fresh-encounters",
+   "name": "Fresh Encounters",
+   "channel": "MULO",
+   "parent": "Fresh Encounters",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 13,
+   "acv_weight": null,
+   "hq_state": "Ohio",
+   "states": [
+    "IN",
+    "OH"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "fresh-farms",
+   "name": "Fresh Farms",
+   "channel": "Natural",
+   "parent": "Fresh Farms",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "IL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "fresh-thyme-market",
+   "name": "Fresh Thyme Market",
+   "channel": "Natural",
+   "parent": "Independent",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 69,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "IA",
+    "IL",
+    "IN",
+    "KY",
+    "MI",
+    "MN",
+    "MO",
+    "OH",
+    "PA",
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "freshthyme",
+     "lane": "instacart",
+     "slug": "fresh-thyme",
+     "last_ok": null,
+     "last_try": "2026-11-06",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 6,
+     "oks": 0,
+     "template": "freshthyme",
+     "state": "failed"
+    }
+   ],
+   "pins": [
+    {
+     "market": "chicago",
+     "zip": "60614",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
+     "lat": 41.9227,
+     "lng": -87.6533,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "freshdirect",
+   "name": "FreshDirect",
+   "channel": "E-Commerce",
+   "parent": "FreshDirect",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Rainforest Distributors"
+   ],
+   "doors": 0,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "fruitful-yield",
+   "name": "Fruitful Yield",
+   "channel": "MULO",
+   "parent": "Fruitful Yield",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 11,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "IL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "frys",
+   "name": "Fry's Food Stores",
+   "channel": "MULO",
+   "parent": "Kroger Co.",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 131,
+   "acv_weight": 7256691000,
+   "hq_state": "Arizona",
+   "states": [
+    "AZ"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "kroger",
+   "family_donor": "city-market"
+  },
+  {
+   "id": "gelsons",
+   "name": "Gelson's",
+   "channel": "Natural",
+   "parent": "Gelson's (independent)",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 26,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "gelsons",
+     "lane": "instacart",
+     "slug": "gelsons",
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-06",
+     "houses_last_ok": 315,
+     "store_set": "API zip 90012 shop 2111 location 587 retailer gelsons",
+     "tries": 4,
+     "oks": 4,
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "socal",
+     "zip": "90012",
+     "store_expect": "Los Angeles|\\b900\\d\\d\\b",
+     "lat": 34.0537,
+     "lng": -118.2428,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "giant-eagle",
+   "name": "Giant Eagle",
+   "channel": "MULO",
+   "parent": "Independent",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 169,
+   "acv_weight": null,
+   "hq_state": "Pennsylvania",
+   "states": [
+    "MD",
+    "OH",
+    "PA",
+    "WV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "giant-eagle",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "giant-food",
+   "name": "Giant Food (Landover)",
+   "channel": "MULO",
+   "parent": "Ahold Delhaize",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Direct"
+   ],
+   "doors": 165,
+   "acv_weight": null,
+   "hq_state": "Maryland",
+   "states": [
+    "DC",
+    "DE",
+    "MD",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "giant-food-stores",
+   "name": "Giant Food Stores (Giant/Martin's)",
+   "channel": "MULO",
+   "parent": "Ahold Delhaize",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 201,
+   "acv_weight": null,
+   "hq_state": "Pennsylvania",
+   "states": [
+    "MD",
+    "PA",
+    "VA",
+    "WV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "good-earth-market",
+   "name": "Good Earth Market",
+   "channel": "Natural",
+   "parent": "Good Earth",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 8,
+   "acv_weight": null,
+   "hq_state": "Utah",
+   "states": [
+    "UT"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "good-eggs",
+   "name": "Good Eggs",
+   "channel": "E-Commerce",
+   "parent": "Good Eggs",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI",
+    "Direct",
+    "Renaissance Specialty Foods",
+    "POD Foods"
+   ],
+   "doors": 0,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "gopuff",
+   "name": "Gopuff",
+   "channel": "E-Commerce",
+   "parent": "Gopuff",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Direct",
+    "Coremark",
+    "Vistar Foods"
+   ],
+   "doors": 0,
+   "acv_weight": null,
+   "hq_state": "Pennsylvania",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "greens-natural",
+   "name": "Greens Natural",
+   "channel": "Natural",
+   "parent": "Greens Natural",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 8,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "NJ",
+    "NY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "grocery-outlet",
+   "name": "Grocery Outlet",
+   "channel": "Discount",
+   "parent": "Grocery Outlet Holding Corp.",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 528,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA",
+    "DE",
+    "ID",
+    "MD",
+    "NJ",
+    "NV",
+    "OH",
+    "OR",
+    "PA",
+    "VA",
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "gus-s-community-market",
+   "name": "Gus's Community Market",
+   "channel": "Natural",
+   "parent": "Gus's Community Market",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 5,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "hannaford",
+   "name": "Hannaford",
+   "channel": "MULO",
+   "parent": "Ahold Delhaize",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 187,
+   "acv_weight": 7013906640,
+   "hq_state": null,
+   "states": [
+    "MA",
+    "ME",
+    "NH",
+    "NY",
+    "VT"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "harmons",
+   "name": "Harmons",
+   "channel": "Natural",
+   "parent": "Harmons (independent)",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 20,
+   "acv_weight": null,
+   "hq_state": "Utah",
+   "states": [
+    "UT"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "harris-teeter",
+   "name": "Harris Teeter",
+   "channel": "MULO",
+   "parent": "Kroger Co.",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 268,
+   "acv_weight": 8464666860,
+   "hq_state": "North Carolina",
+   "states": [
+    "DC",
+    "DE",
+    "FL",
+    "GA",
+    "MD",
+    "NC",
+    "SC",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "stale",
+   "routes": [
+    {
+     "runner_banner": "harristeeter",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 39,
+     "store_set": "Pickup at Kenilworth Commons",
+     "tries": 2,
+     "oks": 1,
+     "state": "stale"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "healthier-choices-management-green-acres",
+   "name": "Healthier Choices Management - Green Acres",
+   "channel": "Natural",
+   "parent": "Healthier Choices Management",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 5,
+   "acv_weight": null,
+   "hq_state": "Kansas",
+   "states": [
+    "KS",
+    "OK"
+   ],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "heb",
+   "name": "H-E-B",
+   "channel": "MULO",
+   "parent": "Independent (family-owned)",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "Direct"
+   ],
+   "doors": 355,
+   "acv_weight": 32296836780,
+   "hq_state": "Texas",
+   "states": [
+    "TX"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "heb",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-11-10",
+     "last_try": "2026-11-10",
+     "houses_last_ok": 67,
+     "store_set": "Buffalo Market H\u2011E\u2011B On Buffalo Speedway",
+     "tries": 14,
+     "oks": 12,
+     "template": "heb",
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "houston",
+     "zip": "77005",
+     "store_expect": "Houston|\\b770\\d\\d\\b",
+     "lat": 29.7174,
+     "lng": -95.4018,
+     "from_client": "pura"
+    }
+   ]
+  },
+  {
+   "id": "heinen-s-fine-foods",
+   "name": "Heinen's Fine Foods",
+   "channel": "Natural",
+   "parent": "Heinen's Fine Foods",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 23,
+   "acv_weight": null,
+   "hq_state": "Ohio",
+   "states": [
+    "IL",
+    "OH"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "hitchcock-s",
+   "name": "Hitchcock's",
+   "channel": "Natural",
+   "parent": "Hitchcock's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 11,
+   "acv_weight": null,
+   "hq_state": "Florida",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "hmart",
+   "name": "H Mart",
+   "channel": "Alternative",
+   "parent": "Independent",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 88,
+   "acv_weight": null,
+   "hq_state": "New Jersey",
+   "states": [
+    "CA",
+    "GA",
+    "IL",
+    "MA",
+    "MD",
+    "NJ",
+    "NY",
+    "PA",
+    "TX",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "hornbachers",
+   "name": "Hornbachers",
+   "channel": "MULO",
+   "parent": "Hornbachers",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 7,
+   "acv_weight": null,
+   "hq_state": "North Dakota",
+   "states": [
+    "MN",
+    "ND"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "houchens",
+   "name": "Houchens",
+   "channel": "MULO",
+   "parent": "Houchens",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 400,
+   "acv_weight": null,
+   "hq_state": "Kentucky",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "hugo-s",
+   "name": "Hugo's",
+   "channel": "MULO",
+   "parent": "Hugo's",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 35,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "MN",
+    "ND"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "hungryroot",
+   "name": "Hungryroot",
+   "channel": "E-Commerce",
+   "parent": "Hungryroot",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 0,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "hy-vee",
+   "name": "Hy-Vee",
+   "channel": "MULO",
+   "parent": "Independent (employee-owned)",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 275,
+   "acv_weight": 10813537800,
+   "hq_state": null,
+   "states": [
+    "IA",
+    "IL",
+    "KS",
+    "MN",
+    "MO",
+    "NE",
+    "SD",
+    "WI"
+   ],
+   "counted": false,
+   "excluded_reason": "duplicate of hyvee",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "hyvee",
+   "name": "HyVee",
+   "channel": "MULO",
+   "parent": "HyVee",
+   "distributor_primary": null,
+   "distributors": [
+    "LOMAR"
+   ],
+   "doors": 275,
+   "acv_weight": 10813537800,
+   "hq_state": "Iowa",
+   "states": [
+    "IA",
+    "IL",
+    "KS",
+    "MN",
+    "MO",
+    "NE",
+    "SD",
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "stale",
+   "routes": [
+    {
+     "runner_banner": "hyvee",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 139,
+     "store_set": "Shopping Sycamore, IL",
+     "tries": 3,
+     "oks": 3,
+     "state": "stale"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "iherb-vitacost",
+   "name": "iHerb - Vitacost",
+   "channel": "E-Commerce",
+   "parent": "iHerb",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct",
+    "UNFI"
+   ],
+   "doors": 0,
+   "acv_weight": null,
+   "hq_state": "Ohio",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "infra",
+   "name": "INFRA",
+   "channel": "Natural",
+   "parent": "INFRA",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI",
+    "GFI"
+   ],
+   "doors": 360,
+   "acv_weight": null,
+   "hq_state": "Minnesota",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "ingles",
+   "name": "Ingles",
+   "channel": "MULO",
+   "parent": "Ingles",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 134,
+   "acv_weight": null,
+   "hq_state": "North Carolina",
+   "states": [
+    "AL",
+    "GA",
+    "NC",
+    "SC",
+    "TN",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "ingles",
+     "lane": "instacart",
+     "slug": "ingles",
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 342623 location 164501",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "ingles",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "jensen-s",
+   "name": "Jensen's",
+   "channel": "Natural",
+   "parent": "Jensen's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "jerry-s-fine-foods",
+   "name": "Jerry's Fine Foods",
+   "channel": "MULO",
+   "parent": "Jerry's Fine Foods",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 5,
+   "acv_weight": null,
+   "hq_state": "Minnesota",
+   "states": [
+    "MN",
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "jewel-osco",
+   "name": "Jewel-Osco",
+   "channel": "MULO",
+   "parent": "Albertsons Companies",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 190,
+   "acv_weight": 8651934720,
+   "hq_state": "Illinois",
+   "states": [
+    "IA",
+    "IL",
+    "IN"
+   ],
+   "counted": false,
+   "excluded_reason": "subset of albertsons-companies total",
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "jewel-osco",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-06",
+     "houses_last_ok": 56,
+     "store_set": "424 W Division St",
+     "tries": 10,
+     "oks": 10,
+     "template": "jewel",
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "chicago",
+     "zip": "60615",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
+     "lat": 41.8019,
+     "lng": -87.6016,
+     "from_client": "stinkin-good"
+    }
+   ]
+  },
+  {
+   "id": "jimbo-s-naturally",
+   "name": "Jimbo's Naturally",
+   "channel": "Natural",
+   "parent": "Jimbo's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE",
+    "Foundation Foods"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "jungle-jim-s",
+   "name": "Jungle Jim's",
+   "channel": "Natural",
+   "parent": "Jungle Jim's",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 2,
+   "acv_weight": null,
+   "hq_state": "Ohio",
+   "states": [
+    "OH"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "key-food",
+   "name": "Key Food",
+   "channel": "MULO",
+   "parent": "Key Food",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Rainforest Distributors"
+   ],
+   "doors": 375,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "CT",
+    "FL",
+    "MA",
+    "NJ",
+    "NY",
+    "PA",
+    "RI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "key-food",
+     "lane": "instacart",
+     "slug": "key-food",
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 16295 location 326",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "key-food",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "kimberton-whole-foods",
+   "name": "Kimberton Whole Foods",
+   "channel": "Natural",
+   "parent": "Kimberton Whole Foods",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 9,
+   "acv_weight": null,
+   "hq_state": "Pennsylvania",
+   "states": [
+    "PA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "king-kullen",
+   "name": "King Kullen",
+   "channel": "MULO",
+   "parent": "King Kullen",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 24,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "NY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "king-soopers",
+   "name": "King Soopers",
+   "channel": "MULO",
+   "parent": "Kroger Co.",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 128,
+   "acv_weight": null,
+   "hq_state": "Colorado",
+   "states": [
+    "CO",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "kingsoopers",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-18",
+     "last_try": "2026-10-18",
+     "houses_last_ok": 45,
+     "store_set": "Pickup at Union Station",
+     "tries": 11,
+     "oks": 10,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "kingsoopers-api",
+     "lane": "kroger_api",
+     "slug": null,
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 113,
+     "store_set": "KINGSOOPERS King Soopers - Union Station (62000115) 1950 Chestnut Pl Denver 80202",
+     "tries": 9,
+     "oks": 8,
+     "chain": "King Soopers",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "kingsoopers-ic",
+     "lane": "instacart",
+     "slug": "king-soopers",
+     "last_ok": "2026-10-14",
+     "last_try": "2026-10-14",
+     "houses_last_ok": 120,
+     "store_set": "API zip 80202 shop 3651 location 2386",
+     "tries": 3,
+     "oks": 3,
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "denver",
+     "zip": "80202",
+     "store_expect": "Denver|\\b802\\d\\d\\b",
+     "lat": 39.7527,
+     "lng": -104.9996,
+     "from_client": "stinkin-good"
+    }
+   ]
+  },
+  {
+   "id": "knowlan-s",
+   "name": "Knowlan's",
+   "channel": "MULO",
+   "parent": "Knowlan's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 2,
+   "acv_weight": null,
+   "hq_state": "Minnesota",
+   "states": [
+    "MN"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "kowalski-s",
+   "name": "Kowalski's",
+   "channel": "MULO",
+   "parent": "Kowalski's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 11,
+   "acv_weight": null,
+   "hq_state": "Minnesota",
+   "states": [
+    "MN"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "kroger",
+   "name": "Kroger",
+   "channel": "MULO",
+   "parent": "Kroger Co.",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 1261,
+   "acv_weight": 59416606080,
+   "hq_state": "Ohio",
+   "states": [
+    "AL",
+    "AR",
+    "GA",
+    "IL",
+    "IN",
+    "KY",
+    "LA",
+    "MI",
+    "MO",
+    "MS",
+    "OH",
+    "SC",
+    "TN",
+    "TX",
+    "VA",
+    "WV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "stale",
+   "routes": [
+    {
+     "runner_banner": "kroger",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 184,
+     "store_set": "Pickup at Newport (Locker Pickup)",
+     "tries": 3,
+     "oks": 2,
+     "state": "stale"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "kroger-dillon-s",
+   "name": "Kroger - Dillon's",
+   "channel": "MULO",
+   "parent": "Kroger",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 65,
+   "acv_weight": null,
+   "hq_state": "Kansas",
+   "states": [
+    "KS"
+   ],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "kroger",
+   "family_donor": "city-market"
+  },
+  {
+   "id": "kroger-metro-market",
+   "name": "Kroger - Metro Market",
+   "channel": "MULO",
+   "parent": "Kroger",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 10,
+   "acv_weight": null,
+   "hq_state": "Wisconsin",
+   "states": [
+    "WI"
+   ],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "kroger",
+   "family_donor": "city-market"
+  },
+  {
+   "id": "kroger-pick-n-save",
+   "name": "Kroger - Pick 'n Save",
+   "channel": "MULO",
+   "parent": "Kroger",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 77,
+   "acv_weight": null,
+   "hq_state": "Wisconsin",
+   "states": [
+    "WI"
+   ],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "kroger",
+   "family_donor": "city-market"
+  },
+  {
+   "id": "kroger-ralph-s",
+   "name": "Kroger - Ralph's",
+   "channel": "MULO",
+   "parent": "Kroger",
+   "distributor_primary": "DSD",
+   "distributors": [
+    "DSD",
+    "KeHE"
+   ],
+   "doors": 189,
+   "acv_weight": 8205762240,
+   "hq_state": "California",
+   "states": [
+    "CA",
+    "KY"
+   ],
+   "counted": false,
+   "excluded_reason": "duplicate of ralphs",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "kroger",
+   "family_donor": "city-market"
+  },
+  {
+   "id": "landis-market",
+   "name": "Landis Market",
+   "channel": "Natural",
+   "parent": "Landis Market",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": "Pennsylvania",
+   "states": [
+    "PA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "lassen-s",
+   "name": "Lassen's",
+   "channel": "Natural",
+   "parent": "Lassen's",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 10,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "lazy-acres",
+   "name": "Lazy Acres",
+   "channel": "Natural",
+   "parent": "Lazy Acres",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 6,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "lidl",
+   "name": "Lidl",
+   "channel": "MULO",
+   "parent": "Lidl",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 175,
+   "acv_weight": null,
+   "hq_state": "Virginia",
+   "states": [
+    "DC",
+    "DE",
+    "GA",
+    "MD",
+    "NC",
+    "NJ",
+    "NY",
+    "PA",
+    "SC",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "loop-neighborhood-market",
+   "name": "Loop Neighborhood Market",
+   "channel": "C-Store",
+   "parent": "Loop Neighborhood Market",
+   "distributor_primary": "DSD",
+   "distributors": [
+    "DSD"
+   ],
+   "doors": 62,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "lowe-s-foods",
+   "name": "Lowe's Foods",
+   "channel": "MULO",
+   "parent": "Lowe's Foods",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 83,
+   "acv_weight": null,
+   "hq_state": "North Carolina",
+   "states": [
+    "GA",
+    "NC",
+    "SC"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "lowesfoods",
+     "lane": "instacart",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-18",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    },
+    {
+     "runner_banner": "lowesfoods",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "lucky-s-savemart",
+   "name": "Lucky's & SaveMart",
+   "channel": "MULO",
+   "parent": "Lucky's & SaveMart",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 194,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "savemart",
+     "lane": "instacart",
+     "slug": "lucky-supermarkets",
+     "last_ok": "2026-10-18",
+     "last_try": "2026-10-18",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 112340 location 31525",
+     "tries": 3,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "savemart",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "luke-s-local",
+   "name": "Luke's Local",
+   "channel": "Natural",
+   "parent": "Luke's Local",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "lunardi-s",
+   "name": "Lunardi's",
+   "channel": "MULO",
+   "parent": "Lunardi's",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 8,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "lunds-byerly-s",
+   "name": "Lunds & Byerly's",
+   "channel": "MULO",
+   "parent": "Lunds & Byerly's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 26,
+   "acv_weight": null,
+   "hq_state": "Minnesota",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "duplicate doc, counted under its twin",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "lunds-byerlys",
+   "name": "Lunds & Byerlys",
+   "channel": "Alternative",
+   "parent": "Independent",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 27,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [
+    "MN"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "marianos",
+   "name": "Mariano's",
+   "channel": "MULO",
+   "parent": "Kroger Co.",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 40,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "IL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "marianos-api",
+     "lane": "kroger_api",
+     "slug": null,
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 99,
+     "store_set": "MARIANOS Marianos - Marianos Bucktown (53100516) 2112 N Ashland Ave Chicago 60614",
+     "tries": 5,
+     "oks": 4,
+     "chain": "Mariano's",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "marianos",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 32,
+     "store_set": "Pickup at Marianos Bronzeville",
+     "tries": 1,
+     "oks": 1,
+     "state": "stale"
+    }
+   ],
+   "pins": [
+    {
+     "market": "chicago",
+     "zip": "60614",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
+     "lat": 41.9227,
+     "lng": -87.6533,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "market-basket",
+   "name": "Market Basket",
+   "channel": "MULO",
+   "parent": "Independent (DeMoulas family)",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 95,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [
+    "MA",
+    "ME",
+    "NH",
+    "RI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "marketbasket",
+     "lane": "instacart",
+     "slug": "market-basket",
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 557 location 211",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "marketbasket",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "market-basket-demoula-s",
+   "name": "Market Basket / Demoula's",
+   "channel": "MULO",
+   "parent": "Market Basket",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 95,
+   "acv_weight": null,
+   "hq_state": "Massachusetts",
+   "states": [
+    "MA",
+    "ME",
+    "NH",
+    "RI"
+   ],
+   "counted": false,
+   "excluded_reason": "duplicate doc, counted under its twin",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "market-of-choice",
+   "name": "Market of Choice",
+   "channel": "Natural",
+   "parent": "Market of Choice",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 13,
+   "acv_weight": null,
+   "hq_state": "Oregon",
+   "states": [
+    "OR"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "maverik",
+   "name": "Maverik",
+   "channel": "C-Store",
+   "parent": "Maverik",
+   "distributor_primary": "DSD",
+   "distributors": [
+    "DSD"
+   ],
+   "doors": 547,
+   "acv_weight": null,
+   "hq_state": "Utah",
+   "states": [
+    "AZ",
+    "CA",
+    "CO",
+    "ID",
+    "NE",
+    "NM",
+    "NV",
+    "UT",
+    "WA",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "mccaffrey-s",
+   "name": "McCaffrey's",
+   "channel": "MULO",
+   "parent": "McCaffrey's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 9,
+   "acv_weight": null,
+   "hq_state": "Pennsylvania",
+   "states": [
+    "NJ",
+    "PA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "meijer",
+   "name": "Meijer",
+   "channel": "MULO",
+   "parent": "Independent",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 282,
+   "acv_weight": 22329155160,
+   "hq_state": "Michigan",
+   "states": [
+    "IL",
+    "IN",
+    "KY",
+    "MI",
+    "OH",
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "meijer",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-06",
+     "houses_last_ok": 52,
+     "store_set": "Pickup at Alpine",
+     "tries": 6,
+     "oks": 5,
+     "template": "meijer",
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "chicago",
+     "zip": "60614",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
+     "lat": 41.9227,
+     "lng": -87.6533,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "metropolitan-market",
+   "name": "Metropolitan Market",
+   "channel": "Alternative",
+   "parent": "Independent",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 10,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "milams-markets",
+   "name": "Milam's Markets",
+   "channel": "MULO",
+   "parent": "Independent",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 7,
+   "acv_weight": null,
+   "hq_state": "Florida",
+   "states": [
+    "FL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "miners-super-one",
+   "name": "Miners / Super One",
+   "channel": "MULO",
+   "parent": "Miners / Super One",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 32,
+   "acv_weight": null,
+   "hq_state": "Minnesota",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "misfits-market",
+   "name": "Misfits Market",
+   "channel": "Closeout",
+   "parent": "Misfits Market",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 0,
+   "acv_weight": null,
+   "hq_state": "Oregon",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "mollie-stones",
+   "name": "Mollie Stones",
+   "channel": "Natural",
+   "parent": "Mollie Stones",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 9,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "mom-s-organic-market",
+   "name": "Mom's Organic Market",
+   "channel": "Natural",
+   "parent": "Mom's Organic Market",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 27,
+   "acv_weight": null,
+   "hq_state": "Virginia",
+   "states": [
+    "DC",
+    "MA",
+    "MD",
+    "NJ",
+    "NY",
+    "PA",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "morton-williams",
+   "name": "Morton Williams",
+   "channel": "Natural",
+   "parent": "Morton Williams",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 15,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "NY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "mother-s-market",
+   "name": "Mother's Market",
+   "channel": "Natural",
+   "parent": "Mother's Market",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 12,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "mustard-seed",
+   "name": "Mustard Seed",
+   "channel": "Natural",
+   "parent": "Mustard Seed",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 2,
+   "acv_weight": null,
+   "hq_state": "Ohio",
+   "states": [
+    "OH"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "national-coop-group-outpost-coop",
+   "name": "National Coop Group - Outpost Coop",
+   "channel": "Natural",
+   "parent": "National Coop Group",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": "Wisconsin",
+   "states": [
+    "WI"
+   ],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "natural-grocers",
+   "name": "Natural Grocers",
+   "channel": "Natural",
+   "parent": "Independent",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 178,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [
+    "AR",
+    "AZ",
+    "CO",
+    "IA",
+    "ID",
+    "KS",
+    "LA",
+    "MN",
+    "MO",
+    "MT",
+    "ND",
+    "NE",
+    "NM",
+    "NV",
+    "OK",
+    "OR",
+    "SD",
+    "TX",
+    "UT",
+    "WA",
+    "WI",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "naturalgrocers",
+     "lane": "instacart",
+     "slug": "natural-grocers",
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 318,
+     "store_set": "API zip 80202 shop 14929 location 1261 retailer natural-grocers",
+     "tries": 10,
+     "oks": 9,
+     "template": "naturalgrocers",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "naturalgrocers",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 3,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": [
+    {
+     "market": "denver",
+     "zip": "80202",
+     "store_expect": "Denver|\\b802\\d\\d\\b",
+     "lat": 39.7527,
+     "lng": -104.9996,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "natural-grocers-vitamin-cottage",
+   "name": "Natural Grocers / Vitamin Cottage",
+   "channel": "Natural",
+   "parent": "Natural Grocers",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 171,
+   "acv_weight": null,
+   "hq_state": "Colorado",
+   "states": [
+    "AR",
+    "AZ",
+    "CO",
+    "IA",
+    "ID",
+    "KS",
+    "LA",
+    "MN",
+    "MO",
+    "MT",
+    "ND",
+    "NE",
+    "NM",
+    "NV",
+    "OK",
+    "OR",
+    "SD",
+    "TX",
+    "UT",
+    "WA",
+    "WY"
+   ],
+   "counted": false,
+   "excluded_reason": "duplicate doc, counted under its twin",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "ncg",
+   "name": "NCG",
+   "channel": "Natural",
+   "parent": "NCG",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 230,
+   "acv_weight": null,
+   "hq_state": "Minnesota",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "new-leaf",
+   "name": "New Leaf",
+   "channel": "Natural",
+   "parent": "New Leaf",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 5,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "new-seasons",
+   "name": "New Seasons",
+   "channel": "MULO",
+   "parent": "New Seasons",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 22,
+   "acv_weight": null,
+   "hq_state": "Oregon",
+   "states": [
+    "OR",
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "nex-navy-exchange",
+   "name": "NEX Navy Exchange",
+   "channel": "Military",
+   "parent": "NEX Navy Exchange",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 300,
+   "acv_weight": null,
+   "hq_state": "Virginia",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "niemann-s",
+   "name": "Niemann's",
+   "channel": "MULO",
+   "parent": "Niemann's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "IL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "northeast-grocers-price-chopper",
+   "name": "Northeast Grocers - Price Chopper",
+   "channel": "MULO",
+   "parent": "Northeast Grocers",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 130,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "CT",
+    "MA",
+    "NH",
+    "NY",
+    "PA",
+    "VT"
+   ],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "pricechopper",
+     "lane": "instacart",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-18",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    },
+    {
+     "runner_banner": "pricechopper",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-18",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 3,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "northeast-grocers-tops",
+   "name": "Northeast Grocers - Tops",
+   "channel": "MULO",
+   "parent": "Northeast Grocers",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 148,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "NY",
+    "PA",
+    "VT"
+   ],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "tops",
+     "lane": "instacart",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-18",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    },
+    {
+     "runner_banner": "tops",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-18",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "northwest-grocer",
+   "name": "Northwest Grocer",
+   "channel": "MULO",
+   "parent": "Northwest Grocer",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 88,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "nugget",
+   "name": "Nugget",
+   "channel": "MULO",
+   "parent": "Nugget",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 18,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "oliver-s",
+   "name": "Oliver's",
+   "channel": "Natural",
+   "parent": "Oliver's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "otg-cibo-markets",
+   "name": "OTG Cibo Markets",
+   "channel": "Alternate",
+   "parent": "OTG",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct",
+    "KeHE"
+   ],
+   "doors": 350,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "pcc-community-markets",
+   "name": "PCC Community Markets",
+   "channel": "Natural",
+   "parent": "Independent (co-op)",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 16,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "petes-market",
+   "name": "Pete's Market",
+   "channel": "Alternative",
+   "parent": "Independent",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 21,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "IL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "plaid-pantry",
+   "name": "Plaid Pantry",
+   "channel": "C-Store",
+   "parent": "Plaid Pantry",
+   "distributor_primary": null,
+   "distributors": [
+    "Coremark"
+   ],
+   "doors": 107,
+   "acv_weight": null,
+   "hq_state": "Oregon",
+   "states": [
+    "OR",
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "plum-market",
+   "name": "Plum Market",
+   "channel": "Natural",
+   "parent": "Plum Market",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 6,
+   "acv_weight": null,
+   "hq_state": "Michigan",
+   "states": [
+    "FL",
+    "MI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "plum-market",
+     "lane": "instacart",
+     "slug": "plum-market",
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 318,
+     "store_set": "API zip 60614 shop 109526 location 1247 retailer plum-market",
+     "tries": 8,
+     "oks": 8,
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "chicago",
+     "zip": "60614",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
+     "lat": 41.9227,
+     "lng": -87.6533,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "publix",
+   "name": "Publix",
+   "channel": "MULO",
+   "parent": "Independent (employee-owned)",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "Direct"
+   ],
+   "doors": 1439,
+   "acv_weight": 60174059400,
+   "hq_state": "Florida",
+   "states": [
+    "AL",
+    "FL",
+    "GA",
+    "KY",
+    "NC",
+    "SC",
+    "TN",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "publix",
+     "lane": "instacart",
+     "slug": "publix",
+     "last_ok": "2026-10-14",
+     "last_try": "2026-10-14",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 66418 location 621",
+     "tries": 2,
+     "oks": 2,
+     "state": "proven"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "qfc",
+   "name": "QFC (Quality Food Centers)",
+   "channel": "MULO",
+   "parent": "Kroger Co.",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "Crown Pacific Fine Foods"
+   ],
+   "doors": 60,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "kroger",
+   "family_donor": "city-market"
+  },
+  {
+   "id": "quiktrip",
+   "name": "QuikTrip",
+   "channel": "C-Store",
+   "parent": "QuikTrip",
+   "distributor_primary": "DSD",
+   "distributors": [
+    "DSD"
+   ],
+   "doors": 1085,
+   "acv_weight": null,
+   "hq_state": "Oklahoma",
+   "states": [
+    "AZ",
+    "GA",
+    "IA",
+    "KS",
+    "MO",
+    "NC",
+    "NE",
+    "OK",
+    "SC",
+    "TX"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "raley-s-aj-s-finest-foods",
+   "name": "Raley's - AJ's Finest Foods",
+   "channel": "MULO",
+   "parent": "Raley's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Direct",
+    "DSD"
+   ],
+   "doors": 11,
+   "acv_weight": null,
+   "hq_state": "Arizona",
+   "states": [
+    "AZ"
+   ],
+   "counted": false,
+   "excluded_reason": "inside bashas/raleys family counts",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "raleys",
+   "name": "Raley's",
+   "channel": "MULO",
+   "parent": "Raley's (The Raley's Companies)",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 74,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA",
+    "NV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "raleys",
+     "lane": "instacart",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-18",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    },
+    {
+     "runner_banner": "raleys",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "ralphs",
+   "name": "Ralphs",
+   "channel": "MULO",
+   "parent": "Kroger Co.",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 189,
+   "acv_weight": 8205762240,
+   "hq_state": null,
+   "states": [
+    "CA",
+    "KY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "ralphs-api",
+     "lane": "kroger_api",
+     "slug": null,
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 104,
+     "store_set": "RALPHS Ralphs Fresh Fare - 9th Flower (70300022) 645 W 9Th St Los Angeles 90015",
+     "tries": 5,
+     "oks": 4,
+     "chain": "Ralphs",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "ralphs",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 30,
+     "store_set": "Pickup at Westwood",
+     "tries": 3,
+     "oks": 2,
+     "state": "stale"
+    }
+   ],
+   "pins": [
+    {
+     "market": "socal",
+     "zip": "90012",
+     "store_expect": "Los Angeles|\\b900\\d\\d\\b",
+     "lat": 34.0537,
+     "lng": -118.2428,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "redner-s-markets",
+   "name": "Redner's Markets",
+   "channel": "MULO",
+   "parent": "Redner's Markets",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 68,
+   "acv_weight": null,
+   "hq_state": "Pennsylvania",
+   "states": [
+    "DE",
+    "MD",
+    "PA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "roche-bros",
+   "name": "Roche Bros.",
+   "channel": "MULO",
+   "parent": "Independent",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 20,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [
+    "MA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "roche-brothers",
+   "name": "Roche Brothers",
+   "channel": "MULO",
+   "parent": "Roche Brothers",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Bozzutos",
+    "Chex Fine Foods"
+   ],
+   "doors": 20,
+   "acv_weight": null,
+   "hq_state": "Massachusetts",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "duplicate doc, counted under its twin",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "rosauers-huckleberries",
+   "name": "Rosauers/Huckleberries",
+   "channel": "MULO",
+   "parent": "Rosauers/Huckleberries",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 21,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [
+    "ID",
+    "MT",
+    "OR",
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "rouses-markets",
+   "name": "Rouses Markets",
+   "channel": "MULO",
+   "parent": "Rouses Markets",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 66,
+   "acv_weight": null,
+   "hq_state": "Louisiana",
+   "states": [
+    "AL",
+    "LA",
+    "MS"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "ruler-foods",
+   "name": "Ruler Foods",
+   "channel": "Discount",
+   "parent": "Kroger Co.",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 45,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "kroger",
+   "family_donor": "city-market"
+  },
+  {
+   "id": "safeway",
+   "name": "Safeway",
+   "channel": "MULO",
+   "parent": "Albertsons Companies",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 918,
+   "acv_weight": 36495398160,
+   "hq_state": null,
+   "states": [
+    "AK",
+    "AZ",
+    "CA",
+    "CO",
+    "DC",
+    "DE",
+    "HI",
+    "ID",
+    "MD",
+    "MT",
+    "NE",
+    "NM",
+    "NV",
+    "OR",
+    "SD",
+    "VA",
+    "WA",
+    "WY"
+   ],
+   "counted": false,
+   "excluded_reason": "subset of albertsons-companies total",
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "safeway",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 57,
+     "store_set": "757 E 20th Ave",
+     "tries": 11,
+     "oks": 10,
+     "template": "safeway",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "safeway-ic",
+     "lane": "instacart",
+     "slug": "safeway",
+     "last_ok": "2026-10-14",
+     "last_try": "2026-10-14",
+     "houses_last_ok": 120,
+     "store_set": "API zip 94110 shop 5468 location 75",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "safeway",
+     "lane": "instacart",
+     "slug": "safeway",
+     "last_ok": "2026-10-12",
+     "last_try": "2026-10-12",
+     "houses_last_ok": 25,
+     "store_set": "08848",
+     "tries": 3,
+     "oks": 2,
+     "state": "stale"
+    }
+   ],
+   "pins": [
+    {
+     "market": "denver",
+     "zip": "80202",
+     "store_expect": "Denver|\\b802\\d\\d\\b",
+     "lat": 39.7527,
+     "lng": -104.9996,
+     "from_client": "stinkin-good"
+    }
+   ]
+  },
+  {
+   "id": "sams-club",
+   "name": "Sam's Club",
+   "channel": "Club",
+   "parent": "Walmart Inc.",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 603,
+   "acv_weight": 90200000000,
+   "hq_state": "Arkansas",
+   "states": [
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "ND",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "PA",
+    "PR",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "WI",
+    "WV",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "samsclub",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-07",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "save-a-lot",
+   "name": "Save A Lot",
+   "channel": "Discount",
+   "parent": "Save A Lot, LLC (mostly independently franchised)",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 777,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [
+    "FL",
+    "IL",
+    "IN",
+    "KY",
+    "MI",
+    "MO",
+    "NY",
+    "OH",
+    "PA",
+    "TN"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "save-more-foods",
+   "name": "Save More Foods",
+   "channel": "Discount",
+   "parent": "Independent",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 5,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "schnucks",
+   "name": "Schnucks",
+   "channel": "MULO",
+   "parent": "Schnucks",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 114,
+   "acv_weight": null,
+   "hq_state": "Missouri",
+   "states": [
+    "IA",
+    "IL",
+    "IN",
+    "MO",
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "schnucks",
+     "lane": "instacart",
+     "slug": "schnucks",
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 45516 location 4086",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "schnucks",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "sendik-s",
+   "name": "Sendik's",
+   "channel": "MULO",
+   "parent": "Sendik's",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 17,
+   "acv_weight": null,
+   "hq_state": "Wisconsin",
+   "states": [
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "shaws",
+   "name": "Shaw's",
+   "channel": "MULO",
+   "parent": "Albertsons Companies",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 126,
+   "acv_weight": null,
+   "hq_state": "Massachusetts",
+   "states": [
+    "MA",
+    "ME",
+    "NH",
+    "RI",
+    "VT"
+   ],
+   "counted": false,
+   "excluded_reason": "subset of albertsons-companies total",
+   "status": "stale",
+   "routes": [
+    {
+     "runner_banner": "shaws",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 45,
+     "store_set": "127 Marion Rd",
+     "tries": 2,
+     "oks": 2,
+     "state": "stale"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "sheetz",
+   "name": "Sheetz",
+   "channel": "C-Store",
+   "parent": "Sheetz",
+   "distributor_primary": "DSD",
+   "distributors": [
+    "DSD"
+   ],
+   "doors": 736,
+   "acv_weight": null,
+   "hq_state": "Pennsylvania",
+   "states": [
+    "MD",
+    "NC",
+    "OH",
+    "PA",
+    "VA",
+    "WV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "shoprite",
+   "name": "ShopRite",
+   "channel": "MULO",
+   "parent": "Wakefern Food Corp. (member-owned)",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 225,
+   "acv_weight": 14611872600,
+   "hq_state": null,
+   "states": [
+    "CT",
+    "DE",
+    "MD",
+    "NJ",
+    "NY",
+    "PA"
+   ],
+   "counted": false,
+   "excluded_reason": "subset of wakefern division docs",
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "shoprite",
+     "lane": "instacart",
+     "slug": "shoprite",
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 91103 location 7143",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "shoprite",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "smart-final",
+   "name": "Smart & Final",
+   "channel": "Discount",
+   "parent": "Independent",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 254,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "AZ",
+    "CA",
+    "NV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "smartandfinal",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 31,
+     "store_set": "None",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "smiths",
+   "name": "Smith's Food and Drug",
+   "channel": "MULO",
+   "parent": "Kroger Co.",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 140,
+   "acv_weight": 7697200680,
+   "hq_state": "Utah",
+   "states": [
+    "AZ",
+    "ID",
+    "MT",
+    "NM",
+    "NV",
+    "UT",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "stale",
+   "routes": [
+    {
+     "runner_banner": "smiths",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 33,
+     "store_set": "Pickup at 828 S 900 W SLC UT (Locker Pickup)",
+     "tries": 2,
+     "oks": 1,
+     "state": "stale"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "spartannash",
+   "name": "SpartanNash",
+   "channel": "MULO",
+   "parent": "SpartanNash",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 150,
+   "acv_weight": null,
+   "hq_state": "Michigan",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "speedway",
+   "name": "Speedway",
+   "channel": "C-Store",
+   "parent": "Speedway",
+   "distributor_primary": "DSD",
+   "distributors": [
+    "DSD"
+   ],
+   "doors": 2854,
+   "acv_weight": null,
+   "hq_state": "Ohio",
+   "states": [
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DE",
+    "FL",
+    "GA",
+    "IA",
+    "IL",
+    "IN",
+    "KY",
+    "MA",
+    "MI",
+    "MN",
+    "MO",
+    "NC",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "PA",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "WI",
+    "WV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "sprouts",
+   "name": "Sprouts Farmers Market",
+   "channel": "Natural",
+   "parent": "Independent",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 512,
+   "acv_weight": 6870007040,
+   "hq_state": "Arizona",
+   "states": [
+    "AL",
+    "AZ",
+    "CA",
+    "CO",
+    "DE",
+    "FL",
+    "GA",
+    "KS",
+    "LA",
+    "MD",
+    "MO",
+    "NC",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OK",
+    "PA",
+    "SC",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "WA",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "sprouts",
+     "lane": "instacart",
+     "slug": "sprouts",
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 314,
+     "store_set": "API zip 90012 shop 542872 location 177895 retailer sprouts",
+     "tries": 21,
+     "oks": 19,
+     "url": "https://shop.sprouts.com/store/sprouts/s?k={{term}}",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "sprouts",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-13",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": [
+    {
+     "market": "socal",
+     "zip": "90012",
+     "store_expect": "Los Angeles|\\b900\\d\\d\\b",
+     "lat": 34.0537,
+     "lng": -118.2428,
+     "from_client": "pura"
+    },
+    {
+     "market": "denver",
+     "zip": "80202",
+     "store_expect": "Denver|\\b802\\d\\d\\b",
+     "lat": 39.7527,
+     "lng": -104.9996,
+     "from_client": "stinkin-good"
+    }
+   ]
+  },
+  {
+   "id": "star-market",
+   "name": "Star Market",
+   "channel": "MULO",
+   "parent": "Albertsons Companies",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 20,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [],
+   "counted": false,
+   "excluded_reason": "subset of albertsons-companies total",
+   "status": "family",
+   "routes": [],
+   "pins": [],
+   "family": "albertsons",
+   "family_donor": "acme-markets"
+  },
+  {
+   "id": "stater-bros",
+   "name": "Stater Bros. Markets",
+   "channel": "MULO",
+   "parent": "Independent",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 165,
+   "acv_weight": 7151716260,
+   "hq_state": null,
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "staterbros",
+     "lane": "instacart",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-18",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    },
+    {
+     "runner_banner": "staterbros",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-18",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 3,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "stater-brothers",
+   "name": "Stater Brothers",
+   "channel": "MULO",
+   "parent": "Stater Brothers",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 166,
+   "acv_weight": 7151716260,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": false,
+   "excluded_reason": "duplicate doc, counted under its twin",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "stew-leonards",
+   "name": "Stew Leonards",
+   "channel": "MULO",
+   "parent": "Stew Leonards",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 8,
+   "acv_weight": null,
+   "hq_state": "Connecticut",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "stop-shop",
+   "name": "Stop & Shop",
+   "channel": "MULO",
+   "parent": "Ahold Delhaize",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Rainforest Distributors"
+   ],
+   "doors": 365,
+   "acv_weight": 12757567680,
+   "hq_state": "Massachusetts",
+   "states": [
+    "CT",
+    "MA",
+    "NJ",
+    "NY",
+    "RI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "failed",
+   "routes": [
+    {
+     "runner_banner": "stopandshop",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-16",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "strack-van-til",
+   "name": "Strack & Van Til",
+   "channel": "MULO",
+   "parent": "Hy-Vee",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 22,
+   "acv_weight": null,
+   "hq_state": "Indiana",
+   "states": [
+    "IN"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "sullivan-s",
+   "name": "Sullivan's",
+   "channel": "Natural",
+   "parent": "Sullivan's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 10,
+   "acv_weight": null,
+   "hq_state": "Mississippi",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "sunset-foods",
+   "name": "Sunset Foods",
+   "channel": "MULO",
+   "parent": "Sunset Foods",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 7,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "IL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "super-1-foods",
+   "name": "Super 1 Foods",
+   "channel": "MULO",
+   "parent": "Super 1 Foods",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "KeHE"
+   ],
+   "doors": 16,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [
+    "ID",
+    "MT"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "target",
+   "name": "Target",
+   "channel": "Mass",
+   "parent": "Target Corp.",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 2027,
+   "acv_weight": 106600000000,
+   "hq_state": "Minnesota",
+   "states": [
+    "AK",
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DC",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "ND",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "VT",
+    "WA",
+    "WI",
+    "WV",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "target",
+     "lane": "api",
+     "slug": null,
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-06",
+     "houses_last_ok": 48,
+     "store_set": "API zip 60614 (dataset gd_ltppk5mx2lp0v1k0vo)",
+     "tries": 19,
+     "oks": 16,
+     "template": "target",
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "socal",
+     "zip": "90012",
+     "store_expect": "Los Angeles|\\b900\\d\\d\\b",
+     "lat": 34.0537,
+     "lng": -118.2428,
+     "from_client": "pura"
+    },
+    {
+     "market": "denver",
+     "zip": "80202",
+     "store_expect": "Denver|\\b802\\d\\d\\b",
+     "lat": 39.7527,
+     "lng": -104.9996,
+     "from_client": "stinkin-good"
+    },
+    {
+     "market": "chicago",
+     "zip": "60614",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
+     "lat": 41.9227,
+     "lng": -87.6533,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "the-fresh-market",
+   "name": "The Fresh Market",
+   "channel": "Natural",
+   "parent": "Independent",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Chex Fine Foods"
+   ],
+   "doors": 173,
+   "acv_weight": null,
+   "hq_state": "North Carolina",
+   "states": [
+    "AL",
+    "AR",
+    "CT",
+    "DE",
+    "FL",
+    "GA",
+    "IL",
+    "IN",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "MS",
+    "NC",
+    "NJ",
+    "NY",
+    "OH",
+    "OK",
+    "PA",
+    "SC",
+    "TN",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "thefreshmarket",
+     "lane": "instacart",
+     "slug": "the-fresh-market",
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 312,
+     "store_set": "API zip 60614 shop 541401 location 380718 retailer the-fresh-market",
+     "tries": 9,
+     "oks": 9,
+     "template": "thefreshmarket",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "thefreshmarket",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 2,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": [
+    {
+     "market": "chicago",
+     "zip": "60614",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
+     "lat": 41.9227,
+     "lng": -87.6533,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "thrive-market",
+   "name": "Thrive Market",
+   "channel": "E-Commerce",
+   "parent": "Thrive Market",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct",
+    "UNFI"
+   ],
+   "doors": 0,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "times-supermarket",
+   "name": "Times Supermarket",
+   "channel": "Natural",
+   "parent": "Times Supermarket",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 24,
+   "acv_weight": null,
+   "hq_state": "Hawaii",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "tonys-fresh-market",
+   "name": "Tony's Fresh Market",
+   "channel": "Alternative",
+   "parent": "Independent",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 21,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "IL"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "town-and-country",
+   "name": "Town and Country",
+   "channel": "MULO",
+   "parent": "Independent",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 6,
+   "acv_weight": null,
+   "hq_state": "Oregon",
+   "states": [
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "trader-joes",
+   "name": "Trader Joe's",
+   "channel": "Alternative",
+   "parent": "Independent (Aldi S\u00fcd family)",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 608,
+   "acv_weight": 19664061300,
+   "hq_state": null,
+   "states": [
+    "AZ",
+    "CA",
+    "FL",
+    "IL",
+    "MA",
+    "NJ",
+    "NY",
+    "TX",
+    "VA",
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "uncle-guiseppe-s",
+   "name": "Uncle Guiseppe's",
+   "channel": "MULO",
+   "parent": "Uncle Guiseppe's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 12,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "union-market",
+   "name": "Union Market",
+   "channel": "Natural",
+   "parent": "Union Market",
+   "distributor_primary": null,
+   "distributors": [
+    "Chex Fine Foods"
+   ],
+   "doors": 6,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "NY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "us-defense-commissaries-deca",
+   "name": "US Defense Commissaries (DeCA)",
+   "channel": "Alternate",
+   "parent": "US Defense Commissaries",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 240,
+   "acv_weight": null,
+   "hq_state": "Virginia",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "vantils",
+   "name": "Van Til's Super Market",
+   "channel": "MULO",
+   "parent": "Independent",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 22,
+   "acv_weight": null,
+   "hq_state": null,
+   "states": [
+    "IN"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "vitamin-shoppe",
+   "name": "Vitamin Shoppe",
+   "channel": "Specialty",
+   "parent": "Vitamin Shoppe",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 709,
+   "acv_weight": null,
+   "hq_state": "New Jersey",
+   "states": [
+    "CA",
+    "FL",
+    "GA",
+    "IL",
+    "NC",
+    "NJ",
+    "NY",
+    "TX",
+    "VA",
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "vons",
+   "name": "Vons",
+   "channel": "MULO",
+   "parent": "Albertsons Companies",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 187,
+   "acv_weight": 6996499380,
+   "hq_state": null,
+   "states": [
+    "CA",
+    "NV"
+   ],
+   "counted": false,
+   "excluded_reason": "subset of albertsons-companies total",
+   "status": "stale",
+   "routes": [
+    {
+     "runner_banner": "vons",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-13",
+     "last_try": "2026-10-13",
+     "houses_last_ok": 39,
+     "store_set": "3645 Midway Dr",
+     "tries": 3,
+     "oks": 2,
+     "state": "stale"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "wakefern-shoprite-price-rite-the-fresh-grocer",
+   "name": "Wakefern - Shoprite, Price Rite, The Fresh Grocer",
+   "channel": "MULO",
+   "parent": "Wakefern",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Direct"
+   ],
+   "doors": 340,
+   "acv_weight": null,
+   "hq_state": "New Jersey",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "wakefern-village-supermarket-fairway-gourmet-garage-select-shoprites",
+   "name": "Wakefern - Village Supermarket - Fairway, Gourmet Garage, select Shoprites",
+   "channel": "MULO",
+   "parent": "Wakefern",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI",
+    "Direct",
+    "Chex Fine Foods"
+   ],
+   "doors": 40,
+   "acv_weight": null,
+   "hq_state": "New Jersey",
+   "states": [],
+   "counted": false,
+   "excluded_reason": "division doc, counted in the banner total",
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "walgreens",
+   "name": "Walgreens",
+   "channel": "Drug",
+   "parent": "Walgreens",
+   "distributor_primary": null,
+   "distributors": [
+    "DOT Foods"
+   ],
+   "doors": 7983,
+   "acv_weight": null,
+   "hq_state": "Illinois",
+   "states": [
+    "AK",
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DC",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "ND",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "PR",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "VI",
+    "VT",
+    "WA",
+    "WA_dup_ignore",
+    "WI",
+    "WV",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "walgreens",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 35,
+     "store_set": "5036 S Cottage Grove Ave, Chicago, IL",
+     "tries": 3,
+     "oks": 1,
+     "state": "proven"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "walmart",
+   "name": "Walmart",
+   "channel": "Mass",
+   "parent": "Walmart Inc.",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "Direct",
+    "DSD"
+   ],
+   "doors": 4598,
+   "acv_weight": 462400000000,
+   "hq_state": "Arkansas",
+   "states": [
+    "AK",
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DC",
+    "DE",
+    "FL",
+    "GA",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "ND",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "PR",
+    "RI",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "VT",
+    "WA",
+    "WI",
+    "WV",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "walmart",
+     "lane": "api",
+     "slug": null,
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 37,
+     "store_set": "API zip 60614 store_id 5402 (dataset gd_m693oc1r1gebnayxq)",
+     "tries": 19,
+     "oks": 10,
+     "template": "walmart",
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "socal",
+     "zip": "90012",
+     "store_expect": "Los Angeles|\\b900\\d\\d\\b",
+     "lat": 34.0537,
+     "lng": -118.2428,
+     "from_client": "pura"
+    },
+    {
+     "market": "denver",
+     "zip": "80202",
+     "store_expect": "Denver|\\b802\\d\\d\\b",
+     "lat": 39.7527,
+     "lng": -104.9996,
+     "from_client": "stinkin-good"
+    },
+    {
+     "market": "chicago",
+     "zip": "60614",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
+     "lat": 41.9227,
+     "lng": -87.6533,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "wawa",
+   "name": "Wawa",
+   "channel": "C-Store",
+   "parent": "Wawa",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 1050,
+   "acv_weight": null,
+   "hq_state": "Pennsylvania",
+   "states": [
+    "DC",
+    "DE",
+    "FL",
+    "MD",
+    "NJ",
+    "PA",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "no_ecomm",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "wegmans",
+   "name": "Wegmans",
+   "channel": "MULO",
+   "parent": "Independent",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 116,
+   "acv_weight": 8736095160,
+   "hq_state": "New York",
+   "states": [
+    "CT",
+    "DC",
+    "DE",
+    "MA",
+    "MD",
+    "NC",
+    "NJ",
+    "NY",
+    "PA",
+    "VA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "wegmans",
+     "lane": "instacart",
+     "slug": "wegmans",
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-06",
+     "houses_last_ok": 310,
+     "store_set": "API zip 10023 shop 366100 location 162737 retailer wegmans",
+     "tries": 4,
+     "oks": 4,
+     "template": "wegmans",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "wegmans",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 91,
+     "store_set": "None",
+     "tries": 2,
+     "oks": 1,
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "nyc",
+     "zip": "10023",
+     "store_expect": "New York|\\b100\\d\\d\\b",
+     "lat": 40.7769,
+     "lng": -73.9822,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "weis-markets",
+   "name": "Weis Markets",
+   "channel": "MULO",
+   "parent": "Independent",
+   "distributor_primary": null,
+   "distributors": [
+    "Davidson"
+   ],
+   "doors": 197,
+   "acv_weight": null,
+   "hq_state": "Pennsylvania",
+   "states": [
+    "DE",
+    "MD",
+    "NJ",
+    "NY",
+    "PA",
+    "VA",
+    "WV"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "weis",
+     "lane": "instacart",
+     "slug": "weis-markets",
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 213197 location 151469",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "weis",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "whole-foods",
+   "name": "Whole Foods Market",
+   "channel": "Natural",
+   "parent": "Amazon",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 521,
+   "acv_weight": 15136890080,
+   "hq_state": "Texas",
+   "states": [
+    "AL",
+    "AR",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "DC",
+    "FL",
+    "GA",
+    "HI",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "NY",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "RI",
+    "SC",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "WA",
+    "WI",
+    "WY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "wholefoods",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 35,
+     "store_set": "60614",
+     "tries": 18,
+     "oks": 16,
+     "template": "wholefoods",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "wholefoods-socal",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-11-07",
+     "last_try": "2026-11-07",
+     "houses_last_ok": 39,
+     "store_set": "90012",
+     "tries": 8,
+     "oks": 7,
+     "template": "wholefoods",
+     "state": "proven"
+    },
+    {
+     "runner_banner": "whole-foods",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": "2026-10-07",
+     "last_try": "2026-10-07",
+     "houses_last_ok": 23,
+     "store_set": "60615",
+     "tries": 2,
+     "oks": 2,
+     "state": "stale"
+    }
+   ],
+   "pins": [
+    {
+     "market": "socal",
+     "zip": "90012",
+     "store_expect": "Los Angeles|\\b900\\d\\d\\b",
+     "lat": 34.0537,
+     "lng": -118.2428,
+     "from_client": "pura"
+    },
+    {
+     "market": "denver",
+     "zip": "80202",
+     "store_expect": "Denver|\\b802\\d\\d\\b",
+     "lat": 39.7527,
+     "lng": -104.9996,
+     "from_client": "stinkin-good"
+    },
+    {
+     "market": "chicago",
+     "zip": "60614",
+     "store_expect": "Chicago|\\b606\\d\\d\\b",
+     "lat": 41.9227,
+     "lng": -87.6533,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "wild-by-nature",
+   "name": "Wild by Nature",
+   "channel": "Natural",
+   "parent": "Wild by Nature",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 4,
+   "acv_weight": null,
+   "hq_state": "New York",
+   "states": [
+    "NY"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "winco",
+   "name": "WinCo Foods",
+   "channel": "Discount",
+   "parent": "Independent (employee-owned)",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 140,
+   "acv_weight": 6277792300,
+   "hq_state": "Idaho",
+   "states": [
+    "AZ",
+    "CA",
+    "ID",
+    "MT",
+    "NV",
+    "OK",
+    "OR",
+    "TX",
+    "UT",
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "winco",
+     "lane": "instacart",
+     "slug": "winco-foods",
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 16752328 location 589095",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "winco",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "winn-dixie",
+   "name": "Winn-Dixie",
+   "channel": "MULO",
+   "parent": "Southeastern Grocers",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 543,
+   "acv_weight": null,
+   "hq_state": "Florida",
+   "states": [
+    "AL",
+    "FL",
+    "GA",
+    "LA",
+    "MS"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "winn-dixie",
+     "lane": "instacart",
+     "slug": "winn-dixie",
+     "last_ok": "2026-10-17",
+     "last_try": "2026-10-17",
+     "houses_last_ok": 120,
+     "store_set": "API zip 60615 shop 99690 location 122743",
+     "tries": 1,
+     "oks": 1,
+     "state": "proven"
+    },
+    {
+     "runner_banner": "winn-dixie",
+     "lane": "recipe",
+     "slug": null,
+     "last_ok": null,
+     "last_try": "2026-10-17",
+     "houses_last_ok": 0,
+     "store_set": null,
+     "tries": 1,
+     "oks": 0,
+     "state": "failed"
+    }
+   ],
+   "pins": []
+  },
+  {
+   "id": "woodlands",
+   "name": "Woodlands",
+   "channel": "Natural",
+   "parent": "Woodlands",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 3,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "woodmans",
+   "name": "Woodmans",
+   "channel": "MULO",
+   "parent": "Woodmans",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE"
+   ],
+   "doors": 21,
+   "acv_weight": null,
+   "hq_state": "Wisconsin",
+   "states": [
+    "IL",
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "proven",
+   "routes": [
+    {
+     "runner_banner": "woodmans",
+     "lane": "instacart",
+     "slug": "woodmans-food-markets",
+     "last_ok": "2026-11-06",
+     "last_try": "2026-11-06",
+     "houses_last_ok": 323,
+     "store_set": "API zip 53711 shop 20059 location 70266 retailer woodmans-food-markets",
+     "tries": 4,
+     "oks": 4,
+     "state": "proven"
+    }
+   ],
+   "pins": [
+    {
+     "market": "madison",
+     "zip": "53711",
+     "store_expect": "Madison|\\b537\\d\\d\\b",
+     "lat": 43.0448,
+     "lng": -89.4594,
+     "from_client": "vosges"
+    }
+   ]
+  },
+  {
+   "id": "world-market",
+   "name": "World Market",
+   "channel": "Specialty",
+   "parent": "World Market",
+   "distributor_primary": "Direct",
+   "distributors": [
+    "Direct"
+   ],
+   "doors": 252,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "AL",
+    "AZ",
+    "CA",
+    "CO",
+    "CT",
+    "FL",
+    "GA",
+    "IA",
+    "ID",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "MA",
+    "MD",
+    "MI",
+    "MN",
+    "MO",
+    "MT",
+    "NC",
+    "NE",
+    "NH",
+    "NJ",
+    "NM",
+    "NV",
+    "OH",
+    "OK",
+    "OR",
+    "PA",
+    "SC",
+    "SD",
+    "TN",
+    "TX",
+    "UT",
+    "VA",
+    "WA",
+    "WI"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "yes-organic",
+   "name": "Yes Organic",
+   "channel": "Natural",
+   "parent": "Yes Organic",
+   "distributor_primary": "KeHE",
+   "distributors": [
+    "KeHE",
+    "UNFI"
+   ],
+   "doors": 6,
+   "acv_weight": null,
+   "hq_state": "District of Columbia",
+   "states": [],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "yoke-s",
+   "name": "Yoke's",
+   "channel": "MULO",
+   "parent": "Yoke's",
+   "distributor_primary": "UNFI",
+   "distributors": [
+    "UNFI"
+   ],
+   "doors": 19,
+   "acv_weight": null,
+   "hq_state": "Washington",
+   "states": [
+    "ID",
+    "MT",
+    "WA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  },
+  {
+   "id": "yummy-foods",
+   "name": "Yummy Foods",
+   "channel": "Natural",
+   "parent": "Yummy Foods",
+   "distributor_primary": null,
+   "distributors": [],
+   "doors": 3,
+   "acv_weight": null,
+   "hq_state": "California",
+   "states": [
+    "CA"
+   ],
+   "counted": true,
+   "excluded_reason": null,
+   "status": "unproven",
+   "routes": [],
+   "pins": []
+  }
+ ]
+}

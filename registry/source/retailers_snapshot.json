@@ -1,0 +1,4834 @@
+[
+{
+"id": "7-eleven-us",
+"name": "7-Eleven US",
+"channel": "C-Store",
+"parent_company": "7-Eleven US",
+"dist_primary": "DSD",
+"distributors": [
+"DSD",
+"McLane",
+"Coremark"
+],
+"doors": 9534,
+"hq_state": "Texas",
+"states": [
+"AZ",
+"CA",
+"CO",
+"CT",
+"DC",
+"DE",
+"FL",
+"GA",
+"ID",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MA",
+"MD",
+"ME",
+"MI",
+"MN",
+"MO",
+"NC",
+"NH",
+"NJ",
+"NM",
+"NV",
+"NY",
+"OH",
+"OK",
+"OR",
+"PA",
+"RI",
+"SC",
+"TN",
+"TX",
+"UT",
+"VA",
+"VT",
+"WA",
+"WI",
+"WV"
+],
+"is_division": false
+},
+{
+"id": "acme-markets",
+"name": "ACME Markets",
+"channel": "MULO",
+"parent_company": "Albertsons Companies",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 157,
+"hq_state": "Ohio",
+"states": [
+"CT",
+"DE",
+"MD",
+"NJ",
+"NY",
+"PA"
+],
+"is_division": false
+},
+{
+"id": "ahold-delhaize-usa-hannaford-delhaize",
+"name": "Ahold Delhaize USA - Hannaford (Delhaize)",
+"channel": "MULO",
+"parent_company": "Ahold Delhaize USA",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Chex Fine Foods"
+],
+"doors": 187,
+"hq_state": "Maine",
+"states": [
+"MA",
+"ME",
+"NH",
+"NY",
+"VT"
+],
+"is_division": true
+},
+{
+"id": "ahold-delhaize-usa",
+"name": "Ahold Delhaize USA (family)",
+"channel": "MULO",
+"parent_company": "Ahold Delhaize",
+"dist_primary": null,
+"distributors": [],
+"doors": 2000,
+"hq_state": null,
+"states": [],
+"is_division": false
+},
+{
+"id": "albertsons-companies",
+"name": "Albertsons Companies (family)",
+"channel": "MULO",
+"parent_company": "Albertsons Companies",
+"dist_primary": null,
+"distributors": [],
+"doors": 2270,
+"hq_state": null,
+"states": [],
+"is_division": false
+},
+{
+"id": "albertsons-safeway-denver",
+"name": "Albertsons Safeway - Denver",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 123,
+"hq_state": "Colorado",
+"states": [],
+"is_division": true
+},
+{
+"id": "albertsons-safeway-haggen",
+"name": "Albertsons Safeway - Haggen",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE",
+"Crown Pacific Fine Foods"
+],
+"doors": 16,
+"hq_state": "Washington",
+"states": [],
+"is_division": true
+},
+{
+"id": "albertsons-safeway-intermountain",
+"name": "Albertsons Safeway - Intermountain",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 85,
+"hq_state": "Idaho",
+"states": [],
+"is_division": true
+},
+{
+"id": "albertsons-safeway-mid-atlantic-king-s-balducci-s",
+"name": "Albertsons Safeway - Mid Atlantic - King's/Balducci's",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"Chex Fine Foods"
+],
+"doors": 24,
+"hq_state": "Maryland",
+"states": [],
+"is_division": true
+},
+{
+"id": "albertsons-safeway-norcal",
+"name": "Albertsons Safeway - NorCal",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 280,
+"hq_state": "California",
+"states": [],
+"is_division": true
+},
+{
+"id": "albertsons-safeway-portland",
+"name": "Albertsons Safeway - Portland",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 139,
+"hq_state": "Oregon",
+"states": [],
+"is_division": true
+},
+{
+"id": "albertsons-safeway-seattle",
+"name": "Albertsons Safeway - Seattle",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 219,
+"hq_state": "Washington",
+"states": [],
+"is_division": true
+},
+{
+"id": "albertsons-safeway-socal-von-s",
+"name": "Albertsons Safeway - SoCal - Von's",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 187,
+"hq_state": "California",
+"states": [
+"CA",
+"NV"
+],
+"is_division": true
+},
+{
+"id": "albertsons-safeway-southern-randall-s-tom-thumb",
+"name": "Albertsons Safeway - Southern (Randall's/Tom Thumb)",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 96,
+"hq_state": "Texas",
+"states": [
+"TX"
+],
+"is_division": true
+},
+{
+"id": "albertsons-safeway-southwest",
+"name": "Albertsons Safeway - Southwest",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 192,
+"hq_state": "Arizona",
+"states": [],
+"is_division": true
+},
+{
+"id": "albertsons-safeway-united-supermarkets-market-street",
+"name": "Albertsons Safeway - United Supermarkets/Market Street",
+"channel": "MULO",
+"parent_company": "Albertsons Safeway",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 106,
+"hq_state": "Texas",
+"states": [
+"NM",
+"TX"
+],
+"is_division": true
+},
+{
+"id": "albertsons",
+"name": "Albertsons",
+"channel": "MULO",
+"parent_company": "Albertsons Companies",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 372,
+"hq_state": null,
+"states": [
+"AR",
+"AZ",
+"CA",
+"CO",
+"ID",
+"LA",
+"MT",
+"ND",
+"NM",
+"NV",
+"OK",
+"OR",
+"TX",
+"UT",
+"WA",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "aldi",
+"name": "ALDI",
+"channel": "Discount",
+"parent_company": "Aldi Nord (Germany)",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 2706,
+"hq_state": "Illinois",
+"states": [
+"AL",
+"AR",
+"AZ",
+"CA",
+"CT",
+"DC",
+"DE",
+"FL",
+"GA",
+"IA",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MA",
+"MD",
+"ME",
+"MI",
+"MN",
+"MO",
+"MS",
+"NC",
+"ND",
+"NE",
+"NH",
+"NJ",
+"NV",
+"NY",
+"OH",
+"OK",
+"PA",
+"RI",
+"SC",
+"SD",
+"TN",
+"TX",
+"VA",
+"VT",
+"WI",
+"WV"
+],
+"is_division": false
+},
+{
+"id": "amazon-fresh-e-comm-stores",
+"name": "Amazon Fresh (e-comm & stores)",
+"channel": "E-Commerce",
+"parent_company": "Amazon Fresh",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Spartan Nash (C&S)"
+],
+"doors": 40,
+"hq_state": "Washington",
+"states": [],
+"is_division": false
+},
+{
+"id": "amazon-go",
+"name": "Amazon Go",
+"channel": "C-Store",
+"parent_company": "Amazon Go",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE",
+"Spartan Nash (C&S)"
+],
+"doors": 20,
+"hq_state": "Washington",
+"states": [],
+"is_division": false
+},
+{
+"id": "america-s-food-basket",
+"name": "America's Food Basket",
+"channel": "Natural",
+"parent_company": "America's Food Basket",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 27,
+"hq_state": "New York",
+"states": [
+"CT",
+"GA",
+"MA",
+"NY",
+"RI"
+],
+"is_division": false
+},
+{
+"id": "angelo-caputos-fresh-market",
+"name": "Angelo Caputos Fresh Market",
+"channel": "MULO",
+"parent_company": "Caputos",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 10,
+"hq_state": "Illinois",
+"states": [
+"IL"
+],
+"is_division": false
+},
+{
+"id": "associated-food-stores",
+"name": "Associated Food Stores (AFS)",
+"channel": "MULO",
+"parent_company": "Associated Food Stores (retailer-owned co-op)",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 400,
+"hq_state": "Utah",
+"states": [
+"UT_corporate",
+"member_total_8_states"
+],
+"is_division": false
+},
+{
+"id": "baron-s",
+"name": "Baron's",
+"channel": "Natural",
+"parent_company": "Baron's",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 10,
+"hq_state": "California",
+"states": [],
+"is_division": false
+},
+{
+"id": "bashas",
+"name": "Bashas'",
+"channel": "MULO",
+"parent_company": "Raley's (acquired 2021)",
+"dist_primary": "Direct",
+"distributors": [
+"Direct",
+"UNFI",
+"DSD"
+],
+"doors": 74,
+"hq_state": "Arizona",
+"states": [
+"AZ"
+],
+"is_division": false
+},
+{
+"id": "berkeley-bowl",
+"name": "Berkeley Bowl",
+"channel": "Natural",
+"parent_company": "Berkeley Bowl",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 2,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "berkot-s-super-foods",
+"name": "Berkot's Super Foods",
+"channel": "MULO",
+"parent_company": "Berkot's",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"Associated Wholesale Grocers (AWG)"
+],
+"doors": 20,
+"hq_state": "Illinois",
+"states": [
+"IL",
+"IN",
+"WI"
+],
+"is_division": false
+},
+{
+"id": "better-health",
+"name": "Better Health",
+"channel": "Natural",
+"parent_company": "Better Health",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 14,
+"hq_state": "Michigan",
+"states": [
+"MI",
+"OH"
+],
+"is_division": false
+},
+{
+"id": "big-y",
+"name": "Big Y",
+"channel": "MULO",
+"parent_company": "Big Y",
+"dist_primary": "Direct",
+"distributors": [
+"Direct",
+"UNFI"
+],
+"doors": 94,
+"hq_state": "Massachusetts",
+"states": [
+"CT",
+"MA"
+],
+"is_division": false
+},
+{
+"id": "bjs",
+"name": "BJ's Wholesale",
+"channel": "Club",
+"parent_company": "Independent",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 273,
+"hq_state": "Massachusetts",
+"states": [
+"AL",
+"CT",
+"DE",
+"FL",
+"GA",
+"IN",
+"KY",
+"MA",
+"MD",
+"ME",
+"MI",
+"NC",
+"NH",
+"NJ",
+"NY",
+"OH",
+"PA",
+"RI",
+"SC",
+"TN",
+"TX",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "bravo-supermarkets",
+"name": "Bravo Supermarkets",
+"channel": "MULO",
+"parent_company": "Bravo Supermarkets",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 91,
+"hq_state": "New York",
+"states": [
+"CT",
+"FL",
+"NJ",
+"NY",
+"PA"
+],
+"is_division": false
+},
+{
+"id": "bristol-farms",
+"name": "Bristol Farms",
+"channel": "Natural",
+"parent_company": "Good Food Holdings",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE",
+"HiTouch Distributing"
+],
+"doors": 14,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "brookshire-brothers",
+"name": "Brookshire Brothers",
+"channel": "MULO",
+"parent_company": "Brookshire Brothers (employee-owned)",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 97,
+"hq_state": "Texas",
+"states": [
+"LA",
+"TX"
+],
+"is_division": false
+},
+{
+"id": "brookshire-grocery",
+"name": "Brookshire Grocery Company",
+"channel": "MULO",
+"parent_company": "Brookshire Grocery Company (independent)",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 180,
+"hq_state": "Texas",
+"states": [
+"AR",
+"LA",
+"TX"
+],
+"is_division": false
+},
+{
+"id": "buehler-s-fresh-foods",
+"name": "Buehler's Fresh Foods",
+"channel": "MULO",
+"parent_company": "Buehler's",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 15,
+"hq_state": "Ohio",
+"states": [
+"OH"
+],
+"is_division": false
+},
+{
+"id": "busch-s",
+"name": "Busch's",
+"channel": "MULO",
+"parent_company": "Busch's",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI",
+"Spartan Nash (C&S)"
+],
+"doors": 16,
+"hq_state": "Michigan",
+"states": [
+"MI"
+],
+"is_division": false
+},
+{
+"id": "c-k-market",
+"name": "C&K Market",
+"channel": "MULO",
+"parent_company": "C&K",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE",
+"C&S Wholesale"
+],
+"doors": 36,
+"hq_state": "Oregon",
+"states": [
+"CA",
+"OR"
+],
+"is_division": false
+},
+{
+"id": "caraluzzi-s-market",
+"name": "Caraluzzi's Market",
+"channel": "Natural",
+"parent_company": "Caraluzzi's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Rainforest Distributors",
+"Chex Fine Foods"
+],
+"doors": 4,
+"hq_state": "Connecticut",
+"states": [
+"CT"
+],
+"is_division": false
+},
+{
+"id": "central-market",
+"name": "Central Market",
+"channel": "Natural",
+"parent_company": "H-E-B",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 10,
+"hq_state": "Texas",
+"states": [
+"TX"
+],
+"is_division": false
+},
+{
+"id": "circle-k",
+"name": "Circle K",
+"channel": "C-Store",
+"parent_company": "Circle K",
+"dist_primary": "DSD",
+"distributors": [
+"DSD",
+"KeHE",
+"McLane",
+"Coremark"
+],
+"doors": 6958,
+"hq_state": "Arizona",
+"states": [
+"AZ",
+"CA",
+"FL",
+"GA",
+"IL",
+"MN",
+"NC",
+"OH",
+"SC",
+"TX"
+],
+"is_division": false
+},
+{
+"id": "citarella",
+"name": "Citarella",
+"channel": "Natural",
+"parent_company": "Citarella",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Rainforest Distributors"
+],
+"doors": 8,
+"hq_state": "New York",
+"states": [
+"CT",
+"NY"
+],
+"is_division": false
+},
+{
+"id": "city-market",
+"name": "City Market",
+"channel": "MULO",
+"parent_company": "Kroger Co.",
+"dist_primary": "UNFI",
+"distributors": [
+"KeHE",
+"UNFI",
+"Chex Fine Foods"
+],
+"doors": 35,
+"hq_state": "Colorado",
+"states": [
+"CO",
+"UT",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "clark-s-nutrition",
+"name": "Clark's Nutrition",
+"channel": "Natural",
+"parent_company": "Clark's Nutrition",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI",
+"POD Foods",
+"Foundation Foods"
+],
+"doors": 3,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "coborn-s-cashwise-marketplace-foods-hornbacher-s",
+"name": "Coborn's (Cashwise, Marketplace Foods, Hornbacher's)",
+"channel": "MULO",
+"parent_company": "Coborn's",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 135,
+"hq_state": "Minnesota",
+"states": [],
+"is_division": false
+},
+{
+"id": "cosentinos-food-stores",
+"name": "Cosentinos Food Stores",
+"channel": "MULO",
+"parent_company": "Cosentinos",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 32,
+"hq_state": "Kansas",
+"states": [
+"KS",
+"MO"
+],
+"is_division": false
+},
+{
+"id": "costco-bay-area",
+"name": "Costco Bay Area",
+"channel": "Club",
+"parent_company": "Costco",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 57,
+"hq_state": "California",
+"states": [],
+"is_division": false
+},
+{
+"id": "costco-los-angeles",
+"name": "Costco Los Angeles",
+"channel": "Club",
+"parent_company": "Costco",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 59,
+"hq_state": "California",
+"states": [],
+"is_division": false
+},
+{
+"id": "costco-midwest",
+"name": "Costco Midwest",
+"channel": "Club",
+"parent_company": "Costco",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 96,
+"hq_state": "Illinois",
+"states": [],
+"is_division": false
+},
+{
+"id": "costco-northeast",
+"name": "Costco Northeast",
+"channel": "Club",
+"parent_company": "Costco",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 95,
+"hq_state": "Virginia",
+"states": [],
+"is_division": false
+},
+{
+"id": "costco-northwest",
+"name": "Costco Northwest",
+"channel": "Club",
+"parent_company": "Costco",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 70,
+"hq_state": "Washington",
+"states": [],
+"is_division": false
+},
+{
+"id": "costco-san-diego",
+"name": "Costco San Diego",
+"channel": "Club",
+"parent_company": "Costco",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 54,
+"hq_state": "California",
+"states": [],
+"is_division": false
+},
+{
+"id": "costco-southeast",
+"name": "Costco Southeast",
+"channel": "Club",
+"parent_company": "Costco",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 64,
+"hq_state": "Georgia",
+"states": [],
+"is_division": false
+},
+{
+"id": "costco-texas",
+"name": "Costco Texas",
+"channel": "Club",
+"parent_company": "Costco",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 34,
+"hq_state": "Texas",
+"states": [],
+"is_division": false
+},
+{
+"id": "costco",
+"name": "Costco",
+"channel": "Club",
+"parent_company": "Costco Wholesale",
+"dist_primary": null,
+"distributors": [],
+"doors": 621,
+"hq_state": null,
+"states": [
+"AK",
+"AL",
+"AR",
+"AZ",
+"CA",
+"CO",
+"CT",
+"DC",
+"DE",
+"FL",
+"GA",
+"HI",
+"IA",
+"ID",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MA",
+"MD",
+"ME",
+"MI",
+"MN",
+"MO",
+"MS",
+"MT",
+"NC",
+"ND",
+"NE",
+"NH",
+"NJ",
+"NM",
+"NV",
+"NY",
+"OH",
+"OK",
+"OR",
+"PA",
+"PR",
+"SC",
+"SD",
+"TN",
+"TX",
+"UT",
+"VA",
+"VT",
+"WA",
+"WI"
+],
+"is_division": false
+},
+{
+"id": "crosby-s",
+"name": "Crosby's",
+"channel": "MULO",
+"parent_company": "Crosby's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Chex Fine Foods"
+],
+"doors": 7,
+"hq_state": "Oklahoma",
+"states": [],
+"is_division": false
+},
+{
+"id": "cub-foods",
+"name": "Cub",
+"channel": "MULO",
+"parent_company": "UNFI (Cub Foods)",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 77,
+"hq_state": "Minnesota",
+"states": [
+"IL",
+"MN"
+],
+"is_division": false
+},
+{
+"id": "cvs-long-s-drug",
+"name": "CVS - Long's Drug",
+"channel": "Drug",
+"parent_company": "CVS",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"DSD"
+],
+"doors": 55,
+"hq_state": "Hawaii",
+"states": [
+"HI"
+],
+"is_division": true
+},
+{
+"id": "cvs",
+"name": "CVS",
+"channel": "Drug",
+"parent_company": "CVS",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"DSD"
+],
+"doors": 9369,
+"hq_state": "Rhode Island",
+"states": [
+"AK",
+"AL",
+"AR",
+"AZ",
+"CA",
+"CO",
+"CT",
+"DC",
+"DE",
+"FL",
+"GA",
+"HI",
+"IA",
+"ID",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MA",
+"MD",
+"ME",
+"MI",
+"MN",
+"MO",
+"MS",
+"MT",
+"NC",
+"ND",
+"NE",
+"NH",
+"NJ",
+"NM",
+"NV",
+"NY",
+"OH",
+"OK",
+"OR",
+"PA",
+"PR",
+"RI",
+"SC",
+"SD",
+"TN",
+"TX",
+"UT",
+"VA",
+"VT",
+"WA",
+"WI",
+"WV",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "d-agostinos-gristedes",
+"name": "D'agostinos & Gristedes",
+"channel": "MULO",
+"parent_company": "D'agostinos & Gristedes",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 27,
+"hq_state": "New York",
+"states": [
+"NY"
+],
+"is_division": false
+},
+{
+"id": "dave-s-marketplace",
+"name": "Dave's Marketplace",
+"channel": "MULO",
+"parent_company": "Dave's Marketplace",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE",
+"Rainforest Distributors",
+"Chex Fine Foods"
+],
+"doors": 10,
+"hq_state": "Rhode Island",
+"states": [
+"RI"
+],
+"is_division": false
+},
+{
+"id": "decicco-s-decicco-sons",
+"name": "Decicco's - DeCicco & Sons",
+"channel": "MULO",
+"parent_company": "Decicco's",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI",
+"Rainforest Distributors",
+"Chex Fine Foods"
+],
+"doors": 9,
+"hq_state": "New York",
+"states": [
+"NY"
+],
+"is_division": true
+},
+{
+"id": "detwiler-s-farm-market",
+"name": "Detwiler's Farm Market",
+"channel": "Natural",
+"parent_company": "Detwiler's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 6,
+"hq_state": "Florida",
+"states": [
+"FL"
+],
+"is_division": false
+},
+{
+"id": "dick-s-fresh-market",
+"name": "Dick's Fresh Market",
+"channel": "MULO",
+"parent_company": "Dick's Fresh Market",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 5,
+"hq_state": "Wisconsin",
+"states": [
+"WI"
+],
+"is_division": false
+},
+{
+"id": "dierberg-s",
+"name": "Dierberg's",
+"channel": "MULO",
+"parent_company": "Dierberg's",
+"dist_primary": "DSD",
+"distributors": [
+"DSD",
+"UNFI"
+],
+"doors": 26,
+"hq_state": "Missouri",
+"states": [],
+"is_division": false
+},
+{
+"id": "dollar-general-popshelf",
+"name": "Dollar General - pOpshelf",
+"channel": "Alternate",
+"parent_company": "Dollar General",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 180,
+"hq_state": "Tennessee",
+"states": [
+"AL",
+"AR",
+"FL",
+"GA",
+"IA",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MD",
+"MO",
+"MS",
+"NC",
+"NJ",
+"OH",
+"OK",
+"SC",
+"TN",
+"TX",
+"VA"
+],
+"is_division": true
+},
+{
+"id": "donelan-s-fresh-market",
+"name": "Donelan's Fresh Market",
+"channel": "MULO",
+"parent_company": "Donelan's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Chex Fine Foods"
+],
+"doors": 3,
+"hq_state": "Massachusetts",
+"states": [
+"MA"
+],
+"is_division": false
+},
+{
+"id": "down-to-earth",
+"name": "Down to Earth",
+"channel": "Natural",
+"parent_company": "Down to Earth",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI",
+"Foundation Foods"
+],
+"doors": 6,
+"hq_state": "Hawaii",
+"states": [
+"HI"
+],
+"is_division": false
+},
+{
+"id": "draeger-s",
+"name": "Draeger's",
+"channel": "MULO",
+"parent_company": "Draeger's",
+"dist_primary": "DSD",
+"distributors": [
+"DSD",
+"UNFI"
+],
+"doors": 2,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "earth-fare",
+"name": "Earth Fare",
+"channel": "Natural",
+"parent_company": "Earth Fare",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 13,
+"hq_state": "North Carolina",
+"states": [
+"FL",
+"GA",
+"NC",
+"SC",
+"TN",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "earth-origins",
+"name": "Earth Origins",
+"channel": "Natural",
+"parent_company": "Earth Origins",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 5,
+"hq_state": "Florida",
+"states": [
+"FL"
+],
+"is_division": false
+},
+{
+"id": "erewhon",
+"name": "Erewhon",
+"channel": "Natural",
+"parent_company": "Erewhon (independent)",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI",
+"Foundation Foods",
+"HiTouch Distributing"
+],
+"doors": 14,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "fairplay-foods",
+"name": "Fairplay Foods",
+"channel": "MULO",
+"parent_company": "Independent",
+"dist_primary": null,
+"distributors": [],
+"doors": 3,
+"hq_state": null,
+"states": [
+"IL"
+],
+"is_division": false
+},
+{
+"id": "fairway-market",
+"name": "Fairway Market",
+"channel": "Alternative",
+"parent_company": "Independent",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 4,
+"hq_state": null,
+"states": [
+"NY"
+],
+"is_division": false
+},
+{
+"id": "festival-foods",
+"name": "Festival Foods",
+"channel": "MULO",
+"parent_company": "Festival",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 42,
+"hq_state": "Wisconsin",
+"states": [
+"WI"
+],
+"is_division": false
+},
+{
+"id": "fiesta-mart",
+"name": "Fiesta Mart",
+"channel": "Alternative",
+"parent_company": "Independent",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Grocery Supply Co."
+],
+"doors": 65,
+"hq_state": "Texas",
+"states": [
+"OK",
+"TX"
+],
+"is_division": false
+},
+{
+"id": "food-bazaar",
+"name": "Food Bazaar",
+"channel": "Alternative",
+"parent_company": "Independent",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI",
+"Rainforest Distributors"
+],
+"doors": 32,
+"hq_state": "New York",
+"states": [
+"CT",
+"NJ",
+"NY"
+],
+"is_division": false
+},
+{
+"id": "food-city-az",
+"name": "Food City (AZ)",
+"channel": "Alternative",
+"parent_company": "Raley's / Bashas'",
+"dist_primary": null,
+"distributors": [],
+"doors": 48,
+"hq_state": null,
+"states": [
+"AZ"
+],
+"is_division": false
+},
+{
+"id": "food-city-stores",
+"name": "Food City Stores",
+"channel": "Conventional",
+"parent_company": "Food City",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 135,
+"hq_state": "Virginia",
+"states": [],
+"is_division": false
+},
+{
+"id": "food-lion",
+"name": "Food Lion",
+"channel": "MULO",
+"parent_company": "Ahold Delhaize",
+"dist_primary": "Direct",
+"distributors": [
+"Direct",
+"UNFI"
+],
+"doors": 1115,
+"hq_state": "North Carolina",
+"states": [
+"DE",
+"GA",
+"KY",
+"MD",
+"NC",
+"PA",
+"SC",
+"TN",
+"VA",
+"WV"
+],
+"is_division": false
+},
+{
+"id": "food4less",
+"name": "Food 4 Less",
+"channel": "Discount",
+"parent_company": "Kroger Co.",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 102,
+"hq_state": "California",
+"states": [
+"CA",
+"IL",
+"IN"
+],
+"is_division": false
+},
+{
+"id": "foodland",
+"name": "Foodland",
+"channel": "Natural",
+"parent_company": "Foodland",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"DSD"
+],
+"doors": 30,
+"hq_state": "Hawaii",
+"states": [],
+"is_division": false
+},
+{
+"id": "foodtown",
+"name": "Foodtown",
+"channel": "MULO",
+"parent_company": "Foodtown",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE",
+"Rainforest Distributors"
+],
+"doors": 73,
+"hq_state": "New Jersey",
+"states": [
+"NJ",
+"NY",
+"PA"
+],
+"is_division": false
+},
+{
+"id": "frazier-farms",
+"name": "Frazier Farms",
+"channel": "Natural",
+"parent_company": "Frazier Farms",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 3,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "fred-meyer",
+"name": "Fred Meyer",
+"channel": "MULO",
+"parent_company": "Kroger Co.",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 81,
+"hq_state": "Oregon",
+"states": [
+"AK",
+"ID",
+"OR",
+"WA"
+],
+"is_division": false
+},
+{
+"id": "fresh-encounters",
+"name": "Fresh Encounters",
+"channel": "MULO",
+"parent_company": "Fresh Encounters",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 13,
+"hq_state": "Ohio",
+"states": [
+"IN",
+"OH"
+],
+"is_division": false
+},
+{
+"id": "fresh-farms",
+"name": "Fresh Farms",
+"channel": "Natural",
+"parent_company": "Fresh Farms",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 4,
+"hq_state": "Illinois",
+"states": [
+"IL"
+],
+"is_division": false
+},
+{
+"id": "fresh-thyme-market",
+"name": "Fresh Thyme Market",
+"channel": "Natural",
+"parent_company": "Independent",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 69,
+"hq_state": "Illinois",
+"states": [
+"IA",
+"IL",
+"IN",
+"KY",
+"MI",
+"MN",
+"MO",
+"OH",
+"PA",
+"WI"
+],
+"is_division": false
+},
+{
+"id": "freshdirect",
+"name": "FreshDirect",
+"channel": "E-Commerce",
+"parent_company": "FreshDirect",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Rainforest Distributors"
+],
+"doors": null,
+"hq_state": "New York",
+"states": [],
+"is_division": false
+},
+{
+"id": "fruitful-yield",
+"name": "Fruitful Yield",
+"channel": "MULO",
+"parent_company": "Fruitful Yield",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 11,
+"hq_state": "Illinois",
+"states": [
+"IL"
+],
+"is_division": false
+},
+{
+"id": "frys",
+"name": "Fry's Food Stores",
+"channel": "MULO",
+"parent_company": "Kroger Co.",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 131,
+"hq_state": "Arizona",
+"states": [
+"AZ"
+],
+"is_division": false
+},
+{
+"id": "gelsons",
+"name": "Gelson's",
+"channel": "Natural",
+"parent_company": "Gelson's (independent)",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 26,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "giant-eagle",
+"name": "Giant Eagle",
+"channel": "MULO",
+"parent_company": "Independent",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 169,
+"hq_state": "Pennsylvania",
+"states": [
+"MD",
+"OH",
+"PA",
+"WV"
+],
+"is_division": false
+},
+{
+"id": "giant-food-stores",
+"name": "Giant Food Stores (Giant/Martin's)",
+"channel": "MULO",
+"parent_company": "Ahold Delhaize",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 201,
+"hq_state": "Pennsylvania",
+"states": [
+"MD",
+"PA",
+"VA",
+"WV"
+],
+"is_division": false
+},
+{
+"id": "giant-food",
+"name": "Giant Food (Landover)",
+"channel": "MULO",
+"parent_company": "Ahold Delhaize",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Direct"
+],
+"doors": 165,
+"hq_state": "Maryland",
+"states": [
+"DC",
+"DE",
+"MD",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "good-earth-market",
+"name": "Good Earth Market",
+"channel": "Natural",
+"parent_company": "Good Earth",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 8,
+"hq_state": "Utah",
+"states": [
+"UT"
+],
+"is_division": false
+},
+{
+"id": "good-eggs",
+"name": "Good Eggs",
+"channel": "E-Commerce",
+"parent_company": "Good Eggs",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI",
+"Direct",
+"Renaissance Specialty Foods",
+"POD Foods"
+],
+"doors": null,
+"hq_state": "California",
+"states": [],
+"is_division": false
+},
+{
+"id": "gopuff",
+"name": "Gopuff",
+"channel": "E-Commerce",
+"parent_company": "Gopuff",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Direct",
+"Coremark",
+"Vistar Foods"
+],
+"doors": null,
+"hq_state": "Pennsylvania",
+"states": [],
+"is_division": false
+},
+{
+"id": "greens-natural",
+"name": "Greens Natural",
+"channel": "Natural",
+"parent_company": "Greens Natural",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 8,
+"hq_state": "New York",
+"states": [
+"NJ",
+"NY"
+],
+"is_division": false
+},
+{
+"id": "grocery-outlet",
+"name": "Grocery Outlet",
+"channel": "Discount",
+"parent_company": "Grocery Outlet Holding Corp.",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 528,
+"hq_state": "California",
+"states": [
+"CA",
+"DE",
+"ID",
+"MD",
+"NJ",
+"NV",
+"OH",
+"OR",
+"PA",
+"VA",
+"WA"
+],
+"is_division": false
+},
+{
+"id": "gus-s-community-market",
+"name": "Gus's Community Market",
+"channel": "Natural",
+"parent_company": "Gus's Community Market",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 5,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "hannaford",
+"name": "Hannaford",
+"channel": "MULO",
+"parent_company": "Ahold Delhaize",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 187,
+"hq_state": null,
+"states": [
+"MA",
+"ME",
+"NH",
+"NY",
+"VT"
+],
+"is_division": false
+},
+{
+"id": "harmons",
+"name": "Harmons",
+"channel": "Natural",
+"parent_company": "Harmons (independent)",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 20,
+"hq_state": "Utah",
+"states": [
+"UT"
+],
+"is_division": false
+},
+{
+"id": "harris-teeter",
+"name": "Harris Teeter",
+"channel": "MULO",
+"parent_company": "Kroger Co.",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 268,
+"hq_state": "North Carolina",
+"states": [
+"DC",
+"DE",
+"FL",
+"GA",
+"MD",
+"NC",
+"SC",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "healthier-choices-management-green-acres",
+"name": "Healthier Choices Management - Green Acres",
+"channel": "Natural",
+"parent_company": "Healthier Choices Management",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 5,
+"hq_state": "Kansas",
+"states": [
+"KS",
+"OK"
+],
+"is_division": true
+},
+{
+"id": "heb",
+"name": "H-E-B",
+"channel": "MULO",
+"parent_company": "Independent (family-owned)",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"Direct"
+],
+"doors": 355,
+"hq_state": "Texas",
+"states": [
+"TX"
+],
+"is_division": false
+},
+{
+"id": "heinen-s-fine-foods",
+"name": "Heinen's Fine Foods",
+"channel": "Natural",
+"parent_company": "Heinen's Fine Foods",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 23,
+"hq_state": "Ohio",
+"states": [
+"IL",
+"OH"
+],
+"is_division": false
+},
+{
+"id": "hitchcock-s",
+"name": "Hitchcock's",
+"channel": "Natural",
+"parent_company": "Hitchcock's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 11,
+"hq_state": "Florida",
+"states": [],
+"is_division": false
+},
+{
+"id": "hmart",
+"name": "H Mart",
+"channel": "Alternative",
+"parent_company": "Independent",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 88,
+"hq_state": "New Jersey",
+"states": [
+"CA",
+"GA",
+"IL",
+"MA",
+"MD",
+"NJ",
+"NY",
+"PA",
+"TX",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "hornbachers",
+"name": "Hornbachers",
+"channel": "MULO",
+"parent_company": "Hornbachers",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 7,
+"hq_state": "North Dakota",
+"states": [
+"MN",
+"ND"
+],
+"is_division": false
+},
+{
+"id": "houchens",
+"name": "Houchens",
+"channel": "MULO",
+"parent_company": "Houchens",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 400,
+"hq_state": "Kentucky",
+"states": [],
+"is_division": false
+},
+{
+"id": "hugo-s",
+"name": "Hugo's",
+"channel": "MULO",
+"parent_company": "Hugo's",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 35,
+"hq_state": "Illinois",
+"states": [
+"MN",
+"ND"
+],
+"is_division": false
+},
+{
+"id": "hungryroot",
+"name": "Hungryroot",
+"channel": "E-Commerce",
+"parent_company": "Hungryroot",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": null,
+"hq_state": "New York",
+"states": [],
+"is_division": false
+},
+{
+"id": "hy-vee",
+"name": "Hy-Vee",
+"channel": "MULO",
+"parent_company": "Independent (employee-owned)",
+"dist_primary": null,
+"distributors": [],
+"doors": 275,
+"hq_state": null,
+"states": [
+"IA",
+"IL",
+"KS",
+"MN",
+"MO",
+"NE",
+"SD",
+"WI"
+],
+"is_division": false
+},
+{
+"id": "hyvee",
+"name": "HyVee",
+"channel": "MULO",
+"parent_company": "HyVee",
+"dist_primary": null,
+"distributors": [
+"LOMAR"
+],
+"doors": 275,
+"hq_state": "Iowa",
+"states": [
+"IA",
+"IL",
+"KS",
+"MN",
+"MO",
+"NE",
+"SD",
+"WI"
+],
+"is_division": false
+},
+{
+"id": "iherb-vitacost",
+"name": "iHerb - Vitacost",
+"channel": "E-Commerce",
+"parent_company": "iHerb",
+"dist_primary": "Direct",
+"distributors": [
+"Direct",
+"UNFI"
+],
+"doors": null,
+"hq_state": "Ohio",
+"states": [],
+"is_division": true
+},
+{
+"id": "infra",
+"name": "INFRA",
+"channel": "Natural",
+"parent_company": "INFRA",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI",
+"GFI"
+],
+"doors": 360,
+"hq_state": "Minnesota",
+"states": [],
+"is_division": false
+},
+{
+"id": "ingles",
+"name": "Ingles",
+"channel": "MULO",
+"parent_company": "Ingles",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 134,
+"hq_state": "North Carolina",
+"states": [
+"AL",
+"GA",
+"NC",
+"SC",
+"TN",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "jensen-s",
+"name": "Jensen's",
+"channel": "Natural",
+"parent_company": "Jensen's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 4,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "jerry-s-fine-foods",
+"name": "Jerry's Fine Foods",
+"channel": "MULO",
+"parent_company": "Jerry's Fine Foods",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 5,
+"hq_state": "Minnesota",
+"states": [
+"MN",
+"WI"
+],
+"is_division": false
+},
+{
+"id": "jewel-osco",
+"name": "Jewel-Osco",
+"channel": "MULO",
+"parent_company": "Albertsons Companies",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 190,
+"hq_state": "Illinois",
+"states": [
+"IA",
+"IL",
+"IN"
+],
+"is_division": false
+},
+{
+"id": "jimbo-s-naturally",
+"name": "Jimbo's Naturally",
+"channel": "Natural",
+"parent_company": "Jimbo's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE",
+"Foundation Foods"
+],
+"doors": 4,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "jungle-jim-s",
+"name": "Jungle Jim's",
+"channel": "Natural",
+"parent_company": "Jungle Jim's",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 2,
+"hq_state": "Ohio",
+"states": [
+"OH"
+],
+"is_division": false
+},
+{
+"id": "key-food",
+"name": "Key Food",
+"channel": "MULO",
+"parent_company": "Key Food",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Rainforest Distributors"
+],
+"doors": 375,
+"hq_state": "New York",
+"states": [
+"CT",
+"FL",
+"MA",
+"NJ",
+"NY",
+"PA",
+"RI"
+],
+"is_division": false
+},
+{
+"id": "kimberton-whole-foods",
+"name": "Kimberton Whole Foods",
+"channel": "Natural",
+"parent_company": "Kimberton Whole Foods",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 9,
+"hq_state": "Pennsylvania",
+"states": [
+"PA"
+],
+"is_division": false
+},
+{
+"id": "king-kullen",
+"name": "King Kullen",
+"channel": "MULO",
+"parent_company": "King Kullen",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 24,
+"hq_state": "New York",
+"states": [
+"NY"
+],
+"is_division": false
+},
+{
+"id": "king-soopers",
+"name": "King Soopers",
+"channel": "MULO",
+"parent_company": "Kroger Co.",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 128,
+"hq_state": "Colorado",
+"states": [
+"CO",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "knowlan-s",
+"name": "Knowlan's",
+"channel": "MULO",
+"parent_company": "Knowlan's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 2,
+"hq_state": "Minnesota",
+"states": [
+"MN"
+],
+"is_division": false
+},
+{
+"id": "kowalski-s",
+"name": "Kowalski's",
+"channel": "MULO",
+"parent_company": "Kowalski's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 11,
+"hq_state": "Minnesota",
+"states": [
+"MN"
+],
+"is_division": false
+},
+{
+"id": "kroger-dillon-s",
+"name": "Kroger - Dillon's",
+"channel": "MULO",
+"parent_company": "Kroger",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 65,
+"hq_state": "Kansas",
+"states": [
+"KS"
+],
+"is_division": true
+},
+{
+"id": "kroger-metro-market",
+"name": "Kroger - Metro Market",
+"channel": "MULO",
+"parent_company": "Kroger",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 10,
+"hq_state": "Wisconsin",
+"states": [
+"WI"
+],
+"is_division": true
+},
+{
+"id": "kroger-pick-n-save",
+"name": "Kroger - Pick 'n Save",
+"channel": "MULO",
+"parent_company": "Kroger",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 77,
+"hq_state": "Wisconsin",
+"states": [
+"WI"
+],
+"is_division": true
+},
+{
+"id": "kroger-ralph-s",
+"name": "Kroger - Ralph's",
+"channel": "MULO",
+"parent_company": "Kroger",
+"dist_primary": "DSD",
+"distributors": [
+"DSD",
+"KeHE"
+],
+"doors": 189,
+"hq_state": "California",
+"states": [
+"CA",
+"KY"
+],
+"is_division": true
+},
+{
+"id": "kroger",
+"name": "Kroger",
+"channel": "MULO",
+"parent_company": "Kroger Co.",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 1261,
+"hq_state": "Ohio",
+"states": [
+"AL",
+"AR",
+"GA",
+"IL",
+"IN",
+"KY",
+"LA",
+"MI",
+"MO",
+"MS",
+"OH",
+"SC",
+"TN",
+"TX",
+"VA",
+"WV"
+],
+"is_division": false
+},
+{
+"id": "landis-market",
+"name": "Landis Market",
+"channel": "Natural",
+"parent_company": "Landis Market",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 4,
+"hq_state": "Pennsylvania",
+"states": [
+"PA"
+],
+"is_division": false
+},
+{
+"id": "lassen-s",
+"name": "Lassen's",
+"channel": "Natural",
+"parent_company": "Lassen's",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 10,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "lazy-acres",
+"name": "Lazy Acres",
+"channel": "Natural",
+"parent_company": "Lazy Acres",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 6,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "lidl",
+"name": "Lidl",
+"channel": "MULO",
+"parent_company": "Lidl",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 175,
+"hq_state": "Virginia",
+"states": [
+"DC",
+"DE",
+"GA",
+"MD",
+"NC",
+"NJ",
+"NY",
+"PA",
+"SC",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "loop-neighborhood-market",
+"name": "Loop Neighborhood Market",
+"channel": "C-Store",
+"parent_company": "Loop Neighborhood Market",
+"dist_primary": "DSD",
+"distributors": [
+"DSD"
+],
+"doors": 62,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "lowe-s-foods",
+"name": "Lowe's Foods",
+"channel": "MULO",
+"parent_company": "Lowe's Foods",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 83,
+"hq_state": "North Carolina",
+"states": [
+"GA",
+"NC",
+"SC"
+],
+"is_division": false
+},
+{
+"id": "lucky-s-savemart",
+"name": "Lucky's & SaveMart",
+"channel": "MULO",
+"parent_company": "Lucky's & SaveMart",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 194,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "luke-s-local",
+"name": "Luke's Local",
+"channel": "Natural",
+"parent_company": "Luke's Local",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 4,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "lunardi-s",
+"name": "Lunardi's",
+"channel": "MULO",
+"parent_company": "Lunardi's",
+"dist_primary": null,
+"distributors": [],
+"doors": 8,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "lunds-byerly-s",
+"name": "Lunds & Byerly's",
+"channel": "MULO",
+"parent_company": "Lunds & Byerly's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 26,
+"hq_state": "Minnesota",
+"states": [],
+"is_division": false
+},
+{
+"id": "lunds-byerlys",
+"name": "Lunds & Byerlys",
+"channel": "Alternative",
+"parent_company": "Independent",
+"dist_primary": null,
+"distributors": [],
+"doors": 27,
+"hq_state": null,
+"states": [
+"MN"
+],
+"is_division": false
+},
+{
+"id": "marianos",
+"name": "Mariano's",
+"channel": "MULO",
+"parent_company": "Kroger Co.",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 40,
+"hq_state": "Illinois",
+"states": [
+"IL"
+],
+"is_division": false
+},
+{
+"id": "market-basket-demoula-s",
+"name": "Market Basket / Demoula's",
+"channel": "MULO",
+"parent_company": "Market Basket",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 95,
+"hq_state": "Massachusetts",
+"states": [
+"MA",
+"ME",
+"NH",
+"RI"
+],
+"is_division": false
+},
+{
+"id": "market-basket",
+"name": "Market Basket",
+"channel": "MULO",
+"parent_company": "Independent (DeMoulas family)",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 95,
+"hq_state": null,
+"states": [
+"MA",
+"ME",
+"NH",
+"RI"
+],
+"is_division": false
+},
+{
+"id": "market-of-choice",
+"name": "Market of Choice",
+"channel": "Natural",
+"parent_company": "Market of Choice",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 13,
+"hq_state": "Oregon",
+"states": [
+"OR"
+],
+"is_division": false
+},
+{
+"id": "maverik",
+"name": "Maverik",
+"channel": "C-Store",
+"parent_company": "Maverik",
+"dist_primary": "DSD",
+"distributors": [
+"DSD"
+],
+"doors": 547,
+"hq_state": "Utah",
+"states": [
+"AZ",
+"CA",
+"CO",
+"ID",
+"NE",
+"NM",
+"NV",
+"UT",
+"WA",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "mccaffrey-s",
+"name": "McCaffrey's",
+"channel": "MULO",
+"parent_company": "McCaffrey's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 9,
+"hq_state": "Pennsylvania",
+"states": [
+"NJ",
+"PA"
+],
+"is_division": false
+},
+{
+"id": "meijer",
+"name": "Meijer",
+"channel": "MULO",
+"parent_company": "Independent",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 282,
+"hq_state": "Michigan",
+"states": [
+"IL",
+"IN",
+"KY",
+"MI",
+"OH",
+"WI"
+],
+"is_division": false
+},
+{
+"id": "metropolitan-market",
+"name": "Metropolitan Market",
+"channel": "Alternative",
+"parent_company": "Independent",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 10,
+"hq_state": "Washington",
+"states": [
+"WA"
+],
+"is_division": false
+},
+{
+"id": "milams-markets",
+"name": "Milam's Markets",
+"channel": "MULO",
+"parent_company": "Independent",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 7,
+"hq_state": "Florida",
+"states": [
+"FL"
+],
+"is_division": false
+},
+{
+"id": "miners-super-one",
+"name": "Miners / Super One",
+"channel": "MULO",
+"parent_company": "Miners / Super One",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 32,
+"hq_state": "Minnesota",
+"states": [],
+"is_division": false
+},
+{
+"id": "misfits-market",
+"name": "Misfits Market",
+"channel": "Closeout",
+"parent_company": "Misfits Market",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": null,
+"hq_state": "Oregon",
+"states": [],
+"is_division": false
+},
+{
+"id": "mollie-stones",
+"name": "Mollie Stones",
+"channel": "Natural",
+"parent_company": "Mollie Stones",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 9,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "mom-s-organic-market",
+"name": "Mom's Organic Market",
+"channel": "Natural",
+"parent_company": "Mom's Organic Market",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 27,
+"hq_state": "Virginia",
+"states": [
+"DC",
+"MA",
+"MD",
+"NJ",
+"NY",
+"PA",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "morton-williams",
+"name": "Morton Williams",
+"channel": "Natural",
+"parent_company": "Morton Williams",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 15,
+"hq_state": "New York",
+"states": [
+"NY"
+],
+"is_division": false
+},
+{
+"id": "mother-s-market",
+"name": "Mother's Market",
+"channel": "Natural",
+"parent_company": "Mother's Market",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 12,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "mustard-seed",
+"name": "Mustard Seed",
+"channel": "Natural",
+"parent_company": "Mustard Seed",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 2,
+"hq_state": "Ohio",
+"states": [
+"OH"
+],
+"is_division": false
+},
+{
+"id": "national-coop-group-outpost-coop",
+"name": "National Coop Group - Outpost Coop",
+"channel": "Natural",
+"parent_company": "National Coop Group",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 4,
+"hq_state": "Wisconsin",
+"states": [
+"WI"
+],
+"is_division": true
+},
+{
+"id": "natural-grocers-vitamin-cottage",
+"name": "Natural Grocers / Vitamin Cottage",
+"channel": "Natural",
+"parent_company": "Natural Grocers",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 171,
+"hq_state": "Colorado",
+"states": [
+"AR",
+"AZ",
+"CO",
+"IA",
+"ID",
+"KS",
+"LA",
+"MN",
+"MO",
+"MT",
+"ND",
+"NE",
+"NM",
+"NV",
+"OK",
+"OR",
+"SD",
+"TX",
+"UT",
+"WA",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "natural-grocers",
+"name": "Natural Grocers",
+"channel": "Natural",
+"parent_company": "Independent",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 178,
+"hq_state": null,
+"states": [
+"AR",
+"AZ",
+"CO",
+"IA",
+"ID",
+"KS",
+"LA",
+"MN",
+"MO",
+"MT",
+"ND",
+"NE",
+"NM",
+"NV",
+"OK",
+"OR",
+"SD",
+"TX",
+"UT",
+"WA",
+"WI",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "ncg",
+"name": "NCG",
+"channel": "Natural",
+"parent_company": "NCG",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 230,
+"hq_state": "Minnesota",
+"states": [],
+"is_division": false
+},
+{
+"id": "new-leaf",
+"name": "New Leaf",
+"channel": "Natural",
+"parent_company": "New Leaf",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 5,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "new-seasons",
+"name": "New Seasons",
+"channel": "MULO",
+"parent_company": "New Seasons",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 22,
+"hq_state": "Oregon",
+"states": [
+"OR",
+"WA"
+],
+"is_division": false
+},
+{
+"id": "nex-navy-exchange",
+"name": "NEX Navy Exchange",
+"channel": "Military",
+"parent_company": "NEX Navy Exchange",
+"dist_primary": null,
+"distributors": [],
+"doors": 300,
+"hq_state": "Virginia",
+"states": [],
+"is_division": false
+},
+{
+"id": "niemann-s",
+"name": "Niemann's",
+"channel": "MULO",
+"parent_company": "Niemann's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 4,
+"hq_state": "Illinois",
+"states": [
+"IL"
+],
+"is_division": false
+},
+{
+"id": "northeast-grocers-price-chopper",
+"name": "Northeast Grocers - Price Chopper",
+"channel": "MULO",
+"parent_company": "Northeast Grocers",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 130,
+"hq_state": "New York",
+"states": [
+"CT",
+"MA",
+"NH",
+"NY",
+"PA",
+"VT"
+],
+"is_division": true
+},
+{
+"id": "northeast-grocers-tops",
+"name": "Northeast Grocers - Tops",
+"channel": "MULO",
+"parent_company": "Northeast Grocers",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 148,
+"hq_state": "New York",
+"states": [
+"NY",
+"PA",
+"VT"
+],
+"is_division": true
+},
+{
+"id": "northwest-grocer",
+"name": "Northwest Grocer",
+"channel": "MULO",
+"parent_company": "Northwest Grocer",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 88,
+"hq_state": "Washington",
+"states": [],
+"is_division": false
+},
+{
+"id": "nugget",
+"name": "Nugget",
+"channel": "MULO",
+"parent_company": "Nugget",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 18,
+"hq_state": "California",
+"states": [],
+"is_division": false
+},
+{
+"id": "oliver-s",
+"name": "Oliver's",
+"channel": "Natural",
+"parent_company": "Oliver's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 4,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "otg-cibo-markets",
+"name": "OTG Cibo Markets",
+"channel": "Alternate",
+"parent_company": "OTG",
+"dist_primary": "Direct",
+"distributors": [
+"Direct",
+"KeHE"
+],
+"doors": 350,
+"hq_state": "New York",
+"states": [],
+"is_division": false
+},
+{
+"id": "pcc-community-markets",
+"name": "PCC Community Markets",
+"channel": "Natural",
+"parent_company": "Independent (co-op)",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 16,
+"hq_state": "Washington",
+"states": [
+"WA"
+],
+"is_division": false
+},
+{
+"id": "petes-market",
+"name": "Pete's Market",
+"channel": "Alternative",
+"parent_company": "Independent",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 21,
+"hq_state": "Illinois",
+"states": [
+"IL"
+],
+"is_division": false
+},
+{
+"id": "plaid-pantry",
+"name": "Plaid Pantry",
+"channel": "C-Store",
+"parent_company": "Plaid Pantry",
+"dist_primary": null,
+"distributors": [
+"Coremark"
+],
+"doors": 107,
+"hq_state": "Oregon",
+"states": [
+"OR",
+"WA"
+],
+"is_division": false
+},
+{
+"id": "plum-market",
+"name": "Plum Market",
+"channel": "Natural",
+"parent_company": "Plum Market",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 6,
+"hq_state": "Michigan",
+"states": [
+"FL",
+"MI"
+],
+"is_division": false
+},
+{
+"id": "publix",
+"name": "Publix",
+"channel": "MULO",
+"parent_company": "Independent (employee-owned)",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"Direct"
+],
+"doors": 1439,
+"hq_state": "Florida",
+"states": [
+"AL",
+"FL",
+"GA",
+"KY",
+"NC",
+"SC",
+"TN",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "qfc",
+"name": "QFC (Quality Food Centers)",
+"channel": "MULO",
+"parent_company": "Kroger Co.",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"Crown Pacific Fine Foods"
+],
+"doors": 60,
+"hq_state": "Washington",
+"states": [],
+"is_division": false
+},
+{
+"id": "quiktrip",
+"name": "QuikTrip",
+"channel": "C-Store",
+"parent_company": "QuikTrip",
+"dist_primary": "DSD",
+"distributors": [
+"DSD"
+],
+"doors": 1085,
+"hq_state": "Oklahoma",
+"states": [
+"AZ",
+"GA",
+"IA",
+"KS",
+"MO",
+"NC",
+"NE",
+"OK",
+"SC",
+"TX"
+],
+"is_division": false
+},
+{
+"id": "raley-s-aj-s-finest-foods",
+"name": "Raley's - AJ's Finest Foods",
+"channel": "MULO",
+"parent_company": "Raley's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Direct",
+"DSD"
+],
+"doors": 11,
+"hq_state": "Arizona",
+"states": [
+"AZ"
+],
+"is_division": true
+},
+{
+"id": "raleys",
+"name": "Raley's",
+"channel": "MULO",
+"parent_company": "Raley's (The Raley's Companies)",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 74,
+"hq_state": "California",
+"states": [
+"CA",
+"NV"
+],
+"is_division": false
+},
+{
+"id": "ralphs",
+"name": "Ralphs",
+"channel": "MULO",
+"parent_company": "Kroger Co.",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 189,
+"hq_state": null,
+"states": [
+"CA",
+"KY"
+],
+"is_division": false
+},
+{
+"id": "redner-s-markets",
+"name": "Redner's Markets",
+"channel": "MULO",
+"parent_company": "Redner's Markets",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 68,
+"hq_state": "Pennsylvania",
+"states": [
+"DE",
+"MD",
+"PA"
+],
+"is_division": false
+},
+{
+"id": "roche-bros",
+"name": "Roche Bros.",
+"channel": "MULO",
+"parent_company": "Independent",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 20,
+"hq_state": null,
+"states": [
+"MA"
+],
+"is_division": false
+},
+{
+"id": "roche-brothers",
+"name": "Roche Brothers",
+"channel": "MULO",
+"parent_company": "Roche Brothers",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Bozzutos",
+"Chex Fine Foods"
+],
+"doors": 20,
+"hq_state": "Massachusetts",
+"states": [],
+"is_division": false
+},
+{
+"id": "rosauers-huckleberries",
+"name": "Rosauers/Huckleberries",
+"channel": "MULO",
+"parent_company": "Rosauers/Huckleberries",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 21,
+"hq_state": "Washington",
+"states": [
+"ID",
+"MT",
+"OR",
+"WA"
+],
+"is_division": false
+},
+{
+"id": "rouses-markets",
+"name": "Rouses Markets",
+"channel": "MULO",
+"parent_company": "Rouses Markets",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 66,
+"hq_state": "Louisiana",
+"states": [
+"AL",
+"LA",
+"MS"
+],
+"is_division": false
+},
+{
+"id": "ruler-foods",
+"name": "Ruler Foods",
+"channel": "Discount",
+"parent_company": "Kroger Co.",
+"dist_primary": null,
+"distributors": [],
+"doors": 45,
+"hq_state": null,
+"states": [],
+"is_division": false
+},
+{
+"id": "safeway",
+"name": "Safeway",
+"channel": "MULO",
+"parent_company": "Albertsons Companies",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 918,
+"hq_state": null,
+"states": [
+"AK",
+"AZ",
+"CA",
+"CO",
+"DC",
+"DE",
+"HI",
+"ID",
+"MD",
+"MT",
+"NE",
+"NM",
+"NV",
+"OR",
+"SD",
+"VA",
+"WA",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "sams-club",
+"name": "Sam's Club",
+"channel": "Club",
+"parent_company": "Walmart Inc.",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 603,
+"hq_state": "Arkansas",
+"states": [
+"AL",
+"AR",
+"AZ",
+"CA",
+"CO",
+"CT",
+"DE",
+"FL",
+"GA",
+"HI",
+"IA",
+"ID",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MD",
+"ME",
+"MI",
+"MN",
+"MO",
+"MS",
+"MT",
+"NC",
+"ND",
+"NE",
+"NH",
+"NJ",
+"NM",
+"NV",
+"NY",
+"OH",
+"OK",
+"PA",
+"PR",
+"SC",
+"SD",
+"TN",
+"TX",
+"UT",
+"VA",
+"WI",
+"WV",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "save-a-lot",
+"name": "Save A Lot",
+"channel": "Discount",
+"parent_company": "Save A Lot, LLC (mostly independently franchised)",
+"dist_primary": null,
+"distributors": [],
+"doors": 777,
+"hq_state": null,
+"states": [
+"FL",
+"IL",
+"IN",
+"KY",
+"MI",
+"MO",
+"NY",
+"OH",
+"PA",
+"TN"
+],
+"is_division": false
+},
+{
+"id": "save-more-foods",
+"name": "Save More Foods",
+"channel": "Discount",
+"parent_company": "Independent",
+"dist_primary": null,
+"distributors": [],
+"doors": 5,
+"hq_state": null,
+"states": [],
+"is_division": false
+},
+{
+"id": "schnucks",
+"name": "Schnucks",
+"channel": "MULO",
+"parent_company": "Schnucks",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 114,
+"hq_state": "Missouri",
+"states": [
+"IA",
+"IL",
+"IN",
+"MO",
+"WI"
+],
+"is_division": false
+},
+{
+"id": "sendik-s",
+"name": "Sendik's",
+"channel": "MULO",
+"parent_company": "Sendik's",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 17,
+"hq_state": "Wisconsin",
+"states": [
+"WI"
+],
+"is_division": false
+},
+{
+"id": "shaws",
+"name": "Shaw's",
+"channel": "MULO",
+"parent_company": "Albertsons Companies",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 126,
+"hq_state": "Massachusetts",
+"states": [
+"MA",
+"ME",
+"NH",
+"RI",
+"VT"
+],
+"is_division": false
+},
+{
+"id": "sheetz",
+"name": "Sheetz",
+"channel": "C-Store",
+"parent_company": "Sheetz",
+"dist_primary": "DSD",
+"distributors": [
+"DSD"
+],
+"doors": 736,
+"hq_state": "Pennsylvania",
+"states": [
+"MD",
+"NC",
+"OH",
+"PA",
+"VA",
+"WV"
+],
+"is_division": false
+},
+{
+"id": "shoprite",
+"name": "ShopRite",
+"channel": "MULO",
+"parent_company": "Wakefern Food Corp. (member-owned)",
+"dist_primary": null,
+"distributors": [],
+"doors": 225,
+"hq_state": null,
+"states": [
+"CT",
+"DE",
+"MD",
+"NJ",
+"NY",
+"PA"
+],
+"is_division": false
+},
+{
+"id": "smart-final",
+"name": "Smart & Final",
+"channel": "Discount",
+"parent_company": "Independent",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 254,
+"hq_state": "California",
+"states": [
+"AZ",
+"CA",
+"NV"
+],
+"is_division": false
+},
+{
+"id": "smiths",
+"name": "Smith's Food and Drug",
+"channel": "MULO",
+"parent_company": "Kroger Co.",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 140,
+"hq_state": "Utah",
+"states": [
+"AZ",
+"ID",
+"MT",
+"NM",
+"NV",
+"UT",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "spartannash",
+"name": "SpartanNash",
+"channel": "MULO",
+"parent_company": "SpartanNash",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 150,
+"hq_state": "Michigan",
+"states": [],
+"is_division": false
+},
+{
+"id": "speedway",
+"name": "Speedway",
+"channel": "C-Store",
+"parent_company": "Speedway",
+"dist_primary": "DSD",
+"distributors": [
+"DSD"
+],
+"doors": 2854,
+"hq_state": "Ohio",
+"states": [
+"AL",
+"AR",
+"AZ",
+"CA",
+"CO",
+"CT",
+"DE",
+"FL",
+"GA",
+"IA",
+"IL",
+"IN",
+"KY",
+"MA",
+"MI",
+"MN",
+"MO",
+"NC",
+"NH",
+"NJ",
+"NM",
+"NV",
+"NY",
+"OH",
+"PA",
+"RI",
+"SC",
+"SD",
+"TN",
+"TX",
+"UT",
+"VA",
+"WI",
+"WV"
+],
+"is_division": false
+},
+{
+"id": "sprouts",
+"name": "Sprouts Farmers Market",
+"channel": "Natural",
+"parent_company": "Independent",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 512,
+"hq_state": "Arizona",
+"states": [
+"AL",
+"AZ",
+"CA",
+"CO",
+"DE",
+"FL",
+"GA",
+"KS",
+"LA",
+"MD",
+"MO",
+"NC",
+"NJ",
+"NM",
+"NV",
+"NY",
+"OK",
+"PA",
+"SC",
+"TN",
+"TX",
+"UT",
+"VA",
+"WA",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "star-market",
+"name": "Star Market",
+"channel": "MULO",
+"parent_company": "Albertsons Companies",
+"dist_primary": null,
+"distributors": [],
+"doors": 20,
+"hq_state": null,
+"states": [],
+"is_division": false
+},
+{
+"id": "stater-bros",
+"name": "Stater Bros. Markets",
+"channel": "MULO",
+"parent_company": "Independent",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 165,
+"hq_state": null,
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "stater-brothers",
+"name": "Stater Brothers",
+"channel": "MULO",
+"parent_company": "Stater Brothers",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 166,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "stew-leonards",
+"name": "Stew Leonards",
+"channel": "MULO",
+"parent_company": "Stew Leonards",
+"dist_primary": null,
+"distributors": [],
+"doors": 8,
+"hq_state": "Connecticut",
+"states": [],
+"is_division": false
+},
+{
+"id": "stop-shop",
+"name": "Stop & Shop",
+"channel": "MULO",
+"parent_company": "Ahold Delhaize",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Rainforest Distributors"
+],
+"doors": 365,
+"hq_state": "Massachusetts",
+"states": [
+"CT",
+"MA",
+"NJ",
+"NY",
+"RI"
+],
+"is_division": false
+},
+{
+"id": "strack-van-til",
+"name": "Strack & Van Til",
+"channel": "MULO",
+"parent_company": "Hy-Vee",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 22,
+"hq_state": "Indiana",
+"states": [
+"IN"
+],
+"is_division": false
+},
+{
+"id": "sullivan-s",
+"name": "Sullivan's",
+"channel": "Natural",
+"parent_company": "Sullivan's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 10,
+"hq_state": "Mississippi",
+"states": [],
+"is_division": false
+},
+{
+"id": "sunset-foods",
+"name": "Sunset Foods",
+"channel": "MULO",
+"parent_company": "Sunset Foods",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 7,
+"hq_state": "Illinois",
+"states": [
+"IL"
+],
+"is_division": false
+},
+{
+"id": "super-1-foods",
+"name": "Super 1 Foods",
+"channel": "MULO",
+"parent_company": "Super 1 Foods",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"KeHE"
+],
+"doors": 16,
+"hq_state": "Washington",
+"states": [
+"ID",
+"MT"
+],
+"is_division": false
+},
+{
+"id": "target",
+"name": "Target",
+"channel": "Mass",
+"parent_company": "Target Corp.",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 2027,
+"hq_state": "Minnesota",
+"states": [
+"AK",
+"AL",
+"AR",
+"AZ",
+"CA",
+"CO",
+"CT",
+"DC",
+"DE",
+"FL",
+"GA",
+"HI",
+"IA",
+"ID",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MA",
+"MD",
+"ME",
+"MI",
+"MN",
+"MO",
+"MS",
+"MT",
+"NC",
+"ND",
+"NE",
+"NH",
+"NJ",
+"NM",
+"NV",
+"NY",
+"OH",
+"OK",
+"OR",
+"PA",
+"RI",
+"SC",
+"SD",
+"TN",
+"TX",
+"UT",
+"VA",
+"VT",
+"WA",
+"WI",
+"WV",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "the-fresh-market",
+"name": "The Fresh Market",
+"channel": "Natural",
+"parent_company": "Independent",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Chex Fine Foods"
+],
+"doors": 173,
+"hq_state": "North Carolina",
+"states": [
+"AL",
+"AR",
+"CT",
+"DE",
+"FL",
+"GA",
+"IL",
+"IN",
+"KY",
+"LA",
+"MA",
+"MD",
+"MS",
+"NC",
+"NJ",
+"NY",
+"OH",
+"OK",
+"PA",
+"SC",
+"TN",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "thrive-market",
+"name": "Thrive Market",
+"channel": "E-Commerce",
+"parent_company": "Thrive Market",
+"dist_primary": "Direct",
+"distributors": [
+"Direct",
+"UNFI"
+],
+"doors": null,
+"hq_state": "California",
+"states": [],
+"is_division": false
+},
+{
+"id": "times-supermarket",
+"name": "Times Supermarket",
+"channel": "Natural",
+"parent_company": "Times Supermarket",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 24,
+"hq_state": "Hawaii",
+"states": [],
+"is_division": false
+},
+{
+"id": "tonys-fresh-market",
+"name": "Tony's Fresh Market",
+"channel": "Alternative",
+"parent_company": "Independent",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 21,
+"hq_state": "Illinois",
+"states": [
+"IL"
+],
+"is_division": false
+},
+{
+"id": "town-and-country",
+"name": "Town and Country",
+"channel": "MULO",
+"parent_company": "Independent",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 6,
+"hq_state": "Oregon",
+"states": [
+"WA"
+],
+"is_division": false
+},
+{
+"id": "trader-joes",
+"name": "Trader Joe's",
+"channel": "Alternative",
+"parent_company": "Independent (Aldi S\u00fcd family)",
+"dist_primary": null,
+"distributors": [],
+"doors": 608,
+"hq_state": null,
+"states": [
+"AZ",
+"CA",
+"FL",
+"IL",
+"MA",
+"NJ",
+"NY",
+"TX",
+"VA",
+"WA"
+],
+"is_division": false
+},
+{
+"id": "uncle-guiseppe-s",
+"name": "Uncle Guiseppe's",
+"channel": "MULO",
+"parent_company": "Uncle Guiseppe's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 12,
+"hq_state": "New York",
+"states": [],
+"is_division": false
+},
+{
+"id": "union-market",
+"name": "Union Market",
+"channel": "Natural",
+"parent_company": "Union Market",
+"dist_primary": null,
+"distributors": [
+"Chex Fine Foods"
+],
+"doors": 6,
+"hq_state": "New York",
+"states": [
+"NY"
+],
+"is_division": false
+},
+{
+"id": "us-defense-commissaries-deca",
+"name": "US Defense Commissaries (DeCA)",
+"channel": "Alternate",
+"parent_company": "US Defense Commissaries",
+"dist_primary": null,
+"distributors": [],
+"doors": 240,
+"hq_state": "Virginia",
+"states": [],
+"is_division": false
+},
+{
+"id": "vantils",
+"name": "Van Til's Super Market",
+"channel": "MULO",
+"parent_company": "Independent",
+"dist_primary": null,
+"distributors": [],
+"doors": 22,
+"hq_state": null,
+"states": [
+"IN"
+],
+"is_division": false
+},
+{
+"id": "vitamin-shoppe",
+"name": "Vitamin Shoppe",
+"channel": "Specialty",
+"parent_company": "Vitamin Shoppe",
+"dist_primary": null,
+"distributors": [],
+"doors": 709,
+"hq_state": "New Jersey",
+"states": [
+"CA",
+"FL",
+"GA",
+"IL",
+"NC",
+"NJ",
+"NY",
+"TX",
+"VA",
+"WA"
+],
+"is_division": false
+},
+{
+"id": "vons",
+"name": "Vons",
+"channel": "MULO",
+"parent_company": "Albertsons Companies",
+"dist_primary": null,
+"distributors": [],
+"doors": 187,
+"hq_state": null,
+"states": [
+"CA",
+"NV"
+],
+"is_division": false
+},
+{
+"id": "wakefern-shoprite-price-rite-the-fresh-grocer",
+"name": "Wakefern - Shoprite, Price Rite, The Fresh Grocer",
+"channel": "MULO",
+"parent_company": "Wakefern",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Direct"
+],
+"doors": 340,
+"hq_state": "New Jersey",
+"states": [],
+"is_division": true
+},
+{
+"id": "wakefern-village-supermarket-fairway-gourmet-garage-select-shoprites",
+"name": "Wakefern - Village Supermarket - Fairway, Gourmet Garage, select Shoprites",
+"channel": "MULO",
+"parent_company": "Wakefern",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI",
+"Direct",
+"Chex Fine Foods"
+],
+"doors": 40,
+"hq_state": "New Jersey",
+"states": [],
+"is_division": true
+},
+{
+"id": "walgreens",
+"name": "Walgreens",
+"channel": "Drug",
+"parent_company": "Walgreens",
+"dist_primary": null,
+"distributors": [
+"DOT Foods"
+],
+"doors": 7983,
+"hq_state": "Illinois",
+"states": [
+"AK",
+"AL",
+"AR",
+"AZ",
+"CA",
+"CO",
+"CT",
+"DC",
+"DE",
+"FL",
+"GA",
+"HI",
+"IA",
+"ID",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MA",
+"MD",
+"ME",
+"MI",
+"MN",
+"MO",
+"MS",
+"MT",
+"NC",
+"ND",
+"NE",
+"NH",
+"NJ",
+"NM",
+"NV",
+"NY",
+"OH",
+"OK",
+"OR",
+"PA",
+"PR",
+"RI",
+"SC",
+"SD",
+"TN",
+"TX",
+"UT",
+"VA",
+"VI",
+"VT",
+"WA",
+"WA_dup_ignore",
+"WI",
+"WV",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "walmart",
+"name": "Walmart",
+"channel": "Mass",
+"parent_company": "Walmart Inc.",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"Direct",
+"DSD"
+],
+"doors": 4598,
+"hq_state": "Arkansas",
+"states": [
+"AK",
+"AL",
+"AR",
+"AZ",
+"CA",
+"CO",
+"CT",
+"DC",
+"DE",
+"FL",
+"GA",
+"HI",
+"IA",
+"ID",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MA",
+"MD",
+"ME",
+"MI",
+"MN",
+"MO",
+"MS",
+"MT",
+"NC",
+"ND",
+"NE",
+"NH",
+"NJ",
+"NM",
+"NV",
+"NY",
+"OH",
+"OK",
+"OR",
+"PA",
+"PR",
+"RI",
+"SC",
+"SD",
+"TN",
+"TX",
+"UT",
+"VA",
+"VT",
+"WA",
+"WI",
+"WV",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "wawa",
+"name": "Wawa",
+"channel": "C-Store",
+"parent_company": "Wawa",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 1050,
+"hq_state": "Pennsylvania",
+"states": [
+"DC",
+"DE",
+"FL",
+"MD",
+"NJ",
+"PA",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "wegmans",
+"name": "Wegmans",
+"channel": "MULO",
+"parent_company": "Independent",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 116,
+"hq_state": "New York",
+"states": [
+"CT",
+"DC",
+"DE",
+"MA",
+"MD",
+"NC",
+"NJ",
+"NY",
+"PA",
+"VA"
+],
+"is_division": false
+},
+{
+"id": "weis-markets",
+"name": "Weis Markets",
+"channel": "MULO",
+"parent_company": "Independent",
+"dist_primary": null,
+"distributors": [
+"Davidson"
+],
+"doors": 197,
+"hq_state": "Pennsylvania",
+"states": [
+"DE",
+"MD",
+"NJ",
+"NY",
+"PA",
+"VA",
+"WV"
+],
+"is_division": false
+},
+{
+"id": "whole-foods",
+"name": "Whole Foods Market",
+"channel": "Natural",
+"parent_company": "Amazon",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 521,
+"hq_state": "Texas",
+"states": [
+"AL",
+"AR",
+"AZ",
+"CA",
+"CO",
+"CT",
+"DC",
+"FL",
+"GA",
+"HI",
+"IA",
+"ID",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MA",
+"MD",
+"ME",
+"MI",
+"MN",
+"MO",
+"MS",
+"MT",
+"NC",
+"NE",
+"NH",
+"NJ",
+"NM",
+"NV",
+"NY",
+"OH",
+"OK",
+"OR",
+"PA",
+"RI",
+"SC",
+"TN",
+"TX",
+"UT",
+"VA",
+"WA",
+"WI",
+"WY"
+],
+"is_division": false
+},
+{
+"id": "wild-by-nature",
+"name": "Wild by Nature",
+"channel": "Natural",
+"parent_company": "Wild by Nature",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 4,
+"hq_state": "New York",
+"states": [
+"NY"
+],
+"is_division": false
+},
+{
+"id": "winco",
+"name": "WinCo Foods",
+"channel": "Discount",
+"parent_company": "Independent (employee-owned)",
+"dist_primary": null,
+"distributors": [],
+"doors": 140,
+"hq_state": "Idaho",
+"states": [
+"AZ",
+"CA",
+"ID",
+"MT",
+"NV",
+"OK",
+"OR",
+"TX",
+"UT",
+"WA"
+],
+"is_division": false
+},
+{
+"id": "winn-dixie",
+"name": "Winn-Dixie",
+"channel": "MULO",
+"parent_company": "Southeastern Grocers",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 543,
+"hq_state": "Florida",
+"states": [
+"AL",
+"FL",
+"GA",
+"LA",
+"MS"
+],
+"is_division": false
+},
+{
+"id": "woodlands",
+"name": "Woodlands",
+"channel": "Natural",
+"parent_company": "Woodlands",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 3,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+},
+{
+"id": "woodmans",
+"name": "Woodmans",
+"channel": "MULO",
+"parent_company": "Woodmans",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE"
+],
+"doors": 21,
+"hq_state": "Wisconsin",
+"states": [
+"IL",
+"WI"
+],
+"is_division": false
+},
+{
+"id": "world-market",
+"name": "World Market",
+"channel": "Specialty",
+"parent_company": "World Market",
+"dist_primary": "Direct",
+"distributors": [
+"Direct"
+],
+"doors": 252,
+"hq_state": "California",
+"states": [
+"AL",
+"AZ",
+"CA",
+"CO",
+"CT",
+"FL",
+"GA",
+"IA",
+"ID",
+"IL",
+"IN",
+"KS",
+"KY",
+"LA",
+"MA",
+"MD",
+"MI",
+"MN",
+"MO",
+"MT",
+"NC",
+"NE",
+"NH",
+"NJ",
+"NM",
+"NV",
+"OH",
+"OK",
+"OR",
+"PA",
+"SC",
+"SD",
+"TN",
+"TX",
+"UT",
+"VA",
+"WA",
+"WI"
+],
+"is_division": false
+},
+{
+"id": "yes-organic",
+"name": "Yes Organic",
+"channel": "Natural",
+"parent_company": "Yes Organic",
+"dist_primary": "KeHE",
+"distributors": [
+"KeHE",
+"UNFI"
+],
+"doors": 6,
+"hq_state": "District of Columbia",
+"states": [],
+"is_division": false
+},
+{
+"id": "yoke-s",
+"name": "Yoke's",
+"channel": "MULO",
+"parent_company": "Yoke's",
+"dist_primary": "UNFI",
+"distributors": [
+"UNFI"
+],
+"doors": 19,
+"hq_state": "Washington",
+"states": [
+"ID",
+"MT",
+"WA"
+],
+"is_division": false
+},
+{
+"id": "yummy-foods",
+"name": "Yummy Foods",
+"channel": "Natural",
+"parent_company": "Yummy Foods",
+"dist_primary": null,
+"distributors": [],
+"doors": 3,
+"hq_state": "California",
+"states": [
+"CA"
+],
+"is_division": false
+}
+]
